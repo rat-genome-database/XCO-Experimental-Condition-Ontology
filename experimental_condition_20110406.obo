@@ -1,0 +1,774 @@
+format-version: 1.2
+date: 08:02:2011 14:38
+saved-by: mshimoyama
+auto-generated-by: OBO-Edit 2.0
+default-namespace: Experimental Conditions. ontology
+data-version: 1.1
+
+[Term]
+id: XCO:0000000
+name: experimental condition
+
+[Term]
+id: XCO:0000001
+name: activity
+def: "The state of being involved in some action, either physical or mental." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000000 ! experimental condition
+
+[Term]
+id: XCO:0000002
+name: resting
+def: "A state in which the organism is not exhibiting any physical exertion." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000059 ! physical activity
+
+[Term]
+id: XCO:0000003
+name: resting on treadmill
+def: "A state in which the organism is on an non-operating exercise machine in which there is a endless belt that moves when operational so that the organism can walk or run in place." [Encarta:Encarta World English Dictionary]
+is_a: XCO:0000002 ! resting
+
+[Term]
+id: XCO:0000004
+name: walking on treadmill
+def: "The action of ambulation on an exercise apparatus with an endless moving belt on which the organism can walk in place." [Encarta:Encarta World English Dictionary]
+is_a: XCO:0000007 ! walking
+
+[Term]
+id: XCO:0000005
+name: running on treadmill
+def: "The act of rapidly moving the feet on an exercise apparatus with an endless belt that allows the user to perform the action of running in place." [Encarta:Encarta World English Dictionary]
+is_a: XCO:0000008 ! running
+
+[Term]
+id: XCO:0000006
+name: swimming
+def: "The action of moving one's appendages to propel oneself through water." [Encarta:Encarta World English Dictionary]
+is_a: XCO:0000059 ! physical activity
+
+[Term]
+id: XCO:0000007
+name: walking
+def: "The act of ambulation, moving oneself forward on legs or on an exercise apparatus." [Encarta:Encarta World English Dictionary]
+is_a: XCO:0000059 ! physical activity
+
+[Term]
+id: XCO:0000008
+name: running
+def: "The action of rapid movement of feet that propels the organism forward or is done on an exercise machine so that the organism performs the activity in place." [Encarta:Encarta World English Dictionary]
+is_a: XCO:0000059 ! physical activity
+
+[Term]
+id: XCO:0000009
+name: controlled atmosphere composition
+def: "An experimental condition in which the amount of one or more of the gases which make up the air surrounding an organism are controlled as part of the experiment on that organism." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed, MS:ms]
+is_a: XCO:0000000 ! experimental condition
+
+[Term]
+id: XCO:0000010
+name: air oxygen content
+def: "A condition in which the oxygen level of the air surrounding an organism or breathed by the organism is controlled as part of the experiment." [MS:ms]
+relationship: OBO_REL:part_of XCO:0000009 ! controlled atmosphere composition
+
+[Term]
+id: XCO:0000011
+name: air temperature
+def: "The degree of heat or cold of the air surrounding an organism." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000111 ! temperature exposure
+
+[Term]
+id: XCO:0000012
+name: air carbon dioxide content
+def: "A condition in which the level of carbon dioxide in the air surrounding the organism or breathed by the organism is controlled as part of the experiment." [MS:ms]
+relationship: OBO_REL:part_of XCO:0000009 ! controlled atmosphere composition
+
+[Term]
+id: XCO:0000013
+name: diet
+def: "The food and drink consumed by an organism day to day." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+synonym: "Diet" RELATED [NCI:C15222]
+is_a: XCO:0000000 ! experimental condition
+
+[Term]
+id: XCO:0000014
+name: controlled content diet
+def: "A regimen of solid food in which the amount of one or more elements of the diet are controlled." [MS:ms]
+is_a: XCO:0000019 ! solid diet
+
+[Term]
+id: XCO:0000015
+name: controlled calorie content diet
+def: "A regimen of solid food in which the number of calories consumed is controlled." [MS:ms]
+is_a: XCO:0000014 ! controlled content diet
+
+[Term]
+id: XCO:0000016
+name: standard rat chow
+is_a: XCO:0000069 ! standard diet
+
+[Term]
+id: XCO:0000017
+name: low calorie diet
+is_obsolete: true
+
+[Term]
+id: XCO:0000018
+name: high calorie diet
+is_obsolete: true
+
+[Term]
+id: XCO:0000019
+name: solid diet
+def: "The solid food that is consumed by an organism." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000013 ! diet
+
+[Term]
+id: XCO:0000020
+name: drink
+def: "A liquid consumed by an organism." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000013 ! diet
+
+[Term]
+id: XCO:0000021
+name: water
+is_a: XCO:0000020 ! drink
+
+[Term]
+id: XCO:0000022
+name: controlled sodium content diet
+def: "A regimen of solid food in which the amount of sodium consumed is controlled." [MS:ms]
+is_a: XCO:0000014 ! controlled content diet
+
+[Term]
+id: XCO:0000023
+name: water with ethanol
+def: "A drink made of water with a specified amount of ethanol added for consumption by an organism in an experiment." [MS:ms]
+is_a: XCO:0000070 ! alcoholic drink
+
+[Term]
+id: XCO:0000024
+name: controlled iron content diet
+def: "A regimen of solid food in which the amount of iron consumed is controlled." [MS:ms]
+is_a: XCO:0000014 ! controlled content diet
+
+[Term]
+id: XCO:0000025
+name: controlled fat content diet
+def: "A regimen of solid food in which the amount of fat consumed is controlled." [MS:ms]
+is_a: XCO:0000014 ! controlled content diet
+
+[Term]
+id: XCO:0000026
+name: surgical removal
+def: "Removal of an organ or gland from the boy of an organism prior to an experiment being performed on the organism." [MS:ms]
+is_a: XCO:0000000 ! experimental condition
+
+[Term]
+id: XCO:0000027
+name: surgical implantation
+is_a: XCO:0000000 ! experimental condition
+
+[Term]
+id: XCO:0000028
+name: caffeinated drink
+def: "A drink containing caffeine, one of the methylxanthines soluble in water and alcohol and obtainable from coffee, tea, guarana and mate." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000020 ! drink
+
+[Term]
+id: XCO:0000029
+name: controlled carbohydrate content diet
+def: "A regimen of solid food in which the amount of carbohydrates consumed is controlled." [MS:ms]
+is_a: XCO:0000014 ! controlled content diet
+
+[Term]
+id: XCO:0000030
+name: controlled protein content diet
+def: "A regimen of solid food in which the amount of protein consumed is controlled." [MS:ms]
+is_a: XCO:0000014 ! controlled content diet
+
+[Term]
+id: XCO:0000031
+name: controlled calcium content diet
+def: "A regimen of solid food in which the amount of calcium consumed is controlled." [MS:ms]
+is_a: XCO:0000014 ! controlled content diet
+
+[Term]
+id: XCO:0000032
+name: controlled potassium content diet
+def: "A regimen of solid food in which the amount of potassium consumed is controlled." [MS:ms]
+is_a: XCO:0000014 ! controlled content diet
+
+[Term]
+id: XCO:0000033
+name: housing condition
+is_a: XCO:0000000 ! experimental condition
+
+[Term]
+id: XCO:0000034
+name: individual housing
+is_a: XCO:0000033 ! housing condition
+
+[Term]
+id: XCO:0000035
+name: housing in pairs
+is_a: XCO:0000033 ! housing condition
+
+[Term]
+id: XCO:0000036
+name: housing with socially dominant partner
+is_a: XCO:0000035 ! housing in pairs
+
+[Term]
+id: XCO:0000037
+name: housing with socially subordinate partner
+is_a: XCO:0000035 ! housing in pairs
+
+[Term]
+id: XCO:0000038
+name: radiation exposure
+is_a: XCO:0000000 ! experimental condition
+
+[Term]
+id: XCO:0000039
+name: ionizing radiation exposure
+is_a: XCO:0000038 ! radiation exposure
+
+[Term]
+id: XCO:0000040
+name: gamma ray exposure
+is_a: XCO:0000039 ! ionizing radiation exposure
+
+[Term]
+id: XCO:0000041
+name: radon exposure
+is_a: XCO:0000039 ! ionizing radiation exposure
+
+[Term]
+id: XCO:0000042
+name: ultraviolet ray exposure
+is_a: XCO:0000039 ! ionizing radiation exposure
+
+[Term]
+id: XCO:0000043
+name: Xray exposure
+is_a: XCO:0000039 ! ionizing radiation exposure
+
+[Term]
+id: XCO:0000044
+name: non-ionizing radiation exposure
+is_a: XCO:0000038 ! radiation exposure
+
+[Term]
+id: XCO:0000045
+name: electromagnetic radiation exposure
+is_a: XCO:0000044 ! non-ionizing radiation exposure
+
+[Term]
+id: XCO:0000046
+name: infrared radiation exposure
+is_a: XCO:0000044 ! non-ionizing radiation exposure
+
+[Term]
+id: XCO:0000047
+name: sensory stimulus
+def: "An action or condition designed to cause the registration or perception of a stimulus and the voyage made by incoming nerve impulses from the sense organs to the nerve centers." [MedicineNet:www.medterms.com]
+is_a: XCO:0000000 ! experimental condition
+
+[Term]
+id: XCO:0000048
+name: auditory stimulus
+def: "Any action or condition designed to cause the registration or perception of a stimulus by organs and receptors involved in the sense of hearing." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000047 ! sensory stimulus
+
+[Term]
+id: XCO:0000049
+name: visual stimulus
+def: "Any action or condition designed to cause the registration or perception of a stimulus by the optical sense organs." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000047 ! sensory stimulus
+
+[Term]
+id: XCO:0000050
+name: olfactory stimulus
+def: "Any action or condition designed to cause the registration or perception of a stimulus by organs or receptors involved in the sense of smell." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000047 ! sensory stimulus
+
+[Term]
+id: XCO:0000051
+name: taste stimulus
+def: "Any action or condition designed to cause the registration or perception of a stimulus by the gustatory receptors in the tongue." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000047 ! sensory stimulus
+
+[Term]
+id: XCO:0000052
+name: tactile stimulus
+def: "Any action or condition designed to cause the registration or perception of a stimulus by organs and receptors involved in the sense of touch." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000047 ! sensory stimulus
+
+[Term]
+id: XCO:0000053
+name: heat exposure, targeted
+def: "An activity or condition involving a high temperature targeted to a particular part of an organism's body." [MS:ms]
+is_a: XCO:0000111 ! temperature exposure
+
+[Term]
+id: XCO:0000054
+name: cold exposure, targeted
+def: "An activity or condition involving a low temperature targeted to a particular part of an organism's body." [MS:ms]
+is_a: XCO:0000111 ! temperature exposure
+
+[Term]
+id: XCO:0000055
+name: electric shock exposure
+def: "Stimulation of nerves through application of an electric current." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000052 ! tactile stimulus
+
+[Term]
+id: XCO:0000056
+name: naive control condition
+def: "A baseline condition in which none of the experimental manipulations are performed." [MS:ms]
+synonym: "standard condition" RELATED []
+is_a: XCO:0000099 ! control condition
+
+[Term]
+id: XCO:0000057
+name: rebreathed air
+def: "Breathing in again air which has been exhaled." [Merriam Webster:Merriam Webster Online Dictionary]
+relationship: OBO_REL:part_of XCO:0000009 ! controlled atmosphere composition
+created_by: mshimoyama
+creation_date: 2009-12-17T01:47:13Z
+
+[Term]
+id: XCO:0000058
+name: room temperature
+def: "The temperature of the air surrounding an organism which is considered the most common level for the facility. For humans the temperature considered most comfortable for a room is between 18 and 27 degrees celsius." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000011 ! air temperature
+created_by: mshimoyama
+creation_date: 2009-12-17T01:49:34Z
+
+[Term]
+id: XCO:0000059
+name: physical activity
+def: "Action in which a part of the body or whole body is involved in movement." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000001 ! activity
+created_by: mshimoyama
+creation_date: 2009-12-17T01:50:15Z
+
+[Term]
+id: XCO:0000060
+name: mental activity
+def: "Being in a state of action within the mind often involving manipulation of words or numbers." [Dorland:Dorlands Illustrated Medical Dictionar 31st Ed]
+is_a: XCO:0000001 ! activity
+created_by: mshimoyama
+creation_date: 2009-12-17T01:50:54Z
+
+[Term]
+id: XCO:0000061
+name: serial subtraction exercise
+def: "An activity in which a person starts with a number and deducts a specified number from that and then deducts the same number from the remainder of the first computation, without using a calculator or pencil and paper." [Encarta:Encarta World English Dictionary]
+is_a: XCO:0000060 ! mental activity
+created_by: mshimoyama
+creation_date: 2009-12-17T01:51:15Z
+
+[Term]
+id: XCO:0000062
+name: cycling
+def: "The action of riding on a stationary or moving vehicle with wheels that is propelled by the movement of a person's legs." [MS:ms]
+is_a: XCO:0000059 ! physical activity
+created_by: mshimoyama
+creation_date: 2009-12-17T01:51:51Z
+
+[Term]
+id: XCO:0000063
+name: cycling, stationary
+def: "The act of propelling the wheel or wheels of a fixed exercise machine through the action of one's legs." [MS:ms]
+is_a: XCO:0000062 ! cycling
+created_by: mshimoyama
+creation_date: 2009-12-17T01:52:04Z
+
+[Term]
+id: XCO:0000064
+name: cycling, non-stationary
+def: "The action of propelling a two wheeled vehicle by the movement of a person's legs." [Encarta:Encarta World English Dicitonary]
+is_a: XCO:0000062 ! cycling
+created_by: mshimoyama
+creation_date: 2009-12-17T01:52:17Z
+
+[Term]
+id: XCO:0000065
+name: hand dynamometer activity
+def: "The action of squeezing an apparatus that measures the muscular contraction of the hand, used as a condition of exertion in experiments measuring other physiological functions." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000059 ! physical activity
+created_by: mshimoyama
+creation_date: 2009-12-17T01:52:57Z
+
+[Term]
+id: XCO:0000066
+name: body position change
+def: "Change in position or attitude of body as part of the experiment in which measurements are taken before, during and/or after the change." [Dorlands:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000081 ! body position
+created_by: mshimoyama
+creation_date: 2009-12-17T01:53:24Z
+
+[Term]
+id: XCO:0000067
+name: body position change, seated to standing
+is_a: XCO:0000066 ! body position change
+created_by: mshimoyama
+creation_date: 2009-12-17T01:53:35Z
+
+[Term]
+id: XCO:0000068
+name: body position change, supine to standing
+is_a: XCO:0000066 ! body position change
+created_by: mshimoyama
+creation_date: 2009-12-17T01:53:58Z
+
+[Term]
+id: XCO:0000069
+name: standard diet
+is_a: XCO:0000019 ! solid diet
+created_by: mshimoyama
+creation_date: 2009-12-17T01:56:44Z
+
+[Term]
+id: XCO:0000070
+name: alcoholic drink
+def: "A drink containing ethanol, a transparent, colorless, volatile,flammable liquid, which is formed by microbial fermentation of carbohydrates." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+synonym: "ethanol" RELATED []
+is_a: XCO:0000020 ! drink
+created_by: mshimoyama
+creation_date: 2010-01-05T03:10:55Z
+
+[Term]
+id: XCO:0000071
+name: beer
+def: "An alcoholic drink brewed by fermenting malt with sugar and yeast and flavored with hops." [Encarta:Encarta World English Dictionary]
+is_a: XCO:0000070 ! alcoholic drink
+created_by: mshimoyama
+creation_date: 2010-01-05T03:11:11Z
+
+[Term]
+id: XCO:0000072
+name: wine
+def: "Alcoholic drink made by fermenting the juice of grapes." [Encarta:Encarta World English Dictionary]
+is_a: XCO:0000070 ! alcoholic drink
+created_by: mshimoyama
+creation_date: 2010-01-05T03:11:23Z
+
+[Term]
+id: XCO:0000073
+name: liquor
+def: "Alcoholic beverage produced by distillation." [Encarta:Encarta World English Dictionary]
+is_a: XCO:0000070 ! alcoholic drink
+created_by: mshimoyama
+creation_date: 2010-01-05T03:11:33Z
+
+[Term]
+id: XCO:0000074
+name: water with caffeine
+def: "A drink made up of water and a specified amount of caffeine consumed by an organism as part of an experiment." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000028 ! caffeinated drink
+created_by: mshimoyama
+creation_date: 2010-01-05T03:15:30Z
+
+[Term]
+id: XCO:0000075
+name: tea
+is_a: XCO:0000028 ! caffeinated drink
+created_by: mshimoyama
+creation_date: 2010-01-05T03:15:42Z
+
+[Term]
+id: XCO:0000076
+name: coffee
+def: "A drink made of the decoction or infusion of the dried, roasted sees of Coffea arabica or Coffea canephora." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000028 ! caffeinated drink
+created_by: mshimoyama
+creation_date: 2010-01-05T03:15:55Z
+
+[Term]
+id: XCO:0000077
+name: tobacco use
+def: "The use of any product made for human consumption from Nicotiana tabacum." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000013 ! diet
+created_by: mshimoyama
+creation_date: 2010-01-05T03:17:37Z
+
+[Term]
+id: XCO:0000078
+name: cigar smoking
+def: "The action of smoking, inhalation of the gases and hydrocarbon vapors generated by burning a cigar, a rolled cylinder of tobacco wrapped in tobacco leaves." [MEDDICT:medical-dictionary.thefreedictionary.com]
+synonym: "Cigar Smoking NCI Thesaurus" RELATED [NCI:C19702]
+is_a: XCO:0000077 ! tobacco use
+created_by: mshimoyama
+creation_date: 2010-01-05T03:17:52Z
+
+[Term]
+id: XCO:0000079
+name: cigarette smoking
+def: "The action of smoking, inhalation of the gases and hydrocarbon vapors generated by burning a cigarette, a small roll of finely cut tobacco enclosed in a wrapper of thin paper." [MEDDICT:medical-dictionary.thefreedictionary.com]
+synonym: "Cigarette Smoking_NCI Thesaurus" RELATED [NCI:C18270]
+is_a: XCO:0000077 ! tobacco use
+created_by: mshimoyama
+creation_date: 2010-01-05T03:18:03Z
+
+[Term]
+id: XCO:0000080
+name: tobacco chewing
+def: "Mastication of a form of the prepared leaves of Nicotiana tabacum that is chewed." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000077 ! tobacco use
+created_by: mshimoyama
+creation_date: 2010-01-05T03:18:13Z
+
+[Term]
+id: XCO:0000081
+name: body position
+def: "The attitude or posture of the body." [Dorland:Dorlands Illustrated Medical Dicationary 31st Ed]
+synonym: "posture" RELATED []
+is_a: XCO:0000000 ! experimental condition
+created_by: mshimoyama
+creation_date: 2010-03-04T09:05:26Z
+
+[Term]
+id: XCO:0000082
+name: sitting position
+def: "A position of rest in which the weight is largely supported by the buttocks, usually with the body vertical." [Encarta:Encarta World English Dicationary]
+synonym: "seated" RELATED []
+is_a: XCO:0000081 ! body position
+created_by: mshimoyama
+creation_date: 2010-03-04T09:06:36Z
+
+[Term]
+id: XCO:0000083
+name: standing position
+def: "A position in which an organism is upright balanced on two legs for bipedal organisms or four legs for quadrapedal organisms.." [MS:ms]
+is_a: XCO:0000081 ! body position
+created_by: mshimoyama
+creation_date: 2010-03-04T09:06:49Z
+
+[Term]
+id: XCO:0000084
+name: supine position
+def: "A position in which the organism is lying face up." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000081 ! body position
+created_by: mshimoyama
+creation_date: 2010-03-04T09:07:12Z
+
+[Term]
+id: XCO:0000085
+name: stationary bicycle dynamometer
+is_a: XCO:0000063 ! cycling, stationary
+created_by: mshimoyama
+creation_date: 2010-03-04T01:56:42Z
+
+[Term]
+id: XCO:0000086
+name: exercise training program
+def: "A fixed series of exercises or body movements repeated at intervals over a specified period of time as part of a program to improve strength, aerobic capacity or other elements of fitness." [MS:ms]
+is_a: XCO:0000059 ! physical activity
+created_by: mshimoyama
+creation_date: 2010-03-04T02:09:06Z
+
+[Term]
+id: XCO:0000087
+name: specific pathogen-free conditions
+is_a: XCO:0000000 ! experimental condition
+created_by: mshimoyama
+creation_date: 2010-06-29T03:35:43Z
+
+[Term]
+id: XCO:0000088
+name: chemical
+def: "A substance composed of chemical elements or obtained by chemical processes." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000000 ! experimental condition
+created_by: mshimoyama
+creation_date: 2010-11-01T01:00:51Z
+
+[Term]
+id: XCO:0000089
+name: neoplasm inducing agent
+is_a: XCO:0000088 ! chemical
+created_by: mshimoyama
+creation_date: 2010-11-01T01:01:08Z
+
+[Term]
+id: XCO:0000090
+name: 7,12-dimethyltetraphene (DMBA)
+def: "A tetraphene having methyl substituents at eht 7- and 12- positions. It is a potent carcinogen and is present in tobacco smoke." [CHEBI:<new dbxref>]
+synonym: "CHEBI:254496" RELATED [CHEBI:CHEBI\:254496]
+synonym: "D015127" RELATED []
+synonym: "DMBA" RELATED []
+is_a: XCO:0000093 ! polycyclic arene
+created_by: mshimoyama
+creation_date: 2010-11-01T01:01:46Z
+
+[Term]
+id: XCO:0000091
+name: steroid
+is_a: XCO:0000088 ! chemical
+is_a: XCO:0000089 ! neoplasm inducing agent
+created_by: mshimoyama
+creation_date: 2010-11-01T01:03:53Z
+
+[Term]
+id: XCO:0000092
+name: 17 beta-estradiol
+synonym: "CHEBI:16469" RELATED []
+synonym: "CO47085" RELATED []
+synonym: "E2" RELATED []
+is_a: XCO:0000091 ! steroid
+created_by: mshimoyama
+creation_date: 2010-11-01T01:04:03Z
+
+[Term]
+id: XCO:0000093
+name: polycyclic arene
+def: "A polycyclic aromatic hydrocarbon." [wikipedia:en.wikipedia.org]
+synonym: "polycyclic arene" RELATED [Chebi:CHEBI\:33848]
+is_a: XCO:0000088 ! chemical
+is_a: XCO:0000089 ! neoplasm inducing agent
+created_by: mshimoyama
+creation_date: 2010-11-01T01:07:01Z
+
+[Term]
+id: XCO:0000094
+name: ovariectomy
+def: "The removal of one or both ovaries, the female gonads, from an organism." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+synonym: "oophorectomy" RELATED []
+is_a: XCO:0000026 ! surgical removal
+created_by: mshimoyama
+creation_date: 2010-11-02T01:28:36Z
+
+[Term]
+id: XCO:0000095
+name: ovariectomy, bilateral
+is_a: XCO:0000094 ! ovariectomy
+created_by: mshimoyama
+creation_date: 2010-11-02T01:29:19Z
+
+[Term]
+id: XCO:0000096
+name: ovariectomy, single
+is_a: XCO:0000094 ! ovariectomy
+created_by: mshimoyama
+creation_date: 2010-11-02T01:29:34Z
+
+[Term]
+id: XCO:0000097
+name: ovariectomy, right
+is_a: XCO:0000096 ! ovariectomy, single
+created_by: mshimoyama
+creation_date: 2010-11-02T01:29:48Z
+
+[Term]
+id: XCO:0000098
+name: ovariectomy, left
+is_a: XCO:0000096 ! ovariectomy, single
+created_by: mshimoyama
+creation_date: 2010-11-02T01:30:01Z
+
+[Term]
+id: XCO:0000099
+name: control condition
+def: "A baseline condition in which the experimental observations or measurements may be evaluated." [Dorland:Dorlands Illustrated Medical Dictioanary 31st Ed]
+is_a: XCO:0000000 ! experimental condition
+created_by: mshimoyama
+creation_date: 2010-11-02T02:06:02Z
+
+[Term]
+id: XCO:0000100
+name: sham surgical control condition
+def: "A surgical treatment or procedure that is performed as a control and that is similar to but omits a key therapeutic element of the treatment or procedure under investigation." [Merriam Webster:Merriam webster Online Dictionary]
+is_a: XCO:0000099 ! control condition
+created_by: mshimoyama
+creation_date: 2010-11-02T02:06:46Z
+
+[Term]
+id: XCO:0000101
+name: vehicle control condition
+def: "A treatment or procedure used as a control in which a saline or other solution is injected in the same manner as the experimental solution minus the key element of the experimental solution." [MS:ms]
+is_a: XCO:0000099 ! control condition
+created_by: mshimoyama
+creation_date: 2010-11-02T02:07:02Z
+
+[Term]
+id: XCO:0000102
+name: fasting
+def: "Abstaining from the consumption of food, often for a specified period of time." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000000 ! experimental condition
+created_by: mshimoyama
+creation_date: 2010-11-08T09:37:31Z
+
+[Term]
+id: XCO:0000103
+name: glucose solution
+is_a: XCO:0000000 ! experimental condition
+created_by: mshimoyama
+creation_date: 2010-11-08T09:40:03Z
+
+[Term]
+id: XCO:0000104
+name: glucose solution, 2.8M
+is_a: XCO:0000103 ! glucose solution
+created_by: mshimoyama
+creation_date: 2010-11-08T09:40:19Z
+
+[Term]
+id: XCO:0000105
+name: pancreatectomy
+def: "Surgical removal of part or all of the pancreas, the gland situated transversely behind the stomach, between the spleen and the duodenum." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000026 ! surgical removal
+created_by: mshimoyama
+creation_date: 2010-11-10T02:19:58Z
+
+[Term]
+id: XCO:0000106
+name: anesthetic
+def: "Drug or agent used to reduce or eliminate pain or sensation." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000088 ! chemical
+created_by: mshimoyama
+creation_date: 2011-01-21T09:44:08Z
+
+[Term]
+id: XCO:0000107
+name: pentobarbital
+def: "Short to intermediate acting barbiturate used as a sedative and hypnotic." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000106 ! anesthetic
+created_by: mshimoyama
+creation_date: 2011-01-21T09:45:03Z
+
+[Term]
+id: XCO:0000108
+name: pentobarbital, sodium
+def: "Sodium salt of pentobarbital, a short to intermediate acting barbiturate used as a sedative and hypnotic." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000107 ! pentobarbital
+created_by: mshimoyama
+creation_date: 2011-01-21T09:46:40Z
+
+[Term]
+id: XCO:0000109
+name: isoflurane
+def: "Potent inhalational anesthetic." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000106 ! anesthetic
+created_by: mshimoyama
+creation_date: 2011-01-21T09:48:47Z
+
+[Term]
+id: XCO:0000110
+name: prone position
+def: "A position in which the organism is lying face down." [Dorland:Dorlands Illustrated Medical Dictionary 31st Ed]
+is_a: XCO:0000081 ! body position
+created_by: mshimoyama
+creation_date: 2011-02-07T01:44:52Z
+
+[Term]
+id: XCO:0000111
+name: temperature exposure
+is_a: XCO:0000000 ! experimental condition
+created_by: mshimoyama
+creation_date: 2011-02-08T02:22:15Z
+
+[Typedef]
+id: OBO_REL:part_of
+name: part_of
+is_transitive: true
+
