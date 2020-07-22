@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: 4.20
-date: 04:06:2018 10:24
+data-version: 4.21
+date: 01:12:2018 20:13
 saved-by: jrsmith
-auto-generated-by: --RGD OBO FILE GENERATOR -- ver. 1.3.2 -- 2018-06-04 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- ver. 1.3.5 -- 2018-08-20 --
 default-namespace: Experimental Conditions. ontology
 ontology: xco
 
@@ -5060,6 +5060,123 @@ is_a: XCO:0000435 ! antineoplastic agent
 is_a: XCO:0000523 ! enzyme inhibitor
 created_by: jrsmith
 creation_date: 2018-05-31T13:41:07Z
+
+[Term]
+id: XCO:0000554
+name: controlled phosphorus content diet
+def: "A regimen of solid food in which the amount of phosphorus consumed is controlled." []
+is_a: XCO:0000014 ! controlled content diet
+created_by: sjwang
+creation_date: 2018-11-14T15:58:10Z
+
+[Term]
+id: XCO:0000555
+name: controlled lisinopril content drinking water
+def: "A drink made up of water and a specified amount of lisinopril consumed by an organism as part of an experiment." []
+is_a: XCO:0000163 ! controlled content drinking water
+is_a: XCO:0000535 ! lisinopril
+created_by: sjwang
+creation_date: 2018-11-14T16:04:27Z
+
+[Term]
+id: XCO:0000556
+name: amino monosaccharide
+def: "Any amino sugar that is a monosaccharide in which one alcoholic hydroxy group is replaced by an amino group." []
+synonym: "CHEBI:60926" EXACT []
+is_a: XCO:0000274 ! monosaccharide
+created_by: sjwang
+creation_date: 2018-11-16T10:50:55Z
+
+[Term]
+id: XCO:0000557
+name: glucosamine
+def: "Glucosamine, commonly used as a treatment for osteoarthritis, is an amino sugar and a prominent precursor in the biochemical synthesis of glycosylated proteins and lipids. Since glucosamine is a precursor for glycosaminoglycans, and glycosaminoglycans are a major component of joint cartilage, supplemental glucosamine may help to rebuild cartilage and treat arthritis." [Drugbank:https\://www.drugbank.ca/drugs/DB01296]
+synonym: "2-amino-2-deoxyglucose" EXACT []
+is_a: XCO:0000556 ! amino monosaccharide
+created_by: sjwang
+creation_date: 2018-11-16T10:55:31Z
+
+[Term]
+id: XCO:0000558
+name: taxifolin
+def: "Taxifolin is an intermediate between flavonols and flavanolignins beloning to a class of anti-inflammatory agents that are non-steroidal in nature." []
+synonym: "catechin hydrate" EXACT []
+synonym: "CHEBI:38747" EXACT []
+synonym: "dihydroquercetin" EXACT []
+synonym: "Distylin" EXACT []
+synonym: "Taxifoliol" EXACT []
+is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
+created_by: sjwang
+creation_date: 2018-11-16T11:03:16Z
+
+[Term]
+id: XCO:0000559
+name: melatonin
+def: "A biogenic amine that is found in animals and plants. In mammals, melatonin is a hormone produced by the pineal gland. Its secretion increases in darkness and decreases during exposure to light. Melatonin is implicated in the regulation of sleep, mood, and reproduction. Melatonin is also an effective antioxidant." [Drug Information Portal:https\://druginfo.nlm.nih.gov/drugportal/name/melatonin, MESH:https\://meshb.nlm.nih.gov/record/ui?ui=D008550]
+synonym: "CHEBI:16796" EXACT []
+is_a: XCO:0000125 ! hormone
+is_a: XCO:0000271 ! antioxidant
+created_by: sjwang
+creation_date: 2018-11-19T14:33:05Z
+
+[Term]
+id: XCO:0000560
+name: controlled melatonin content diet 
+def: "A solid diet in which the amount of melatonin is maintained at a specified level." []
+is_a: XCO:0000559 ! melatonin
+created_by: sjwang
+creation_date: 2018-11-19T14:48:04Z
+
+[Term]
+id: XCO:0000561
+name: antidepressant
+def: "Antidepressants are mood-stimulating drugs used primarily in the treatment of affective disorders and related conditions." []
+is_a: XCO:0000341 ! chemical with specified function
+created_by: sjwang
+creation_date: 2018-11-21T09:51:04Z
+
+[Term]
+id: XCO:0000562
+name: salidroside
+def: "A glucoside of tyrosol found in the plant Rhodiola rosea. It is thought to be one of the compounds responsible for the antidepressant and anxiolytic actions of this plant." [Drug Information Portal:https\://druginfo.nlm.nih.gov/drugportal/name/salidroside]
+synonym: "Rhodioloside" EXACT []
+is_a: XCO:0000561 ! antidepressant
+created_by: sjwang
+creation_date: 2018-11-21T09:53:27Z
+
+[Term]
+id: XCO:0000563
+name: Omacor
+def: "OMACOR is a prescription medicine for adults called a lipid-regulating medicine. It is a mix of docosahexaenoic acid [DHA] (~ 50%) + eicosapentaenoic acid [EPA] (~40%) ethylesters." [Medline Plus:http\\://www.nlm.nih.gov/medlineplus/]
+synonym: "Omega-3 Acid Ethyl Esters" EXACT []
+is_a: XCO:0000511 ! ester
+created_by: sjwang
+creation_date: 2018-11-27T13:04:58Z
+
+[Term]
+id: XCO:0000564
+name: meclofenamate
+def: "A member of the anthranilic acid derivatives class of NSAID drug used for joint, muscular pain, arthritis and dysmenorrhea." [Wikipedia:https\://en.wikipedia.org/wiki/Meclofenamic_acid]
+is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
+created_by: sjwang
+creation_date: 2018-11-27T14:31:01Z
+
+[Term]
+id: XCO:0000565
+name: ipragliflozin
+def: "A pharmaceutical drug for treatment of type 2 diabetes. Ipragliflozin reduces blood glucose levels by inhibiting the reuptake of glucose by selectively inhibiting SGLT2." [Wikipedia:https\://en.wikipedia.org/wiki/Ipragliflozin]
+is_a: XCO:0000407 ! hypoglycemic agent
+created_by: sjwang
+creation_date: 2018-11-30T14:59:25Z
+
+[Term]
+id: XCO:0000566
+name: controlled ipragliflozin content diet
+def: "A solid diet in which the amount of ipragliflozin, an oral antidiabetic drug, is maintained at a specified level." []
+is_a: XCO:0000014 ! controlled content diet
+is_a: XCO:0000565 ! ipragliflozin
+created_by: sjwang
+creation_date: 2018-11-30T15:02:35Z
 
 [Typedef]
 id: has_component

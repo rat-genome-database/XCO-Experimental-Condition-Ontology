@@ -1,10 +1,11 @@
 format-version: 1.2
-data-version: 4.20
-date: 04:06:2018 10:24
-saved-by: jrsmith
-auto-generated-by: --RGD OBO FILE GENERATOR -- ver. 1.3.2 -- 2018-06-04 --
+date: 11:08:2017 17:39
+saved-by: jesmith
+auto-generated-by: OBO-Edit 2.3.1
+synonymtypedef: curation_status "curation_status"
 default-namespace: Experimental Conditions. ontology
 ontology: xco
+data-version: 4.19
 
 [Term]
 id: XCO:0000000
@@ -87,6 +88,7 @@ relationship: part_of XCO:0000009 ! controlled atmosphere composition
 id: XCO:0000013
 name: diet
 def: "The food and drink consumed by an organism day to day." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+synonym: "Diet" RELATED [NCI:C15222]
 is_a: XCO:0000000 ! experimental condition
 
 [Term]
@@ -634,7 +636,7 @@ creation_date: 2010-11-01T01:01:08Z
 [Term]
 id: XCO:0000090
 name: 7,12-dimethyltetraphene (DMBA)
-def: "A tetraphene having methyl substituents at the 7- and 12- positions. It is a potent carcinogen and is present in tobacco smoke." []
+def: "A tetraphene having methyl substituents at the 7- and 12- positions. It is a potent carcinogen and is present in tobacco smoke." [CHEBI:254496]
 synonym: "7,12-dimethylbenzo[a]anthracene" RELATED []
 synonym: "7,12-DMBA" RELATED []
 synonym: "9,10-Dimethyl-1,2-benzanthracene" RELATED []
@@ -648,7 +650,7 @@ creation_date: 2010-11-01T01:01:46Z
 [Term]
 id: XCO:0000091
 name: steroid
-def: "Any condition in which the main influencing factor is a naturally occurring compound or related synthetic analog with a molecular structure based on the cyclopenta[a]phenanthrene carbon skeleton, that is, a phenanthrene, to the a side of which a three-carbon fragment is fused.  According to the definition at the Chemical Entities of Biological Importance (ChEBI) database, 'By extension, one or more bond scissions, ring expansions and/or ring contractions of the skeleton may have occurred' which expands the class to include molecules based on but not containing the cannonical arrangement of four fused cycloalkane rings." [MediLexicon:http\://www.medilexicon.com/medicaldictionary.php?t=22261, Wikipedia:http\://en.wikipedia.org/wiki/Steroid]
+def: "Any condition in which the main influencing factor is a naturally occurring compound or related synthetic analog with a molecular structure based on the cyclopenta[a]phenanthrene carbon skeleton, that is, a phenanthrene, to the a side of which a three-carbon fragment is fused.  According to the definition at the Chemical Entities of Biological Importance (ChEBI) database, \"By extension, one or more bond scissions, ring expansions and/or ring contractions of the skeleton may have occurred\" which expands the class to include molecules based on but not containing the cannonical arrangement of four fused cycloalkane rings." [CHEBI:35341, MediLexicon:http\://www.medilexicon.com/medicaldictionary.php?t=22261, Wikipedia:http\://en.wikipedia.org/wiki/Steroid]
 xref: CHEBI:35341
 is_a: XCO:0000342 ! chemical with specified structure
 created_by: mshimoyama
@@ -904,7 +906,7 @@ id: XCO:0000121
 name: NG-nitroarginine methyl ester
 def: "A basic amino acid, commonly known as L-NAME, used as a non-selective inhibitor of nitric oxide synthase." [MeSH:D019331]
 synonym: "CAS 51298-62-5" RELATED []
-synonym: "CHEMBL7890" RELATED []
+synonym: "CHEMBL7890 " RELATED []
 synonym: "L-NAME" EXACT []
 synonym: "MeSH:D019331" RELATED []
 synonym: "PubChem_Compound_CID:39836" RELATED []
@@ -924,7 +926,7 @@ creation_date: 2012-02-16T01:51:41Z
 [Term]
 id: XCO:0000123
 name: sulfonamide
-def: "A compound containing a sulfonamide functional group.  A sulfonamide functional group contains  sulfonyl   connected to an amine group and has the general structure R-S(=O)2-NH2.  Sulfonamide also refers to several classes of drugs which include antimicrobial 'sulfa drugs', anticonvulsants and the sulfonylureas  and thiazide diuretics." [Wikipedia:http\://en.eikipedia.org/wiki/]
+def: "A compound containing a sulfonamide functional group.  A sulfonamide functional group contains  sulfonyl   connected to an amine group and has the general structure R-S(=O)2-NH2.  Sulfonamide also refers to several classes of drugs which include antimicrobial \"sulfa drugs\", anticonvulsants and the sulfonylureas  and thiazide diuretics." [Wikipedia:http\://en.eikipedia.org/wiki/]
 synonym: "CHEBI:35358" RELATED []
 xref: CHEBI:35358
 is_a: XCO:0000342 ! chemical with specified structure
@@ -1281,17 +1283,17 @@ creation_date: 2012-07-03T03:15:44Z
 [Term]
 id: XCO:0000161
 name: losartan
-def: "Angiotensin receptor antagonist and vasodilator which consists of a biphenylyltetrazole where a 1,1'-biphenyl group is attached at the 5-position. Losartan also has an additional trisubstituted imidazol-1-ylmethyl group at the 4'-position." []
+def: "Angiotensin receptor antagonist and vasodilator which consists of a biphenylyltetrazole where a 1,1'-biphenyl group is attached at the 5-position. Losartan also has an additional trisubstituted imidazol-1-ylmethyl group at the 4'-position." [CHEBI:6541]
 xref: CHEBI:6541
 is_a: XCO:0000140 ! vasodilator
-is_a: XCO:0000536 ! angiotensin II receptor antagonist
+is_a: XCO:0000160 ! receptor antagonist
 created_by: JSmith
 creation_date: 2012-07-09T10:53:01Z
 
 [Term]
 id: XCO:0000162
 name: pentolinium
-def: "Nicotinic acetylcholine receptor antagonist, ganglionic blocking agent and vasodilator which consists of a dication whose structure comprises a pentane backbone linking two 1-methylpyrrolidinium groups." []
+def: "Nicotinic acetylcholine receptor antagonist, ganglionic blocking agent and vasodilator which consists of a dication whose structure comprises a pentane backbone linking two 1-methylpyrrolidinium groups." [CHEBI:347401]
 xref: CHEBI:347401
 xref: CHEBI:55326
 is_a: XCO:0000140 ! vasodilator
@@ -1384,7 +1386,7 @@ creation_date: 2012-07-11T04:09:48Z
 [Term]
 id: XCO:0000173
 name: polysaccharide
-def: "A macromolecule consisting of large numbers of monosaccharide residues, that is, simple carbohydrate residues each consisting of a single basic sugar unit with the general formula Cn(H2O)n, linked glycosidically." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+def: "A macromolecule consisting of large numbers of monosaccharide residues, that is, simple carbohydrate residues each consisting of a single basic sugar unit with the general formula Cn(H2O)n, linked glycosidically." [CHEBI:18154, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 xref: CHEBI:18154
 is_a: XCO:0000172 ! carbohydrate
 created_by: JSmith
@@ -1643,7 +1645,7 @@ name: 4-methyl-2-oxopentanoic acid
 def: "A monocarboxylic acid that serves as an intermediate in the metabolism of leucine and a substrate for NADPH-dependent dehydrogenases." [Wikipedia:http\://en.wikipedia.org/wiki/Alpha-Ketoisocaproic_acid]
 synonym: "2-Oxoisocaproate" EXACT []
 synonym: "4-methyl-2-oxovaleric acid" EXACT []
-synonym: "alpha-ketoisocaproic acid" EXACT []
+synonym: "alpha-ketoisocaproic acid " EXACT []
 synonym: "alpha-KIC" RELATED []
 synonym: "Ketoleucine" RELATED []
 synonym: "PubChem_Compound_CID:70" RELATED []
@@ -1706,8 +1708,8 @@ id: XCO:0000206
 name: N-nitrosodiethylamine
 def: "A component of tobacco smoke which has been shown to be mutagenic and carcinogenic in animal studies." [PMID:8910949]
 synonym: "diethylnitrosamine" RELATED []
-synonym: "NDEA" RELATED []
 synonym: "N,N-diethylnitrosamine" RELATED []
+synonym: "NDEA" RELATED []
 is_a: XCO:0000089 ! neoplasm inducing chemical
 is_a: XCO:0000205 ! mutation inducing chemical
 created_by: JSmith
@@ -1716,7 +1718,7 @@ creation_date: 2012-09-11T05:01:10Z
 [Term]
 id: XCO:0000207
 name: 3-methyl-4'-dimethylaminoazobenzene
-def: "A condition in which the main influencing factor is 3-methyl-4'-dimethylaminoazobenzene (MDAB), an azobenzene in which one of the phenyl groups is substituted at position 3 by a methyl group, while the other is substituted at position 4 by a dimethylamino group. MDAB is a potent liver carcinogen." [Website:http\://potency.berkeley.edu/chempages/3%27-METHYL-4-DIMETHYLAMINOAZOBENZENE.html]
+def: "A condition in which the main influencing factor is 3-methyl-4'-dimethylaminoazobenzene (MDAB), an azobenzene in which one of the phenyl groups is substituted at position 3 by a methyl group, while the other is substituted at position 4 by a dimethylamino group. MDAB is a potent liver carcinogen." [CHEBI:76329, Website:http\://potency.berkeley.edu/chempages/3%27-METHYL-4-DIMETHYLAMINOAZOBENZENE.html]
 synonym: "3'-Me-DAB" RELATED []
 synonym: "3'-methyl-4-(dimethylamino)azobenzene" RELATED []
 synonym: "4-Dimethylamino-3'-methylazobenzene" EXACT []
@@ -1732,7 +1734,7 @@ creation_date: 2012-09-11T05:33:14Z
 [Term]
 id: XCO:0000208
 name: 2-acetamidofluorene
-def: "A condition in which the main influencing factor is 2-acetamidofluorene (2-AAF) an ortho-fused polycyclic arene that consists of 9H-fluorene bearing an acetamido substituent at position 2. 2-AAF and a number of its metabolites are both carcinogenic and mutagenic." [Wikipedia:http\://en.wikipedia.org/wiki/Acetylaminofluorene]
+def: "A condition in which the main influencing factor is 2-acetamidofluorene (2-AAF) an ortho-fused polycyclic arene that consists of 9H-fluorene bearing an acetamido substituent at position 2. 2-AAF and a number of its metabolites are both carcinogenic and mutagenic." [CHEBI:17356, Wikipedia:http\://en.wikipedia.org/wiki/Acetylaminofluorene]
 synonym: "2-AAF" RELATED []
 synonym: "2-acetylaminofluorene" RELATED []
 xref: CHEBI:17356
@@ -1814,7 +1816,7 @@ creation_date: 2012-10-04T05:40:42Z
 id: XCO:0000218
 name: 4-alpha-phorbol 12,13-didecanoate
 def: "A phorbol ester analog that is an activator of TRPV4 (transient receptor potential cation channel, subfamily V, member 4) channels." [Website:http\://www.lclabs.com/PRODFILE/P-R/P-2170.php4]
-synonym: "4-alpha-PDD" EXACT []
+synonym: " 4-alpha-PDD" EXACT []
 synonym: "PubChem_Compound_CID:452544" RELATED []
 xref: CHEBI:295732
 is_a: XCO:0000217 ! cation channel activator
@@ -2237,7 +2239,7 @@ creation_date: 2013-03-01T17:35:20Z
 [Term]
 id: XCO:0000263
 name: pristane
-def: "A condition in which the major influencing factor is an acyclic saturated hydrocarbon derived from phytane by loss of its C-16 terminal methyl group." []
+def: "A condition in which the major influencing factor is an acyclic saturated hydrocarbon derived from phytane by loss of its C-16 terminal methyl group." [CHEBI:53181]
 synonym: "2,6,10,14-tetramethylpentadecane" EXACT []
 xref: CHEBI:53181
 xref: MeSH:C009042
@@ -2461,10 +2463,10 @@ def: "A condition in which the major influencing factor is a highly antigenic, s
 synonym: "arrestin" BROAD []
 synonym: "HSAg" RELATED []
 synonym: "retinal soluble antigen" RELATED []
-synonym: "SAG" RELATED []
 synonym: "S-antigen" RELATED []
 synonym: "S-antigen peptide" RELATED []
 synonym: "S-arrestin" RELATED []
+synonym: "SAG" RELATED []
 is_a: XCO:0000260 ! peptide/protein antigen
 created_by: JSmith
 creation_date: 2013-03-13T17:02:20Z
@@ -2484,7 +2486,7 @@ creation_date: 2013-03-13T17:19:56Z
 [Term]
 id: XCO:0000288
 name: R16 peptide of interphotoreceptor retinoid-binding protein
-def: "A condition in which the major influencing factor is a 15 amino acid peptide (aa 1177-1191) derived from the interphotoreceptor retinoid-binding protein, a large glycoprotein, found primarily in the interphotoreceptor matrix of the retina between the retinal pigment epithelium and the photoreceptor cells, which is known to bind retinoids and thought to transport them between the retinal pigment epithelium and the photoreceptors." [NCBI_GeneID:5949]
+def: "A condition in which the major influencing factor is a 15 amino acid peptide (aa 1177-1191) derived from the interphotoreceptor retinoid-binding protein, a large glycoprotein, found primarily in the interphotoreceptor matrix of the retina between the retinal pigment epithelium and the photoreceptor cells, which is known to bind retinoids and thought to transport them between the retinal pigment epithelium and the photoreceptors." [NCBI_GeneID:5949, PMID:10323205]
 synonym: "R16 peptide of IRBP" RELATED []
 xref: PMID:10323205
 relationship: part_of XCO:0000287 ! interphotoreceptor retinoid-binding protein
@@ -2494,7 +2496,7 @@ creation_date: 2013-03-13T17:55:10Z
 [Term]
 id: XCO:0000289
 name: R14 peptide of interphotoreceptor retinoid-binding protein
-def: "A condition in which the major influencing factor is a 23 amino acid peptide (aa 1169-1191) derived from the interphotoreceptor retinoid-binding protein, a large glycoprotein, found primarily in the interphotoreceptor matrix of the retina between the retinal pigment epithelium and the photoreceptor cells, which is known to bind retinoids and thought to transport them between the retinal pigment epithelium and the photoreceptors." [NCBI_GeneID:5949]
+def: "A condition in which the major influencing factor is a 23 amino acid peptide (aa 1169-1191) derived from the interphotoreceptor retinoid-binding protein, a large glycoprotein, found primarily in the interphotoreceptor matrix of the retina between the retinal pigment epithelium and the photoreceptor cells, which is known to bind retinoids and thought to transport them between the retinal pigment epithelium and the photoreceptors." [NCBI_GeneID:5949, PMID:18203685]
 synonym: "R14 peptide of IRBP" RELATED []
 xref: PMID:18203685
 relationship: part_of XCO:0000287 ! interphotoreceptor retinoid-binding protein
@@ -2549,8 +2551,8 @@ creation_date: 2013-03-13T20:07:09Z
 [Term]
 id: XCO:0000294
 name: estrogen/estrogen analog
-def: "Any of the  naturally-occuring, primary female sex hormones or  related synthetic molecules with the capacity to perform the same function(s), i.e. to bind to  estrogen receptors and stimulate or control the development and maintenance of female sex characteristics." [Wikipedia:http\://en.wikipedia.org/wiki/Estrogen]
-synonym: "Not4Curation" RELATED []
+def: "Any of the  naturally-occuring, primary female sex hormones or  related synthetic molecules with the capacity to perform the same function(s), i.e. to bind to  estrogen receptors and stimulate or control the development and maintenance of female sex characteristics." [CHEBI:50114, Wikipedia:http\://en.wikipedia.org/wiki/Estrogen]
+synonym: "Not4Curation" RELATED curation_status []
 xref: CHEBI:50114
 is_a: XCO:0000229 ! steroid hormone
 created_by: JSmith
@@ -2559,7 +2561,7 @@ creation_date: 2013-05-07T15:32:52Z
 [Term]
 id: XCO:0000295
 name: diethylstilbestrol
-def: "A synthetic estrogen analog with chemical formula C18H20O2.  The structure is similar to that of estrogen but lacks the complete four ring structure. As a drug it is used to treat prostatic and sometimes breast carcinomas. It is an epigenetic carcinogen." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http\://en.wikipedia.org/wiki/Diethylstilbestrol]
+def: "A synthetic estrogen analog with chemical formula C18H20O2.  The structure is similar to that of estrogen but lacks the complete four ring structure. As a drug it is used to treat prostatic and sometimes breast carcinomas. It is an epigenetic carcinogen." [CHEBI:41922, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http\://en.wikipedia.org/wiki/Diethylstilbestrol]
 synonym: "DES" RELATED []
 xref: CHEBI:41922
 is_a: XCO:0000294 ! estrogen/estrogen analog
@@ -2697,7 +2699,7 @@ creation_date: 2013-06-21T17:21:42Z
 [Term]
 id: XCO:0000310
 name: guanethidine
-def: "An antihypertensive agent that acts by selectively inhibiting transmission in post-ganglionic adrenergic nerves. It is believed to act mainly by preventing the release of norepinephrine at nerve endings and causes depletion of norepinephrine in peripheral sympathetic nerve terminals as well as in tissues. It does not appear to act at the level of the adrenergic receptors." [Website:http\://www.drugbank.ca/drugs/DB01170#pharmacology]
+def: "An antihypertensive agent that acts by selectively inhibiting transmission in post-ganglionic adrenergic nerves. It is believed to act mainly by preventing the release of norepinephrine at nerve endings and causes depletion of norepinephrine in peripheral sympathetic nerve terminals as well as in tissues. It does not appear to act at the level of the adrenergic receptors." [MESH:D006145, Website:http\://www.drugbank.ca/drugs/DB01170#pharmacology]
 xref: CHEBI:5557
 xref: MESH:D006145
 is_a: XCO:0000120 ! inhibitor
@@ -2738,7 +2740,7 @@ creation_date: 2013-06-25T14:24:21Z
 [Term]
 id: XCO:0000314
 name: buffer
-def: "Any substance or mixture of substances that, in solution (typically aqueous), resists change in pH upon addition of small amounts of acid or base." []
+def: "Any substance or mixture of substances that, in solution (typically aqueous), resists change in pH upon addition of small amounts of acid or base." [CHEBI:35225]
 xref: CHEBI:35225
 is_a: XCO:0000341 ! chemical with specified function
 created_by: JSmith
@@ -2747,7 +2749,7 @@ creation_date: 2013-06-25T14:52:26Z
 [Term]
 id: XCO:0000315
 name: buffer solution
-def: "A homogeneous mixture of molecules, atoms and/or ions,  one or more of which have the capacity to cause the solution to resist change in pH upon addition of small amounts of acid or base, dispersed molecularly in a sufficient quantity of dissolving medium (solvent) such as water." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "A homogeneous mixture of molecules, atoms and/or ions,  one or more of which have the capacity to cause the solution to resist change in pH upon addition of small amounts of acid or base, dispersed molecularly in a sufficient quantity of dissolving medium (solvent) such as water." [CHEBI:35225, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 xref: CHEBI:35225
 is_a: XCO:0000314 ! buffer
 is_a: XCO:0000340 ! solution
@@ -2757,7 +2759,7 @@ creation_date: 2013-06-25T14:58:18Z
 [Term]
 id: XCO:0000316
 name: calcium-free buffer solution
-def: "A homogeneous mixture which does not contain calcium, the chemical element with atomic number 20, but does contain molecules, atoms and/or ions one or more of which have the capacity to cause the solution to resist change in pH upon addition of small amounts of acid or base, dispersed molecularly in a sufficient quantity of dissolving medium (solvent) such as water." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "A homogeneous mixture which does not contain calcium, the chemical element with atomic number 20, but does contain molecules, atoms and/or ions one or more of which have the capacity to cause the solution to resist change in pH upon addition of small amounts of acid or base, dispersed molecularly in a sufficient quantity of dissolving medium (solvent) such as water." [CHEBI:35225, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 xref: CHEBI:35225
 is_a: XCO:0000315 ! buffer solution
 created_by: JSmith
@@ -2766,7 +2768,7 @@ creation_date: 2013-06-25T15:06:57Z
 [Term]
 id: XCO:0000317
 name: buffered calcium ion solution
-def: "A homogeneous mixture of calcium, the chemical element with atomic number 20, with other molecules, atoms and/or ions one or more of which have the capacity to cause the solution to resist change in pH upon addition of small amounts of acid or base, dispersed molecularly in a sufficient quantity of dissolving medium (solvent) such as water." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "A homogeneous mixture of calcium, the chemical element with atomic number 20, with other molecules, atoms and/or ions one or more of which have the capacity to cause the solution to resist change in pH upon addition of small amounts of acid or base, dispersed molecularly in a sufficient quantity of dissolving medium (solvent) such as water." [CHEBI:35225, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "calcium-containing buffer solution" EXACT []
 xref: CHEBI:29108
 xref: CHEBI:35225
@@ -2786,7 +2788,7 @@ creation_date: 2013-06-25T16:06:11Z
 [Term]
 id: XCO:0000319
 name: artificial aortocaval fistula
-def: "A surgically created passageway between the abdominal aorta and inferior vena cava." []
+def: "A surgically created passageway between the abdominal aorta and inferior vena cava." [PMID:2142618]
 synonym: "ACF" RELATED []
 xref: PMID:2142618
 is_a: XCO:0000318 ! surgical construction
@@ -2828,7 +2830,7 @@ creation_date: 2013-06-25T17:19:38Z
 [Term]
 id: XCO:0000323
 name: alcohol
-def: "Any condition in which the main influencing factor is an alcohol, a compound in which a hydroxy group, -OH, is attached to a saturated carbon atom." []
+def: "Any condition in which the main influencing factor is an alcohol, a compound in which a hydroxy group, -OH, is attached to a saturated carbon atom." [CHEBI:30879]
 xref: CHEBI:30879
 is_a: XCO:0000342 ! chemical with specified structure
 created_by: JSmith
@@ -2837,7 +2839,7 @@ creation_date: 2013-08-07T16:27:07Z
 [Term]
 id: XCO:0000324
 name: primary alcohol
-def: "Any condition in which the main influencing factor is a primary alcohol, a compound in which a hydroxy group, -OH, is attached to a saturated carbon atom which has either three hydrogen atoms attached to it or only one other carbon atom and two hydrogen atoms attached to it." []
+def: "Any condition in which the main influencing factor is a primary alcohol, a compound in which a hydroxy group, -OH, is attached to a saturated carbon atom which has either three hydrogen atoms attached to it or only one other carbon atom and two hydrogen atoms attached to it." [CHEBI:15734]
 xref: CHEBI:15734
 is_a: XCO:0000323 ! alcohol
 created_by: JSmith
@@ -2846,7 +2848,7 @@ creation_date: 2013-08-07T16:35:17Z
 [Term]
 id: XCO:0000325
 name: ethanol
-def: "Any condition in which the main influencing factor is ethanol, a primary alcohol with chemical formula CH3-CH2-OH, that is ethane in which one of the hydrogens is substituted by a hydroxy group." []
+def: "Any condition in which the main influencing factor is ethanol, a primary alcohol with chemical formula CH3-CH2-OH, that is ethane in which one of the hydrogens is substituted by a hydroxy group." [CHEBI:16236]
 synonym: "ethyl alcohol" EXACT []
 synonym: "EtOH" RELATED []
 xref: CHEBI:16236
@@ -3117,7 +3119,7 @@ creation_date: 2013-11-11T12:03:50Z
 id: XCO:0000351
 name: 4-nitroquinoline N-oxide
 alt_id: XCO:0000366
-def: "A condition in which the major influencing factor is 4-nitroquinoline N-oxide, a tumorigenic derivative of quinoline N-oxide containing a nitro functional group (-NO2) at the 4 position of the quinoline bicyclic structure. Quinoline is a heterocyclic aromatic organic compound with the chemical formula C9H7N. 4-nitroquinoline 1-oxide and its metabolite 4-hydroxyaminoquinoline-1-oxide bind to nucleic acids and cause lesions usually corrected by nucleotide excision repair." [Wikipedia:http\://en.wikipedia.org/wiki/4-Nitroquinoline_1-oxide, Wikipedia:http\://en.wikipedia.org/wiki/Quinoline]
+def: "A condition in which the major influencing factor is 4-nitroquinoline N-oxide, a tumorigenic derivative of quinoline N-oxide containing a nitro functional group (-NO2) at the 4 position of the quinoline bicyclic structure. Quinoline is a heterocyclic aromatic organic compound with the chemical formula C9H7N. 4-nitroquinoline 1-oxide and its metabolite 4-hydroxyaminoquinoline-1-oxide bind to nucleic acids and cause lesions usually corrected by nucleotide excision repair." [CHEBI:16907, Wikipedia:http\://en.wikipedia.org/wiki/4-Nitroquinoline_1-oxide, Wikipedia:http\://en.wikipedia.org/wiki/Quinoline]
 synonym: "4-Nitroquinoline 1-oxide" EXACT []
 synonym: "4NQO" RELATED []
 xref: CHEBI:16907
@@ -3147,7 +3149,7 @@ creation_date: 2013-11-11T13:26:36Z
 [Term]
 id: XCO:0000354
 name: N-methyl-N'-nitro-N-nitrosoguanidine
-def: "A guanidine derivative with a nitro group (-NO2) on the nitrogen at position 3 and a methyl group (-CH3) and nitroso group (-NO) on the nitrogen at position 1. MNNG acts by adding alkyl groups to the O6 of guanine and O4 of thymine of DNA, giving it potent mutagenic and carcinogenic properties." [MESH:D008769, Wikipedia:http\://en.wikipedia.org/wiki/Methylnitronitrosoguanidine]
+def: "A guanidine derivative with a nitro group (-NO2) on the nitrogen at position 3 and a methyl group (-CH3) and nitroso group (-NO) on the nitrogen at position 1. MNNG acts by adding alkyl groups to the O6 of guanine and O4 of thymine of DNA, giving it potent mutagenic and carcinogenic properties." [CHEBI:21759, MESH:D008769, Wikipedia:http\://en.wikipedia.org/wiki/Methylnitronitrosoguanidine]
 synonym: "1-methyl-3-nitro-1-nitrosoguanidine" EXACT []
 synonym: "methylnitronitrosoguanidine" EXACT []
 synonym: "MNNG" RELATED []
@@ -3311,7 +3313,7 @@ creation_date: 2014-01-09T13:51:38Z
 [Term]
 id: XCO:0000373
 name: surgical denervation
-def: "The resection or complete surgical removal of a nerve, any of the cordlike structures that convey impulses between the central nervous system and one or more parts of the body, and that each consist of an outer connective tissue sheath surrounding a bundle of conductive fibers." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Dental_Dictionary--2nd_Ed]
+def: "The resection or complete surgical removal of a nerve, any of the cordlike structures that convey impulses between the central nervous system and one or more parts of the body, and that each consist of an outer connective tissue sheath surrounding a bundle of conductive fibers." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, MESH:D003714, Mosby:Mosbys_Dental_Dictionary--2nd_Ed]
 xref: MESH:D003714
 is_a: XCO:0000026 ! surgical removal
 created_by: JSmith
@@ -3320,7 +3322,7 @@ creation_date: 2014-01-09T14:52:48Z
 [Term]
 id: XCO:0000374
 name: axotomy
-def: "Surgical transection or severing of an axon, the process of a neuron capable of conducting action potentials or self-propagating nerve impulses away from the cell body." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+def: "Surgical transection or severing of an axon, the process of a neuron capable of conducting action potentials or self-propagating nerve impulses away from the cell body." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, MESH:D019771, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 xref: MESH:D019771
 is_a: XCO:0000373 ! surgical denervation
 created_by: JSmith
@@ -3329,7 +3331,7 @@ creation_date: 2014-01-09T14:56:20Z
 [Term]
 id: XCO:0000375
 name: sciatic nerve axotomy
-def: "Surgical transection or severing of one or more axons of the sciatic nerve, the large sensory and motor nerve that in humans arises from the sacral plexus and passes through the greater sciatic foramen to midthigh where it divides into the common peroneal and tibial nerves." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "Surgical transection or severing of one or more axons of the sciatic nerve, the large sensory and motor nerve that in humans arises from the sacral plexus and passes through the greater sciatic foramen to midthigh where it divides into the common peroneal and tibial nerves." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, MESH:D019771]
 xref: MA:0001172
 xref: MESH:D019771
 is_a: XCO:0000374 ! axotomy
@@ -3339,7 +3341,7 @@ creation_date: 2014-01-09T14:57:23Z
 [Term]
 id: XCO:0000376
 name: saphenous nerve axotomy
-def: "Surgical transection or severing of one or more axons of the saphenous nerve, a sensory nerve that is a terminal branch of the femoral nerve, in humans extending from the femoral triangle to the foot, becoming subcutaneous on the medial side of the knee." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, Farlex:Farlex_Partner_Medical_Dictionary_2012, ISBN:978-1416049982]
+def: "Surgical transection or severing of one or more axons of the saphenous nerve, a sensory nerve that is a terminal branch of the femoral nerve, in humans extending from the femoral triangle to the foot, becoming subcutaneous on the medial side of the knee." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, Farlex:Farlex_Partner_Medical_Dictionary_2012, ISBN:978-1416049982, MESH:D019771]
 xref: MA:0002761
 xref: MESH:D019771
 is_a: XCO:0000374 ! axotomy
@@ -3472,7 +3474,7 @@ creation_date: 2014-01-21T16:58:06Z
 [Term]
 id: XCO:0000390
 name: antimetabolite
-def: "A condition in which the main influencing factor is a substance which competes with or replaces a metabolite (a chemical that is part of the normal metabolism of a cell or body), and so prevents or reduces its normal utilization or activity. Antimetabolites are often structurally similar to the metabolite for which they substitute." [Wikipedia:http\://en.wikipedia.org/wiki/Antimetabolite]
+def: "A condition in which the main influencing factor is a substance which competes with or replaces a metabolite (a chemical that is part of the normal metabolism of a cell or body), and so prevents or reduces its normal utilization or activity. Antimetabolites are often structurally similar to the metabolite for which they substitute." [CHEBI:35221, Wikipedia:http\://en.wikipedia.org/wiki/Antimetabolite]
 xref: CHEBI:35221
 xref: MESH:D000963
 is_a: XCO:0000341 ! chemical with specified function
@@ -3482,7 +3484,7 @@ creation_date: 2014-02-07T15:47:34Z
 [Term]
 id: XCO:0000391
 name: 5-bromo-2'-deoxyuridine
-def: "A condition in which the main influencing factor is 5-bromo-2'-deoxyuridine (BrdU), a synthetic nucleoside analog and antimetabolite of thymidine. Because BrdU substitutes for thymidine in DNA during replication its incorporation can be used as a marker of cell division." [Wikipedia:http\://en.wikipedia.org/wiki/Bromodeoxyuridine]
+def: "A condition in which the main influencing factor is 5-bromo-2'-deoxyuridine (BrdU), a synthetic nucleoside analog and antimetabolite of thymidine. Because BrdU substitutes for thymidine in DNA during replication its incorporation can be used as a marker of cell division." [CHEBI:472552, Wikipedia:http\://en.wikipedia.org/wiki/Bromodeoxyuridine]
 synonym: "BrdU" RELATED []
 synonym: "bromodeoxyuridine" RELATED []
 xref: CHEBI:472552
@@ -3527,7 +3529,7 @@ creation_date: 2014-02-07T16:57:51Z
 [Term]
 id: XCO:0000395
 name: controlled 4-nitroquinoline N-oxide content drinking water
-def: "A drink made up of water and a specified amount of 4-nitroquinoline N-oxide, a tumorigenic derivative of quinoline N-oxide containing a nitro functional group (-NO2) at the 4 position of the quinoline bicyclic structure. 4-nitroquinoline 1-oxide and its metabolite 4-hydroxyaminoquinoline-1-oxide bind to nucleic acids and cause lesions usually corrected by nucleotide excision repair." [Wikipedia:http\://en.wikipedia.org/wiki/4-Nitroquinoline_1-oxide]
+def: "A drink made up of water and a specified amount of 4-nitroquinoline N-oxide, a tumorigenic derivative of quinoline N-oxide containing a nitro functional group (-NO2) at the 4 position of the quinoline bicyclic structure. 4-nitroquinoline 1-oxide and its metabolite 4-hydroxyaminoquinoline-1-oxide bind to nucleic acids and cause lesions usually corrected by nucleotide excision repair." [CHEBI:16907, Wikipedia:http\://en.wikipedia.org/wiki/4-Nitroquinoline_1-oxide]
 synonym: "controlled 4-Nitroquinoline 1-oxide drinking water" EXACT []
 synonym: "controlled 4NQO drinking water" RELATED []
 xref: CHEBI:16907
@@ -3540,7 +3542,7 @@ creation_date: 2014-02-07T17:03:31Z
 [Term]
 id: XCO:0000396
 name: phenolic/phenol derivative
-def: "Any organic aromatic compound consisting of at least one phenolic group, that is, a group having one or more hydroxy groups attached to a benzene or other arene ring." []
+def: "Any organic aromatic compound consisting of at least one phenolic group, that is, a group having one or more hydroxy groups attached to a benzene or other arene ring." [CHEBI:33853]
 xref: CHEBI:33853
 is_a: XCO:0000342 ! chemical with specified structure
 created_by: JSmith
@@ -3559,7 +3561,7 @@ creation_date: 2014-02-27T13:28:43Z
 [Term]
 id: XCO:0000398
 name: cisplatin
-def: "A chemotherapy drug in which two ammine ligands and two chloro ligands are oriented in a cis planar configuration around a central platinum ion. Cisplatin is mutagenic and serves as an anti-cancer drug through its ability to bind to and crosslink DNA, interfering with cell division, triggering DNA repair mechanisms and, in turn, activating apoptosis." [Wikipedia:http\://en.wikipedia.org/wiki/Cisplatin]
+def: "A chemotherapy drug in which two ammine ligands and two chloro ligands are oriented in a cis planar configuration around a central platinum ion. Cisplatin is mutagenic and serves as an anti-cancer drug through its ability to bind to and crosslink DNA, interfering with cell division, triggering DNA repair mechanisms and, in turn, activating apoptosis." [CHEBI:27899, Wikipedia:http\://en.wikipedia.org/wiki/Cisplatin]
 xref: CHEBI:27899
 is_a: XCO:0000205 ! mutation inducing chemical
 is_a: XCO:0000399 ! complex ion
@@ -3603,7 +3605,7 @@ creation_date: 2014-02-28T11:38:55Z
 [Term]
 id: XCO:0000403
 name: controlled cisplatin content diet
-def: "A solid diet in which the amount of cisplatin, a chemotherapy drug in which two ammine ligands and two chloro ligands are oriented in a cis planar configuration around a central platinum ion, is maintained at a specified level." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+def: "A solid diet in which the amount of cisplatin, a chemotherapy drug in which two ammine ligands and two chloro ligands are oriented in a cis planar configuration around a central platinum ion, is maintained at a specified level." [CHEBI:27899, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 xref: CHEBI:27899
 is_a: XCO:0000014 ! controlled content diet
 relationship: has_component XCO:0000398 ! cisplatin
@@ -3624,7 +3626,7 @@ creation_date: 2014-02-28T12:23:03Z
 [Term]
 id: XCO:0000405
 name: controlled cisplatin content drinking water
-def: "A drink made up of water and a specified amount of cisplatin consumed by an organism as part of an experiment. Cisplatin is a chemotherapy drug in which two ammine ligands and two chloro ligands are oriented in a cis planar configuration around a central platinum ion." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http\://en.wikipedia.org/wiki/Cisplatin]
+def: "A drink made up of water and a specified amount of cisplatin consumed by an organism as part of an experiment. Cisplatin is a chemotherapy drug in which two ammine ligands and two chloro ligands are oriented in a cis planar configuration around a central platinum ion." [CHEBI:27899, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http\://en.wikipedia.org/wiki/Cisplatin]
 xref: CHEBI:27899
 is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0000398 ! cisplatin
@@ -3645,9 +3647,9 @@ creation_date: 2014-02-28T12:48:15Z
 [Term]
 id: XCO:0000407
 name: hypoglycemic agent
-def: "A condition in which the main influencing factor is a substance which has the ability to lower the level of glucose, particularly blood glucose, in an organism." []
-synonym: "antidiabetic agent" RELATED []
+def: "A condition in which the main influencing factor is a substance which has the ability to lower the level of glucose, particularly blood glucose, in an organism." [CHEBI:35526]
 synonym: "antidiabetic  drug" RELATED []
+synonym: "antidiabetic agent" RELATED []
 xref: CHEBI:35526
 is_a: XCO:0000341 ! chemical with specified function
 created_by: JSmith
@@ -3666,7 +3668,7 @@ creation_date: 2014-02-28T17:17:09Z
 [Term]
 id: XCO:0000409
 name: controlled metformin content drinking water
-def: "A drink made up of water and a specified amount of metformin consumed by an organism as part of an experiment. Metformin is an oral antidiabetic drug in the biguanide class which functions to supress the production of glucose by the liver (hepatic gluconeogenesis)." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http\://en.wikipedia.org/wiki/Metformin]
+def: "A drink made up of water and a specified amount of metformin consumed by an organism as part of an experiment. Metformin is an oral antidiabetic drug in the biguanide class which functions to supress the production of glucose by the liver (hepatic gluconeogenesis)." [CHEBI:6801, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http\://en.wikipedia.org/wiki/Metformin]
 xref: CHEBI:6801
 is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0000408 ! metformin
@@ -3783,7 +3785,7 @@ creation_date: 2014-03-04T15:25:32Z
 [Term]
 id: XCO:0000422
 name: quinone
-def: "Any condition in which the main influencing factor is a quinone, a member of a class of compounds having a fully conjugated cyclic dione structure, such as that of benzoquinones, derived from aromatic compounds by conversion of an even number of -CH= groups into -C(=O)- groups with any necessary rearrangement of double bonds." []
+def: "Any condition in which the main influencing factor is a quinone, a member of a class of compounds having a fully conjugated cyclic dione structure, such as that of benzoquinones, derived from aromatic compounds by conversion of an even number of -CH= groups into -C(=O)- groups with any necessary rearrangement of double bonds." [CHEBI:36141]
 xref: CHEBI:36141
 is_a: XCO:0000342 ! chemical with specified structure
 created_by: JSmith
@@ -3802,7 +3804,7 @@ creation_date: 2014-03-04T17:36:38Z
 [Term]
 id: XCO:0000424
 name: benfotiamine
-def: "A condition in which the main influencing factor is benfotiamine, a synthetic thioester S-acyl derivative and analogue of thiamine (vitamin B1); used as an antioxidant dietary supplement." [Wikipedia:http\://en.wikipedia.org/wiki/Benfotiamine]
+def: "A condition in which the main influencing factor is benfotiamine, a synthetic thioester S-acyl derivative and analogue of thiamine (vitamin B1); used as an antioxidant dietary supplement." [CHEBI:41039, Wikipedia:http\://en.wikipedia.org/wiki/Benfotiamine]
 synonym: "S-benzoylthiamine O-monophosphate" EXACT []
 xref: CHEBI:41039
 is_a: XCO:0000271 ! antioxidant
@@ -3832,7 +3834,7 @@ creation_date: 2014-03-05T09:52:40Z
 [Term]
 id: XCO:0000427
 name: lycopene
-def: "A condition in which the main influencing factor is lycopene, a bright red polyunsaturated carotenoid hydrocarbon (i.e. a carotene) with the formula C40H56. Lycopene is a tetraterpene assembled from eight isoprene units and has antioxidant activity." [Wikipedia:http\://en.wikipedia.org/wiki/Lycopene]
+def: "A condition in which the main influencing factor is lycopene, a bright red polyunsaturated carotenoid hydrocarbon (i.e. a carotene) with the formula C40H56. Lycopene is a tetraterpene assembled from eight isoprene units and has antioxidant activity." [CHEBI:15948, Wikipedia:http\://en.wikipedia.org/wiki/Lycopene]
 xref: CHEBI:15948
 is_a: XCO:0000271 ! antioxidant
 is_a: XCO:0000279 ! terpene
@@ -3842,7 +3844,7 @@ creation_date: 2014-03-05T09:54:44Z
 [Term]
 id: XCO:0000428
 name: fructose
-def: "A condition in which the main influencing factor is fructose, a monosaccharide isomer of glucose which, although it is a 6-carbon sugar (hexose), generally exists as a 5-member hemiketal ring. Fructose is one of three dietary monosaccharides that are absorbed directly into the bloodstream during digestion, is covalently bound to glucose to form the sucrose molecule, and is found naturally in honey and many sweet fruits." [Wikipedia:http\://en.wikipedia.org/wiki/Fructose]
+def: "A condition in which the main influencing factor is fructose, a monosaccharide isomer of glucose which, although it is a 6-carbon sugar (hexose), generally exists as a 5-member hemiketal ring. Fructose is one of three dietary monosaccharides that are absorbed directly into the bloodstream during digestion, is covalently bound to glucose to form the sucrose molecule, and is found naturally in honey and many sweet fruits." [CHEBI:15824, Wikipedia:http\://en.wikipedia.org/wiki/Fructose]
 xref: CHEBI:15824
 xref: CHEBI:28757
 is_a: XCO:0000274 ! monosaccharide
@@ -3886,7 +3888,7 @@ creation_date: 2014-03-07T10:31:32Z
 [Term]
 id: XCO:0000433
 name: controlled sucrose content drinking water
-def: "A drink made up of water and a specified amount of sucrose consumed by an organism as part of an experiment. Sucrose is a nonreducing disaccharide of glucose and fructose used as a food, a sweetener, a preservative and a pharmaceutical aid." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "A drink made up of water and a specified amount of sucrose consumed by an organism as part of an experiment. Sucrose is a nonreducing disaccharide of glucose and fructose used as a food, a sweetener, a preservative and a pharmaceutical aid." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, CHEBI:17992, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 xref: CHEBI:17992
 is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0000432 ! sucrose
@@ -3896,7 +3898,7 @@ creation_date: 2014-03-07T10:33:57Z
 [Term]
 id: XCO:0000434
 name: octylphenol
-def: "Condition in which the main influencing factor is octylphenol, a phenolic ring with an 8-carbon side chain." []
+def: "Condition in which the main influencing factor is octylphenol, a phenolic ring with an 8-carbon side chain." [CHEBI:34432]
 xref: CHEBI:34432
 is_a: XCO:0000239 ! toxic substance
 is_a: XCO:0000396 ! phenolic/phenol derivative
@@ -3906,7 +3908,7 @@ creation_date: 2014-03-07T13:09:25Z
 [Term]
 id: XCO:0000435
 name: antineoplastic agent
-def: "A condition in which the main influencing factor is any chemical that inhibits or prevents the proliferation of neoplasms." []
+def: "A condition in which the main influencing factor is any chemical that inhibits or prevents the proliferation of neoplasms." [CHEBI:35610]
 synonym: "anticancer agent" RELATED []
 synonym: "cancer chemotherapy agent" RELATED []
 xref: CHEBI:35610
@@ -3943,17 +3945,17 @@ creation_date: 2014-04-17T12:42:20Z
 [Term]
 id: XCO:0000438
 name: candesartan
-def: "A condition in which the main influencing factor is candesartan, a substituted benzimidazolecarboxylic acid which functions as an angiotensin II receptor antagonist and is used for the treatment of hypertension." [Wikipedia:http\://en.wikipedia.org/wiki/Candesartan]
+def: "A condition in which the main influencing factor is candesartan, a substituted benzimidazolecarboxylic acid which functions as an angiotensin II receptor antagonist and is used for the treatment of hypertension." [CHEBI:3347, Wikipedia:http\://en.wikipedia.org/wiki/Candesartan]
 xref: CHEBI:3347
 is_a: XCO:0000140 ! vasodilator
-is_a: XCO:0000536 ! angiotensin II receptor antagonist
+is_a: XCO:0000160 ! receptor antagonist
 created_by: JSMITH
 creation_date: 2014-04-17T13:11:54Z
 
 [Term]
 id: XCO:0000439
 name: controlled 3-methyl-4'-dimethylaminoazobenzene content drinking water
-def: "A drink made up of water and a specified amount of 3-methyl-4'-dimethylaminoazobenzene (MDAB), a substituted azobenzene compound that acts as a potent liver carcinogen, consumed by an organism as part of an experiment." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Website:http\://potency.berkeley.edu/chempages/3%27-METHYL-4-DIMETHYLAMINOAZOBENZENE.html]
+def: "A drink made up of water and a specified amount of 3-methyl-4'-dimethylaminoazobenzene (MDAB), a substituted azobenzene compound that acts as a potent liver carcinogen, consumed by an organism as part of an experiment." [CHEBI:76329, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Website:http\://potency.berkeley.edu/chempages/3%27-METHYL-4-DIMETHYLAMINOAZOBENZENE.html]
 synonym: "controlled 3'-Me-DAB content drinking water" RELATED []
 synonym: "controlled 3'-methyl-4-(dimethylamino)azobenzene content drinking water" RELATED []
 synonym: "controlled 4-Dimethylamino-3'-methylazobenzene content drinking water" EXACT []
@@ -3968,7 +3970,7 @@ creation_date: 2014-04-17T15:49:17Z
 [Term]
 id: XCO:0000440
 name: controlled 3-methyl-4'-dimethylaminoazobenzene content diet
-def: "A solid diet in which the amount of 3'-methyl-4-dimethylaminoazobenzene (MDAB), a substituted azobenzene compound that acts as a potent liver carcinogen, is maintained at a specified level." [Mosby:Mosbys_Medical_Dictionary--8th_Ed, Website:http\://potency.berkeley.edu/chempages/3%27-METHYL-4-DIMETHYLAMINOAZOBENZENE.html]
+def: "A solid diet in which the amount of 3'-methyl-4-dimethylaminoazobenzene (MDAB), a substituted azobenzene compound that acts as a potent liver carcinogen, is maintained at a specified level." [CHEBI:76329, Mosby:Mosbys_Medical_Dictionary--8th_Ed, Website:http\://potency.berkeley.edu/chempages/3%27-METHYL-4-DIMETHYLAMINOAZOBENZENE.html]
 synonym: "controlled 3'-Me-DAB content diet" RELATED []
 synonym: "controlled 3'-methyl-4-(dimethylamino)azobenzene content diet" EXACT []
 synonym: "controlled 4-Dimethylamino-3'-methylazobenzene content diet" EXACT []
@@ -3983,9 +3985,9 @@ creation_date: 2014-04-17T15:49:21Z
 [Term]
 id: XCO:0000441
 name: controlled 2-acetamidofluorene content drinking water
-def: "A drink made up of water and a specified amount of 2-acetamidofluorene, a substituted ortho-fused polycyclic arene that is a carcinogenic and mutagenic derivative of fluorene, consumed by an organism as part of an experiment." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http\://en.wikipedia.org/wiki/Acetylaminofluorene]
-synonym: "controlled 2-AAF content drinking water" RELATED []
-synonym: "controlled 2-acetylaminofluorene content drinking water" RELATED []
+def: "A drink made up of water and a specified amount of 2-acetamidofluorene, a substituted ortho-fused polycyclic arene that is a carcinogenic and mutagenic derivative of fluorene, consumed by an organism as part of an experiment." [CHEBI:17356, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:http\://en.wikipedia.org/wiki/Acetylaminofluorene]
+synonym: "controlled 2-AAF content drinking water " RELATED []
+synonym: "controlled 2-acetylaminofluorene content drinking water " RELATED []
 xref: CHEBI:17356
 is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0000208 ! 2-acetamidofluorene
@@ -3995,7 +3997,7 @@ creation_date: 2014-04-17T16:31:36Z
 [Term]
 id: XCO:0000442
 name: controlled 2-acetamidofluorene content diet
-def: "A solid diet in which the amount of 2-acetamidofluorene, a substituted ortho-fused polycyclic arene that is a carcinogenic and mutagenic derivative of fluorene, is maintained at a specified level." [Mosby:Mosbys_Medical_Dictionary--8th_Ed, Wikipedia:http\://en.wikipedia.org/wiki/Acetylaminofluorene]
+def: "A solid diet in which the amount of 2-acetamidofluorene, a substituted ortho-fused polycyclic arene that is a carcinogenic and mutagenic derivative of fluorene, is maintained at a specified level." [CHEBI:17356, Mosby:Mosbys_Medical_Dictionary--8th_Ed, Wikipedia:http\://en.wikipedia.org/wiki/Acetylaminofluorene]
 synonym: "controlled 2-AAF content diet" RELATED []
 synonym: "controlled 2-acetylaminofluorene content diet" RELATED []
 xref: CHEBI:17356
@@ -4239,7 +4241,7 @@ creation_date: 2015-03-06T18:09:40Z
 [Term]
 id: XCO:0000468
 name: vitamin A
-def: "Condition in which the main influencing factor is vitamin A, a group of fat-soluble retinoids produced via metabolism of provitamin A carotenoids. Vitamin A is involved in immune function, vision, reproduction, and cellular communication." [Wikipedia:http\://en.wikipedia.org/wiki/Vitamin_A]
+def: "Condition in which the main influencing factor is vitamin A, a group of fat-soluble retinoids produced via metabolism of provitamin A carotenoids. Vitamin A is involved in immune function, vision, reproduction, and cellular communication." [CHEBI:12777, Wikipedia:http\://en.wikipedia.org/wiki/Vitamin_A]
 xref: CHEBI:12777
 is_a: XCO:0000377 ! vitamin
 is_a: XCO:0000467 ! retinoid
@@ -4249,7 +4251,7 @@ creation_date: 2015-03-06T18:11:00Z
 [Term]
 id: XCO:0000469
 name: isotretinoin
-def: "Condition in which the main influencing factor is isotretinoin, a synthetic first generation retinoid compound used for the treatment of severe cases of acne and other skin diseases." [Wikipedia:http\://en.wikipedia.org/wiki/Retinoid]
+def: "Condition in which the main influencing factor is isotretinoin, a synthetic first generation retinoid compound used for the treatment of severe cases of acne and other skin diseases." [CHEBI:6067, Wikipedia:http\://en.wikipedia.org/wiki/Retinoid]
 synonym: "13-cis-retinoic acid" RELATED []
 synonym: "13cRA" RELATED []
 synonym: "Roaccutane" RELATED []
@@ -4270,7 +4272,7 @@ creation_date: 2015-03-06T18:16:29Z
 [Term]
 id: XCO:0000471
 name: quercetin
-def: "Condition in which the main influencing factor is quercetin, a pentahydroxyflavone having the five hydroxy groups placed at the 3-, 3'-, 4'-, 5- and 7-positions. It is a yellow flavonoid pigment found in oak bark, the juice of lemons, asparagus, and other fruits and vegetables and is used to reduce abnormal capillary fragility." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+def: "Condition in which the main influencing factor is quercetin, a pentahydroxyflavone having the five hydroxy groups placed at the 3-, 3'-, 4'-, 5- and 7-positions. It is a yellow flavonoid pigment found in oak bark, the juice of lemons, asparagus, and other fruits and vegetables and is used to reduce abnormal capillary fragility." [CHEBI:16243, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "meletin" RELATED []
 xref: CHEBI:16243
 is_a: XCO:0000470 ! flavonoid
@@ -4280,7 +4282,7 @@ creation_date: 2015-03-06T18:17:55Z
 [Term]
 id: XCO:0000472
 name: chrysin
-def: "Condition in which the main influencing factor is chrysin, a dihydroxyflavone in which the two hydroxy groups are located at positions 5 and 7." []
+def: "Condition in which the main influencing factor is chrysin, a dihydroxyflavone in which the two hydroxy groups are located at positions 5 and 7." [CHEBI:75095]
 synonym: "5,7-dihydroxyflavone" RELATED []
 xref: CHEBI:75095
 is_a: XCO:0000470 ! flavonoid
@@ -4290,7 +4292,7 @@ creation_date: 2015-03-06T18:19:02Z
 [Term]
 id: XCO:0000473
 name: naringenin
-def: "Condition in which the main influencing factor is naringenin, a trihydroxyflavanone that is flavanone substituted by hydroxy groups at positions 5, 6 and 4'.  Naringenin is the predominant flavanone in grapefruit and has demonstrated inhibitory activity against the CYP1A2 cytochrome P450 isoform." [Wikipedia:http\://en.wikipedia.org/wiki/Naringenin]
+def: "Condition in which the main influencing factor is naringenin, a trihydroxyflavanone that is flavanone substituted by hydroxy groups at positions 5, 6 and 4'.  Naringenin is the predominant flavanone in grapefruit and has demonstrated inhibitory activity against the CYP1A2 cytochrome P450 isoform." [CHEBI:50202, Wikipedia:http\://en.wikipedia.org/wiki/Naringenin]
 xref: CHEBI:50202
 is_a: XCO:0000470 ! flavonoid
 created_by: JSmith
@@ -4377,7 +4379,7 @@ creation_date: 2015-04-30T13:48:27Z
 [Term]
 id: XCO:0000482
 name: antimicrobial agent
-def: "A substance that kills or slows the growth of one or more microorganisms, including bacteria, viruses, fungi and protozoans." []
+def: "A substance that kills or slows the growth of one or more microorganisms, including bacteria, viruses, fungi and protozoans." [CHEBI:33281]
 synonym: "antibiotic" RELATED []
 xref: CHEBI:33281
 is_a: XCO:0000341 ! chemical with specified function
@@ -4387,7 +4389,7 @@ creation_date: 2015-04-30T14:25:42Z
 [Term]
 id: XCO:0000483
 name: antibacterial agent
-def: "A substance that kills or slows the growth of bacteria, unicellular prokaryotic microorganisms that commonly multiply by cell division, lack a nucleus or membrane-bound organelles, and generally have a cell wall." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "A substance that kills or slows the growth of bacteria, unicellular prokaryotic microorganisms that commonly multiply by cell division, lack a nucleus or membrane-bound organelles, and generally have a cell wall." [CHEBI:33282, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 xref: CHEBI:33282
 is_a: XCO:0000482 ! antimicrobial agent
 created_by: JSmith
@@ -4396,7 +4398,7 @@ creation_date: 2015-04-30T14:31:11Z
 [Term]
 id: XCO:0000484
 name: ceftriaxone
-def: "A third-generation cephalosporin antibacterial agent with broad-spectrum activity against both Gram-positive and Gram-negative bacteria." [Wikipedia:http\://en.wikipedia.org/wiki/Ceftriaxone]
+def: "A third-generation cephalosporin antibacterial agent with broad-spectrum activity against both Gram-positive and Gram-negative bacteria." [CHEBI:29007, Wikipedia:http\://en.wikipedia.org/wiki/Ceftriaxone]
 xref: CHEBI:29007
 is_a: XCO:0000483 ! antibacterial agent
 created_by: JSmith
@@ -4490,8 +4492,8 @@ creation_date: 2015-12-07T16:18:25Z
 id: XCO:0000494
 name: postmenopause
 def: "The physiological period after the natural cessation of estrus or menstruation cycles in an aging female mammal." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Website:http\://www.medicaldictionaryweb.com/Postmenopause-definition/]
-synonym: "postmenopausal" RELATED []
 synonym: "post-productive period" RELATED []
+synonym: "postmenopausal" RELATED []
 is_a: XCO:0000411 ! reproduction condition
 created_by: jesmith
 creation_date: 2016-02-01T11:00:34Z
@@ -4653,7 +4655,7 @@ creation_date: 2017-04-21T13:27:10Z
 [Term]
 id: XCO:0000511
 name: ester
-def: "Any condition in which the main influencing factor is a substance is a chemical compound derived from the linkage of an organic or inorganic acid and an alcohol, phenol, heteroarenol, or enol with the loss of water (H2O) formed from one hydrogen derived from an acidic hydroxy group of the acid and an -OH (hydroxy) group of the alcohol." [Wikipedia:https\://en.wikipedia.org/wiki/Ester]
+def: "Any condition in which the main influencing factor is a substance is a chemical compound derived from the linkage of an organic or inorganic acid and an alcohol, phenol, heteroarenol, or enol with the loss of water (H2O) formed from one hydrogen derived from an acidic hydroxy group of the acid and an -OH (hydroxy) group of the alcohol." [CHEBI:35701, Wikipedia:https\://en.wikipedia.org/wiki/Ester]
 xref: CHEBI:35701
 is_a: XCO:0000342 ! chemical with specified structure
 created_by: jesmith
@@ -4662,7 +4664,7 @@ creation_date: 2017-07-18T12:56:04Z
 [Term]
 id: XCO:0000512
 name: teratogen
-def: "Any condition in which the main influencing factor is a substance with adverse or toxic effects on an embryo or fetus resulting in birth defects, specifically, altered development, growth retardation, functional defect and/or embryo death." [Wikipedia:https\://en.wikipedia.org/wiki/Teratology]
+def: "Any condition in which the main influencing factor is a substance with adverse or toxic effects on an embryo or fetus resulting in birth defects, specifically, altered development, growth retardation, functional defect and/or embryo death." [CHEBI:50905, Wikipedia:https\://en.wikipedia.org/wiki/Teratology]
 synonym: "teratogenic agent" EXACT []
 xref: CHEBI:50905
 is_a: XCO:0000259 ! disease inducing chemical
@@ -4672,7 +4674,7 @@ creation_date: 2017-07-18T12:58:04Z
 [Term]
 id: XCO:0000513
 name: dibutyl phthalate
-def: "A condition in which the main influencing factor is dibutyl phthalate (DBP), the diester obtained by the formal condensation of the carboxy groups of phthalic acid with two molecules of butan-1-ol. DBP has been used as a plasticizer and as an antiparasitic drug used to treat infestation of parasites on the surface of the body, and is suspected of being an endocrine disruptor and teratogen." [Wikipedia:https\://en.wikipedia.org/wiki/Dibutyl_phthalate]
+def: "A condition in which the main influencing factor is dibutyl phthalate (DBP), the diester obtained by the formal condensation of the carboxy groups of phthalic acid with two molecules of butan-1-ol. DBP has been used as a plasticizer and as an antiparasitic drug used to treat infestation of parasites on the surface of the body, and is suspected of being an endocrine disruptor and teratogen." [CHEBI:34687, Wikipedia:https\://en.wikipedia.org/wiki/Dibutyl_phthalate]
 synonym: "DBP" RELATED []
 synonym: "di-n-butyl phthalate" EXACT []
 xref: CHEBI:34687
@@ -4780,7 +4782,7 @@ creation_date: 2017-07-18T13:32:02Z
 [Term]
 id: XCO:0000525
 name: benazepril
-def: "A condition in which the main influencing factor is benazepril, a benzazepine in which the carboxy group of the 2-amino-4-phenylbutanoic acid moiety of benazeprilat has been converted to the corresponding ethyl ester. Removal of the ester by the liver converts the prodrug back to its active form, benazeprilat.  Benazepril is an angiotensin converting enzyme (ACE) inhibitor used in the treatment of hypertension, congestive heart failure, acute myocardial infarction and diabetic nephropathy." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:https\://en.wikipedia.org/wiki/Benazepril]
+def: "A condition in which the main influencing factor is benazepril, a benzazepine in which the carboxy group of the 2-amino-4-phenylbutanoic acid moiety of benazeprilat has been converted to the corresponding ethyl ester. Removal of the ester by the liver converts the prodrug back to its active form, benazeprilat.  Benazepril is an angiotensin converting enzyme (ACE) inhibitor used in the treatment of hypertension, congestive heart failure, acute myocardial infarction and diabetic nephropathy." [CHEBI:3011, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Wikipedia:https\://en.wikipedia.org/wiki/Benazepril]
 xref: CHEBI:3011
 is_a: XCO:0000524 ! angiotensin converting enzyme inhibitor
 created_by: jesmith
@@ -4856,7 +4858,7 @@ creation_date: 2017-08-11T17:21:03Z
 [Term]
 id: XCO:0000533
 name: puromycin
-def: "Condition in which the main influencing factor is puromycin, an aminonucleoside antibiotic derived from the Streptomyces alboniger bacterium, that causes premature chain termination during translation taking place in the ribosome." [Wikipedia:https\://en.wikipedia.org/wiki/Puromycin]
+def: "Condition in which the main influencing factor is puromycin, an aminonucleoside antibiotic derived from the Streptomyces alboniger bacterium, that causes premature chain termination during translation taking place in the ribosome." [CHEBI:17939, Wikipedia:https\://en.wikipedia.org/wiki/Puromycin]
 xref: CHEBI:17939
 is_a: XCO:0000435 ! antineoplastic agent
 is_a: XCO:0000482 ! antimicrobial agent
@@ -4867,7 +4869,7 @@ creation_date: 2017-08-11T17:21:54Z
 [Term]
 id: XCO:0000534
 name: sunitinib
-def: "Condition in which the main influencing factor is sunitinib, an antineoplastic agent which acts as a receptor tyrosine kinase inhibitor and an antagonist for multiple platelet-derived growth factor and vascular endothelial growth factor receptors. Sunitinib is used as a chemotherapy agent in the treatment of renal cell carcinoma and gastrointestinal stromal tumor." [Wikipedia:https\://en.wikipedia.org/wiki/Sunitinib]
+def: "Condition in which the main influencing factor is sunitinib, an antineoplastic agent which acts as a receptor tyrosine kinase inhibitor and an antagonist for multiple platelet-derived growth factor and vascular endothelial growth factor receptors. Sunitinib is used as a chemotherapy agent in the treatment of renal cell carcinoma and gastrointestinal stromal tumor." [CHEBI:38940, Wikipedia:https\://en.wikipedia.org/wiki/Sunitinib]
 synonym: "sunitinibum" RELATED []
 synonym: "Sutent" RELATED []
 xref: CHEBI:38940
@@ -4876,190 +4878,6 @@ is_a: XCO:0000435 ! antineoplastic agent
 is_a: XCO:0000523 ! enzyme inhibitor
 created_by: jesmith
 creation_date: 2017-08-11T17:28:23Z
-
-[Term]
-id: XCO:0000535
-name: lisinopril
-def: "A condition in which the main influencing factor is lisinopril, an antihypertensive competitive inhibitor of angiotensin-converting enzyme (ACE)." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "Prinivil" RELATED []
-synonym: "Qbrelis" RELATED []
-synonym: "Zestril" RELATED []
-is_a: XCO:0000524 ! angiotensin converting enzyme inhibitor
-created_by: jrsmith
-creation_date: 2018-05-11T10:54:07Z
-
-[Term]
-id: XCO:0000536
-name: angiotensin II receptor antagonist
-def: "Any condition in which the main influencing factor is an agent that blocks one or more angiotensin II receptors." [Wikipedia:https\://en.wikipedia.org/wiki/Angiotensin_II_receptor_blocker]
-synonym: "angiotensin II receptor blocker" EXACT []
-synonym: "ARB" RELATED []
-synonym: "sartan" RELATED []
-is_a: XCO:0000160 ! receptor antagonist
-created_by: jrsmith
-creation_date: 2018-05-14T18:01:31Z
-
-[Term]
-id: XCO:0000537
-name: olmesartan medoxomil
-def: "An experimental condition in which the main influencing factor is olmesartan medoxomil, an angiotensin II receptor blocker which is used as an antihypertensive agent." [Wikipedia:https\://en.wikipedia.org/wiki/Olmesartan]
-synonym: "CS-866" RELATED []
-is_a: XCO:0000536 ! angiotensin II receptor antagonist
-created_by: jrsmith
-creation_date: 2018-05-14T18:27:28Z
-
-[Term]
-id: XCO:0000538
-name: temocapril
-def: "An experimental condition in which the main influencing factor is temocapril, an angiotensin-I converting enzyme (ACE) inhibitor consisting of a dipeptide prodrug with a thiazepine ring." [Wikipedia:https\://en.wikipedia.org/wiki/Temocapril]
-synonym: "Acecol" RELATED []
-synonym: "alpha-((2S,6R)-6-((1S)-1-ethoxycarbonyl-3-phenylpropyl)amino-5-oxo-2-(2-thienyl)perhydro-1,4-thiazepin-4-yl)acetic acid.HCl" EXACT []
-synonym: "CS-622" RELATED []
-synonym: "CS622" RELATED []
-is_a: XCO:0000524 ! angiotensin converting enzyme inhibitor
-created_by: jrsmith
-creation_date: 2018-05-14T18:34:03Z
-
-[Term]
-id: XCO:0000539
-name: doxorubicin
-def: "An experimental condition in which the main influencing factor is doxorubicin, a cytotoxic anthracycline antibiotic isolated from cultures of Streptomyces peucetius var. caesius and used as a chemotherapy medication. Doxorubicin binds to nucleic acids, presumably by specific intercalation of the planar anthracycline nucleus with the DNA double helix." [DrugBank:https\://www.drugbank.ca/drugs/DB00997, Wikipedia:https\://en.wikipedia.org/wiki/Doxorubicin]
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000482 ! antimicrobial agent
-created_by: jrsmith
-creation_date: 2018-05-15T15:54:18Z
-
-[Term]
-id: XCO:0000540
-name: delapril
-def: "An experimental condition in which the main influencing factor is delapril, an antihypertensive prodrug that, when converted to its active metabolites 5-hydroxy delapril diacid and delapril diacid, acts as an angiotensin-converting enzyme (ACE) inhibitor." [Wikipedia:https\://en.wikipedia.org/wiki/Delapril]
-is_a: XCO:0000524 ! angiotensin converting enzyme inhibitor
-created_by: jrsmith
-creation_date: 2018-05-15T15:58:32Z
-
-[Term]
-id: XCO:0000541
-name: bosentan
-def: "An experimental condition in which the main influencing factor is bosentan, a competitive antagonist of endothelin-1 that blocks the binding of endothelin to both the endothelin-A (ET-A) and endothelin-B (ET-B)receptors. Bosentan is used in the treatment of pulmonary arterial hypertension." [Website:https\://phassociation.org/patients/treatments/bosentan/, Wikipedia:https\://en.wikipedia.org/wiki/Bosentan]
-synonym: "bosentanum" RELATED []
-synonym: "Tracleer" RELATED []
-is_a: XCO:0000160 ! receptor antagonist
-created_by: jrsmith
-creation_date: 2018-05-15T16:06:25Z
-
-[Term]
-id: XCO:0000542
-name: enalapril
-def: "An experimental condition in which the main influencing factor is enalapril, a prodrug that is rapidly metabolized in the liver to enalaprilat, a potent, competitive inhibitor of angiotensin-converting enzyme (ACE)." [Wikipedia:https\://en.wikipedia.org/wiki/Enalapril]
-synonym: "Enacard" RELATED []
-synonym: "Renitec" RELATED []
-synonym: "Vasotec" RELATED []
-is_a: XCO:0000524 ! angiotensin converting enzyme inhibitor
-created_by: jrsmith
-creation_date: 2018-05-15T16:09:53Z
-
-[Term]
-id: XCO:0000543
-name: vitamin D
-def: "An experimental condition in which the main influencing factor is one or more closely related forms (vitamers) of vitamin D, a group of fat-soluble secosteroid vitamins (when ingested from dietary sources) and/or hormones (when produced by the skin in response to ultraviolet radiation). Vitamin D is involved in intestinal absorption of calcium, magnesium and phosphate, and in calcium homeostasis and metabolism." [Wikipedia:https\://en.wikipedia.org/wiki/Vitamin_D]
-is_a: XCO:0000377 ! vitamin
-created_by: jrsmith
-creation_date: 2018-05-15T16:17:43Z
-
-[Term]
-id: XCO:0000544
-name: vitamin D2
-def: "An experimental condition in which the main influencing factor is vitamin D2, a type of vitamin D found in food and used as a dietary supplement. The D2 vitamer has been found to be less efficiently absorbed in the human intestine and/or less biologically active than the D3 vitamer." [PMID:22552031, Wikipedia:https\://en.wikipedia.org/wiki/Ergocalciferol]
-synonym: "Calcidol" RELATED []
-synonym: "calciferol" EXACT []
-synonym: "Drisdol" RELATED []
-synonym: "ergocalciferol" EXACT []
-is_a: XCO:0000543 ! vitamin D
-created_by: jrsmith
-creation_date: 2018-05-15T16:22:22Z
-
-[Term]
-id: XCO:0000545
-name: vitamin D3
-def: "An experimental condition in which the main influencing factor is vitamin D3, a form of vitamin D which is naturally synthesized in the skin of animals by the action of ultraviolet B (UVB) radiation on 7-dehydrocholesterol. Vitamin D3 is also found in some foods and can be used as a dietary supplement.  The D3 vitamer has been found to be more efficiently absorbed in the human intestine and/or more biologically active than the D2 vitamer." [PMID:22552031, Wikipedia:https\://en.wikipedia.org/wiki/Cholecalciferol]
-synonym: "cholecalciferol" EXACT []
-synonym: "colecalciferol" EXACT []
-is_a: XCO:0000543 ! vitamin D
-created_by: jrsmith
-creation_date: 2018-05-15T16:35:39Z
-
-[Term]
-id: XCO:0000546
-name: vitamin analog
-def: "An experimental condition in which the main influencing factor is a compound with structural and/or functional similarity to a vitamin and can therefore be substituted for the analogous vitamin." [Wikipedia:https\://en.wikipedia.org/wiki/Analog]
-synonym: "vitamin analogue" EXACT []
-is_a: XCO:0000377 ! vitamin
-created_by: jrsmith
-creation_date: 2018-05-15T16:41:42Z
-
-[Term]
-id: XCO:0000547
-name: paricalcitol
-def: "An experimental condition in which the main influencing factor is paricalcitol, an analog of vitamin D2 used for the prevention and treatment of secondary hyperparathyroidism." [Wikipedia:https\://en.wikipedia.org/wiki/Paricalcitol]
-synonym: "19-nor-1,25-(OH)2-vitamin D2" EXACT []
-synonym: "Zemplar" RELATED []
-is_a: XCO:0000546 ! vitamin analog
-created_by: jrsmith
-creation_date: 2018-05-15T16:44:29Z
-
-[Term]
-id: XCO:0000548
-name: ramipril
-def: "An experimental condition in which the main influencing factor is ramipril, a prodrug that is metabolized in the liver to ramiprilat, a potent, competitive inhibitor of angiotensin-converting enzyme (ACE)." [DrugBank:https\://www.drugbank.ca/drugs/DB00178]
-synonym: "Altace" RELATED []
-is_a: XCO:0000524 ! angiotensin converting enzyme inhibitor
-created_by: jrsmith
-creation_date: 2018-05-15T16:51:40Z
-
-[Term]
-id: XCO:0000549
-name: left anterior descending coronary artery occlusion
-def: "A surgical manipulation causing blockage of the left anterior descending coronary artery, the artery supplying blood to approximately half of the left ventricle of the heart including the anterolateral myocardium, apex, and interventricular septum." [Wikipedia:https\://en.wikipedia.org/wiki/Anterior_interventricular_branch_of_left_coronary_artery]
-synonym: "LAD blockage" RELATED []
-synonym: "LAD occlusion" RELATED []
-synonym: "widow maker occlusion" RELATED []
-is_a: XCO:0000347 ! blood vessel occlusion
-created_by: jrsmith
-creation_date: 2018-05-15T16:57:52Z
-
-[Term]
-id: XCO:0000550
-name: reserpine
-def: "An experimental condition in which the main influencing factor is reserpine, an indole alkaloid which irreversibly blocks the vesicular monoamine transporters (VMATs), SLC18A1 and SLC18A2. Reserpine has been used as both an antihypertensive drug and an antipsychotic drug." [DrugBank:https\://www.drugbank.ca/drugs/DB00206, PMID:7905859, Wikipedia:https\://en.wikipedia.org/wiki/Reserpine]
-is_a: XCO:0000120 ! inhibitor
-created_by: jrsmith
-creation_date: 2018-05-15T17:19:06Z
-
-[Term]
-id: XCO:0000551
-name: hydralazine
-def: "An experimental condition in which the main influencing factor is hydralazine, a vasodilator that appears to have multiple, direct effects on smooth muscles of the arterial vessels, thereby reducing systemic vascular resistance and arterial pressure." [DrugBank:https\://www.drugbank.ca/drugs/DB01275, Website:http\://cvpharmacology.com/vasodilator/direct]
-is_a: XCO:0000140 ! vasodilator
-created_by: jrsmith
-creation_date: 2018-05-15T17:22:47Z
-
-[Term]
-id: XCO:0000552
-name: hydrochlorothiazide
-def: "An experimental condition in which the main influencing factor is hydrochlorothiazide, a thiazide diuretic that acts by reducing the reabsorption of electrolytes from the renal tubules, resulting in increased excretion of water and electrolytes, including sodium, potassium, chloride, and magnesium." [DrugBank:https\://www.drugbank.ca/drugs/DB00999]
-is_a: XCO:0000122 ! diuretic
-created_by: jrsmith
-creation_date: 2018-05-15T17:24:24Z
-
-[Term]
-id: XCO:0000553
-name: everolimus
-def: "An experimental condition in which the main influencing factor is everolimus, a mammalian target of rapamycin (mTOR) inhibitor which is selective for the mTORC1 protein complex, with little or no effect on mTORC2.  Everolimus is used as an antineoplastic and immunosuppressive agent." [Wikipedia:https\://en.wikipedia.org/wiki/Everolimus]
-xref: CHEBI:68478
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: jrsmith
-creation_date: 2018-05-31T13:41:07Z
 
 [Typedef]
 id: has_component

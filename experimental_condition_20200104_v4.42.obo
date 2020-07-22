@@ -1,9 +1,9 @@
 format-version: 1.2
-data-version: 4.20
-date: 04:06:2018 10:24
+data-version: 4.42
+date: 04:01:2020 20:13
 saved-by: jrsmith
-auto-generated-by: --RGD OBO FILE GENERATOR -- ver. 1.3.2 -- 2018-06-04 --
-default-namespace: Experimental Conditions. ontology
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2019-10-18 --
+default-namespace: experimental_condition_ontology
 ontology: xco
 
 [Term]
@@ -462,6 +462,7 @@ creation_date: 2009-12-17T01:53:58Z
 id: XCO:0000069
 name: standard diet
 is_a: XCO:0000019 ! solid diet
+is_a: XCO:0000099 ! control condition
 created_by: mshimoyama
 creation_date: 2009-12-17T01:56:44Z
 
@@ -1522,7 +1523,7 @@ synonym: "Arfonad" RELATED []
 synonym: "trimetaphan camsilate" EXACT []
 xref: CASRN:7187-66-8
 xref: CHEBI:9729
-is_a: XCO:0000160 ! receptor antagonist
+is_a: XCO:0000630 ! cholinergic antagonist
 created_by: JSmith
 creation_date: 2012-07-30T08:54:30Z
 
@@ -2290,7 +2291,7 @@ creation_date: 2013-03-11T15:53:57Z
 id: XCO:0000268
 name: balloon angioplasty
 def: "A technique of mechanically widening narrowed or obstructed arteries by use of a soft catheter with an inflatable tip." [Wikipedia:http\://en.wikipedia.org/wiki/Balloon_angioplasty]
-is_a: XCO:0000165 ! surgical manipulation
+is_a: XCO:0000595 ! surgical manipulation of blood vessels
 created_by: JSmith
 creation_date: 2013-03-11T16:14:44Z
 
@@ -3083,7 +3084,7 @@ creation_date: 2013-09-20T16:27:41Z
 id: XCO:0000347
 name: blood vessel occlusion
 def: "A surgical manipulation causing blockage of a blood vessel, any one of the network of muscular tubes that carry blood through the body." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
-is_a: XCO:0000165 ! surgical manipulation
+is_a: XCO:0000595 ! surgical manipulation of blood vessels
 created_by: JSmith
 creation_date: 2013-11-11T10:32:17Z
 
@@ -3212,6 +3213,7 @@ id: XCO:0000360
 name: arterial catheter implantation
 def: "The insertion of a tubular, flexible surgical instrument into an artery to withdraw or introduce fluid. An artery is a vessel in which blood flows away from the heart." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000027 ! surgical implantation
+is_a: XCO:0000595 ! surgical manipulation of blood vessels
 created_by: JSmith
 creation_date: 2013-12-20T12:41:32Z
 
@@ -3305,6 +3307,7 @@ name: dexamethasone
 def: "A condition in which the main influencing factor is dexamethasone, a long-acting synthetic adrenocorticoid, analogous to but more potent than cortisol (a natural hormone produced by the adrenal glands), with anti-inflammatory and immunosuppressant activities." [Mosby:Mosbys_Medical_Dictionary--8th_Ed, Website:http\://www.nlm.nih.gov/medlineplus/druginfo/meds/a682792.html, Wikipedia:http\://en.wikipedia.org/wiki/Dexamethasone]
 is_a: XCO:0000091 ! steroid
 is_a: XCO:0000435 ! antineoplastic agent
+is_a: XCO:0000636 ! immunosuppressive agent 
 created_by: JSmith
 creation_date: 2014-01-09T13:51:38Z
 
@@ -5060,6 +5063,923 @@ is_a: XCO:0000435 ! antineoplastic agent
 is_a: XCO:0000523 ! enzyme inhibitor
 created_by: jrsmith
 creation_date: 2018-05-31T13:41:07Z
+
+[Term]
+id: XCO:0000554
+name: controlled phosphorus content diet
+def: "A regimen of solid food in which the amount of phosphorus consumed is controlled." []
+is_a: XCO:0000014 ! controlled content diet
+created_by: sjwang
+creation_date: 2018-11-14T15:58:10Z
+
+[Term]
+id: XCO:0000555
+name: controlled lisinopril content drinking water
+def: "A drink made up of water and a specified amount of lisinopril consumed by an organism as part of an experiment." []
+is_a: XCO:0000163 ! controlled content drinking water
+is_a: XCO:0000535 ! lisinopril
+created_by: sjwang
+creation_date: 2018-11-14T16:04:27Z
+
+[Term]
+id: XCO:0000556
+name: amino monosaccharide
+def: "Any amino sugar that is a monosaccharide in which one alcoholic hydroxy group is replaced by an amino group." []
+synonym: "CHEBI:60926" EXACT []
+is_a: XCO:0000274 ! monosaccharide
+created_by: sjwang
+creation_date: 2018-11-16T10:50:55Z
+
+[Term]
+id: XCO:0000557
+name: glucosamine
+def: "Glucosamine, commonly used as a treatment for osteoarthritis, is an amino sugar and a prominent precursor in the biochemical synthesis of glycosylated proteins and lipids. Since glucosamine is a precursor for glycosaminoglycans, and glycosaminoglycans are a major component of joint cartilage, supplemental glucosamine may help to rebuild cartilage and treat arthritis." [Drugbank:https\://www.drugbank.ca/drugs/DB01296]
+synonym: "2-amino-2-deoxyglucose" EXACT []
+is_a: XCO:0000556 ! amino monosaccharide
+created_by: sjwang
+creation_date: 2018-11-16T10:55:31Z
+
+[Term]
+id: XCO:0000558
+name: taxifolin
+def: "Taxifolin is an intermediate between flavonols and flavanolignins beloning to a class of anti-inflammatory agents that are non-steroidal in nature." []
+synonym: "catechin hydrate" EXACT []
+synonym: "CHEBI:38747" EXACT []
+synonym: "dihydroquercetin" EXACT []
+synonym: "Distylin" EXACT []
+synonym: "Taxifoliol" EXACT []
+is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
+created_by: sjwang
+creation_date: 2018-11-16T11:03:16Z
+
+[Term]
+id: XCO:0000559
+name: melatonin
+def: "A biogenic amine that is found in animals and plants. In mammals, melatonin is a hormone produced by the pineal gland. Its secretion increases in darkness and decreases during exposure to light. Melatonin is implicated in the regulation of sleep, mood, and reproduction. Melatonin is also an effective antioxidant." [Drug Information Portal:https\://druginfo.nlm.nih.gov/drugportal/name/melatonin, MESH:https\://meshb.nlm.nih.gov/record/ui?ui=D008550]
+synonym: "CHEBI:16796" EXACT []
+is_a: XCO:0000125 ! hormone
+is_a: XCO:0000271 ! antioxidant
+created_by: sjwang
+creation_date: 2018-11-19T14:33:05Z
+
+[Term]
+id: XCO:0000560
+name: controlled melatonin content diet 
+def: "A solid diet in which the amount of melatonin is maintained at a specified level." []
+is_a: XCO:0000559 ! melatonin
+created_by: sjwang
+creation_date: 2018-11-19T14:48:04Z
+
+[Term]
+id: XCO:0000561
+name: antidepressant
+def: "Antidepressants are mood-stimulating drugs used primarily in the treatment of affective disorders and related conditions." []
+is_a: XCO:0000341 ! chemical with specified function
+created_by: sjwang
+creation_date: 2018-11-21T09:51:04Z
+
+[Term]
+id: XCO:0000562
+name: salidroside
+def: "A glucoside of tyrosol found in the plant Rhodiola rosea. It is thought to be one of the compounds responsible for the antidepressant and anxiolytic actions of this plant." [Drug Information Portal:https\://druginfo.nlm.nih.gov/drugportal/name/salidroside]
+synonym: "Rhodioloside" EXACT []
+is_a: XCO:0000561 ! antidepressant
+created_by: sjwang
+creation_date: 2018-11-21T09:53:27Z
+
+[Term]
+id: XCO:0000563
+name: Omacor
+def: "OMACOR is a prescription medicine for adults called a lipid-regulating medicine. It is a mix of docosahexaenoic acid [DHA] (~ 50%) + eicosapentaenoic acid [EPA] (~40%) ethylesters." [Medline Plus:http\\://www.nlm.nih.gov/medlineplus/]
+synonym: "Omega-3 Acid Ethyl Esters" EXACT []
+is_a: XCO:0000511 ! ester
+created_by: sjwang
+creation_date: 2018-11-27T13:04:58Z
+
+[Term]
+id: XCO:0000564
+name: meclofenamate
+def: "A member of the anthranilic acid derivatives class of NSAID drug used for joint, muscular pain, arthritis and dysmenorrhea." [Wikipedia:https\://en.wikipedia.org/wiki/Meclofenamic_acid]
+is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
+created_by: sjwang
+creation_date: 2018-11-27T14:31:01Z
+
+[Term]
+id: XCO:0000565
+name: ipragliflozin
+def: "A pharmaceutical drug for treatment of type 2 diabetes. Ipragliflozin reduces blood glucose levels by inhibiting the reuptake of glucose by selectively inhibiting SGLT2." [Wikipedia:https\://en.wikipedia.org/wiki/Ipragliflozin]
+is_a: XCO:0000407 ! hypoglycemic agent
+created_by: sjwang
+creation_date: 2018-11-30T14:59:25Z
+
+[Term]
+id: XCO:0000566
+name: controlled ipragliflozin content diet
+def: "A solid diet in which the amount of ipragliflozin, an oral antidiabetic drug, is maintained at a specified level." []
+is_a: XCO:0000014 ! controlled content diet
+is_a: XCO:0000565 ! ipragliflozin
+created_by: sjwang
+creation_date: 2018-11-30T15:02:35Z
+
+[Term]
+id: XCO:0000567
+name: adrenomedulin
+is_a: XCO:0000140 ! vasodilator
+is_a: XCO:0000228 ! peptide hormone
+created_by: sjwang
+creation_date: 2018-12-05T14:02:20Z
+
+[Term]
+id: XCO:0000568
+name: hydralazine hydrochloride
+def: "A vasodilator and an antioxidant. It relaxes arteries and inhibits membrane-bound enzymes that form reactive oxygen species, such as superoxides." []
+is_a: XCO:0000140 ! vasodilator
+is_a: XCO:0000271 ! antioxidant
+created_by: sjwang
+creation_date: 2018-12-05T14:06:11Z
+
+[Term]
+id: XCO:0000569
+name: controlled hydralazine hydrochloride content drinking water
+is_a: XCO:0000163 ! controlled content drinking water
+is_a: XCO:0000568 ! hydralazine hydrochloride
+created_by: sjwang
+creation_date: 2018-12-05T14:21:28Z
+
+[Term]
+id: XCO:0000570
+name: tolvaptan
+def: "A selective and competitive arginine vasopressin receptor 2 antagonist." []
+is_a: XCO:0000160 ! receptor antagonist
+created_by: sjwang
+creation_date: 2018-12-05T14:25:32Z
+
+[Term]
+id: XCO:0000571
+name: controlled tolvaptan content diet
+is_a: XCO:0000014 ! controlled content diet
+is_a: XCO:0000570 ! tolvaptan
+created_by: sjwang
+creation_date: 2018-12-05T14:27:59Z
+
+[Term]
+id: XCO:0000572
+name: vancomycin
+def: "A complex glycopeptide from Streptomyces orientalis. It inhibits a specific step in the synthesis of the peptidoglycan layer in the Gram-positive bacteria Staphylococcus aureus and Clostridium difficile." []
+synonym: "CHEBI:28001" EXACT []
+is_a: XCO:0000483 ! antibacterial agent
+created_by: sjwang
+creation_date: 2018-12-05T14:37:41Z
+
+[Term]
+id: XCO:0000573
+name: null
+is_obsolete: true
+created_by: sjwang
+creation_date: 2018-12-05T14:41:59Z
+
+[Term]
+id: XCO:0000574
+name: controlled vancomycin content drinking water
+is_a: XCO:0000163 ! controlled content drinking water
+is_a: XCO:0000572 ! vancomycin
+created_by: sjwang
+creation_date: 2018-12-05T14:42:50Z
+
+[Term]
+id: XCO:0000575
+name: meropenem
+def: "Meropenem is a broad-spectrum antibiotic used to treat a variety of bacterial infections.[" [Wikipedia:https\://en.wikipedia.org/wiki/Meropenem]
+is_a: XCO:0000483 ! antibacterial agent
+created_by: sjwang
+creation_date: 2018-12-05T15:07:54Z
+
+[Term]
+id: XCO:0000576
+name: controlled meropenem content drinking water
+is_a: XCO:0000163 ! controlled content drinking water
+is_a: XCO:0000575 ! meropenem
+created_by: sjwang
+creation_date: 2018-12-05T15:12:42Z
+
+[Term]
+id: XCO:0000577
+name: proton pump inhibitor
+def: "Proton pump inhibitors (PPIs) reduce the production of acid by blocking H+/K+ ATPase in the wall of the stomach." []
+synonym: "Synonym: PPI" EXACT []
+is_a: XCO:0000523 ! enzyme inhibitor
+created_by: sjwang
+creation_date: 2018-12-05T15:17:00Z
+
+[Term]
+id: XCO:0000578
+name: omeprazole
+def: "A highly effective inhibitor of gastric acid secretion used in the therapy of stomach ulcers and Zollinger-Ellison syndrome." []
+is_a: XCO:0000577 ! proton pump inhibitor
+created_by: sjwang
+creation_date: 2018-12-05T15:19:50Z
+
+[Term]
+id: XCO:0000579
+name: controlled in situ gastrointestinal condition
+def: "Any experimental condition in which the internal or external environment of the gastrointestinal system is altered." []
+is_a: XCO:0000166 ! controlled in situ organ condition
+created_by: sjwang
+creation_date: 2018-12-05T15:24:01Z
+
+[Term]
+id: XCO:0000580
+name: forced feeding
+def: "The administration of food or drugs by force, especially to an animal, typically through a tube leading down the throat to the stomach." []
+is_a: XCO:0000013 ! diet
+created_by: sjwang
+creation_date: 2018-12-05T15:43:29Z
+
+[Term]
+id: XCO:0000581
+name: oral gavage
+def: "Introduction of material, foods or drugs into the stomach by a tube via the oral cavity." []
+is_a: XCO:0000580 ! forced feeding
+created_by: sjwang
+creation_date: 2018-12-05T15:45:21Z
+
+[Term]
+id: XCO:0000582
+name: controlled content oral gavage
+def: "Oral gavage in which the amount of one or more solutes are adjusted to a requirement." []
+is_a: XCO:0000581 ! oral gavage
+created_by: sjwang
+creation_date: 2018-12-05T15:49:29Z
+
+[Term]
+id: XCO:0000583
+name: controlled omeprazole content  oral gavage
+def: "An oral gavage solution made up of solvent and a specified amount of omeprazole." []
+is_a: XCO:0000578 ! omeprazole
+is_a: XCO:0000582 ! controlled content oral gavage
+created_by: sjwang
+creation_date: 2018-12-05T15:51:33Z
+
+[Term]
+id: XCO:0000584
+name: controlled cecal material content oral gavage
+def: "An oral gavage delivery made up of a specified amount of harvested cecal material." []
+is_a: XCO:0000582 ! controlled content oral gavage
+created_by: sjwang
+creation_date: 2018-12-05T15:55:37Z
+
+[Term]
+id: XCO:0000585
+name: scrambled control oligodeoxynucleotide
+def: "A control oligonucleotide with a non-specific scrambled sequence." []
+synonym: "scrambled control ODN" RELATED []
+synonym: "SCR ODN" RELATED []
+is_a: XCO:0000234 ! deoxyribonucleic acid
+created_by: sjwang
+creation_date: 2018-12-06T15:58:27Z
+
+[Term]
+id: XCO:0000586
+name: Gnai2 antisense oligonucleotide
+synonym: "G&#945;i2 ODN" RELATED []
+synonym: "G&#945;i2 oligodeoxynucleotide" RELATED []
+synonym: "Gnai2 antisense oligodeoxynucleotide" RELATED []
+synonym: "Gnai2 AS-ODN" RELATED []
+synonym: "Gnai2 ODN" EXACT []
+is_a: XCO:0000234 ! deoxyribonucleic acid
+created_by: sjwang
+creation_date: 2018-12-06T16:40:39Z
+
+[Term]
+id: XCO:0000587
+name: intracerebroventricular cannula implantation
+def: "Stereotaxic implant with a stainless steel cannula into a cerebral ventricle, which can be connected via silastic tubing to a miniosmotic pump for chronic infusion." [PMID:PMID\:25312437]
+synonym: "i.c.v. cannula implantation" RELATED []
+is_a: XCO:0000027 ! surgical implantation
+created_by: sjwang
+creation_date: 2018-12-06T16:45:37Z
+
+[Term]
+id: XCO:0000588
+name: Perindopril
+def: "Perindopril is a nonsulfhydryl prodrug that belongs to the angiotensin-converting enzyme (ACE) inhibitor class of medications. It is rapidly metabolized in the liver to perindoprilat, a potent, competitive inhibitor of ACE." [Drugbank:https\://www.drugbank.ca/drugs/DB00790]
+synonym: "CHEBI:8024" EXACT []
+is_a: XCO:0000524 ! angiotensin converting enzyme inhibitor
+created_by: sjwang
+creation_date: 2018-12-07T15:47:47Z
+
+[Term]
+id: XCO:0000589
+name: Moexipril
+def: "A non-sulfhydryl-containing precursor of the active angiotensin-converting enzyme (ACE) inhibitor Moexiprilat. It is a vasodilatory antihypertensive drug." []
+is_a: XCO:0000524 ! angiotensin converting enzyme inhibitor
+created_by: sjwang
+creation_date: 2018-12-07T16:00:47Z
+
+[Term]
+id: XCO:0000590
+name: icatibant
+def: "A synthetic decapeptide that is a bradykinin receptor antagonist used for the treatment of hereditary angioedema." []
+is_a: XCO:0000160 ! receptor antagonist
+created_by: sjwang
+creation_date: 2018-12-07T16:19:30Z
+
+[Term]
+id: XCO:0000591
+name: quinapril
+def: "A prodrug that is metabolized to quinaprilat (quinapril diacid), a competitive inhibitor of angiotensin-converting enzyme (ACE)." []
+is_a: XCO:0000524 ! angiotensin converting enzyme inhibitor
+created_by: sjwang
+creation_date: 2018-12-07T16:22:09Z
+
+[Term]
+id: XCO:0000592
+name: cilazapril
+def: "A prodrug that is hydrolyzed to its main metabolite cilazaprilat, an inhibitor of angiotensin-converting enzyme (ACE)." []
+synonym: "Dynorm" EXACT []
+synonym: "Inhibace" EXACT []
+synonym: "Vascace" EXACT []
+is_a: XCO:0000524 ! angiotensin converting enzyme inhibitor
+created_by: sjwang
+creation_date: 2018-12-20T15:23:56Z
+
+[Term]
+id: XCO:0000593
+name: puromycin aminonucleoside
+def: "The aminonucleoside portion of the antibiotic puromycin. NOTE: This molecule does not induce apoptosis and does not inhibit protein synthesis." []
+synonym: "3'-Amino-3'-deoxy-N6,N6-dimethyladenosine" EXACT []
+is_a: XCO:0000392 ! nucleoside/nucleotide
+created_by: sjwang
+creation_date: 2018-12-27T10:28:04Z
+
+[Term]
+id: XCO:0000594
+name: saralasin
+def: "A partial angiotensin II receptor agonist which is used as an antihypertensive agent." []
+synonym: "CHEBI:135894" EXACT []
+synonym: "Sar-Arg-Val-Tyr-Val-His-Pro-Ala" EXACT []
+is_a: XCO:0000536 ! angiotensin II receptor antagonist
+created_by: sjwang
+creation_date: 2018-12-27T13:23:15Z
+
+[Term]
+id: XCO:0000595
+name: surgical manipulation of blood vessels
+is_a: XCO:0000165 ! surgical manipulation
+created_by: sjwang
+creation_date: 2018-12-27T14:59:42Z
+
+[Term]
+id: XCO:0000596
+name: blood vessel coarctation
+def: "A surgical narrowing of the lumen of a blood vessel." []
+is_a: XCO:0000595 ! surgical manipulation of blood vessels
+created_by: sjwang
+creation_date: 2018-12-27T15:05:18Z
+
+[Term]
+id: XCO:0000597
+name: abdominal aorta coarctation
+def: "A surgical narrowing of the lumen of the abdominal aorta." []
+synonym: "AAC" EXACT []
+is_a: XCO:0000596 ! blood vessel coarctation
+created_by: sjwang
+creation_date: 2018-12-27T15:08:06Z
+
+[Term]
+id: XCO:0000598
+name: thoracic aorta coarctation
+def: "A surgical narrowing of the lumen of the thoracic aorta." []
+synonym: "TAC" EXACT []
+is_a: XCO:0000596 ! blood vessel coarctation
+created_by: sjwang
+creation_date: 2018-12-27T15:10:16Z
+
+[Term]
+id: XCO:0000599
+name: Aldosterone
+def: "A pregnane-based steroidal hormone produced by the outer-section (zona glomerulosa) of the adrenal cortex in the adrenal gland, and acts on the distal tubules and collecting ducts of the kidney to cause the conservation of sodium, secretion of potassium, increased water retention, and increased blood pressure." []
+synonym: "CHEBI:27584" EXACT []
+is_a: XCO:0000229 ! steroid hormone
+created_by: sjwang
+creation_date: 2018-12-27T15:39:58Z
+
+[Term]
+id: XCO:0000600
+name: 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD)
+def: "A polychlorinated dibenzodioxine that has formula C12H4Cl4O2." []
+synonym: "CHEBI:28119" EXACT []
+is_a: XCO:0000135 ! receptor agonist
+created_by: sjwang
+creation_date: 2019-01-21T12:54:07Z
+
+[Term]
+id: XCO:0000601
+name: gene transfer of the rat natriuretic peptide B gene using an adenovirus vector
+def: "The transient transfer of a recombinant adenovirus containing a copy of the rat natriuretic peptide B gene." []
+synonym: "gene transfer of adenovirus-NPPB" EXACT []
+synonym: "gene transfer of the rat BNP gene using an adenovirus vector" EXACT []
+synonym: "gene transfer of the rat Nppb gene using an adenovirus vector" EXACT []
+is_a: XCO:0000529 ! gene transfer using adenovirus vector
+created_by: sjwang
+creation_date: 2019-01-22T13:43:52Z
+
+[Term]
+id: XCO:0000602
+name: rosiglitazone
+def: "A peroxisome proliferator-activated receptor gamma agonist; reduces lipid availability, improves insulin action & glucoregulation" [Drug Information Portal:https\://druginfo.nlm.nih.gov/drugportal/name/rosiglitazone]
+synonym: "CHEBI:50122" EXACT []
+is_a: XCO:0000135 ! receptor agonist
+is_a: XCO:0000407 ! hypoglycemic agent
+created_by: sjwang
+creation_date: 2019-01-22T13:55:58Z
+
+[Term]
+id: XCO:0000603
+name: hesperetin
+def: "Hesperetin belongs to the flavanone class of flavonoids. Hesperetin, in the form of its glycoside Hesperidin, is the predominant flavonoid in lemons and oranges." [Drugbank:https\://www.drugbank.ca/drugs/DB01094]
+synonym: "CHEBI:28230" EXACT []
+is_a: XCO:0000470 ! flavonoid
+created_by: sjwang
+creation_date: 2019-01-22T14:38:41Z
+
+[Term]
+id: XCO:0000604
+name: Aprotinin
+def: "Aprotinin, also known as bovine pancreatic trypsin inhibitor, BPTI (Trasylol, Bayer) is a protein, that is used as medication administered by injection to reduce bleeding during complex surgery, such as heart and liver surgery." [Drugbank:https\://www.drugbank.ca/drugs/DB06692]
+is_a: XCO:0000523 ! enzyme inhibitor
+created_by: sjwang
+creation_date: 2019-02-15T16:27:32Z
+
+[Term]
+id: XCO:0000605
+name: aflatoxin B1 
+def: "An aflatoxin having a tetrahydrocyclopenta[c]furo[3',2':4,5]furo[2,3-h]chromene skeleton with oxygen functionality at positions 1, 4 and 11." [CHEBI:CHEBI\:2504]
+is_a: XCO:0000240 ! toxin
+created_by: sjwang
+creation_date: 2019-02-26T11:26:05Z
+
+[Term]
+id: XCO:0000606
+name: AMG-8718
+def: "AMG-8718 is the inhibitor of &#946;-site amyloid precursor protein cleaving enzyme (BACE1)." [PMID:25363711]
+is_a: XCO:0000523 ! enzyme inhibitor
+created_by: sjwang
+creation_date: 2019-03-18T16:27:59Z
+
+[Term]
+id: XCO:0000607
+name: acetic acid
+def: "Product of the oxidation of ethanol and of the destructive distillation of wood. Acetic acid is used locally, occasionally internally, as a counterirritant and also as a reagent." [CHEBI:CHEBI\: 15366, Stedman:Stedmans_Medical_Dictionary 26th ed]
+is_a: XCO:0000088 ! chemical
+created_by: sjwang
+creation_date: 2019-03-19T17:06:26Z
+
+[Term]
+id: XCO:0000608
+name: Allyl isothiocyanate
+def: "An isothiocyanate with the formula CH2=CHCH2N=C=S. A colorless oil with boiling point 152degreeC, it is responsible for the pungent taste of mustard, horseradish, and wasabi." [CHEBI:CHEBI\:73224]
+synonym: "CHEBI:73224" EXACT []
+synonym: "mustard oil" RELATED []
+synonym: "Pubchem: 5971" EXACT []
+is_a: XCO:0000482 ! antimicrobial agent
+created_by: sjwang
+creation_date: 2019-03-27T15:27:46Z
+
+[Term]
+id: XCO:0000609
+name: 4-methyl-2-(piperidin-1-yl) quinoline
+def: "A potent and selective blocker of TRPC4 channels." [PMID:24388923]
+synonym: "ML-204" EXACT []
+synonym: "Pubchem: 230710" EXACT []
+is_a: XCO:0000222 ! cation channel inhibitor
+created_by: sjwang
+creation_date: 2019-03-27T15:43:10Z
+
+[Term]
+id: XCO:0000610
+name: morphine
+def: "A morphinane alkaloid that is a highly potent opiate analgesic psychoactive drug. Morphine acts directly on the central nervous system (CNS) to relieve pain but has a high potential for addiction, with tolerance and both physical and psychological dependence developing rapidly. Morphine is the most abundant opiate found in Papaver somniferum (the opium poppy)." [CHEBI:CHEBI\:17303]
+synonym: "CHEBI:17303" EXACT []
+synonym: "Pubchem: 5288826" EXACT []
+is_a: XCO:0000106 ! anesthetic/analgesic
+created_by: sjwang
+creation_date: 2019-03-27T15:52:55Z
+
+[Term]
+id: XCO:0000611
+name: nifedipine 
+def: "Nifedipine is a potent vasodilator agent with calcium antagonistic action. It is a useful anti-anginal agent that also lowers blood pressure." [MESH:https\://meshb.nlm.nih.gov/record/ui?ui=D009543]
+synonym: "CHEBI:7565" EXACT []
+synonym: "Pubchem: 4485" EXACT []
+is_a: XCO:0000269 ! calcium channel inhibitor
+created_by: sjwang
+creation_date: 2019-04-22T16:41:50Z
+
+[Term]
+id: XCO:0000612
+name: Endothelin-1
+def: "Endothelin-1 is a 21-amino acid peptide produced in a variety of tissues including endothelial and vascular smooth-muscle cells, neurons and astrocytes in the central nervous system, and endometrial cells. It acts as a modulator of vasomotor tone, cell proliferation, and hormone production." [PMID:PMID\: 7609754]
+synonym: "CHEBI:80240 Endothelin-1" EXACT []
+synonym: "Pubchem: 16212950" EXACT []
+is_a: XCO:0000193 ! peptide/protein
+created_by: sjwang
+creation_date: 2019-05-08T14:50:29Z
+
+[Term]
+id: XCO:0000613
+name: Adenosine triphosphate
+def: "Adenosine Triphosphate (ATP) is an adenine nucleotide comprised of three phosphate groups esterified to the sugar moiety, found in all living cells. Adenosine triphosphate is involved in energy production for metabolic processes and RNA synthesis. In addition, this substance acts as a neurotransmitter. In cancer studies, adenosine triphosphate is synthesized to examine its use to decrease weight loss and improve muscle strength." [NIH Thesaurus:https\://ncit.nci.nih.gov/ncitbrowser/]
+synonym: "CHEBI:15422" EXACT []
+synonym: "Pubchem: 5957" EXACT []
+is_a: XCO:0000392 ! nucleoside/nucleotide
+created_by: sjwang
+creation_date: 2019-05-08T15:10:50Z
+
+[Term]
+id: XCO:0000614
+name: rolipram
+def: "A phosphodiesterase 4 inhibitor with antidepressant properties." [MESH:https\://www.ncbi.nlm.nih.gov/mesh/68020889]
+synonym: "CHEBI:104872" EXACT []
+is_a: XCO:0000523 ! enzyme inhibitor
+created_by: sjwang
+creation_date: 2019-05-22T13:50:17Z
+
+[Term]
+id: XCO:0000615
+name: Embolism injection at middle cerebral artery
+def: "Injection of coagulated blood clot to middle cerebral artery to induced an embolic stroke model in animals." []
+is_a: XCO:0000347 ! blood vessel occlusion
+created_by: sjwang
+creation_date: 2019-05-22T14:06:17Z
+
+[Term]
+id: XCO:0000616
+name: verapamil
+def: "Verapamil is a calcium channel blocker that is a class IV anti-arrhythmia agent." [MESH:https\://www.ncbi.nlm.nih.gov/mesh?Db=mesh&Cmd=DetailsSearch&Term=%22Verapamil%22%5BMeSH+Terms%5D]
+synonym: "CHEBI:9948" EXACT []
+synonym: "Pubchem: 2520" EXACT []
+is_a: XCO:0000269 ! calcium channel inhibitor
+created_by: sjwang
+creation_date: 2019-05-23T14:15:07Z
+
+[Term]
+id: XCO:0000617
+name: quinidine
+def: "Quinidine sulfate is an optical isomer of quinine, extracted from the bark of the CHINCHONA tree and similar plant species. This alkaloid dampens the excitability of cardiac and skeletal muscles by blocking sodium and potassium currents across cellular membranes. It prolongs cellular ACTION POTENTIALS, and decreases automaticity. Quinidine also blocks muscarinic and alpha-adrenergic neurotransmission." [MESH:https\://www.ncbi.nlm.nih.gov/mesh/68011802]
+synonym: "CHEBI:28593" EXACT []
+synonym: "Pubchem: 5953" EXACT []
+is_a: XCO:0000618 ! sodium channel inhibitor
+created_by: sjwang
+creation_date: 2019-05-23T14:24:09Z
+
+[Term]
+id: XCO:0000618
+name: sodium channel inhibitor
+def: "A class of drugs that act by inhibition of sodium influx through cell membranes. Blockade of sodium channels slows the rate and amplitude of initial rapid depolarization, reduces cell excitability, and reduces conduction velocity." [Drugbank:https\://www.drugbank.ca/categories/DBCAT000600]
+synonym: "Sodium Channel Blockers" EXACT []
+is_a: XCO:0000222 ! cation channel inhibitor
+created_by: sjwang
+creation_date: 2019-05-23T14:37:49Z
+
+[Term]
+id: XCO:0000619
+name: digoxin
+def: "A cardenolide glycoside that is digitoxin &#946;-hydroxylated at C-12. A cardiac glycoside extracted from the foxglove plant, Digitalis lanata, it is used to control ventricular rate in atrial fibrillation and in the management of congestive heart failure with atrial fibrillation, but the margin between toxic and therapeutic doses is small." []
+synonym: "CHEBI:4551" EXACT []
+synonym: "Pubchem:2724385" EXACT []
+is_a: XCO:0000139 ! vasoactive chemical
+created_by: sjwang
+creation_date: 2019-05-23T14:45:00Z
+
+[Term]
+id: XCO:0000620
+name: vinblastine
+def: "Vinblastine is a natural alkaloid isolated from the plant Vinca rosea Linn. Vinblastine binds to tubulin and inhibits microtubule formation, resulting in disruption of mitotic spindle assembly and arrest of tumor cells in the M phase of the cell cycle. This agent may also interfere with amino acid, cyclic AMP, and glutathione metabolism; calmodulin-dependent Ca++ -transport ATPase activity; cellular respiration; and nucleic acid and lipid biosynthesis." [NCI Thesaurus:https\://ncit-stage.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&code=C930&ns=ncit]
+synonym: "CHEBI:1322" EXACT []
+synonym: "Pubchem: 13342" EXACT []
+is_a: XCO:0000435 ! antineoplastic agent
+created_by: sjwang
+creation_date: 2019-05-23T15:08:50Z
+
+[Term]
+id: XCO:0000621
+name: tritiated verapamil
+def: "Verapamil hydrochloride, tritiated on the N-methyl group. Verapamil acts as a calcium channel blocker" []
+synonym: "[Nmethyl- 3H]verapamil hydrochloride" EXACT []
+is_a: XCO:0000171 ! radioactively labeled chemical
+is_a: XCO:0000616 ! verapamil
+created_by: sjwang
+creation_date: 2019-05-23T15:20:09Z
+
+[Term]
+id: XCO:0000622
+name: tritiated quinidine
+synonym: "p-3H]quinidine" EXACT []
+is_a: XCO:0000171 ! radioactively labeled chemical
+is_a: XCO:0000617 ! quinidine
+created_by: sjwang
+creation_date: 2019-05-23T15:28:31Z
+
+[Term]
+id: XCO:0000623
+name: tritiated digoxin
+synonym: "Digoxin, [3H(G)]-" EXACT []
+is_a: XCO:0000171 ! radioactively labeled chemical
+is_a: XCO:0000619 ! digoxin
+created_by: sjwang
+creation_date: 2019-05-23T15:34:38Z
+
+[Term]
+id: XCO:0000624
+name: thiobutabarbital
+def: "A short-acting barbiturate derivative invented in the 1950s. It has sedative, anticonvulsant and hypnotic effects, and is still used in veterinary medicine for induction in surgical anaesthesia." [Wikipedia:https\://en.wikipedia.org/wiki/Thiobutabarbital]
+synonym: "Brevinarcon" RELATED []
+synonym: "Inactin" RELATED []
+is_a: XCO:0000106 ! anesthetic/analgesic
+created_by: sjwang
+creation_date: 2019-07-17T10:08:35Z
+
+[Term]
+id: XCO:0000625
+name: urethane
+def: "Antineoplastic agent that is also used as a veterinary anesthetic." []
+synonym: "CHEBI:17967" EXACT []
+synonym: "MESH:D014520" EXACT []
+is_a: XCO:0000106 ! anesthetic/analgesic
+is_a: XCO:0000435 ! antineoplastic agent
+created_by: sjwang
+creation_date: 2019-07-17T10:12:04Z
+
+[Term]
+id: XCO:0000626
+name: removal of maxillary molar crown
+def: "Surgical removal of a maxillary molar crown at the gingival line." []
+is_a: XCO:0000026 ! surgical removal
+created_by: sjwang
+creation_date: 2019-07-17T10:22:31Z
+
+[Term]
+id: XCO:0000627
+name: spironolactone
+def: "Spironolactone is a potassium sparing diuretic like eplerenone that competitively inhibits mineralocorticoid receptors in the distal convoluted tubule to promote sodium and water excretion and potassium retention. Spironolactone was originally developed purely for this ability before other pharmacodynamic properties of the drug were discovered. It is indicated to treat a number of conditions including heart failure, deem, hyperaldosteronism, adrenal hyperplasia, hypertension, and nephrotic syndrome." [DRUGBANK:https\://www.drugbank.ca/drugs/DB00421]
+synonym: "CHEBI:9241" EXACT []
+synonym: "DB00421" EXACT []
+is_a: XCO:0000122 ! diuretic
+created_by: sjwang
+creation_date: 2019-07-24T14:33:14Z
+
+[Term]
+id: XCO:0000628
+name: Atorvastatin
+def: "Atorvastatin (Lipitor) is a member of the drug class known as statins. It is used for lowering cholesterol. Atorvastatin is a competitive inhibitor of hydroxymethylglutaryl-coenzyme A (HMG-CoA) reductase, the rate-determining enzyme in cholesterol biosynthesis via the mevalonate pathway. HMG-CoA reductase catalyzes the conversion of HMG-CoA to mevalonate. Atorvastatin acts primarily in the liver. Decreased hepatic cholesterol levels increases hepatic uptake of cholesterol and reduces plasma cholesterol levels." []
+synonym: "CHEBI:39548" EXACT []
+synonym: "Lipitor" RELATED []
+is_a: XCO:0000523 ! enzyme inhibitor
+created_by: sjwang
+creation_date: 2019-07-24T15:29:21Z
+
+[Term]
+id: XCO:0000629
+name: carbenoxolone
+def: "An agent derived from licorice root. It is used for the treatment of digestive tract ulcers, especially in the stomach. Antidiuretic side effects are frequent, but otherwise the drug is low in toxicity." []
+synonym: "MESH:D002229" EXACT []
+synonym: "pubchem: 636403" EXACT []
+is_a: XCO:0000279 ! terpene
+created_by: sjwang
+creation_date: 2019-07-24T16:11:51Z
+
+[Term]
+id: XCO:0000630
+name: cholinergic antagonist
+def: "Agents that bind to cholinoceptors (muscarinic or nicotinic) and prevent the effects of acetylcholine (ACh) and other cholinergic agonists." []
+is_a: XCO:0000160 ! receptor antagonist
+created_by: sjwang
+creation_date: 2019-07-30T14:47:58Z
+
+[Term]
+id: XCO:0000631
+name: atropine
+def: "A naturally occurring belladonna alkaloid, is a racemic mixture of equal parts of d- and l-hyoscyamine, whose activity is due almost entirely to the levo isomer of the drug. Atropine is commonly classified as an anticholinergic or antiparasympathetic (parasympatholytic) drug. More precisely, however, it is termed an antimuscarinic agent since it antagonizes the muscarine-like actions of acetylcholine and other choline esters." [DRUGBANK:https\://www.drugbank.ca/drugs/DB00572]
+synonym: "CHEBI:16684" EXACT []
+is_a: XCO:0000630 ! cholinergic antagonist
+created_by: sjwang
+creation_date: 2019-07-30T14:53:02Z
+
+[Term]
+id: XCO:0000632
+name: Saxagliptin
+def: "A monocarboxylic acid amide obtained by formal condensation of the carboxy group of (2S)-amino(3-hydroxyadamantan-1-yl)acetic acid with the amino group of (1S,3S,5S)-2-azabicyclo[3.1.0]hexane-3-carbonitrile. Used in its monohydrate form for the treatment of Type II diabetes. It belongs to the biological class EC 3.4.14.5 (dipeptidyl-peptidase IV) inhibitor ." []
+synonym: "CHEBI:71272" EXACT []
+is_a: XCO:0000523 ! enzyme inhibitor
+created_by: sjwang
+creation_date: 2019-07-30T14:58:42Z
+
+[Term]
+id: XCO:0000633
+name: hydrocortisone
+def: "Cortisol is a steroid hormone, in the glucocorticoid class of hormones. When used as a medication, it is known as hydrocortisone. It is produced in many animals mainly by the zona fasciculata of the adrenal cortex within the adrenal gland." [wikipedia:https\://en.wikipedia.org/wiki/Cortisol]
+synonym: "cortisol" RELATED []
+is_a: XCO:0000229 ! steroid hormone
+created_by: sjwang
+creation_date: 2019-07-30T16:03:10Z
+
+[Term]
+id: XCO:0000634
+name: antidiuretic
+def: "An antidiuretic is a substance that helps to control fluid balance in an animal's body by reducing urination, opposing diuresis. Its effects are opposite that of a diuretic." []
+is_a: XCO:0000341 ! chemical with specified function
+created_by: sjwang
+creation_date: 2019-07-30T16:16:56Z
+
+[Term]
+id: XCO:0000635
+name: polyfructosan
+def: "a A hormone cocktail designed to stabilize the circulating levels of the most important sodium-retaining and waterretaining hormones. It contained d-aldosterone (66 ng/kg per min), hydrocortisone (33 ng/kg per min), norepinephrine (333 ng/kg per min) and Arg8-vasopressin acetate (0.17 ng/kg per min)." [PMID:PMID\:15894899]
+is_a: XCO:0000634 ! antidiuretic
+created_by: sjwang
+creation_date: 2019-07-30T16:18:43Z
+
+[Term]
+id: XCO:0000636
+name: immunosuppressive agent 
+def: "An agent that suppresses immune function by one of several mechanisms of action. Classical cytotoxic immunosuppressants act by inhibiting DNA synthesis. Others may act through activation of T-cells or by inhibiting the activation of helper cells. In addition, an immunosuppressive agent is a role played by a compound which is exhibited by a capability to diminish the extent and/or voracity of an immune response." [CHEBI:CHEBI\:35705]
+synonym: "CHEBI:35705" EXACT []
+is_a: XCO:0000341 ! chemical with specified function
+created_by: sjwang
+creation_date: 2019-08-01T12:47:37Z
+
+[Term]
+id: XCO:0000637
+name: cyclosporine A
+def: "A cyclic nonribosomal peptide of eleven amino acids; an immunosuppressant drug widely used in post-allogeneic organ transplant to reduce the activity of the patient's immune system, and therefore the risk of organ rejection. Also causes reversible inhibition of immunocompetent lymphocytes in the G0- and G1-phase of the cell cycle." [CHEBI:CHEBI\:4031]
+synonym: "CHEBI:4031" EXACT []
+synonym: "cyclosporine" RELATED []
+is_a: XCO:0000636 ! immunosuppressive agent 
+created_by: sjwang
+creation_date: 2019-08-01T12:50:36Z
+
+[Term]
+id: XCO:0000638
+name: Capsazepine
+def: "A benzazepine that is 2,3,4,5-tetrahydro-1H-2-benzazepine which is substituted by hydroxy groups at positions 7 and 8 and on the nitrogen atom by a 2-(p-chlorophenyl)ethylaminothiocarbonyl group. A synthetic analogue of capsaicin, it was the first reported capsaicin receptor antagonist." [CHEBI:CHEBI\:70773]
+synonym: "CHEBI:70773" EXACT []
+is_a: XCO:0000160 ! receptor antagonist
+created_by: sjwang
+creation_date: 2019-08-01T12:59:35Z
+
+[Term]
+id: XCO:0000639
+name: V1-Cal
+def: "Peptides developed according to the calcineurin A-interacting site on the C-terminus of Trpv1 was were synthesized as 1 polypeptide with transactivator of transcription (TAT)47&#8208;57 carrier in the following order: N&#8208;terminusTAT47&#8208;57spacer (Gly&#8208;Gly)cargoC terminus." [PMID:PMID\:27671317]
+is_a: XCO:0000193 ! peptide/protein
+created_by: sjwang
+creation_date: 2019-08-01T14:16:00Z
+
+[Term]
+id: XCO:0000640
+name: controlled in situ myocardial condition
+def: "Any experimental condition in which the internal or external environment of the myocardial system is altered." []
+is_a: XCO:0000166 ! controlled in situ organ condition
+created_by: sjwang
+creation_date: 2019-08-01T14:40:57Z
+
+[Term]
+id: XCO:0000641
+name: Myocardial reperfusion
+def: "Any experimental condition in which the flow of blood to the heart is restored after a period of blood vessel occlusion occurred naturally or experimentally." []
+is_a: XCO:0000640 ! controlled in situ myocardial condition
+created_by: sjwang
+creation_date: 2019-08-01T14:50:02Z
+
+[Term]
+id: XCO:0000642
+name: monocrotaline
+def: "Monocrotaline is a pyrrolizidine alkaloid and a toxic plant constituent that poisons livestock and humans through the ingestion of contaminated grains and other foods. The alkaloid causes pulmonary artery hypertension, right ventricular hypertrophy, and pathological changes in the pulmonary vasculature. Significant attenuation of the cardiopulmonary changes are noted after oral magnesium treatment." [MESH:https\://www.ncbi.nlm.nih.gov/mesh/68016686]
+synonym: "CHEBI:6980" EXACT []
+synonym: "https://www.ncbi.nlm.nih.gov/mesh/68016686" RELATED []
+synonym: "MCT" RELATED []
+synonym: "Pubchem: 9415" EXACT []
+is_a: XCO:0000239 ! toxic substance
+created_by: sjwang
+creation_date: 2019-08-01T17:00:38Z
+
+[Term]
+id: XCO:0000643
+name: controlled exposure to a foster mother of a different strain within the same species.
+is_a: XCO:0000491 ! controlled exposure to an organism of the same species
+created_by: sjwang
+creation_date: 2019-10-03T15:41:29Z
+
+[Term]
+id: XCO:0000644
+name: anti-T cell receptor antibody
+def: "A monoclonal antibody that appears to be specific for a constant determinant of the rat alpha/beta heterodimeric T cell receptor." []
+synonym: "R73" EXACT []
+is_a: XCO:0000194 ! antibody
+created_by: sjwang
+creation_date: 2019-11-05T10:21:40Z
+
+[Term]
+id: XCO:0000645
+name: propofol 
+def: "A phenol resulting from the formal substitution of the hydrogen at the 2 position of 1,3-diisopropylbenzene by a hydroxy group." []
+synonym: "CHEBI:44915" EXACT []
+is_a: XCO:0000106 ! anesthetic/analgesic
+created_by: sjwang
+creation_date: 2019-11-27T12:37:25Z
+
+[Term]
+id: XCO:0000646
+name: Azoxymethane 
+def: "Azoxymethane (AOM), a gene mutation agent, may be used with dextran sulfate sodium (DSS) to create cancer models in laboratory animals which can be used to study mechanisms of cancer progression and chemoprevention." []
+synonym: "CAS:25843-45-2" EXACT []
+synonym: "ML-MFCD00126912" EXACT []
+synonym: "Pubchem:329770827" EXACT []
+is_a: XCO:0000089 ! neoplasm inducing chemical
+created_by: sjwang
+creation_date: 2019-12-04T15:04:39Z
+
+[Term]
+id: XCO:0000647
+name: darusentan
+def: "A selective endothelin ETA receptor antagonist. It is being evaluated as a treatment for congestive heart failure and hypertension." [drugbank:https\://www.drugbank.ca/drugs/DB04883]
+is_a: XCO:0000160 ! receptor antagonist
+created_by: slaulede
+creation_date: 2019-12-09T18:27:43Z
+
+[Term]
+id: XCO:0000648
+name: clodronic acid
+def: "An organochlorine compound that is methylene chloride in which both hydrogens are replaced by phosphonic acid groups. It inhibits bone resorption and soft tissue calcification, and is used (often as the disodium salt tetrahydrate) as an adjunct in the treatment of severe hypercalcemia associated with malignancy, and in the management of osteolytic lesions and bone pain associated with skeletal metastases." [CHEBI:110423]
+synonym: "(dichloromethanediyl)bis(phosphonic acid)" EXACT []
+synonym: "clodronate" EXACT []
+is_a: XCO:0000435 ! antineoplastic agent
+created_by: slaulede
+creation_date: 2019-12-10T17:07:59Z
+
+[Term]
+id: XCO:0000649
+name: trans-4-hydroxy-L-proline
+def: "An optically active form of 4-hydroxyproline having L-trans-configuration." []
+synonym: "CHEBI:18095" EXACT []
+is_a: XCO:0000259 ! disease inducing chemical
+created_by: sjwang
+creation_date: 2019-12-12T13:16:31Z
+
+[Term]
+id: XCO:0000650
+name: controlled cilazapril content drinking water
+def: "A drink made up of water and a specified amount of cilazapril consumed by an organism as part of an experiment. Cilazapril is a prodrug that is hydrolyzed to its main metabolite cilazaprilat, an inhibitor of angiotensin-converting enzyme (ACE)." []
+is_a: XCO:0000163 ! controlled content drinking water
+is_a: XCO:0000592 ! cilazapril
+created_by: slaulede
+creation_date: 2019-12-16T15:56:17Z
+
+[Term]
+id: XCO:0000651
+name: E4177
+def: "E4177 is an agent that blocks one or more angiotensin II receptors." []
+synonym: "4'-((2-cyclopropyl-7-methyl-3H-imidazo[4,5-b]pyridin-3-yl)methyl)-[1,1'-biphenyl]-2-carboxylic acid" EXACT []
+synonym: "E-4177" EXACT []
+is_a: XCO:0000536 ! angiotensin II receptor antagonist
+created_by: slaulede
+creation_date: 2019-12-16T16:34:05Z
+
+[Term]
+id: XCO:0000652
+name: controlled E4177 content drinking water
+def: "A drink made up of water and a specified amount of E4177 consumed by an organism as part of an experiment. E4177 is an agent that blocks one or more angiotensin II receptors." []
+synonym: "controlled 4'-((2-cyclopropyl-7-methyl-3H-imidazo[4,5-b]pyridin-3-yl)methyl)-[1,1'-biphenyl]-2-carboxylic acid content drinking water" EXACT []
+synonym: "controlled E-4177 content drinking water" EXACT []
+is_a: XCO:0000651 ! E4177
+created_by: slaulede
+creation_date: 2019-12-16T16:39:42Z
+
+[Term]
+id: XCO:0000653
+name: ionotropic glutamate receptor antagonist
+def: "Any condition in which the main influencing factor is an agent that blocks the transmembrane transfer of an ion by a channel that opens when glutamate has been bound by the channel complex or one of its constituent parts." []
+is_a: XCO:0000160 ! receptor antagonist
+created_by: slaulede
+creation_date: 2019-12-16T17:38:36Z
+
+[Term]
+id: XCO:0000654
+name: kynurenate
+def: "Kynurenate is a product of the metabolism of L-Tryptophan and appears in urine in Vitamin B6 deficiencies. Kynurenate is an endogenous antagonist of the ionotropic glutamate receptors." []
+is_a: XCO:0000653 ! ionotropic glutamate receptor antagonist
+created_by: slaulede
+creation_date: 2019-12-16T17:41:34Z
+
+[Term]
+id: XCO:0000655
+name: prion
+def: "An abnormal form of prion protein that in mammals includes pathogenic forms which arise sporadically, as a result of genetic mutation, or by transmission (as by ingestion of infected tissue) and which upon accumulation in the brain cause a prion disease (such as bovine spongiform encephalopathy or Creutzfeldt-Jakob disease." [merriam-webster:https\://www.merriam-webster.com/dictionary/prion]
+synonym: "proteinacious infectious particle" EXACT []
+is_a: XCO:0000236 ! pathogen
+created_by: slaulede
+creation_date: 2019-12-19T11:45:30Z
 
 [Typedef]
 id: has_component
