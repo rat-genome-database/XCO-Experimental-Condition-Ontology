@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.65
-date: 03:10:2020 20:13
+data-version: 4.60
+date: 22:08:2020 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-07-03 --
 default-namespace: experimental_condition_ontology
@@ -2032,12 +2032,11 @@ creation_date: 2012-10-16T04:07:55Z
 [Term]
 id: XCO:0000241
 name: streptozotocin
-def: "A condition in which the main influencing factor is streptozotocin, a naturally occurring chemical that is particularly toxic to the insulin-producing beta cells of the pancreas in mammals. STZ can be used to treat pancreatic islet cell cancers and to model type 1 diabetes mellitus in animals via destruction of the insulin-producing beta cells of the islets of Langerhans." [http://en.wikipedia.org/wiki/Streptozotocin "Wikipedia"]
+def: "A  condition in which the main influencing factor is streptozotocin, a naturally occurring chemical that is particularly toxic to the insulin-producing beta cells of the pancreas in mammals. STZ can be used to treat pancreatic islet cell cancers and to model type 1 diabetes mellitus in animals via destruction of the insulin-producing beta cells of the islets of Langerhans." [http://en.wikipedia.org/wiki/Streptozotocin "Wikipedia"]
 synonym: "streptozocin" EXACT []
 synonym: "STZ" RELATED []
 xref: CHEBI:9288
 is_a: XCO:0000239 ! toxic substance
-is_a: XCO:0000259 ! disease inducing chemical
 created_by: JSmith
 creation_date: 2012-10-16T04:09:16Z
 
@@ -2051,7 +2050,6 @@ synonym: "alloxane" EXACT []
 synonym: "mesoxalylurea" EXACT []
 synonym: "PubChem_Compound_CID:5781" RELATED []
 is_a: XCO:0000239 ! toxic substance
-is_a: XCO:0000259 ! disease inducing chemical
 created_by: JSmith
 creation_date: 2012-10-16T04:29:35Z
 
@@ -3463,6 +3461,7 @@ synonym: "paracetamol" EXACT []
 xref: CHEBI:46195
 xref: MESH:D000082
 is_a: XCO:0000106 ! anesthetic/analgesic
+is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
 created_by: JSmith
 creation_date: 2014-01-21T16:34:04Z
 
@@ -4365,7 +4364,7 @@ id: XCO:0000479
 name: Haemophilus influenzae
 def: "A condition in which the primary influencing factor is Haemophilus influenzae, a Gram-negative, coccobacillary, facultatively anaerobic bacterium which is considered an opportunistic pathogen, i.e. one that can colonize a host without causing disease unless there are extenuating circumstances which result in susceptibility on the part of the host." [http://en.wikipedia.org/wiki/Haemophilus_influenzae "Wikipedia"]
 xref: NCBI_Taxon:727
-is_a: XCO:0000743 ! Haemophilus
+is_a: XCO:0000475 ! bacterial pathogen
 created_by: JSmith
 creation_date: 2015-04-30T13:41:32Z
 
@@ -5534,10 +5533,8 @@ creation_date: 2019-01-22T14:38:41Z
 [Term]
 id: XCO:0000604
 name: Aprotinin
-def: "Any condition in which the main influencing factor is Aprotinin, also known as bovine pancreatic trypsin inhibitor (BPTI), a proteinase inhibitor used as medication administered by injection to reduce bleeding during complex surgery, such as heart and liver surgery." [https://www.drugbank.ca/drugs/DB06692 "Drugbank"]
-synonym: "C284H432N84O79S7" EXACT []
-synonym: "Trasylol" EXACT []
-is_a: XCO:0000748 ! protease inhibitor
+def: "Aprotinin, also known as bovine pancreatic trypsin inhibitor, BPTI (Trasylol, Bayer) is a protein, that is used as medication administered by injection to reduce bleeding during complex surgery, such as heart and liver surgery." [https://www.drugbank.ca/drugs/DB06692 "Drugbank"]
+is_a: XCO:0000523 ! enzyme inhibitor
 created_by: sjwang
 creation_date: 2019-02-15T16:27:32Z
 
@@ -6855,249 +6852,6 @@ xref: RRID:CVCL_0206
 is_a: XCO:0000709 ! cancer cells
 created_by: slaulede
 creation_date: 2020-08-18T16:56:25Z
-
-[Term]
-id: XCO:0000733
-name: sanguinarine
-def: "A benzophenanthridine alkaloid derived from Sanguinaria canadensis and poppy Fumaria species, shown to exhibit anti-microbial, anti-tumoral, and anti-inflammatory activities." [CHEBI:17183, https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/sanguinarine, PMID:21849887]
-synonym: "13-methyl-2H,10H-[1,3]dioxolo[4,5-i][1,3]dioxolo[4',5':4,5]benzo[1,2-c]phenanthridinium" EXACT []
-synonym: "pseudochelerythrine" EXACT []
-xref: CHEBI:17183
-xref: MESH:C005705
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000482 ! antimicrobial agent
-created_by: slaulede
-creation_date: 2020-09-04T16:56:22Z
-
-[Term]
-id: XCO:0000734
-name: chemerin-9
-def: "A potent chemokine-like receptor 1 (CMKLR1) agonist that corresponds to C-terminal of full length human Chemerin (RARRES2), amino acids 149 - 157. Activates Gi/o signaling pathways in vitro; inhibits cAMP production and promotes phospholipase C production, Ca2+ mobilization, and smooth muscle contraction." [https://www.rndsystems.com/products/chemerin-9-human_7116, PMID:29906243, RGD:1320450]
-synonym: "(149)YFPGQFAFS(157)" EXACT []
-synonym: "YFPGQFAFS" EXACT []
-xref: PMID:29906243
-is_a: XCO:0000120 ! inhibitor
-is_a: XCO:0000482 ! antimicrobial agent
-created_by: slaulede
-creation_date: 2020-09-04T17:26:44Z
-
-[Term]
-id: XCO:0000735
-name: paclitaxel
-def: "A tetracyclic diterpenoid which is a mitotic inhibitor used in cancer chemotherapy." [CHEBI:45863]
-synonym: "Taxol" EXACT []
-xref: CHEBI:45863
-xref: MESH:D017239
-is_a: XCO:0000435 ! antineoplastic agent
-created_by: slaulede
-creation_date: 2020-09-08T14:14:00Z
-
-[Term]
-id: XCO:0000736
-name: diphtheria toxin
-def: "An ADP-ribosylating polypeptide produced by CORYNEBACTERIUM DIPHTHERIAE that can cause a localized infection of mucous membranes or skin (diphtheria), myocarditis, polyneuritis, and other systemic toxic effects." [DOID:11405, MESH:D004165]
-synonym: "DT" EXACT []
-xref: DOID:11405
-xref: MESH:D004165
-is_a: XCO:0000240 ! toxin
-created_by: slaulede
-creation_date: 2020-09-08T17:35:42Z
-
-[Term]
-id: XCO:0000737
-name: endotoxin
-def: "A component of bacterial cells, an endotoxin can be a part of the outer membrane of gram-negative bacteria (lipopolysacharride) or a part or the "spore" of gram-positive bacteria (delta endotoxin)." [https://www.horseshoecrab.org/med/endotoxin.html, PMID:11468393]
-is_a: XCO:0000239 ! toxic substance
-created_by: slaulede
-creation_date: 2020-09-14T17:54:49Z
-
-[Term]
-id: XCO:0000738
-name: lipopolysaccharide
-def: "This most common type of endotoxin is found in the outer membrane of gram-negative bacteria. Lipopolysaccharide consists of the lipid A portion containing fatty acids and disaccharide phosphates, core polysaccharides, and the O-antigen (repetitive glycan polymer)." [https://www.horseshoecrab.org/med/endotoxin.html, PMID:8119492]
-synonym: "endotoxin" BROAD []
-synonym: "LPS" EXACT []
-is_a: XCO:0000737 ! endotoxin
-created_by: slaulede
-creation_date: 2020-09-14T18:06:38Z
-
-[Term]
-id: XCO:0000739
-name: housing in trios
-def: "Subjects maintained in groups of three during specified time period." [https://www.merriam-webster.com/, PMID:16197708]
-is_a: XCO:0000033 ! housing condition
-created_by: slaulede
-creation_date: 2020-09-15T14:52:57Z
-
-[Term]
-id: XCO:0000740
-name: housing with pathogen-infected subject
-def: "A condition in which subjects are maintained in housing groups in which at least one subject had a pathogenic infection during the time period leading up to the specified housing period." [https://www.merriam-webster.com/, PMID:16197708]
-is_a: XCO:0000033 ! housing condition
-created_by: slaulede
-creation_date: 2020-09-15T15:27:06Z
-
-[Term]
-id: XCO:0000741
-name: housing with bacterial pathogen-infected subject
-def: "A condition in which subjects are maintained in housing groups in which at least one subject had a bacterial pathogenic infection during the time period leading up to the specified housing period." [https://www.merriam-webster.com/, PMID:16197708]
-is_a: XCO:0000475 ! bacterial pathogen
-is_a: XCO:0000740 ! housing with pathogen-infected subject
-created_by: slaulede
-creation_date: 2020-09-15T15:31:42Z
-
-[Term]
-id: XCO:0000742
-name: housing with Haemophilus-infected subject
-def: "A condition in which subjects are maintained in housing groups in which at least one subject had a Haemophilus infection during the time period leading up to the specified housing period. Haemophilus is a genus of Gram-negative, coccobacilli bacteria, some of which are pathogenic." [https://www.merriam-webster.com/, PMID:16197708]
-is_a: XCO:0000743 ! Haemophilus
-is_a: XCO:0000747 ! housing with Pasteurellaceae-infected subject
-created_by: slaulede
-creation_date: 2020-09-15T15:38:24Z
-
-[Term]
-id: XCO:0000743
-name: Haemophilus
-def: "A condition in which the primary influencing factor is a species of Haemophilus, a genus of Gram-negative, coccobacilli bacteria, some of which are pathogenic." [https://en.wikipedia.org/wiki/Haemophilus, https://www.merriam-webster.com/, PMID:16197708]
-is_a: XCO:0000475 ! bacterial pathogen
-created_by: slaulede
-creation_date: 2020-09-15T15:47:23Z
-
-[Term]
-id: XCO:0000744
-name: housing with Haemophilus H21-infected subject
-def: "A condition in which subjects are maintained in housing groups in which at least one subject had a Haemophilus H21 infection during the time period leading up to the specified housing period. Haemophilus H21 is a strain of Haemophilus, a genus of Gram-negative, coccobacilli bacteria, some of which are pathogenic." [https://www.merriam-webster.com/, PMID:16197708]
-is_a: XCO:0000742 ! housing with Haemophilus-infected subject
-created_by: slaulede
-creation_date: 2020-09-15T16:42:53Z
-
-[Term]
-id: XCO:0000745
-name: housing with Haemophilus H35-infected subject
-def: "A condition in which subjects are maintained in housing groups in which at least one subject had a Haemophilus H35 infection during the time period leading up to the specified housing period. Haemophilus H35 is a strain of Haemophilus, a genus of Gram-negative, coccobacilli bacteria, some of which are pathogenic." [https://www.merriam-webster.com/, PMID:16197708]
-is_a: XCO:0000742 ! housing with Haemophilus-infected subject
-created_by: slaulede
-creation_date: 2020-09-15T16:46:22Z
-
-[Term]
-id: XCO:0000746
-name: housing with Pasteurella pneumotropica-infected subject
-def: "A condition in which subjects are maintained in housing groups in which at least one subject had a Pasteurella pneumotropica infection during the time period leading up to the specified housing period. Pasteurella pneumotropica is a strain of Pasteurella, a genus Gram-negative, coccobacilli bacteria, some of which are pathogenic." [https://www.uptodate.com/contents/pasteurella-infections, PMID:16197708]
-is_a: XCO:0000747 ! housing with Pasteurellaceae-infected subject
-created_by: slaulede
-creation_date: 2020-09-15T17:00:42Z
-
-[Term]
-id: XCO:0000747
-name: housing with Pasteurellaceae-infected subject
-def: "A condition in which subjects are maintained in housing groups in which at least one subject had a Pasteurellaceae infection during the time period leading up to the specified housing period. Pasteurellaceae is a large family of Gram-negative bacteria including the genera Pasteurella and Haemophilus, some of which are pathogenic." [https://en.wikipedia.org/wiki/Pasteurellaceae, PMID:16197708]
-is_a: XCO:0000741 ! housing with bacterial pathogen-infected subject
-created_by: slaulede
-creation_date: 2020-09-15T17:15:32Z
-
-[Term]
-id: XCO:0000748
-name: protease inhibitor
-def: "Any condition in which the main influencing factor is a substance which decreases or interferes with the activity of a protease, any of numerous enzymes that hydrolyze proteins." [ISBN-13:978-0877798071, ISBN-13:978-1416062578]
-synonym: "peptidase inhibitor" RELATED []
-synonym: "proteinase inhibitor" EXACT []
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulede
-creation_date: 2020-09-22T15:03:07Z
-
-[Term]
-id: XCO:0000749
-name: phosphoramidon
-def: "Any condition in which the main influencing factor is phosphoramidon, a potent inhibitor of thermolysin and other metallo-endopeptidases, isolated from the cultures of Streptomyces tanashiensis." [CHEBI:45353, https://www.sigmaaldrich.com/catalog/product/sigma/r7385?lang=en&region=US]
-xref: CHEBI:45353
-xref: MESH:C008890
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000748 ! protease inhibitor
-created_by: slaulede
-creation_date: 2020-09-22T15:31:08Z
-
-[Term]
-id: XCO:0000750
-name: diclofenac
-def: "A monocarboxylic acid consisting of phenylacetic acid having a (2,6-dichlorophenyl)amino group at the 2-position. It is a non-steroidal anti-inflammatory agent (NSAID) with antipyretic and analgesic actions. It is primarily available as the sodium salt." [CHEBI:47381, MESH:D004008]
-xref: CHEBI:47381
-xref: MESH:D004008
-is_a: XCO:0000106 ! anesthetic/analgesic
-is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulede
-creation_date: 2020-09-25T10:32:53Z
-
-[Term]
-id: XCO:0000751
-name: unilateral carotid artery occlusion 
-def: "A surgical manipulation causing blockage of one of the common carotid arteries, or of a branch (internal or external) of the common carotid arteries." [ISBN-13:978-0323049375, PMID:29486300]
-synonym: "UCAO" EXACT []
-xref: PMID:29486300
-is_a: XCO:0000704 ! carotid artery occlusion
-created_by: slaulede
-creation_date: 2020-09-25T13:30:19Z
-
-[Term]
-id: XCO:0000752
-name: right carotid artery occlusion
-def: "A surgical manipulation causing blockage of the right common carotid artery, or a branch (internal or external) of the right common carotid artery." [ISBN-13:978-0323049375, PMID:29486300]
-is_a: XCO:0000751 ! unilateral carotid artery occlusion 
-created_by: slaulede
-creation_date: 2020-09-25T13:54:07Z
-
-[Term]
-id: XCO:0000753
-name: left carotid artery occlusion
-def: "A surgical manipulation causing blockage of the left common carotid artery, or a branch (internal or external) of the left common carotid artery." [ISBN-13:978-0323049375, PMID:31482584]
-is_a: XCO:0000751 ! unilateral carotid artery occlusion 
-created_by: slaulede
-creation_date: 2020-09-25T14:00:57Z
-
-[Term]
-id: XCO:0000754
-name: bilateral carotid artery occlusion
-def: "A surgical manipulation causing blockage of both of the common carotid arteries, or left and right branches (internal or external) of the common carotid arteries." [ISBN-13:978-0323049375, PMID:32937001]
-synonym: "BCCAo" NARROW []
-synonym: "bilateral common carotid artery occlusion" NARROW []
-is_a: XCO:0000704 ! carotid artery occlusion
-created_by: slaulede
-creation_date: 2020-09-25T14:09:32Z
-
-[Term]
-id: XCO:0000755
-name: dimethyl sulfoxide
-def: "A 2-carbon sulfoxide and highly polar organic liquid, that is used widely as a chemical solvent. Because of its ability to penetrate biological membranes, it is used as a vehicle for topical application of pharmaceuticals. Dimethyl sulfoxide shows a range of pharmacological activity including analgesia and anti-inflammation." [CHEBI:28262, MESH:D004121]
-synonym: "DMSO" EXACT []
-xref: CHEBI:28262
-xref: MESH:D004121
-is_a: XCO:0000106 ! anesthetic/analgesic
-is_a: XCO:0000505 ! anti-inflammatory agent
-created_by: slaulede
-creation_date: 2020-09-25T14:25:59Z
-
-[Term]
-id: XCO:0000756
-name: Kolliphor HS 15
-def: "This non-ionic surfactant and emulsifier is a potential therapeutic agent because of its effectiveness for reversing multidrug resistance in vitro and its low toxicity in vivo." [https://www.sigmaaldrich.com/catalog/papers/1988130, PMID:1988130]
-synonym: "Macrogol (15)-hydroxystearate" EXACT []
-synonym: "Polyethylene glycol (15)-hydroxystearate" EXACT []
-synonym: "Polyoxyethylated 12-hydroxystearic acid" EXACT []
-synonym: "Solutol" EXACT []
-synonym: "Solutol HS 15" EXACT []
-xref: CHEBI:9194
-is_a: XCO:0000511 ! ester
-is_a: XCO:0000757 ! surfactant
-created_by: slaulede
-creation_date: 2020-09-25T14:43:25Z
-
-[Term]
-id: XCO:0000757
-name: surfactant
-def: "A substance which lowers the surface tension of the medium in which it is dissolved, and/or the interfacial tension with other phases, and, accordingly, is positively adsorbed at the liquid/vapor and/or at other interfaces." [CHEBI:35195, https://www.merriam-webster.com/dictionary/surfactant]
-is_a: XCO:0000341 ! chemical with specified function
-created_by: slaulede
-creation_date: 2020-09-25T15:01:23Z
 
 [Typedef]
 id: has_component

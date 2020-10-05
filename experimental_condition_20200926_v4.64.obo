@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.65
-date: 03:10:2020 20:13
+data-version: 4.64
+date: 26:09:2020 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-07-03 --
 default-namespace: experimental_condition_ontology
@@ -3463,6 +3463,7 @@ synonym: "paracetamol" EXACT []
 xref: CHEBI:46195
 xref: MESH:D000082
 is_a: XCO:0000106 ! anesthetic/analgesic
+is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
 created_by: JSmith
 creation_date: 2014-01-21T16:34:04Z
 

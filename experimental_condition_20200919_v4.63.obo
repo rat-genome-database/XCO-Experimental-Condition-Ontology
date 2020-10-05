@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.65
-date: 03:10:2020 20:13
+data-version: 4.63
+date: 19:09:2020 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-07-03 --
 default-namespace: experimental_condition_ontology
@@ -3463,6 +3463,7 @@ synonym: "paracetamol" EXACT []
 xref: CHEBI:46195
 xref: MESH:D000082
 is_a: XCO:0000106 ! anesthetic/analgesic
+is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
 created_by: JSmith
 creation_date: 2014-01-21T16:34:04Z
 
@@ -5534,10 +5535,8 @@ creation_date: 2019-01-22T14:38:41Z
 [Term]
 id: XCO:0000604
 name: Aprotinin
-def: "Any condition in which the main influencing factor is Aprotinin, also known as bovine pancreatic trypsin inhibitor (BPTI), a proteinase inhibitor used as medication administered by injection to reduce bleeding during complex surgery, such as heart and liver surgery." [https://www.drugbank.ca/drugs/DB06692 "Drugbank"]
-synonym: "C284H432N84O79S7" EXACT []
-synonym: "Trasylol" EXACT []
-is_a: XCO:0000748 ! protease inhibitor
+def: "Aprotinin, also known as bovine pancreatic trypsin inhibitor, BPTI (Trasylol, Bayer) is a protein, that is used as medication administered by injection to reduce bleeding during complex surgery, such as heart and liver surgery." [https://www.drugbank.ca/drugs/DB06692 "Drugbank"]
+is_a: XCO:0000523 ! enzyme inhibitor
 created_by: sjwang
 creation_date: 2019-02-15T16:27:32Z
 
@@ -6994,110 +6993,6 @@ def: "A condition in which subjects are maintained in housing groups in which at
 is_a: XCO:0000741 ! housing with bacterial pathogen-infected subject
 created_by: slaulede
 creation_date: 2020-09-15T17:15:32Z
-
-[Term]
-id: XCO:0000748
-name: protease inhibitor
-def: "Any condition in which the main influencing factor is a substance which decreases or interferes with the activity of a protease, any of numerous enzymes that hydrolyze proteins." [ISBN-13:978-0877798071, ISBN-13:978-1416062578]
-synonym: "peptidase inhibitor" RELATED []
-synonym: "proteinase inhibitor" EXACT []
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulede
-creation_date: 2020-09-22T15:03:07Z
-
-[Term]
-id: XCO:0000749
-name: phosphoramidon
-def: "Any condition in which the main influencing factor is phosphoramidon, a potent inhibitor of thermolysin and other metallo-endopeptidases, isolated from the cultures of Streptomyces tanashiensis." [CHEBI:45353, https://www.sigmaaldrich.com/catalog/product/sigma/r7385?lang=en&region=US]
-xref: CHEBI:45353
-xref: MESH:C008890
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000748 ! protease inhibitor
-created_by: slaulede
-creation_date: 2020-09-22T15:31:08Z
-
-[Term]
-id: XCO:0000750
-name: diclofenac
-def: "A monocarboxylic acid consisting of phenylacetic acid having a (2,6-dichlorophenyl)amino group at the 2-position. It is a non-steroidal anti-inflammatory agent (NSAID) with antipyretic and analgesic actions. It is primarily available as the sodium salt." [CHEBI:47381, MESH:D004008]
-xref: CHEBI:47381
-xref: MESH:D004008
-is_a: XCO:0000106 ! anesthetic/analgesic
-is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulede
-creation_date: 2020-09-25T10:32:53Z
-
-[Term]
-id: XCO:0000751
-name: unilateral carotid artery occlusion 
-def: "A surgical manipulation causing blockage of one of the common carotid arteries, or of a branch (internal or external) of the common carotid arteries." [ISBN-13:978-0323049375, PMID:29486300]
-synonym: "UCAO" EXACT []
-xref: PMID:29486300
-is_a: XCO:0000704 ! carotid artery occlusion
-created_by: slaulede
-creation_date: 2020-09-25T13:30:19Z
-
-[Term]
-id: XCO:0000752
-name: right carotid artery occlusion
-def: "A surgical manipulation causing blockage of the right common carotid artery, or a branch (internal or external) of the right common carotid artery." [ISBN-13:978-0323049375, PMID:29486300]
-is_a: XCO:0000751 ! unilateral carotid artery occlusion 
-created_by: slaulede
-creation_date: 2020-09-25T13:54:07Z
-
-[Term]
-id: XCO:0000753
-name: left carotid artery occlusion
-def: "A surgical manipulation causing blockage of the left common carotid artery, or a branch (internal or external) of the left common carotid artery." [ISBN-13:978-0323049375, PMID:31482584]
-is_a: XCO:0000751 ! unilateral carotid artery occlusion 
-created_by: slaulede
-creation_date: 2020-09-25T14:00:57Z
-
-[Term]
-id: XCO:0000754
-name: bilateral carotid artery occlusion
-def: "A surgical manipulation causing blockage of both of the common carotid arteries, or left and right branches (internal or external) of the common carotid arteries." [ISBN-13:978-0323049375, PMID:32937001]
-synonym: "BCCAo" NARROW []
-synonym: "bilateral common carotid artery occlusion" NARROW []
-is_a: XCO:0000704 ! carotid artery occlusion
-created_by: slaulede
-creation_date: 2020-09-25T14:09:32Z
-
-[Term]
-id: XCO:0000755
-name: dimethyl sulfoxide
-def: "A 2-carbon sulfoxide and highly polar organic liquid, that is used widely as a chemical solvent. Because of its ability to penetrate biological membranes, it is used as a vehicle for topical application of pharmaceuticals. Dimethyl sulfoxide shows a range of pharmacological activity including analgesia and anti-inflammation." [CHEBI:28262, MESH:D004121]
-synonym: "DMSO" EXACT []
-xref: CHEBI:28262
-xref: MESH:D004121
-is_a: XCO:0000106 ! anesthetic/analgesic
-is_a: XCO:0000505 ! anti-inflammatory agent
-created_by: slaulede
-creation_date: 2020-09-25T14:25:59Z
-
-[Term]
-id: XCO:0000756
-name: Kolliphor HS 15
-def: "This non-ionic surfactant and emulsifier is a potential therapeutic agent because of its effectiveness for reversing multidrug resistance in vitro and its low toxicity in vivo." [https://www.sigmaaldrich.com/catalog/papers/1988130, PMID:1988130]
-synonym: "Macrogol (15)-hydroxystearate" EXACT []
-synonym: "Polyethylene glycol (15)-hydroxystearate" EXACT []
-synonym: "Polyoxyethylated 12-hydroxystearic acid" EXACT []
-synonym: "Solutol" EXACT []
-synonym: "Solutol HS 15" EXACT []
-xref: CHEBI:9194
-is_a: XCO:0000511 ! ester
-is_a: XCO:0000757 ! surfactant
-created_by: slaulede
-creation_date: 2020-09-25T14:43:25Z
-
-[Term]
-id: XCO:0000757
-name: surfactant
-def: "A substance which lowers the surface tension of the medium in which it is dissolved, and/or the interfacial tension with other phases, and, accordingly, is positively adsorbed at the liquid/vapor and/or at other interfaces." [CHEBI:35195, https://www.merriam-webster.com/dictionary/surfactant]
-is_a: XCO:0000341 ! chemical with specified function
-created_by: slaulede
-creation_date: 2020-09-25T15:01:23Z
 
 [Typedef]
 id: has_component
