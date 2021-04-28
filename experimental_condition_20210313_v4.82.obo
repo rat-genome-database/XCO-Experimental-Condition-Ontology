@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.86
-date: 24:04:2021 20:13
+data-version: 4.82
+date: 13:03:2021 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2021-01-13 --
 default-namespace: experimental_condition_ontology
@@ -3958,10 +3958,9 @@ creation_date: 2014-04-17T12:42:20Z
 
 [Term]
 id: XCO:0000438
-name: candesartan
+name: Candesartan cilexetil
 def: "A condition in which the main influencing factor is Candesartan cilexetil, prodrug of the angiotensin II receptor 1 (AT1) antagonist candesartan, which exhibits antihypertensive effects in animal models." [http://en.wikipedia.org/wiki/Candesartan "Wikipedia", https://www.tocris.com/products/candesartan-cilexetil_4792]
 synonym: "2-Ethoxy-1-[[2'-(2H-tetrazol-5-yl)[1,1'-biphenyl]-4-yl]methyl]-1H-benzimidazole-7-carboxylic acid 1-[[(cyclohexyloxy)carbonyl]oxy]ethyl ester" EXACT []
-synonym: "candesartan cilexetil" EXACT []
 synonym: "TCV-116" EXACT []
 xref: CHEBI:3348
 xref: MESH:C077793
@@ -6367,7 +6366,7 @@ creation_date: 2020-05-01T16:51:23Z
 [Term]
 id: XCO:0000688
 name: myelin basic protein
-def: "Myelin basic protein is a hydrophobic insulator that can be synthesized by the oligodendrocyte and/or Schwann cell as part of the myelin sheath which is wrapped around the axon. Myelin basic protein may constitute as much as one-third of all protein in myelin." [https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/myelin-basic-protein "ScienceDirect"]
+def: "Myelin basic protein is a hydrophobic insulator that can be synthesized by the oligodendrocyte and/or Schwann cell as part of the myelin sheath which is wrapped around the axon. Myelin basic protein may constitute as much as one-third of myelin protein." [https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/myelin-basic-protein "ScienceDirect"]
 synonym: "Golli-MBP" EXACT []
 synonym: "MBP" EXACT []
 synonym: "MBP S" EXACT []
@@ -7079,7 +7078,7 @@ creation_date: 2020-09-25T14:09:32Z
 [Term]
 id: XCO:0000755
 name: dimethyl sulfoxide
-def: "Any condition in which the main influencing factor is dimethyl sulfoxide, a 2-carbon sulfoxide and highly polar organic liquid, that is used widely as a chemical solvent. Because of its ability to penetrate biological membranes, it is used as a vehicle for topical application of pharmaceuticals. Dimethyl sulfoxide shows a range of pharmacological activity including analgesia and anti-inflammation." [CHEBI:28262, MESH:D004121]
+def: "A 2-carbon sulfoxide and highly polar organic liquid, that is used widely as a chemical solvent. Because of its ability to penetrate biological membranes, it is used as a vehicle for topical application of pharmaceuticals. Dimethyl sulfoxide shows a range of pharmacological activity including analgesia and anti-inflammation." [CHEBI:28262, MESH:D004121]
 synonym: "DMSO" EXACT []
 xref: CHEBI:28262
 xref: MESH:D004121
@@ -7668,7 +7667,7 @@ id: XCO:0000813
 name: total body irradiation
 def: "Total body irradiation (TBI) is a form of radiotherapy (typically X-rays or gamma rays) used primarily as part of the preparative regimen for hematopoietic stem cell (or bone marrow) transplantation." [https://en.wikipedia.org/wiki/Total_body_irradiation, https://www.merriam-webster.com/]
 synonym: "TBI" EXACT []
-xref: ISBN-13:978-0323240987
+xref: ISBN-13: 978-0323240987
 xref: PMID:30575429
 is_a: XCO:0000043 ! X-ray exposure
 created_by: slaulede
@@ -7731,7 +7730,7 @@ creation_date: 2021-03-04T18:11:03Z
 id: XCO:0000819
 name: gene transfer using plasmid vector pVAX2
 def: "A condition in which gene transfer has been performed using the plasmid pVAX2 as the carrier of the genetic material. The pVAX2 plasmid is based on the pVAX1 plasmid, which was designed for use in the development of DNA vaccines." [https://www.thermofisher.com/order/catalog/product/V26020#/V26020, PMID:19440225]
-xref: PMID:19440225
+xref: PMID: 19440225
 is_a: XCO:0000818 ! gene transfer using plasmid vector
 created_by: slaulede
 creation_date: 2021-03-04T18:29:17Z
@@ -7739,10 +7738,10 @@ creation_date: 2021-03-04T18:29:17Z
 [Term]
 id: XCO:0000820
 name: gene transfer using empty plasmid vector pVAX2
-def: "A control condition in which gene transfer has been performed using an empty plasmid pVAX2. The pVAX2 plasmid is based on the pVAX1 plasmid, which was designed for use in the development of DNA vaccines." [https://www.thermofisher.com/order/catalog/product/V26020#/V26020, PMID:21993171]
+def: "A control condition in which gene transfer has been performed using an empty plasmid pVAX2. The pVAX2 plasmid is based on the pVAX1 plasmid, which was designed for use in the development of DNA vaccines." [https://www.thermofisher.com/order/catalog/product/V26020#/V26020, PMID: 21993171]
 synonym: "gene transfer using only the backbone of plasmid vector pVAX2" EXACT []
 xref: PMID:19440225
-xref: PMID:21993171
+xref: PMID: 21993171
 is_a: XCO:0000819 ! gene transfer using plasmid vector pVAX2
 created_by: slaulede
 creation_date: 2021-03-08T13:54:50Z
@@ -7750,7 +7749,7 @@ creation_date: 2021-03-08T13:54:50Z
 [Term]
 id: XCO:0000821
 name: gene transfer of the rat GDNF gene using the plasmid vector pVAX2
-def: "A condition in which the rat GDNF gene has been (transiently or stably) transferred into a cell or organism using the plasmid vector pVAX2 in order to induce synthesis of that gene's product in the recipient cell or organism." [https://www.thermofisher.com/order/catalog/product/V26020#/V26020, PMID:21993171]
+def: "A condition in which the rat GDNF gene has been (transiently or stably) transferred into a cell or organism using the plasmid vector pVAX2 in order to induce synthesis of that gene's product in the recipient cell or organism." [https://www.thermofisher.com/order/catalog/product/V26020#/V26020, PMID: 21993171]
 xref: PMID:19440225
 xref: PMID:21993171
 is_a: XCO:0000819 ! gene transfer using plasmid vector pVAX2
@@ -7768,101 +7767,6 @@ is_a: XCO:0000120 ! inhibitor
 is_a: XCO:0000505 ! anti-inflammatory agent
 created_by: slaulede
 creation_date: 2021-03-09T12:06:36Z
-
-[Term]
-id: XCO:0000823
-name: peanut oil
-def: "Any condition in which the main influencing factor is peanut oil, a colorless to yellow fatty nondrying oil that is obtained from peanuts and is used chiefly as a salad oil, in margarine, in soap, and as a vehicle in pharmaceutical preparations and cosmetics." [https://www.merriam-webster.com]
-synonym: "arachis oil" EXACT []
-synonym: "groundnut oil" EXACT []
-xref: PMID:24388923
-is_a: XCO:0000774 ! oil
-created_by: slaulede
-creation_date: 2021-03-25T15:05:12Z
-
-[Term]
-id: XCO:0000824
-name: pertussis toxin
-def: "Pertussis toxin (PT) is a protein-based AB5-type exotoxin produced by the bacterium Bordetella pertussis, which causes whooping cough. PT is one of the most complex bacterial toxins known, composed of six subunits with an A protomer responsible for biologic activities and a B pentamer directing binding and entry of the A subunit into the cytoplasm." [https://en.wikipedia.org/wiki/Pertussis_toxin, https://www.sciencedirect.com/topics/medicine-and-dentistry/pertussis-toxin]
-synonym: "PT" EXACT []
-xref: PMID:1702803
-is_a: XCO:0000240 ! toxin
-created_by: slaulede
-creation_date: 2021-04-01T16:00:00Z
-
-[Term]
-id: XCO:0000825
-name: cyclophosphamide
-def: "Cyclophosphamide (CP), also known as cytophosphane among other names, is an antineoplastic and immunosuppressive agent that must be activated in the liver to form the active aldophosphamide. As chemotherapy it is used to treat lymphoma, multiple myeloma, leukemia, ovarian cancer, breast cancer, small cell lung cancer, neuroblastoma, and sarcoma." [https://en.wikipedia.org/wiki/Cyclophosphamide, MESH:D003520]
-synonym: "cytophosphane" EXACT []
-xref: CHEBI:4027
-xref: MESH:D003520
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000636 ! immunosuppressive agent
-created_by: slaulede
-creation_date: 2021-04-01T16:35:28Z
-
-[Term]
-id: XCO:0000826
-name: rat anti-Hu-MBP T cell line
-def: "Any condition in which the main influencing factor is an injection of cultured cells derived from T cells prepared from the lymph nodes of rats immunized with human myelin basic protein." [PMID:1702803]
-synonym: "rat anti-Hu-BP T cell line" EXACT []
-xref: PMID:1702803
-is_a: XCO:0000763 ! T cells
-created_by: slaulede
-creation_date: 2021-04-01T17:07:53Z
-
-[Term]
-id: XCO:0000827
-name: rat anti-Hu-S102-129 T cell line
-def: "Any condition in which the main influencing factor is an injection of cultured cells derived from T cells prepared from the lymph nodes of rats immunized with synthetic human myelin basic protein peptide 102-129." [PMID:1702803]
-xref: PMID:1702803
-is_a: XCO:0000763 ! T cells
-created_by: slaulede
-creation_date: 2021-04-01T17:27:28Z
-
-[Term]
-id: XCO:0000828
-name: human myelin basic protein
-def: "Myelin basic protein is a hydrophobic insulator that can be synthesized by the oligodendrocyte and/or Schwann cell as part of the myelin sheath which is wrapped around the axon. Myelin basic protein may constitute as much as one-third of all protein in myelin. Human myelin basic protein is purified from human tissue or extracted from cultured cells containing cloned copies of the human myelin basic protein gene." [PMID:1702803]
-synonym: "Hu-BP" EXACT []
-synonym: "human MBP" EXACT []
-xref: PMID:1702803
-is_a: XCO:0000688 ! myelin basic protein
-created_by: slaulede
-creation_date: 2021-04-01T17:46:52Z
-
-[Term]
-id: XCO:0000829
-name: corn oil
-def: "Corn oil is a refined fixed, that is, nonvolatile, oil obtained from from the germ of corn kernels. It has high polyunsaturated lipid content and is used as a delivery vehicle for lipophilic substances." [https://www.merriam-webster.com, ISBN-13:978-1608316922]
-synonym: "maize oil" EXACT []
-xref: PMID:26514922
-is_a: XCO:0000774 ! oil
-created_by: slaulede
-creation_date: 2021-04-08T17:10:21Z
-
-[Term]
-id: XCO:0000830
-name: artificial cerebrospinal fluid
-def: "Any condition in which the main influencing factor is artificial cerebrospinal fluid (aCSF), a buffer solution prepared with a composition representative of cerebrospinal fluid. It is used experimentally for rat brain microdialysis experiments, the culture of hippocampal tissue slices, or irrigation treatment of brain trauma lesions to supply oxygen, maintain osmolarity, and to buffer pH at biological levels." [https://biochemazone.com/product/artificial-cerebrospinal-solution-bz178/, https://en.wikipedia.org/wiki/Artificial_cerebrospinal_fluid]
-synonym: "aCSF" EXACT []
-synonym: "cerebrospinal fluid simulation fluid" EXACT []
-xref: PMID:22356885
-is_a: XCO:0000154 ! ion/salt solution
-created_by: slaulede
-creation_date: 2021-04-23T17:15:50Z
-
-[Term]
-id: XCO:0000831
-name: 2% dimethyl sulfoxide in artificial cerebrospinal fluid
-def: "Any condition in which the main influencing factor is a 2% solution (v/v) of dimethyl sulfoxide in artificial cerebrospinal fluid, a buffer solution prepared with a composition representative of cerebrospinal fluid. Dimethyl sulfoxide is a 2-carbon sulfoxide and highly polar organic liquid, that is used widely as a chemical solvent." [CHEBI:28262, https://en.wikipedia.org/wiki/Artificial_cerebrospinal_fluid, MESH:D004121]
-synonym: "2% DMSO in aCSF" EXACT []
-xref: PMID:22356885
-relationship: has_component XCO:0000755 ! dimethyl sulfoxide
-relationship: has_component XCO:0000830 ! artificial cerebrospinal fluid
-created_by: slaulede
-creation_date: 2021-04-23T17:27:15Z
 
 [Typedef]
 id: has_component

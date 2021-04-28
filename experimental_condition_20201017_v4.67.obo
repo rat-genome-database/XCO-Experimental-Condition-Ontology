@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: 4.86
-date: 24:04:2021 20:13
+data-version: 4.67
+date: 17:10:2020 20:13
 saved-by: jrsmith
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2021-01-13 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-07-03 --
 default-namespace: experimental_condition_ontology
 ontology: xco
 
@@ -247,7 +247,7 @@ is_a: XCO:0000000 ! experimental condition
 id: XCO:0000039
 name: ionizing radiation exposure
 def: "The condition of being subjected to transmitted energy composed of particles that individually carry enough kinetic energy to liberate an electron from an atom or molecule." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Ionizing_radiation "Wikipedia", ISBN:978-1416049982]
-is_a: XCO:0000045 ! electromagnetic radiation exposure
+is_a: XCO:0000038 ! radiation exposure
 
 [Term]
 id: XCO:0000040
@@ -255,11 +255,12 @@ name: gamma ray exposure
 def: "The condition of being subjected to high frequency, high energy electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components. Gamma radiation is traditionally considered to have wavelengths less than 0.01 nm and are generally emitted by nuclei rather than by electrons." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Gamma_ray "Wikipedia", ISBN:978-1416049982]
 synonym: "gamma radiation exposure" EXACT []
 is_a: XCO:0000039 ! ionizing radiation exposure
+is_a: XCO:0000045 ! electromagnetic radiation exposure
 
 [Term]
 id: XCO:0000041
 name: radon exposure
-def: "The condition of being subjected to transmitted energy from the gaseous radioactive element radon, atomic number 86, resulting from decay of radium. Such radiation is composed of particles that individually carry enough kinetic energy to liberate an electron from an atom or molecule. alpha, beta, and gamma rays are released during the radioactive decay of radon." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Ionizing_radiation "Wikipedia", ISBN:978-1416049982]
+def: "The condition of being subjected to transmitted energy from the gaseous radioactive element, atomic number 86, resulting from decay of radium.  Such radiation is composed of particles that individually carry enough kinetic energy to liberate an electron from an atom or molecule." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Ionizing_radiation "Wikipedia", ISBN:978-1416049982]
 is_a: XCO:0000039 ! ionizing radiation exposure
 
 [Term]
@@ -276,12 +277,13 @@ def: "The condition of being subjected to electromagnetic radiation, that is, en
 synonym: "roentgen radiation exposure" EXACT []
 synonym: "X-radiation exposure" EXACT []
 is_a: XCO:0000039 ! ionizing radiation exposure
+is_a: XCO:0000045 ! electromagnetic radiation exposure
 
 [Term]
 id: XCO:0000044
 name: non-ionizing radiation exposure
-def: "The condition of being subjected to transmitted energy that does not carry enough energy per quantum to completely remove an electron from an atom or molecule. Such radiation has sufficient energy only for excitation, the movement of an electron to a higher energy state." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Non-ionizing_radiation "Wikipedia", ISBN:978-1416049982]
-is_a: XCO:0000045 ! electromagnetic radiation exposure
+def: "The condition of being subjected to transmitted energy that does not carry enough energy per quantum to completely remove an electron from an atom or molecule.  Such radiation has sufficient energy only for excitation, the movement of an electron to a higher energy state." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Non-ionizing_radiation "Wikipedia", ISBN:978-1416049982]
+is_a: XCO:0000038 ! radiation exposure
 
 [Term]
 id: XCO:0000045
@@ -359,8 +361,8 @@ is_a: XCO:0000052 ! tactile stimulus
 id: XCO:0000056
 name: naive control condition
 def: "A baseline condition in which none of the experimental manipulations are performed." [RGD:MS]
-synonym: "standard control condition" RELATED []
-is_obsolete: true
+synonym: "standard condition" RELATED []
+is_a: XCO:0000099 ! control condition
 
 [Term]
 id: XCO:0000057
@@ -606,8 +608,7 @@ creation_date: 2010-03-04T02:09:06Z
 
 [Term]
 id: XCO:0000087
-name: specific pathogen-free condition
-def: "A standard living condition with the absence of a resident pathogen, a biological agent that causes disease, especially a microorganism such as a bacterium, virus, or fungus." [https://www.dictionary.com, https://www.merriam-webster.com/]
+name: specific pathogen-free conditions
 is_a: XCO:0000099 ! control condition
 created_by: mshimoyama
 creation_date: 2010-06-29T03:35:43Z
@@ -722,12 +723,7 @@ creation_date: 2010-11-02T01:30:01Z
 [Term]
 id: XCO:0000099
 name: control condition
-alt_id: XCO:0000056
-alt_id: XCO:0000791
-def: "A condition defined by a mostly uniform set of parameters accepted as normal or average and used by general consent as a basis of comparison. It is a baseline condition in which none of the experimental manipulations are performed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "naive control condition" EXACT []
-synonym: "standard condition" EXACT []
-synonym: "standard control condition" EXACT []
+def: "A baseline condition in which the experimental observations or measurements may be evaluated." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000000 ! experimental condition
 created_by: mshimoyama
 creation_date: 2010-11-02T02:06:02Z
@@ -743,7 +739,7 @@ creation_date: 2010-11-02T02:06:46Z
 [Term]
 id: XCO:0000101
 name: vehicle control condition
-def: "A treatment used as a control in which a saline or other solution is administered in the same manner as the experimental solution minus the key element of the experimental solution." [RGD:MS]
+def: "A treatment or procedure used as a control in which a saline or other solution is injected in the same manner as the experimental solution minus the key element of the experimental solution." [RGD:MS]
 is_a: XCO:0000099 ! control condition
 created_by: mshimoyama
 creation_date: 2010-11-02T02:07:02Z
@@ -3315,7 +3311,7 @@ name: dexamethasone
 def: "A condition in which the main influencing factor is dexamethasone, a long-acting synthetic adrenocorticoid, analogous to but more potent than cortisol (a natural hormone produced by the adrenal glands), with anti-inflammatory and immunosuppressant activities." [http://en.wikipedia.org/wiki/Dexamethasone "Wikipedia", http://www.nlm.nih.gov/medlineplus/druginfo/meds/a682792.html "Website", Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_a: XCO:0000091 ! steroid
 is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000636 ! immunosuppressive agent
+is_a: XCO:0000636 ! immunosuppressive agent 
 created_by: JSmith
 creation_date: 2014-01-09T13:51:38Z
 
@@ -3569,7 +3565,7 @@ creation_date: 2014-02-27T13:28:43Z
 [Term]
 id: XCO:0000398
 name: cisplatin
-def: "A condition in which the main influencing factor is cisplatin, a chemotherapy drug in which two ammine ligands and two chloro ligands are oriented in a cis planar configuration around a central platinum ion. Cisplatin is mutagenic and serves as an anti-cancer drug through its ability to bind to and crosslink DNA, interfering with cell division, triggering DNA repair mechanisms and, in turn, activating apoptosis." [CHEBI:27899, http://en.wikipedia.org/wiki/Cisplatin]
+def: "A chemotherapy drug in which two ammine ligands and two chloro ligands are oriented in a cis planar configuration around a central platinum ion. Cisplatin is mutagenic and serves as an anti-cancer drug through its ability to bind to and crosslink DNA, interfering with cell division, triggering DNA repair mechanisms and, in turn, activating apoptosis." [http://en.wikipedia.org/wiki/Cisplatin "Wikipedia"]
 xref: CHEBI:27899
 is_a: XCO:0000205 ! mutation inducing chemical
 is_a: XCO:0000399 ! complex ion
@@ -3809,7 +3805,7 @@ synonym: "2-methyl-5-propan-2-ylcyclohexa-2,5-diene-1,4-dione" EXACT []
 synonym: "dihydrothymoquinone" EXACT []
 xref: CHEBI:113532
 xref: MESH:C003466
-xref: PubChem_Compound_CID:10281
+xref: PubChem_Compound CID:10281
 is_a: XCO:0000271 ! antioxidant
 is_a: XCO:0000422 ! quinone
 created_by: JSmith
@@ -3958,10 +3954,9 @@ creation_date: 2014-04-17T12:42:20Z
 
 [Term]
 id: XCO:0000438
-name: candesartan
+name: Candesartan cilexetil
 def: "A condition in which the main influencing factor is Candesartan cilexetil, prodrug of the angiotensin II receptor 1 (AT1) antagonist candesartan, which exhibits antihypertensive effects in animal models." [http://en.wikipedia.org/wiki/Candesartan "Wikipedia", https://www.tocris.com/products/candesartan-cilexetil_4792]
 synonym: "2-Ethoxy-1-[[2'-(2H-tetrazol-5-yl)[1,1'-biphenyl]-4-yl]methyl]-1H-benzimidazole-7-carboxylic acid 1-[[(cyclohexyloxy)carbonyl]oxy]ethyl ester" EXACT []
-synonym: "candesartan cilexetil" EXACT []
 synonym: "TCV-116" EXACT []
 xref: CHEBI:3348
 xref: MESH:C077793
@@ -4849,8 +4844,8 @@ id: XCO:0000530
 name: gene transfer of the murine angiotensin I converting enzyme 2 gene using an adenovirus vector
 def: "A condition in which the mouse angiotensin I converting enzyme 2 (Ace2) gene has been (transiently or stably) transferred into a cell or organism using an adenovirus carrier in order to induce synthesis of that gene's product in the recipient cell or organism." [RGD:12879447, Webster:Random_House_Kernerman_Websters_College_Dictionary_2010]
 synonym: "Ad-Ace2" RELATED []
-synonym: "adenoviral transfer of the murine Ace2 gene" EXACT []
-synonym: "transfer of recombinant adenovirus containing the murine Ace2 gene" EXACT []
+synonym: "adenoviral transfer of the murine Ace2 gene" RELATED []
+synonym: "transfer of recombinant adenovirus containing the murine Ace2 gene" RELATED []
 xref: MGI:1917258
 xref: RGD:1550521
 is_a: XCO:0000529 ! gene transfer using adenovirus vector
@@ -4862,8 +4857,8 @@ id: XCO:0000531
 name: gene transfer of the enhanced green fluorescent protein gene using an adenovirus vector
 def: "A condition in which the enhanced green fluorescent protein (EGFP) gene has been (transiently or stably) transferred into a cell or organism using an adenovirus carrier in order to induce synthesis of that gene's product in the recipient cell or organism." [RGD:12879447, Webster:Random_House_Kernerman_Websters_College_Dictionary_2010]
 synonym: "Ad-EGFP" RELATED []
-synonym: "adenoviral transfer of the EGFP gene" EXACT []
-synonym: "transfer of recombinant adenovirus containing the EGFP gene" EXACT []
+synonym: "adenoviral transfer of the EGFP gene" RELATED []
+synonym: "transfer of recombinant adenovirus containing the EGFP gene" RELATED []
 is_a: XCO:0000529 ! gene transfer using adenovirus vector
 created_by: jesmith
 creation_date: 2017-08-11T17:17:27Z
@@ -5146,7 +5141,7 @@ creation_date: 2018-11-19T14:33:05Z
 
 [Term]
 id: XCO:0000560
-name: controlled melatonin content diet
+name: controlled melatonin content diet 
 def: "A solid diet in which the amount of melatonin is maintained at a specified level." []
 is_a: XCO:0000559 ! melatonin
 created_by: sjwang
@@ -5549,7 +5544,7 @@ creation_date: 2019-02-15T16:27:32Z
 
 [Term]
 id: XCO:0000605
-name: aflatoxin B1
+name: aflatoxin B1 
 def: "An aflatoxin having a tetrahydrocyclopenta[c]furo[3',2':4,5]furo[2,3-h]chromene skeleton with oxygen functionality at positions 1, 4 and 11." [CHEBI:2504]
 is_a: XCO:0000240 ! toxin
 created_by: sjwang
@@ -5566,7 +5561,7 @@ creation_date: 2019-03-18T16:27:59Z
 [Term]
 id: XCO:0000607
 name: acetic acid
-def: "Product of the oxidation of ethanol and of the destructive distillation of wood. Acetic acid is used locally, occasionally internally, as a counterirritant and also as a reagent." [CHEBI:15366, Stedman:Stedmans_Medical_Dictionary_26th_ed]
+def: "Product of the oxidation of ethanol and of the destructive distillation of wood. Acetic acid is used locally, occasionally internally, as a counterirritant and also as a reagent." [CHEBI:15366, Stedman:Stedmans_Medical_Dictionary 26th ed]
 is_a: XCO:0000088 ! chemical
 created_by: sjwang
 creation_date: 2019-03-19T17:06:26Z
@@ -5575,7 +5570,7 @@ creation_date: 2019-03-19T17:06:26Z
 id: XCO:0000608
 name: Allyl isothiocyanate
 alt_id: CHEBI:73224
-alt_id: Pubchem:5971
+alt_id: Pubchem: 5971
 def: "An isothiocyanate with the formula CH2=CHCH2N=C=S. A colorless oil with boiling point 152degreeC, it is responsible for the pungent taste of mustard, horseradish, and wasabi." [CHEBI:73224]
 synonym: "mustard oil" RELATED []
 is_a: XCO:0000435 ! antineoplastic agent
@@ -5588,7 +5583,7 @@ id: XCO:0000609
 name: 4-methyl-2-(piperidin-1-yl) quinoline
 def: "A potent and selective blocker of TRPC4 channels." [PMID:24388923]
 synonym: "ML-204" EXACT []
-synonym: "Pubchem:230710" EXACT []
+synonym: "Pubchem: 230710" EXACT []
 is_a: XCO:0000222 ! cation channel inhibitor
 created_by: sjwang
 creation_date: 2019-03-27T15:43:10Z
@@ -5605,7 +5600,7 @@ creation_date: 2019-03-27T15:52:55Z
 
 [Term]
 id: XCO:0000611
-name: nifedipine
+name: nifedipine 
 def: "Nifedipine is a potent vasodilator agent with calcium antagonistic action. It is a useful anti-anginal agent that also lowers blood pressure." [https://meshb.nlm.nih.gov/record/ui?ui=D009543 "MESH"]
 synonym: "CHEBI:7565" EXACT []
 synonym: "Pubchem: 4485" EXACT []
@@ -5842,7 +5837,7 @@ creation_date: 2019-07-30T16:18:43Z
 
 [Term]
 id: XCO:0000636
-name: immunosuppressive agent
+name: immunosuppressive agent 
 def: "An agent that suppresses immune function by one of several mechanisms of action. Classical cytotoxic immunosuppressants act by inhibiting DNA synthesis. Others may act through activation of T-cells or by inhibiting the activation of helper cells. In addition, an immunosuppressive agent is a role played by a compound which is exhibited by a capability to diminish the extent and/or voracity of an immune response." [CHEBI:35705]
 synonym: "CHEBI:35705" EXACT []
 is_a: XCO:0000341 ! chemical with specified function
@@ -5855,7 +5850,7 @@ name: cyclosporine A
 def: "A cyclic nonribosomal peptide of eleven amino acids; an immunosuppressant drug widely used in post-allogeneic organ transplant to reduce the activity of the patient's immune system, and therefore the risk of organ rejection. Also causes reversible inhibition of immunocompetent lymphocytes in the G0- and G1-phase of the cell cycle." [CHEBI:4031]
 synonym: "CHEBI:4031" EXACT []
 synonym: "cyclosporine" RELATED []
-is_a: XCO:0000636 ! immunosuppressive agent
+is_a: XCO:0000636 ! immunosuppressive agent 
 created_by: sjwang
 creation_date: 2019-08-01T12:50:36Z
 
@@ -5922,7 +5917,7 @@ creation_date: 2019-11-05T10:21:40Z
 
 [Term]
 id: XCO:0000645
-name: propofol
+name: propofol 
 def: "A phenol resulting from the formal substitution of the hydrogen at the 2 position of 1,3-diisopropylbenzene by a hydroxy group." []
 synonym: "CHEBI:44915" EXACT []
 is_a: XCO:0000106 ! anesthetic/analgesic
@@ -5931,7 +5926,7 @@ creation_date: 2019-11-27T12:37:25Z
 
 [Term]
 id: XCO:0000646
-name: Azoxymethane
+name: Azoxymethane 
 def: "Azoxymethane (AOM), a gene mutation agent, may be used with dextran sulfate sodium (DSS) to create cancer models in laboratory animals which can be used to study mechanisms of cancer progression and chemoprevention." []
 synonym: "CAS:25843-45-2" EXACT []
 synonym: "ML-MFCD00126912" EXACT []
@@ -6208,7 +6203,7 @@ creation_date: 2020-03-05T16:49:13Z
 
 [Term]
 id: XCO:0000674
-name: clonidine
+name: clonidine 
 alt_id: CHEBI:46631
 alt_id: MESH:D003000
 def: "An imidazoline sympatholytic agent that stimulates ALPHA-2 ADRENERGIC RECEPTORS and central IMIDAZOLINE RECEPTORS. It is commonly used in the management of HYPERTENSION" [MESH:D003000]
@@ -6231,7 +6226,7 @@ creation_date: 2020-03-06T11:39:41Z
 
 [Term]
 id: XCO:0000676
-name: gene transfer of the rat erb-b2 receptor tyrosine kinase 2 gene using a retrovirus vector
+name: gene transfer of the rat erb-b2 receptor tyrosine kinase 2 gene using a retrovirus vector 
 def: "A condition in which the rat erb-b2 receptor tyrosine kinase 2 gene (Erbb2) gene has been (transiently or stably) transferred into a cell or organism using a retrovirus carrier in order to induce synthesis of that gene's product in the recipient cell or organism." [PMID:1913683]
 synonym: "pJR-neu" RELATED []
 synonym: "retroviral transfer of the rat Erbb2 gene" EXACT []
@@ -6255,11 +6250,10 @@ creation_date: 2020-03-06T13:46:09Z
 [Term]
 id: XCO:0000678
 name: gene transfer of the rat MER proto-oncogene, tyrosine kinase gene using an adenovirus vector
-def: "A condition in which the rat MER proto-oncogene, tyrosine kinase gene has been (transiently or stably) transferred into a cell or organism using an adenovirus carrier in order to induce synthesis of that gene's product in the recipient cell or organism." [PMID:11592982, Webster:Random_House_Kernerman_Websters_College_Dictionary_2010]
+def: "A condition in which the rat MER proto-oncogene, tyrosine kinase (Mertk) gene has been (transiently or stably) transferred into a cell or organism using an adenovirus carrier in order to induce synthesis of that gene's product in the recipient cell or organism." [RGD:69668, Webster:Random_House_Kernerman_Websters_College_Dictionary_2010]
 synonym: "adenoviral transfer of the rat Mertk gene" EXACT []
 synonym: "Ad-Mertk" RELATED []
 synonym: "transfer of recombinant adenovirus containing the rat Mertk gene" EXACT []
-xref: PMID:11592982
 xref: RGD:69283
 is_a: XCO:0000529 ! gene transfer using adenovirus vector
 created_by: slaulede
@@ -6334,7 +6328,7 @@ creation_date: 2020-04-30T14:19:39Z
 
 [Term]
 id: XCO:0000685
-name: fat emulsion
+name:  fat emulsion
 def: "A liquid composed of two immiscible substances, typically some form of fat and water. In parenteral nutrition, a fat emulsion may contain phospholipids, triglycerides and essential fatty acids." [https://www.cancer.gov/publications/dictionaries/cancer-drug/def/fat-emulsion]
 synonym: "lipid emulsion" EXACT []
 is_a: XCO:0000341 ! chemical with specified function
@@ -6345,7 +6339,7 @@ creation_date: 2020-04-30T14:52:23Z
 id: XCO:0000686
 name: Intralipid
 def: "A sterile, non&#8209;pyrogenic fat emulsion intended as a source of calories and essential fatty acids for use in a pharmacy admixture program. It is made up of 20% Soybean Oil, 1.2% Egg Yolk, Phospholipids, 2.25% Glycerin, and Water for Injection. In addition, sodium hydroxide has been added to adjust the pH so that the final product pH is 6 to 8.9." [https://www.fresenius-kabi.com/en-ca/products/lipid-emulsions]
-is_a: XCO:0000685 ! fat emulsion
+is_a: XCO:0000685 !  fat emulsion
 created_by: slaulede
 creation_date: 2020-04-30T15:09:24Z
 
@@ -6367,7 +6361,7 @@ creation_date: 2020-05-01T16:51:23Z
 [Term]
 id: XCO:0000688
 name: myelin basic protein
-def: "Myelin basic protein is a hydrophobic insulator that can be synthesized by the oligodendrocyte and/or Schwann cell as part of the myelin sheath which is wrapped around the axon. Myelin basic protein may constitute as much as one-third of all protein in myelin." [https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/myelin-basic-protein "ScienceDirect"]
+def: "Myelin basic protein is a hydrophobic insulator that can be synthesized by the oligodendrocyte and/or Schwann cell as part of the myelin sheath which is wrapped around the axon. Myelin basic protein may constitute as much as one-third of myelin protein." [https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/myelin-basic-protein "ScienceDirect"]
 synonym: "Golli-MBP" EXACT []
 synonym: "MBP" EXACT []
 synonym: "MBP S" EXACT []
@@ -6613,9 +6607,6 @@ creation_date: 2020-06-05T10:25:14Z
 id: XCO:0000710
 name: DHD/K12/TRb cells
 def: "A rat colonic carcinoma cell line used to study biochemical correlates of metastasis." [ECACC:90062901]
-synonym: "DHD K12/TRb cells" EXACT []
-synonym: "DHD-K12 TRb cells" EXACT []
-synonym: "TRb cells" EXACT []
 xref: ECACC:90062901
 xref: PMID:19850492
 is_a: XCO:0000709 ! cancer cells
@@ -6682,7 +6673,6 @@ id: XCO:0000715
 name: mitogen-activated protein kinase inhibitor
 def: "Any condition in which the main influencing factor is a chemical which decreases or interferes with the activity of a mitogen-activated protein kinase." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed]
 synonym: "EC 2.7.11.24 inhibitor" EXACT []
-synonym: "MAPK inhibitor" RELATED []
 is_a: XCO:0000523 ! enzyme inhibitor
 created_by: slaulede
 creation_date: 2020-06-08T14:19:35Z
@@ -6736,7 +6726,6 @@ synonym: "laser coagulation" EXACT []
 synonym: "laser eye surgery" EXACT []
 synonym: "photocoagulation" EXACT []
 is_a: XCO:0000165 ! surgical manipulation
-is_a: XCO:0000804 ! laser therapy
 created_by: slaulede
 creation_date: 2020-06-08T17:19:58Z
 
@@ -6754,7 +6743,7 @@ creation_date: 2020-06-11T17:41:02Z
 [Term]
 id: XCO:0000722
 name: solid food deprivation
-def: "Condition in which solid food is withheld for a specified period of time, while nourishment through liquids is provided." [https://www.merriam-webster.com/, PMID:23955305]
+def: "Condition in which solid food is withheld for a specified period of time, while nourishment through liquids is provided." []
 xref: PMID:23955305
 is_a: XCO:0000461 ! restricted feeding
 created_by: slaulede
@@ -6860,7 +6849,7 @@ creation_date: 2020-07-27T16:09:03Z
 [Term]
 id: XCO:0000732
 name: CC531 cells
-def: "A condition in which the main influencing factor is a rat colonic adenocarcinoma cell line used to study metastasis." []
+def: "A rat colonic adenocarcinoma cell line used to study metastasis." []
 synonym: "CC-531" EXACT []
 xref: PMID:8225852
 xref: RRID:CVCL_0206
@@ -6918,7 +6907,7 @@ creation_date: 2020-09-08T17:35:42Z
 [Term]
 id: XCO:0000737
 name: endotoxin
-def: "A component of bacterial cells, an endotoxin can be a part of the outer membrane of gram-negative bacteria (lipopolysacharride) or a part or the \"spore\" of gram-positive bacteria (delta endotoxin)." [https://www.horseshoecrab.org/med/endotoxin.html, PMID:11468393]
+def: "A component of bacterial cells, an endotoxin can be a part of the outer membrane of gram-negative bacteria (lipopolysacharride) or a part or the "spore" of gram-positive bacteria (delta endotoxin)." [https://www.horseshoecrab.org/med/endotoxin.html, PMID:11468393]
 is_a: XCO:0000239 ! toxic substance
 created_by: slaulede
 creation_date: 2020-09-14T17:54:49Z
@@ -7042,7 +7031,7 @@ creation_date: 2020-09-25T10:32:53Z
 
 [Term]
 id: XCO:0000751
-name: unilateral carotid artery occlusion
+name: unilateral carotid artery occlusion 
 def: "A surgical manipulation causing blockage of one of the common carotid arteries, or of a branch (internal or external) of the common carotid arteries." [ISBN-13:978-0323049375, PMID:29486300]
 synonym: "UCAO" EXACT []
 xref: PMID:29486300
@@ -7054,7 +7043,7 @@ creation_date: 2020-09-25T13:30:19Z
 id: XCO:0000752
 name: right carotid artery occlusion
 def: "A surgical manipulation causing blockage of the right common carotid artery, or a branch (internal or external) of the right common carotid artery." [ISBN-13:978-0323049375, PMID:29486300]
-is_a: XCO:0000751 ! unilateral carotid artery occlusion
+is_a: XCO:0000751 ! unilateral carotid artery occlusion 
 created_by: slaulede
 creation_date: 2020-09-25T13:54:07Z
 
@@ -7062,7 +7051,7 @@ creation_date: 2020-09-25T13:54:07Z
 id: XCO:0000753
 name: left carotid artery occlusion
 def: "A surgical manipulation causing blockage of the left common carotid artery, or a branch (internal or external) of the left common carotid artery." [ISBN-13:978-0323049375, PMID:31482584]
-is_a: XCO:0000751 ! unilateral carotid artery occlusion
+is_a: XCO:0000751 ! unilateral carotid artery occlusion 
 created_by: slaulede
 creation_date: 2020-09-25T14:00:57Z
 
@@ -7079,7 +7068,7 @@ creation_date: 2020-09-25T14:09:32Z
 [Term]
 id: XCO:0000755
 name: dimethyl sulfoxide
-def: "Any condition in which the main influencing factor is dimethyl sulfoxide, a 2-carbon sulfoxide and highly polar organic liquid, that is used widely as a chemical solvent. Because of its ability to penetrate biological membranes, it is used as a vehicle for topical application of pharmaceuticals. Dimethyl sulfoxide shows a range of pharmacological activity including analgesia and anti-inflammation." [CHEBI:28262, MESH:D004121]
+def: "A 2-carbon sulfoxide and highly polar organic liquid, that is used widely as a chemical solvent. Because of its ability to penetrate biological membranes, it is used as a vehicle for topical application of pharmaceuticals. Dimethyl sulfoxide shows a range of pharmacological activity including analgesia and anti-inflammation." [CHEBI:28262, MESH:D004121]
 synonym: "DMSO" EXACT []
 xref: CHEBI:28262
 xref: MESH:D004121
@@ -7120,6 +7109,13 @@ xref: PMID:22439772
 is_a: XCO:0000468 ! vitamin A
 created_by: slaulede
 creation_date: 2020-10-05T16:57:15Z
+
+[Term]
+id: XCO:0000759
+name: Schirmer test
+def: "The Schirmer test determines whether the eye produces enough tears to keep it moist by placing absorbant strips under the lower eyelid for a specified amount of time. The strips are measured to determine amount of tears shed per unit time." []
+created_by: slaulede
+creation_date: 2020-10-12T18:16:16Z
 
 [Term]
 id: XCO:0000760
@@ -7197,672 +7193,6 @@ def: "A condition in which the main influencing factor is the infective cercaria
 is_a: XCO:0000767 ! Schistosoma mansoni
 created_by: slaulede
 creation_date: 2020-10-16T17:50:16Z
-
-[Term]
-id: XCO:0000769
-name: antiserum
-def: "Blood serum that contains antibodies against an infective agent (such as a bacteria or virus) or toxic substance (such as snake venom) and may be used to prevent or treat infection or poisoning." [https://www.biologyonline.com/dictionary/antiserum, https://www.merriam-webster.com/]
-is_a: XCO:0000761 ! biologic
-created_by: slaulede
-creation_date: 2020-10-19T13:58:56Z
-
-[Term]
-id: XCO:0000770
-name: rat anti-Ab2 antiserum
-def: "Any condition in which the main influencing factor is an injection of serum prepared from rats immunized with Ab2 antibodies. These Ab2 antibodies are antiidiotypic antibodies raised against anti-26 kDa (antigen secreted from schistosomula of Schistosoma mansoni) IgE antibodies." [https://www.merriam-webster.com/, PMID:1719096]
-xref: PMID:1719096
-is_a: XCO:0000769 ! antiserum
-created_by: slaulede
-creation_date: 2020-10-19T14:05:35Z
-
-[Term]
-id: XCO:0000771
-name: rat anti-26 kDa antiserum
-def: "Any condition in which the main influencing factor is an injection of serum prepared from rats immunized with the 26 kDa antigen secreted from schistosomula of Schistosoma mansoni." [https://www.merriam-webster.com/, PMID:1719096]
-xref: PMID:1719096
-is_a: XCO:0000769 ! antiserum
-created_by: slaulede
-creation_date: 2020-10-19T14:09:02Z
-
-[Term]
-id: XCO:0000772
-name: controlled cocoa butter content diet
-def: "A solid diet in which the amount of cocoa butter is maintained at a specified level. Cocoa butter is a pale vegetable fat with a low melting point obtained from cacao beans." [https://www.healthline.com/health/beauty-skin-care/cocoa-butter-benefits, https://www.merriam-webster.com/]
-is_a: XCO:0000014 ! controlled content diet
-created_by: slaulede
-creation_date: 2020-10-19T15:39:19Z
-
-[Term]
-id: XCO:0000773
-name: controlled soybean oil content diet
-def: "A solid diet in which the amount of soybean oil is maintained at a specified level. Soybean oil is a pale yellow drying or semidrying oil that is obtained from soybeans and is used chiefly as a food, in paints, varnishes, linoleum, printing ink, and soap, and as a source of phospholipids, fatty acids, and sterols." [https://www.merriam-webster.com/, https://www.webmd.com/vitamins/ai/ingredientmono-196/soybean-oil]
-is_a: XCO:0000454 ! controlled oil content diet
-created_by: slaulede
-creation_date: 2020-10-19T17:46:26Z
-
-[Term]
-id: XCO:0000774
-name: oil
-def: "Any condition in which the main influencing factor is any of numerous unctuous combustible substances that are liquid or can be liquefied easily on warming, are soluble in ether but not in water, and leave a greasy stain on paper or cloth." [https://www.britannica.com/science/oil-chemical-compound, https://www.merriam-webster.com/, ISBN:978-1-4684-6878-6]
-is_a: XCO:0000342 ! chemical with specified structure
-created_by: slaulede
-creation_date: 2020-10-19T18:03:59Z
-
-[Term]
-id: XCO:0000775
-name: soybean oil
-def: "Any condition in which the main influencing factor is soybean oil. Soybean oil is a pale yellow drying or semidrying oil that is obtained from soybeans and is used chiefly as a food, in paints, varnishes, linoleum, printing ink, and soap, and as a source of phospholipids, fatty acids, and sterols." [https://www.merriam-webster.com/, https://www.webmd.com/vitamins/ai/ingredientmono-196/soybean-oil]
-is_a: XCO:0000774 ! oil
-created_by: slaulede
-creation_date: 2020-10-19T18:21:13Z
-
-[Term]
-id: XCO:0000776
-name: fatty acid
-def: "Any condition in which the main influencing factor is any aliphatic monocarboxylic acid derived from or contained in esterified form in an animal or vegetable fat, oil or wax." [CHEBI:35366, https://www.merriam-webster.com/]
-xref: CHEBI:35366
-is_a: XCO:0000342 ! chemical with specified structure
-created_by: slaulede
-creation_date: 2020-10-19T18:27:54Z
-
-[Term]
-id: XCO:0000777
-name: alpha-lipoic acid
-def: "Any condition in which the main influencing factor is alpha-lipoic acid, a heterocyclic thia fatty acid comprising pentanoic acid with a 1,2-dithiolan-3-yl group at the 5-position." [CHEBI:16494, MESH:D008063]
-synonym: "lipoic acid" EXACT []
-synonym: "Thioctic Acid" EXACT []
-xref: CHEBI:16494
-xref: MESH:D008063
-is_a: XCO:0000776 ! fatty acid
-created_by: slaulede
-creation_date: 2020-10-19T18:33:37Z
-
-[Term]
-id: XCO:0000778
-name: spiroplatin
-def: "A condition in which the main influencing factor is spiroplatin, a metal drug and analog of the second generation for cisplatin, developed for the treatment of cancer. Spiroplatin induces DNA cross-linking, thereby inhibiting DNA replication and the synthesis of RNA and protein. Initial clinical trials of spiroplatin showed that it could cause less nausea and vomiting than cisplatin, but development was discontinued due to weak anti-tumor effects and toxicity at high dosages." [https://drugs.ncats.io/drug/H2V318W7LE, MESH:C040757]
-synonym: "aqua(1,1-bis(aminomethyl)cyclohexane)sulfatoplatinum (II)" EXACT []
-synonym: "NSC-311056" EXACT []
-synonym: "TNO-6" EXACT []
-xref: MESH:C040757
-is_a: XCO:0000399 ! complex ion
-is_a: XCO:0000435 ! antineoplastic agent
-created_by: slaulede
-creation_date: 2020-10-20T14:53:27Z
-
-[Term]
-id: XCO:0000779
-name: rat IgM immunocytoma cells
-def: "A condition in which the main influencing factor is rat IgM-secreting immunocytoma cells. The transplantable tumor cells are used in various studies including antibody secretion studies and antitumoral drug studies." [DOID:0050747, PMID:6683993]
-synonym: "rat IgM lymphoplasmacytic lymphoma cells" EXACT []
-xref: PMID:6683993
-is_a: XCO:0000709 ! cancer cells
-created_by: slaulede
-creation_date: 2020-10-22T13:12:29Z
-
-[Term]
-id: XCO:0000780
-name: liposomes
-def: "An experimental condition in which the main influencing factor is liposomes, artificial vesicles composed of one or more concentric phospholipid bilayers and used to deliver biologically relevant substances." [https://www.merriam-webster.com/, https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/liposome]
-xref: PMID:6744286
-is_a: XCO:0000341 ! chemical with specified function
-created_by: slaulede
-creation_date: 2020-10-27T16:40:20Z
-
-[Term]
-id: XCO:0000781
-name: positively charged liposomes
-def: "An experimental condition in which the main influencing factor is positively charged liposomes, artificial positively charged vesicles composed of one or more concentric phospholipid bilayers and used to deliver biologically relevant substances." [https://www.merriam-webster.com/, https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/liposome, PMID:6744286]
-synonym: "lip+" EXACT []
-xref: PMID:6744286
-is_a: XCO:0000780 ! liposomes
-created_by: slaulede
-creation_date: 2020-10-27T16:48:40Z
-
-[Term]
-id: XCO:0000782
-name: negatively charged liposomes
-def: "An experimental condition in which the main influencing factor is negatively charged liposomes, artificial negatively charged vesicles composed of one or more concentric phospholipid bilayers and used to deliver biologically relevant substances." [https://www.merriam-webster.com/, https:www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/liposome, PMID:6744286]
-synonym: "lip-" EXACT []
-xref: PMID:6744286
-is_a: XCO:0000780 ! liposomes
-created_by: slaulede
-creation_date: 2020-10-27T16:52:12Z
-
-[Term]
-id: XCO:0000783
-name: cytokine
-def: "Any condition in which the main influencing factor is a cytokine, a small secreted protein that has a specific effect on the interactions and communications between cells. Cytokine is a general name for other signaling molecules, including lymphokines, monokines, and chemokines." [ISBN-13:978-1608316922, PMID:17426506]
-synonym: "chemokine" NARROW []
-synonym: "lymphokine" NARROW []
-synonym: "monokine" NARROW []
-is_a: XCO:0000193 ! peptide/protein
-created_by: slaulede
-creation_date: 2020-10-30T13:38:35Z
-
-[Term]
-id: XCO:0000784
-name: interleukin-2
-def: "Any condition in which the main influencing factor is interleukin-2, a cytokine made by a type of T lymphocyte. It increases the growth and activity of other T lymphocytes and B lymphocytes, and affects the development of the immune system." [https://www.cancer.gov/publications/dictionaries/cancer-terms/def/interleukin-2, ISBN-13:978-1608316922]
-synonym: "IL-2" EXACT []
-synonym: "IL2" EXACT []
-synonym: "interleukin 2" EXACT []
-xref: MESH:D007376
-is_a: XCO:0000783 ! cytokine
-created_by: slaulede
-creation_date: 2020-10-30T13:52:50Z
-
-[Term]
-id: XCO:0000785
-name: PROb cells
-def: "A rat cell line derived from a colonic adenocarcinoma induced by 1,2- dimethylhydrazine in BDIX rats." [PMID:6358055, PMID:9833767]
-xref: PMID:6358055
-xref: PMID:9833767
-is_a: XCO:0000709 ! cancer cells
-created_by: slaulede
-creation_date: 2020-10-30T14:41:50Z
-
-[Term]
-id: XCO:0000786
-name: PRObR1 cells
-def: "A rat cell line (PROb 5-FU-resistant subline) derived from colonic adenocarcinoma PROb cells. The R1 cell line was established from PROb cells by in vivo and in vitro adaptation to 5-fluorouracil (5-FU), an anticancer drug." [PMID:9399677, PMID:9833767]
-xref: PMID:9399677
-xref: PMID:9833767
-is_a: XCO:0000785 ! PROb cells
-created_by: slaulede
-creation_date: 2020-10-30T14:51:26Z
-
-[Term]
-id: XCO:0000787
-name: sodium butyrate
-def: "Any condition in which the main influencing factor is sodium butyrate, an organic sodium salt resulting from the replacement of the proton from the carboxy group of butyric acid (a short-chain fatty acid) by a sodium ion." [CHEBI:64103, MESH:D002087]
-synonym: "sodium butanoate" EXACT []
-xref: CHEBI:64103
-xref: MESH:D002087
-is_a: XCO:0000776 ! fatty acid
-created_by: slaulede
-creation_date: 2020-10-30T14:59:55Z
-
-[Term]
-id: XCO:0000788
-name: S4MH cells
-def: "A condition in which the main influencing factor is a rat rhabdomyosarcoma cell line used to study metastasis." [ISBN-13:978-0781733908, PMID:18028954]
-xref: PMID:18028954
-is_a: XCO:0000709 ! cancer cells
-created_by: slaulede
-creation_date: 2020-11-12T16:13:47Z
-
-[Term]
-id: XCO:0000789
-name: methylcellulose
-def: "Methylcellulose is a methylester of cellulose and it is used as an emulsifying and suspending agent in cosmetics, pharmaceuticals and the chemical industry. It is used therapeutically as a bulk laxative." [CHEBI:53448, MESH:D008747]
-synonym: "Citrucel" EXACT []
-synonym: "MC" EXACT []
-synonym: "methyl cellulose" EXACT []
-is_a: XCO:0000511 ! ester
-created_by: slaulede
-creation_date: 2020-11-16T14:59:35Z
-
-[Term]
-id: XCO:0000790
-name: controlled sodium chloride content drinking water
-def: "A drink made up of water and a specified amount of sodium chloride dissolved in a sufficient quantity of water." [https://www.merriam-webster.com/]
-synonym: "controlled NaCl content drinking water" EXACT []
-is_a: XCO:0000164 ! controlled sodium content drinking water
-created_by: slaulede
-creation_date: 2020-11-19T14:53:13Z
-
-[Term]
-id: XCO:0000791
-name: standard condition
-def: "A condition defined by a mostly uniform set of parameters accepted as normal or average and used by general consent as a basis of comparison." [https://www.dictionary.com, https://www.merriam-webster.com/]
-is_obsolete: true
-created_by: slaulede
-creation_date: 2020-11-30T14:00:43Z
-
-[Term]
-id: XCO:0000792
-name: emodin
-def: "A trihydroxyanthraquinone that is 9,10-anthraquinone which is substituted by hydroxy groups at positions 1, 3, and 8 and by a methyl group at position 6. It is present in the roots and barks of numerous plants (particularly rhubarb and buckthorn), moulds, and lichens. It is an active ingredient of various Chinese herbs." [CHEBI:42223]
-xref: CHEBI:42223
-xref: MESH:D004642
-xref: PMID:31983185
-is_a: XCO:0000120 ! inhibitor
-is_a: XCO:0000435 ! antineoplastic agent
-created_by: slaulede
-creation_date: 2020-11-30T18:03:20Z
-
-[Term]
-id: XCO:0000793
-name: BTB14431
-def: "This is an in-silico screening analog of emodin (XCO:0000792)." [PMID:31983185]
-synonym: "BTB 14431" EXACT []
-xref: PMID:31983185
-is_a: XCO:0000435 ! antineoplastic agent
-created_by: slaulede
-creation_date: 2020-11-30T18:19:37Z
-
-[Term]
-id: XCO:0000794
-name: gene transfer of the lin-28 homolog B gene using an adenovirus vector
-def: "A condition in which the lin-28 homolog B gene has been (transiently or stably) transferred into a cell or organism using an adenovirus carrier in order to induce synthesis of that gene's product in the recipient cell or organism." [ISBN-13:978-0781733908, PMID:24279313]
-synonym: "Ad/Lin28B" RELATED []
-synonym: "adenoviral transfer of the Lin28B gene" EXACT []
-synonym: "gene transfer of the Lin28B gene using an adenovirus vector" EXACT []
-synonym: "transfer of recombinant adenovirus containing the Lin28B gene" EXACT []
-xref: PMID:27384999
-is_a: XCO:0000529 ! gene transfer using adenovirus vector
-created_by: slaulede
-creation_date: 2020-12-01T17:05:51Z
-
-[Term]
-id: XCO:0000795
-name: controlled sodium chloride content diet
-def: "A regimen of solid food in which the amount of sodium chloride consumed is controlled." [https://www.merriam-webster.com/]
-synonym: "controlled NaCl content diet" EXACT []
-is_a: XCO:0000022 ! controlled sodium content diet
-created_by: slaulede
-creation_date: 2020-12-18T17:49:31Z
-
-[Term]
-id: XCO:0000796
-name: U46619
-def: "A prostaglandin endoperoxide analogue (11,9 epoxymethano-prostaglandin H2) that is a selective agonist of prostaglandin H2 (PGH2)/thromboxane A2 (TxA2) (TP) receptor. It is a stable thromboxane A2 mimetic and a vasoconstrictor." [http://www.apexbt.com, https://www.sigmaaldrich.com]
-synonym: "9,11-Dideoxy-9&#945;,11&#945;-methanoepoxyprostaglandin F 2&#945;" EXACT []
-synonym: "CAS:56985-40-1" EXACT []
-synonym: "U 46619" EXACT []
-xref: PMID:22508433
-is_a: XCO:0000135 ! receptor agonist
-created_by: slaulede
-creation_date: 2021-01-04T16:46:45Z
-
-[Term]
-id: XCO:0000797
-name: Y-27632
-def: "A monocarboxylic acid amide that is trans-[(1R)-1-aminoethyl]cyclohexanecarboxamide in which one of the nitrogens of the aminocarbony group is substituted by a pyridine nucleus. It is a cell-permeable, reversible inhibitor of Rho-associated protein kinase (ROCK) enzyme." [CHEBI:75393, https://www.sigmaaldrich.com]
-synonym: "CAS-146986-50-7" EXACT []
-synonym: "Rho-associated protein kinase Inhibitor" EXACT []
-synonym: "ROCK Inhibitor" EXACT []
-synonym: "Y 27632" EXACT []
-synonym: "Y27632" EXACT []
-xref: MESH:C108830
-xref: PMID:22508433
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulede
-creation_date: 2021-01-04T16:52:50Z
-
-[Term]
-id: XCO:0000798
-name: nociceptin
-def: "Generated from the gene PNOC, which produces a preproprotein, which in subsequently processed to form multiple protein products. Nociceptin a 17-amino acid neuropeptide that binds to the nociceptin receptor to induce increased pain sensitivity." [https://www.ncbi.nlm.nih.gov/gene/5368]
-synonym: "NOP" EXACT []
-synonym: "OFQ" EXACT []
-synonym: "orphanin FQ" EXACT []
-xref: PMID:17875345
-is_a: XCO:0000228 ! peptide hormone
-created_by: slaulede
-creation_date: 2021-02-08T16:43:57Z
-
-[Term]
-id: XCO:0000799
-name: ether
-def: "A mobile, very volatile, highly flammable liquid used as an inhalation anesthetic and as a solvent for waxes, fats, oils, perfumes, alkaloids, and gums. It is mildly irritating to skin and mucous membranes." [https://www.merriam-webster.com/, MESH:D004986]
-synonym: "(C2H5)2O" EXACT []
-synonym: "C4H10O" EXACT []
-synonym: "CH3CH2OCH2CH3" EXACT []
-synonym: "Diethyl ether" EXACT []
-xref: CHEBI:25698
-xref: D004986
-is_a: XCO:0000106 ! anesthetic/analgesic
-created_by: slaulede
-creation_date: 2021-02-08T16:54:25Z
-
-[Term]
-id: XCO:0000800
-name: iron oxide nanoparticles
-def: "Any condition in which the main influencing factor is a particle with a size between 1 and 100 nanometers composed of iron oxide (Fe3O4). It contains both Fe2+ and Fe3+ ions and is sometimes formulated as FeO &#8729; Fe2O3. It exhibits permanent magnetism and is ferrimagnetic." [https://en.wikipedia.org/wiki/Iron(II\,III)_oxide, https://pubchem.ncbi.nlm.nih.gov/compound/Iron_II_III_oxide]
-synonym: "Fe3O4 nanoparticles" EXACT []
-synonym: "Iron(II,III)oxide nanoparticles" EXACT []
-xref: PMID:22661893
-is_a: XCO:0000338 ! chemical nanoparticle
-created_by: slaulede
-creation_date: 2021-02-09T12:06:12Z
-
-[Term]
-id: XCO:0000801
-name: controlled gliadin content diet
-def: "A regimen of solid food in which the amount of gliadin consumed is controlled. Gliadins are a group of proteins called alpha, beta, gamma and omega according to their relative electrophoretic mobility in gels. They are the major component of wheat gluten and made up of single-chain polypeptides with an average molecular weight of 25100 kDa linked by intramolecular disulfide bonds." [https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/gliadin]
-xref: PMID:19327106
-is_a: XCO:0000030 ! controlled protein content diet
-created_by: slaulede
-creation_date: 2021-02-09T12:53:16Z
-
-[Term]
-id: XCO:0000802
-name: GSK1016790A
-def: "It is a tertiary carboxamide and cell-permeable, potent and selective agonist of the TRPV4 (transient receptor potential vanilloid 4) channel." [CHEBI:140524]
-synonym: "C28H32Cl2N4O6S2" EXACT []
-xref: CAS:942206-85-1
-xref: PMID:29875065
-xref: Pubchem_CID:23630211
-is_a: XCO:0000217 ! cation channel activator
-created_by: slaulede
-creation_date: 2021-02-09T15:22:33Z
-
-[Term]
-id: XCO:0000803
-name: subthreshold laser therapy
-def: "Subthreshold therapy is photocoagulation that does not produce clinical or histologic evidence of retinal damage. Therapeutic benefit is thought to be derived by inducing thermal stress on RPE cells. The goal of the subthreshold therapy is to maintain the temperature rise below the threshold of irreversible thermal damage. The main types are micropulse, selective retinal therapy (SRT), and continuous wave laser with EndPoint Management (algorithm/protocol)." [https://eyewiki.aao.org/Sub-threshold_Laser#\:~\:text=Selective%20Retinal%20Therapy%20%28SRT%29%20Selective%20Retinal%20Therapy%20is\,using%20laser%20pulse%20durations%20of%20microseconds%20or%20nanoseconds., PMID:27841848]
-xref: PMID:31402999
-is_a: XCO:0000720 ! laser photocoagulation
-created_by: slaulede
-creation_date: 2021-02-11T13:52:41Z
-
-[Term]
-id: XCO:0000804
-name: laser therapy
-def: "Any biomedical use of lasers for purposes designed to improve the state of the subject. Light from a laser is tuned to specific wavelengths and is a beam of coherent electromagnetic radiation usually in the ultraviolet, visible, or infrared regions of the spectrum." [https://www.healthline.com/health/laser-therapy, https://www.merriam-webster.com/]
-xref: MESH:D053685
-xref: PMID:31402999
-is_a: XCO:0000045 ! electromagnetic radiation exposure
-created_by: slaulede
-creation_date: 2021-02-11T14:10:41Z
-
-[Term]
-id: XCO:0000805
-name: nondamaging retinal laser therapy
-def: "Nondamaging retinal laser therapy (NRT) is a retinal treatment with a lack of tissue damage. Lack of tissue damage allows high-density treatment patterns to increase therapeutic response and periodic retreatments for chronic macular diseases. It is similar to SRT (selective RPE therapy), but using lower energy to avoid killing retinal pigmented epithelial cells." [PMID:27159441]
-synonym: "NRT" EXACT []
-xref: PMID:31402999
-is_a: XCO:0000803 ! subthreshold laser therapy
-created_by: slaulede
-creation_date: 2021-02-11T15:38:45Z
-
-[Term]
-id: XCO:0000806
-name: selective retinal therapy
-def: "Selective retinal therapy (SRT) is a subthreshold laser therapy used to treat retinal disorders while preventing severe damage to the retina. In SRT RPE (retinal pigment epithelium) cells are selectively damaged without affecting the photoreceptors or choroid by using laser pulse durations of microseconds or nanoseconds" [https://eyewiki.aao.org/Sub-threshold_Laser#\:~\:text=Selective%20Retinal%20Therapy%20%28SRT%29%20Selective%20Retinal%20Therapy%20is\,using%20laser%20pulse%20durations%20of%20microseconds%20or%20nanoseconds., PMID:27841848]
-synonym: "selective RPE therapy" EXACT []
-synonym: "SRT" EXACT []
-xref: PMID:31402999
-is_a: XCO:0000803 ! subthreshold laser therapy
-created_by: slaulede
-creation_date: 2021-02-11T17:14:59Z
-
-[Term]
-id: XCO:0000807
-name: tetrahydrocurcumin
-def: "A beta-diketone that is methane in which two of the hydrogens are substituted by feruloyl groups. It is is a major herbal antioxidant and anti-inflammatory agent" [CHEBI:67263, PMID:22212488]
-synonym: "Sabiwhite" EXACT []
-synonym: "tetrahydrodiferuloylmethane" EXACT []
-xref: CHEBI:67263
-xref: PMID:22212488
-is_a: XCO:0000271 ! antioxidant
-is_a: XCO:0000505 ! anti-inflammatory agent
-created_by: slaulede
-creation_date: 2021-02-16T16:28:33Z
-
-[Term]
-id: XCO:0000808
-name: DL-&#945;-aminoadipate
-def: "Any condition in which the main influencing factor is DL-&#945;-aminoadipate. This excitatory amino acid analogue is an intermediate in the principal biosynthetic pathway of lysine. It is a also an inhibitor of glutamine synthetase." [MESH:D015074]
-synonym: "AAA" EXACT []
-synonym: "dl-&#945;AA" EXACT []
-synonym: "DL-&#945;-AAA" EXACT []
-xref: CHEBI:37024
-xref: MESH:D015074
-xref: PMID:28615682
-is_a: XCO:0000240 ! toxin
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulede
-creation_date: 2021-02-16T17:08:36Z
-
-[Term]
-id: XCO:0000809
-name: 2-methyl-6-(phenylethynyl)pyridine
-def: "Any condition in which the main influencing factor is 2-methyl-6-(phenylethynyl)pyridine, a methylpyridine that consists of 2-methylpyridine bearing an additional phenylethynyl group at position 6. It is a potent and highly selective non-competitive antagonist at the mGlu5 receptor subtype (IC50 = 36 nM) and a positive allosteric modulator at mGlu4 receptors. It functions as an excitatory amino acid antagonist and an anxiolytic agent." [CHEBI:64159, MESH:C121465]
-synonym: "2-methyl-6-(phenylethynyl)pyridine" EXACT []
-synonym: "MPEP" EXACT []
-xref: PMID:28615682
-is_a: XCO:0000160 ! receptor antagonist
-created_by: slaulede
-creation_date: 2021-02-16T17:41:28Z
-
-[Term]
-id: XCO:0000810
-name: 2-Chloro-5-hydroxyphenylglycine
-def: "Any condition in which the main influencing factor is 2-Chloro-5-hydroxyphenylglycine, a metabotropic glutamate receptor 5 agonist." [PMID:28615682]
-synonym: "(R,S)-2-chloro- 5-hydroxyphenylglycine" EXACT []
-synonym: "CHPG" EXACT []
-xref: MESH:C107349
-xref: PMID:28615682
-is_a: XCO:0000135 ! receptor agonist
-created_by: slaulede
-creation_date: 2021-02-16T18:30:58Z
-
-[Term]
-id: XCO:0000811
-name: A23187
-def: "Any condition in which the main influencing factor is A23187, an ionophorous, polyether antibiotic from Streptomyces chartreusensis. It binds and transports CALCIUM and other divalent cations across membranes." [MESH:D000001]
-synonym: "A-23187" EXACT []
-synonym: "calcimycin" EXACT []
-xref: CHEBI:3305
-xref: MESH:D000001
-xref: PMID:22508433
-is_a: XCO:0000140 ! vasodilator
-created_by: slaulede
-creation_date: 2021-02-22T13:09:46Z
-
-[Term]
-id: XCO:0000812
-name: controlled hemorrhage
-def: "The drawing of blood (by venipuncture or artery puncture) for transfusion, apheresis, diagnostic testing, or experimental procedures." [https://www.merriam-webster.com/, ISBN-13:978-0702033896]
-synonym: "phlebotomy" NARROW []
-xref: PMID:17998886
-is_a: XCO:0000595 ! surgical manipulation of blood vessels
-created_by: slaulede
-creation_date: 2021-02-23T15:25:59Z
-
-[Term]
-id: XCO:0000813
-name: total body irradiation
-def: "Total body irradiation (TBI) is a form of radiotherapy (typically X-rays or gamma rays) used primarily as part of the preparative regimen for hematopoietic stem cell (or bone marrow) transplantation." [https://en.wikipedia.org/wiki/Total_body_irradiation, https://www.merriam-webster.com/]
-synonym: "TBI" EXACT []
-xref: ISBN-13:978-0323240987
-xref: PMID:30575429
-is_a: XCO:0000043 ! X-ray exposure
-created_by: slaulede
-creation_date: 2021-03-02T14:21:45Z
-
-[Term]
-id: XCO:0000814
-name: partial body irradiation
-def: "Partial body irradiation (PBI) is a form of radiotherapy used to target certain organs or to study the effects of sublethal doses of radiation." [PMID:22929471, PMID:27147332]
-synonym: "PBI" EXACT []
-xref: PMID:22929471
-xref: PMID:27147332
-is_a: XCO:0000043 ! X-ray exposure
-created_by: slaulede
-creation_date: 2021-03-02T14:31:47Z
-
-[Term]
-id: XCO:0000815
-name: leg-out partial body irradiation
-def: "This is a condition/model system that features partial body irradiation (PBI) delivering a high dose of radiation to most of the body, and a small fraction of that dose to one leg of the subject. It allows the study of multi-organ radiation injury while sparing the bone marrow from a lethal dose." [PMID:27682899, PMID:30575429]
-synonym: "leg-out PBI" EXACT []
-xref: PMID:27682899
-xref: PMID:30575429
-is_a: XCO:0000814 ! partial body irradiation
-created_by: slaulede
-creation_date: 2021-03-02T15:00:18Z
-
-[Term]
-id: XCO:0000816
-name: partial-body irradiation with 5% bone marrow sparing
-def: "Partial-body irradiation with 5% bone marrow sparing (tibiae, ankles, feet) is used to define acute radiation-induced GI-ARS, H-ARS, and acute kidney injury (AKI) as well as the delayed effects of acute radiation exposure (DEARE) characterized by prolonged GI, lung, and heart injury and chronic kidney injury (CKI). This condition/model system allows analysis of concomitant multi-organ sequelae." [PMID:22929471, PMID:30575429]
-synonym: "PBI/BM5" EXACT []
-xref: PMID:22929471
-xref: PMID:30575429
-is_a: XCO:0000814 ! partial body irradiation
-created_by: slaulede
-creation_date: 2021-03-02T15:35:19Z
-
-[Term]
-id: XCO:0000817
-name: whole thorax lung irradiation
-def: "Whole thorax lung irradiation is a type of partial body irradiation used to target the lungs. In experimental animals it is used to study the lung morbidities caused by radiation exposure." [PMID:30575429]
-synonym: "WTLI" EXACT []
-xref: PMID:30575429
-xref: PMID:33009295
-is_a: XCO:0000814 ! partial body irradiation
-created_by: slaulede
-creation_date: 2021-03-02T15:55:53Z
-
-[Term]
-id: XCO:0000818
-name: gene transfer using plasmid vector
-def: "A condition in which gene transfer has been performed using a plasmid as the carrier of the genetic material. A plasmid is a small, circular, double-stranded DNA molecule that is distinct from a cell's chromosomal DNA. Plasmids naturally exist in bacterial cells, and they also occur in some eukaryotes. Plasmids that are used experimentally as molecular tools are called vectors." [https://www.merriam-webster.com/, https://www.nature.com/scitable/definition/plasmid-plasmids-28/]
-xref: PMID:21993171
-is_a: XCO:0000528 ! gene transfer
-created_by: slaulede
-creation_date: 2021-03-04T18:11:03Z
-
-[Term]
-id: XCO:0000819
-name: gene transfer using plasmid vector pVAX2
-def: "A condition in which gene transfer has been performed using the plasmid pVAX2 as the carrier of the genetic material. The pVAX2 plasmid is based on the pVAX1 plasmid, which was designed for use in the development of DNA vaccines." [https://www.thermofisher.com/order/catalog/product/V26020#/V26020, PMID:19440225]
-xref: PMID:19440225
-is_a: XCO:0000818 ! gene transfer using plasmid vector
-created_by: slaulede
-creation_date: 2021-03-04T18:29:17Z
-
-[Term]
-id: XCO:0000820
-name: gene transfer using empty plasmid vector pVAX2
-def: "A control condition in which gene transfer has been performed using an empty plasmid pVAX2. The pVAX2 plasmid is based on the pVAX1 plasmid, which was designed for use in the development of DNA vaccines." [https://www.thermofisher.com/order/catalog/product/V26020#/V26020, PMID:21993171]
-synonym: "gene transfer using only the backbone of plasmid vector pVAX2" EXACT []
-xref: PMID:19440225
-xref: PMID:21993171
-is_a: XCO:0000819 ! gene transfer using plasmid vector pVAX2
-created_by: slaulede
-creation_date: 2021-03-08T13:54:50Z
-
-[Term]
-id: XCO:0000821
-name: gene transfer of the rat GDNF gene using the plasmid vector pVAX2
-def: "A condition in which the rat GDNF gene has been (transiently or stably) transferred into a cell or organism using the plasmid vector pVAX2 in order to induce synthesis of that gene's product in the recipient cell or organism." [https://www.thermofisher.com/order/catalog/product/V26020#/V26020, PMID:21993171]
-xref: PMID:19440225
-xref: PMID:21993171
-is_a: XCO:0000819 ! gene transfer using plasmid vector pVAX2
-created_by: slaulede
-creation_date: 2021-03-08T14:07:05Z
-
-[Term]
-id: XCO:0000822
-name: JTE-607
-def: "JTE-607 is a pro-drug that is cleaved by carboxylesterase 1 (CES1) to its active metabolite, which then binds to cleavage and polyadenylation specificity factor 3 (CPSF3). JTE-607 reduces the production of proinflammatory cytokines in models of acute injury, septic shock and endotoxemia." [https://www.sigmaaldrich.com/catalog/product/sigma/sml2833?lang=en&region=US, https://www.tocris.com/products/jte-607-dihydrochloride_5185?gclid=Cj0KCQiA1pyCBhCtARIsAHaY_5d7izfKf8E3Lgu7fCItYrJRNFR8iSoRV7HWnsqZOjNwTGeTa9Pcu-4aAthgEALw_wcB]
-synonym: "JTE 607" EXACT []
-synonym: "JTE 607 dihydrochloride" EXACT []
-xref: PMID:10493164
-is_a: XCO:0000120 ! inhibitor
-is_a: XCO:0000505 ! anti-inflammatory agent
-created_by: slaulede
-creation_date: 2021-03-09T12:06:36Z
-
-[Term]
-id: XCO:0000823
-name: peanut oil
-def: "Any condition in which the main influencing factor is peanut oil, a colorless to yellow fatty nondrying oil that is obtained from peanuts and is used chiefly as a salad oil, in margarine, in soap, and as a vehicle in pharmaceutical preparations and cosmetics." [https://www.merriam-webster.com]
-synonym: "arachis oil" EXACT []
-synonym: "groundnut oil" EXACT []
-xref: PMID:24388923
-is_a: XCO:0000774 ! oil
-created_by: slaulede
-creation_date: 2021-03-25T15:05:12Z
-
-[Term]
-id: XCO:0000824
-name: pertussis toxin
-def: "Pertussis toxin (PT) is a protein-based AB5-type exotoxin produced by the bacterium Bordetella pertussis, which causes whooping cough. PT is one of the most complex bacterial toxins known, composed of six subunits with an A protomer responsible for biologic activities and a B pentamer directing binding and entry of the A subunit into the cytoplasm." [https://en.wikipedia.org/wiki/Pertussis_toxin, https://www.sciencedirect.com/topics/medicine-and-dentistry/pertussis-toxin]
-synonym: "PT" EXACT []
-xref: PMID:1702803
-is_a: XCO:0000240 ! toxin
-created_by: slaulede
-creation_date: 2021-04-01T16:00:00Z
-
-[Term]
-id: XCO:0000825
-name: cyclophosphamide
-def: "Cyclophosphamide (CP), also known as cytophosphane among other names, is an antineoplastic and immunosuppressive agent that must be activated in the liver to form the active aldophosphamide. As chemotherapy it is used to treat lymphoma, multiple myeloma, leukemia, ovarian cancer, breast cancer, small cell lung cancer, neuroblastoma, and sarcoma." [https://en.wikipedia.org/wiki/Cyclophosphamide, MESH:D003520]
-synonym: "cytophosphane" EXACT []
-xref: CHEBI:4027
-xref: MESH:D003520
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000636 ! immunosuppressive agent
-created_by: slaulede
-creation_date: 2021-04-01T16:35:28Z
-
-[Term]
-id: XCO:0000826
-name: rat anti-Hu-MBP T cell line
-def: "Any condition in which the main influencing factor is an injection of cultured cells derived from T cells prepared from the lymph nodes of rats immunized with human myelin basic protein." [PMID:1702803]
-synonym: "rat anti-Hu-BP T cell line" EXACT []
-xref: PMID:1702803
-is_a: XCO:0000763 ! T cells
-created_by: slaulede
-creation_date: 2021-04-01T17:07:53Z
-
-[Term]
-id: XCO:0000827
-name: rat anti-Hu-S102-129 T cell line
-def: "Any condition in which the main influencing factor is an injection of cultured cells derived from T cells prepared from the lymph nodes of rats immunized with synthetic human myelin basic protein peptide 102-129." [PMID:1702803]
-xref: PMID:1702803
-is_a: XCO:0000763 ! T cells
-created_by: slaulede
-creation_date: 2021-04-01T17:27:28Z
-
-[Term]
-id: XCO:0000828
-name: human myelin basic protein
-def: "Myelin basic protein is a hydrophobic insulator that can be synthesized by the oligodendrocyte and/or Schwann cell as part of the myelin sheath which is wrapped around the axon. Myelin basic protein may constitute as much as one-third of all protein in myelin. Human myelin basic protein is purified from human tissue or extracted from cultured cells containing cloned copies of the human myelin basic protein gene." [PMID:1702803]
-synonym: "Hu-BP" EXACT []
-synonym: "human MBP" EXACT []
-xref: PMID:1702803
-is_a: XCO:0000688 ! myelin basic protein
-created_by: slaulede
-creation_date: 2021-04-01T17:46:52Z
-
-[Term]
-id: XCO:0000829
-name: corn oil
-def: "Corn oil is a refined fixed, that is, nonvolatile, oil obtained from from the germ of corn kernels. It has high polyunsaturated lipid content and is used as a delivery vehicle for lipophilic substances." [https://www.merriam-webster.com, ISBN-13:978-1608316922]
-synonym: "maize oil" EXACT []
-xref: PMID:26514922
-is_a: XCO:0000774 ! oil
-created_by: slaulede
-creation_date: 2021-04-08T17:10:21Z
-
-[Term]
-id: XCO:0000830
-name: artificial cerebrospinal fluid
-def: "Any condition in which the main influencing factor is artificial cerebrospinal fluid (aCSF), a buffer solution prepared with a composition representative of cerebrospinal fluid. It is used experimentally for rat brain microdialysis experiments, the culture of hippocampal tissue slices, or irrigation treatment of brain trauma lesions to supply oxygen, maintain osmolarity, and to buffer pH at biological levels." [https://biochemazone.com/product/artificial-cerebrospinal-solution-bz178/, https://en.wikipedia.org/wiki/Artificial_cerebrospinal_fluid]
-synonym: "aCSF" EXACT []
-synonym: "cerebrospinal fluid simulation fluid" EXACT []
-xref: PMID:22356885
-is_a: XCO:0000154 ! ion/salt solution
-created_by: slaulede
-creation_date: 2021-04-23T17:15:50Z
-
-[Term]
-id: XCO:0000831
-name: 2% dimethyl sulfoxide in artificial cerebrospinal fluid
-def: "Any condition in which the main influencing factor is a 2% solution (v/v) of dimethyl sulfoxide in artificial cerebrospinal fluid, a buffer solution prepared with a composition representative of cerebrospinal fluid. Dimethyl sulfoxide is a 2-carbon sulfoxide and highly polar organic liquid, that is used widely as a chemical solvent." [CHEBI:28262, https://en.wikipedia.org/wiki/Artificial_cerebrospinal_fluid, MESH:D004121]
-synonym: "2% DMSO in aCSF" EXACT []
-xref: PMID:22356885
-relationship: has_component XCO:0000755 ! dimethyl sulfoxide
-relationship: has_component XCO:0000830 ! artificial cerebrospinal fluid
-created_by: slaulede
-creation_date: 2021-04-23T17:27:15Z
 
 [Typedef]
 id: has_component

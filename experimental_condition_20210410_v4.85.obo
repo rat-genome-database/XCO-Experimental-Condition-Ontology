@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.86
-date: 24:04:2021 20:13
+data-version: 4.85
+date: 10:04:2021 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2021-01-13 --
 default-namespace: experimental_condition_ontology
@@ -3958,10 +3958,9 @@ creation_date: 2014-04-17T12:42:20Z
 
 [Term]
 id: XCO:0000438
-name: candesartan
+name: Candesartan cilexetil
 def: "A condition in which the main influencing factor is Candesartan cilexetil, prodrug of the angiotensin II receptor 1 (AT1) antagonist candesartan, which exhibits antihypertensive effects in animal models." [http://en.wikipedia.org/wiki/Candesartan "Wikipedia", https://www.tocris.com/products/candesartan-cilexetil_4792]
 synonym: "2-Ethoxy-1-[[2'-(2H-tetrazol-5-yl)[1,1'-biphenyl]-4-yl]methyl]-1H-benzimidazole-7-carboxylic acid 1-[[(cyclohexyloxy)carbonyl]oxy]ethyl ester" EXACT []
-synonym: "candesartan cilexetil" EXACT []
 synonym: "TCV-116" EXACT []
 xref: CHEBI:3348
 xref: MESH:C077793
@@ -7079,7 +7078,7 @@ creation_date: 2020-09-25T14:09:32Z
 [Term]
 id: XCO:0000755
 name: dimethyl sulfoxide
-def: "Any condition in which the main influencing factor is dimethyl sulfoxide, a 2-carbon sulfoxide and highly polar organic liquid, that is used widely as a chemical solvent. Because of its ability to penetrate biological membranes, it is used as a vehicle for topical application of pharmaceuticals. Dimethyl sulfoxide shows a range of pharmacological activity including analgesia and anti-inflammation." [CHEBI:28262, MESH:D004121]
+def: "A 2-carbon sulfoxide and highly polar organic liquid, that is used widely as a chemical solvent. Because of its ability to penetrate biological membranes, it is used as a vehicle for topical application of pharmaceuticals. Dimethyl sulfoxide shows a range of pharmacological activity including analgesia and anti-inflammation." [CHEBI:28262, MESH:D004121]
 synonym: "DMSO" EXACT []
 xref: CHEBI:28262
 xref: MESH:D004121
@@ -7841,28 +7840,6 @@ xref: PMID:26514922
 is_a: XCO:0000774 ! oil
 created_by: slaulede
 creation_date: 2021-04-08T17:10:21Z
-
-[Term]
-id: XCO:0000830
-name: artificial cerebrospinal fluid
-def: "Any condition in which the main influencing factor is artificial cerebrospinal fluid (aCSF), a buffer solution prepared with a composition representative of cerebrospinal fluid. It is used experimentally for rat brain microdialysis experiments, the culture of hippocampal tissue slices, or irrigation treatment of brain trauma lesions to supply oxygen, maintain osmolarity, and to buffer pH at biological levels." [https://biochemazone.com/product/artificial-cerebrospinal-solution-bz178/, https://en.wikipedia.org/wiki/Artificial_cerebrospinal_fluid]
-synonym: "aCSF" EXACT []
-synonym: "cerebrospinal fluid simulation fluid" EXACT []
-xref: PMID:22356885
-is_a: XCO:0000154 ! ion/salt solution
-created_by: slaulede
-creation_date: 2021-04-23T17:15:50Z
-
-[Term]
-id: XCO:0000831
-name: 2% dimethyl sulfoxide in artificial cerebrospinal fluid
-def: "Any condition in which the main influencing factor is a 2% solution (v/v) of dimethyl sulfoxide in artificial cerebrospinal fluid, a buffer solution prepared with a composition representative of cerebrospinal fluid. Dimethyl sulfoxide is a 2-carbon sulfoxide and highly polar organic liquid, that is used widely as a chemical solvent." [CHEBI:28262, https://en.wikipedia.org/wiki/Artificial_cerebrospinal_fluid, MESH:D004121]
-synonym: "2% DMSO in aCSF" EXACT []
-xref: PMID:22356885
-relationship: has_component XCO:0000755 ! dimethyl sulfoxide
-relationship: has_component XCO:0000830 ! artificial cerebrospinal fluid
-created_by: slaulede
-creation_date: 2021-04-23T17:27:15Z
 
 [Typedef]
 id: has_component
