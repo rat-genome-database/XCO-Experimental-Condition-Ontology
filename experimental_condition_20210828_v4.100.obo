@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.102
-date: 18:09:2021 20:13
+data-version: 4.100
+date: 28:08:2021 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2021-01-13 --
 default-namespace: experimental_condition_ontology
@@ -8396,7 +8396,6 @@ creation_date: 2021-07-19T17:33:20Z
 id: XCO:0000876
 name: floxuridine
 def: "An antineoplastic antimetabolite that is metabolized to fluorouracil when administered by rapid injection; when administered by slow, continuous, intra-arterial infusion, it is converted to floxuridine monophosphate. It has been used to treat hepatic metastases of gastrointestinal adenocarcinomas and for palliation in malignant neoplasms of the liver and gastrointestinal tract." [CHEBI:60761, MESH:D005467]
-synonym: "2'-deoxy-5-fluorouridine" EXACT []
 synonym: "5FDU" EXACT []
 synonym: "5-Fluorodeoxyuridine" EXACT []
 synonym: "5-FUdR" EXACT []
@@ -8645,33 +8644,6 @@ is_a: XCO:0000014 ! controlled content diet
 is_a: XCO:0000603 ! hesperetin
 created_by: slaulede
 creation_date: 2021-08-27T15:51:49Z
-
-[Term]
-id: XCO:0000897
-name: capsaicin
-def: "This is an alkylamide found in some peppers that acts as an agonist at TRPV1 cation channels." [MESH:D002211]
-synonym: "(6E)-N-(4-hydroxy-3-methoxybenzyl)-8-methylnon-6-enamide" EXACT []
-synonym: "8-Methyl-N-Vanillyl-6-Nonenamide" EXACT []
-synonym: "Axsain" EXACT []
-synonym: "Capsaicine" EXACT []
-xref: CHEBI:3374
-xref: PMID:27335281
-is_a: XCO:0000217 ! cation channel activator
-created_by: slaulede
-creation_date: 2021-09-16T12:42:30Z
-
-[Term]
-id: XCO:0000898
-name: minoxidil
-def: "This a pyrimidine N-oxide that is a potent direct-acting peripheral vasodilator that reduces peripheral resistance and produces a fall in blood pressure." [CHEBI:6942, MESH:D008914]
-synonym: "2,4-Pyrimidinediamine, 6-(1-piperidinyl)-, 3-oxide" EXACT []
-synonym: "6-(piperidin-1-yl)pyrimidine-2,4-diamine 3-oxide" EXACT []
-synonym: "Rogaine" EXACT []
-synonym: "U 10858" EXACT []
-xref: PMID:27335281
-is_a: XCO:0000140 ! vasodilator
-created_by: slaulede
-creation_date: 2021-09-16T13:23:00Z
 
 [Typedef]
 id: has_component

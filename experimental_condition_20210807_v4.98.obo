@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.102
-date: 18:09:2021 20:13
+data-version: 4.98
+date: 07:08:2021 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2021-01-13 --
 default-namespace: experimental_condition_ontology
@@ -622,12 +622,12 @@ creation_date: 2010-11-01T01:00:51Z
 
 [Term]
 id: XCO:0000089
-name: neoplasm-inducing chemical
-def: "Any condition in which the main influencing factor is a chemical, i.e., a substance having a specific molecular composition obtained by or used in a reaction involving changes to atoms or molecules, which has the capacity to promote the formation of neoplasms, new and abnormal growths, specifically those in which cell multiplication is uncontrolled and progressive." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Collins:Collins_Online_English_Dictionary, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+name: neoplasm inducing chemical
+def: "Any condition in which the main influencing factor is a chemical, i.e., a substance having a specific molecular composition obtained by or used in a reaction involving changes to atoms or molecules, which has the copacity to promote the formation of neoplasms, new and abnormal growths, specifically those in which cell multiplication is uncontrolled and progressive." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Collins:Collins_Online_English_Dictionary, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "cancer inducing agent" NARROW []
 synonym: "carcinogen" NARROW []
 synonym: "neoplasm inducing agent" EXACT []
-is_a: XCO:0000259 ! disease-inducing chemical
+is_a: XCO:0000341 ! chemical with specified function
 created_by: mshimoyama
 creation_date: 2010-11-01T01:01:08Z
 
@@ -673,7 +673,7 @@ name: polycyclic arene
 def: "Any organic compound whose molecules are composed only of hydrogen, the element with atomic number 1, and carbon, the element with atomic number 12, and whose carbon atoms form continuous or closed chains linked by alternating double and single bonds that may be represented graphically by multiple interlinking circular or triangular forms." [http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
 synonym: "polycyclic aromatic hydrocarbon" RELATED []
 xref: CHEBI:33848
-is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000089 ! neoplasm inducing chemical
 is_a: XCO:0000278 ! polycyclic hydrocarbon
 created_by: mshimoyama
 creation_date: 2010-11-01T01:07:01Z
@@ -1434,10 +1434,9 @@ creation_date: 2012-07-12T05:13:12Z
 [Term]
 id: XCO:0000178
 name: thapsigargin
-def: "A non-competitive inhibitor of the sarco / endoplasmic reticulum Ca2+ ATPase (SERCA) class of enzymes. Acts as a non-phorbol-ester-type tumor promoter and acts as an inhibitor of calcium ATPase of endoplasmic reticulum, leading to an increase in cytoplasmic calcium ions." [http://en.wikipedia.org/wiki/Thapsigargin "Wikipedia", Mondofacto:Mondofacto_Online_Medical_Dictionary]
+def: "A non-competitive inhibitor the sarco / endoplasmic reticulum Ca2+ ATPase (SERCA) class of enzymes. Acts as a non-phorbol-ester-type tumor promoter and acts as an inhibitor of calcium ATPase of endoplasmic reticulum, leading to an increase in cytoplasmic calcium ions." [http://en.wikipedia.org/wiki/Thapsigargin "Wikipedia", Mondofacto:Mondofacto_Online_Medical_Dictionary]
 xref: CHEBI:9516
 is_a: XCO:0000523 ! enzyme inhibitor
-is_a: XCO:0000892 ! tumor promoter
 created_by: JSmith
 creation_date: 2012-07-12T05:24:18Z
 
@@ -1714,7 +1713,7 @@ def: "A component of tobacco smoke which has been shown to be mutagenic and carc
 synonym: "diethylnitrosamine" RELATED []
 synonym: "NDEA" RELATED []
 synonym: "N,N-diethylnitrosamine" RELATED []
-is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000089 ! neoplasm inducing chemical
 is_a: XCO:0000205 ! mutation inducing chemical
 created_by: JSmith
 creation_date: 2012-09-11T05:01:10Z
@@ -1731,7 +1730,7 @@ synonym: "MDAB" RELATED []
 synonym: "methyldimethylaminoazobenzene" EXACT []
 synonym: "PubChem_Compound_CID:5934" RELATED []
 xref: CHEBI:76329
-is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000089 ! neoplasm inducing chemical
 created_by: JSmith
 creation_date: 2012-09-11T05:33:14Z
 
@@ -1742,7 +1741,7 @@ def: "A condition in which the main influencing factor is 2-acetamidofluorene (2
 synonym: "2-AAF" RELATED []
 synonym: "2-acetylaminofluorene" RELATED []
 xref: CHEBI:17356
-is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000089 ! neoplasm inducing chemical
 is_a: XCO:0000205 ! mutation inducing chemical
 created_by: JSmith
 creation_date: 2012-09-13T06:33:44Z
@@ -2005,7 +2004,7 @@ creation_date: 2012-10-16T02:34:34Z
 id: XCO:0000236
 name: pathogen
 def: "An biological agent that causes disease, especially a living microorganism such as a bacterium, virus, or fungus." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
-is_a: XCO:0000258 ! disease-inducing agent
+is_a: XCO:0000258 ! disease inducing agent
 created_by: JSmith
 creation_date: 2012-10-16T03:04:11Z
 
@@ -2053,7 +2052,7 @@ synonym: "streptozocin" EXACT []
 synonym: "STZ" RELATED []
 xref: CHEBI:9288
 is_a: XCO:0000239 ! toxic substance
-is_a: XCO:0000885 ! diabetes-inducing chemical
+is_a: XCO:0000259 ! disease inducing chemical
 created_by: JSmith
 creation_date: 2012-10-16T04:09:16Z
 
@@ -2067,7 +2066,7 @@ synonym: "alloxane" EXACT []
 synonym: "mesoxalylurea" EXACT []
 synonym: "PubChem_Compound_CID:5781" RELATED []
 is_a: XCO:0000239 ! toxic substance
-is_a: XCO:0000885 ! diabetes-inducing chemical
+is_a: XCO:0000259 ! disease inducing chemical
 created_by: JSmith
 creation_date: 2012-10-16T04:29:35Z
 
@@ -2210,19 +2209,17 @@ creation_date: 2013-03-01T16:10:48Z
 
 [Term]
 id: XCO:0000258
-name: disease-inducing agent
+name: disease inducing agent
 def: "Any phenomenon, chemical or biologic substance, or organism that exerts some force or effect resulting in a deviation from or interruption of the normal structure or function of any body part, organ, or system that is manifested by a characteristic set of symptoms and signs." [Collins:Collins_Online_English_Dictionary, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "disease inducing agent" EXACT []
 is_a: XCO:0000000 ! experimental condition
 created_by: JSmith
 creation_date: 2013-03-01T16:24:26Z
 
 [Term]
 id: XCO:0000259
-name: disease-inducing chemical
+name: disease inducing chemical
 def: "A substance having a specific molecular composition obtained by or used in a reaction involving changes to atoms or molecules that exerts some force or effect resulting in a deviation from or interruption of the normal structure or function of any body part, organ, or system that is manifested by a characteristic set of symptoms and signs." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Collins:Collins_Online_English_Dictionary, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "disease inducing chemical" EXACT []
-is_a: XCO:0000258 ! disease-inducing agent
+is_a: XCO:0000258 ! disease inducing agent
 is_a: XCO:0000341 ! chemical with specified function
 created_by: JSmith
 creation_date: 2013-03-01T16:30:57Z
@@ -2241,7 +2238,7 @@ creation_date: 2013-03-01T16:46:02Z
 id: XCO:0000261
 name: arthritis inducing chemical
 def: "A substance having a specific molecular composition obtained by or used in a reaction involving changes to atoms or molecules that, when administered, results in the inflammation of one or more joints, the sites of junction or union between bones, especially those that allow motion of the bones." [Collins:Collins_Online_English_Dictionary, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-is_a: XCO:0000259 ! disease-inducing chemical
+is_a: XCO:0000259 ! disease inducing chemical
 is_a: XCO:0000349 ! arthritis-inducing agent
 created_by: JSmith
 creation_date: 2013-03-01T17:07:13Z
@@ -3065,7 +3062,7 @@ synonym: "1-nitroso-1-propylurea" EXACT []
 synonym: "1-propyl-1-nitrosourea" RELATED []
 synonym: "PNU" RELATED []
 synonym: "propylnitrosourea" EXACT []
-is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000089 ! neoplasm inducing chemical
 is_a: XCO:0000205 ! mutation inducing chemical
 is_a: XCO:0000343 ! nitrosourea
 created_by: JSmith
@@ -3096,7 +3093,7 @@ synonym: "MNU" RELATED []
 synonym: "N-methyl-N-nitrosocarbamide" EXACT []
 xref: CHEBI:50102
 xref: PubChem_Compound:CID_12967
-is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000089 ! neoplasm inducing chemical
 is_a: XCO:0000205 ! mutation inducing chemical
 is_a: XCO:0000343 ! nitrosourea
 created_by: JSmith
@@ -3123,7 +3120,7 @@ creation_date: 2013-11-11T10:46:10Z
 id: XCO:0000349
 name: arthritis-inducing agent
 def: "Any phenomenon, chemical or biologic substance, or organism that, when administered, results in the inflammation of one or more joints, the sites of junction or union between bones, especially those that allow motion of the bones." [Collins:Collins_Online_English_Dictionary, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-is_a: XCO:0000258 ! disease-inducing agent
+is_a: XCO:0000258 ! disease inducing agent
 created_by: JSmith
 creation_date: 2013-11-11T12:01:59Z
 
@@ -3145,7 +3142,7 @@ synonym: "4-Nitroquinoline 1-oxide" EXACT []
 synonym: "4NQO" RELATED []
 xref: CHEBI:16907
 xref: MESH:D015112
-is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000089 ! neoplasm inducing chemical
 is_a: XCO:0000205 ! mutation inducing chemical
 created_by: JSmith
 creation_date: 2013-11-11T13:00:15Z
@@ -3176,7 +3173,7 @@ synonym: "methylnitronitrosoguanidine" EXACT []
 synonym: "MNNG" RELATED []
 synonym: "PubChem_Compound CID_9562060" RELATED []
 xref: CHEBI:21759
-is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000089 ! neoplasm inducing chemical
 is_a: XCO:0000205 ! mutation inducing chemical
 created_by: JSmith
 creation_date: 2013-11-11T14:50:46Z
@@ -3292,7 +3289,7 @@ creation_date: 2013-12-20T14:06:20Z
 id: XCO:0000368
 name: autoimmune disease-inducing chemical
 def: "Any condition in which the main influencing factor is a chemical that causes an anti-self reaction by the immune system of the treated individual." [RGD:JRS]
-is_a: XCO:0000259 ! disease-inducing chemical
+is_a: XCO:0000259 ! disease inducing chemical
 created_by: JSmith
 creation_date: 2013-12-20T14:29:13Z
 
@@ -3448,7 +3445,7 @@ creation_date: 2014-01-09T18:07:59Z
 id: XCO:0000385
 name: glomerulonephritis-inducing agent
 def: "Any substance, such as a chemical, a mix of chemicals or a pathogen, which has the capacity to cause the development of the symptoms of glomerulonephritis, kidney inflammation characterized by inflammation of the capillary loops in the renal glomeruli." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
-is_a: XCO:0000258 ! disease-inducing agent
+is_a: XCO:0000258 ! disease inducing agent
 created_by: JSmith
 creation_date: 2014-01-10T15:46:03Z
 
@@ -3535,7 +3532,7 @@ synonym: "SDMH" RELATED []
 synonym: "symmetrical dimethylhydrazine" RELATED []
 xref: CHEBI:73755
 xref: MESH:D019813
-is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000089 ! neoplasm inducing chemical
 is_a: XCO:0000205 ! mutation inducing chemical
 created_by: JSmith
 creation_date: 2014-02-07T16:46:23Z
@@ -4560,7 +4557,7 @@ def: "A condition in which the main influencing factor is a synthetic or natural
 synonym: "Parkinson's disease inducing chemical" EXACT []
 synonym: "parkinsonism-inducing chemical" RELATED []
 xref: MESH:D010300
-is_a: XCO:0000259 ! disease-inducing chemical
+is_a: XCO:0000259 ! disease inducing chemical
 created_by: jesmith
 creation_date: 2016-04-25T13:44:48Z
 
@@ -4703,7 +4700,7 @@ name: teratogen
 def: "Any condition in which the main influencing factor is a substance with adverse or toxic effects on an embryo or fetus resulting in birth defects, specifically, altered development, growth retardation, functional defect and/or embryo death." [https://en.wikipedia.org/wiki/Teratology "Wikipedia"]
 synonym: "teratogenic agent" EXACT []
 xref: CHEBI:50905
-is_a: XCO:0000259 ! disease-inducing chemical
+is_a: XCO:0000259 ! disease inducing chemical
 created_by: jesmith
 creation_date: 2017-07-18T12:58:04Z
 
@@ -5056,10 +5053,8 @@ creation_date: 2018-05-15T16:44:29Z
 [Term]
 id: XCO:0000548
 name: ramipril
-def: "An experimental condition in which the main influencing factor is ramipril, a prodrug that is metabolized in the liver to ramiprilat, a potent, competitive inhibitor of angiotensin-converting enzyme (ACE)." [https://www.drugbank.ca/drugs/DB00178 "DrugBank", MESH:D017257]
-synonym: "Altace" EXACT []
-synonym: "Tritace" EXACT []
-xref: CHEBI:8774
+def: "An experimental condition in which the main influencing factor is ramipril, a prodrug that is metabolized in the liver to ramiprilat, a potent, competitive inhibitor of angiotensin-converting enzyme (ACE)." [https://www.drugbank.ca/drugs/DB00178 "DrugBank"]
+synonym: "Altace" RELATED []
 is_a: XCO:0000524 ! angiotensin converting enzyme inhibitor
 created_by: jrsmith
 creation_date: 2018-05-15T16:51:40Z
@@ -5961,7 +5956,7 @@ def: "Azoxymethane (AOM), a gene mutation agent, may be used with dextran sulfat
 synonym: "CAS:25843-45-2" EXACT []
 synonym: "ML-MFCD00126912" EXACT []
 synonym: "Pubchem:329770827" EXACT []
-is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000089 ! neoplasm inducing chemical
 created_by: sjwang
 creation_date: 2019-12-04T15:04:39Z
 
@@ -5988,7 +5983,7 @@ id: XCO:0000649
 name: trans-4-hydroxy-L-proline
 def: "An optically active form of 4-hydroxyproline having L-trans-configuration." []
 synonym: "CHEBI:18095" EXACT []
-is_a: XCO:0000259 ! disease-inducing chemical
+is_a: XCO:0000259 ! disease inducing chemical
 created_by: sjwang
 creation_date: 2019-12-12T13:16:31Z
 
@@ -6629,7 +6624,7 @@ synonym: "malignant tumor cells" EXACT []
 synonym: "primary cancer cells" NARROW []
 synonym: "sarcoma cells" NARROW []
 synonym: "tumor cells" BROAD []
-is_a: XCO:0000258 ! disease-inducing agent
+is_a: XCO:0000258 ! disease inducing agent
 created_by: slaulede
 creation_date: 2020-06-05T10:25:14Z
 
@@ -6816,7 +6811,7 @@ creation_date: 2020-06-15T16:30:42Z
 [Term]
 id: XCO:0000725
 name: cyclodextrin (CD)-clathrated hesperetin
-def: "Hesperetin is the aglycone of hesperidin - clathration by CD enhances hesperetin solubility." [PMID:19966469]
+def: "The aglycone of hesperidin - clathration by CD enhances hesperetin solubility." [PMID:19966469]
 xref: PMID:19966469
 is_a: XCO:0000603 ! hesperetin
 created_by: slaulede
@@ -6830,7 +6825,6 @@ synonym: "Hesperetin 7-O-Rutinoside" EXACT []
 synonym: "Hesperidin 2S" EXACT []
 xref: CHEBI:28775
 xref: MESH:D006569
-xref: PMID:19966469
 is_a: XCO:0000603 ! hesperetin
 created_by: slaulede
 creation_date: 2020-06-23T14:57:51Z
@@ -8047,7 +8041,7 @@ synonym: "phenobarbital sodium" EXACT []
 synonym: "phenobarbital sodium salt" EXACT []
 synonym: "Sodium phenobarbitone" EXACT []
 xref: PMID:29548889
-is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000089 ! neoplasm inducing chemical
 is_a: XCO:0000135 ! receptor agonist
 created_by: slaulede
 creation_date: 2021-06-24T15:00:49Z
@@ -8396,7 +8390,6 @@ creation_date: 2021-07-19T17:33:20Z
 id: XCO:0000876
 name: floxuridine
 def: "An antineoplastic antimetabolite that is metabolized to fluorouracil when administered by rapid injection; when administered by slow, continuous, intra-arterial infusion, it is converted to floxuridine monophosphate. It has been used to treat hepatic metastases of gastrointestinal adenocarcinomas and for palliation in malignant neoplasms of the liver and gastrointestinal tract." [CHEBI:60761, MESH:D005467]
-synonym: "2'-deoxy-5-fluorouridine" EXACT []
 synonym: "5FDU" EXACT []
 synonym: "5-Fluorodeoxyuridine" EXACT []
 synonym: "5-FUdR" EXACT []
@@ -8501,177 +8494,10 @@ name: trypan blue
 def: "Any condition in which the main influencing factor is trypan blue, an azo dye used as a vital stain to selectively colour dead tissues or cells blue." [https://en.wikipedia.org/wiki/Trypan_blue, https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/trypan-blue]
 synonym: "tetrasodium 3,3'-[(3,3'-dimethylbiphenyl-4,4'-diyl)didiazene-2,1-diyl]bis(5-amino-4-hydroxynaphthalene-2,7-disulfonate)" EXACT []
 xref: PMID:3347907
-is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000089 ! neoplasm inducing chemical
 is_a: XCO:0000512 ! teratogen
 created_by: slaulede
 creation_date: 2021-08-02T16:18:02Z
-
-[Term]
-id: XCO:0000885
-name: diabetes-inducing chemical
-def: "A condition in which the main influencing factor is substance that is toxic to the pancreatic insulin-producing beta cells of the islets of Langerhans in rodents and other animals and can therefore be used for modeling diabetes mellitus through destruction of the beta cells." [CHEBI:9288, ISBN-13:9780781733908]
-xref: PMID:12401717
-is_a: XCO:0000259 ! disease-inducing chemical
-created_by: slaulede
-creation_date: 2021-08-09T17:47:11Z
-
-[Term]
-id: XCO:0000886
-name: epilepsy-inducing chemical
-def: "A condition in which the main influencing factor is substance that causes seizures in experimental animals, initiated by the injection of a drug." [DOID:9007090, PMID:31039378]
-synonym: "seizure-inducing chemical" EXACT []
-xref: PMID:31039378
-is_a: XCO:0000259 ! disease-inducing chemical
-created_by: slaulede
-creation_date: 2021-08-09T18:13:25Z
-
-[Term]
-id: XCO:0000887
-name: pentetrazol
-def: "This a pharmaceutical agent that displays activity as a central nervous system and respiratory stimulant. It is considered a non-competitive gamma-aminobutyric acid antagonist. Pentetrazol has been used experimentally to study seizure phenomenon and to identify pharmaceuticals that may control seizure susceptibility." [MESH:D010433]
-synonym: "1,5-pentamethylenetetrazole" EXACT []
-synonym: "pentamethylenetetrazole" EXACT []
-synonym: "pentylenetetrazole" EXACT []
-synonym: "PTZ" EXACT []
-xref: CHEBI:34910
-xref: PMID:31039378
-is_a: XCO:0000886 ! epilepsy-inducing chemical
-created_by: slaulede
-creation_date: 2021-08-10T12:49:31Z
-
-[Term]
-id: XCO:0000888
-name: pilocarpine
-def: "Pilocarpine is a miotic alkaloid obtained from jaborandi that is used chiefly in the form of its hydrochloride or nitrate especially in the treatment of glaucoma. It is a cholinergic (muscarinic) agonist and used to cause seizures in animal models of epilepsy." [https://medlineplus.gov/druginfo/meds/a608039.html, https://www.merriam-webster.com/, MESH:D010862]
-xref: CHEBI:39462
-xref: PMID:31039378
-is_a: XCO:0000693 ! cholinergic agonist
-is_a: XCO:0000886 ! epilepsy-inducing chemical
-created_by: slaulede
-creation_date: 2021-08-10T13:18:44Z
-
-[Term]
-id: XCO:0000889
-name: ionomycin
-def: "Ionomycin is a very long-chain fatty acid that is a calcium ionophore produced by Streptomyces conglobatus. It is used in research to raise the intracellular level of Ca(2+) and as a research tool to understand Ca(2+) transport across biological membranes." [CHEBI:63954, MESH:D015759]
-synonym: "C41H72O9" EXACT []
-xref: CHEBI:63954
-xref: MESH:D015759
-xref: PMID:32300198
-is_a: XCO:0000776 ! fatty acid
-is_a: XCO:0000890 ! ionophore
-created_by: slaulede
-creation_date: 2021-08-10T13:36:53Z
-
-[Term]
-id: XCO:0000890
-name: ionophore
-def: "A compound that facilitates transmission of an ion across a lipid barrier (as in a cell membrane) by combining with the ion or by increasing the permeability of the barrier to it." [CHEBI:24869, https://www.merriam-webster.com/]
-synonym: "ion carrier" EXACT []
-xref: PMID:32300198
-is_a: XCO:0000341 ! chemical with specified function
-created_by: slaulede
-creation_date: 2021-08-10T13:40:47Z
-
-[Term]
-id: XCO:0000891
-name: phorbol 13-acetate 12-myristate
-def: "Phorbol 13-acetate 12-myristate is a phorbol ester found in croton oil with very effective tumor promoting activity. It is a protein kinase C agonist and stimulates the synthesis of both DNA and RNA." [MESH:D013755]
-synonym: "12-O-Tetradecanoyl Phorbol 13-Acetate" EXACT []
-synonym: "phorbol myristate acetate" EXACT []
-synonym: "PMA" EXACT []
-synonym: "tetradecanoylphorbol acetate" EXACT []
-synonym: "TPA" EXACT []
-xref: CHEBI:37537
-is_a: XCO:0000694 ! enzyme activator
-is_a: XCO:0000892 ! tumor promoter
-created_by: slaulede
-creation_date: 2021-08-10T13:54:49Z
-
-[Term]
-id: XCO:0000892
-name: tumor promoter
-def: "Tumor promoters are substances that enhance tumorigenicity when administered after a carcinogen. In general, tumor promoters do not possess tumorigenic activity themselves." [https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tumor-promotion, PMID: 10417370]
-xref: PMID:32300198
-is_a: XCO:0000259 ! disease-inducing chemical
-created_by: slaulede
-creation_date: 2021-08-10T15:45:15Z
-
-[Term]
-id: XCO:0000893
-name: controlled ramipril content drinking water
-def: "A drink made up of water and a specified amount of ramipril in which the amount of ramipril consumed is maintained at a specified level." [https://www.merriam-webster.com/, PMID:20864942]
-synonym: "controlled Altace content drinking water" EXACT []
-xref: CHEBI:8774
-xref: PMID:20864942
-is_a: XCO:0000163 ! controlled content drinking water
-is_a: XCO:0000548 ! ramipril
-created_by: slaulede
-creation_date: 2021-08-26T11:53:55Z
-
-[Term]
-id: XCO:0000894
-name: controlled hesperidin content diet
-def: "A regimen of solid food in which the amount of hesperidin, a disaccharide derivative that consists of hesperetin substituted by a 6-O-(alpha-L-rhamnopyranosyl)-beta-D-glucopyranosyl moiety at position 7 via a glycosidic linkage, is controlled." [CHEBI:28775]
-synonym: "controlled Hesperetin 7-O-Rutinoside content diet" EXACT []
-synonym: "controlled Hesperidin 2S content diet" EXACT []
-xref: CHEBI:28775
-xref: MESH:D006569
-xref: PMID:19966469
-is_a: XCO:0000726 ! hesperidin
-is_a: XCO:0000896 ! controlled hesperetin content diet
-created_by: slaulede
-creation_date: 2021-08-27T15:37:24Z
-
-[Term]
-id: XCO:0000895
-name: controlled cyclodextrin (CD)-clathrated hesperetin content diet
-def: "A regimen of solid food in which the amount of cyclodextrin (CD)-clathrated hesperetin is controlled. CD-clathrated hesperetin is the aglycone of hesperidin. Clathration by CD enhances hesperetin solubility." [PMID:19966469]
-xref: CHEBI:28230
-xref: MESH:C013015
-xref: PMID:19966469
-is_a: XCO:0000725 ! cyclodextrin (CD)-clathrated hesperetin
-is_a: XCO:0000896 ! controlled hesperetin content diet
-created_by: slaulede
-creation_date: 2021-08-27T15:46:09Z
-
-[Term]
-id: XCO:0000896
-name: controlled hesperetin content diet
-def: "A regimen of solid food in which the amount of hesperetin is controlled. Hesperetin belongs to the flavanone class of flavonoids. Hesperetin, in the form of its glycoside Hesperidin, is the predominant flavonoid in lemons and oranges." [https://www.drugbank.ca/drugs/DB01094]
-xref: CHEBI:28230
-xref: MESH:C013015
-is_a: XCO:0000014 ! controlled content diet
-is_a: XCO:0000603 ! hesperetin
-created_by: slaulede
-creation_date: 2021-08-27T15:51:49Z
-
-[Term]
-id: XCO:0000897
-name: capsaicin
-def: "This is an alkylamide found in some peppers that acts as an agonist at TRPV1 cation channels." [MESH:D002211]
-synonym: "(6E)-N-(4-hydroxy-3-methoxybenzyl)-8-methylnon-6-enamide" EXACT []
-synonym: "8-Methyl-N-Vanillyl-6-Nonenamide" EXACT []
-synonym: "Axsain" EXACT []
-synonym: "Capsaicine" EXACT []
-xref: CHEBI:3374
-xref: PMID:27335281
-is_a: XCO:0000217 ! cation channel activator
-created_by: slaulede
-creation_date: 2021-09-16T12:42:30Z
-
-[Term]
-id: XCO:0000898
-name: minoxidil
-def: "This a pyrimidine N-oxide that is a potent direct-acting peripheral vasodilator that reduces peripheral resistance and produces a fall in blood pressure." [CHEBI:6942, MESH:D008914]
-synonym: "2,4-Pyrimidinediamine, 6-(1-piperidinyl)-, 3-oxide" EXACT []
-synonym: "6-(piperidin-1-yl)pyrimidine-2,4-diamine 3-oxide" EXACT []
-synonym: "Rogaine" EXACT []
-synonym: "U 10858" EXACT []
-xref: PMID:27335281
-is_a: XCO:0000140 ! vasodilator
-created_by: slaulede
-creation_date: 2021-09-16T13:23:00Z
 
 [Typedef]
 id: has_component

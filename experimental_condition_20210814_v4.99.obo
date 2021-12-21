@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.102
-date: 18:09:2021 20:13
+data-version: 4.99
+date: 14:08:2021 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2021-01-13 --
 default-namespace: experimental_condition_ontology
@@ -5056,10 +5056,8 @@ creation_date: 2018-05-15T16:44:29Z
 [Term]
 id: XCO:0000548
 name: ramipril
-def: "An experimental condition in which the main influencing factor is ramipril, a prodrug that is metabolized in the liver to ramiprilat, a potent, competitive inhibitor of angiotensin-converting enzyme (ACE)." [https://www.drugbank.ca/drugs/DB00178 "DrugBank", MESH:D017257]
-synonym: "Altace" EXACT []
-synonym: "Tritace" EXACT []
-xref: CHEBI:8774
+def: "An experimental condition in which the main influencing factor is ramipril, a prodrug that is metabolized in the liver to ramiprilat, a potent, competitive inhibitor of angiotensin-converting enzyme (ACE)." [https://www.drugbank.ca/drugs/DB00178 "DrugBank"]
+synonym: "Altace" RELATED []
 is_a: XCO:0000524 ! angiotensin converting enzyme inhibitor
 created_by: jrsmith
 creation_date: 2018-05-15T16:51:40Z
@@ -6816,7 +6814,7 @@ creation_date: 2020-06-15T16:30:42Z
 [Term]
 id: XCO:0000725
 name: cyclodextrin (CD)-clathrated hesperetin
-def: "Hesperetin is the aglycone of hesperidin - clathration by CD enhances hesperetin solubility." [PMID:19966469]
+def: "The aglycone of hesperidin - clathration by CD enhances hesperetin solubility." [PMID:19966469]
 xref: PMID:19966469
 is_a: XCO:0000603 ! hesperetin
 created_by: slaulede
@@ -6830,7 +6828,6 @@ synonym: "Hesperetin 7-O-Rutinoside" EXACT []
 synonym: "Hesperidin 2S" EXACT []
 xref: CHEBI:28775
 xref: MESH:D006569
-xref: PMID:19966469
 is_a: XCO:0000603 ! hesperetin
 created_by: slaulede
 creation_date: 2020-06-23T14:57:51Z
@@ -8396,7 +8393,6 @@ creation_date: 2021-07-19T17:33:20Z
 id: XCO:0000876
 name: floxuridine
 def: "An antineoplastic antimetabolite that is metabolized to fluorouracil when administered by rapid injection; when administered by slow, continuous, intra-arterial infusion, it is converted to floxuridine monophosphate. It has been used to treat hepatic metastases of gastrointestinal adenocarcinomas and for palliation in malignant neoplasms of the liver and gastrointestinal tract." [CHEBI:60761, MESH:D005467]
-synonym: "2'-deoxy-5-fluorouridine" EXACT []
 synonym: "5FDU" EXACT []
 synonym: "5-Fluorodeoxyuridine" EXACT []
 synonym: "5-FUdR" EXACT []
@@ -8596,82 +8592,6 @@ xref: PMID:32300198
 is_a: XCO:0000259 ! disease-inducing chemical
 created_by: slaulede
 creation_date: 2021-08-10T15:45:15Z
-
-[Term]
-id: XCO:0000893
-name: controlled ramipril content drinking water
-def: "A drink made up of water and a specified amount of ramipril in which the amount of ramipril consumed is maintained at a specified level." [https://www.merriam-webster.com/, PMID:20864942]
-synonym: "controlled Altace content drinking water" EXACT []
-xref: CHEBI:8774
-xref: PMID:20864942
-is_a: XCO:0000163 ! controlled content drinking water
-is_a: XCO:0000548 ! ramipril
-created_by: slaulede
-creation_date: 2021-08-26T11:53:55Z
-
-[Term]
-id: XCO:0000894
-name: controlled hesperidin content diet
-def: "A regimen of solid food in which the amount of hesperidin, a disaccharide derivative that consists of hesperetin substituted by a 6-O-(alpha-L-rhamnopyranosyl)-beta-D-glucopyranosyl moiety at position 7 via a glycosidic linkage, is controlled." [CHEBI:28775]
-synonym: "controlled Hesperetin 7-O-Rutinoside content diet" EXACT []
-synonym: "controlled Hesperidin 2S content diet" EXACT []
-xref: CHEBI:28775
-xref: MESH:D006569
-xref: PMID:19966469
-is_a: XCO:0000726 ! hesperidin
-is_a: XCO:0000896 ! controlled hesperetin content diet
-created_by: slaulede
-creation_date: 2021-08-27T15:37:24Z
-
-[Term]
-id: XCO:0000895
-name: controlled cyclodextrin (CD)-clathrated hesperetin content diet
-def: "A regimen of solid food in which the amount of cyclodextrin (CD)-clathrated hesperetin is controlled. CD-clathrated hesperetin is the aglycone of hesperidin. Clathration by CD enhances hesperetin solubility." [PMID:19966469]
-xref: CHEBI:28230
-xref: MESH:C013015
-xref: PMID:19966469
-is_a: XCO:0000725 ! cyclodextrin (CD)-clathrated hesperetin
-is_a: XCO:0000896 ! controlled hesperetin content diet
-created_by: slaulede
-creation_date: 2021-08-27T15:46:09Z
-
-[Term]
-id: XCO:0000896
-name: controlled hesperetin content diet
-def: "A regimen of solid food in which the amount of hesperetin is controlled. Hesperetin belongs to the flavanone class of flavonoids. Hesperetin, in the form of its glycoside Hesperidin, is the predominant flavonoid in lemons and oranges." [https://www.drugbank.ca/drugs/DB01094]
-xref: CHEBI:28230
-xref: MESH:C013015
-is_a: XCO:0000014 ! controlled content diet
-is_a: XCO:0000603 ! hesperetin
-created_by: slaulede
-creation_date: 2021-08-27T15:51:49Z
-
-[Term]
-id: XCO:0000897
-name: capsaicin
-def: "This is an alkylamide found in some peppers that acts as an agonist at TRPV1 cation channels." [MESH:D002211]
-synonym: "(6E)-N-(4-hydroxy-3-methoxybenzyl)-8-methylnon-6-enamide" EXACT []
-synonym: "8-Methyl-N-Vanillyl-6-Nonenamide" EXACT []
-synonym: "Axsain" EXACT []
-synonym: "Capsaicine" EXACT []
-xref: CHEBI:3374
-xref: PMID:27335281
-is_a: XCO:0000217 ! cation channel activator
-created_by: slaulede
-creation_date: 2021-09-16T12:42:30Z
-
-[Term]
-id: XCO:0000898
-name: minoxidil
-def: "This a pyrimidine N-oxide that is a potent direct-acting peripheral vasodilator that reduces peripheral resistance and produces a fall in blood pressure." [CHEBI:6942, MESH:D008914]
-synonym: "2,4-Pyrimidinediamine, 6-(1-piperidinyl)-, 3-oxide" EXACT []
-synonym: "6-(piperidin-1-yl)pyrimidine-2,4-diamine 3-oxide" EXACT []
-synonym: "Rogaine" EXACT []
-synonym: "U 10858" EXACT []
-xref: PMID:27335281
-is_a: XCO:0000140 ! vasodilator
-created_by: slaulede
-creation_date: 2021-09-16T13:23:00Z
 
 [Typedef]
 id: has_component

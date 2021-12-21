@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.102
-date: 18:09:2021 20:13
+data-version: 4.90
+date: 05:06:2021 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2021-01-13 --
 default-namespace: experimental_condition_ontology
@@ -622,12 +622,12 @@ creation_date: 2010-11-01T01:00:51Z
 
 [Term]
 id: XCO:0000089
-name: neoplasm-inducing chemical
-def: "Any condition in which the main influencing factor is a chemical, i.e., a substance having a specific molecular composition obtained by or used in a reaction involving changes to atoms or molecules, which has the capacity to promote the formation of neoplasms, new and abnormal growths, specifically those in which cell multiplication is uncontrolled and progressive." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Collins:Collins_Online_English_Dictionary, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "cancer inducing agent" NARROW []
-synonym: "carcinogen" NARROW []
-synonym: "neoplasm inducing agent" EXACT []
-is_a: XCO:0000259 ! disease-inducing chemical
+name: neoplasm inducing chemical
+def: "Any condition in which the main influencing factor is a chemical, i.e., a substance having a specific molecular composition obtained by or used in a reaction involving changes to atoms or molecules, which has the copacity to promote the formation of neoplasms, new and abnormal growths, specifically those in which cell multiplication is uncontrolled and progressive." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Collins:Collins_Online_English_Dictionary, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+synonym: "cancer inducing agent" RELATED []
+synonym: "carcinogen" RELATED []
+synonym: "neoplasm inducing agent" RELATED []
+is_a: XCO:0000341 ! chemical with specified function
 created_by: mshimoyama
 creation_date: 2010-11-01T01:01:08Z
 
@@ -673,7 +673,7 @@ name: polycyclic arene
 def: "Any organic compound whose molecules are composed only of hydrogen, the element with atomic number 1, and carbon, the element with atomic number 12, and whose carbon atoms form continuous or closed chains linked by alternating double and single bonds that may be represented graphically by multiple interlinking circular or triangular forms." [http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
 synonym: "polycyclic aromatic hydrocarbon" RELATED []
 xref: CHEBI:33848
-is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000089 ! neoplasm inducing chemical
 is_a: XCO:0000278 ! polycyclic hydrocarbon
 created_by: mshimoyama
 creation_date: 2010-11-01T01:07:01Z
@@ -1333,7 +1333,7 @@ creation_date: 2012-07-11T01:38:55Z
 id: XCO:0000166
 name: controlled in situ organ condition
 def: "Any experimental condition in which the internal or external environment of an organ, that is, a differentiated, structural part of a system of the body that performs a specific function, is experimentally manipulated, for example through perfusion, increased or decreased blood flow, etc. without removal from the body." [http://www.thefreedictionary.com/ "Multiple_Dictionaries", RGD:JRS, RGD:MRD]
-is_a: XCO:0000165 ! surgical manipulation
+is_a: XCO:0000000 ! experimental condition
 created_by: JSmith
 creation_date: 2012-07-11T02:55:03Z
 
@@ -1434,10 +1434,9 @@ creation_date: 2012-07-12T05:13:12Z
 [Term]
 id: XCO:0000178
 name: thapsigargin
-def: "A non-competitive inhibitor of the sarco / endoplasmic reticulum Ca2+ ATPase (SERCA) class of enzymes. Acts as a non-phorbol-ester-type tumor promoter and acts as an inhibitor of calcium ATPase of endoplasmic reticulum, leading to an increase in cytoplasmic calcium ions." [http://en.wikipedia.org/wiki/Thapsigargin "Wikipedia", Mondofacto:Mondofacto_Online_Medical_Dictionary]
+def: "A non-competitive inhibitor the sarco / endoplasmic reticulum Ca2+ ATPase (SERCA) class of enzymes. Acts as a non-phorbol-ester-type tumor promoter and acts as an inhibitor of calcium ATPase of endoplasmic reticulum, leading to an increase in cytoplasmic calcium ions." [http://en.wikipedia.org/wiki/Thapsigargin "Wikipedia", Mondofacto:Mondofacto_Online_Medical_Dictionary]
 xref: CHEBI:9516
 is_a: XCO:0000523 ! enzyme inhibitor
-is_a: XCO:0000892 ! tumor promoter
 created_by: JSmith
 creation_date: 2012-07-12T05:24:18Z
 
@@ -1714,7 +1713,7 @@ def: "A component of tobacco smoke which has been shown to be mutagenic and carc
 synonym: "diethylnitrosamine" RELATED []
 synonym: "NDEA" RELATED []
 synonym: "N,N-diethylnitrosamine" RELATED []
-is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000089 ! neoplasm inducing chemical
 is_a: XCO:0000205 ! mutation inducing chemical
 created_by: JSmith
 creation_date: 2012-09-11T05:01:10Z
@@ -1731,7 +1730,7 @@ synonym: "MDAB" RELATED []
 synonym: "methyldimethylaminoazobenzene" EXACT []
 synonym: "PubChem_Compound_CID:5934" RELATED []
 xref: CHEBI:76329
-is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000089 ! neoplasm inducing chemical
 created_by: JSmith
 creation_date: 2012-09-11T05:33:14Z
 
@@ -1742,7 +1741,7 @@ def: "A condition in which the main influencing factor is 2-acetamidofluorene (2
 synonym: "2-AAF" RELATED []
 synonym: "2-acetylaminofluorene" RELATED []
 xref: CHEBI:17356
-is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000089 ! neoplasm inducing chemical
 is_a: XCO:0000205 ! mutation inducing chemical
 created_by: JSmith
 creation_date: 2012-09-13T06:33:44Z
@@ -1757,10 +1756,6 @@ creation_date: 2012-09-13T06:34:26Z
 [Term]
 id: XCO:0000210
 name: partial hepatectomy
-def: "A condition involving the surgical excision of part of the liver, the large abdominal organ/gland which functions in the storage and filtration of blood, secretion of bile, and other processes. The partial liver removal may be minor (< 50%) or major (> 50%)." [ISBN-13:9780781733908, PMID:32156510]
-synonym: "major hepatectomy" NARROW []
-synonym: "minor hepatectomy" NARROW []
-xref: PMID:32156510
 is_a: XCO:0000209 ! hepatectomy
 created_by: JSmith
 creation_date: 2012-09-13T06:34:52Z
@@ -1783,13 +1778,6 @@ creation_date: 2012-09-13T06:36:56Z
 [Term]
 id: XCO:0000213
 name: arginine
-def: "Any condition in which the main influencing factor is arginine (L-arginine), an alpha-amino acid that is glycine in which the alpha-is substituted by a 3-guanidinopropyl group." [CHEBI:29016, https://en.wikipedia.org/wiki/Arginine]
-synonym: "2-amino-5-guanidinopentanoic acid" EXACT []
-synonym: "ARG" EXACT []
-synonym: "L-arginine" EXACT []
-synonym: "R" EXACT []
-xref: CHEBI:29016
-xref: MESH:D001120
 is_a: XCO:0000119 ! amino acid
 created_by: JSmith
 creation_date: 2012-09-13T06:45:59Z
@@ -2005,7 +1993,7 @@ creation_date: 2012-10-16T02:34:34Z
 id: XCO:0000236
 name: pathogen
 def: "An biological agent that causes disease, especially a living microorganism such as a bacterium, virus, or fungus." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
-is_a: XCO:0000258 ! disease-inducing agent
+is_a: XCO:0000258 ! disease inducing agent
 created_by: JSmith
 creation_date: 2012-10-16T03:04:11Z
 
@@ -2053,7 +2041,7 @@ synonym: "streptozocin" EXACT []
 synonym: "STZ" RELATED []
 xref: CHEBI:9288
 is_a: XCO:0000239 ! toxic substance
-is_a: XCO:0000885 ! diabetes-inducing chemical
+is_a: XCO:0000259 ! disease inducing chemical
 created_by: JSmith
 creation_date: 2012-10-16T04:09:16Z
 
@@ -2067,7 +2055,7 @@ synonym: "alloxane" EXACT []
 synonym: "mesoxalylurea" EXACT []
 synonym: "PubChem_Compound_CID:5781" RELATED []
 is_a: XCO:0000239 ! toxic substance
-is_a: XCO:0000885 ! diabetes-inducing chemical
+is_a: XCO:0000259 ! disease inducing chemical
 created_by: JSmith
 creation_date: 2012-10-16T04:29:35Z
 
@@ -2210,19 +2198,17 @@ creation_date: 2013-03-01T16:10:48Z
 
 [Term]
 id: XCO:0000258
-name: disease-inducing agent
+name: disease inducing agent
 def: "Any phenomenon, chemical or biologic substance, or organism that exerts some force or effect resulting in a deviation from or interruption of the normal structure or function of any body part, organ, or system that is manifested by a characteristic set of symptoms and signs." [Collins:Collins_Online_English_Dictionary, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "disease inducing agent" EXACT []
 is_a: XCO:0000000 ! experimental condition
 created_by: JSmith
 creation_date: 2013-03-01T16:24:26Z
 
 [Term]
 id: XCO:0000259
-name: disease-inducing chemical
+name: disease inducing chemical
 def: "A substance having a specific molecular composition obtained by or used in a reaction involving changes to atoms or molecules that exerts some force or effect resulting in a deviation from or interruption of the normal structure or function of any body part, organ, or system that is manifested by a characteristic set of symptoms and signs." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Collins:Collins_Online_English_Dictionary, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "disease inducing chemical" EXACT []
-is_a: XCO:0000258 ! disease-inducing agent
+is_a: XCO:0000258 ! disease inducing agent
 is_a: XCO:0000341 ! chemical with specified function
 created_by: JSmith
 creation_date: 2013-03-01T16:30:57Z
@@ -2241,7 +2227,7 @@ creation_date: 2013-03-01T16:46:02Z
 id: XCO:0000261
 name: arthritis inducing chemical
 def: "A substance having a specific molecular composition obtained by or used in a reaction involving changes to atoms or molecules that, when administered, results in the inflammation of one or more joints, the sites of junction or union between bones, especially those that allow motion of the bones." [Collins:Collins_Online_English_Dictionary, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-is_a: XCO:0000259 ! disease-inducing chemical
+is_a: XCO:0000259 ! disease inducing chemical
 is_a: XCO:0000349 ! arthritis-inducing agent
 created_by: JSmith
 creation_date: 2013-03-01T17:07:13Z
@@ -3065,7 +3051,7 @@ synonym: "1-nitroso-1-propylurea" EXACT []
 synonym: "1-propyl-1-nitrosourea" RELATED []
 synonym: "PNU" RELATED []
 synonym: "propylnitrosourea" EXACT []
-is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000089 ! neoplasm inducing chemical
 is_a: XCO:0000205 ! mutation inducing chemical
 is_a: XCO:0000343 ! nitrosourea
 created_by: JSmith
@@ -3096,7 +3082,7 @@ synonym: "MNU" RELATED []
 synonym: "N-methyl-N-nitrosocarbamide" EXACT []
 xref: CHEBI:50102
 xref: PubChem_Compound:CID_12967
-is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000089 ! neoplasm inducing chemical
 is_a: XCO:0000205 ! mutation inducing chemical
 is_a: XCO:0000343 ! nitrosourea
 created_by: JSmith
@@ -3123,7 +3109,7 @@ creation_date: 2013-11-11T10:46:10Z
 id: XCO:0000349
 name: arthritis-inducing agent
 def: "Any phenomenon, chemical or biologic substance, or organism that, when administered, results in the inflammation of one or more joints, the sites of junction or union between bones, especially those that allow motion of the bones." [Collins:Collins_Online_English_Dictionary, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-is_a: XCO:0000258 ! disease-inducing agent
+is_a: XCO:0000258 ! disease inducing agent
 created_by: JSmith
 creation_date: 2013-11-11T12:01:59Z
 
@@ -3145,7 +3131,7 @@ synonym: "4-Nitroquinoline 1-oxide" EXACT []
 synonym: "4NQO" RELATED []
 xref: CHEBI:16907
 xref: MESH:D015112
-is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000089 ! neoplasm inducing chemical
 is_a: XCO:0000205 ! mutation inducing chemical
 created_by: JSmith
 creation_date: 2013-11-11T13:00:15Z
@@ -3176,7 +3162,7 @@ synonym: "methylnitronitrosoguanidine" EXACT []
 synonym: "MNNG" RELATED []
 synonym: "PubChem_Compound CID_9562060" RELATED []
 xref: CHEBI:21759
-is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000089 ! neoplasm inducing chemical
 is_a: XCO:0000205 ! mutation inducing chemical
 created_by: JSmith
 creation_date: 2013-11-11T14:50:46Z
@@ -3292,7 +3278,7 @@ creation_date: 2013-12-20T14:06:20Z
 id: XCO:0000368
 name: autoimmune disease-inducing chemical
 def: "Any condition in which the main influencing factor is a chemical that causes an anti-self reaction by the immune system of the treated individual." [RGD:JRS]
-is_a: XCO:0000259 ! disease-inducing chemical
+is_a: XCO:0000259 ! disease inducing chemical
 created_by: JSmith
 creation_date: 2013-12-20T14:29:13Z
 
@@ -3448,7 +3434,7 @@ creation_date: 2014-01-09T18:07:59Z
 id: XCO:0000385
 name: glomerulonephritis-inducing agent
 def: "Any substance, such as a chemical, a mix of chemicals or a pathogen, which has the capacity to cause the development of the symptoms of glomerulonephritis, kidney inflammation characterized by inflammation of the capillary loops in the renal glomeruli." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
-is_a: XCO:0000258 ! disease-inducing agent
+is_a: XCO:0000258 ! disease inducing agent
 created_by: JSmith
 creation_date: 2014-01-10T15:46:03Z
 
@@ -3535,7 +3521,7 @@ synonym: "SDMH" RELATED []
 synonym: "symmetrical dimethylhydrazine" RELATED []
 xref: CHEBI:73755
 xref: MESH:D019813
-is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000089 ! neoplasm inducing chemical
 is_a: XCO:0000205 ! mutation inducing chemical
 created_by: JSmith
 creation_date: 2014-02-07T16:46:23Z
@@ -3672,7 +3658,6 @@ name: hypoglycemic agent
 def: "A condition in which the main influencing factor is a substance which has the ability to lower the level of glucose, particularly blood glucose, in an organism." []
 synonym: "antidiabetic agent" RELATED []
 synonym: "antidiabetic  drug" RELATED []
-synonym: "antihyperglycemic agent" EXACT []
 xref: CHEBI:35526
 is_a: XCO:0000341 ! chemical with specified function
 created_by: JSmith
@@ -3982,7 +3967,6 @@ xref: CHEBI:3348
 xref: MESH:C077793
 is_a: XCO:0000140 ! vasodilator
 is_a: XCO:0000536 ! angiotensin II receptor antagonist
-is_a: XCO:0000863 ! antihypertensive agent
 created_by: JSMITH
 creation_date: 2014-04-17T13:11:54Z
 
@@ -4560,7 +4544,7 @@ def: "A condition in which the main influencing factor is a synthetic or natural
 synonym: "Parkinson's disease inducing chemical" EXACT []
 synonym: "parkinsonism-inducing chemical" RELATED []
 xref: MESH:D010300
-is_a: XCO:0000259 ! disease-inducing chemical
+is_a: XCO:0000259 ! disease inducing chemical
 created_by: jesmith
 creation_date: 2016-04-25T13:44:48Z
 
@@ -4703,7 +4687,7 @@ name: teratogen
 def: "Any condition in which the main influencing factor is a substance with adverse or toxic effects on an embryo or fetus resulting in birth defects, specifically, altered development, growth retardation, functional defect and/or embryo death." [https://en.wikipedia.org/wiki/Teratology "Wikipedia"]
 synonym: "teratogenic agent" EXACT []
 xref: CHEBI:50905
-is_a: XCO:0000259 ! disease-inducing chemical
+is_a: XCO:0000259 ! disease inducing chemical
 created_by: jesmith
 creation_date: 2017-07-18T12:58:04Z
 
@@ -4813,7 +4797,6 @@ name: angiotensin converting enzyme inhibitor
 def: "Any condition in which the main influencing factor is a chemical which decreases or interferes with the activity of angiotensin converting enzyme (ACE). ACE is an enzyme involved in catalyzing the conversion of angiotensin I into a physiologically active peptide angiotensin II. ACE inhibitors are used in the treatment of hypertension, congestive heart failure, acute myocardial infarction and diabetic nephropathy." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, https://en.wikipedia.org/wiki/ACE_inhibitor "Wikipedia", ISBN:978-1416049982]
 synonym: "ACE inhibitor" RELATED []
 is_a: XCO:0000523 ! enzyme inhibitor
-is_a: XCO:0000863 ! antihypertensive agent
 created_by: jesmith
 creation_date: 2017-07-18T13:32:02Z
 
@@ -4945,7 +4928,6 @@ name: olmesartan medoxomil
 def: "An experimental condition in which the main influencing factor is olmesartan medoxomil, an angiotensin II receptor blocker which is used as an antihypertensive agent." [https://en.wikipedia.org/wiki/Olmesartan "Wikipedia"]
 synonym: "CS-866" RELATED []
 is_a: XCO:0000536 ! angiotensin II receptor antagonist
-is_a: XCO:0000863 ! antihypertensive agent
 created_by: jrsmith
 creation_date: 2018-05-14T18:27:28Z
 
@@ -4965,10 +4947,7 @@ creation_date: 2018-05-14T18:34:03Z
 id: XCO:0000539
 name: doxorubicin
 def: "An experimental condition in which the main influencing factor is doxorubicin, a cytotoxic anthracycline antibiotic isolated from cultures of Streptomyces peucetius var. caesius and used as a chemotherapy medication. Doxorubicin binds to nucleic acids, presumably by specific intercalation of the planar anthracycline nucleus with the DNA double helix." [https://en.wikipedia.org/wiki/Doxorubicin "Wikipedia", https://www.drugbank.ca/drugs/DB00997 "DrugBank"]
-synonym: "ADR" EXACT []
-synonym: "Adriablastine" EXACT []
 synonym: "adriamycin" EXACT []
-synonym: "DXR" EXACT []
 xref: CHEBI:28748
 is_a: XCO:0000435 ! antineoplastic agent
 is_a: XCO:0000482 ! antimicrobial agent
@@ -5056,10 +5035,8 @@ creation_date: 2018-05-15T16:44:29Z
 [Term]
 id: XCO:0000548
 name: ramipril
-def: "An experimental condition in which the main influencing factor is ramipril, a prodrug that is metabolized in the liver to ramiprilat, a potent, competitive inhibitor of angiotensin-converting enzyme (ACE)." [https://www.drugbank.ca/drugs/DB00178 "DrugBank", MESH:D017257]
-synonym: "Altace" EXACT []
-synonym: "Tritace" EXACT []
-xref: CHEBI:8774
+def: "An experimental condition in which the main influencing factor is ramipril, a prodrug that is metabolized in the liver to ramiprilat, a potent, competitive inhibitor of angiotensin-converting enzyme (ACE)." [https://www.drugbank.ca/drugs/DB00178 "DrugBank"]
+synonym: "Altace" RELATED []
 is_a: XCO:0000524 ! angiotensin converting enzyme inhibitor
 created_by: jrsmith
 creation_date: 2018-05-15T16:51:40Z
@@ -5338,7 +5315,7 @@ creation_date: 2018-12-05T15:19:50Z
 [Term]
 id: XCO:0000579
 name: controlled in situ gastrointestinal condition
-def: "Any experimental condition in which the internal or external environment of the gastrointestinal system is altered." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
+def: "Any experimental condition in which the internal or external environment of the gastrointestinal system is altered." []
 is_a: XCO:0000166 ! controlled in situ organ condition
 created_by: sjwang
 creation_date: 2018-12-05T15:24:01Z
@@ -5427,7 +5404,7 @@ creation_date: 2018-12-07T15:47:47Z
 [Term]
 id: XCO:0000589
 name: Moexipril
-def: "A condition in which the main influencing factor is Moexipril, a non-sulfhydryl-containing precursor of the active angiotensin-converting enzyme (ACE) inhibitor Moexiprilat and a vasodilatory antihypertensive drug." []
+def: "A non-sulfhydryl-containing precursor of the active angiotensin-converting enzyme (ACE) inhibitor Moexiprilat. It is a vasodilatory antihypertensive drug." []
 is_a: XCO:0000524 ! angiotensin converting enzyme inhibitor
 created_by: sjwang
 creation_date: 2018-12-07T16:00:47Z
@@ -5471,11 +5448,10 @@ creation_date: 2018-12-27T10:28:04Z
 [Term]
 id: XCO:0000594
 name: saralasin
-def: "A condition in which the main influencing factor is saralasin, a partial angiotensin II receptor agonist and antihypertensive agent." []
+def: "A partial angiotensin II receptor agonist which is used as an antihypertensive agent." []
 synonym: "CHEBI:135894" EXACT []
 synonym: "Sar-Arg-Val-Tyr-Val-His-Pro-Ala" EXACT []
 is_a: XCO:0000536 ! angiotensin II receptor antagonist
-is_a: XCO:0000863 ! antihypertensive agent
 created_by: sjwang
 creation_date: 2018-12-27T13:23:15Z
 
@@ -5904,7 +5880,7 @@ creation_date: 2019-08-01T14:16:00Z
 [Term]
 id: XCO:0000640
 name: controlled in situ myocardial condition
-def: "Any experimental condition in which the internal or external environment of the myocardial system is altered." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
+def: "Any experimental condition in which the internal or external environment of the myocardial system is altered." []
 is_a: XCO:0000166 ! controlled in situ organ condition
 created_by: sjwang
 creation_date: 2019-08-01T14:40:57Z
@@ -5961,7 +5937,7 @@ def: "Azoxymethane (AOM), a gene mutation agent, may be used with dextran sulfat
 synonym: "CAS:25843-45-2" EXACT []
 synonym: "ML-MFCD00126912" EXACT []
 synonym: "Pubchem:329770827" EXACT []
-is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000089 ! neoplasm inducing chemical
 created_by: sjwang
 creation_date: 2019-12-04T15:04:39Z
 
@@ -5988,7 +5964,7 @@ id: XCO:0000649
 name: trans-4-hydroxy-L-proline
 def: "An optically active form of 4-hydroxyproline having L-trans-configuration." []
 synonym: "CHEBI:18095" EXACT []
-is_a: XCO:0000259 ! disease-inducing chemical
+is_a: XCO:0000259 ! disease inducing chemical
 created_by: sjwang
 creation_date: 2019-12-12T13:16:31Z
 
@@ -6004,7 +5980,7 @@ creation_date: 2019-12-16T15:56:17Z
 [Term]
 id: XCO:0000651
 name: E4177
-def: "A condition in which the main influencing factor is E4177, an agent that blocks one or more angiotensin II receptors." []
+def: "E4177 is an agent that blocks one or more angiotensin II receptors." []
 synonym: "4'-((2-cyclopropyl-7-methyl-3H-imidazo[4,5-b]pyridin-3-yl)methyl)-[1,1'-biphenyl]-2-carboxylic acid" EXACT []
 synonym: "E-4177" EXACT []
 is_a: XCO:0000536 ! angiotensin II receptor antagonist
@@ -6180,9 +6156,10 @@ creation_date: 2020-02-11T16:01:15Z
 id: XCO:0000669
 name: diazoxide
 alt_id: CHEBI:4495
-def: "Any condition in which the main influencing factor is diazoxide, a benzothiadiazine that is the S,S-dioxide of 2H-1,2,4-benzothiadiazine which is substituted at position 3 by a methyl group and at position 7 by chlorine. A peripheral vasodilator, it increases the concentration of glucose in the plasma and inhibits the secretion of insulin by the beta- cells of the pancreas. It is used orally in the management of intractable hypoglycaemia and intravenously in the management of hypertensive emergencies." [CHEBI:4495]
+def: "A benzothiadiazine that is the S,S-dioxide of 2H-1,2,4-benzothiadiazine which is substituted at position 3 by a methyl group and at position 7 by chlorine. A peripheral vasodilator, it increases the concentration of glucose in the plasma and inhibits the secretion of insulin by the beta- cells of the pancreas. It is used orally in the management of intractable hypoglycaemia and intravenously in the management of hypertensive emergencies." [CHEBI:4495]
 synonym: "Proglycem" EXACT []
 is_a: XCO:0000140 ! vasodilator
+is_a: XCO:0000407 ! hypoglycemic agent
 is_a: XCO:0000618 ! sodium channel inhibitor
 created_by: slaulede
 creation_date: 2020-03-05T14:07:13Z
@@ -6349,7 +6326,7 @@ creation_date: 2020-04-30T12:29:58Z
 [Term]
 id: XCO:0000684
 name: nateglinide
-def: "A condition in which the main influencing factor is nateglinide, an N-acyl-D-phenylalanine resulting from the formal condensation of the amino group of D-phenylalanine with the carboxy group of trans-4-isopropylcyclohexanecarboxylic acid. An orally-administered, rapidly-absorbed, short-acting insulinotropic agent, it is used for the treatment of type 2 diabetes mellitus." [CHEBI:31897]
+def: "An N-acyl-D-phenylalanine resulting from the formal condensation of the amino group of D-phenylalanine with the carboxy group of trans-4-isopropylcyclohexanecarboxylic acid. An orally-administered, rapidly-absorbed, short-acting insulinotropic agent, it is used for the treatment of type 2 diabetes mellitus." [CHEBI:31897]
 synonym: "N-[(trans-4-isopropylcyclohexyl)carbonyl]-D-phenylalanine" EXACT []
 xref: CHEBI:31897
 is_a: XCO:0000407 ! hypoglycemic agent
@@ -6629,7 +6606,7 @@ synonym: "malignant tumor cells" EXACT []
 synonym: "primary cancer cells" NARROW []
 synonym: "sarcoma cells" NARROW []
 synonym: "tumor cells" BROAD []
-is_a: XCO:0000258 ! disease-inducing agent
+is_a: XCO:0000258 ! disease inducing agent
 created_by: slaulede
 creation_date: 2020-06-05T10:25:14Z
 
@@ -6637,7 +6614,6 @@ creation_date: 2020-06-05T10:25:14Z
 id: XCO:0000710
 name: DHD/K12/TRb cells
 def: "A condition in which the main influencing factor is a rat colonic carcinoma cell line used to study biochemical correlates of metastasis." [ECACC:90062901]
-synonym: "DHD/K12 cells" EXACT []
 synonym: "DHD K12/TRb cells" EXACT []
 synonym: "DHD-K12 TRb cells" EXACT []
 synonym: "TRb cells" EXACT []
@@ -6773,7 +6749,6 @@ synonym: "Eprozar" EXACT []
 synonym: "Teveten" EXACT []
 xref: CHEBI:4814
 is_a: XCO:0000536 ! angiotensin II receptor antagonist
-is_a: XCO:0000863 ! antihypertensive agent
 created_by: slaulede
 creation_date: 2020-06-11T17:41:02Z
 
@@ -6816,7 +6791,7 @@ creation_date: 2020-06-15T16:30:42Z
 [Term]
 id: XCO:0000725
 name: cyclodextrin (CD)-clathrated hesperetin
-def: "Hesperetin is the aglycone of hesperidin - clathration by CD enhances hesperetin solubility." [PMID:19966469]
+def: "The aglycone of hesperidin - clathration by CD enhances hesperetin solubility." [PMID:19966469]
 xref: PMID:19966469
 is_a: XCO:0000603 ! hesperetin
 created_by: slaulede
@@ -6830,7 +6805,6 @@ synonym: "Hesperetin 7-O-Rutinoside" EXACT []
 synonym: "Hesperidin 2S" EXACT []
 xref: CHEBI:28775
 xref: MESH:D006569
-xref: PMID:19966469
 is_a: XCO:0000603 ! hesperetin
 created_by: slaulede
 creation_date: 2020-06-23T14:57:51Z
@@ -7236,7 +7210,7 @@ creation_date: 2020-10-19T13:58:56Z
 [Term]
 id: XCO:0000770
 name: rat anti-Ab2 antiserum
-def: "Any condition in which the main influencing factor is serum prepared from rats immunized with Ab2 antibodies. These Ab2 antibodies are antiidiotypic antibodies raised against anti-26 kDa (antigen secreted from schistosomula of Schistosoma mansoni) IgE antibodies." [https://www.merriam-webster.com/, PMID:1719096]
+def: "Any condition in which the main influencing factor is an injection of serum prepared from rats immunized with Ab2 antibodies. These Ab2 antibodies are antiidiotypic antibodies raised against anti-26 kDa (antigen secreted from schistosomula of Schistosoma mansoni) IgE antibodies." [https://www.merriam-webster.com/, PMID:1719096]
 xref: PMID:1719096
 is_a: XCO:0000769 ! antiserum
 created_by: slaulede
@@ -7245,7 +7219,7 @@ creation_date: 2020-10-19T14:05:35Z
 [Term]
 id: XCO:0000771
 name: rat anti-26 kDa antiserum
-def: "Any condition in which the main influencing factor is serum prepared from rats immunized with the 26 kDa antigen secreted from schistosomula of Schistosoma mansoni." [https://www.merriam-webster.com/, PMID:1719096]
+def: "Any condition in which the main influencing factor is an injection of serum prepared from rats immunized with the 26 kDa antigen secreted from schistosomula of Schistosoma mansoni." [https://www.merriam-webster.com/, PMID:1719096]
 xref: PMID:1719096
 is_a: XCO:0000769 ! antiserum
 created_by: slaulede
@@ -7811,8 +7785,6 @@ creation_date: 2021-03-25T15:05:12Z
 id: XCO:0000824
 name: pertussis toxin
 def: "Pertussis toxin (PT) is a protein-based AB5-type exotoxin produced by the bacterium Bordetella pertussis, which causes whooping cough. PT is one of the most complex bacterial toxins known, composed of six subunits with an A protomer responsible for biologic activities and a B pentamer directing binding and entry of the A subunit into the cytoplasm." [https://en.wikipedia.org/wiki/Pertussis_toxin, https://www.sciencedirect.com/topics/medicine-and-dentistry/pertussis-toxin]
-synonym: "B. pertussis toxin" EXACT []
-synonym: "Bordetella pertussis toxin" EXACT []
 synonym: "PT" EXACT []
 xref: PMID:1702803
 is_a: XCO:0000240 ! toxin
@@ -7822,8 +7794,7 @@ creation_date: 2021-04-01T16:00:00Z
 [Term]
 id: XCO:0000825
 name: cyclophosphamide
-def: "An experimental condition in which the main influencing factor is cyclophosphamide (CP), an antineoplastic and immunosuppressive agent that must be activated in the liver to form the active aldophosphamide. As chemotherapy it is used to treat lymphoma, multiple myeloma, leukemia, ovarian cancer, breast cancer, small cell lung cancer, neuroblastoma, and sarcoma." [https://en.wikipedia.org/wiki/Cyclophosphamide, MESH:D003520]
-synonym: "CP" EXACT []
+def: "Cyclophosphamide (CP), also known as cytophosphane among other names, is an antineoplastic and immunosuppressive agent that must be activated in the liver to form the active aldophosphamide. As chemotherapy it is used to treat lymphoma, multiple myeloma, leukemia, ovarian cancer, breast cancer, small cell lung cancer, neuroblastoma, and sarcoma." [https://en.wikipedia.org/wiki/Cyclophosphamide, MESH:D003520]
 synonym: "cytophosphane" EXACT []
 xref: CHEBI:4027
 xref: MESH:D003520
@@ -7854,7 +7825,7 @@ creation_date: 2021-04-01T17:27:28Z
 [Term]
 id: XCO:0000828
 name: human myelin basic protein
-def: "Any condition in which the main influencing factor is human myelin basic protein, a hydrophobic insulator that can be synthesized by the oligodendrocyte and/or Schwann cell as part of the myelin sheath which is wrapped around the axon. Human myelin basic protein is purified from human tissue or extracted from cultured cells containing cloned copies of the human myelin basic protein gene." [PMID:1702803]
+def: "Myelin basic protein is a hydrophobic insulator that can be synthesized by the oligodendrocyte and/or Schwann cell as part of the myelin sheath which is wrapped around the axon. Myelin basic protein may constitute as much as one-third of all protein in myelin. Human myelin basic protein is purified from human tissue or extracted from cultured cells containing cloned copies of the human myelin basic protein gene." [PMID:1702803]
 synonym: "Hu-BP" EXACT []
 synonym: "human MBP" EXACT []
 xref: PMID:1702803
@@ -8012,666 +7983,6 @@ xref: PMID:28441076
 is_a: XCO:0000160 ! receptor antagonist
 created_by: slaulede
 creation_date: 2021-06-04T12:00:41Z
-
-[Term]
-id: XCO:0000842
-name: nicotinic antagonist
-def: "Any condition in which the main influencing factor is a nicotinic antagonist, a type of anticholinergic drug that inhibits the action of acetylcholine (ACh) at nicotinic acetylcholine receptors." [CHEBI:48878, https://en.wikipedia.org/wiki/Nicotinic_antagonist]
-synonym: "nicotinic acetylcholine receptor antagonist" EXACT []
-synonym: "nicotinic cholinergic antagonist" EXACT []
-xref: CHEBI:48878
-xref: PMID:24400148
-is_a: XCO:0000630 ! cholinergic antagonist
-created_by: slaulede
-creation_date: 2021-06-10T10:31:44Z
-
-[Term]
-id: XCO:0000843
-name: mecamylamine
-def: "Any condition in which the main influencing factor is mecamylamine, a ganglionic blocking agent that inhibits transmission between preganglionic and postganglionic neurons in the autonomic nervous system." [CHEBI:48878, https://en.wikipedia.org/wiki/Mecamylamine, MESH:D008464]
-synonym: "C11H21N" EXACT []
-synonym: "Inversine" EXACT []
-synonym: "Vecamyl" EXACT []
-xref: PMID:24400148
-is_a: XCO:0000842 ! nicotinic antagonist
-created_by: slaulede
-creation_date: 2021-06-10T11:03:37Z
-
-[Term]
-id: XCO:0000844
-name: sodium phenobarbital
-def: "Any condition in which the main influencing factor is the sodium salt of phenobarbital (barbituric acid substituted at C-5 by ethyl and phenyl groups). Sodium phenobarbital is an acvtivator of the constitutive androstane receptor (CAR; Nr1i3)." [CHEBI:8070, PMID:29548889]
-synonym: "C12H11N2NaO3" EXACT []
-synonym: "NaPB" EXACT []
-synonym: "phenobarbital sodium" EXACT []
-synonym: "phenobarbital sodium salt" EXACT []
-synonym: "Sodium phenobarbitone" EXACT []
-xref: PMID:29548889
-is_a: XCO:0000089 ! neoplasm-inducing chemical
-is_a: XCO:0000135 ! receptor agonist
-created_by: slaulede
-creation_date: 2021-06-24T15:00:49Z
-
-[Term]
-id: XCO:0000845
-name: pregnenolone 16alpha-carbonitrile
-def: "Any condition in which the main influencing factor is pregnenolone 16alpha-carbonitrile, a catatoxic steroid that acts as an agonist of the rodent pregnane X receptor (PXR; Nr1i2)." [CHEBI:35591, PMID:5793358]
-synonym: "3beta-hydroxy-20-oxopregn-5-ene-16alpha-carbonitrile" EXACT []
-synonym: "C22H31NO2" EXACT []
-synonym: "PCN" EXACT []
-xref: MESH:D011285
-xref: PMID:29548889
-is_a: XCO:0000091 ! steroid
-is_a: XCO:0000135 ! receptor agonist
-created_by: slaulede
-creation_date: 2021-06-24T15:21:50Z
-
-[Term]
-id: XCO:0000846
-name: Hu-S102-129
-def: "Any condition in which the main influencing factor is a 28 amino acid polypeptide representing residues 102 to 129 in the human myelin basic protein molecule. Myelin basic protein is a hydrophobic insulator that can be synthesized by the oligodendrocyte and/or Schwann cell as part of the myelin sheath which is wrapped around the axon." [PMID:1702803]
-synonym: "PSQGKGRGLSLSRFSWGAEGQRPGFGYG" EXACT []
-xref: PMID:1702803
-is_a: XCO:0000828 ! human myelin basic protein
-created_by: slaulede
-creation_date: 2021-06-28T15:35:55Z
-
-[Term]
-id: XCO:0000847
-name: Hu-S110-129
-def: "Any condition in which the main influencing factor is a 20 amino acid polypeptide representing residues 110 to 129 in the human myelin basic protein molecule. Myelin basic protein is a hydrophobic insulator that can be synthesized by the oligodendrocyte and/or Schwann cell as part of the myelin sheath which is wrapped around the axon." [PMID:1702803]
-synonym: "LSLSRFSWGAEGQRPGFGYG" EXACT []
-xref: PMID:1702803
-is_a: XCO:0000828 ! human myelin basic protein
-created_by: slaulede
-creation_date: 2021-06-28T15:42:51Z
-
-[Term]
-id: XCO:0000848
-name: negatively charged liposome-entrapped doxorubicin
-def: "An experimental condition in which the main influencing factor is negatively charged liposomes containing doxorubicin, a cytotoxic anthracycline antibiotic isolated from cultures of Streptomyces peucetius var. caesius and used as a chemotherapy medication." [PMID:6744286]
-synonym: "lip- DXR" EXACT []
-xref: PMID:6744286
-is_a: XCO:0000539 ! doxorubicin
-is_a: XCO:0000782 ! negatively charged liposomes
-created_by: slaulede
-creation_date: 2021-06-28T17:06:42Z
-
-[Term]
-id: XCO:0000849
-name: positively charged liposome-entrapped doxorubicin
-def: "An experimental condition in which the main influencing factor is positively charged liposomes containing doxorubicin, a cytotoxic anthracycline antibiotic isolated from cultures of Streptomyces peucetius var. caesius and used as a chemotherapy medication." [PMID:6744286]
-synonym: "lip+ DXR" EXACT []
-xref: PMID:6744286
-is_a: XCO:0000539 ! doxorubicin
-is_a: XCO:0000781 ! positively charged liposomes
-created_by: slaulede
-creation_date: 2021-06-28T17:14:08Z
-
-[Term]
-id: XCO:0000850
-name: therapeutic agent
-def: "A condition in which the main influencing factor is a chemical, biologic, or organism that exerts some force or effect resulting in a favorable outcome or improvement in the symptoms of a disorder or disease." [https://www.merriam-webster.com/, ISBN-13: 978-0683400076]
-synonym: "medicinal agent" EXACT []
-synonym: "remedial agent" EXACT []
-xref: PMID:29273085
-is_a: XCO:0000000 ! experimental condition
-created_by: slaulede
-creation_date: 2021-06-28T18:20:14Z
-
-[Term]
-id: XCO:0000851
-name: stem cells
-def: "A condition in which the main influencing factor is a stem cell, an unspecialized cell capable of perpetuating itself through cell division and having the potential to give rise to a variety of differentiated cells with specialized functions." [CL:0000034, https://en.wikipedia.org/wiki/Stem_cell, https://www.merriam-webster.com/]
-xref: PMID:29273085
-is_a: XCO:0000850 ! therapeutic agent
-created_by: slaulede
-creation_date: 2021-06-28T18:41:49Z
-
-[Term]
-id: XCO:0000852
-name: human periodontal ligament-derived stem cells
-def: "A condition in which the main influencing factor is human periodontal ligament-derived stem cells, which reside in the perivascular space of the periodontium, possess characteristics of mesenchymal stem cells and are a promising tool for periodontal and other tissue type regeneration. The advantages of the use of dental stem cells include their easy isolation by noninvasive routine clinical procedures, their broad differentiation potential, minimal ethical concerns, and that they may enable autologous transplantation." [PMID:25861283, PMID:29273085]
-synonym: "hPDLSCs" EXACT []
-xref: PMID:29273085
-is_a: XCO:0000851 ! stem cells
-created_by: slaulede
-creation_date: 2021-06-29T11:11:08Z
-
-[Term]
-id: XCO:0000853
-name: rat serum from subject bearing a B48-14 IgE-producing hybridoma
-def: "Any condition in which the main influencing factor is serum prepared from rats bearing a subcutaneously injected B48-14 IgE-producing hybridoma. The serum is essentially antiserum containing B48-14 IgE, which are directed against a S. mansoni adult worm antigen." [https://www.merriam-webster.com/, PMID:3108390]
-xref: PMID:3108390
-is_a: XCO:0000769 ! antiserum
-created_by: slaulede
-creation_date: 2021-06-29T17:41:28Z
-
-[Term]
-id: XCO:0000854
-name: rat serum from subject bearing IR983F myeloma
-def: "Any condition in which the main influencing factor is serum prepared from rats bearing subcutaneously injected IR983F myeloma cells. The serum is essentially control for antiserum from rats bearing IgE-producing hybridomas." [https://www.merriam-webster.com/, PMID:3108390]
-synonym: "rat serum from subject bearing IR 983 F myeloma" EXACT []
-xref: PMID:3108390
-is_a: XCO:0000769 ! antiserum
-created_by: slaulede
-creation_date: 2021-06-29T18:07:47Z
-
-[Term]
-id: XCO:0000855
-name: rat serum from subject bearing a non-specified IgE-producing hybridoma
-def: "Any condition in which the main influencing factor is serum prepared from rats bearing a subcutaneously injected non-specified IgE-producing hybridoma. The serum is essentially antiserum containing control IgE, which are directed against an unspecified antigen." [https://www.merriam-webster.com/, PMID:3108390]
-xref: PMID:3108390
-is_a: XCO:0000769 ! antiserum
-created_by: slaulede
-creation_date: 2021-06-29T18:12:26Z
-
-[Term]
-id: XCO:0000856
-name: resveratrol
-def: "A stilbenol that is stilbene in which the phenyl groups are substituted at positions 3, 5, and 4' by hydroxy groups. It is produced by various plants and has anti-oxidant, anti-inflammatory, cardioprotective, anti-mutagenic, and anti-carcinogenic properties." [MESH:D000077185]
-synonym: "3,4',5-Stilbenetriol" EXACT []
-synonym: "3,4',5-Trihydroxystilbene" EXACT []
-synonym: "5-[2-(4-hydroxyphenyl)ethenyl]benzene-1,3-diol" EXACT []
-synonym: "SRT501" EXACT []
-xref: PMID:30621538
-is_a: XCO:0000271 ! antioxidant
-is_a: XCO:0000505 ! anti-inflammatory agent
-created_by: slaulede
-creation_date: 2021-06-29T18:22:55Z
-
-[Term]
-id: XCO:0000857
-name: vildagliptin
-def: "Any condition in which the main influencing factor is vildagliptin, a pyrrolidine-carbonitrile derivative and potent inhibitor of dipeptidyl peptidase 4 (DPP-4) that is used in the treatment of type 2 diabetes mellitus." [MESH:D000077597, PMID: 23774700]
-synonym: "VG" EXACT []
-xref: PMID: 23774700
-is_a: XCO:0000407 ! hypoglycemic agent
-created_by: slaulede
-creation_date: 2021-07-02T13:08:02Z
-
-[Term]
-id: XCO:0000858
-name: rat anti-control-Ab2 T cells
-def: "Any condition in which the main influencing factor is an injection of T cells prepared from the lymph nodes of rats immunized with Ab2 antibodies. These Ab2 antibodies are antiidiotypic antibodies raised against non-specific IgE antibodies." [PMID:1719096]
-xref: PMID:1719096
-xref: PMID:2494262
-is_a: XCO:0000763 ! T cells
-created_by: slaulede
-creation_date: 2021-07-02T17:20:09Z
-
-[Term]
-id: XCO:0000859
-name: rat anti-control-Ab2 T cell line
-def: "Any condition in which the main influencing factor is an injection of cultured cells derived from T cells prepared from the lymph nodes of rats immunized with Ab2 antibodies. These Ab2 antibodies are antiidiotypic antibodies raised against non-specific IgE antibodies." [PMID:1719096]
-xref: PMID:1719096
-xref: PMID:2494262
-is_a: XCO:0000858 ! rat anti-control-Ab2 T cells
-created_by: slaulede
-creation_date: 2021-07-02T17:23:47Z
-
-[Term]
-id: XCO:0000860
-name: anti-rh-VEGF165 monoclonal antibody
-def: "A condition in which the main influencing factor is a monoclonal antibody having specific amino acid sequences with the ability to adhere to and interact specifically with recombinant human vascular endothelial growth factor 165." [https://www.merriam-webster.com/, PMID:11316858]
-synonym: "anti-recombinant human vascular endothelial growth factor 165 monoclonal antibody" EXACT []
-xref: PMID:15702434
-is_a: XCO:0000194 ! antibody
-created_by: slaulede
-creation_date: 2021-07-06T14:53:33Z
-
-[Term]
-id: XCO:0000861
-name: control IgG monoclonal antibody
-def: "A condition in which the main influencing factor is an isotype-matched (IgG) monoclonal antibody to provide a control for some target-specific monoclonal antibody." [https://www.merriam-webster.com/, PMID:11316858]
-synonym: "isotype-matched control Ab" EXACT []
-xref: PMID:15702434
-is_a: XCO:0000194 ! antibody
-created_by: slaulede
-creation_date: 2021-07-06T15:18:46Z
-
-[Term]
-id: XCO:0000862
-name: bendroflumethiazide
-def: "A condition in which the main influencing factor is bendroflumethiazide, a sulfonamide consisting of 7-sulfamoyl-3,4-dihydro-2H-1,2,4-benzothiadiazine 1,1-dioxide in which the hydrogen at position 6 is substituted by a trifluoromethyl group and that at position 3 is substituted by a benzyl group. It has been used in the treatment of familial hyperkalemia, hypertension, edema, and urinary tract disorders." [CHEBI:3013, MESH:D001539]
-synonym: "Aprinox" EXACT []
-synonym: "bendrofluazide" EXACT []
-synonym: "BTZ" EXACT []
-xref: PMID:18480177
-is_a: XCO:0000863 ! antihypertensive agent
-created_by: slaulede
-creation_date: 2021-07-06T17:28:01Z
-
-[Term]
-id: XCO:0000863
-name: antihypertensive agent
-def: "A condition in which the main influencing factor is any drug used in the treatment of acute or chronic vascular hypertension regardless of pharmacological mechanism." [CHEBI:35674, ISBN-13:9780781733908]
-synonym: "antihypertensive drug" EXACT []
-xref: PMID:18480177
-is_a: XCO:0000341 ! chemical with specified function
-created_by: slaulede
-creation_date: 2021-07-06T17:35:52Z
-
-[Term]
-id: XCO:0000864
-name: hepatic portal vein occlusion
-def: "A condition involving surgical manipulation causing blockage of one or more branches of the hepatic portal vein, a vein that transports nutrients from the digestive tract to the liver." [ISBN-13:9780781733908, PMID:32156510]
-synonym: "hepatic portal vein ligation" RELATED []
-synonym: "HPV occlusion" EXACT []
-synonym: "liver portal vein occlusion" EXACT []
-xref: PMID:32156510
-is_a: XCO:0000347 ! blood vessel occlusion
-created_by: slaulede
-creation_date: 2021-07-08T13:48:54Z
-
-[Term]
-id: XCO:0000865
-name: dehydroepiandrosterone
-def: "A condition in which the main influencing factor is an androstanoid that is androst-5-ene substituted by a beta-hydroxy group at position 3 and an oxo group at position 17. It is a major C19 steroid produced by the adrenal cortex. It is also produced in small quantities in the testis and the ovary." [CHEBI:28689, MESH:D003687]
-synonym: "androstenolone" EXACT []
-synonym: "DHEA" EXACT []
-xref: PMID:9415976
-is_a: XCO:0000229 ! steroid hormone
-created_by: slaulede
-creation_date: 2021-07-09T13:35:10Z
-
-[Term]
-id: XCO:0000866
-name: anal sphincter myotomy
-def: "Any process involving manual and instrumental techniques for incision of the internal anal sphincter muscle. The inner is controlled by the nervous system, while the external anal sphincter muscle is under voluntary control." [https://www.merriam-webster.com/medical/myotomy, https://www.verywellhealth.com/sphincterotomy-overview-4584862]
-synonym: "lateral internal sphincterotomy" EXACT []
-synonym: "sphincterotomy" EXACT []
-xref: PMID:29391927
-is_a: XCO:0000165 ! surgical manipulation
-created_by: slaulede
-creation_date: 2021-07-09T16:04:48Z
-
-[Term]
-id: XCO:0000867
-name: incision repair
-def: "A process in which manual and instrumental techniques are used to close a wound or surgical incision with sutures, staples, glue, or some other closure material." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
-synonym: "incision closure" EXACT []
-synonym: "incision stapling" NARROW []
-synonym: "incision suturing" NARROW []
-xref: PMID:29391927
-is_a: XCO:0000165 ! surgical manipulation
-created_by: slaulede
-creation_date: 2021-07-09T16:46:51Z
-
-[Term]
-id: XCO:0000868
-name: incision repair with conventional suture
-def: "A process in which manual and instrumental techniques are used to close a wound or surgical incision with sutures. Surgical sutures are specially made thread that comes in different sizes and different material." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
-synonym: "incision suturing" EXACT []
-xref: PMID:29391927
-is_a: XCO:0000867 ! incision repair
-created_by: slaulede
-creation_date: 2021-07-09T17:22:07Z
-
-[Term]
-id: XCO:0000869
-name: incision repair with biosuture
-def: "A process in which manual and instrumental techniques are used to close a wound or surgical incision with biosutures. Biosutures are surgical sutures upon which stem cells have been grown in vitro." [https://www.merriam-webster.com/, PMID:29391927]
-synonym: "incision suturing with biosuture" EXACT []
-xref: PMID:18690635
-xref: PMID:29391927
-is_a: XCO:0000867 ! incision repair
-created_by: slaulede
-creation_date: 2021-07-12T10:20:45Z
-
-[Term]
-id: XCO:0000870
-name: rat adipose-derived stem cells
-def: "A condition in which the main influencing factor is a rat stem cell, isolated from subcutaneous fat tissue and cultured in vitro. A stem cell is an unspecialized cell capable of perpetuating itself through cell division and having the potential to give rise to a variety of differentiated cells with specialized functions." [https://www.merriam-webster.com/, PMID:29391927]
-synonym: "adipose-derived stem cells" BROAD []
-xref: PMID:29391927
-is_a: XCO:0000851 ! stem cells
-created_by: slaulede
-creation_date: 2021-07-12T12:42:34Z
-
-[Term]
-id: XCO:0000871
-name: 5-fluorouracil
-def: "A nucleobase analogue that is uracil in which the hydrogen at position 5 is replaced by fluorine. Following conversion to the active deoxynucleotide, It inhibits DNA synthesis by blocking the thymidylate synthetase conversion of deoxyuridylic acid to thymidylic acid." [CHEBI:46345, MESH:D005472]
-synonym: "5-Fluoracil" EXACT []
-synonym: "5-fluoropyrimidine-2,4(1H,3H)-dione" EXACT []
-synonym: "5-FU" EXACT []
-synonym: "fluorouracil" EXACT []
-xref: PMID:10431686
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000636 ! immunosuppressive agent
-created_by: slaulede
-creation_date: 2021-07-16T15:49:31Z
-
-[Term]
-id: XCO:0000872
-name: Thymosin alpha-1
-def: "Thymosin alpha-1 is one member of a family of heat-stable, polypeptide hormones secreted by the thymus gland. Thymosins are immune response-modulating molecules." [MESH:D013947, PMID:33362999]
-synonym: "prothymosin alpha" RELATED []
-synonym: "prothymosin, alpha" RELATED []
-synonym: "PTMA" RELATED []
-synonym: "thymalfasin" EXACT []
-synonym: "TMSA" RELATED []
-xref: PMID:10431686
-is_a: XCO:0000228 ! peptide hormone
-is_a: XCO:0000483 ! antibacterial agent
-is_a: XCO:0000657 ! antiviral agent
-created_by: slaulede
-creation_date: 2021-07-16T16:55:07Z
-
-[Term]
-id: XCO:0000873
-name: DHD/K12/TRb - Sp-5 cells
-def: "A condition in which the main influencing factor is the pulmonary metastatic subclone Sp-5 of a rat colonic carcinoma cell line (DHD/K12/TRb) used to study biochemical correlates of metastasis." [PMID:19850492, PMID:7818325]
-synonym: "DHD/K12 - Sp-5 cells" EXACT []
-synonym: "DHD K12/TRb - Sp-5 cells" EXACT []
-synonym: "DHD-K12 TRb - Sp-5 cells" EXACT []
-synonym: "TRb - Sp-5 cells" EXACT []
-xref: PMID:7818325
-is_a: XCO:0000710 ! DHD/K12/TRb cells
-created_by: slaulede
-creation_date: 2021-07-19T17:18:00Z
-
-[Term]
-id: XCO:0000874
-name: controlled in situ lung condition
-def: "Any experimental condition in which the internal or external environment of one or both lungs is experimentally manipulated, for example through perfusion, increased or decreased blood flow, etc. without removal from the body." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
-synonym: "controlled in situ pulmonary condition" EXACT []
-xref: PMID:7818325
-is_a: XCO:0000166 ! controlled in situ organ condition
-created_by: slaulede
-creation_date: 2021-07-19T17:25:18Z
-
-[Term]
-id: XCO:0000875
-name: isolated lung perfusion
-def: "An experimental condition consisting of right or left thoracotomy with cannulation of pulmonary artery and vein, perfusion via artery, and collection of effluent from pulmonary vein to prevent systemic circulation of treatment or vehicle." [PMID:7818325, PMID:8347000]
-synonym: "isolated single lung perfusion" EXACT []
-xref: PMID:7818325
-is_a: XCO:0000874 ! controlled in situ lung condition
-created_by: slaulede
-creation_date: 2021-07-19T17:33:20Z
-
-[Term]
-id: XCO:0000876
-name: floxuridine
-def: "An antineoplastic antimetabolite that is metabolized to fluorouracil when administered by rapid injection; when administered by slow, continuous, intra-arterial infusion, it is converted to floxuridine monophosphate. It has been used to treat hepatic metastases of gastrointestinal adenocarcinomas and for palliation in malignant neoplasms of the liver and gastrointestinal tract." [CHEBI:60761, MESH:D005467]
-synonym: "2'-deoxy-5-fluorouridine" EXACT []
-synonym: "5FDU" EXACT []
-synonym: "5-Fluorodeoxyuridine" EXACT []
-synonym: "5-FUdR" EXACT []
-synonym: "deoxyfluorouridine" EXACT []
-synonym: "fluorodeoxyuridine" EXACT []
-synonym: "FUDR" EXACT []
-synonym: "PMID:7818325" EXACT []
-is_a: XCO:0000390 ! antimetabolite
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000657 ! antiviral agent
-created_by: slaulede
-creation_date: 2021-07-19T18:12:49Z
-
-[Term]
-id: XCO:0000877
-name: Hespan buffer
-def: "Any condition in which the main influencing factor is Hespan buffer, 6% hetastarch in buffered solution. A buffer is a homogeneous mixture of molecules, atoms and/or ions, one or more of which have the capacity to cause the solution to resist change in pH upon addition of small amounts of acid or base, dispersed in a sufficient quantity of solvent." [https://www.fda.gov, PMID:10155362]
-synonym: "HB" EXACT []
-xref: PMID:7818325
-is_a: XCO:0000315 ! buffer solution
-created_by: slaulede
-creation_date: 2021-07-19T18:38:39Z
-
-[Term]
-id: XCO:0000878
-name: Hespan buffer perfusate
-def: "Any condition in which the main influencing factor is Hespan buffer (6% hetastarch in buffered solution) injected or pumped into, or poured through, an organ or tissue, usually via a blood vessel." [https://www.fda.gov, PMID:10155362]
-synonym: "HB perfusate" EXACT []
-xref: PMID:7818325
-is_a: XCO:0000115 ! perfusate
-is_a: XCO:0000877 ! Hespan buffer
-created_by: slaulede
-creation_date: 2021-07-20T13:59:06Z
-
-[Term]
-id: XCO:0000879
-name: triamcinolone acetonide
-def: "A synthetic glucocorticoid that is the 16,17-acetonide of triamcinolone. It is an anti-inflammatory agent used topically in the treatment of various skin disorders." [CHEBI:71418, MESH:D014222]
-synonym: "Azmacort" EXACT []
-synonym: "Cinonide" EXACT []
-synonym: "Kenalog 40" EXACT []
-synonym: "Tricort-40" EXACT []
-xref: PMID:27856527
-is_a: XCO:0000505 ! anti-inflammatory agent
-created_by: slaulede
-creation_date: 2021-07-20T14:16:29Z
-
-[Term]
-id: XCO:0000880
-name: mifepristone
-def: "Any condition in which the main influencing factor is mifepristone, a progestational and glucocorticoid hormone antagonist. Its inhibition of progesterone induces bleeding during the luteal phase and in early pregnancy by releasing endogenous prostaglandins from the endometrium or decidua. As a glucocorticoid receptor antagonist, the drug has been used to treat hypercortisolism in patients with nonpituitary Cushing Syndrome." [MESH:D015735]
-synonym: "Mifegyne" EXACT []
-synonym: "Mifeprex" EXACT []
-synonym: "RU38486" EXACT []
-synonym: "RU-486" EXACT []
-synonym: "RU486" EXACT []
-synonym: "ZK98296" EXACT []
-xref: PMID:27856527
-is_a: XCO:0000120 ! inhibitor
-created_by: slaulede
-creation_date: 2021-07-20T14:26:43Z
-
-[Term]
-id: XCO:0000881
-name: 4[N-methyl-14C] iodoantipyrine
-def: "This is 4-Iodoantipyrine, labeled with C-14 on the N-methyl group. Iodoantipyrine readily crosses the blood-brain barrier, and has been used to measure total and regional cerebral blood flow in vivo." [https://www.perkinelmer.com/product/iodoantipyrine-4-n-methyl-14c-nec712050uc#]
-synonym: "4-iodo-5-methyl-1-(114C)methyl-2-phenylpyrazol-3-one" EXACT []
-synonym: "4-Iodoantipyrene-N-methyl-14C" EXACT []
-synonym: "C11H11IN2O" EXACT []
-xref: PMID:29498562
-xref: PubChem CID:101126542
-is_a: XCO:0000171 ! radioactively labeled chemical
-created_by: slaulede
-creation_date: 2021-07-29T17:59:13Z
-
-[Term]
-id: XCO:0000882
-name: sleeve gastrectomy
-def: "This procedure involves removal of about 80% of the stomach, leaving a tube-shaped stomach about the size and shape of a banana. The procedure is typically performed as a surgical intervention for weight control." [https://www.mayoclinic.org/tests-procedures/sleeve-gastrectomy/about/pac-20385183, ISBN-13:9780781733908]
-synonym: "vertical sleeve gastrectomy" EXACT []
-xref: PMID:29168078
-is_a: XCO:0000026 ! surgical removal
-created_by: slaulede
-creation_date: 2021-08-02T15:06:01Z
-
-[Term]
-id: XCO:0000883
-name: pantoprazole
-def: "This is a substituted benzimidazole and proton pump inhibitor that is used in the treatment of gastroesophageal reflux and peptic ulcer." [CHEBI:7915, MESH:D000077402]
-synonym: "5-(difluoromethoxy)-2-{[(3,4-dimethoxypyridin-2-yl)methyl]sulfinyl}-1H-benzimidazole" EXACT []
-synonym: "BY-1023" EXACT []
-synonym: "Protonix" EXACT []
-synonym: "SKF-96022" EXACT []
-xref: PMID:29168078
-is_a: XCO:0000577 ! proton pump inhibitor
-created_by: slaulede
-creation_date: 2021-08-02T15:19:16Z
-
-[Term]
-id: XCO:0000884
-name: trypan blue
-def: "Any condition in which the main influencing factor is trypan blue, an azo dye used as a vital stain to selectively colour dead tissues or cells blue." [https://en.wikipedia.org/wiki/Trypan_blue, https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/trypan-blue]
-synonym: "tetrasodium 3,3'-[(3,3'-dimethylbiphenyl-4,4'-diyl)didiazene-2,1-diyl]bis(5-amino-4-hydroxynaphthalene-2,7-disulfonate)" EXACT []
-xref: PMID:3347907
-is_a: XCO:0000089 ! neoplasm-inducing chemical
-is_a: XCO:0000512 ! teratogen
-created_by: slaulede
-creation_date: 2021-08-02T16:18:02Z
-
-[Term]
-id: XCO:0000885
-name: diabetes-inducing chemical
-def: "A condition in which the main influencing factor is substance that is toxic to the pancreatic insulin-producing beta cells of the islets of Langerhans in rodents and other animals and can therefore be used for modeling diabetes mellitus through destruction of the beta cells." [CHEBI:9288, ISBN-13:9780781733908]
-xref: PMID:12401717
-is_a: XCO:0000259 ! disease-inducing chemical
-created_by: slaulede
-creation_date: 2021-08-09T17:47:11Z
-
-[Term]
-id: XCO:0000886
-name: epilepsy-inducing chemical
-def: "A condition in which the main influencing factor is substance that causes seizures in experimental animals, initiated by the injection of a drug." [DOID:9007090, PMID:31039378]
-synonym: "seizure-inducing chemical" EXACT []
-xref: PMID:31039378
-is_a: XCO:0000259 ! disease-inducing chemical
-created_by: slaulede
-creation_date: 2021-08-09T18:13:25Z
-
-[Term]
-id: XCO:0000887
-name: pentetrazol
-def: "This a pharmaceutical agent that displays activity as a central nervous system and respiratory stimulant. It is considered a non-competitive gamma-aminobutyric acid antagonist. Pentetrazol has been used experimentally to study seizure phenomenon and to identify pharmaceuticals that may control seizure susceptibility." [MESH:D010433]
-synonym: "1,5-pentamethylenetetrazole" EXACT []
-synonym: "pentamethylenetetrazole" EXACT []
-synonym: "pentylenetetrazole" EXACT []
-synonym: "PTZ" EXACT []
-xref: CHEBI:34910
-xref: PMID:31039378
-is_a: XCO:0000886 ! epilepsy-inducing chemical
-created_by: slaulede
-creation_date: 2021-08-10T12:49:31Z
-
-[Term]
-id: XCO:0000888
-name: pilocarpine
-def: "Pilocarpine is a miotic alkaloid obtained from jaborandi that is used chiefly in the form of its hydrochloride or nitrate especially in the treatment of glaucoma. It is a cholinergic (muscarinic) agonist and used to cause seizures in animal models of epilepsy." [https://medlineplus.gov/druginfo/meds/a608039.html, https://www.merriam-webster.com/, MESH:D010862]
-xref: CHEBI:39462
-xref: PMID:31039378
-is_a: XCO:0000693 ! cholinergic agonist
-is_a: XCO:0000886 ! epilepsy-inducing chemical
-created_by: slaulede
-creation_date: 2021-08-10T13:18:44Z
-
-[Term]
-id: XCO:0000889
-name: ionomycin
-def: "Ionomycin is a very long-chain fatty acid that is a calcium ionophore produced by Streptomyces conglobatus. It is used in research to raise the intracellular level of Ca(2+) and as a research tool to understand Ca(2+) transport across biological membranes." [CHEBI:63954, MESH:D015759]
-synonym: "C41H72O9" EXACT []
-xref: CHEBI:63954
-xref: MESH:D015759
-xref: PMID:32300198
-is_a: XCO:0000776 ! fatty acid
-is_a: XCO:0000890 ! ionophore
-created_by: slaulede
-creation_date: 2021-08-10T13:36:53Z
-
-[Term]
-id: XCO:0000890
-name: ionophore
-def: "A compound that facilitates transmission of an ion across a lipid barrier (as in a cell membrane) by combining with the ion or by increasing the permeability of the barrier to it." [CHEBI:24869, https://www.merriam-webster.com/]
-synonym: "ion carrier" EXACT []
-xref: PMID:32300198
-is_a: XCO:0000341 ! chemical with specified function
-created_by: slaulede
-creation_date: 2021-08-10T13:40:47Z
-
-[Term]
-id: XCO:0000891
-name: phorbol 13-acetate 12-myristate
-def: "Phorbol 13-acetate 12-myristate is a phorbol ester found in croton oil with very effective tumor promoting activity. It is a protein kinase C agonist and stimulates the synthesis of both DNA and RNA." [MESH:D013755]
-synonym: "12-O-Tetradecanoyl Phorbol 13-Acetate" EXACT []
-synonym: "phorbol myristate acetate" EXACT []
-synonym: "PMA" EXACT []
-synonym: "tetradecanoylphorbol acetate" EXACT []
-synonym: "TPA" EXACT []
-xref: CHEBI:37537
-is_a: XCO:0000694 ! enzyme activator
-is_a: XCO:0000892 ! tumor promoter
-created_by: slaulede
-creation_date: 2021-08-10T13:54:49Z
-
-[Term]
-id: XCO:0000892
-name: tumor promoter
-def: "Tumor promoters are substances that enhance tumorigenicity when administered after a carcinogen. In general, tumor promoters do not possess tumorigenic activity themselves." [https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tumor-promotion, PMID: 10417370]
-xref: PMID:32300198
-is_a: XCO:0000259 ! disease-inducing chemical
-created_by: slaulede
-creation_date: 2021-08-10T15:45:15Z
-
-[Term]
-id: XCO:0000893
-name: controlled ramipril content drinking water
-def: "A drink made up of water and a specified amount of ramipril in which the amount of ramipril consumed is maintained at a specified level." [https://www.merriam-webster.com/, PMID:20864942]
-synonym: "controlled Altace content drinking water" EXACT []
-xref: CHEBI:8774
-xref: PMID:20864942
-is_a: XCO:0000163 ! controlled content drinking water
-is_a: XCO:0000548 ! ramipril
-created_by: slaulede
-creation_date: 2021-08-26T11:53:55Z
-
-[Term]
-id: XCO:0000894
-name: controlled hesperidin content diet
-def: "A regimen of solid food in which the amount of hesperidin, a disaccharide derivative that consists of hesperetin substituted by a 6-O-(alpha-L-rhamnopyranosyl)-beta-D-glucopyranosyl moiety at position 7 via a glycosidic linkage, is controlled." [CHEBI:28775]
-synonym: "controlled Hesperetin 7-O-Rutinoside content diet" EXACT []
-synonym: "controlled Hesperidin 2S content diet" EXACT []
-xref: CHEBI:28775
-xref: MESH:D006569
-xref: PMID:19966469
-is_a: XCO:0000726 ! hesperidin
-is_a: XCO:0000896 ! controlled hesperetin content diet
-created_by: slaulede
-creation_date: 2021-08-27T15:37:24Z
-
-[Term]
-id: XCO:0000895
-name: controlled cyclodextrin (CD)-clathrated hesperetin content diet
-def: "A regimen of solid food in which the amount of cyclodextrin (CD)-clathrated hesperetin is controlled. CD-clathrated hesperetin is the aglycone of hesperidin. Clathration by CD enhances hesperetin solubility." [PMID:19966469]
-xref: CHEBI:28230
-xref: MESH:C013015
-xref: PMID:19966469
-is_a: XCO:0000725 ! cyclodextrin (CD)-clathrated hesperetin
-is_a: XCO:0000896 ! controlled hesperetin content diet
-created_by: slaulede
-creation_date: 2021-08-27T15:46:09Z
-
-[Term]
-id: XCO:0000896
-name: controlled hesperetin content diet
-def: "A regimen of solid food in which the amount of hesperetin is controlled. Hesperetin belongs to the flavanone class of flavonoids. Hesperetin, in the form of its glycoside Hesperidin, is the predominant flavonoid in lemons and oranges." [https://www.drugbank.ca/drugs/DB01094]
-xref: CHEBI:28230
-xref: MESH:C013015
-is_a: XCO:0000014 ! controlled content diet
-is_a: XCO:0000603 ! hesperetin
-created_by: slaulede
-creation_date: 2021-08-27T15:51:49Z
-
-[Term]
-id: XCO:0000897
-name: capsaicin
-def: "This is an alkylamide found in some peppers that acts as an agonist at TRPV1 cation channels." [MESH:D002211]
-synonym: "(6E)-N-(4-hydroxy-3-methoxybenzyl)-8-methylnon-6-enamide" EXACT []
-synonym: "8-Methyl-N-Vanillyl-6-Nonenamide" EXACT []
-synonym: "Axsain" EXACT []
-synonym: "Capsaicine" EXACT []
-xref: CHEBI:3374
-xref: PMID:27335281
-is_a: XCO:0000217 ! cation channel activator
-created_by: slaulede
-creation_date: 2021-09-16T12:42:30Z
-
-[Term]
-id: XCO:0000898
-name: minoxidil
-def: "This a pyrimidine N-oxide that is a potent direct-acting peripheral vasodilator that reduces peripheral resistance and produces a fall in blood pressure." [CHEBI:6942, MESH:D008914]
-synonym: "2,4-Pyrimidinediamine, 6-(1-piperidinyl)-, 3-oxide" EXACT []
-synonym: "6-(piperidin-1-yl)pyrimidine-2,4-diamine 3-oxide" EXACT []
-synonym: "Rogaine" EXACT []
-synonym: "U 10858" EXACT []
-xref: PMID:27335281
-is_a: XCO:0000140 ! vasodilator
-created_by: slaulede
-creation_date: 2021-09-16T13:23:00Z
 
 [Typedef]
 id: has_component
