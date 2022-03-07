@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.107
-date: 05:03:2022 20:13
+data-version: 4.105
+date: 12:02:2022 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: experimental_condition_ontology
@@ -8416,7 +8416,7 @@ creation_date: 2021-07-19T17:33:20Z
 [Term]
 id: XCO:0000876
 name: floxuridine
-def: "This is an antineoplastic antimetabolite that is metabolized to fluorouracil when administered by rapid injection. When administered by slow, continuous, intra-arterial infusion, it is converted to floxuridine monophosphate. It has been used to treat hepatic metastases of gastrointestinal adenocarcinomas and for palliation in malignant neoplasms of the liver and gastrointestinal tract." [CHEBI:60761, MESH:D005467]
+def: "An antineoplastic antimetabolite that is metabolized to fluorouracil when administered by rapid injection; when administered by slow, continuous, intra-arterial infusion, it is converted to floxuridine monophosphate. It has been used to treat hepatic metastases of gastrointestinal adenocarcinomas and for palliation in malignant neoplasms of the liver and gastrointestinal tract." [CHEBI:60761, MESH:D005467]
 synonym: "2'-deoxy-5-fluorouridine" EXACT []
 synonym: "5FDU" EXACT []
 synonym: "5-Fluorodeoxyuridine" EXACT []
@@ -9002,19 +9002,6 @@ is_a: XCO:0000875 ! isolated lung perfusion
 is_a: XCO:0000876 ! floxuridine
 created_by: slaulede
 creation_date: 2022-02-08T16:41:10Z
-
-[Term]
-id: XCO:0000925
-name: bumetanide
-def: "Bumetanide is a member of the class of benzoic acids, and a diuretic used for treatment of edema associated with congestive heart failure, hepatic and renal disease." [CHEBI:3213]
-synonym: "3-(Butylamino)-4-phenoxy-5-sulfamoylbenzoic aci" EXACT []
-synonym: "Bumex" EXACT []
-synonym: "Burinex" EXACT []
-xref: MESH:D002034
-xref: PMID:30385718
-is_a: XCO:0000122 ! diuretic
-created_by: slaulede
-creation_date: 2022-03-01T17:38:17Z
 
 [Typedef]
 id: has_component
