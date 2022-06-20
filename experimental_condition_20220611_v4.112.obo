@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.113
-date: 18:06:2022 20:13
+data-version: 4.112
+date: 11:06:2022 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: experimental_condition_ontology
@@ -738,7 +738,6 @@ id: XCO:0000100
 name: sham surgical control condition
 def: "A surgical treatment or procedure that is performed as a control and that is similar to but omits a key therapeutic element of the treatment or procedure under investigation." [Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
 is_a: XCO:0000099 ! control condition
-is_a: XCO:0000165 ! surgical manipulation
 created_by: mshimoyama
 creation_date: 2010-11-02T02:06:46Z
 
@@ -2818,10 +2817,10 @@ creation_date: 2013-06-25T16:06:11Z
 [Term]
 id: XCO:0000319
 name: artificial aortocaval fistula
-def: "A surgically created passageway between the abdominal aorta and inferior vena cava." [ISBN-13: 978-0781733908]
+def: "A surgically created passageway between the abdominal aorta and inferior vena cava." []
 synonym: "ACF" RELATED []
 xref: PMID:2142618
-is_a: XCO:0000595 ! surgical manipulation of blood vessels
+is_a: XCO:0000318 ! surgical construction
 created_by: JSmith
 creation_date: 2013-06-25T16:08:47Z
 
@@ -5172,7 +5171,6 @@ name: taxifolin
 def: "Taxifolin is a flavanonol and a non-steroidal anti-inflammatory agent." [https://en.wikipedia.org/wiki/Taxifolin]
 synonym: "catechin hydrate" EXACT []
 synonym: "CHEBI:38747" EXACT []
-synonym: "DHQ" EXACT []
 synonym: "dihydroquercetin" EXACT []
 synonym: "Distylin" EXACT []
 synonym: "Taxifoliol" EXACT []
@@ -9259,7 +9257,6 @@ id: XCO:0000945
 name: controlled taxifolin content drinking water
 def: "This is an experimental condition in which the main influencing factor is a drink made up of water and a specified amount of taxifolin in which the amount of taxifolin consumed is maintained at a specified level." [https://en.wikipedia.org/wiki/Taxifolin, https://www.merriam-webster.com/]
 synonym: "controlled catechin hydrate content drinking water" EXACT []
-synonym: "controlled DHQ content drinking water" EXACT []
 synonym: "controlled dihydroquercetin content drinking water" EXACT []
 xref: CHEBI:38747
 xref: PMID:22446865
@@ -9370,32 +9367,6 @@ is_a: XCO:0000163 ! controlled content drinking water
 is_a: XCO:0000550 ! reserpine
 created_by: slaulede
 creation_date: 2022-06-10T16:51:15Z
-
-[Term]
-id: XCO:0000954
-name: glucosamine - alendronate
-def: "This is a condition in which the main influencing factor is an aqueous mix of glucosamine and alendronic acid (the acid form of alendronate), two chemicals used to promote bone health." [PMID:22446865]
-synonym: "GA" EXACT []
-synonym: "glucosamine alendronate" EXACT []
-xref: CHEBI:50647
-xref: CHEBI:5417
-relationship: has_component XCO:0000474 ! alendronate
-relationship: has_component XCO:0000557 ! glucosamine
-created_by: slaulede
-creation_date: 2022-06-16T17:17:55Z
-
-[Term]
-id: XCO:0000955
-name: controlled glucosamine - alendronate content drinking water
-def: "This is an experimental condition in which the main influencing factor is a drink made up of water and a specified amount of glucosamine - alendronate in which the amount of glucosamine - alendronate consumed is maintained at a specified level." [https://www.merriam-webster.com/, PMID:22446865]
-synonym: "CHEBI:50647" EXACT []
-synonym: "CHEBI:5417" EXACT []
-synonym: "controlled GA content drinking water" EXACT []
-synonym: "controlled glucosamine alendronate content drinking water" EXACT []
-is_a: XCO:0000943 ! controlled glucosamine content drinking water
-is_a: XCO:0000944 ! controlled alendronate content drinking water
-created_by: slaulede
-creation_date: 2022-06-16T17:23:21Z
 
 [Typedef]
 id: has_component

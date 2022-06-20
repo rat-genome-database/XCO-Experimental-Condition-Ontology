@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.113
-date: 18:06:2022 20:13
+data-version: 4.107
+date: 05:03:2022 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: experimental_condition_ontology
@@ -738,7 +738,6 @@ id: XCO:0000100
 name: sham surgical control condition
 def: "A surgical treatment or procedure that is performed as a control and that is similar to but omits a key therapeutic element of the treatment or procedure under investigation." [Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
 is_a: XCO:0000099 ! control condition
-is_a: XCO:0000165 ! surgical manipulation
 created_by: mshimoyama
 creation_date: 2010-11-02T02:06:46Z
 
@@ -933,11 +932,10 @@ creation_date: 2012-02-16T01:51:41Z
 [Term]
 id: XCO:0000123
 name: sulfonamide
-def: "A compound containing a sulfonamide functional group. A sulfonamide functional group contains sulfonyl connected to an amine group and has the general structure R-S(=O)2-NH2. Sulfonamide also refers to several classes of drugs which include antimicrobial 'sulfa drugs', anticonvulsants and the sulfonylureas and thiazide diuretics." [http://en.eikipedia.org/wiki/ "Wikipedia"]
+def: "A compound containing a sulfonamide functional group.  A sulfonamide functional group contains  sulfonyl   connected to an amine group and has the general structure R-S(=O)2-NH2.  Sulfonamide also refers to several classes of drugs which include antimicrobial 'sulfa drugs', anticonvulsants and the sulfonylureas  and thiazide diuretics." [http://en.eikipedia.org/wiki/ "Wikipedia"]
 synonym: "CHEBI:35358" RELATED []
 xref: CHEBI:35358
 is_a: XCO:0000342 ! chemical with specified structure
-is_a: XCO:0000950 ! anticonvulsant
 created_by: JSmith
 creation_date: 2012-02-16T01:52:39Z
 
@@ -1002,9 +1000,9 @@ creation_date: 2012-02-16T03:23:57Z
 id: XCO:0000130
 name: ketamine
 def: "An analgesic and anesthetic which functions as a noncompetitive NMDA receptor (NMDAR) antagonist, binding to the allosteric site of the NMDA receptor and effectively inhibiting its channel." [http://en.wikipedia.org/wiki/Ketamine "Wikipedia"]
+synonym: "PubChem_Compound_CID:3821" RELATED []
 xref: CHEBI:6121
-xref: CID:3821
-is_a: XCO:0000947 ! NMDA receptor antagonist
+is_a: XCO:0000106 ! anesthetic/analgesic
 created_by: JSmith
 creation_date: 2012-03-15T07:33:06Z
 
@@ -2160,7 +2158,6 @@ name: tolbutamide
 def: "A first generation potassium channel blocker and sulfonylurea oral hypoglycemic drug which stimulates the secretion of insulin by the pancreas." [http://en.wikipedia.org/wiki/Tolbutamide "Wikipedia"]
 is_a: XCO:0000225 ! potassium channel inhibitor
 is_a: XCO:0000251 ! secretagogue
-is_a: XCO:0000407 ! hypoglycemic agent
 created_by: JSmith
 creation_date: 2012-11-30T15:56:41Z
 
@@ -2818,10 +2815,10 @@ creation_date: 2013-06-25T16:06:11Z
 [Term]
 id: XCO:0000319
 name: artificial aortocaval fistula
-def: "A surgically created passageway between the abdominal aorta and inferior vena cava." [ISBN-13: 978-0781733908]
+def: "A surgically created passageway between the abdominal aorta and inferior vena cava." []
 synonym: "ACF" RELATED []
 xref: PMID:2142618
-is_a: XCO:0000595 ! surgical manipulation of blood vessels
+is_a: XCO:0000318 ! surgical construction
 created_by: JSmith
 creation_date: 2013-06-25T16:08:47Z
 
@@ -4346,10 +4343,6 @@ creation_date: 2015-03-06T18:20:06Z
 id: XCO:0000474
 name: alendronate
 def: "Condition in which the main influencing factor is alendronate (the anionic form of alendronic acid), a bisphosphonate drug used for osteoporosis and several other bone diseases, because it inhibits osteoclast-mediated bone-resorption." [http://en.wikipedia.org/wiki/Alendronic_acid "Wikipedia"]
-synonym: "alendronic acid" RELATED []
-synonym: "Binosto" EXACT []
-synonym: "Fosamax" EXACT []
-synonym: "sodium alendronate" EXACT []
 xref: CHEBI:2567
 xref: CHEBI:50647
 is_a: XCO:0000120 ! inhibitor
@@ -5093,12 +5086,7 @@ creation_date: 2018-05-15T16:57:52Z
 id: XCO:0000550
 name: reserpine
 def: "An experimental condition in which the main influencing factor is reserpine, an indole alkaloid which irreversibly blocks the vesicular monoamine transporters (VMATs), SLC18A1 and SLC18A2. Reserpine has been used as both an antihypertensive drug and an antipsychotic drug." [https://en.wikipedia.org/wiki/Reserpine "Wikipedia", https://www.drugbank.ca/drugs/DB00206 "DrugBank", PMID:7905859]
-synonym: "methyl (3beta,16beta,17alpha,18beta,20alpha)-11,17-dimethoxy-18-[(3,4,5-trimethoxybenzoyl)oxy]yohimban-16-carboxylate" EXACT []
-synonym: "Serpasil" EXACT []
-xref: CHEBI:28487
-xref: MESH:D012110
 is_a: XCO:0000120 ! inhibitor
-is_a: XCO:0000863 ! antihypertensive agent
 created_by: jrsmith
 creation_date: 2018-05-15T17:19:06Z
 
@@ -5169,14 +5157,12 @@ creation_date: 2018-11-16T10:55:31Z
 [Term]
 id: XCO:0000558
 name: taxifolin
-def: "Taxifolin is a flavanonol and a non-steroidal anti-inflammatory agent." [https://en.wikipedia.org/wiki/Taxifolin]
+def: "Taxifolin is an intermediate between flavonols and flavanolignins beloning to a class of anti-inflammatory agents that are non-steroidal in nature." []
 synonym: "catechin hydrate" EXACT []
 synonym: "CHEBI:38747" EXACT []
-synonym: "DHQ" EXACT []
 synonym: "dihydroquercetin" EXACT []
 synonym: "Distylin" EXACT []
 synonym: "Taxifoliol" EXACT []
-is_a: XCO:0000470 ! flavonoid
 is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
 created_by: sjwang
 creation_date: 2018-11-16T11:03:16Z
@@ -5441,15 +5427,9 @@ creation_date: 2018-12-06T16:45:37Z
 
 [Term]
 id: XCO:0000588
-name: perindopril
+name: Perindopril
 def: "Perindopril is a nonsulfhydryl prodrug that belongs to the angiotensin-converting enzyme (ACE) inhibitor class of medications. It is rapidly metabolized in the liver to perindoprilat, a potent, competitive inhibitor of ACE." [https://www.drugbank.ca/drugs/DB00790 "Drugbank"]
-synonym: "Aceon" EXACT []
 synonym: "CHEBI:8024" EXACT []
-synonym: "Coversum" EXACT []
-synonym: "Coversyl" EXACT []
-synonym: "ethyl N-{(2S)-1-[(2S,3aS,7aS)-2-carboxyoctahydro-1H-indol-1-yl]-1-oxopropan-2-yl}-L-norvalinate" EXACT []
-xref: MESH:D020913
-xref: PMID:12376396
 is_a: XCO:0000524 ! angiotensin converting enzyme inhibitor
 created_by: sjwang
 creation_date: 2018-12-07T15:47:47Z
@@ -5790,7 +5770,6 @@ def: "A short-acting barbiturate derivative invented in the 1950s. It has sedati
 synonym: "Brevinarcon" RELATED []
 synonym: "Inactin" RELATED []
 is_a: XCO:0000106 ! anesthetic/analgesic
-is_a: XCO:0000950 ! anticonvulsant
 created_by: sjwang
 creation_date: 2019-07-17T10:08:35Z
 
@@ -5863,14 +5842,9 @@ creation_date: 2019-07-30T14:53:02Z
 
 [Term]
 id: XCO:0000632
-name: saxagliptin
-def: "A monocarboxylic acid amide obtained by formal condensation of the carboxy group of (2S)-amino(3-hydroxyadamantan-1-yl)acetic acid with the amino group of (1S,3S,5S)-2-azabicyclo[3.1.0]hexane-3-carbonitrile. Used in its monohydrate form for the treatment of Type II diabetes. It belongs to the biological class EC 3.4.14.5 (dipeptidyl-peptidase IV) inhibitor ." [CHEBI:71272]
-synonym: "3-hydroxyadamantylglycine-4,5-methanoprolinenitrile hydrate" EXACT []
-synonym: "BMS 477118" EXACT []
-synonym: "Onglyza" EXACT []
-xref: CHEBI:71272
-xref: MESH:C502994
-is_a: XCO:0000407 ! hypoglycemic agent
+name: Saxagliptin
+def: "A monocarboxylic acid amide obtained by formal condensation of the carboxy group of (2S)-amino(3-hydroxyadamantan-1-yl)acetic acid with the amino group of (1S,3S,5S)-2-azabicyclo[3.1.0]hexane-3-carbonitrile. Used in its monohydrate form for the treatment of Type II diabetes. It belongs to the biological class EC 3.4.14.5 (dipeptidyl-peptidase IV) inhibitor ." []
+synonym: "CHEBI:71272" EXACT []
 is_a: XCO:0000523 ! enzyme inhibitor
 created_by: sjwang
 creation_date: 2019-07-30T14:58:42Z
@@ -7170,7 +7144,6 @@ synonym: "Solutol HS 15" EXACT []
 xref: CHEBI:9194
 is_a: XCO:0000511 ! ester
 is_a: XCO:0000757 ! surfactant
-relationship: has_component XCO:0000926 ! polyethylene glycol
 created_by: slaulede
 creation_date: 2020-09-25T14:43:25Z
 
@@ -9042,360 +9015,6 @@ xref: PMID:30385718
 is_a: XCO:0000122 ! diuretic
 created_by: slaulede
 creation_date: 2022-03-01T17:38:17Z
-
-[Term]
-id: XCO:0000926
-name: polyethylene glycol
-def: "This is a is a polyether compound, composed of repeating ethyleneoxy units, derived from petroleum with many applications, including medical uses like in the composition of some laxatives." [CHEBI:46793, https://en.wikipedia.org/wiki/Polyethylene_glycol]
-synonym: "PEG" EXACT []
-synonym: "PEO" EXACT []
-synonym: "POE" EXACT []
-synonym: "poly(ethylene oxide)" EXACT []
-synonym: "poly(oxyethylene)" EXACT []
-synonym: "polyethylene oxide" EXACT []
-synonym: "polyoxyethylene" EXACT []
-xref: PMID:32084371
-is_a: XCO:0000927 ! hydroxypolyether
-created_by: slaulede
-creation_date: 2022-03-07T11:51:41Z
-
-[Term]
-id: XCO:0000927
-name: hydroxypolyether
-def: "A hydroxyether compound containing more than one ether group." [CHEBI:46789]
-xref: PMID:32084371
-is_a: XCO:0000342 ! chemical with specified structure
-created_by: slaulede
-creation_date: 2022-03-07T11:58:38Z
-
-[Term]
-id: XCO:0000928
-name: ColonLYTELY
-def: "This is a colonoscopy prep composed of 5.9% Macrogol 3350 (polyethylene glycol) and electrolytes." [https://www.colonprep.com.au]
-synonym: "Macrogol 3350" NARROW []
-relationship: has_component XCO:0000926 ! polyethylene glycol
-created_by: slaulede
-creation_date: 2022-03-07T12:43:59Z
-
-[Term]
-id: XCO:0000929
-name: controlled ColonLYTELY content drinking water
-def: "Thia is a drink made up of water and a specified amount of ColonLYTELY (5.9% Macrogol 3350 solution) in which the amount of ColonLYTELY consumed is maintained at a specified level." [https://www.colonprep.com.au, PMID:32084371]
-synonym: "controlled Macrogol 3350 content drinking water" NARROW []
-is_a: XCO:0000163 ! controlled content drinking water
-is_a: XCO:0000928 ! ColonLYTELY
-created_by: slaulede
-creation_date: 2022-03-07T12:52:46Z
-
-[Term]
-id: XCO:0000930
-name: renal denervation
-def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and the kidneys. It is followed by painting of the renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
-synonym: "denervation of kidneys" EXACT []
-synonym: "RDN" EXACT []
-synonym: "surgical denervation of kidneys" EXACT []
-xref: PMID:15894899
-is_a: XCO:0000373 ! surgical denervation
-created_by: slaulede
-creation_date: 2022-04-26T15:38:47Z
-
-[Term]
-id: XCO:0000931
-name: celiac artery and superior mesenteric artery coarctation
-def: "This is a procedure involving surgical narrowing of the lumen of the celiac artery and superior mesenteric artery." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
-xref: PMID:15894899
-is_a: XCO:0000596 ! blood vessel coarctation
-created_by: slaulede
-creation_date: 2022-04-26T16:02:24Z
-
-[Term]
-id: XCO:0000932
-name: vasopressin
-def: "This is a family of cyclic nonapeptide hormones found in most mammals. Synthesized in the hypothalamus and stored in the post-pituitary, vasopressins play a key role in homeostasis, particularly in regulating the body's water content. Vasopressin acts as a vasoconstrictor to increase blood pressure, blood volume, and water reabsorption by the renal collecting ducts." [CHEBI:9937, MESH:D014667]
-synonym: "ADH" EXACT []
-synonym: "antidiuretic hormone" EXACT []
-synonym: "AVP" EXACT []
-is_a: XCO:0000228 ! peptide hormone
-created_by: slaulede
-creation_date: 2022-04-26T16:45:16Z
-
-[Term]
-id: XCO:0000933
-name: argipressin
-def: "This molecule is the predominant form of mammalian vasopressin (antidiuretic hormone). It is a nonapeptide containing an arginine at residue 8 and two disulfide-linked cysteines at residues of 1 and 6." [CHEBI:34543, MESH:D001127]
-synonym: "Arg8-vasopressin" EXACT []
-synonym: "arginine vasopressin" EXACT []
-synonym: "arg-vasopressin" EXACT []
-is_a: XCO:0000932 ! vasopressin
-created_by: slaulede
-creation_date: 2022-04-26T16:50:12Z
-
-[Term]
-id: XCO:0000934
-name: bilateral renal denervation
-def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and both kidneys. It is followed by painting of the renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
-synonym: "denervation of both kidneys" EXACT []
-xref: PMID:15894899
-is_a: XCO:0000930 ! renal denervation
-created_by: slaulede
-creation_date: 2022-04-28T16:36:07Z
-
-[Term]
-id: XCO:0000935
-name: unilateral renal denervation
-def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and only one kidney, left or right. It is followed by painting of the renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
-synonym: "denervation of a single kidney" EXACT []
-xref: PMID:15894899
-is_a: XCO:0000930 ! renal denervation
-created_by: slaulede
-creation_date: 2022-04-28T16:39:29Z
-
-[Term]
-id: XCO:0000936
-name: left kidney denervation
-def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and the kidney on the left side of the body. It is followed by painting of the left side renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
-synonym: "left side renal denervation" EXACT []
-xref: PMID:15894899
-is_a: XCO:0000935 ! unilateral renal denervation
-created_by: slaulede
-creation_date: 2022-04-28T16:47:06Z
-
-[Term]
-id: XCO:0000937
-name: right kidney denervation
-def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and the kidney on the right side of the body. It is followed by painting of the right side renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
-synonym: "right side renal denervation" EXACT []
-xref: PMID:15894899
-is_a: XCO:0000935 ! unilateral renal denervation
-created_by: slaulede
-creation_date: 2022-04-28T16:51:47Z
-
-[Term]
-id: XCO:0000938
-name: bovine serum albumin
-def: "This is a serum albumin protein derived from cow blood. It is used as an enzyme-stabilizing agent, a blocking reagent, etc. for laboratory experiments." [https://en.wikipedia.org/wiki/Bovine_serum_albumin, ISBN-13: 978-0781733908]
-synonym: "BSA" EXACT []
-synonym: "Fraction V" EXACT []
-synonym: "https://en.wikipedia.org/wiki/Bovine_serum_albumin" EXACT []
-xref: PMID:15894899
-is_a: XCO:0000193 ! peptide/protein
-created_by: slaulede
-creation_date: 2022-04-28T17:42:46Z
-
-[Term]
-id: XCO:0000939
-name: JTT-608
-def: "This is a hypoglycemic drug which enhances glucose-stimulated insulin secretion." [PMID:10323602]
-synonym: "4-(4beta-Methylcyclohexane-1-yl)-4-oxobutanoic acid" EXACT []
-synonym: "4-(4-Methylcyclohexyl)-4-oxobutanoic acid" EXACT []
-synonym: "Cyclohexanebutanoic acid, 4-methyl-gamma-oxo-, trans-" EXACT []
-synonym: "trans&#8201;-&#8201;4&#8201;-&#8201;(4&#8201;-&#8201;methylcyclohexyl)&#8201;-&#8201;4&#8201;-&#8201;oxobutyric acid" EXACT []
-is_a: XCO:0000251 ! secretagogue
-is_a: XCO:0000407 ! hypoglycemic agent
-created_by: slaulede
-creation_date: 2022-05-02T16:49:07Z
-
-[Term]
-id: XCO:0000940
-name: controlled ex vivo pancreas condition
-def: "This is an experimental condition in which the internal or external environment of a pancreas, the combined endocrine/exocrine gland situated transversely behind the stomach, between the spleen and the duodenum, is experimentally manipulated or regulated, for example through perfusion, increased or decreased blood flow, etc. after removal from the body." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
-synonym: "controlled in vitro pancreas condition" EXACT []
-xref: PMID:10323602
-is_a: XCO:0000464 ! controlled ex vivo organ condition
-created_by: slaulede
-creation_date: 2022-05-05T16:23:16Z
-
-[Term]
-id: XCO:0000941
-name: controlled ex vivo pancreas perfusion
-def: "This is an experimental condition consisting of perfusion of the isolated pancreas with some physiological buffer (consisting of controlled solute composition and specific flow rate) in through the celiac artery and out through a portal vein." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
-synonym: "controlled in vitro pancreas perfusion" EXACT []
-xref: PMID:10323602
-xref: PMID:1097860
-is_a: XCO:0000940 ! controlled ex vivo pancreas condition
-created_by: slaulede
-creation_date: 2022-05-05T16:44:35Z
-
-[Term]
-id: XCO:0000942
-name: controlled saxagliptin content diet
-def: "A solid diet in which the amount of saxagliptin, an oral antidiabetic drug in the dipeptidyl peptidase-4 (DPP-4) inhibitor class, is maintained at a specified level." [https://en.wikipedia.org/wiki/Saxagliptin, https://www.merriam-webster.com/]
-synonym: "controlled 3-hydroxyadamantylglycine-4,5-methanoprolinenitrile hydrate content diet" EXACT []
-synonym: "controlled Onglyza content diet" EXACT []
-xref: CHEBI:71272
-xref: MESH:C502994
-is_a: XCO:0000014 ! controlled content diet
-is_a: XCO:0000632 ! saxagliptin
-created_by: slaulede
-creation_date: 2022-05-27T17:31:25Z
-
-[Term]
-id: XCO:0000943
-name: controlled glucosamine content drinking water
-def: "This is an experimental condition in which the main influencing factor is a drink made up of water and a specified amount of glucosamine in which the amount of glucosamine consumed is maintained at a specified level." [https://www.merriam-webster.com/]
-synonym: "controlled 2-amino-2-deoxyglucose content drinking water" EXACT []
-xref: CHEBI:5417
-xref: PMID:22446865
-is_a: XCO:0000163 ! controlled content drinking water
-is_a: XCO:0000557 ! glucosamine
-created_by: slaulede
-creation_date: 2022-06-03T16:16:44Z
-
-[Term]
-id: XCO:0000944
-name: controlled alendronate content drinking water
-def: "This is an experimental condition in which the main influencing factor is a drink made up of water and a specified amount of alendronate in which the amount of alendronate consumed is maintained at a specified level." [http://en.wikipedia.org/wiki/Alendronic_acid, https://www.merriam-webster.com/]
-synonym: "controlled alendronic acid content drinking water" RELATED []
-synonym: "controlled Fosamax content drinking water" EXACT []
-synonym: "controlled sodium alendronate content drinking water" EXACT []
-xref: PMID:22446865
-is_a: XCO:0000163 ! controlled content drinking water
-is_a: XCO:0000474 ! alendronate
-created_by: slaulede
-creation_date: 2022-06-03T16:38:25Z
-
-[Term]
-id: XCO:0000945
-name: controlled taxifolin content drinking water
-def: "This is an experimental condition in which the main influencing factor is a drink made up of water and a specified amount of taxifolin in which the amount of taxifolin consumed is maintained at a specified level." [https://en.wikipedia.org/wiki/Taxifolin, https://www.merriam-webster.com/]
-synonym: "controlled catechin hydrate content drinking water" EXACT []
-synonym: "controlled DHQ content drinking water" EXACT []
-synonym: "controlled dihydroquercetin content drinking water" EXACT []
-xref: CHEBI:38747
-xref: PMID:22446865
-is_a: XCO:0000163 ! controlled content drinking water
-is_a: XCO:0000558 ! taxifolin
-created_by: slaulede
-creation_date: 2022-06-03T16:45:16Z
-
-[Term]
-id: XCO:0000946
-name: midafotel
-def: "This is a member of the class of piperazines that is piperazine substituted by a carboxy group at position 2R and a (1E)-1-phosphonoprop-1-en-3-yl group at position 4. It is an antagonist of N-methyl-D-aspartate receptors (NMDARs) and originally designed as a potential therapy for excitotoxicity, epilepsy or neuropathic pain." [CHEBI:180900, https://en.wikipedia.org/wiki/Midafotel]
-synonym: "(2R4-[(2E)-3-phosphonoprop-2-en-1-yl]piperazine-2-carboxylic acid" EXACT []
-synonym: "CPPene" EXACT []
-synonym: "D-Cpp-ene" EXACT []
-synonym: "SDZ EAA 494" EXACT []
-xref: CID:6435801
-xref: PMID:32507787
-is_a: XCO:0000947 ! NMDA receptor antagonist
-created_by: slaulede
-creation_date: 2022-06-09T14:54:14Z
-
-[Term]
-id: XCO:0000947
-name: NMDA receptor antagonist
-def: "This is a condition in which the main influencing factor is a drug or agent that inhibits the action of N-methyl-D-aspartate (NMDA) receptors. They tend to induce a state known as dissociative anesthesia, marked by catalepsy, amnesia, and analgesia, while side effects can include hallucinations, nightmares, and confusion. Due to their psychotomimetic effects, many NMDA receptor antagonists are used as recreational drugs." [CHEBI:60643]
-synonym: "NMDAR antagonist" EXACT []
-synonym: "N-methyl-D-aspartate receptor antagonist" EXACT []
-xref: PMID:32507787
-is_a: XCO:0000106 ! anesthetic/analgesic
-is_a: XCO:0000160 ! receptor antagonist
-created_by: slaulede
-creation_date: 2022-06-09T15:08:40Z
-
-[Term]
-id: XCO:0000948
-name: Ro 25-6981
-def: "This is a condition in which the main influencing factor is a member of the class of piperidines that is 4-benzylpiperidine substituted by a 3-hydroxy-3-(4-hydroxyphenyl)-2-methylpropyl group at position 1 (the 1R,2S-stereoisomer). It is a potent antagonist of the GluN2B subunit of the N-methyl-D-aspartate (NMDA) receptor." []
-synonym: "4-[(1R,2S)-3-(4-benzylpiperidin-1-yl)-1-hydroxy-2-methylpropyl]phenol" EXACT []
-xref: MESH:C109643
-xref: PMID:32507787
-is_a: XCO:0000947 ! NMDA receptor antagonist
-created_by: slaulede
-creation_date: 2022-06-09T15:23:24Z
-
-[Term]
-id: XCO:0000949
-name: PPDA
-def: "This is a condition in which the main influencing factor is PPDA, a subtype-selective NMDA receptor antagonist that preferentially binds to GluN2C/GluN2D (NR2C/NR2D) containing receptors." [CHEBI:189866]
-synonym: "(2S*,3R*)-1-(Phenanthren-2-carbonyl)piperazine-2,3-dicarboxylic acid" EXACT []
-synonym: "cis-piperidine dicarboxylic acid" EXACT []
-synonym: "Cis-PPDA" EXACT []
-xref: CAS:684283-16-7
-xref: PMID:32507787
-is_a: XCO:0000947 ! NMDA receptor antagonist
-created_by: slaulede
-creation_date: 2022-06-09T15:28:58Z
-
-[Term]
-id: XCO:0000950
-name: anticonvulsant
-def: "This is a condition in which the main influencing factor is a drug or agent used to prevent seizures or reduce their severity. Anticonvulsants suppress the excessive rapid firing of neurons during seizures and prevent the spread of the seizure within the brain." [CHEBI:35623, https://en.wikipedia.org/wiki/Anticonvulsant]
-synonym: "antiepileptic" EXACT []
-synonym: "antiepileptic drug" EXACT []
-synonym: "antiseizure drug" EXACT []
-xref: MESH:D000927
-xref: PMID:32507787
-is_a: XCO:0000341 ! chemical with specified function
-created_by: slaulede
-creation_date: 2022-06-09T15:44:11Z
-
-[Term]
-id: XCO:0000951
-name: 2,3-Dioxo-6-nitro-7-sulfamoylbenzo(f)quinoxaline
-def: "This is a condition in which the main influencing factor is an AMPA and KA receptor antagonist and a neuroprotectant for cerebral ischemia." [MESH:C062865, PMID:32507787]
-synonym: "6-nitro-7-sulfamoylbenzo(f)quinoxaline-2,3-dione" EXACT []
-synonym: "NBQX" EXACT []
-xref: CAS:118876-58-7
-xref: CHEBI:31073
-is_a: XCO:0000160 ! receptor antagonist
-is_a: XCO:0000950 ! anticonvulsant
-created_by: slaulede
-creation_date: 2022-06-09T15:57:30Z
-
-[Term]
-id: XCO:0000952
-name: controlled perindopril content drinking water
-def: "This is a condition in which the main influencing factor is a drink made up of water and a specified amount of perindopril consumed by an organism as part of an experiment. Perindopril is a nonsulfhydryl prodrug that belongs to the angiotensin-converting enzyme (ACE) inhibitor class of medications. It is rapidly metabolized in the liver to perindoprilat, a potent, competitive inhibitor of ACE." [https://www.drugbank.ca/drugs/DB00790, https://www.merriam-webster.com/]
-synonym: "controlled Aceon content drinking water" EXACT []
-synonym: "controlled Coversum content drinking water" EXACT []
-synonym: "controlled Coversyl content drinking water" EXACT []
-xref: CHEBI:8024
-xref: MESH:D020913
-xref: PMID:12376396
-is_a: XCO:0000163 ! controlled content drinking water
-relationship: has_component XCO:0000588 ! perindopril
-created_by: slaulede
-creation_date: 2022-06-10T15:10:29Z
-
-[Term]
-id: XCO:0000953
-name: controlled reserpine content drinking water
-def: "This is an experimental condition in which the main influencing factor is a drink made up of water and a specified amount of reserpine consumed by an organism as part of an experiment. Reserpine is an indole alkaloid which irreversibly blocks the vesicular monoamine transporters (VMATs), SLC18A1 and SLC18A2, and has been used as both an antihypertensive drug and an antipsychotic drug." [https://en.wikipedia.org/wiki/Reserpine, https://www.drugbank.ca/drugs/DB00206]
-synonym: "controlled Serpasil content drinking water" EXACT []
-xref: CHEBI:28487
-xref: PMID:21107278
-is_a: XCO:0000163 ! controlled content drinking water
-is_a: XCO:0000550 ! reserpine
-created_by: slaulede
-creation_date: 2022-06-10T16:51:15Z
-
-[Term]
-id: XCO:0000954
-name: glucosamine - alendronate
-def: "This is a condition in which the main influencing factor is an aqueous mix of glucosamine and alendronic acid (the acid form of alendronate), two chemicals used to promote bone health." [PMID:22446865]
-synonym: "GA" EXACT []
-synonym: "glucosamine alendronate" EXACT []
-xref: CHEBI:50647
-xref: CHEBI:5417
-relationship: has_component XCO:0000474 ! alendronate
-relationship: has_component XCO:0000557 ! glucosamine
-created_by: slaulede
-creation_date: 2022-06-16T17:17:55Z
-
-[Term]
-id: XCO:0000955
-name: controlled glucosamine - alendronate content drinking water
-def: "This is an experimental condition in which the main influencing factor is a drink made up of water and a specified amount of glucosamine - alendronate in which the amount of glucosamine - alendronate consumed is maintained at a specified level." [https://www.merriam-webster.com/, PMID:22446865]
-synonym: "CHEBI:50647" EXACT []
-synonym: "CHEBI:5417" EXACT []
-synonym: "controlled GA content drinking water" EXACT []
-synonym: "controlled glucosamine alendronate content drinking water" EXACT []
-is_a: XCO:0000943 ! controlled glucosamine content drinking water
-is_a: XCO:0000944 ! controlled alendronate content drinking water
-created_by: slaulede
-creation_date: 2022-06-16T17:23:21Z
 
 [Typedef]
 id: has_component
