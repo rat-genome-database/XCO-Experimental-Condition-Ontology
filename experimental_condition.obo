@@ -660,7 +660,7 @@ id: XCO:0000092
 name: 17 beta-estradiol
 def: "The predominant circulating form of estrogen, the female sex hormone." [http://en.wikipedia.org/wiki/Estradiol "Wikipedia"]
 synonym: "beta-estradiol" RELATED []
-synonym: "CHEBI:16469" RELATED []
+xref: CHEBI:16469
 synonym: "CO47085" RELATED []
 synonym: "E2" RELATED []
 synonym: "estradiol" RELATED []
@@ -911,11 +911,11 @@ creation_date: 2012-02-16T01:09:21Z
 id: XCO:0000121
 name: NG-nitroarginine methyl ester
 def: "A basic amino acid, commonly known as L-NAME, used as a non-selective inhibitor of nitric oxide synthase." [MESH:D019331]
-synonym: "CAS 51298-62-5" RELATED []
-synonym: "chembl.compound:CHEMBL7890" RELATED []
+xref: CAS:51298-62-5
+xref: chembl.compound:CHEMBL7890
 synonym: "L-NAME" EXACT []
 synonym: "MESH:D019331" RELATED []
-synonym: "pubchem.compound:39836" RELATED []
+xref: pubchem.compound:39836
 is_a: XCO:0000119 ! amino acid
 is_a: XCO:0000523 ! enzyme inhibitor
 created_by: JSmith
@@ -933,7 +933,7 @@ creation_date: 2012-02-16T01:51:41Z
 id: XCO:0000123
 name: sulfonamide
 def: "A compound containing a sulfonamide functional group.  A sulfonamide functional group contains  sulfonyl   connected to an amine group and has the general structure R-S(=O)2-NH2.  Sulfonamide also refers to several classes of drugs which include antimicrobial 'sulfa drugs', anticonvulsants and the sulfonylureas  and thiazide diuretics." [http://en.eikipedia.org/wiki/ "Wikipedia"]
-synonym: "CHEBI:35358" RELATED []
+xref: CHEBI:35358
 xref: CHEBI:35358
 is_a: XCO:0000342 ! chemical with specified structure
 created_by: JSmith
@@ -945,7 +945,7 @@ name: furosemide
 def: "A diuretic drug which inhibits Nkcc2, one of the Na-K symporters and reduces the reabsorption of sodium chloride.  Furosemide is used experimentally for sodium depletion." [http://en.eikipedia.org/wiki/ "Wikipedia"]
 synonym: "Frusemide" RELATED []
 synonym: "Lasix" RELATED []
-synonym: "pubchem.compound:3440" RELATED []
+xref: pubchem.compound:3440
 xref: CHEBI:47426
 is_a: XCO:0000122 ! diuretic
 is_a: XCO:0000123 ! sulfonamide
@@ -1000,7 +1000,7 @@ creation_date: 2012-02-16T03:23:57Z
 id: XCO:0000130
 name: ketamine
 def: "An analgesic and anesthetic which functions as a noncompetitive NMDA receptor (NMDAR) antagonist, binding to the allosteric site of the NMDA receptor and effectively inhibiting its channel." [http://en.wikipedia.org/wiki/Ketamine "Wikipedia"]
-synonym: "pubchem.compound:3821" RELATED []
+xref: pubchem.compound:3821
 xref: CHEBI:6121
 is_a: XCO:0000106 ! anesthetic/analgesic
 created_by: JSmith
@@ -1010,7 +1010,7 @@ creation_date: 2012-03-15T07:33:06Z
 id: XCO:0000131
 name: xylazine
 def: "An alpha2-adrenergic receptor agonist used for sedation, anesthesia, muscle relaxation, and analgesia in animals." [http://en.wikipedia.org/wiki/Xylazine "Wikipedia"]
-synonym: "pubchem.compound:5707" RELATED []
+xref: pubchem.compound:5707
 xref: CHEBI:165540
 xref: chembl.compound:CHEMBL297362
 is_a: XCO:0000106 ! anesthetic/analgesic
@@ -1021,7 +1021,7 @@ creation_date: 2012-03-15T07:34:39Z
 id: XCO:0000132
 name: acepromazine
 def: "A phenothiazine-derivative antipsychotic drug used in animals as a sedative and antiemetic and which can also cause peripheral vasodilation." [http://en.wikipedia.org/wiki/Acepromazine "Wikipedia"]
-synonym: "pubchem.compound:6077" RELATED []
+xref: pubchem.compound:6077
 xref: CHEBI:44932
 is_a: XCO:0000106 ! anesthetic/analgesic
 created_by: JSmith
@@ -1065,7 +1065,7 @@ name: FAPGG
 def: "An oligopeptide substrate for continuous spectrophotometric assay of angiotensin converting enzyme (ACE) which hydrolyzes FAPGG to furylacryloylphenylalanine (FAP) and glycylglycine with a resulting decrease in absorbance at 340 nm." [http://www.sigmaaldrich.com/catalog/product/sigma/f7131?lang=en&region=US "Website", http://www.trinitybiotech.com/Product%20Documents/305-10-29%20EN.pdf "Website"]
 synonym: "3-(2-FurylAcryloyl)-L-PHE-GLY-GLY" EXACT []
 synonym: "FurylAcrylolPhenylalanylGlycylGlycine" EXACT []
-synonym: "pubchem.compound:6438387" RELATED []
+xref: pubchem.compound:6438387
 xref: CAS:64566-61-6
 is_a: XCO:0000136 ! enzyme substrate
 created_by: JSmith
@@ -1076,7 +1076,7 @@ id: XCO:0000138
 name: methylene blue
 def: "Methylene blue is monoamine oxidase inhibitor and nitric oxide synthase inhibitor, as well as a cationic dye used as a redox indicator." [RGD:SL]
 synonym: "methylthioninium chloride" EXACT []
-synonym: "pubchem.compound:6099" RELATED []
+xref: pubchem.compound:6099
 xref: CHEBI:6872
 is_a: XCO:0000199 ! oxidation-reduction indicator
 is_a: XCO:0000523 ! enzyme inhibitor
@@ -1113,8 +1113,8 @@ id: XCO:0000142
 name: sodium nitroprusside
 def: "The red-coloured inorganic salt with the formula Na2[Fe(CN)5NO]·2H2O used as a potent vasodilator." [http://en.wikipedia.org/wiki/Sodium_nitroprusside "Wikipedia"]
 synonym: "disodium pentacyanonitrosylferrate(2-) dehydrate" EXACT []
-synonym: "pubchem.compound:11953891" RELATED []
-synonym: "pubchem.compound:11963579" RELATED []
+xref: pubchem.compound:11953891
+xref: pubchem.compound:11963579
 synonym: "sodium nitroferricyanide" EXACT []
 xref: CHEBI:29321
 is_a: XCO:0000140 ! vasodilator
@@ -1125,7 +1125,7 @@ creation_date: 2012-03-15T07:58:24Z
 id: XCO:0000143
 name: acetylcholine
 def: "An organic, polyatomic cation, formed as an ester of acetic acid and choline, that acts as a neurotransmitter in both the peripheral nervous system (PNS) and central nervous system (CNS) in many organisms." [http://en.wikipedia.org/wiki/Acetylcholine "Wikipedia"]
-synonym: "pubchem.compound:187" RELATED []
+xref: pubchem.compound:187
 xref: CHEBI:15355
 is_a: XCO:0000140 ! vasodilator
 is_a: XCO:0000144 ! neurotransmitter
@@ -1143,7 +1143,7 @@ creation_date: 2012-03-15T08:01:41Z
 id: XCO:0000145
 name: phenylephrine
 def: "A selective alpha1-adrenergic receptor agonist used primarily as a decongestant, as an agent to dilate the pupil, and as a vasoconstrictor." [http://en.wikipedia.org/wiki/Phenylephrine "Wikipedia"]
-synonym: "pubchem.compound:6041" RELATED []
+xref: pubchem.compound:6041
 xref: CHEBI:8093
 is_a: XCO:0000141 ! vasoconstrictor
 is_a: XCO:0000673 ! alpha-adrenergic agonist
@@ -1519,7 +1519,7 @@ name: cytisine
 def: "A toxic selective nicotinic cholinergic alkaloid from the seed of Laburnum anagyroides and other Leguminosae. Used in pharmacological studies of nicotinic cholinergic receptors in the brain." [Mondofacto:Mondofacto_Online_Medical_Dictionary]
 synonym: "baptitoxine" RELATED []
 synonym: "sophorine" RELATED []
-xref: CASRN:485-35-8
+xref: CAS:485-35-8
 is_a: XCO:0000693 ! cholinergic agonist
 created_by: JSmith
 creation_date: 2012-07-30T08:40:00Z
@@ -1530,7 +1530,7 @@ name: trimethaphan camsylate
 def: "A drug that counteracts cholinergic transmission at the ganglion type of nicotinic receptors of the autonomic ganglia by acting as a non-depolarizing competitive antagonist at the nicotinic acetylcholine receptor." [http://en.wikipedia.org/wiki/Trimethaphan_camsylate "Wikipedia"]
 synonym: "Arfonad" RELATED []
 synonym: "trimetaphan camsilate" EXACT []
-xref: CASRN:7187-66-8
+xref: CAS:7187-66-8
 xref: CHEBI:9729
 is_a: XCO:0000630 ! cholinergic antagonist
 created_by: JSmith
@@ -1541,7 +1541,7 @@ id: XCO:0000188
 name: darodipine
 def: "Calcium channel blocker." [http://en.wikipedia.org/wiki/Darodipine "Wikipedia"]
 synonym: "PY 108-068" RELATED []
-xref: CASRN:72803-02-2
+xref: CAS:72803-02-2
 is_a: XCO:0000269 ! calcium channel inhibitor
 created_by: JSmith
 creation_date: 2012-07-30T09:01:57Z
@@ -1656,7 +1656,7 @@ synonym: "4-methyl-2-oxovaleric acid" EXACT []
 synonym: "alpha-ketoisocaproic acid" EXACT []
 synonym: "alpha-KIC" RELATED []
 synonym: "Ketoleucine" RELATED []
-synonym: "pubchem.compound:70" RELATED []
+xref: pubchem.compound:70
 xref: CHEBI:48430
 is_a: XCO:0000136 ! enzyme substrate
 created_by: JSmith
@@ -1730,10 +1730,10 @@ def: "A condition in which the main influencing factor is 3-methyl-4'-dimethylam
 synonym: "3'-Me-DAB" RELATED []
 synonym: "3'-methyl-4-(dimethylamino)azobenzene" RELATED []
 synonym: "4-Dimethylamino-3'-methylazobenzene" EXACT []
-synonym: "CAS_RN:55-80-1" RELATED []
+xref: CAS:55-80-1
 synonym: "MDAB" RELATED []
 synonym: "methyldimethylaminoazobenzene" EXACT []
-synonym: "pubchem.compound:5934" RELATED []
+xref: pubchem.compound:5934
 xref: CHEBI:76329
 is_a: XCO:0000089 ! neoplasm-inducing chemical
 created_by: JSmith
@@ -1838,7 +1838,7 @@ id: XCO:0000218
 name: 4-alpha-phorbol 12,13-didecanoate
 def: "A phorbol ester analog that is an activator of TRPV4 (transient receptor potential cation channel, subfamily V, member 4) channels." [http://www.lclabs.com/PRODFILE/P-R/P-2170.php4 "Website"]
 synonym: "4-alpha-PDD" EXACT []
-synonym: "pubchem.compound:452544" RELATED []
+xref: pubchem.compound:452544
 xref: CHEBI:295732
 is_a: XCO:0000217 ! cation channel activator
 created_by: JSmith
@@ -1915,7 +1915,7 @@ id: XCO:0000226
 name: apamin
 def: "An 18 amino acid peptide neurotoxin from bee venom which blocks small-conductance Ca2+-activated K+ channels." [http://en.wikipedia.org/wiki/Apamin "Wikipedia"]
 synonym: "apamine" EXACT []
-synonym: "pubchem.compound:16129677" RELATED []
+xref: pubchem.compound:16129677
 xref: UniProtKB:P01500
 is_a: XCO:0000225 ! potassium channel inhibitor
 created_by: JSmith
@@ -2071,7 +2071,7 @@ synonym: "2,4,5,6-pyrimidinetetrone" EXACT []
 synonym: "5-Oxobarbituric acid" EXACT []
 synonym: "alloxane" EXACT []
 synonym: "mesoxalylurea" EXACT []
-synonym: "pubchem.compound:5781" RELATED []
+xref: pubchem.compound:5781
 is_a: XCO:0000239 ! toxic substance
 is_a: XCO:0000885 ! diabetes-inducing chemical
 created_by: JSmith
@@ -2358,7 +2358,7 @@ synonym: "4-hydroxy-2,2,6,6-tetramethylpiperidin-1-oxyl" RELATED []
 synonym: "4-Oxypiperidol" RELATED []
 synonym: "HyTEMPO" RELATED []
 synonym: "Nitroxyl-2" RELATED []
-synonym: "pubchem.compound:137994" RELATED []
+xref: pubchem.compound:137994
 synonym: "Tanol" RELATED []
 synonym: "TMPN" RELATED []
 is_a: XCO:0000271 ! antioxidant
@@ -2826,7 +2826,7 @@ creation_date: 2013-06-25T16:08:47Z
 id: XCO:0000320
 name: hexamethonium
 def: "Either of two compounds (C12H30Br2N2 or C12H30Cl2N2) used in the treatment of hypertension. Hexamethonium is a depolarising ganglionic blocker, a nicotinic acetylcholine receptor antagonist that acts in autonomic ganglia by binding in or on the receptor but not the acetylcholine binding site itself." [http://en.wikipedia.org/wiki/Hexamethonium "Wikipedia", Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
-synonym: "pubchem.compound:3604" RELATED []
+xref: pubchem.compound:3604
 xref: chembl.compound:CHEMBL105608
 is_a: XCO:0000160 ! receptor antagonist
 created_by: JSmith
@@ -2837,7 +2837,7 @@ id: XCO:0000321
 name: hexamethonium bromide
 def: "The compound C12H30Br2N2, consisting of a hexamethonium cation and dibromide anion, used in the treatment of hypertension. Hexamethonium is a depolarising ganglionic blocker, a nicotinic acetylcholine receptor antagonist that acts in autonomic ganglia by binding in or on the receptor but not the acetylcholine binding site itself." [http://en.wikipedia.org/wiki/Hexamethonium "Wikipedia", Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
 synonym: "hexamethonium dibromide" RELATED []
-synonym: "pubchem.compound:5938" RELATED []
+xref: pubchem.compound:5938
 xref: chembl.compound:CHEMBL105608
 is_a: XCO:0000320 ! hexamethonium
 created_by: JSmith
@@ -2848,7 +2848,7 @@ id: XCO:0000322
 name: hexamethonium chloride
 def: "The compound C12H30Cl2N2, consisting of a hexamethonium cation and dichloride anion, used in the treatment of hypertension. Hexamethonium is a depolarising ganglionic blocker, a nicotinic acetylcholine receptor antagonist that acts in autonomic ganglia by binding in or on the receptor but not the acetylcholine binding site itself." [http://en.wikipedia.org/wiki/Hexamethonium "Wikipedia", Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
 synonym: "hexamethonium dichloride" RELATED []
-synonym: "pubchem.compound:93550" RELATED []
+xref: pubchem.compound:93550
 xref: chembl.compound:CHEMBL105608
 is_a: XCO:0000320 ! hexamethonium
 created_by: JSmith
@@ -2939,7 +2939,7 @@ id: XCO:0000331
 name: RU28362
 def: "Any condition in which the main influencing factor is RU28362, a highly selective neuroactive agonist of the glucocorticoid (Corticoid Type II) receptor, but not of the mineralocorticoid (Corticoid Type I) receptor." [http://en.wikipedia.org/wiki/RU28362 "Wikipedia", http://www.nursa.org/molecule.cfm?molType=ligand&molId=1123 "Website"]
 synonym: "11,17-dihydroxy-6-methyl-17-(1-propynyl)androsta-1,4,6-triene-3-one" EXACT []
-synonym: "pubchem.compound:123790" RELATED []
+xref: pubchem.compound:123790
 is_a: XCO:0000135 ! receptor agonist
 created_by: jsmith
 creation_date: 2013-08-22T14:49:55Z
@@ -3180,7 +3180,7 @@ def: "A guanidine derivative with a nitro group (-NO2) on the nitrogen at positi
 synonym: "1-methyl-3-nitro-1-nitrosoguanidine" EXACT []
 synonym: "methylnitronitrosoguanidine" EXACT []
 synonym: "MNNG" RELATED []
-synonym: "pubchem.compound:9562060" RELATED []
+xref: pubchem.compound:9562060
 xref: CHEBI:21759
 is_a: XCO:0000089 ! neoplasm-inducing chemical
 is_a: XCO:0000205 ! mutation inducing chemical
@@ -5140,7 +5140,7 @@ creation_date: 2018-11-14T16:04:27Z
 id: XCO:0000556
 name: amino monosaccharide
 def: "Any amino sugar that is a monosaccharide in which one alcoholic hydroxy group is replaced by an amino group." []
-synonym: "CHEBI:60926" EXACT []
+xref: CHEBI:60926
 is_a: XCO:0000274 ! monosaccharide
 created_by: sjwang
 creation_date: 2018-11-16T10:50:55Z
@@ -5159,7 +5159,7 @@ id: XCO:0000558
 name: taxifolin
 def: "Taxifolin is an intermediate between flavonols and flavanolignins beloning to a class of anti-inflammatory agents that are non-steroidal in nature." []
 synonym: "catechin hydrate" EXACT []
-synonym: "CHEBI:38747" EXACT []
+xref: CHEBI:38747
 synonym: "dihydroquercetin" EXACT []
 synonym: "Distylin" EXACT []
 synonym: "Taxifoliol" EXACT []
@@ -5171,7 +5171,7 @@ creation_date: 2018-11-16T11:03:16Z
 id: XCO:0000559
 name: melatonin
 def: "A biogenic amine that is found in animals and plants. In mammals, melatonin is a hormone produced by the pineal gland. Its secretion increases in darkness and decreases during exposure to light. Melatonin is implicated in the regulation of sleep, mood, and reproduction. Melatonin is also an effective antioxidant." [https://druginfo.nlm.nih.gov/drugportal/name/melatonin "Drug Information Portal", https://meshb.nlm.nih.gov/record/ui?ui=D008550 "MESH"]
-synonym: "CHEBI:16796" EXACT []
+xref: CHEBI:16796
 is_a: XCO:0000125 ! hormone
 is_a: XCO:0000271 ! antioxidant
 created_by: sjwang
@@ -5284,7 +5284,7 @@ creation_date: 2018-12-05T14:27:59Z
 id: XCO:0000572
 name: vancomycin
 def: "A complex glycopeptide from Streptomyces orientalis. It inhibits a specific step in the synthesis of the peptidoglycan layer in the Gram-positive bacteria Staphylococcus aureus and Clostridium difficile." []
-synonym: "CHEBI:28001" EXACT []
+xref: CHEBI:28001
 is_a: XCO:0000483 ! antibacterial agent
 created_by: sjwang
 creation_date: 2018-12-05T14:37:41Z
@@ -5429,7 +5429,7 @@ creation_date: 2018-12-06T16:45:37Z
 id: XCO:0000588
 name: Perindopril
 def: "Perindopril is a nonsulfhydryl prodrug that belongs to the angiotensin-converting enzyme (ACE) inhibitor class of medications. It is rapidly metabolized in the liver to perindoprilat, a potent, competitive inhibitor of ACE." [drugbank:DB00790]
-synonym: "CHEBI:8024" EXACT []
+xref: CHEBI:8024
 is_a: XCO:0000524 ! angiotensin converting enzyme inhibitor
 created_by: sjwang
 creation_date: 2018-12-07T15:47:47Z
@@ -5482,7 +5482,7 @@ creation_date: 2018-12-27T10:28:04Z
 id: XCO:0000594
 name: saralasin
 def: "A condition in which the main influencing factor is saralasin, a partial angiotensin II receptor agonist and antihypertensive agent." []
-synonym: "CHEBI:135894" EXACT []
+xref: CHEBI:135894
 synonym: "Sar-Arg-Val-Tyr-Val-His-Pro-Ala" EXACT []
 is_a: XCO:0000536 ! angiotensin II receptor antagonist
 is_a: XCO:0000863 ! antihypertensive agent
@@ -5537,7 +5537,7 @@ creation_date: 2018-12-27T15:39:58Z
 id: XCO:0000600
 name: 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD)
 def: "A polychlorinated dibenzodioxine that has formula C12H4Cl4O2." []
-synonym: "CHEBI:28119" EXACT []
+xref: CHEBI:28119
 is_a: XCO:0000135 ! receptor agonist
 created_by: sjwang
 creation_date: 2019-01-21T12:54:07Z
@@ -5557,7 +5557,7 @@ creation_date: 2019-01-22T13:43:52Z
 id: XCO:0000602
 name: rosiglitazone
 def: "A peroxisome proliferator-activated receptor gamma agonist; reduces lipid availability, improves insulin action & glucoregulation" [https://druginfo.nlm.nih.gov/drugportal/name/rosiglitazone "Drug Information Portal"]
-synonym: "CHEBI:50122" EXACT []
+xref: CHEBI:50122
 is_a: XCO:0000135 ! receptor agonist
 is_a: XCO:0000407 ! hypoglycemic agent
 created_by: sjwang
@@ -5624,7 +5624,7 @@ id: XCO:0000609
 name: 4-methyl-2-(piperidin-1-yl) quinoline
 def: "A potent and selective blocker of TRPC4 channels." [PMID:24388923]
 synonym: "ML-204" EXACT []
-synonym: "pubchem.compound:230710" EXACT []
+xref: pubchem.compound:230710
 is_a: XCO:0000222 ! cation channel inhibitor
 created_by: sjwang
 creation_date: 2019-03-27T15:43:10Z
@@ -5633,8 +5633,8 @@ creation_date: 2019-03-27T15:43:10Z
 id: XCO:0000610
 name: morphine
 def: "A morphinane alkaloid that is a highly potent opiate analgesic psychoactive drug. Morphine acts directly on the central nervous system (CNS) to relieve pain but has a high potential for addiction, with tolerance and both physical and psychological dependence developing rapidly. Morphine is the most abundant opiate found in Papaver somniferum (the opium poppy)." [CHEBI:17303]
-synonym: "CHEBI:17303" EXACT []
-synonym: "pubchem.compound:5288826" EXACT []
+xref: CHEBI:17303
+xref: pubchem.compound:5288826
 is_a: XCO:0000106 ! anesthetic/analgesic
 created_by: sjwang
 creation_date: 2019-03-27T15:52:55Z
@@ -5643,8 +5643,8 @@ creation_date: 2019-03-27T15:52:55Z
 id: XCO:0000611
 name: nifedipine
 def: "Nifedipine is a potent vasodilator agent with calcium antagonistic action. It is a useful anti-anginal agent that also lowers blood pressure." [https://meshb.nlm.nih.gov/record/ui?ui=D009543 "MESH"]
-synonym: "CHEBI:7565" EXACT []
-synonym: "pubchem.compound:4485" EXACT []
+xref: CHEBI:7565
+xref: pubchem.compound:4485
 is_a: XCO:0000269 ! calcium channel inhibitor
 created_by: sjwang
 creation_date: 2019-04-22T16:41:50Z
@@ -5653,8 +5653,8 @@ creation_date: 2019-04-22T16:41:50Z
 id: XCO:0000612
 name: Endothelin-1
 def: "Endothelin-1 is a 21-amino acid peptide produced in a variety of tissues including endothelial and vascular smooth-muscle cells, neurons and astrocytes in the central nervous system, and endometrial cells. It acts as a modulator of vasomotor tone, cell proliferation, and hormone production." [PMID:7609754]
-synonym: "CHEBI:80240 Endothelin-1" EXACT []
-synonym: "pubchem.compound:16212950" EXACT []
+xref: CHEBI:80240
+xref: pubchem.compound:16212950
 is_a: XCO:0000193 ! peptide/protein
 created_by: sjwang
 creation_date: 2019-05-08T14:50:29Z
@@ -5663,8 +5663,8 @@ creation_date: 2019-05-08T14:50:29Z
 id: XCO:0000613
 name: Adenosine triphosphate
 def: "Adenosine Triphosphate (ATP) is an adenine nucleotide comprised of three phosphate groups esterified to the sugar moiety, found in all living cells. Adenosine triphosphate is involved in energy production for metabolic processes and RNA synthesis. In addition, this substance acts as a neurotransmitter. In cancer studies, adenosine triphosphate is synthesized to examine its use to decrease weight loss and improve muscle strength." [https://ncit.nci.nih.gov/ncitbrowser/ "NIH Thesaurus"]
-synonym: "CHEBI:15422" EXACT []
-synonym: "pubchem.compound:5957" EXACT []
+xref: CHEBI:15422
+xref: pubchem.compound:5957
 is_a: XCO:0000392 ! nucleoside/nucleotide
 created_by: sjwang
 creation_date: 2019-05-08T15:10:50Z
@@ -5673,7 +5673,7 @@ creation_date: 2019-05-08T15:10:50Z
 id: XCO:0000614
 name: rolipram
 def: "A phosphodiesterase 4 inhibitor with antidepressant properties." [https://www.ncbi.nlm.nih.gov/mesh/68020889 "MESH"]
-synonym: "CHEBI:104872" EXACT []
+xref: CHEBI:104872
 is_a: XCO:0000523 ! enzyme inhibitor
 created_by: sjwang
 creation_date: 2019-05-22T13:50:17Z
@@ -5690,8 +5690,8 @@ creation_date: 2019-05-22T14:06:17Z
 id: XCO:0000616
 name: verapamil
 def: "Verapamil is a calcium channel blocker that is a class IV anti-arrhythmia agent." [https://www.ncbi.nlm.nih.gov/mesh?Db=mesh&Cmd=DetailsSearch&Term=%22Verapamil%22%5BMeSH+Terms%5D "MESH"]
-synonym: "CHEBI:9948" EXACT []
-synonym: "pubchem.compound:2520" EXACT []
+xref: CHEBI:9948
+xref: pubchem.compound:2520
 is_a: XCO:0000269 ! calcium channel inhibitor
 created_by: sjwang
 creation_date: 2019-05-23T14:15:07Z
@@ -5700,8 +5700,8 @@ creation_date: 2019-05-23T14:15:07Z
 id: XCO:0000617
 name: quinidine
 def: "Quinidine sulfate is an optical isomer of quinine, extracted from the bark of the CHINCHONA tree and similar plant species. This alkaloid dampens the excitability of cardiac and skeletal muscles by blocking sodium and potassium currents across cellular membranes. It prolongs cellular ACTION POTENTIALS, and decreases automaticity. Quinidine also blocks muscarinic and alpha-adrenergic neurotransmission." [MESH:68011802]
-synonym: "CHEBI:28593" EXACT []
-synonym: "pubchem.compound:5953" EXACT []
+xref: CHEBI:28593
+xref: pubchem.compound:5953
 is_a: XCO:0000618 ! sodium channel inhibitor
 created_by: sjwang
 creation_date: 2019-05-23T14:24:09Z
@@ -5719,8 +5719,8 @@ creation_date: 2019-05-23T14:37:49Z
 id: XCO:0000619
 name: digoxin
 def: "A cardenolide glycoside that is digitoxin &#946;-hydroxylated at C-12. A cardiac glycoside extracted from the foxglove plant, Digitalis lanata, it is used to control ventricular rate in atrial fibrillation and in the management of congestive heart failure with atrial fibrillation, but the margin between toxic and therapeutic doses is small." []
-synonym: "CHEBI:4551" EXACT []
-synonym: "pubchem.compound:2724385" EXACT []
+xref: CHEBI:4551
+xref: pubchem.compound:2724385
 is_a: XCO:0000139 ! vasoactive chemical
 created_by: sjwang
 creation_date: 2019-05-23T14:45:00Z
@@ -5729,8 +5729,8 @@ creation_date: 2019-05-23T14:45:00Z
 id: XCO:0000620
 name: vinblastine
 def: "Vinblastine is a natural alkaloid isolated from the plant Vinca rosea Linn. Vinblastine binds to tubulin and inhibits microtubule formation, resulting in disruption of mitotic spindle assembly and arrest of tumor cells in the M phase of the cell cycle. This agent may also interfere with amino acid, cyclic AMP, and glutathione metabolism; calmodulin-dependent Ca++ -transport ATPase activity; cellular respiration; and nucleic acid and lipid biosynthesis." [https://ncit-stage.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&code=C930&ns=ncit "NCI Thesaurus"]
-synonym: "CHEBI:1322" EXACT []
-synonym: "pubchem.compound:13342" EXACT []
+xref: CHEBI:1322
+xref: pubchem.compound:13342
 is_a: XCO:0000435 ! antineoplastic agent
 created_by: sjwang
 creation_date: 2019-05-23T15:08:50Z
@@ -5777,7 +5777,7 @@ creation_date: 2019-07-17T10:08:35Z
 id: XCO:0000625
 name: urethane
 def: "Antineoplastic agent that is also used as a veterinary anesthetic." []
-synonym: "CHEBI:17967" EXACT []
+xref: CHEBI:17967
 synonym: "MESH:D014520" EXACT []
 is_a: XCO:0000106 ! anesthetic/analgesic
 is_a: XCO:0000435 ! antineoplastic agent
@@ -5796,7 +5796,7 @@ creation_date: 2019-07-17T10:22:31Z
 id: XCO:0000627
 name: spironolactone
 def: "Any condition in which the main influencing factor isspironolactone, a potassium-sparing diuretic that competitively inhibits mineralocorticoid receptors in the distal convoluted tubule to promote sodium and water excretion and potassium retention. Spironolactone is indicated to treat a number of conditions including heart failure, edema, hyperaldosteronism, adrenal hyperplasia, hypertension, and nephrotic syndrome." [drugbank:DB00421]
-synonym: "CHEBI:9241" EXACT []
+xref: CHEBI:9241
 synonym: "DB00421" EXACT []
 is_a: XCO:0000122 ! diuretic
 is_a: XCO:0000838 ! mineralocorticoid receptor antagonist
@@ -5807,7 +5807,7 @@ creation_date: 2019-07-24T14:33:14Z
 id: XCO:0000628
 name: Atorvastatin
 def: "Atorvastatin (Lipitor) is a member of the drug class known as statins. It is used for lowering cholesterol. Atorvastatin is a competitive inhibitor of hydroxymethylglutaryl-coenzyme A (HMG-CoA) reductase, the rate-determining enzyme in cholesterol biosynthesis via the mevalonate pathway. HMG-CoA reductase catalyzes the conversion of HMG-CoA to mevalonate. Atorvastatin acts primarily in the liver. Decreased hepatic cholesterol levels increases hepatic uptake of cholesterol and reduces plasma cholesterol levels." []
-synonym: "CHEBI:39548" EXACT []
+xref: CHEBI:39548
 synonym: "Lipitor" RELATED []
 is_a: XCO:0000523 ! enzyme inhibitor
 created_by: sjwang
@@ -5818,7 +5818,7 @@ id: XCO:0000629
 name: carbenoxolone
 def: "An agent derived from licorice root. It is used for the treatment of digestive tract ulcers, especially in the stomach. Antidiuretic side effects are frequent, but otherwise the drug is low in toxicity." []
 synonym: "MESH:D002229" EXACT []
-synonym: "pubchem.compound:636403" EXACT []
+xref: pubchem.compound:636403
 is_a: XCO:0000279 ! terpene
 created_by: sjwang
 creation_date: 2019-07-24T16:11:51Z
@@ -5835,7 +5835,7 @@ creation_date: 2019-07-30T14:47:58Z
 id: XCO:0000631
 name: atropine
 def: "A naturally occurring belladonna alkaloid, is a racemic mixture of equal parts of d- and l-hyoscyamine, whose activity is due almost entirely to the levo isomer of the drug. Atropine is commonly classified as an anticholinergic or antiparasympathetic (parasympatholytic) drug. More precisely, however, it is termed an antimuscarinic agent since it antagonizes the muscarine-like actions of acetylcholine and other choline esters." [drugbank:DB00572]
-synonym: "CHEBI:16684" EXACT []
+xref: CHEBI:16684
 is_a: XCO:0000630 ! cholinergic antagonist
 created_by: sjwang
 creation_date: 2019-07-30T14:53:02Z
@@ -5844,7 +5844,7 @@ creation_date: 2019-07-30T14:53:02Z
 id: XCO:0000632
 name: Saxagliptin
 def: "A monocarboxylic acid amide obtained by formal condensation of the carboxy group of (2S)-amino(3-hydroxyadamantan-1-yl)acetic acid with the amino group of (1S,3S,5S)-2-azabicyclo[3.1.0]hexane-3-carbonitrile. Used in its monohydrate form for the treatment of Type II diabetes. It belongs to the biological class EC 3.4.14.5 (dipeptidyl-peptidase IV) inhibitor ." []
-synonym: "CHEBI:71272" EXACT []
+xref: CHEBI:71272
 is_a: XCO:0000523 ! enzyme inhibitor
 created_by: sjwang
 creation_date: 2019-07-30T14:58:42Z
@@ -5881,7 +5881,7 @@ creation_date: 2019-07-30T16:18:43Z
 id: XCO:0000636
 name: immunosuppressive agent
 def: "An agent that suppresses immune function by one of several mechanisms of action. Classical cytotoxic immunosuppressants act by inhibiting DNA synthesis. Others may act through activation of T-cells or by inhibiting the activation of helper cells. In addition, an immunosuppressive agent is a role played by a compound which is exhibited by a capability to diminish the extent and/or voracity of an immune response." [CHEBI:35705]
-synonym: "CHEBI:35705" EXACT []
+xref: CHEBI:35705
 is_a: XCO:0000341 ! chemical with specified function
 created_by: sjwang
 creation_date: 2019-08-01T12:47:37Z
@@ -5890,7 +5890,7 @@ creation_date: 2019-08-01T12:47:37Z
 id: XCO:0000637
 name: cyclosporine A
 def: "A cyclic nonribosomal peptide of eleven amino acids; an immunosuppressant drug widely used in post-allogeneic organ transplant to reduce the activity of the patient's immune system, and therefore the risk of organ rejection. Also causes reversible inhibition of immunocompetent lymphocytes in the G0- and G1-phase of the cell cycle." [CHEBI:4031]
-synonym: "CHEBI:4031" EXACT []
+xref: CHEBI:4031
 synonym: "cyclosporine" RELATED []
 is_a: XCO:0000636 ! immunosuppressive agent
 created_by: sjwang
@@ -5900,7 +5900,7 @@ creation_date: 2019-08-01T12:50:36Z
 id: XCO:0000638
 name: Capsazepine
 def: "A benzazepine that is 2,3,4,5-tetrahydro-1H-2-benzazepine which is substituted by hydroxy groups at positions 7 and 8 and on the nitrogen atom by a 2-(p-chlorophenyl)ethylaminothiocarbonyl group. A synthetic analogue of capsaicin, it was the first reported capsaicin receptor antagonist." [CHEBI:70773]
-synonym: "CHEBI:70773" EXACT []
+xref: CHEBI:70773
 is_a: XCO:0000160 ! receptor antagonist
 created_by: sjwang
 creation_date: 2019-08-01T12:59:35Z
@@ -5933,10 +5933,10 @@ creation_date: 2019-08-01T14:50:02Z
 id: XCO:0000642
 name: monocrotaline
 def: "Monocrotaline is a pyrrolizidine alkaloid and a toxic plant constituent that poisons livestock and humans through the ingestion of contaminated grains and other foods. The alkaloid causes pulmonary artery hypertension, right ventricular hypertrophy, and pathological changes in the pulmonary vasculature. Significant attenuation of the cardiopulmonary changes are noted after oral magnesium treatment." [https://www.ncbi.nlm.nih.gov/mesh/68016686 "MESH"]
-synonym: "CHEBI:6980" EXACT []
+xref: CHEBI:6980
 synonym: "https://www.ncbi.nlm.nih.gov/mesh/68016686" RELATED []
 synonym: "MCT" RELATED []
-synonym: "pubchem.compound:9415" EXACT []
+xref: pubchem.compound:9415
 is_a: XCO:0000239 ! toxic substance
 created_by: sjwang
 creation_date: 2019-08-01T17:00:38Z
@@ -5961,7 +5961,7 @@ creation_date: 2019-11-05T10:21:40Z
 id: XCO:0000645
 name: propofol
 def: "A phenol resulting from the formal substitution of the hydrogen at the 2 position of 1,3-diisopropylbenzene by a hydroxy group." []
-synonym: "CHEBI:44915" EXACT []
+xref: CHEBI:44915
 is_a: XCO:0000106 ! anesthetic/analgesic
 created_by: sjwang
 creation_date: 2019-11-27T12:37:25Z
@@ -5970,9 +5970,9 @@ creation_date: 2019-11-27T12:37:25Z
 id: XCO:0000646
 name: Azoxymethane
 def: "Azoxymethane (AOM), a gene mutation agent, may be used with dextran sulfate sodium (DSS) to create cancer models in laboratory animals which can be used to study mechanisms of cancer progression and chemoprevention." []
-synonym: "CAS:25843-45-2" EXACT []
+xref: CAS:25843-45-2
 synonym: "ML-MFCD00126912" EXACT []
-synonym: "pubchem.compound:329770827" EXACT []
+xref: pubchem.compound:329770827
 is_a: XCO:0000089 ! neoplasm-inducing chemical
 created_by: sjwang
 creation_date: 2019-12-04T15:04:39Z
@@ -5999,7 +5999,7 @@ creation_date: 2019-12-10T17:07:59Z
 id: XCO:0000649
 name: trans-4-hydroxy-L-proline
 def: "An optically active form of 4-hydroxyproline having L-trans-configuration." []
-synonym: "CHEBI:18095" EXACT []
+xref: CHEBI:18095
 is_a: XCO:0000259 ! disease-inducing chemical
 created_by: sjwang
 creation_date: 2019-12-12T13:16:31Z
@@ -6327,7 +6327,7 @@ id: XCO:0000681
 name: Medica 16
 def: "An &#945;,&#969;-dicarboxylic acid that is hexadecanedioic acid carrying methyl groups at positions 3 and 14. It is a free fatty acid 1 (FFA1/GPR40) receptor agonist and an ATP citrate lyase inhibitor, and exhibits hypolipidemic and antidiabetogenic properties." [CHEBI:149582]
 synonym: "3,3,14,14-Tetramethylhexadecanedioic acid" EXACT []
-synonym: "CAS 87272-20-6" EXACT []
+xref: CAS:87272-20-6
 synonym: "Medic-16" EXACT []
 xref: CHEBI:149582
 is_a: XCO:0000135 ! receptor agonist
@@ -6884,7 +6884,7 @@ creation_date: 2020-07-27T15:38:14Z
 id: XCO:0000730
 name: endothelin receptor antagonist
 def: "Any condition in which the main influencing factor is an agent that blocks one or more endothelin receptors." [XCO:0000536]
-synonym: "CHEBI:51451" EXACT []
+xref: CHEBI:51451
 synonym: "endothelin receptor blocker" EXACT []
 is_a: XCO:0000160 ! receptor antagonist
 created_by: slaulede
@@ -7514,7 +7514,7 @@ id: XCO:0000796
 name: U46619
 def: "A prostaglandin endoperoxide analogue (11,9 epoxymethano-prostaglandin H2) that is a selective agonist of prostaglandin H2 (PGH2)/thromboxane A2 (TxA2) (TP) receptor. It is a stable thromboxane A2 mimetic and a vasoconstrictor." [http://www.apexbt.com, https://www.sigmaaldrich.com]
 synonym: "9,11-Dideoxy-9&#945;,11&#945;-methanoepoxyprostaglandin F 2&#945;" EXACT []
-synonym: "CAS:56985-40-1" EXACT []
+xref: CAS:56985-40-1
 synonym: "U 46619" EXACT []
 xref: PMID:22508433
 is_a: XCO:0000135 ! receptor agonist
@@ -7525,7 +7525,7 @@ creation_date: 2021-01-04T16:46:45Z
 id: XCO:0000797
 name: Y-27632
 def: "A monocarboxylic acid amide that is trans-[(1R)-1-aminoethyl]cyclohexanecarboxamide in which one of the nitrogens of the aminocarbony group is substituted by a pyridine nucleus. It is a cell-permeable, reversible inhibitor of Rho-associated protein kinase (ROCK) enzyme." [CHEBI:75393, https://www.sigmaaldrich.com]
-synonym: "CAS-146986-50-7" EXACT []
+xref: CAS:146986-50-7
 synonym: "Rho-associated protein kinase Inhibitor" EXACT []
 synonym: "ROCK Inhibitor" EXACT []
 synonym: "Y 27632" EXACT []
