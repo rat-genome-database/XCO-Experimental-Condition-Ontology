@@ -5663,9 +5663,9 @@ creation_date: 2019-03-27T15:52:55Z
 id: XCO:0000611
 name: nifedipine
 def: "Nifedipine is a potent vasodilator agent with calcium antagonistic action. It is a useful anti-anginal agent that also lowers blood pressure." [https://meshb.nlm.nih.gov/record/ui?ui=D009543 "MESH"]
-synonym: "CHEBI:7565" EXACT []
 synonym: "Pubchem: 4485" EXACT []
 is_a: XCO:0000269 ! calcium channel inhibitor
+xref: CHEBI:7565
 created_by: sjwang
 creation_date: 2019-04-22T16:41:50Z
 
