@@ -4362,7 +4362,7 @@ creation_date: 2015-04-29T14:14:39Z
 id: XCO:0000476
 name: Streptococcus pneumoniae
 def: "A condition in which the primary influencing factor is Streptococcus pneumoniae, a species of Gram-positive, alpha-hemolytic, facultative anaerobic bacteria commonly found in the nasopharynx of healthy human carriers." [http://en.wikipedia.org/wiki/Streptococcus_pneumoniae "Wikipedia"]
-xref: NCBI_Taxon:1313
+xref: NCBITaxon:1313
 is_a: XCO:0000475 ! bacterial pathogen
 created_by: JSmith
 creation_date: 2015-04-30T13:35:44Z
@@ -4372,7 +4372,7 @@ id: XCO:0000477
 name: Streptococcus pneumoniae D39
 def: "A condition in which the primary influencing factor is Streptococcus pneumoniae D39, a potentially virulent strain of the S. pneumoniae species of Gram-positive, alpha-hemolytic, facultative anaerobic bacteria commonly found in the nasopharynx of healthy human carriers." [http://en.wikipedia.org/wiki/Streptococcus_pneumoniae "Wikipedia"]
 synonym: "Streptococcus pneumoniae strain D39" EXACT []
-xref: NCBI_Taxon:373153
+xref: NCBITaxon:373153
 is_a: XCO:0000476 ! Streptococcus pneumoniae
 created_by: JSmith
 creation_date: 2015-04-30T13:36:39Z
@@ -4382,7 +4382,7 @@ id: XCO:0000478
 name: Streptococcus pneumoniae TIGR4
 def: "A condition in which the primary influencing factor is Streptococcus pneumoniae TIGR4, a potentially virulent strain of the S. pneumoniae species of Gram-positive, alpha-hemolytic, facultative anaerobic bacteria commonly found in the nasopharynx of healthy human carriers." [http://en.wikipedia.org/wiki/Streptococcus_pneumoniae "Wikipedia"]
 synonym: "Streptococcus pneumoniae strain TIGR4" EXACT []
-xref: NCBI_Taxon:170187
+xref: NCBITaxon:170187
 is_a: XCO:0000476 ! Streptococcus pneumoniae
 created_by: JSmith
 creation_date: 2015-04-30T13:38:57Z
@@ -4391,7 +4391,7 @@ creation_date: 2015-04-30T13:38:57Z
 id: XCO:0000479
 name: Haemophilus influenzae
 def: "A condition in which the primary influencing factor is Haemophilus influenzae, a Gram-negative, coccobacillary, facultatively anaerobic bacterium which is considered an opportunistic pathogen, i.e. one that can colonize a host without causing disease unless there are extenuating circumstances which result in susceptibility on the part of the host." [http://en.wikipedia.org/wiki/Haemophilus_influenzae "Wikipedia"]
-xref: NCBI_Taxon:727
+xref: NCBITaxon:727
 is_a: XCO:0000743 ! Haemophilus
 created_by: JSmith
 creation_date: 2015-04-30T13:41:32Z
@@ -4412,7 +4412,7 @@ def: "A condition in which the primary influencing factor is the 86-028NP strain
 synonym: "86028NP" RELATED []
 synonym: "Haemophilus influenzae strain 86-028NP" EXACT []
 synonym: "NTHi 86-028NP" RELATED []
-xref: NCBI_Taxon:281310
+xref: NCBITaxon:281310
 is_a: XCO:0000480 ! nontypeable Haemophilus influenzae
 created_by: JSmith
 creation_date: 2015-04-30T13:48:27Z
@@ -4452,7 +4452,7 @@ def: "A condition in which the primary influencing factor is the H2 mutant of th
 synonym: "86H2" RELATED []
 synonym: "Haemophilus influenzae mutant strain 86-028NP-H2" EXACT []
 synonym: "NTHi 86-028NP H2 mutant" RELATED []
-xref: NCBI_Taxon:281310
+xref: NCBITaxon:281310
 is_a: XCO:0000481 ! Haemophilus influenzae 86-028NP
 created_by: JSmith
 creation_date: 2015-05-14T17:54:23Z
@@ -4464,7 +4464,7 @@ def: "A condition in which the primary influencing factor is the C5 mutant of th
 synonym: "86C5" RELATED []
 synonym: "Haemophilus influenzae mutant strain 86-028NP-C5" EXACT []
 synonym: "NTHi 86-028NP C5 mutant" RELATED []
-xref: NCBI_Taxon:281310
+xref: NCBITaxon:281310
 is_a: XCO:0000481 ! Haemophilus influenzae 86-028NP
 created_by: JSmith
 creation_date: 2015-05-14T17:58:28Z
@@ -4475,7 +4475,7 @@ name: Streptococcus pneumoniae TIGR4 LuxS mutant
 def: "A condition in which the primary influencing factor is the LuxS mutant of Streptococcus pneumoniae TIGR4." [RGD:JRS]
 synonym: "Streptococcus pneumoniae mutant strain TIGR4luxS" EXACT []
 synonym: "TIGR4luxS" RELATED []
-xref: NCBI_Taxon:170187
+xref: NCBITaxon:170187
 is_a: XCO:0000478 ! Streptococcus pneumoniae TIGR4
 created_by: JSmith
 creation_date: 2015-05-14T17:59:26Z
@@ -4969,7 +4969,7 @@ creation_date: 2018-05-14T18:34:03Z
 [Term]
 id: XCO:0000539
 name: doxorubicin
-def: "An experimental condition in which the main influencing factor is doxorubicin, a cytotoxic anthracycline antibiotic isolated from cultures of Streptomyces peucetius var. caesius and used as a chemotherapy medication. Doxorubicin binds to nucleic acids, presumably by specific intercalation of the planar anthracycline nucleus with the DNA double helix." [https://en.wikipedia.org/wiki/Doxorubicin "Wikipedia", https://www.drugbank.ca/drugs/DB00997 "DrugBank"]
+def: "An experimental condition in which the main influencing factor is doxorubicin, a cytotoxic anthracycline antibiotic isolated from cultures of Streptomyces peucetius var. caesius and used as a chemotherapy medication. Doxorubicin binds to nucleic acids, presumably by specific intercalation of the planar anthracycline nucleus with the DNA double helix." [https://en.wikipedia.org/wiki/Doxorubicin "Wikipedia", drugbank:DB00997]
 synonym: "ADR" EXACT []
 synonym: "Adriablastine" EXACT []
 synonym: "adriamycin" EXACT []
@@ -5062,7 +5062,7 @@ creation_date: 2018-05-15T16:44:29Z
 [Term]
 id: XCO:0000548
 name: ramipril
-def: "An experimental condition in which the main influencing factor is ramipril, a prodrug that is metabolized in the liver to ramiprilat, a potent, competitive inhibitor of angiotensin-converting enzyme (ACE)." [https://www.drugbank.ca/drugs/DB00178 "DrugBank", MESH:D017257]
+def: "An experimental condition in which the main influencing factor is ramipril, a prodrug that is metabolized in the liver to ramiprilat, a potent, competitive inhibitor of angiotensin-converting enzyme (ACE)." [drugbank:DB00178, MESH:D017257]
 synonym: "Altace" EXACT []
 synonym: "Tritace" EXACT []
 xref: CHEBI:8774
@@ -5085,7 +5085,7 @@ creation_date: 2018-05-15T16:57:52Z
 [Term]
 id: XCO:0000550
 name: reserpine
-def: "An experimental condition in which the main influencing factor is reserpine, an indole alkaloid which irreversibly blocks the vesicular monoamine transporters (VMATs), SLC18A1 and SLC18A2. Reserpine has been used as both an antihypertensive drug and an antipsychotic drug." [https://en.wikipedia.org/wiki/Reserpine "Wikipedia", https://www.drugbank.ca/drugs/DB00206 "DrugBank", PMID:7905859]
+def: "An experimental condition in which the main influencing factor is reserpine, an indole alkaloid which irreversibly blocks the vesicular monoamine transporters (VMATs), SLC18A1 and SLC18A2. Reserpine has been used as both an antihypertensive drug and an antipsychotic drug." [https://en.wikipedia.org/wiki/Reserpine "Wikipedia", drugbank:DB00206, PMID:7905859]
 is_a: XCO:0000120 ! inhibitor
 created_by: jrsmith
 creation_date: 2018-05-15T17:19:06Z
@@ -5093,7 +5093,7 @@ creation_date: 2018-05-15T17:19:06Z
 [Term]
 id: XCO:0000551
 name: hydralazine
-def: "An experimental condition in which the main influencing factor is hydralazine, a vasodilator that appears to have multiple, direct effects on smooth muscles of the arterial vessels, thereby reducing systemic vascular resistance and arterial pressure." [http://cvpharmacology.com/vasodilator/direct "Website", https://www.drugbank.ca/drugs/DB01275 "DrugBank"]
+def: "An experimental condition in which the main influencing factor is hydralazine, a vasodilator that appears to have multiple, direct effects on smooth muscles of the arterial vessels, thereby reducing systemic vascular resistance and arterial pressure." [http://cvpharmacology.com/vasodilator/direct "Website", drugbank:DB01275]
 is_a: XCO:0000140 ! vasodilator
 created_by: jrsmith
 creation_date: 2018-05-15T17:22:47Z
@@ -5101,7 +5101,7 @@ creation_date: 2018-05-15T17:22:47Z
 [Term]
 id: XCO:0000552
 name: controlled hydralazine content drinking water
-def: "This is an experimental condition in which the main influencing factor is a drink made up of water and a specified amount of hydralazine in which the amount of hydralazine consumed is maintained at a specified level." [https://www.merriam-webster.com/ "DrugBank", MESH:D006830]
+def: "This is an experimental condition in which the main influencing factor is a drink made up of water and a specified amount of hydralazine in which the amount of hydralazine consumed is maintained at a specified level." [https://www.merriam-webster.com/, MESH:D006830]
 xref: CHEBI:5775
 xref: PMID:3611778
 is_a: XCO:0000163 ! controlled content drinking water
@@ -5148,7 +5148,7 @@ creation_date: 2018-11-16T10:50:55Z
 [Term]
 id: XCO:0000557
 name: glucosamine
-def: "Glucosamine, commonly used as a treatment for osteoarthritis, is an amino sugar and a prominent precursor in the biochemical synthesis of glycosylated proteins and lipids. Since glucosamine is a precursor for glycosaminoglycans, and glycosaminoglycans are a major component of joint cartilage, supplemental glucosamine may help to rebuild cartilage and treat arthritis." [https://www.drugbank.ca/drugs/DB01296 "Drugbank"]
+def: "Glucosamine, commonly used as a treatment for osteoarthritis, is an amino sugar and a prominent precursor in the biochemical synthesis of glycosylated proteins and lipids. Since glucosamine is a precursor for glycosaminoglycans, and glycosaminoglycans are a major component of joint cartilage, supplemental glucosamine may help to rebuild cartilage and treat arthritis." [drugbank:DB01296]
 synonym: "2-amino-2-deoxyglucose" EXACT []
 is_a: XCO:0000556 ! amino monosaccharide
 created_by: sjwang
@@ -5428,7 +5428,7 @@ creation_date: 2018-12-06T16:45:37Z
 [Term]
 id: XCO:0000588
 name: Perindopril
-def: "Perindopril is a nonsulfhydryl prodrug that belongs to the angiotensin-converting enzyme (ACE) inhibitor class of medications. It is rapidly metabolized in the liver to perindoprilat, a potent, competitive inhibitor of ACE." [https://www.drugbank.ca/drugs/DB00790 "Drugbank"]
+def: "Perindopril is a nonsulfhydryl prodrug that belongs to the angiotensin-converting enzyme (ACE) inhibitor class of medications. It is rapidly metabolized in the liver to perindoprilat, a potent, competitive inhibitor of ACE." [drugbank:DB00790]
 synonym: "CHEBI:8024" EXACT []
 is_a: XCO:0000524 ! angiotensin converting enzyme inhibitor
 created_by: sjwang
@@ -5566,7 +5566,7 @@ creation_date: 2019-01-22T13:55:58Z
 [Term]
 id: XCO:0000603
 name: hesperetin
-def: "Hesperetin belongs to the flavanone class of flavonoids. Hesperetin, in the form of its glycoside Hesperidin, is the predominant flavonoid in lemons and oranges." [https://www.drugbank.ca/drugs/DB01094 "Drugbank"]
+def: "Hesperetin belongs to the flavanone class of flavonoids. Hesperetin, in the form of its glycoside Hesperidin, is the predominant flavonoid in lemons and oranges." [drugbank:DB01094]
 xref: CHEBI:28230
 xref: MESH:C013015
 is_a: XCO:0000470 ! flavonoid
@@ -5576,7 +5576,7 @@ creation_date: 2019-01-22T14:38:41Z
 [Term]
 id: XCO:0000604
 name: Aprotinin
-def: "Any condition in which the main influencing factor is Aprotinin, also known as bovine pancreatic trypsin inhibitor (BPTI), a proteinase inhibitor used as medication administered by injection to reduce bleeding during complex surgery, such as heart and liver surgery." [https://www.drugbank.ca/drugs/DB06692 "Drugbank"]
+def: "Any condition in which the main influencing factor is Aprotinin, also known as bovine pancreatic trypsin inhibitor (BPTI), a proteinase inhibitor used as medication administered by injection to reduce bleeding during complex surgery, such as heart and liver surgery." [drugbank:DB06692]
 synonym: "C284H432N84O79S7" EXACT []
 synonym: "Trasylol" EXACT []
 is_a: XCO:0000748 ! protease inhibitor
@@ -5634,7 +5634,7 @@ id: XCO:0000610
 name: morphine
 def: "A morphinane alkaloid that is a highly potent opiate analgesic psychoactive drug. Morphine acts directly on the central nervous system (CNS) to relieve pain but has a high potential for addiction, with tolerance and both physical and psychological dependence developing rapidly. Morphine is the most abundant opiate found in Papaver somniferum (the opium poppy)." [CHEBI:17303]
 synonym: "CHEBI:17303" EXACT []
-synonym: "Pubchem: 5288826" EXACT []
+synonym: "Pubchem:5288826" EXACT []
 is_a: XCO:0000106 ! anesthetic/analgesic
 created_by: sjwang
 creation_date: 2019-03-27T15:52:55Z
@@ -5644,7 +5644,7 @@ id: XCO:0000611
 name: nifedipine
 def: "Nifedipine is a potent vasodilator agent with calcium antagonistic action. It is a useful anti-anginal agent that also lowers blood pressure." [https://meshb.nlm.nih.gov/record/ui?ui=D009543 "MESH"]
 synonym: "CHEBI:7565" EXACT []
-synonym: "Pubchem: 4485" EXACT []
+synonym: "Pubchem:4485" EXACT []
 is_a: XCO:0000269 ! calcium channel inhibitor
 created_by: sjwang
 creation_date: 2019-04-22T16:41:50Z
@@ -5654,7 +5654,7 @@ id: XCO:0000612
 name: Endothelin-1
 def: "Endothelin-1 is a 21-amino acid peptide produced in a variety of tissues including endothelial and vascular smooth-muscle cells, neurons and astrocytes in the central nervous system, and endometrial cells. It acts as a modulator of vasomotor tone, cell proliferation, and hormone production." [PMID:7609754]
 synonym: "CHEBI:80240 Endothelin-1" EXACT []
-synonym: "Pubchem: 16212950" EXACT []
+synonym: "Pubchem:16212950" EXACT []
 is_a: XCO:0000193 ! peptide/protein
 created_by: sjwang
 creation_date: 2019-05-08T14:50:29Z
@@ -5664,7 +5664,7 @@ id: XCO:0000613
 name: Adenosine triphosphate
 def: "Adenosine Triphosphate (ATP) is an adenine nucleotide comprised of three phosphate groups esterified to the sugar moiety, found in all living cells. Adenosine triphosphate is involved in energy production for metabolic processes and RNA synthesis. In addition, this substance acts as a neurotransmitter. In cancer studies, adenosine triphosphate is synthesized to examine its use to decrease weight loss and improve muscle strength." [https://ncit.nci.nih.gov/ncitbrowser/ "NIH Thesaurus"]
 synonym: "CHEBI:15422" EXACT []
-synonym: "Pubchem: 5957" EXACT []
+synonym: "Pubchem:5957" EXACT []
 is_a: XCO:0000392 ! nucleoside/nucleotide
 created_by: sjwang
 creation_date: 2019-05-08T15:10:50Z
@@ -5691,7 +5691,7 @@ id: XCO:0000616
 name: verapamil
 def: "Verapamil is a calcium channel blocker that is a class IV anti-arrhythmia agent." [https://www.ncbi.nlm.nih.gov/mesh?Db=mesh&Cmd=DetailsSearch&Term=%22Verapamil%22%5BMeSH+Terms%5D "MESH"]
 synonym: "CHEBI:9948" EXACT []
-synonym: "Pubchem: 2520" EXACT []
+synonym: "Pubchem:2520" EXACT []
 is_a: XCO:0000269 ! calcium channel inhibitor
 created_by: sjwang
 creation_date: 2019-05-23T14:15:07Z
@@ -5699,9 +5699,9 @@ creation_date: 2019-05-23T14:15:07Z
 [Term]
 id: XCO:0000617
 name: quinidine
-def: "Quinidine sulfate is an optical isomer of quinine, extracted from the bark of the CHINCHONA tree and similar plant species. This alkaloid dampens the excitability of cardiac and skeletal muscles by blocking sodium and potassium currents across cellular membranes. It prolongs cellular ACTION POTENTIALS, and decreases automaticity. Quinidine also blocks muscarinic and alpha-adrenergic neurotransmission." [https://www.ncbi.nlm.nih.gov/mesh/68011802 "MESH"]
+def: "Quinidine sulfate is an optical isomer of quinine, extracted from the bark of the CHINCHONA tree and similar plant species. This alkaloid dampens the excitability of cardiac and skeletal muscles by blocking sodium and potassium currents across cellular membranes. It prolongs cellular ACTION POTENTIALS, and decreases automaticity. Quinidine also blocks muscarinic and alpha-adrenergic neurotransmission." [MESH:68011802]
 synonym: "CHEBI:28593" EXACT []
-synonym: "Pubchem: 5953" EXACT []
+synonym: "Pubchem:5953" EXACT []
 is_a: XCO:0000618 ! sodium channel inhibitor
 created_by: sjwang
 creation_date: 2019-05-23T14:24:09Z
@@ -5709,7 +5709,7 @@ creation_date: 2019-05-23T14:24:09Z
 [Term]
 id: XCO:0000618
 name: sodium channel inhibitor
-def: "A class of drugs that act by inhibition of sodium influx through cell membranes. Blockade of sodium channels slows the rate and amplitude of initial rapid depolarization, reduces cell excitability, and reduces conduction velocity." [https://www.drugbank.ca/categories/DBCAT000600 "Drugbank"]
+def: "A class of drugs that act by inhibition of sodium influx through cell membranes. Blockade of sodium channels slows the rate and amplitude of initial rapid depolarization, reduces cell excitability, and reduces conduction velocity." [drugbank.category:DBCAT000600]
 synonym: "Sodium Channel Blockers" EXACT []
 is_a: XCO:0000222 ! cation channel inhibitor
 created_by: sjwang
@@ -5730,7 +5730,7 @@ id: XCO:0000620
 name: vinblastine
 def: "Vinblastine is a natural alkaloid isolated from the plant Vinca rosea Linn. Vinblastine binds to tubulin and inhibits microtubule formation, resulting in disruption of mitotic spindle assembly and arrest of tumor cells in the M phase of the cell cycle. This agent may also interfere with amino acid, cyclic AMP, and glutathione metabolism; calmodulin-dependent Ca++ -transport ATPase activity; cellular respiration; and nucleic acid and lipid biosynthesis." [https://ncit-stage.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&code=C930&ns=ncit "NCI Thesaurus"]
 synonym: "CHEBI:1322" EXACT []
-synonym: "Pubchem: 13342" EXACT []
+synonym: "Pubchem:13342" EXACT []
 is_a: XCO:0000435 ! antineoplastic agent
 created_by: sjwang
 creation_date: 2019-05-23T15:08:50Z
@@ -5795,7 +5795,7 @@ creation_date: 2019-07-17T10:22:31Z
 [Term]
 id: XCO:0000627
 name: spironolactone
-def: "Any condition in which the main influencing factor isspironolactone, a potassium-sparing diuretic that competitively inhibits mineralocorticoid receptors in the distal convoluted tubule to promote sodium and water excretion and potassium retention. Spironolactone is indicated to treat a number of conditions including heart failure, edema, hyperaldosteronism, adrenal hyperplasia, hypertension, and nephrotic syndrome." [https://www.drugbank.ca/drugs/DB00421 "DRUGBANK"]
+def: "Any condition in which the main influencing factor isspironolactone, a potassium-sparing diuretic that competitively inhibits mineralocorticoid receptors in the distal convoluted tubule to promote sodium and water excretion and potassium retention. Spironolactone is indicated to treat a number of conditions including heart failure, edema, hyperaldosteronism, adrenal hyperplasia, hypertension, and nephrotic syndrome." [drugbank:DB00421]
 synonym: "CHEBI:9241" EXACT []
 synonym: "DB00421" EXACT []
 is_a: XCO:0000122 ! diuretic
@@ -5818,7 +5818,7 @@ id: XCO:0000629
 name: carbenoxolone
 def: "An agent derived from licorice root. It is used for the treatment of digestive tract ulcers, especially in the stomach. Antidiuretic side effects are frequent, but otherwise the drug is low in toxicity." []
 synonym: "MESH:D002229" EXACT []
-synonym: "pubchem: 636403" EXACT []
+synonym: "Pubchem:636403" EXACT []
 is_a: XCO:0000279 ! terpene
 created_by: sjwang
 creation_date: 2019-07-24T16:11:51Z
@@ -5834,7 +5834,7 @@ creation_date: 2019-07-30T14:47:58Z
 [Term]
 id: XCO:0000631
 name: atropine
-def: "A naturally occurring belladonna alkaloid, is a racemic mixture of equal parts of d- and l-hyoscyamine, whose activity is due almost entirely to the levo isomer of the drug. Atropine is commonly classified as an anticholinergic or antiparasympathetic (parasympatholytic) drug. More precisely, however, it is termed an antimuscarinic agent since it antagonizes the muscarine-like actions of acetylcholine and other choline esters." [https://www.drugbank.ca/drugs/DB00572 "DRUGBANK"]
+def: "A naturally occurring belladonna alkaloid, is a racemic mixture of equal parts of d- and l-hyoscyamine, whose activity is due almost entirely to the levo isomer of the drug. Atropine is commonly classified as an anticholinergic or antiparasympathetic (parasympatholytic) drug. More precisely, however, it is termed an antimuscarinic agent since it antagonizes the muscarine-like actions of acetylcholine and other choline esters." [drugbank:DB00572]
 synonym: "CHEBI:16684" EXACT []
 is_a: XCO:0000630 ! cholinergic antagonist
 created_by: sjwang
@@ -5936,7 +5936,7 @@ def: "Monocrotaline is a pyrrolizidine alkaloid and a toxic plant constituent th
 synonym: "CHEBI:6980" EXACT []
 synonym: "https://www.ncbi.nlm.nih.gov/mesh/68016686" RELATED []
 synonym: "MCT" RELATED []
-synonym: "Pubchem: 9415" EXACT []
+synonym: "Pubchem:9415" EXACT []
 is_a: XCO:0000239 ! toxic substance
 created_by: sjwang
 creation_date: 2019-08-01T17:00:38Z
@@ -5980,7 +5980,7 @@ creation_date: 2019-12-04T15:04:39Z
 [Term]
 id: XCO:0000647
 name: darusentan
-def: "A selective endothelin ETA receptor antagonist. It is being evaluated as a treatment for congestive heart failure and hypertension." [https://www.drugbank.ca/drugs/DB04883 "drugbank"]
+def: "A selective endothelin ETA receptor antagonist. It is being evaluated as a treatment for congestive heart failure and hypertension." [drugbank:DB04883]
 is_a: XCO:0000730 ! endothelin receptor antagonist
 created_by: slaulede
 creation_date: 2019-12-09T18:27:43Z
@@ -8660,7 +8660,7 @@ creation_date: 2021-08-27T15:46:09Z
 [Term]
 id: XCO:0000896
 name: controlled hesperetin content diet
-def: "A regimen of solid food in which the amount of hesperetin is controlled. Hesperetin belongs to the flavanone class of flavonoids. Hesperetin, in the form of its glycoside Hesperidin, is the predominant flavonoid in lemons and oranges." [https://www.drugbank.ca/drugs/DB01094]
+def: "A regimen of solid food in which the amount of hesperetin is controlled. Hesperetin belongs to the flavanone class of flavonoids. Hesperetin, in the form of its glycoside Hesperidin, is the predominant flavonoid in lemons and oranges." [drugbank:DB01094]
 xref: CHEBI:28230
 xref: MESH:C013015
 is_a: XCO:0000014 ! controlled content diet
