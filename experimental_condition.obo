@@ -8968,7 +8968,7 @@ synonym: "4-[methyl(nitroso)amino]butanoic acid" EXACT []
 synonym: "NMBA" EXACT []
 synonym: "N-nitrosomethylaminobutyric acid" EXACT []
 synonym: "N-nitrosomethylbenzylamine" EXACT []
-xref: CID:13643
+xref: pubchem.compound:13643
 xref: PMID:32123074
 is_a: XCO:0000089 ! neoplasm-inducing chemical
 created_by: slaulede
@@ -9275,7 +9275,7 @@ synonym: "(2R4-[(2E)-3-phosphonoprop-2-en-1-yl]piperazine-2-carboxylic acid" EXA
 synonym: "CPPene" EXACT []
 synonym: "D-Cpp-ene" EXACT []
 synonym: "SDZ EAA 494" EXACT []
-xref: CID:6435801
+xref: pubchem.compound:6435801
 xref: PMID:32507787
 is_a: XCO:0000947 ! NMDA receptor antagonist
 created_by: slaulede
