@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.115
-date: 16:07:2022 20:13
+data-version: 4.113
+date: 25:06:2022 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: experimental_condition_ontology
@@ -2335,11 +2335,10 @@ creation_date: 2013-03-11T16:37:02Z
 [Term]
 id: XCO:0000270
 name: captopril
-def: "A sulfur-containing carboxylic acid with a pyrrolidine substituent at C-1, which decreases or interferes with the activity of angiotensin converting enzyme (ACE) inhibitor, used as an anti-hypertensive drug." [http://en.wikipedia.org/wiki/Captopril "Wikipedia"]
+def: "A sulfur-containing carboxylic acid with a pyrrolidine substituent at C-1, which decreases or interferes with the activity of  angiotensin converting enzyme (ACE) inhibitor, used as an anti-hypertensive drug." [http://en.wikipedia.org/wiki/Captopril "Wikipedia"]
 xref: CHEBI:3380
 is_a: XCO:0000140 ! vasodilator
 is_a: XCO:0000524 ! angiotensin converting enzyme inhibitor
-is_a: XCO:0000863 ! antihypertensive agent
 created_by: JSmith
 creation_date: 2013-03-11T16:51:57Z
 
@@ -9397,54 +9396,6 @@ is_a: XCO:0000943 ! controlled glucosamine content drinking water
 is_a: XCO:0000944 ! controlled alendronate content drinking water
 created_by: slaulede
 creation_date: 2022-06-16T17:23:21Z
-
-[Term]
-id: XCO:0000956
-name: artificial cerebrospinal fluid with 0.14 M sodium
-def: "This is any condition in which the main influencing factor is artificial cerebrospinal fluid (aCSF) with a concentration of 0.14 M sodium ions. Artificial cerebrospinal fluid (aCSF) is a buffer solution prepared with a composition representative of cerebrospinal fluid." [https://en.wikipedia.org/wiki/Artificial_cerebrospinal_fluid, PMID:15458950]
-synonym: "aCSF with 0.14 M Na+" EXACT []
-synonym: "aCSF with 0.14 M sodium" EXACT []
-synonym: "artificial cerebrospinal fluid with 0.14 M Na+" EXACT []
-xref: PMID:15458950
-is_a: XCO:0000830 ! artificial cerebrospinal fluid
-created_by: slaulede
-creation_date: 2022-06-30T16:30:19Z
-
-[Term]
-id: XCO:0000957
-name: artificial cerebrospinal fluid with 0.15 M sodium
-def: "This is any condition in which the main influencing factor is artificial cerebrospinal fluid (aCSF) with a concentration of 0.15 M sodium ions. Artificial cerebrospinal fluid (aCSF) is a buffer solution prepared with a composition representative of cerebrospinal fluid." [https://en.wikipedia.org/wiki/Artificial_cerebrospinal_fluid, PMID:15458950]
-synonym: "aCSF with 0.15 M Na+" EXACT []
-synonym: "aCSF with 0.15 M sodium" EXACT []
-synonym: "artificial cerebrospinal fluid with 0.15 M Na+" EXACT []
-xref: PMID:15458950
-is_a: XCO:0000830 ! artificial cerebrospinal fluid
-created_by: slaulede
-creation_date: 2022-06-30T17:02:45Z
-
-[Term]
-id: XCO:0000958
-name: artificial cerebrospinal fluid with 0.16 M sodium
-def: "This is any condition in which the main influencing factor is artificial cerebrospinal fluid (aCSF) with a concentration of 0.16 M sodium ions. Artificial cerebrospinal fluid (aCSF) is a buffer solution prepared with a composition representative of cerebrospinal fluid." [https://en.wikipedia.org/wiki/Artificial_cerebrospinal_fluid, PMID:15458950]
-synonym: "aCSF with 0.16 M Na+" EXACT []
-synonym: "aCSF with 0.16 M sodium" EXACT []
-synonym: "artificial cerebrospinal fluid with 0.16 M Na+" EXACT []
-xref: PMID:15458950
-is_a: XCO:0000830 ! artificial cerebrospinal fluid
-created_by: slaulede
-creation_date: 2022-06-30T17:07:23Z
-
-[Term]
-id: XCO:0000959
-name: Guanabenz
-def: "This is any condition in which the main influencing factor is a dichlorobenzene derivative that is a cell-permeable &#945;2-adrenoceptor agonist used as an antihypertensive agent." [CHEBI:5553, MESH:D006143]
-synonym: "2,6-Dichlorobenzylideneaminoguanidine" EXACT []
-synonym: "Guanabenz" EXACT []
-xref: PMID:15458950
-is_a: XCO:0000673 ! alpha-adrenergic agonist
-is_a: XCO:0000863 ! antihypertensive agent
-created_by: slaulede
-creation_date: 2022-07-11T17:40:30Z
 
 [Typedef]
 id: has_component

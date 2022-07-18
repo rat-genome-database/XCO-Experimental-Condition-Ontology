@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.115
-date: 16:07:2022 20:13
+data-version: 4.114
+date: 09:07:2022 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: experimental_condition_ontology
@@ -2335,11 +2335,10 @@ creation_date: 2013-03-11T16:37:02Z
 [Term]
 id: XCO:0000270
 name: captopril
-def: "A sulfur-containing carboxylic acid with a pyrrolidine substituent at C-1, which decreases or interferes with the activity of angiotensin converting enzyme (ACE) inhibitor, used as an anti-hypertensive drug." [http://en.wikipedia.org/wiki/Captopril "Wikipedia"]
+def: "A sulfur-containing carboxylic acid with a pyrrolidine substituent at C-1, which decreases or interferes with the activity of  angiotensin converting enzyme (ACE) inhibitor, used as an anti-hypertensive drug." [http://en.wikipedia.org/wiki/Captopril "Wikipedia"]
 xref: CHEBI:3380
 is_a: XCO:0000140 ! vasodilator
 is_a: XCO:0000524 ! angiotensin converting enzyme inhibitor
-is_a: XCO:0000863 ! antihypertensive agent
 created_by: JSmith
 creation_date: 2013-03-11T16:51:57Z
 
@@ -9433,18 +9432,6 @@ xref: PMID:15458950
 is_a: XCO:0000830 ! artificial cerebrospinal fluid
 created_by: slaulede
 creation_date: 2022-06-30T17:07:23Z
-
-[Term]
-id: XCO:0000959
-name: Guanabenz
-def: "This is any condition in which the main influencing factor is a dichlorobenzene derivative that is a cell-permeable &#945;2-adrenoceptor agonist used as an antihypertensive agent." [CHEBI:5553, MESH:D006143]
-synonym: "2,6-Dichlorobenzylideneaminoguanidine" EXACT []
-synonym: "Guanabenz" EXACT []
-xref: PMID:15458950
-is_a: XCO:0000673 ! alpha-adrenergic agonist
-is_a: XCO:0000863 ! antihypertensive agent
-created_by: slaulede
-creation_date: 2022-07-11T17:40:30Z
 
 [Typedef]
 id: has_component
