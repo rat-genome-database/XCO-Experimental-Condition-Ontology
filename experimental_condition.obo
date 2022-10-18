@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.116
-date: 23:07:2022 20:13
+data-version: 4.117
+date: 15:10:2022 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: experimental_condition_ontology
@@ -4247,7 +4247,6 @@ creation_date: 2014-08-26T13:12:48Z
 id: XCO:0000464
 name: controlled ex vivo organ condition
 def: "Any experimental condition in which the internal or external environment of an organ, that is, a differentiated, structural part of a system of the body that performs a specific function, is experimentally manipulated or regulated, for example through perfusion, increased or decreased blood flow, etc. after removal from the body." [Farlex:Farlex_Partner_Medical_Dictionary_2012, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
-synonym: "controlled in vitro organ condition" RELATED []
 is_a: XCO:0000000 ! experimental condition
 created_by: JSmith
 creation_date: 2015-01-13T12:48:26Z
@@ -4256,7 +4255,6 @@ creation_date: 2015-01-13T12:48:26Z
 id: XCO:0000465
 name: controlled ex vivo artery condition
 def: "Any experimental condition in which the internal or external environment of an artery, one of the large blood vessels carrying blood in a direction away from the heart to the tissues, is experimentally manipulated or regulated, for example through perfusion, increased or decreased blood flow, etc. after removal from the body." [Farlex:Farlex_Partner_Medical_Dictionary_2012, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
-synonym: "controlled in vitro artery condition" RELATED []
 is_a: XCO:0000464 ! controlled ex vivo organ condition
 created_by: JSmith
 creation_date: 2015-01-13T12:59:22Z
@@ -4265,9 +4263,7 @@ creation_date: 2015-01-13T12:59:22Z
 id: XCO:0000466
 name: controlled ex vivo artery perfusion pressure
 def: "A condition in which the pressure, or force per area, exerted by a perfusate against the walls of an artery after removal from the body but while the tissue is still viable, is regulated or maintained at a specified level." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, Farlex:Farlex_Partner_Medical_Dictionary_2012, ISBN:978-1416049982]
-synonym: "controlled ex vivo artery intraluminal  pressure" RELATED []
-synonym: "controlled in vitro artery intraluminal  pressure" RELATED []
-synonym: "controlled in vitro artery perfusion pressure" RELATED []
+synonym: "controlled ex vivo artery intraluminal  pressure" EXACT []
 is_a: XCO:0000465 ! controlled ex vivo artery condition
 created_by: JSmith
 creation_date: 2015-01-13T13:16:48Z
@@ -9200,7 +9196,6 @@ creation_date: 2022-05-02T16:49:07Z
 id: XCO:0000940
 name: controlled ex vivo pancreas condition
 def: "This is an experimental condition in which the internal or external environment of a pancreas, the combined endocrine/exocrine gland situated transversely behind the stomach, between the spleen and the duodenum, is experimentally manipulated or regulated, for example through perfusion, increased or decreased blood flow, etc. after removal from the body." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
-synonym: "controlled in vitro pancreas condition" EXACT []
 xref: PMID:10323602
 is_a: XCO:0000464 ! controlled ex vivo organ condition
 created_by: slaulede
@@ -9210,7 +9205,6 @@ creation_date: 2022-05-05T16:23:16Z
 id: XCO:0000941
 name: controlled ex vivo pancreas perfusion
 def: "This is an experimental condition consisting of perfusion of the isolated pancreas with some physiological buffer (consisting of controlled solute composition and specific flow rate) in through the celiac artery and out through a portal vein." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
-synonym: "controlled in vitro pancreas perfusion" EXACT []
 xref: PMID:10323602
 xref: PMID:1097860
 is_a: XCO:0000940 ! controlled ex vivo pancreas condition
@@ -9455,6 +9449,26 @@ is_a: XCO:0000010 ! air oxygen content
 is_a: XCO:0000012 ! air carbon dioxide content
 created_by: slaulede
 creation_date: 2022-07-18T18:12:29Z
+
+[Term]
+id: XCO:0000961
+name: controlled ex vivo heart condition
+def: "This is an experimental condition in which the internal or external environment of a heart is experimentally manipulated or regulated, for example through perfusion, increased or decreased blood flow, etc. after removal from the body." [https://www.merriam-webster.com, ISBN-13:978-0781733908]
+synonym: "controlled isolated heart condition" EXACT []
+is_a: XCO:0000464 ! controlled ex vivo organ condition
+created_by: slaulede
+creation_date: 2022-10-10T11:29:50Z
+
+[Term]
+id: XCO:0000962
+name: controlled ex vivo heart perfusion
+def: "This is an experimental condition consisting of perfusion (retrograde or forward) of the isolated heart with some physiological buffer (consisting of controlled solute composition and specific flow rate) through the aorta. In retrograde perfusion the backwards pressure causes the aortic valve to shut, forcing the solution into the coronary vessels, which normally supply the heart tissue with blood." [https://www.harvardapparatus.com/physiology/isolated-organ-perfusion-studies/isolated-heart-perfusion-systems.html, https://www.merriam-webster.com]
+synonym: "biventricular working heart perfusion" NARROW []
+synonym: "Langendorff heart perfusion" NARROW []
+synonym: "working (ejecting) heart perfusion" NARROW []
+is_a: XCO:0000961 ! controlled ex vivo heart condition
+created_by: slaulede
+creation_date: 2022-10-10T12:35:44Z
 
 [Typedef]
 id: has_component
