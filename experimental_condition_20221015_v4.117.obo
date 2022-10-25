@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.118
-date: 22:10:2022 20:13
+data-version: 4.117
+date: 15:10:2022 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: experimental_condition_ontology
@@ -2480,7 +2480,7 @@ creation_date: 2013-03-13T12:12:45Z
 id: XCO:0000285
 name: controlled NG-nitroarginine methyl ester content drinking water
 def: "A drink made up of water and a specified amount of the basic amino acid commonly known as L-NAME and used as a non-selective inhibitor of nitric oxide synthase, consumed by an organism as part of an experiment." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, MESH:D019331]
-synonym: "controlled L-NAME content drinking water" EXACT []
+synonym: "controlled L-NAME content water" EXACT []
 is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0000121 ! NG-nitroarginine methyl ester
 created_by: JSmith
@@ -5627,7 +5627,6 @@ creation_date: 2019-03-19T17:06:26Z
 id: XCO:0000608
 name: Allyl isothiocyanate
 def: "An isothiocyanate with the formula CH2=CHCH2N=C=S. A colorless oil with boiling point 152degreeC, it is responsible for the pungent taste of mustard, horseradish, and wasabi." [CHEBI:73224]
-synonym: "MO" RELATED []
 synonym: "mustard oil" RELATED []
 xref: CHEBI:73224
 xref: pubchem.compound:5971
@@ -9470,15 +9469,6 @@ synonym: "working (ejecting) heart perfusion" NARROW []
 is_a: XCO:0000961 ! controlled ex vivo heart condition
 created_by: slaulede
 creation_date: 2022-10-10T12:35:44Z
-
-[Term]
-id: XCO:0000963
-name: controlled NG-nitroarginine methyl ester content in acidified drinking water
-def: "This is a drink made up of acidified water (pH 2.4-2.8) and a specified amount of the basic amino acid commonly known as L-NAME and used as a non-selective inhibitor of nitric oxide synthase, consumed by an organism as part of an experiment." [ISBN-13:978-0781733908, MESH:D019331]
-synonym: "controlled L-NAME content in acidified drinking water" EXACT []
-is_a: XCO:0000285 ! controlled NG-nitroarginine methyl ester content drinking water
-created_by: slaulede
-creation_date: 2022-10-18T11:24:31Z
 
 [Typedef]
 id: has_component
