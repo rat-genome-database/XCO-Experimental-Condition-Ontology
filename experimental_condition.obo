@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.118
-date: 22:10:2022 20:13
+data-version: 4.119
+date: 18:02:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: experimental_condition_ontology
@@ -627,6 +627,7 @@ name: neoplasm-inducing chemical
 def: "Any condition in which the main influencing factor is a chemical, i.e., a substance having a specific molecular composition obtained by or used in a reaction involving changes to atoms or molecules, which has the capacity to promote the formation of neoplasms, new and abnormal growths, specifically those in which cell multiplication is uncontrolled and progressive." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Collins:Collins_Online_English_Dictionary, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "cancer inducing agent" NARROW []
 synonym: "carcinogen" NARROW []
+synonym: "carcinogenic agent" NARROW []
 synonym: "neoplasm inducing agent" EXACT []
 is_a: XCO:0000259 ! disease-inducing chemical
 created_by: mshimoyama
@@ -9479,6 +9480,37 @@ synonym: "controlled L-NAME content in acidified drinking water" EXACT []
 is_a: XCO:0000285 ! controlled NG-nitroarginine methyl ester content drinking water
 created_by: slaulede
 creation_date: 2022-10-18T11:24:31Z
+
+[Term]
+id: XCO:0000964
+name: perfluorooctanoic acid
+def: "This is is perfluorinated octanoic acid, a fluoroalkanoic acid." [CHEBI:35549]
+synonym: "pentadecafluorooctanoic acid" EXACT []
+xref: MESH:C023036
+is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000757 ! surfactant
+created_by: slaulede
+creation_date: 2023-02-14T11:34:01Z
+
+[Term]
+id: XCO:0000965
+name: controlled in vitro cell condition
+def: "This is any experimental condition in which cells derived from a multicellular organism are cultured and experimentally manipulated or regulated, for example through drug treatment or nutrient availability, in an artificial environment outside the living body." [https://www.merriam-webster.com, ISBN-13:978-0781733908]
+synonym: "controlled petri dish condition" EXACT []
+synonym: "controlled test tube condition" EXACT []
+is_a: XCO:0000000 ! experimental condition
+created_by: slaulede
+creation_date: 2023-02-14T12:04:36Z
+
+[Term]
+id: XCO:0000966
+name: controlled serum-free condition
+def: "This is any experimental condition in which cultured cells are grown in a defined medium without added animal serum." [https://www.merriam-webster.com, ISBN-13:978-0781733908]
+synonym: "condition of growth medium without serum" EXACT []
+synonym: "serum starvation" EXACT []
+is_a: XCO:0000965 ! controlled in vitro cell condition
+created_by: slaulede
+creation_date: 2023-02-14T12:17:04Z
 
 [Typedef]
 id: has_component
