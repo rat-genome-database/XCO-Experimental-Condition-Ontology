@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.119
-date: 18:02:2023 20:13
+data-version: 4.120
+date: 04:03:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: experimental_condition_ontology
@@ -4520,7 +4520,8 @@ creation_date: 2015-12-07T15:59:02Z
 [Term]
 id: XCO:0000492
 name: controlled exposure to a juvenile of the same species
-def: "An experimental condition in which a test subject is placed in social contact with a juvenile (young, not yet mature, not fully grown and/or not fully developed) organism from the same species." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed]
+def: "This is an experimental condition in which a test subject is placed in social contact with a juvenile (young, not yet mature, not fully grown and/or not fully developed) organism from the same species." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, https://www.merriam-webster.com]
+synonym: "controlled exposure to an adolescent of the same species" EXACT []
 is_a: XCO:0000491 ! controlled exposure to an organism of the same species
 created_by: jesmith
 creation_date: 2015-12-07T16:11:18Z
@@ -4922,7 +4923,7 @@ synonym: "Sutent" RELATED []
 xref: CHEBI:38940
 is_a: XCO:0000160 ! receptor antagonist
 is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000523 ! enzyme inhibitor
+is_a: XCO:0000970 ! protein kinase inhibitor
 created_by: jesmith
 creation_date: 2017-08-11T17:28:23Z
 
@@ -5698,8 +5699,8 @@ creation_date: 2019-05-22T13:50:17Z
 
 [Term]
 id: XCO:0000615
-name: Embolism injection at middle cerebral artery
-def: "Injection of coagulated blood clot to middle cerebral artery to induced an embolic stroke model in animals." []
+name: embolism injection of middle cerebral artery
+def: "This is a condition in which the main influencing factor is an injection of a coagulated blood clot to the middle cerebral artery to induce an embolic stroke in an experimental subject." []
 is_a: XCO:0000347 ! blood vessel occlusion
 created_by: sjwang
 creation_date: 2019-05-22T14:06:17Z
@@ -6750,7 +6751,7 @@ name: mitogen-activated protein kinase inhibitor
 def: "Any condition in which the main influencing factor is a chemical which decreases or interferes with the activity of a mitogen-activated protein kinase." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed]
 synonym: "EC 2.7.11.24 inhibitor" EXACT []
 synonym: "MAPK inhibitor" RELATED []
-is_a: XCO:0000523 ! enzyme inhibitor
+is_a: XCO:0000970 ! protein kinase inhibitor
 created_by: slaulede
 creation_date: 2020-06-08T14:19:35Z
 
@@ -7558,7 +7559,7 @@ synonym: "Y27632" EXACT []
 xref: CAS:146986-50-7
 xref: MESH:C108830
 xref: PMID:22508433
-is_a: XCO:0000523 ! enzyme inhibitor
+is_a: XCO:0000970 ! protein kinase inhibitor
 created_by: slaulede
 creation_date: 2021-01-04T16:52:50Z
 
@@ -9511,6 +9512,94 @@ synonym: "serum starvation" EXACT []
 is_a: XCO:0000965 ! controlled in vitro cell condition
 created_by: slaulede
 creation_date: 2023-02-14T12:17:04Z
+
+[Term]
+id: XCO:0000967
+name: gastric bypass
+def: "This is is a type of weight-loss surgery that involves creating a small pouch from the stomach and connecting the newly created pouch directly to the small intestine. After gastric bypass, swallowed food will go into this small pouch of stomach and then directly into the small intestine, thereby bypassing most of the stomach and the first section of the small intestine." [https://www.mayoclinic.org/tests-procedures/gastric-bypass-surgery/about/pac-20385189, https://www.merriam-webster.com]
+synonym: "gastric bypass surgery" EXACT []
+synonym: "Roux-en-Y gastric bypass" EXACT []
+synonym: "Roux-en-Y gastric bypass surgery" EXACT []
+is_a: XCO:0000165 ! surgical manipulation
+created_by: slaulede
+creation_date: 2023-02-27T18:10:08Z
+
+[Term]
+id: XCO:0000968
+name: experimental traumatic brain injury
+def: "This is a condition induced by an experimental surgical procedure involving fluid percussion, cortical impact, or weight drop/impact acceleration to produce controlled injury to the surface of the brain." [PMID:21876530]
+synonym: "experimental TBI" EXACT []
+is_a: XCO:0000165 ! surgical manipulation
+created_by: slaulede
+creation_date: 2023-02-27T18:45:54Z
+
+[Term]
+id: XCO:0000969
+name: lateral fluid percussion injury
+def: "This is an experimental injury condition produced by a pendulum-and-piston-based device applying a brief fluid pressure pulse onto the intact dura after performing a craniectomy on the head of the subject." [PMID:19022291, PMID:21876530]
+synonym: "lateral fluid-percussion injury" EXACT []
+synonym: "LFPI" EXACT []
+synonym: "parasagittal fluid percussion injury" EXACT []
+is_a: XCO:0000968 ! experimental traumatic brain injury
+created_by: slaulede
+creation_date: 2023-03-02T13:40:02Z
+
+[Term]
+id: XCO:0000970
+name: protein kinase inhibitor
+def: "This is any condition in which the main influencing factor is a chemical which decreases or interferes with the activity of a protein kinase inhibitor. A protein kinase is an enzyme that regulates the biological activity of proteins by phosphorylation of specific amino acids with ATP as the source of phosphate, thereby inducing a conformational change from an inactive to an active form of the protein." [https://en.wikipedia.org/wiki/Protein_kinase, https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/protein-kinases]
+is_a: XCO:0000523 ! enzyme inhibitor
+created_by: slaulede
+creation_date: 2023-03-02T14:39:02Z
+
+[Term]
+id: XCO:0000971
+name: SB525334
+def: "This is any condition in which the main influencing factor is the chemical SB525334, which decreases or interferes with the activity of the serine/threonine protein kinase Alk5 (activin receptor-like kinase-5)." [RGD:733386]
+synonym: "6-(2-(tert-Butyl)-5-(6-methylpyridin-2-yl)-1H-imidazol-4-yl)quinoxaline" EXACT []
+synonym: "SB 525334" EXACT []
+synonym: "TGF- beta RI Kinase Inhibitor VIII" EXACT []
+is_a: XCO:0000970 ! protein kinase inhibitor
+created_by: slaulede
+creation_date: 2023-03-02T14:58:14Z
+
+[Term]
+id: XCO:0000972
+name: nintedanib
+def: "This is any condition in which the main influencing factor is the chemical nintedanib, a member of the class of oxindoles that is a multi-kinase inhibitor used for the treatment of idiopathic pulmonary fibrosis and cancer." [CHEBI:85164]
+synonym: "(Z)-Methyl 3-(((4-(N-methyl-2-(4-methylpiperazin-1-yl)acetamido)phenyl)amino)(phenyl)methylene)-2-oxoindoline-6-carboxylate" EXACT []
+synonym: "Intedanib" EXACT []
+synonym: "methyl (3Z)-3-[(4-{methyl[(4-methylpiperazin-1-yl)acetyl]amino}anilino)(phenyl)methylidene]-2-oxo-2,3-dihydro-1H-indole-6-carboxylate" EXACT []
+synonym: "Ofev" EXACT []
+synonym: "Vargatef" EXACT []
+xref: MESH:C530716
+is_a: XCO:0000435 ! antineoplastic agent
+is_a: XCO:0000970 ! protein kinase inhibitor
+created_by: slaulede
+creation_date: 2023-03-02T15:05:33Z
+
+[Term]
+id: XCO:0000973
+name: sorafenib
+def: "This is any condition in which the main influencing factor is the chemical sorafenib, a member of the class of phenylureas that are multi-kinase inhibitors and anti-neoplastic agents." [CHEBI:50924]
+synonym: "4-(4-(3-(4-CHLORO-3-(TRIFLUOROMETHYL)PHENYL)UREIDO)PHENOXY)-N-METHYLPICOLINAMIDE" EXACT []
+synonym: "4-[4-({[4-chloro-3-(trifluoromethyl)phenyl]carbamoyl}amino)phenoxy]-N-methylpyridine-2-carboxamide" EXACT []
+synonym: "BAY 43-9006" EXACT []
+synonym: "Nexavar" EXACT []
+is_a: XCO:0000435 ! antineoplastic agent
+is_a: XCO:0000970 ! protein kinase inhibitor
+created_by: slaulede
+creation_date: 2023-03-02T15:15:18Z
+
+[Term]
+id: XCO:0000974
+name: bile duct ligation
+def: "This is a condition in which the main influencing factor is a surgical procedure causing blockage of the bile duct, which leads to acute obstructive jaundice and eventually to liver fibrosis." [https://www.sciencedirect.com/topics/medicine-and-dentistry/bile-duct-ligation]
+synonym: "CBDL" EXACT []
+synonym: "common bile duct ligation" EXACT []
+is_a: XCO:0000165 ! surgical manipulation
+created_by: slaulede
+creation_date: 2023-03-02T15:29:13Z
 
 [Typedef]
 id: has_component
