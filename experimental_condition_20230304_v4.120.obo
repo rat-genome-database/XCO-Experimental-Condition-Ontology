@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.121
-date: 11:03:2023 20:13
+data-version: 4.120
+date: 04:03:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: experimental_condition_ontology
@@ -4153,7 +4153,7 @@ creation_date: 2014-06-12T17:25:24Z
 [Term]
 id: XCO:0000453
 name: controlled butter content diet
-def: "This is a solid diet in which the amount of butter is maintained at a specified level. Butter is a soft yellowish or whitish emulsion of milk fat, water and air, churned from milk or cream and processed for use in cooking and as a food." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+def: "A solid diet in which the amount of butter is maintained at a specified level.  Butter is a soft yellowish or whitish emulsion of milk fat, water and air, churned from milk or cream and processed for use in cooking and as a food." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_a: XCO:0000014 ! controlled content diet
 created_by: JSmith
 creation_date: 2014-06-12T17:27:00Z
@@ -9600,94 +9600,6 @@ synonym: "common bile duct ligation" EXACT []
 is_a: XCO:0000165 ! surgical manipulation
 created_by: slaulede
 creation_date: 2023-03-02T15:29:13Z
-
-[Term]
-id: XCO:0000975
-name: carbon tetrachloride
-def: "This chlorocarbon is methane in which all the hydrogens have been replaced by chloro groups. It is a solvent for oils, fats, lacquers, varnishes, rubber waxes, and resins, and a starting material in the manufacturing of organic compounds." [CHEBI:27385, MESH:D002251]
-synonym: "CCl4" EXACT []
-synonym: "tetrachloromethane" EXACT []
-xref: CHEBI:27385
-xref: MESH:D002251
-is_a: XCO:0000240 ! toxin
-created_by: slaulede
-creation_date: 2023-03-06T12:33:48Z
-
-[Term]
-id: XCO:0000976
-name: trichlorethylene
-def: "This is a chloroethene that is ethene substituted by chlorides at positions 1, 1 and 2. It is a highly volatile inhalation anesthetic used mainly in short surgical procedures where light anesthesia with good analgesia is required. It is also used as an industrial solvent." [CHEBI:16602, MESH:D014241]
-synonym: "1,1,2-trichloroethene" EXACT []
-synonym: "trichloroethene" EXACT []
-is_a: XCO:0000106 ! anesthetic/analgesic
-is_a: XCO:0000276 ! hydrocarbon
-created_by: slaulede
-creation_date: 2023-03-06T13:54:06Z
-
-[Term]
-id: XCO:0000977
-name: supplemented Williams' E Medium
-def: "This is any experimental condition in which cells derived from a multicellular organism are cultured in medium enriched in amino acids, glucose, and other unique ingredients and supplemented with dexamethasone, penicillin/streptomycin, ITS+, GlutaMAX and HEPES; Gibco #CM4000. William's E Medium was originally developed by Williams and Gunn as reduced serum-supplemented medium for long-term cell cultures of adult rat liver epithelial cells." [https://www.thermofisher.com/order/catalog/product/12551032, PMID:31501904]
-synonym: "supplemented Williams E Medium" EXACT []
-xref: PMID:31501904
-is_a: XCO:0000965 ! controlled in vitro cell condition
-created_by: slaulede
-creation_date: 2023-03-06T14:19:01Z
-
-[Term]
-id: XCO:0000978
-name: acetyl-L-carnitine
-def: "This is any condition in which the main influencing factor is an acetylated form of L-carnitine. It is naturally produced by the human body, and it is available as a dietary supplement. Acetyl-L-carnitine is broken down in the blood by plasma esterases to carnitine which is used by the body to transport fatty acids into the mitochondria for breakdown." [https://en.wikipedia.org/wiki/Acetylcarnitine]
-synonym: "acetylcarnitine" EXACT []
-synonym: "ALC" EXACT []
-synonym: "ALCAR" EXACT []
-synonym: "LAC" EXACT []
-synonym: "L-ACETYLCARNITINE" EXACT []
-synonym: "L-acetyl-carnitine" EXACT []
-synonym: "O-Acetyl-L-carnitine" EXACT []
-xref: CHEBI:57589
-xref: MESH:D000108
-is_a: XCO:0000561 ! antidepressant
-created_by: slaulede
-creation_date: 2023-03-09T13:05:38Z
-
-[Term]
-id: XCO:0000979
-name: controlled acetyl-L-carnitine content drinking water
-def: "This is an experimental condition in which the main influencing factor is a drink made up of water and a specified amount of acetyl-L-carnitine in which the amount of acetyl-L-carnitine consumed is maintained at a specified level." [https://www.merriam-webster.com, ISBN-13:978-0781733908]
-synonym: "controlled acetylcarnitine content drinking water" EXACT []
-synonym: "controlled ALCAR content drinking water" EXACT []
-synonym: "controlled ALC content drinking water" EXACT []
-synonym: "controlled LAC content drinking water" EXACT []
-synonym: "controlled L-acetyl-carnitine content drinking water" EXACT []
-synonym: "controlled L-ACETYLCARNITINE L-ACETYLCARNITINE content drinking water" EXACT []
-synonym: "controlled O-Acetyl-L-carnitine content drinking water" EXACT []
-xref: CHEBI:57589
-xref: MESH:D000108
-is_a: XCO:0000163 ! controlled content drinking water
-is_a: XCO:0000978 ! acetyl-L-carnitine
-created_by: slaulede
-creation_date: 2023-03-09T13:19:08Z
-
-[Term]
-id: XCO:0000980
-name: controlled content gelled diet
-def: "This is an experimental regimen of gelled food in which the amount of solid elements, water, and some other component(s) in the diet are controlled." [https://www.merriam-webster.com, PMID:12684228]
-synonym: "controlled content gel-agar diet" RELATED []
-synonym: "controlled content gel diet" EXACT []
-synonym: "controlled content semisolid diet" RELATED []
-is_a: XCO:0000916 ! gelled diet
-created_by: slaulede
-creation_date: 2023-03-09T13:43:10Z
-
-[Term]
-id: XCO:0000981
-name: controlled lithium chloride content gelled diet
-def: "This is an experimental regimen of gelled food in which the amount of solid elements, water, and lithium chloride in the diet are controlled." [PMID:12684228, PMID:31146973]
-synonym: "controlled LiCl content gelled diet" EXACT []
-is_a: XCO:0000980 ! controlled content gelled diet
-created_by: slaulede
-creation_date: 2023-03-09T13:47:41Z
 
 [Typedef]
 id: has_component
