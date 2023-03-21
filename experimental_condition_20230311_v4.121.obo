@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.122
-date: 18:03:2023 20:13
+data-version: 4.121
+date: 11:03:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: experimental_condition_ontology
@@ -4864,9 +4864,9 @@ creation_date: 2017-08-11T16:57:10Z
 [Term]
 id: XCO:0000529
 name: gene transfer using adenovirus vector
-def: "A condition in which gene transfer has been performed using an adenovirus as the carrier of the genetic material. An adenovirus is any of a group of medium-sized (90-100 nm) non-enveloped icosahedral viruses of the family Adenoviridae which are characterized by a nucleocapsid surrounding a double-stranded DNA genome." [Segen:Segens_Medical_Dictionary_2012]
-synonym: "adenoviral gene transfer" EXACT []
-synonym: "adenovirus transfer" EXACT []
+def: "A condition in which gene transfer has been performed using an adenovirus as the carrier of the genetic material.  An adenovirus is any of a  group of medium-sized (90-100 nm) non-enveloped icosahedral viruses of the family Adenoviridae which are characterized by a nucleocapsid surrounding a double-stranded DNA genome." [Segen:Segens_Medical_Dictionary_2012]
+synonym: "adenoviral gene transfer" RELATED []
+synonym: "adenovirus transfer" RELATED []
 is_a: XCO:0000528 ! gene transfer
 created_by: jesmith
 creation_date: 2017-08-11T16:58:54Z
@@ -7794,7 +7794,6 @@ creation_date: 2021-03-02T15:55:53Z
 id: XCO:0000818
 name: gene transfer using plasmid vector
 def: "A condition in which gene transfer has been performed using a plasmid as the carrier of the genetic material. A plasmid is a small, circular, double-stranded DNA molecule that is distinct from a cell's chromosomal DNA. Plasmids naturally exist in bacterial cells, and they also occur in some eukaryotes. Plasmids that are used experimentally as molecular tools are called vectors." [https://www.merriam-webster.com/, https://www.nature.com/scitable/definition/plasmid-plasmids-28/]
-synonym: "plasmid gene transfer" EXACT []
 xref: PMID:21993171
 is_a: XCO:0000528 ! gene transfer
 created_by: slaulede
@@ -9689,150 +9688,6 @@ synonym: "controlled LiCl content gelled diet" EXACT []
 is_a: XCO:0000980 ! controlled content gelled diet
 created_by: slaulede
 creation_date: 2023-03-09T13:47:41Z
-
-[Term]
-id: XCO:0000982
-name: gene transfer using lentivirus vector
-def: "This is a condition in which gene transfer has been performed using a lentivirus as the carrier of the genetic material. Lentivirus is a genus of retroviruses that cause chronic and deadly diseases characterized by long incubation periods, in humans and other mammalian species. Lentiviruses are distributed worldwide, and are known to be hosted in apes, cows, goats, horses, cats, and sheep as well as several other mammals." [https://en.wikipedia.org/wiki/Lentivirus, ISBN-13:978-0781733908]
-synonym: "lentiviral gene transfer" EXACT []
-synonym: "lentivirus transfer" EXACT []
-is_a: XCO:0000528 ! gene transfer
-created_by: slaulede
-creation_date: 2023-03-13T13:28:54Z
-
-[Term]
-id: XCO:0000983
-name: gene transfer of the enhanced green fluorescent protein gene using a lentivirus vector
-def: "This is a condition in which the enhanced green fluorescent protein (EGFP) gene has been (transiently or stably) transferred into a cell or organism using an lentivirus carrier in order to induce synthesis of EGFP in the recipient cell or organism." [https://www.merriam-webster.com, PMID:28241067]
-synonym: "lentiviral transfer of the EGFP gene" EXACT []
-synonym: "transfer of recombinant lentivirus containing the EGFP gene" EXACT []
-is_a: XCO:0000982 ! gene transfer using lentivirus vector
-created_by: slaulede
-creation_date: 2023-03-13T13:41:04Z
-
-[Term]
-id: XCO:0000984
-name: gene transfer of the rat wild type Ccny gene using a lentivirus vector
-def: "This is a condition in which the rat wild type cyclin Y gene (Ccny) has been (transiently or stably) transferred into a cell or organism using a lentivirus carrier in order to induce synthesis of rat cyclin Y in the recipient cell or organism." [PMID:26220330]
-synonym: "lentiviral transfer of the rat wild type Ccny gene" EXACT []
-synonym: "transfer of recombinant lentivirus containing the rat wild type Ccny gene" EXACT []
-is_a: XCO:0000982 ! gene transfer using lentivirus vector
-created_by: slaulede
-creation_date: 2023-03-13T14:07:11Z
-
-[Term]
-id: XCO:0000985
-name: gene transfer of the rat wild type Ccny-specific shRNA  using a lentivirus vector
-def: "This is a condition in which the rat wild type cyclin Y gene short hairpin RNA (Ccny-shRNA) has been (transiently or stably) transferred into a cell or organism using a lentivirus carrier in order to reduce synthesis of rat wild type cyclin Y in the recipient cell or organism." [https://www.merriam-webster.com, PMID:28241067]
-synonym: "lentiviral transfer of the rat wild type Ccny-specific shRNA" EXACT []
-synonym: "transfer of recombinant lentivirus containing the rat wild type-specific shRNA" EXACT []
-is_a: XCO:0000982 ! gene transfer using lentivirus vector
-created_by: slaulede
-creation_date: 2023-03-13T14:27:37Z
-
-[Term]
-id: XCO:0000986
-name: gene transfer of the rat wild type Ccny-specific shRNA and EGFP gene using a lentivirus vector
-def: "This is a condition in which the rat wild type cyclin Y gene short hairpin RNA (Ccny-shRNA) and enhanced green fluorescent protein (EGFP) gene have been (transiently or stably) transferred into a cell or organism using a lentivirus carrier in order to reduce synthesis of rat wild type cyclin Y while inducing EGFP synthesis in the recipient cell or organism." [https://www.merriam-webster.com, PMID:28241067]
-synonym: "lentiviral transfer of the rat wild type Ccny-specific shRNA and the EGFP gene" EXACT []
-synonym: "transfer of recombinant lentivirus containing the rat wild type-specific shRNA and the EGFP gene" EXACT []
-is_a: XCO:0000983 ! gene transfer of the enhanced green fluorescent protein gene using a lentivirus vector
-is_a: XCO:0000985 ! gene transfer of the rat wild type Ccny-specific shRNA  using a lentivirus vector
-created_by: slaulede
-creation_date: 2023-03-13T14:36:52Z
-
-[Term]
-id: XCO:0000987
-name: gene transfer of the rat wild type Ccny gene and EGFP gene using a lentivirus vector
-def: "This is a condition in which the rat wild type cyclin Y gene (Ccny-WT) and enhanced green fluorescent protein (EGFP) gene have been (transiently or stably) transferred into a cell or organism using a lentivirus carrier in order to induce synthesis of both rat wild type cyclin Y and EGFP in the recipient cell or organism." [https://www.merriam-webster.com, PMID:28241067]
-synonym: "lentiviral transfer of the rat wild type Ccny-specific shRNA and the EGFP gene" EXACT []
-synonym: "transfer of recombinant lentivirus containing the rat wild type Ccny gene and the EGFP gene" EXACT []
-is_a: XCO:0000983 ! gene transfer of the enhanced green fluorescent protein gene using a lentivirus vector
-is_a: XCO:0000984 ! gene transfer of the rat wild type Ccny gene using a lentivirus vector
-created_by: slaulede
-creation_date: 2023-03-13T14:42:14Z
-
-[Term]
-id: XCO:0000988
-name: Dulbecco's Modified Eagle's Medium
-def: "This is any experimental condition in which the main influencing factor is Dulbecco's Modified Eagle's Medium. Typically, cells derived from a multicellular organism are cultured in this synthetic medium originally formulated by Dulbecco and Freeman and based on Eagle's Minimal Essential Medium." [https://en.wikipedia.org/wiki/Eagle%27s_minimal_essential_medium, https://www.thermofisher.com/us/en/home/technical-resources/media-formulation.48.html]
-synonym: "DMEM" EXACT []
-synonym: "DMEM, low glucose, pyruvate" NARROW []
-is_a: XCO:0000965 ! controlled in vitro cell condition
-created_by: slaulede
-creation_date: 2023-03-14T11:55:08Z
-
-[Term]
-id: XCO:0000989
-name: fetal bovine serum
-def: "This is any experimental condition in which the main influencing factor is fetal bovine serum. Fetal bovine serum is the most widely used serum-supplement for the in vitro cell culture of eukaryotic cells. Fetal bovine serum is derived from the blood drawn from a bovine fetus via a closed system of collection at a slaughterhouse." [https://en.wikipedia.org/wiki/Fetal_bovine_serum, PMID: 13598821]
-synonym: "FBS" EXACT []
-synonym: "fetal calf serum" EXACT []
-relationship: part_of XCO:0000965 ! controlled in vitro cell condition
-created_by: slaulede
-creation_date: 2023-03-14T12:20:39Z
-
-[Term]
-id: XCO:0000990
-name: Neurobasal medium
-def: "This is any experimental condition in which the main influencing factor is Neurobasal medium, a culture medium formulated to meet the special requirements of neuronal cells. This medium allows for the long-term maintenance of normal phenotype and growth of neuronal cells, and the maintenance of pure populations of neuronal cells without the need of an astrocyte feeder layer." [https://www.thermofisher.com/us/en/home/technical-resources/media-formulation.251.html]
-xref: PMID:26640375
-is_a: XCO:0000966 ! controlled serum-free condition
-created_by: slaulede
-creation_date: 2023-03-14T12:39:34Z
-
-[Term]
-id: XCO:0000991
-name: GlutaMAX-I
-def: "This is any experimental condition in which the main influencing factor is GlutaMAX-I, a dipeptide (L-alanyl-L-glutamine) substitute for L-glutamine that can be used as a direct substitute for L-Glutamine at equimolar concentrations in mammalian and stem cell culture with minimal or no adaptation. L-alanyl-L-glutamine eliminates problems associated with the spontaneous breakdown of L-glutamine during incubation, is highly soluble in aqueous solution, and is heat stable." [https://www.fishersci.com]
-synonym: "L-alanyl-L-glutamine" EXACT []
-xref: PMID:26640375
-relationship: part_of XCO:0000965 ! controlled in vitro cell condition
-created_by: slaulede
-creation_date: 2023-03-14T14:17:15Z
-
-[Term]
-id: XCO:0000992
-name: B-27
-def: "This is any experimental condition in which the main influencing factor is B-27, an optimized serum-free supplement used to support the low- or high-density growth and short- or long-term viability of embryonic, post-natal, and adult hippocampal and other CNS neurons. It is meant to supplement a basal medium such as Neurobasal medium." [https://www.thermofisher.com/order/catalog/product/17504044]
-xref: PMID:26640375
-relationship: part_of XCO:0000965 ! controlled in vitro cell condition
-created_by: slaulede
-creation_date: 2023-03-14T14:27:51Z
-
-[Term]
-id: XCO:0000993
-name: controlled humidity
-def: "This is any experimental condition in which the main influencing factor is a controlled level of moisture in the air provided to an organism, ex vivo tissue, or cultured cells." [https://www.merriam-webster.com]
-synonym: "air H2O content" EXACT []
-synonym: "controlled H2O content air" EXACT []
-synonym: "controlled water content air" EXACT []
-xref: PMID:26640375
-is_a: XCO:0000009 ! controlled atmosphere composition
-created_by: slaulede
-creation_date: 2023-03-14T14:39:30Z
-
-[Term]
-id: XCO:0000994
-name: StemPro NSC SFM
-def: "This is any experimental condition in which the main influencing factor is StemPro NSC SFM, a serum-free culture medium formulated to meet the special requirements of neuronal stem cells. This medium supports expansion of both adherent and spheroid cultures, and differentiation capability into astrocytes, oligodendrocytes and neurons." [https://www.thermofisher.com/order/catalog/product/A1050901]
-synonym: "neuralstem cell serum free medium" EXACT []
-xref: PMID:2664037
-is_a: XCO:0000966 ! controlled serum-free condition
-created_by: slaulede
-creation_date: 2023-03-14T14:52:39Z
-
-[Term]
-id: XCO:0000995
-name: PDGF-AA
-def: "This is any experimental condition in which the main influencing factor is a dimeric isoform of platelet-derived growth factor (PDGF-AA). All PDGF isoforms are potent mitogens for connective tissue cells, including dermal fibroblasts, glial cells, arterial smooth muscle cells and some epithelial and endothelial cells. PDGF appears to be ubiquitous in neurons throughout the CNS, where it is suggested to play an important role in neuron survival and regeneration, and in mediation of glial cell proliferation and differentiation." [https://www.thermofisher.com/antibody/product/Human-PDGF-AA-Animal-Free-Recombinant-Protein/AF-100-13A-1MG]
-synonym: "platelet-derived growth factor-AA" EXACT []
-synonym: "platelet-derived growth factor-AA isoform" EXACT []
-synonym: "platelet-derived growth factor-alpha/alpha isoform" EXACT []
-xref: PMID:26640375
-relationship: part_of XCO:0000965 ! controlled in vitro cell condition
-created_by: slaulede
-creation_date: 2023-03-14T15:14:58Z
 
 [Typedef]
 id: has_component
