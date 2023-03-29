@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.123
-date: 25:03:2023 20:13
+data-version: 4.122
+date: 18:03:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: experimental_condition_ontology
@@ -63,7 +63,7 @@ is_a: XCO:0000059 ! physical activity
 id: XCO:0000009
 name: controlled atmosphere composition
 def: "An experimental condition in which the amount of one or more of the gases which make up the air surrounding an organism are controlled, or in which additional components are added to the air surrounding an organism, as part of the experiment on that organism." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, RGD:MS]
-is_a: XCO:0000998 ! controlled breathing condition
+is_a: XCO:0000000 ! experimental condition
 
 [Term]
 id: XCO:0000010
@@ -7595,8 +7595,6 @@ name: iron oxide nanoparticles
 def: "Any condition in which the main influencing factor is a particle with a size between 1 and 100 nanometers composed of iron oxide (Fe3O4). It contains both Fe2+ and Fe3+ ions and is sometimes formulated as FeO &#8729; Fe2O3. It exhibits permanent magnetism and is ferrimagnetic." [https://en.wikipedia.org/wiki/Iron(II\,III)_oxide, https://pubchem.ncbi.nlm.nih.gov/compound/Iron_II_III_oxide]
 synonym: "Fe3O4 nanoparticles" EXACT []
 synonym: "Iron(II,III)oxide nanoparticles" EXACT []
-synonym: "magnetic nanoparticles" EXACT []
-synonym: "MNPs" EXACT []
 xref: PMID:22661893
 is_a: XCO:0000338 ! chemical nanoparticle
 created_by: slaulede
@@ -9835,94 +9833,6 @@ xref: PMID:26640375
 relationship: part_of XCO:0000965 ! controlled in vitro cell condition
 created_by: slaulede
 creation_date: 2023-03-14T15:14:58Z
-
-[Term]
-id: XCO:0000996
-name: transfection of CHAER1 siRNA using Lipofectamine reagent
-def: "This is any condition in which the main influencing factor is CHAER1 (cardiac hypertrophy associated epigenetic regulator 1) siRNA. CHAER1 is an ncRNA involved in epigenetic regulation of gene expression. Lipofectamine is a proprietary formulation for transfecting small RNAs into cultured eukaryotic cells." [https://en.wikipedia.org/wiki/Small_interfering_RNA, https://www.thermofisher.com/us/en/home/life-science/cell-culture/transfection/transfection-reagents/lipofectamine-rnaimax-reagent.html]
-synonym: "transfection of CHAER1 short interfering RNA using Lipofectamine reagent" EXACT []
-synonym: "transfection of CHAER1 silencing RNA using Lipofectamine reagent" EXACT []
-synonym: "transfection of CHAER1 siRNA using Lipofectamine reagent" EXACT []
-synonym: "transfection of CHAER1 small interfering RNA using Lipofectamine reagent" EXACT []
-is_a: XCO:0000233 ! ribonucleic acid
-created_by: slaulede
-creation_date: 2023-03-23T13:58:48Z
-
-[Term]
-id: XCO:0000997
-name: transfection of negative control siRNA using Lipofectamine reagent
-def: "This is any condition in which the main influencing factor is negative control siRNA. Negative control siRNA is an siRNA with no significant sequence similarity to eukaryotic gene sequences. Lipofectamine is a proprietary formulation for transfecting small RNAs into cultured eukaryotic cells." [https://en.wikipedia.org/wiki/Small_interfering_RNA, https://www.thermofisher.com/us/en/home/life-science/cell-culture/transfection/transfection-reagents/lipofectamine-rnaimax-reagent.html]
-synonym: "transfection of negative control short interfering RNA using Lipofectamine reagent" EXACT []
-synonym: "transfection of negative control silencing RNA using Lipofectamine reagent" EXACT []
-synonym: "transfection of negative control small interfering RNA using Lipofectamine reagent" EXACT []
-is_a: XCO:0000233 ! ribonucleic acid
-created_by: slaulede
-creation_date: 2023-03-23T14:11:37Z
-
-[Term]
-id: XCO:0000998
-name: controlled breathing condition
-def: "This is any condition in which the main influencing factor is control of the process of breathing, whether by the control of the volume of air breathed or by control of the contents of the breathed air. This may be for the treatment of disease or for the experimental study of physiology or pathology." [https://www.merriam-webster.com]
-is_a: XCO:0000000 ! experimental condition
-created_by: slaulede
-creation_date: 2023-03-23T14:43:17Z
-
-[Term]
-id: XCO:0000999
-name: mechanical ventilation
-def: "This is any condition in which the main influencing factor is control of the process of breathing by a mechanical ventilator. The controlled parameters may be volume, pressure, and/or air component content." [https://my.clevelandclinic.org/health/treatments/15368-mechanical-ventilation, ISBN-13:978-0781733908]
-synonym: "controlled mechanical ventilation" EXACT []
-is_a: XCO:0000998 ! controlled breathing condition
-created_by: slaulede
-creation_date: 2023-03-23T14:49:38Z
-
-[Term]
-id: XCO:0001000
-name: mechanical ventilation with assist/control
-def: "This is any condition in which the main influencing factor is control of the process of breathing by a mechanical ventilator with assist/control (A/C), meaning the breathing rate is set and the tidal volume or pressure is set. When the subject triggers a breath, a full set tidal volume (or pressure) breath is delivered. When the vent delivers a subject-triggered breath, the next breath is timed in relation to this." [https://ventbasics.com/modes/modes-overview/, ISBN-13:978-0781733908]
-synonym: "A/C" EXACT []
-synonym: "assist/control" EXACT []
-synonym: "volume controlled ventilation" NARROW []
-synonym: "volume-controlled ventilation with constant tidal volumes" NARROW []
-is_a: XCO:0000999 ! mechanical ventilation
-created_by: slaulede
-creation_date: 2023-03-23T15:26:05Z
-
-[Term]
-id: XCO:0001001
-name: synchronized intermittent mandatory ventilation
-def: "This is any condition in which the main influencing factor is control of the process of breathing by a mechanical ventilator with synchronized intermittent mandatory ventilation, meaning the breathing rate is set and the tidal volume is set with pressure support. The subject receives a set minimum number of breaths (the set rate) and any additional breaths are determined by the subject." [https://ventbasics.com/modes/modes-overview/, ISBN-13:978-0781733908]
-synonym: "SIMV" EXACT []
-is_a: XCO:0000999 ! mechanical ventilation
-created_by: slaulede
-creation_date: 2023-03-23T15:36:28Z
-
-[Term]
-id: XCO:0001002
-name: variable ventilation
-def: "This is any condition in which the main influencing factor is control of the process of breathing by a mechanical ventilator using variable tidal volume, or variable pressure support, and/or variable respiratory rate." [ISBN-13:978-0781733908, PMID:26979175]
-synonym: "mechanical ventilation with variable tidal volume" NARROW []
-is_a: XCO:0000999 ! mechanical ventilation
-created_by: slaulede
-creation_date: 2023-03-23T17:26:15Z
-
-[Term]
-id: XCO:0001003
-name: magnetic field
-def: "This is any condition in which the main influencing factor is a magnetic field, a vector field in the neighborhood of a magnet, electric current, or changing electric field in which magnetic forces are observable." [https://byjus.com/physics/, https://www.merriam-webster.com]
-xref: PMID:24407149
-is_a: XCO:0000965 ! controlled in vitro cell condition
-created_by: slaulede
-creation_date: 2023-03-24T14:19:32Z
-
-[Term]
-id: XCO:0001004
-name: uniform magnetic field
-def: "This is any condition in which the main influencing factor is a uniform magnetic field. A uniform magnetic field may be generated by an apparatus such as a Halbach cylinder. A Halbach cylinder is a magnetized cylinder composed of ferromagnetic material which can produce a uniform magnetic field across a plate of cultured cells which is surrounded by the cylinder." [https://en.wikipedia.org/wiki/Halbach_array, https://en.wikipedia.org/wiki/Magnetism]
-xref: PMID:24407149
-is_a: XCO:0001003 ! magnetic field
-created_by: slaulede
-creation_date: 2023-03-24T14:51:33Z
 
 [Typedef]
 id: has_component
