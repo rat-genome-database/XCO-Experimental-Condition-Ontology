@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.125
-date: 08:04:2023 20:13
+data-version: 4.124
+date: 01:04:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: experimental_condition_ontology
@@ -171,7 +171,7 @@ is_a: XCO:0000014 ! controlled content diet
 [Term]
 id: XCO:0000026
 name: surgical removal
-def: "The process of ablating or extracting all or part of an organ, gland or other body part from an organism as a medical or experimental procedure." [http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
+def: "The process of ablating or extracting an organ, gland or other body part from an organism prior to, or in the process of, an experiment being performed on the organism." [http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
 is_a: XCO:0000165 ! surgical manipulation
 
 [Term]
@@ -6243,7 +6243,6 @@ synonym: "Doxyhexal" EXACT []
 synonym: "Doxylin" EXACT []
 is_a: XCO:0000483 ! antibacterial agent
 is_a: XCO:0000672 ! tetracyclines
-relationship: part_of XCO:0000965 ! controlled in vitro cell condition
 created_by: slaulede
 creation_date: 2020-03-05T15:49:21Z
 
@@ -9707,9 +9706,7 @@ creation_date: 2023-03-13T13:28:54Z
 id: XCO:0000983
 name: gene transfer of the enhanced green fluorescent protein gene using a lentivirus vector
 def: "This is a condition in which the enhanced green fluorescent protein (EGFP) gene has been (transiently or stably) transferred into a cell or organism using an lentivirus carrier in order to induce synthesis of EGFP in the recipient cell or organism." [https://www.merriam-webster.com, PMID:28241067]
-synonym: "gene transduction of the enhanced green fluorescent protein gene using a lentivirus vector" EXACT []
 synonym: "lentiviral transfer of the EGFP gene" EXACT []
-synonym: "transduction of recombinant lentivirus containing the EGFP gene" EXACT []
 synonym: "transfer of recombinant lentivirus containing the EGFP gene" EXACT []
 is_a: XCO:0000982 ! gene transfer using lentivirus vector
 created_by: slaulede
@@ -9727,24 +9724,22 @@ creation_date: 2023-03-13T14:07:11Z
 
 [Term]
 id: XCO:0000985
-name: transfer of rat wild type Ccny-specific shRNA  using a lentivirus vector
+name: gene transfer of the rat wild type Ccny-specific shRNA  using a lentivirus vector
 def: "This is a condition in which the rat wild type cyclin Y gene short hairpin RNA (Ccny-shRNA) has been (transiently or stably) transferred into a cell or organism using a lentivirus carrier in order to reduce synthesis of rat wild type cyclin Y in the recipient cell or organism." [https://www.merriam-webster.com, PMID:28241067]
 synonym: "lentiviral transfer of the rat wild type Ccny-specific shRNA" EXACT []
-synonym: "transduction of recombinant lentivirus containing the rat wild type-specific shRNA" EXACT []
 synonym: "transfer of recombinant lentivirus containing the rat wild type-specific shRNA" EXACT []
-is_a: XCO:0000233 ! ribonucleic acid
+is_a: XCO:0000982 ! gene transfer using lentivirus vector
 created_by: slaulede
 creation_date: 2023-03-13T14:27:37Z
 
 [Term]
 id: XCO:0000986
-name: transfer of the rat wild type Ccny-specific shRNA and EGFP gene using a lentivirus vector
+name: gene transfer of the rat wild type Ccny-specific shRNA and EGFP gene using a lentivirus vector
 def: "This is a condition in which the rat wild type cyclin Y gene short hairpin RNA (Ccny-shRNA) and enhanced green fluorescent protein (EGFP) gene have been (transiently or stably) transferred into a cell or organism using a lentivirus carrier in order to reduce synthesis of rat wild type cyclin Y while inducing EGFP synthesis in the recipient cell or organism." [https://www.merriam-webster.com, PMID:28241067]
 synonym: "lentiviral transfer of the rat wild type Ccny-specific shRNA and the EGFP gene" EXACT []
-synonym: "transduction of recombinant lentivirus containing the rat wild type-specific shRNA and the EGFP gene" EXACT []
 synonym: "transfer of recombinant lentivirus containing the rat wild type-specific shRNA and the EGFP gene" EXACT []
 is_a: XCO:0000983 ! gene transfer of the enhanced green fluorescent protein gene using a lentivirus vector
-is_a: XCO:0000985 ! transfer of rat wild type Ccny-specific shRNA  using a lentivirus vector
+is_a: XCO:0000985 ! gene transfer of the rat wild type Ccny-specific shRNA  using a lentivirus vector
 created_by: slaulede
 creation_date: 2023-03-13T14:36:52Z
 
@@ -9753,7 +9748,6 @@ id: XCO:0000987
 name: gene transfer of the rat wild type Ccny gene and EGFP gene using a lentivirus vector
 def: "This is a condition in which the rat wild type cyclin Y gene (Ccny-WT) and enhanced green fluorescent protein (EGFP) gene have been (transiently or stably) transferred into a cell or organism using a lentivirus carrier in order to induce synthesis of both rat wild type cyclin Y and EGFP in the recipient cell or organism." [https://www.merriam-webster.com, PMID:28241067]
 synonym: "lentiviral transfer of the rat wild type Ccny-specific shRNA and the EGFP gene" EXACT []
-synonym: "transduction of recombinant lentivirus containing the rat wild type Ccny gene and the EGFP gene" EXACT []
 synonym: "transfer of recombinant lentivirus containing the rat wild type Ccny gene and the EGFP gene" EXACT []
 is_a: XCO:0000983 ! gene transfer of the enhanced green fluorescent protein gene using a lentivirus vector
 is_a: XCO:0000984 ! gene transfer of the rat wild type Ccny gene using a lentivirus vector
@@ -9766,7 +9760,7 @@ name: Dulbecco's Modified Eagle's Medium
 def: "This is any experimental condition in which the main influencing factor is Dulbecco's Modified Eagle's Medium. Typically, cells derived from a multicellular organism are cultured in this synthetic medium originally formulated by Dulbecco and Freeman and based on Eagle's Minimal Essential Medium." [https://en.wikipedia.org/wiki/Eagle%27s_minimal_essential_medium, https://www.thermofisher.com/us/en/home/technical-resources/media-formulation.48.html]
 synonym: "DMEM" EXACT []
 synonym: "DMEM, low glucose, pyruvate" NARROW []
-is_a: XCO:0000966 ! controlled serum-free condition
+is_a: XCO:0000965 ! controlled in vitro cell condition
 created_by: slaulede
 creation_date: 2023-03-14T11:55:08Z
 
@@ -9844,27 +9838,23 @@ creation_date: 2023-03-14T15:14:58Z
 
 [Term]
 id: XCO:0000996
-name: transfer of CHAER1 siRNA using Lipofectamine reagent
+name: transfection of CHAER1 siRNA using Lipofectamine reagent
 def: "This is any condition in which the main influencing factor is CHAER1 (cardiac hypertrophy associated epigenetic regulator 1) siRNA. CHAER1 is an ncRNA involved in epigenetic regulation of gene expression. Lipofectamine is a proprietary formulation for transfecting small RNAs into cultured eukaryotic cells." [https://en.wikipedia.org/wiki/Small_interfering_RNA, https://www.thermofisher.com/us/en/home/life-science/cell-culture/transfection/transfection-reagents/lipofectamine-rnaimax-reagent.html]
 synonym: "transfection of CHAER1 short interfering RNA using Lipofectamine reagent" EXACT []
 synonym: "transfection of CHAER1 silencing RNA using Lipofectamine reagent" EXACT []
 synonym: "transfection of CHAER1 siRNA using Lipofectamine reagent" EXACT []
 synonym: "transfection of CHAER1 small interfering RNA using Lipofectamine reagent" EXACT []
-xref: PMID:27618650
 is_a: XCO:0000233 ! ribonucleic acid
-is_a: XCO:0000528 ! gene transfer
 created_by: slaulede
 creation_date: 2023-03-23T13:58:48Z
 
 [Term]
 id: XCO:0000997
-name: transfer of negative control siRNA using Lipofectamine reagent
+name: transfection of negative control siRNA using Lipofectamine reagent
 def: "This is any condition in which the main influencing factor is negative control siRNA. Negative control siRNA is an siRNA with no significant sequence similarity to eukaryotic gene sequences. Lipofectamine is a proprietary formulation for transfecting small RNAs into cultured eukaryotic cells." [https://en.wikipedia.org/wiki/Small_interfering_RNA, https://www.thermofisher.com/us/en/home/life-science/cell-culture/transfection/transfection-reagents/lipofectamine-rnaimax-reagent.html]
 synonym: "transfection of negative control short interfering RNA using Lipofectamine reagent" EXACT []
 synonym: "transfection of negative control silencing RNA using Lipofectamine reagent" EXACT []
-synonym: "transfection of negative control siRNA using Lipofectamine reagent" EXACT []
 synonym: "transfection of negative control small interfering RNA using Lipofectamine reagent" EXACT []
-xref: PMID:27618650
 is_a: XCO:0000233 ! ribonucleic acid
 created_by: slaulede
 creation_date: 2023-03-23T14:11:37Z
@@ -9936,135 +9926,42 @@ creation_date: 2023-03-24T14:51:33Z
 
 [Term]
 id: XCO:0001005
-name: transfer of PIWIL1 siRNA using pSUPER plasmid
+name: transfection of PIWIL1 siRNA using pSUPER plasmid
 def: "This is any condition in which the main influencing factor is PIWIL1 (piwi-like RNA-mediated gene silencing 1) siRNA. The PIWIL1 protein may play important roles in stem cell self-renewal, RNA silencing, and translational regulation in diverse organisms. The pSUPER plasmid was designed for eukaryotic expression/RNAi." [https://www.addgene.org, PMID:26104391]
 synonym: "PIWIL1 siRNA transfection" BROAD []
-synonym: "transfection of PIWIL1 siRNA using pSUPER plasmid" EXACT []
-xref: PMID:26104391
 is_a: XCO:0000233 ! ribonucleic acid
-is_a: XCO:0000528 ! gene transfer
 created_by: slaulede
 creation_date: 2023-03-28T17:14:00Z
 
 [Term]
 id: XCO:0001006
-name: transfer of negative control siRNA using pSUPER plasmid
+name: transfection of negative control siRNA using pSUPER plasmid
 def: "This is any condition in which the main influencing factor is negative control siRNA delivered with a pSUPER plasmid. Negative control siRNA is an siRNA with no significant sequence similarity to eukaryotic gene sequences and may be a scrambled version of the experimental siRNA used." [https://www.addgene.org, PMID:26104391]
 synonym: "negative control siRNA transfection" BROAD []
 synonym: "scrambled siRNA transfection" BROAD []
-synonym: "transfection of negative control siRNA using pSUPER plasmid" EXACT []
 is_a: XCO:0000233 ! ribonucleic acid
 created_by: slaulede
 creation_date: 2023-03-28T17:21:28Z
 
 [Term]
 id: XCO:0001007
-name: transfer of negative control shRNA using a lentiviral vector
+name: transfection of negative control shRNA using a lentiviral vector
 def: "This is any condition in which the main influencing factor is negative control shRNA delivered with a lentivirus vector. Negative control shRNA is an shRNA with no significant sequence similarity to eukaryotic gene sequences and may be a scrambled version of the experimental shRNA used." [https://www.origene.com/products/cdna-clones/lentiviral-particles/control-particles, PMID:31606248]
-synonym: "transduction of negative control shRNA using a lentivirus" EXACT []
-synonym: "transduction of negative control shRNA using a lentivirus vector" EXACT []
-synonym: "transfer of negative control shRNA using a lentivirus" EXACT []
+synonym: "transfection of negative control shRNA using a lentivirus" EXACT []
+synonym: "transfection of negative control shRNA using a lentivirus vector" EXACT []
 is_a: XCO:0000233 ! ribonucleic acid
 created_by: slaulede
 creation_date: 2023-03-31T11:00:04Z
 
 [Term]
 id: XCO:0001008
-name: transfer of Pum2 shRNA using a lentiviral vector
+name: transfection of Pum2 shRNA using a lentiviral vector
 def: "This is any condition in which the main influencing factor is Pum2 (pumilio RNA-binding family member 2) shRNA. Pum2 is a protein that exhibits lncRNA binding, miRNA binding, and mRNA 3'-UTR binding. Pum2 is involved in negative regulation of gene expression and regulation of intracellular mRNA localization." [https://blog.addgene.org, PMID:31606248]
-synonym: "transduction of Pum2 shRNA using a lentivirus" EXACT []
-synonym: "transduction of Pum2 shRNA using a lentivirus vector" EXACT []
-synonym: "transfer of Pum2 shRNA using a lentivirus" EXACT []
+synonym: "transfection of Pum2 shRNA using a lentivirus" EXACT []
+synonym: "transfection of Pum2 shRNA using a lentivirus vector" EXACT []
 is_a: XCO:0000233 ! ribonucleic acid
 created_by: slaulede
 creation_date: 2023-03-31T11:37:24Z
-
-[Term]
-id: XCO:0001009
-name: Media 199
-def: "This is any experimental condition in which the main influencing factor is M199 medium, which is useful across a wide range of species and applications but is particularly suitable for the culturing of non-transformed cells. M199 medium ingredients may include Earles salts and a bicarbonate/carbonic acid buffering system for the maintenance of pH in a CO2 incubator or Hanks salts with salt solutions designed for atmospheric equilibrium." [https://www.thermofisher.com]
-synonym: "M199" EXACT []
-synonym: "M199 media" EXACT []
-synonym: "M199 medium" EXACT []
-synonym: "Medium 199" EXACT []
-xref: PMID:31283468
-is_a: XCO:0000966 ! controlled serum-free condition
-created_by: slaulede
-creation_date: 2023-04-06T12:56:12Z
-
-[Term]
-id: XCO:0001010
-name: glutamine
-def: "This is any experimental condition in which the main influencing factor is glutamine, an alpha-amino acid that consists of butyric acid bearing an amino substituent at position 2 and a carbamoyl substituent at position 4. Glutamine is used as a supplement in cell culture media." [CHEBI:28300, https://www.merriam-webster.com]
-synonym: "L-glutamine" EXACT []
-xref: CHEBI:28300
-is_a: XCO:0000119 ! amino acid
-relationship: part_of XCO:0000965 ! controlled in vitro cell condition
-created_by: slaulede
-creation_date: 2023-04-06T13:12:19Z
-
-[Term]
-id: XCO:0001011
-name: penicillin-streptomycin
-def: "This is any experimental condition in which the main influencing factor is a mixture of penicillin G and streptomycin (penicillin-streptomycin) that is widely used in mammalian cell culture media to prevent bacterial contamination. The solution contains 5,000 units of penicillin G (sodium salt) which acts as the active base, and 5,000 micrograms of streptomycin (sulfate) (base per milliliter), formulated in 0.85% saline." [https://en.wikipedia.org/wiki/Pen-Strep]
-synonym: "Pen-Strep" EXACT []
-xref: PMID:31283468
-is_a: XCO:0000483 ! antibacterial agent
-relationship: part_of XCO:0000965 ! controlled in vitro cell condition
-created_by: slaulede
-creation_date: 2023-04-06T13:28:20Z
-
-[Term]
-id: XCO:0001012
-name: gene transfer of rat RBPMS using a lentivirus vector
-def: "This is a condition in which the rat RBPMS (RNA binding protein, mRNA processing factor) gene has been (transiently or stably) transferred into a cell or organism using a lentivirus carrier in order to induce synthesis of RBPMS in the recipient cell or organism." [https://www.merriam-webster.com, PMID:31283468]
-synonym: "transduction of rat RBPMS using a lentiviral vector" EXACT []
-synonym: "transduction of rat RBPMS using a lentivirus vector" EXACT []
-xref: PMID:31283468
-is_a: XCO:0000982 ! gene transfer using lentivirus vector
-created_by: slaulede
-creation_date: 2023-04-06T14:09:22Z
-
-[Term]
-id: XCO:0001013
-name: transfer of rat RBPMS siRNA using a lentivirus vector
-def: "This is any condition in which the main influencing factor is rat RBPMS (RNA binding protein, mRNA processing factor)-specific siRNA. This siRNA has been transferred into a cell or organism using a lentivirus carrier in order to block synthesis of RBPMS in the recipient cell or organism." [https://en.wikipedia.org/wiki/Small_interfering_RNA, PMID:31283468]
-synonym: "transduction of RBPMS siRNA using a lentivirus vector" EXACT []
-xref: PMID:31283468
-is_a: XCO:0000233 ! ribonucleic acid
-created_by: slaulede
-creation_date: 2023-04-06T14:34:10Z
-
-[Term]
-id: XCO:0001014
-name: transfer of negative control siRNA using a lentiviral vector
-def: "This is any condition in which the main influencing factor is negative control siRNA delivered with a lentivirus vector. Negative control siRNA is an siRNA with no significant sequence similarity to eukaryotic gene sequences and may be a scrambled version of the experimental siRNA used." [https://www.origene.com/products/cdna-clones/lentiviral-particles/control-particles, PMID:31283468]
-synonym: "transduction of negative control siRNA using a lentivirus" EXACT []
-synonym: "transduction of negative control siRNA using a lentivirus vector" EXACT []
-synonym: "transfer of negative control siRNA using a lentivirus" EXACT []
-is_a: XCO:0000233 ! ribonucleic acid
-created_by: slaulede
-creation_date: 2023-04-06T14:42:17Z
-
-[Term]
-id: XCO:0001015
-name: myectomy
-def: "This is any condition in which the main influencing factor is creating a volumetric muscle loss (VML) of 20% or more of the total amount of mass in the targeted muscle through surgical removal (myectomy)." [https://study.com/, PMID:34146835]
-xref: PMID:29531830
-is_a: XCO:0000026 ! surgical removal
-created_by: slaulede
-creation_date: 2023-04-06T16:01:25Z
-
-[Term]
-id: XCO:0001016
-name: minced muscle graft
-def: "This is any condition in which the main influencing factor is implantation of a minced muscle graft. It is a surgical procedure intended to induce healing of a skeletal muscle injured by volumetric muscle loss." [PMID:29531830]
-synonym: "autologous minced muscle graft" EXACT []
-synonym: "MMG" EXACT []
-xref: PMID:29531830
-is_a: XCO:0000027 ! surgical implantation
-created_by: slaulede
-creation_date: 2023-04-06T16:32:30Z
 
 [Typedef]
 id: has_component
