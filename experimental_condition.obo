@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.125
-date: 08:04:2023 20:13
+data-version: 4.126
+date: 22:04:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: experimental_condition_ontology
@@ -9942,7 +9942,6 @@ synonym: "PIWIL1 siRNA transfection" BROAD []
 synonym: "transfection of PIWIL1 siRNA using pSUPER plasmid" EXACT []
 xref: PMID:26104391
 is_a: XCO:0000233 ! ribonucleic acid
-is_a: XCO:0000528 ! gene transfer
 created_by: slaulede
 creation_date: 2023-03-28T17:14:00Z
 
