@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.127
-date: 29:04:2023 20:13
+data-version: 4.126
+date: 22:04:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: experimental_condition_ontology
@@ -10064,31 +10064,6 @@ xref: PMID:29531830
 is_a: XCO:0000027 ! surgical implantation
 created_by: slaulede
 creation_date: 2023-04-06T16:32:30Z
-
-[Term]
-id: XCO:0001017
-name: cocaine
-def: "This is a bitter crystalline alkaloid C17H21NO4 obtained from coca leaves that is used especially in the form of its hydrochloride medically as a topical anesthetic and illicitly for its euphoric effects and that may result in a compulsive psychological need." [https://www.merriam-webster.com]
-synonym: "(1R,2R,3S,5S)-2-(methoxycarbonyl)tropan-3-yl benzoate" EXACT []
-xref: CHEBI:27958
-xref: MESH:D003042
-is_a: XCO:0000106 ! anesthetic/analgesic
-is_a: XCO:0000141 ! vasoconstrictor
-is_a: XCO:0000618 ! sodium channel inhibitor
-created_by: slaulede
-creation_date: 2023-04-27T12:51:11Z
-
-[Term]
-id: XCO:0001018
-name: WIN 55,212-2
-def: "This is an organic heterotricyclic compound that is 5-methyl-3-(morpholin-4-ylmethyl)-2,3-dihydro[1,4]oxazino[2,3,4-hi]indole substituted at position 6 by a 1-naphthylcarbonyl group." [CHEBI:73295]
-synonym: "[(3R)-5-methyl-3-(morpholin-4-ylmethyl)-2,3-dihydro[1,4]oxazino[2,3,4-hi]indol-6-yl](1-naphthyl)methanone" EXACT []
-synonym: "WIN 55,212" EXACT []
-xref: MESH:C070417
-is_a: XCO:0000106 ! anesthetic/analgesic
-is_a: XCO:0000269 ! calcium channel inhibitor
-created_by: slaulede
-creation_date: 2023-04-27T13:02:47Z
 
 [Typedef]
 id: has_component
