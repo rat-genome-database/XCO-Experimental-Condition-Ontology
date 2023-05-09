@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.128
-date: 06:05:2023 20:13
+data-version: 4.127
+date: 29:04:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: experimental_condition_ontology
@@ -726,7 +726,7 @@ id: XCO:0000099
 name: control condition
 alt_id: XCO:0000056
 alt_id: XCO:0000791
-def: "This is a condition defined by a mostly uniform set of parameters accepted as normal or average and used by general consent as a basis of comparison. It is a baseline condition in which none of the experimental manipulations are performed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "A condition defined by a mostly uniform set of parameters accepted as normal or average and used by general consent as a basis of comparison. It is a baseline condition in which none of the experimental manipulations are performed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "naive control condition" EXACT []
 synonym: "standard condition" EXACT []
 synonym: "standard control condition" EXACT []
@@ -5516,30 +5516,27 @@ creation_date: 2018-12-27T14:59:42Z
 
 [Term]
 id: XCO:0000596
-name: blood vessel constriction
-def: "This is any condition in which the main influencing factor is surgical narrowing of the lumen of a blood vessel. This lumen narrowing could be accomplished by circumferential suturing, use of a manipulatable sleeve, or some other method." []
+name: blood vessel coarctation
+def: "A surgical narrowing of the lumen of a blood vessel." []
 is_a: XCO:0000595 ! surgical manipulation of blood vessels
 created_by: sjwang
 creation_date: 2018-12-27T15:05:18Z
 
 [Term]
 id: XCO:0000597
-name: abdominal aortic constriction
-def: "This is any condition in which the main influencing factor is surgical narrowing of the lumen of the abdominal aorta. The abdominal aorta consists of the suprarenal abdominal aorta and the infrarenal aorta." [PMID:28060255]
+name: abdominal aorta coarctation
+def: "A surgical narrowing of the lumen of the abdominal aorta." []
 synonym: "AAC" EXACT []
-synonym: "abdominal aorta constriction" EXACT []
-is_a: XCO:0000596 ! blood vessel constriction
+is_a: XCO:0000596 ! blood vessel coarctation
 created_by: sjwang
 creation_date: 2018-12-27T15:08:06Z
 
 [Term]
 id: XCO:0000598
-name: thoracic aortic constriction
-def: "This is any condition in which the main influencing factor is surgical narrowing of the lumen of the thoracic aorta. The thoracic aorta consists of the ascending aorta, the aortic arch, and the descending thoracic aorta." [https://en.wikipedia.org/wiki/Aorta]
-synonym: "TAC" NARROW []
-synonym: "thoracic aorta constriction" EXACT []
-synonym: "transverse aortic constriction" NARROW []
-is_a: XCO:0000596 ! blood vessel constriction
+name: thoracic aorta coarctation
+def: "A surgical narrowing of the lumen of the thoracic aorta." []
+synonym: "TAC" EXACT []
+is_a: XCO:0000596 ! blood vessel coarctation
 created_by: sjwang
 creation_date: 2018-12-27T15:10:16Z
 
@@ -9108,10 +9105,10 @@ creation_date: 2022-04-26T15:38:47Z
 
 [Term]
 id: XCO:0000931
-name: celiac artery and superior mesenteric artery constriction
-def: "This is any condition in which the main influencing factor is surgical narrowing of the lumen of the celiac artery and superior mesenteric artery." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
+name: celiac artery and superior mesenteric artery coarctation
+def: "This is a procedure involving surgical narrowing of the lumen of the celiac artery and superior mesenteric artery." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 xref: PMID:15894899
-is_a: XCO:0000596 ! blood vessel constriction
+is_a: XCO:0000596 ! blood vessel coarctation
 created_by: slaulede
 creation_date: 2022-04-26T16:02:24Z
 
@@ -10092,62 +10089,6 @@ is_a: XCO:0000106 ! anesthetic/analgesic
 is_a: XCO:0000269 ! calcium channel inhibitor
 created_by: slaulede
 creation_date: 2023-04-27T13:02:47Z
-
-[Term]
-id: XCO:0001019
-name: olanzapine
-def: "This is any condition in which the main influencing factor is olanzapine, a benzodiazepine derivative that binds SEROTONIN RECEPTORS; MUSCARINIC RECEPTORS; HISTAMINE H1 RECEPTORS; ADRENERGIC ALPHA-1 RECEPTORS; and DOPAMINE RECEPTORS. It is an antipsychotic agent used in the treatment of SCHIZOPHRENIA; BIPOLAR DISORDER; and MAJOR DEPRESSIVE DISORDER; it may also reduce nausea and vomiting in patients undergoing chemotherapy." [MESH:D000077152]
-synonym: "2-methyl-4-(4-methylpiperazin-1-yl)-10H-thieno[2,3-b][1,5]benzodiazepine" EXACT []
-xref: CHEBI:7735
-xref: MESH:D000077152
-is_a: XCO:0000160 ! receptor antagonist
-created_by: slaulede
-creation_date: 2023-05-02T13:01:59Z
-
-[Term]
-id: XCO:0001020
-name: docosahexaenoic acid
-def: "This is any condition in which the main influencing factor is docosahexaenoic acid, a C22 polyunsaturated fatty acid containing six double bonds." [CHEBI:36005]
-synonym: "cervonic acid" EXACT []
-synonym: "DHA" EXACT []
-xref: CHEBI:36005
-is_a: XCO:0000776 ! fatty acid
-created_by: slaulede
-creation_date: 2023-05-02T13:31:17Z
-
-[Term]
-id: XCO:0001021
-name: controlled docosahexaenoic acid content diet
-def: "This is any condition in which the main influencing factor is a solid diet in which the amount of docosahexaenoic acid, a C22 polyunsaturated fatty acid containing six double bonds, is maintained at a specified level." [CHEBI:36005]
-synonym: "controlled DHA content diet" EXACT []
-xref: CHEBI:36005
-xref: PMID:27322469
-is_a: XCO:0000014 ! controlled content diet
-relationship: has_component XCO:0001020 ! docosahexaenoic acid
-created_by: slaulede
-creation_date: 2023-05-02T13:37:56Z
-
-[Term]
-id: XCO:0001022
-name: flaxseed oil
-def: "This is any condition in which the main influencing factor is flaxseed oil, an edible oil in demand as a dietary supplement, as a source of &#945;-Linolenic acid, an omega-3 fatty acid." [https://en.wikipedia.org/wiki/Linseed_oil]
-synonym: "flax oil" EXACT []
-synonym: "linseed oil" EXACT []
-is_a: XCO:0000774 ! oil
-created_by: slaulede
-creation_date: 2023-05-02T13:50:29Z
-
-[Term]
-id: XCO:0001023
-name: controlled flaxseed oil content diet
-def: "This is any condition in which the main influencing factor is a solid diet in which the amount of flaxseed oil, an edible oil rich in &#945;-Linolenic acid (an omega-3 fatty acid), is maintained at a specified level." [https://en.wikipedia.org/wiki/Linseed_oil]
-synonym: "controlled flaxs oil content diet" EXACT []
-synonym: "controlled linseed oil content diet" EXACT []
-xref: PMID:27322469
-is_a: XCO:0000454 ! controlled oil content diet
-relationship: has_component XCO:0001022 ! flaxseed oil
-created_by: slaulede
-creation_date: 2023-05-02T13:57:19Z
 
 [Typedef]
 id: has_component
