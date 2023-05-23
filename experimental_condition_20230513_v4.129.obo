@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.130
-date: 20:05:2023 20:13
+data-version: 4.129
+date: 13:05:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: experimental_condition_ontology
@@ -352,7 +352,7 @@ is_a: XCO:0000306 ! cold exposure
 [Term]
 id: XCO:0000055
 name: tactile electric shock exposure
-def: "This is any condition in which the main influencing factor is the stimulation of nerves involved in the physiological sense by which external objects or forces are perceived through contact with the body via application of an electric current." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "A condition in which the main influencing factor is the stimulation of nerves involved in the physiological sense by which external objects or forces are perceived through contact with the body via application of an electric current." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "foot shock" RELATED []
 is_a: XCO:0000052 ! tactile stimulus
 
@@ -1229,7 +1229,7 @@ creation_date: 2012-03-26T10:46:30Z
 [Term]
 id: XCO:0000154
 name: ion/salt solution
-def: "This is any condition in which the main influencing factor is a homogeneous mixture of one or more ions, i.e. atoms or molecules that have gained or lost electron(s) and thereby acquired a charge, or one or more salts, i.e. members of the large class of chemical compounds formed when a positively charged ion (a cation) bonds with a negatively charged ion (an anion), dispersed molecularly in a sufficient quantity of dissolving medium (solvent) such as water." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "Any condition in which the main influencing factor is a homogeneous mixture of one or more ions, i.e. atoms or molecules that have gained or lost electron(s) and thereby acquired a charge, or one or more salts, i.e. members of the large class of chemical compounds formed when a positively charged ion (a cation) bonds with a negatively charged ion (an anion), dispersed molecularly in a sufficient quantity of dissolving medium (solvent) such as water." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000340 ! solution
 relationship: has_component XCO:0000149 ! ion/salt
 created_by: JSmith
@@ -1249,7 +1249,7 @@ creation_date: 2012-03-26T04:36:15Z
 [Term]
 id: XCO:0000156
 name: 0.9% sodium chloride solution
-def: "This is a condition in which the main influencing factor is a solution of sodium chloride (NaCl) and water in which the level of NaCl is maintained at a mass concentration of 9 grams per liter (0.9 grams per 100 mls of solution, or 0.9 % m/v). The osmolarity of normal saline is a close approximation to the osmolarity of NaCl in blood." [http://en.wikipedia.org/wiki/Saline_%28medicine%29 "Wikipedia"]
+def: "A solution of sodium chloride (NaCl) and water in which the level of NaCl is maintained at a mass concentration of 9 grams per liter (0.9 grams per 100 mls of solution, or 0.9 % m/v). The osmolarity of normal saline is a close approximation to the osmolarity of NaCl in blood." [http://en.wikipedia.org/wiki/Saline_%28medicine%29 "Wikipedia"]
 synonym: "0.9% Sodium Chloride Injection" RELATED []
 synonym: "normal saline" EXACT []
 xref: CHEBI:26710
@@ -8164,9 +8164,8 @@ creation_date: 2021-06-28T17:14:08Z
 [Term]
 id: XCO:0000850
 name: therapeutic agent
-def: "This is a condition in which the main influencing factor is a chemical, biologic, or organism that exerts some force or effect resulting in a favorable outcome or improvement in the symptoms of a disorder or disease." [https://www.merriam-webster.com/, ISBN-13: 978-0683400076]
+def: "A condition in which the main influencing factor is a chemical, biologic, or organism that exerts some force or effect resulting in a favorable outcome or improvement in the symptoms of a disorder or disease." [https://www.merriam-webster.com/, ISBN-13: 978-0683400076]
 synonym: "medicinal agent" EXACT []
-synonym: "Not4Curation" RELATED []
 synonym: "remedial agent" EXACT []
 xref: PMID:29273085
 is_a: XCO:0000000 ! experimental condition
@@ -8176,8 +8175,7 @@ creation_date: 2021-06-28T18:20:14Z
 [Term]
 id: XCO:0000851
 name: stem cells
-def: "This is a condition in which the main influencing factor is a stem cell, an unspecialized cell capable of perpetuating itself through cell division and having the potential to give rise to a variety of differentiated cells with specialized functions." [CL:0000034, https://en.wikipedia.org/wiki/Stem_cell, https://www.merriam-webster.com/]
-synonym: "Not4Curation" RELATED []
+def: "A condition in which the main influencing factor is a stem cell, an unspecialized cell capable of perpetuating itself through cell division and having the potential to give rise to a variety of differentiated cells with specialized functions." [CL:0000034, https://en.wikipedia.org/wiki/Stem_cell, https://www.merriam-webster.com/]
 xref: PMID:29273085
 is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulede
@@ -10253,94 +10251,6 @@ xref: PMID:24722278
 is_a: XCO:0001030 ! acupuncture
 created_by: slaulede
 creation_date: 2023-05-12T14:58:31Z
-
-[Term]
-id: XCO:0001032
-name: human neural progenitor cells
-def: "This is any condition in which the main influencing factor is neural progenitor cells, which are isolated from embryonic or fetal CNS tissue and can be expanded in culture for prolonged periods using genetic or epigenetic approaches. Expanded cells have the capacity to differentiate into neurons, oligodendrocytes, or astrocytes." [PMID:18341406]
-synonym: "hNPCs" EXACT []
-is_a: XCO:0000850 ! therapeutic agent
-created_by: slaulede
-creation_date: 2023-05-18T14:23:53Z
-
-[Term]
-id: XCO:0001033
-name: balanced salt solution cell carrying medium
-def: "This is any condition in which the main influencing factor is a balanced salt solution-based medium for the delivery of a suspension of cells." [PMID:27217715]
-synonym: "BSS cell carrying medium" EXACT []
-is_a: XCO:0000154 ! ion/salt solution
-created_by: slaulede
-creation_date: 2023-05-18T14:35:36Z
-
-[Term]
-id: XCO:0001034
-name: hawk tea extract
-def: "This is any condition in which the main influencing factor is hawk tea extract (HTE), a potential cholesterol-lowering agent and antioxidant. Hawk tea is a medicinal herbal and caffeine-free drink popular in China." [PMID:31098406]
-synonym: "HTE" EXACT []
-synonym: "Litsea coreana extract" EXACT []
-synonym: "Litsea coreana Levl. var. lanuginose extract" EXACT []
-is_a: XCO:0000271 ! antioxidant
-is_a: XCO:0000680 ! antilipemic agent
-created_by: slaulede
-creation_date: 2023-05-19T13:15:55Z
-
-[Term]
-id: XCO:0001035
-name: controlled HTE content drinking water
-def: "This is any condition in which the main influencing factor is a drink made up of water and a specified amount of hawk tea extract consumed by an organism as part of an experiment. Hawk tea extract is a potential cholesterol-lowering agent and antioxidant. Hawk tea is a traditional herbal and caffeine-free drink popular in China." [PMID:31098406]
-synonym: "controlled hawk tea extract content drinking water" EXACT []
-synonym: "controlled Litsea coreana extract content drinking water" EXACT []
-xref: PMID:23618259
-is_a: XCO:0000163 ! controlled content drinking water
-relationship: has_component XCO:0001034 ! hawk tea extract
-created_by: slaulede
-creation_date: 2023-05-19T13:25:24Z
-
-[Term]
-id: XCO:0001036
-name: peripheral myelin protein 2 peptide 53-78
-def: "This is any condition in which the major influencing factor is the peptide (TESPFKNTEISFKLGQEFEETTADNR) representing residues 53 to 78 of peripheral myelin protein 2, a fatty acid and cholesterol binding protein which together with myelin basic protein constitutes a major fraction of the peripheral nervous system myelin proteins." [PMID:31344254]
-synonym: "Pmp2 peptide 53-78" EXACT []
-synonym: "TESPFKNTEISFKLGQEFEETTADNR" EXACT []
-is_a: XCO:0000290 ! peripheral myelin protein 2
-created_by: slaulede
-creation_date: 2023-05-19T13:48:55Z
-
-[Term]
-id: XCO:0001037
-name: Mycobacterium tuberculosis H37Ra
-def: "This is any condition in which the main influencing factor is Mycobacterium tuberculosis H37Ra (a high G+C gram-positive bacteria) introduced externally or internally, alive or dead, to a subject to effect a change in phenotype of the subject" [NCBI:txid419947]
-synonym: "Mycobacterium tuberculosis ATCC 25177" EXACT []
-synonym: "Mycobacterium tuberculosis strain H37Ra" EXACT []
-synonym: "MYCTA" EXACT []
-xref: PMID:31344254
-xref: UniProt:419947
-is_a: XCO:0000761 ! biologic
-created_by: slaulede
-creation_date: 2023-05-19T14:35:05Z
-
-[Term]
-id: XCO:0001038
-name: PBS-filled liposomes
-def: "This is any condition in which the main influencing factor is PBS-filled liposomes, artificial vesicles composed of one or more concentric phospholipid bilayers and containing phosphate buffered saline." [PMID:30485549]
-synonym: "PBS containing liposomes" EXACT []
-synonym: "PBS-liposomes" EXACT []
-synonym: "phosphate buffered saline-filled liposomes" EXACT []
-is_a: XCO:0000780 ! liposomes
-created_by: slaulede
-creation_date: 2023-05-19T16:16:35Z
-
-[Term]
-id: XCO:0001039
-name: Clodronate-filled liposomes
-def: "This is any condition in which the main influencing factor is clodronate-filled liposomes, artificial vesicles composed of one or more concentric phospholipid bilayers and containing clodronate." [PMID:30485549]
-synonym: "clodronate containing liposomes" EXACT []
-synonym: "clodronate liposomes" EXACT []
-xref: http://clodronateliposomes.com/
-is_a: XCO:0000648 ! clodronic acid
-is_a: XCO:0000780 ! liposomes
-created_by: slaulede
-creation_date: 2023-05-19T16:23:46Z
 
 [Typedef]
 id: has_component
