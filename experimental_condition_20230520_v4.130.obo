@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: 4.131
-date: 03:06:2023 20:13
+data-version: 4.130
+date: 20:05:2023 20:13
 saved-by: jrsmith
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: experimental_condition_ontology
 ontology: xco
 
@@ -2819,7 +2819,7 @@ creation_date: 2013-06-25T16:06:11Z
 [Term]
 id: XCO:0000319
 name: artificial aortocaval fistula
-def: "A surgically created passageway between the abdominal aorta and inferior vena cava." [ISBN-13:_978-0781733908]
+def: "A surgically created passageway between the abdominal aorta and inferior vena cava." [ISBN-13: 978-0781733908]
 synonym: "ACF" RELATED []
 xref: PMID:2142618
 is_a: XCO:0000595 ! surgical manipulation of blood vessels
@@ -3253,7 +3253,7 @@ creation_date: 2013-12-20T12:41:32Z
 id: XCO:0000361
 name: left L3-L5 ventral root avulsion
 def: "The forcible surgical separation from the spine of the motor root of a left side spinal nerve between the #3 and #5 lumbar vertebrae." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Gale:Gale_Encyclopedia_of_Medicine_2008]
-is_a: XCO:0000401 ! nerve root avulsion
+is_a: XCO:0000026 ! surgical removal
 created_by: JSmith
 creation_date: 2013-12-20T13:05:25Z
 
@@ -6137,7 +6137,7 @@ id: XCO:0000661
 name: one-kidney, one-clip occlusion
 def: "A surgical manipulation causing blood vessel blockage by the clipping of one renal artery and surgical removal of the contralateral kidney." [https://www.hindawi.com/journals/bmri/2015/528757/tab1/]
 synonym: "1k1c" EXACT []
-is_a: XCO:0000596 ! blood vessel constriction
+is_a: XCO:0000347 ! blood vessel occlusion
 created_by: slaulede
 creation_date: 2020-01-31T09:44:27Z
 
@@ -6146,7 +6146,7 @@ id: XCO:0000662
 name: two-kidney, one-clip occlusion
 def: "A surgical manipulation causing blood vessel blockage by the clipping of one renal artery." [https://www.hindawi.com/journals/bmri/2015/528757/tab1/]
 synonym: "2K1C" EXACT []
-is_a: XCO:0000596 ! blood vessel constriction
+is_a: XCO:0000347 ! blood vessel occlusion
 created_by: slaulede
 creation_date: 2020-01-31T09:55:35Z
 
@@ -6155,7 +6155,7 @@ id: XCO:0000663
 name: two-kidney, two-clip occlusion
 def: "A surgical manipulation causing blood vessel blockage by the dissection and clipping of both renal arteries." [https://www.hindawi.com/journals/bmri/2015/528757/tab1/]
 synonym: "2K2C" EXACT []
-is_a: XCO:0000596 ! blood vessel constriction
+is_a: XCO:0000347 ! blood vessel occlusion
 created_by: slaulede
 creation_date: 2020-01-31T10:08:45Z
 
@@ -6934,7 +6934,7 @@ creation_date: 2020-07-27T16:09:03Z
 [Term]
 id: XCO:0000732
 name: CC531 cells
-def: "A condition in which the main influencing factor is CC531, a rat colonic adenocarcinoma cell line used to study metastasis." []
+def: "A condition in which the main influencing factor is a rat colonic adenocarcinoma cell line used to study metastasis." []
 synonym: "CC-531" EXACT []
 xref: PMID:8225852
 xref: RRID:CVCL_0206
@@ -7342,11 +7342,9 @@ creation_date: 2020-10-19T18:27:54Z
 
 [Term]
 id: XCO:0000777
-name: lipoic acid
-def: "This is any condition in which the main influencing factor is alpha-lipoic acid, a heterocyclic thia fatty acid comprising pentanoic acid with a 1,2-dithiolan-3-yl group at the 5-position." [CHEBI:16494, MESH:D008063]
-synonym: "&#945;-lipoic acid" EXACT []
-synonym: "alpha-lipoic acid" EXACT []
-synonym: "LA" EXACT []
+name: alpha-lipoic acid
+def: "Any condition in which the main influencing factor is alpha-lipoic acid, a heterocyclic thia fatty acid comprising pentanoic acid with a 1,2-dithiolan-3-yl group at the 5-position." [CHEBI:16494, MESH:D008063]
+synonym: "lipoic acid" EXACT []
 synonym: "Thioctic Acid" EXACT []
 xref: CHEBI:16494
 xref: MESH:D008063
@@ -8166,7 +8164,7 @@ creation_date: 2021-06-28T17:14:08Z
 [Term]
 id: XCO:0000850
 name: therapeutic agent
-def: "This is a condition in which the main influencing factor is a chemical, biologic, or organism that exerts some force or effect resulting in a favorable outcome or improvement in the symptoms of a disorder or disease." [https://www.merriam-webster.com/, ISBN-13:_978-0683400076]
+def: "This is a condition in which the main influencing factor is a chemical, biologic, or organism that exerts some force or effect resulting in a favorable outcome or improvement in the symptoms of a disorder or disease." [https://www.merriam-webster.com/, ISBN-13: 978-0683400076]
 synonym: "medicinal agent" EXACT []
 synonym: "Not4Curation" RELATED []
 synonym: "remedial agent" EXACT []
@@ -9101,7 +9099,7 @@ creation_date: 2022-03-07T12:52:46Z
 [Term]
 id: XCO:0000930
 name: renal denervation
-def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and the kidneys. It is followed by painting of the renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and the kidneys. It is followed by painting of the renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 synonym: "denervation of kidneys" EXACT []
 synonym: "RDN" EXACT []
 synonym: "surgical denervation of kidneys" EXACT []
@@ -9113,7 +9111,7 @@ creation_date: 2022-04-26T15:38:47Z
 [Term]
 id: XCO:0000931
 name: celiac artery and superior mesenteric artery constriction
-def: "This is any condition in which the main influencing factor is surgical narrowing of the lumen of the celiac artery and superior mesenteric artery." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "This is any condition in which the main influencing factor is surgical narrowing of the lumen of the celiac artery and superior mesenteric artery." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 xref: PMID:15894899
 is_a: XCO:0000596 ! blood vessel constriction
 created_by: slaulede
@@ -9144,7 +9142,7 @@ creation_date: 2022-04-26T16:50:12Z
 [Term]
 id: XCO:0000934
 name: bilateral renal denervation
-def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and both kidneys. It is followed by painting of the renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and both kidneys. It is followed by painting of the renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 synonym: "denervation of both kidneys" EXACT []
 xref: PMID:15894899
 is_a: XCO:0000930 ! renal denervation
@@ -9154,7 +9152,7 @@ creation_date: 2022-04-28T16:36:07Z
 [Term]
 id: XCO:0000935
 name: unilateral renal denervation
-def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and only one kidney, left or right. It is followed by painting of the renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and only one kidney, left or right. It is followed by painting of the renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 synonym: "denervation of a single kidney" EXACT []
 xref: PMID:15894899
 is_a: XCO:0000930 ! renal denervation
@@ -9164,7 +9162,7 @@ creation_date: 2022-04-28T16:39:29Z
 [Term]
 id: XCO:0000936
 name: left kidney denervation
-def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and the kidney on the left side of the body. It is followed by painting of the left side renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and the kidney on the left side of the body. It is followed by painting of the left side renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 synonym: "left side renal denervation" EXACT []
 xref: PMID:15894899
 is_a: XCO:0000935 ! unilateral renal denervation
@@ -9174,7 +9172,7 @@ creation_date: 2022-04-28T16:47:06Z
 [Term]
 id: XCO:0000937
 name: right kidney denervation
-def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and the kidney on the right side of the body. It is followed by painting of the right side renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and the kidney on the right side of the body. It is followed by painting of the right side renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 synonym: "right side renal denervation" EXACT []
 xref: PMID:15894899
 is_a: XCO:0000935 ! unilateral renal denervation
@@ -9184,7 +9182,7 @@ creation_date: 2022-04-28T16:51:47Z
 [Term]
 id: XCO:0000938
 name: bovine serum albumin
-def: "This is a serum albumin protein derived from cow blood. It is used as an enzyme-stabilizing agent, a blocking reagent, etc. for laboratory experiments." [https://en.wikipedia.org/wiki/Bovine_serum_albumin, ISBN-13:_978-0781733908]
+def: "This is a serum albumin protein derived from cow blood. It is used as an enzyme-stabilizing agent, a blocking reagent, etc. for laboratory experiments." [https://en.wikipedia.org/wiki/Bovine_serum_albumin, ISBN-13: 978-0781733908]
 synonym: "BSA" EXACT []
 synonym: "Fraction V" EXACT []
 synonym: "https://en.wikipedia.org/wiki/Bovine_serum_albumin" EXACT []
@@ -9209,7 +9207,7 @@ creation_date: 2022-05-02T16:49:07Z
 [Term]
 id: XCO:0000940
 name: controlled ex vivo pancreas condition
-def: "This is an experimental condition in which the internal or external environment of a pancreas, the combined endocrine/exocrine gland situated transversely behind the stomach, between the spleen and the duodenum, is experimentally manipulated or regulated, for example through perfusion, increased or decreased blood flow, etc. after removal from the body." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "This is an experimental condition in which the internal or external environment of a pancreas, the combined endocrine/exocrine gland situated transversely behind the stomach, between the spleen and the duodenum, is experimentally manipulated or regulated, for example through perfusion, increased or decreased blood flow, etc. after removal from the body." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 xref: PMID:10323602
 is_a: XCO:0000464 ! controlled ex vivo organ condition
 created_by: slaulede
@@ -9218,7 +9216,7 @@ creation_date: 2022-05-05T16:23:16Z
 [Term]
 id: XCO:0000941
 name: controlled ex vivo pancreas perfusion
-def: "This is an experimental condition consisting of perfusion of the isolated pancreas with some physiological buffer (consisting of controlled solute composition and specific flow rate) in through the celiac artery and out through a portal vein." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
+def: "This is an experimental condition consisting of perfusion of the isolated pancreas with some physiological buffer (consisting of controlled solute composition and specific flow rate) in through the celiac artery and out through a portal vein." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
 xref: PMID:10323602
 xref: PMID:1097860
 is_a: XCO:0000940 ! controlled ex vivo pancreas condition
@@ -9782,7 +9780,7 @@ creation_date: 2023-03-14T11:55:08Z
 [Term]
 id: XCO:0000989
 name: fetal bovine serum
-def: "This is any experimental condition in which the main influencing factor is fetal bovine serum. Fetal bovine serum is the most widely used serum-supplement for the in vitro cell culture of eukaryotic cells. Fetal bovine serum is derived from the blood drawn from a bovine fetus via a closed system of collection at a slaughterhouse." [https://en.wikipedia.org/wiki/Fetal_bovine_serum, PMID:_13598821]
+def: "This is any experimental condition in which the main influencing factor is fetal bovine serum. Fetal bovine serum is the most widely used serum-supplement for the in vitro cell culture of eukaryotic cells. Fetal bovine serum is derived from the blood drawn from a bovine fetus via a closed system of collection at a slaughterhouse." [https://en.wikipedia.org/wiki/Fetal_bovine_serum, PMID: 13598821]
 synonym: "FBS" EXACT []
 synonym: "fetal calf serum" EXACT []
 relationship: part_of XCO:0000965 ! controlled in vitro cell condition
@@ -10198,7 +10196,7 @@ creation_date: 2023-05-09T16:38:20Z
 [Term]
 id: XCO:0001027
 name: gene transfer of the Rpl10a gene using a lentivirus vector
-def: "This is a condition in which the Rpl10a (ribosomal protein L10A) gene has been (transiently or stably) transferred into a cell or organism using a lentivirus carrier in order to induce synthesis of Rpl10a in the recipient cell or organism." [https://www.merriam-webster.com, PMID:_31825308]
+def: "This is a condition in which the Rpl10a (ribosomal protein L10A) gene has been (transiently or stably) transferred into a cell or organism using a lentivirus carrier in order to induce synthesis of Rpl10a in the recipient cell or organism." [https://www.merriam-webster.com, PMID: 31825308]
 synonym: "gene transfer of Rpl10a using a lentivirus vector" EXACT []
 synonym: "transduction of ribosomal protein L10A using a lentiviral vector" EXACT []
 synonym: "transduction of ribosomal protein L10A using a lentivirus vector" EXACT []
@@ -10343,132 +10341,6 @@ is_a: XCO:0000648 ! clodronic acid
 is_a: XCO:0000780 ! liposomes
 created_by: slaulede
 creation_date: 2023-05-19T16:23:46Z
-
-[Term]
-id: XCO:0001040
-name: (R)-lipoic acid
-def: "This is any condition in which the main influencing factor is (R)-lipoic acid, the (R)-enantiomer of lipoic acid. Lipoic acid is a vitamin-like, C8 thia fatty acid with anti-oxidant properties." [CHEBI:30314]
-synonym: "R-&#945;-lipoic acid" EXACT []
-xref: MESH:D008063
-xref: PMID:24104204
-is_a: XCO:0000777 ! lipoic acid
-created_by: slaulede
-creation_date: 2023-05-23T16:56:01Z
-
-[Term]
-id: XCO:0001041
-name: experimental spinal cord contusion
-def: "This is any condition in which the main influencing factor is an experimental surgical procedure involving laminectomy and delivery of a controlled contusion of the spinal cord by a mechanical apparatus." [PMID:15629760]
-synonym: "spinal cord injury" BROAD []
-xref: PMID:15629760
-xref: PMID: 28106101
-is_a: XCO:0000165 ! surgical manipulation
-created_by: slaulede
-creation_date: 2023-05-26T10:20:43Z
-
-[Term]
-id: XCO:0001042
-name: T9 spinal cord contusion
-def: "This is any condition in which the main influencing factor is an experimental surgical procedure involving laminectomy of the ninth thoracic vertebra and delivery of a controlled contusion of the spinal cord by a mechanical apparatus." [PMID:15629760]
-synonym: "spinal cord contusion at T9" EXACT []
-synonym: "spinal cord injury at T9" BROAD []
-synonym: "spinal cord injury at  the ninth thoracic vertebra" BROAD []
-is_a: XCO:0001041 ! experimental spinal cord contusion
-created_by: slaulede
-creation_date: 2023-05-26T10:31:57Z
-
-[Term]
-id: XCO:0001043
-name: laminectomy
-def: "This is any condition in which the main influencing factor is surgical removal of the lamina (dorsal part of vertebra) of one or more vertebrae. This procedure can serve as sham condition for a spinal cord contusion study." [https://www.mayoclinic.org/tests-procedures/laminectomy/about/pac-20394533, PMID:15629760]
-synonym: "dorsal laminectomy" EXACT []
-synonym: "surgical removal of vertebral lamina" EXACT []
-xref: PMID:15629760
-is_a: XCO:0000026 ! surgical removal
-created_by: slaulede
-creation_date: 2023-05-26T10:55:47Z
-
-[Term]
-id: XCO:0001044
-name: T9 laminectomy
-def: "This is any condition in which the main influencing factor is surgical removal of the lamina (dorsal part of vertebra) of the ninth thoracic vertebra." [https://www.mayoclinic.org/tests-procedures/laminectomy/about/pac-20394533, PMID:15629760]
-synonym: "surgical removal of the lamina of the ninth thoracic vertebra" EXACT []
-xref: PMID:15629760
-is_a: XCO:0001043 ! laminectomy
-created_by: slaulede
-creation_date: 2023-05-26T11:29:44Z
-
-[Term]
-id: XCO:0001045
-name: Walker 256 cells
-def: "This is any condition in which the main influencing factor is Walker 256, a rat mammary gland carcinoma cell line." [https://www.atcc.org/products/ccl-38, https://www.merriam-webster.com]
-synonym: "LLC-WRC 256 cells" EXACT []
-synonym: "W256 cells" EXACT []
-xref: Cellosaurus CVCL_3537
-xref: PMID:32209134
-is_a: XCO:0000709 ! cancer cells
-created_by: slaulede
-creation_date: 2023-05-26T12:12:33Z
-
-[Term]
-id: XCO:0001046
-name: Dnmt3a gapmer antisense oligonucleotide
-def: "This is any condition in which the main influencing factor is a Dnmt3a gapmer (Dnmt3a-targeting antisense oligonucleotide). Gapmers are mRNA-targeting, short DNA antisense oligonucleotide structures with RNA-like segments on both sides of the sequence." [https://en.wikipedia.org/wiki/Gapmer]
-synonym: "DNA methyltransferase 3 alpha GapmeR" EXACT []
-synonym: "DNA methyltransferase 3 alpha gapmer antisense oligonucleotide" EXACT []
-synonym: "Dnmt3a GapmeR" EXACT []
-xref: PMID:30354815
-is_a: XCO:0000234 ! deoxyribonucleic acid
-created_by: slaulede
-creation_date: 2023-06-01T15:19:05Z
-
-[Term]
-id: XCO:0001047
-name: Tet3 gapmer antisense oligonucleotide
-def: "This is any condition in which the main influencing factor is a Tet3 gapmer (Tet3-targeting antisense oligonucleotide). Gapmers are mRNA-targeting, short DNA antisense oligonucleotide structures with RNA-like segments on both sides of the sequence." [https://en.wikipedia.org/wiki/Gapmer]
-synonym: "Tet3 GapmeR" EXACT []
-synonym: "tet methylcytosine dioxygenase 3 GapmeR" EXACT []
-synonym: "tet methylcytosine dioxygenase 3 gapmer antisense oligonucleotide" EXACT []
-xref: PMID:30354815
-is_a: XCO:0000234 ! deoxyribonucleic acid
-created_by: slaulede
-creation_date: 2023-06-01T15:28:16Z
-
-[Term]
-id: XCO:0001048
-name: scrambled gapmer antisense oligonucleotide
-def: "This is any condition in which the main influencing factor is a negative control gapmer. A negative control gapmer is a gapmer with no significant sequence similarity to eukaryotic gene sequences and may be a scrambled version of the experimental gapmer used." [https://en.wikipedia.org/wiki/Gapmer, PMID:30354815]
-synonym: "control GapmeR" EXACT []
-synonym: "scrambled GapmeR" EXACT []
-synonym: "scrambled GapmeR antisense oligonucleotide" EXACT []
-synonym: "SCR GapmeR" EXACT []
-xref: PMID:30354815
-is_a: XCO:0000585 ! scrambled control oligodeoxynucleotide
-created_by: slaulede
-creation_date: 2023-06-01T15:36:36Z
-
-[Term]
-id: XCO:0001049
-name: nicotine
-def: "This is any condition in which the main influencing factor is nicotine, a highly toxic alkaloid. Nicotine is a racemate composed of equimolar amounts of (R)- and (S)-nicotine. It is the prototypical agonist at nicotinic cholinergic receptors where it dramatically stimulates neurons and ultimately blocks synaptic transmission." [CHEBI:18723, MESH:D009538]
-synonym: "(R,S)-nicotine" EXACT []
-synonym: "(RS)-nicotine" EXACT []
-synonym: "rac-3-(1-methylpyrrolidin-2-yl)pyridine" EXACT []
-xref: PMID:23874651
-is_a: XCO:0000496 ! neurotoxin
-is_a: XCO:0000693 ! cholinergic agonist
-created_by: slaulede
-creation_date: 2023-06-01T17:01:56Z
-
-[Term]
-id: XCO:0001050
-name: T8/T9 laminectomy
-def: "This is any condition in which the main influencing factor is surgical removal of the lamina (dorsal part of vertebra) from both the eighth and the ninth thoracic vertebrae." [https://www.mayoclinic.org/tests-procedures/laminectomy/about/pac-20394533, PMID:26546062]
-synonym: "surgical removal of the lamina of the eighth and ninth thoracic vertebrae" EXACT []
-xref: PMID:26546062
-relationship: has_component XCO:0001044 ! T9 laminectomy
-created_by: slaulede
-creation_date: 2023-06-02T14:15:42Z
 
 [Typedef]
 id: has_component
