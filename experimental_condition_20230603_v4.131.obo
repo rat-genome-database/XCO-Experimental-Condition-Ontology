@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.132
-date: 10:06:2023 20:13
+data-version: 4.131
+date: 03:06:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -10469,15 +10469,6 @@ xref: PMID:26546062
 relationship: has_component XCO:0001044 ! T9 laminectomy
 created_by: slaulede
 creation_date: 2023-06-02T14:15:42Z
-
-[Term]
-id: XCO:0001051
-name: controlled soy protein isolate content diet
-def: "This is any condition in which the main influencing factor is a solid diet in which the amount of soy protein isolate, usually containing 85%90% protein (dry basis), is maintained at a specified level. Soy protein isolates (SPI) are prepared by separating the fibers and insoluble carbohydrates from soy protein concentrate." [https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/soy-protein-isolate]
-synonym: "controlled SPI content diet" EXACT []
-is_a: XCO:0000014 ! controlled content diet
-created_by: slaulede
-creation_date: 2023-06-06T15:19:14Z
 
 [Typedef]
 id: has_component
