@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.134
-date: 01:07:2023 20:13
+data-version: 4.133
+date: 24:06:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -1986,7 +1986,7 @@ creation_date: 2012-10-16T01:26:26Z
 [Term]
 id: XCO:0000233
 name: ribonucleic acid
-def: "A long, polymeric chain of alternating phosphate and ribose units with the bases adenine, guanine, cytosine, and uracil bonded to the ribose. Although RNA is usually single-stranded it can also exist as RNA:RNA or RNA:DNA double-stranded molecules." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed]
+def: "A long, polymeric chain of alternating phosphate and ribose units with the bases adenine, guanine, cytosine, and uracil bonded to the ribose. Although RNA is usually single-stranded it can also exist as RNA:RNA or RNA:DNA double strands." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed]
 synonym: "RNA" EXACT []
 is_a: XCO:0000232 ! nucleic acid
 created_by: JSmith
@@ -10615,51 +10615,6 @@ xref: MESH:C031215
 is_a: XCO:0001061 ! oligosaccharide
 created_by: slaulede
 creation_date: 2023-06-23T15:43:12Z
-
-[Term]
-id: XCO:0001063
-name: pinealectomy
-def: "This is any condition in which the main influencing factor is the surgical excision of the pineal body, a midline, cone-like structure located in the dorso-caudal roof of the 3rd ventricle, attached by peduncles to the habenular and posterior commissures." [https://www.merriam-webster.com, UBERON:0001905]
-is_a: XCO:0000026 ! surgical removal
-created_by: slaulede
-creation_date: 2023-06-26T17:12:25Z
-
-[Term]
-id: XCO:0001064
-name: 5/6 nephrectomy
-def: "This is any condition in which the main influencing factor is a 5/6 nephrectomy, which is an experimental procedure performed to produce an animal model of chronic kidney disease in rodents. Typically, the right kidney is removed and the poles of the left kidney are removed to produce a total renal system which is 1/6 of original capacity." [ISBN:978-1455756438, PMID:32001792]
-synonym: "5/6 nephrectomy" EXACT []
-synonym: "5/6 Nx" EXACT []
-synonym: "five-sixths partial nephrectomy" EXACT []
-synonym: "subtotal 5/6 nephrectomy" EXACT []
-synonym: "subtotal nephrectomy" EXACT []
-xref: PMID:28760335
-is_a: XCO:0000017 ! nephrectomy
-created_by: slaulede
-creation_date: 2023-06-26T18:07:22Z
-
-[Term]
-id: XCO:0001065
-name: scrambled control LNA-modified oligonucleotide
-def: "This is any condition in which the main influencing factor is a control locked nucleic acid (LNA)modified oligonucleotide with a non-specific scrambled sequence. A locked nucleic acid (LNA), also known as bridged nucleic acid (BNA), and often referred to as inaccessible RNA, is a modified RNA nucleotide in which the ribose moiety is modified with an extra bridge connecting the 2' oxygen and 4' carbon. LNAs provide structural stability and nuclease resistance to the oligonucleotide." [https://en.wikipedia.org/wiki/Locked_nucleic_acid, https://www.idtdna.com/pages/technology/custom-dna-rna/locked-nucleic-acids]
-synonym: "scrambled control BNA oligonucleotide" EXACT []
-synonym: "scrambled control LNA oligonucleotide" EXACT []
-synonym: "scrambled control locked nucleic acid oligonucleotide" EXACT []
-xref: PMID:28760335
-is_a: XCO:0000233 ! ribonucleic acid
-created_by: slaulede
-creation_date: 2023-06-27T13:16:05Z
-
-[Term]
-id: XCO:0001066
-name: LNA-modified antirno-miR-21-5p oligonucleotide
-def: "This is any condition in which the main influencing factor is a control locked nucleic acid (LNA)modified oligonucleotide with an antirat miR-21-5p sequence. A locked nucleic acid (LNA), also known as bridged nucleic acid (BNA), and often referred to as inaccessible RNA, is a modified RNA nucleotide in which the ribose moiety is modified with an extra bridge connecting the 2' oxygen and 4' carbon. LNAs provide structural stability and nuclease resistance to the oligonucleotide." [https://en.wikipedia.org/wiki/Locked_nucleic_acid, https://www.idtdna.com/pages/technology/custom-dna-rna/locked-nucleic-acids]
-synonym: "BNA-modified antirno-miR-21-5p oligonucleotide" EXACT []
-synonym: "LNA-modified anti-microRNA-21-5p oligonucleotide" EXACT []
-xref: PMID:28760335
-is_a: XCO:0000233 ! ribonucleic acid
-created_by: slaulede
-creation_date: 2023-06-27T14:04:55Z
 
 [Typedef]
 id: has_component
