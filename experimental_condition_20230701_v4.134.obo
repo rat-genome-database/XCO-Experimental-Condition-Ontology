@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.135
-date: 08:07:2023 20:13
+data-version: 4.134
+date: 01:07:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -10660,16 +10660,6 @@ xref: PMID:28760335
 is_a: XCO:0000233 ! ribonucleic acid
 created_by: slaulede
 creation_date: 2023-06-27T14:04:55Z
-
-[Term]
-id: XCO:0001067
-name: nitroglycerin
-def: "This is any condition in which the main influencing factor is nitroglycerin, a volatile vasodilator which relieves angina pectoris by stimulating guanylate cyclase and lowering cytosolic calcium. It is also sometimes used for tocolysis." [MESH:D005996]
-synonym: "1,2,3-trinitrooxypropane" EXACT []
-xref: CHEBI:28787
-is_a: XCO:0000140 ! vasodilator
-created_by: slaulede
-creation_date: 2023-07-06T16:25:28Z
 
 [Typedef]
 id: has_component
