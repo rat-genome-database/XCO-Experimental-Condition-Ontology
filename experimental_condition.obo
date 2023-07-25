@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.135
-date: 08:07:2023 20:13
+data-version: 4.136
+date: 22:07:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -10670,6 +10670,74 @@ xref: CHEBI:28787
 is_a: XCO:0000140 ! vasodilator
 created_by: slaulede
 creation_date: 2023-07-06T16:25:28Z
+
+[Term]
+id: XCO:0001068
+name: sleep
+def: "This is any condition in which the main influencing factor is sleep, the natural, easily reversible periodic state of many living things that is marked by the absence of wakefulness and by the loss of consciousness of one's surroundings, is accompanied by a typical body posture (such as lying down with the eyes closed), the occurrence of dreaming, and changes in brain activity and physiological functioning." [https://www.merriam-webster.com]
+synonym: "napping" EXACT []
+synonym: "slumber" EXACT []
+synonym: "snoozing" EXACT []
+is_a: XCO:0000000 ! experimental condition
+created_by: slaulede
+creation_date: 2023-07-17T17:37:42Z
+
+[Term]
+id: XCO:0001069
+name: sleep restriction
+def: "This is any condition in which the main influencing factor is sleep restriction, a state caused by inadequate quantity or quality of sleep, including voluntary or involuntary sleeplessness and circadian rhythm sleep. Sleep restriction may be caused by stress, school or job requirements, poor sleeping habits, or an experimentally arranged situation." [https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/sleep-deprivation]
+synonym: "insomnia" RELATED []
+synonym: "sleep deprivation" EXACT []
+xref: PMID:32040351
+is_a: XCO:0001068 ! sleep
+created_by: slaulede
+creation_date: 2023-07-17T17:58:29Z
+
+[Term]
+id: XCO:0001070
+name: papain
+def: "This is any condition in which the main influencing factor is papain, a cysteine protease present in papaya (Carica papaya) and mountain papaya (Vasconcellea cundinamarcensis). In addition to experimental uses in biology research, it has wide ranging commercial applications in the leather, cosmetic, textiles, detergents, food and pharmaceutical industries." [https://en.wikipedia.org/wiki/Papain]
+synonym: "papaya proteinase 1" EXACT []
+xref: EC 3.4.22.2
+xref: MESH:D010206
+is_a: XCO:0000176 ! enzyme
+created_by: slaulede
+creation_date: 2023-07-18T14:25:07Z
+
+[Term]
+id: XCO:0001071
+name: L-cysteine
+def: "This is any condition in which the main influencing factor is L-cysteine, an optically active form of cysteine having the L-configuration at the alpha-carbon. It is a thiol-containing non-essential amino acid that is oxidized to form cystine." [CHEBI:17561, MESH:D003545]
+synonym: "half-cystine" EXACT []
+xref: PMID:31950348
+is_a: XCO:0000119 ! amino acid
+created_by: slaulede
+creation_date: 2023-07-18T16:58:46Z
+
+[Term]
+id: XCO:0001072
+name: gene transfer of the sTGF&#946;R2 gene using an adenovirus vector
+def: "This is any condition in which the main influencing factor is the soluble transforming growth factor-beta receptor 2 gene (sTGF&#946;R2) which has been (transiently or stably) transferred into a cell or organism using an adenovirus carrier in order to induce synthesis of that gene's product in the recipient cell or organism." [PMID:31950348]
+synonym: "gene transfer of the soluble transforming growth factor-beta receptor 2 gene using a adenoviral vector" EXACT []
+synonym: "gene transfer of the sTGF&#946;R2 gene using an adenoviral vector" EXACT []
+synonym: "transduction of sTGF&#946;R2 using an adenoviral vector" EXACT []
+synonym: "transduction of sTGF&#946;R2 using an adenovirus vector" EXACT []
+is_a: XCO:0000529 ! gene transfer using adenovirus vector
+created_by: slaulede
+creation_date: 2023-07-20T14:03:21Z
+
+[Term]
+id: XCO:0001073
+name: gene transfer of the KL gene using an adenovirus vector
+def: "This is any condition in which the main influencing factor is the klotho gene (KL) which has been (transiently or stably) transferred into a cell or organism using an adenovirus carrier in order to induce synthesis of that gene's product in the recipient cell or organism." [PMID:31950348]
+synonym: "gene transfer of the alpha klotho gene using a adenoviral vector" EXACT []
+synonym: "gene transfer of the KL gene using an adenoviral vector" EXACT []
+synonym: "gene transfer of the klotho gene using a adenoviral vector" EXACT []
+synonym: "transduction of KL using an adenoviral vector" EXACT []
+synonym: "transduction of KL using an adenovirus vector" EXACT []
+is_a: XCO:0000529 ! gene transfer using adenovirus vector
+created_by: slaulede
+creation_date: 2023-07-20T14:15:01Z
 
 [Typedef]
 id: has_component
