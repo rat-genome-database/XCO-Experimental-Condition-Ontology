@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.137
-date: 29:07:2023 20:13
+data-version: 4.136
+date: 22:07:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -2820,7 +2820,7 @@ creation_date: 2013-06-25T16:06:11Z
 [Term]
 id: XCO:0000319
 name: artificial aortocaval fistula
-def: "A surgically created passageway between the abdominal aorta and inferior vena cava." [ISBN-13:978-0781733908]
+def: "A surgically created passageway between the abdominal aorta and inferior vena cava." [ISBN-13:_978-0781733908]
 synonym: "ACF" RELATED []
 xref: PMID:2142618
 is_a: XCO:0000595 ! surgical manipulation of blood vessels
@@ -8167,7 +8167,7 @@ creation_date: 2021-06-28T17:14:08Z
 [Term]
 id: XCO:0000850
 name: therapeutic agent
-def: "This is a condition in which the main influencing factor is a chemical, biologic, or organism that exerts some force or effect resulting in a favorable outcome or improvement in the symptoms of a disorder or disease." [https://www.merriam-webster.com/, ISBN-13:978-0683400076]
+def: "This is a condition in which the main influencing factor is a chemical, biologic, or organism that exerts some force or effect resulting in a favorable outcome or improvement in the symptoms of a disorder or disease." [https://www.merriam-webster.com/, ISBN-13:_978-0683400076]
 synonym: "medicinal agent" EXACT []
 synonym: "Not4Curation" RELATED []
 synonym: "remedial agent" EXACT []
@@ -9102,7 +9102,7 @@ creation_date: 2022-03-07T12:52:46Z
 [Term]
 id: XCO:0000930
 name: renal denervation
-def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and the kidneys. It is followed by painting of the renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13:978-0781733908]
+def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and the kidneys. It is followed by painting of the renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
 synonym: "denervation of kidneys" EXACT []
 synonym: "RDN" EXACT []
 synonym: "surgical denervation of kidneys" EXACT []
@@ -9114,7 +9114,7 @@ creation_date: 2022-04-26T15:38:47Z
 [Term]
 id: XCO:0000931
 name: celiac artery and superior mesenteric artery constriction
-def: "This is any condition in which the main influencing factor is surgical narrowing of the lumen of the celiac artery and superior mesenteric artery." [https://www.merriam-webster.com/, ISBN-13:978-0781733908]
+def: "This is any condition in which the main influencing factor is surgical narrowing of the lumen of the celiac artery and superior mesenteric artery." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
 xref: PMID:15894899
 is_a: XCO:0000596 ! blood vessel constriction
 created_by: slaulede
@@ -9145,7 +9145,7 @@ creation_date: 2022-04-26T16:50:12Z
 [Term]
 id: XCO:0000934
 name: bilateral renal denervation
-def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and both kidneys. It is followed by painting of the renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13:978-0781733908]
+def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and both kidneys. It is followed by painting of the renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
 synonym: "denervation of both kidneys" EXACT []
 xref: PMID:15894899
 is_a: XCO:0000930 ! renal denervation
@@ -9155,7 +9155,7 @@ creation_date: 2022-04-28T16:36:07Z
 [Term]
 id: XCO:0000935
 name: unilateral renal denervation
-def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and only one kidney, left or right. It is followed by painting of the renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13:978-0781733908]
+def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and only one kidney, left or right. It is followed by painting of the renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
 synonym: "denervation of a single kidney" EXACT []
 xref: PMID:15894899
 is_a: XCO:0000930 ! renal denervation
@@ -9165,7 +9165,7 @@ creation_date: 2022-04-28T16:39:29Z
 [Term]
 id: XCO:0000936
 name: left kidney denervation
-def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and the kidney on the left side of the body. It is followed by painting of the left side renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13:978-0781733908]
+def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and the kidney on the left side of the body. It is followed by painting of the left side renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
 synonym: "left side renal denervation" EXACT []
 xref: PMID:15894899
 is_a: XCO:0000935 ! unilateral renal denervation
@@ -9175,7 +9175,7 @@ creation_date: 2022-04-28T16:47:06Z
 [Term]
 id: XCO:0000937
 name: right kidney denervation
-def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and the kidney on the right side of the body. It is followed by painting of the right side renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13:978-0781733908]
+def: "This is the resection or complete surgical removal of the nerves that convey impulses between the central nervous system and the kidney on the right side of the body. It is followed by painting of the right side renal blood vessels with a solution of 10% phenol." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
 synonym: "right side renal denervation" EXACT []
 xref: PMID:15894899
 is_a: XCO:0000935 ! unilateral renal denervation
@@ -9185,7 +9185,7 @@ creation_date: 2022-04-28T16:51:47Z
 [Term]
 id: XCO:0000938
 name: bovine serum albumin
-def: "This is a serum albumin protein derived from cow blood. It is used as an enzyme-stabilizing agent, a blocking reagent, etc. for laboratory experiments." [https://en.wikipedia.org/wiki/Bovine_serum_albumin, ISBN-13:978-0781733908]
+def: "This is a serum albumin protein derived from cow blood. It is used as an enzyme-stabilizing agent, a blocking reagent, etc. for laboratory experiments." [https://en.wikipedia.org/wiki/Bovine_serum_albumin, ISBN-13:_978-0781733908]
 synonym: "BSA" EXACT []
 synonym: "Fraction V" EXACT []
 synonym: "https://en.wikipedia.org/wiki/Bovine_serum_albumin" EXACT []
@@ -9210,7 +9210,7 @@ creation_date: 2022-05-02T16:49:07Z
 [Term]
 id: XCO:0000940
 name: controlled ex vivo pancreas condition
-def: "This is an experimental condition in which the internal or external environment of a pancreas, the combined endocrine/exocrine gland situated transversely behind the stomach, between the spleen and the duodenum, is experimentally manipulated or regulated, for example through perfusion, increased or decreased blood flow, etc. after removal from the body." [https://www.merriam-webster.com/, ISBN-13:978-0781733908]
+def: "This is an experimental condition in which the internal or external environment of a pancreas, the combined endocrine/exocrine gland situated transversely behind the stomach, between the spleen and the duodenum, is experimentally manipulated or regulated, for example through perfusion, increased or decreased blood flow, etc. after removal from the body." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
 xref: PMID:10323602
 is_a: XCO:0000464 ! controlled ex vivo organ condition
 created_by: slaulede
@@ -9219,7 +9219,7 @@ creation_date: 2022-05-05T16:23:16Z
 [Term]
 id: XCO:0000941
 name: controlled ex vivo pancreas perfusion
-def: "This is an experimental condition consisting of perfusion of the isolated pancreas with some physiological buffer (consisting of controlled solute composition and specific flow rate) in through the celiac artery and out through a portal vein." [https://www.merriam-webster.com/, ISBN-13:978-0781733908]
+def: "This is an experimental condition consisting of perfusion of the isolated pancreas with some physiological buffer (consisting of controlled solute composition and specific flow rate) in through the celiac artery and out through a portal vein." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
 xref: PMID:10323602
 xref: PMID:1097860
 is_a: XCO:0000940 ! controlled ex vivo pancreas condition
@@ -9783,7 +9783,7 @@ creation_date: 2023-03-14T11:55:08Z
 [Term]
 id: XCO:0000989
 name: fetal bovine serum
-def: "This is any experimental condition in which the main influencing factor is fetal bovine serum. Fetal bovine serum is the most widely used serum-supplement for the in vitro cell culture of eukaryotic cells. Fetal bovine serum is derived from the blood drawn from a bovine fetus via a closed system of collection at a slaughterhouse." [https://en.wikipedia.org/wiki/Fetal_bovine_serum, PMID:13598821]
+def: "This is any experimental condition in which the main influencing factor is fetal bovine serum. Fetal bovine serum is the most widely used serum-supplement for the in vitro cell culture of eukaryotic cells. Fetal bovine serum is derived from the blood drawn from a bovine fetus via a closed system of collection at a slaughterhouse." [https://en.wikipedia.org/wiki/Fetal_bovine_serum, PMID:_13598821]
 synonym: "FBS" EXACT []
 synonym: "fetal calf serum" EXACT []
 relationship: part_of XCO:0000965 ! controlled in vitro cell condition
@@ -10179,7 +10179,7 @@ synonym: "DNA MTase Inhibitor III" EXACT []
 synonym: "EHMT1/GLP Inhibitor II" EXACT []
 synonym: "EHMT2/G9a Inhibitor IV" EXACT []
 synonym: "HMTase Inhibitor IV" EXACT []
-xref: PMID:26551542
+xref: PMID: 26551542
 is_a: XCO:0000435 ! antineoplastic agent
 is_a: XCO:0000523 ! enzyme inhibitor
 created_by: slaulede
@@ -10199,7 +10199,7 @@ creation_date: 2023-05-09T16:38:20Z
 [Term]
 id: XCO:0001027
 name: gene transfer of the Rpl10a gene using a lentivirus vector
-def: "This is a condition in which the Rpl10a (ribosomal protein L10A) gene has been (transiently or stably) transferred into a cell or organism using a lentivirus carrier in order to induce synthesis of Rpl10a in the recipient cell or organism." [https://www.merriam-webster.com, PMID:31825308]
+def: "This is a condition in which the Rpl10a (ribosomal protein L10A) gene has been (transiently or stably) transferred into a cell or organism using a lentivirus carrier in order to induce synthesis of Rpl10a in the recipient cell or organism." [https://www.merriam-webster.com, PMID:_31825308]
 synonym: "gene transfer of Rpl10a using a lentivirus vector" EXACT []
 synonym: "transduction of ribosomal protein L10A using a lentiviral vector" EXACT []
 synonym: "transduction of ribosomal protein L10A using a lentivirus vector" EXACT []
@@ -10362,7 +10362,7 @@ name: experimental spinal cord contusion
 def: "This is any condition in which the main influencing factor is an experimental surgical procedure involving laminectomy and delivery of a controlled contusion of the spinal cord by a mechanical apparatus." [PMID:15629760]
 synonym: "spinal cord injury" BROAD []
 xref: PMID:15629760
-xref: PMID:28106101
+xref: PMID: 28106101
 is_a: XCO:0000165 ! surgical manipulation
 created_by: slaulede
 creation_date: 2023-05-26T10:20:43Z
