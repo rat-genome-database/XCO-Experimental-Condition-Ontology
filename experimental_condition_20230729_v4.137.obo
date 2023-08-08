@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.138
-date: 05:08:2023 20:13
+data-version: 4.137
+date: 29:07:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -10738,37 +10738,6 @@ synonym: "transduction of KL using an adenovirus vector" EXACT []
 is_a: XCO:0000529 ! gene transfer using adenovirus vector
 created_by: slaulede
 creation_date: 2023-07-20T14:15:01Z
-
-[Term]
-id: XCO:0001074
-name: ureter ligation
-def: "This is a condition in which the main influencing factor is an experimental surgical procedure causing blockage of one or both ureters. Ureters are the muscular ducts that propel urine from the kidneys to the urinary bladder." [ISBN:978-1455756438, UBERON:0000056]
-synonym: "UO" RELATED []
-synonym: "ureteral obstruction" RELATED []
-is_a: XCO:0000165 ! surgical manipulation
-created_by: slaulede
-creation_date: 2023-08-01T13:28:25Z
-
-[Term]
-id: XCO:0001075
-name: unilateral ureter ligation
-def: "This is a condition in which the main influencing factor is an experimental surgical procedure causing blockage of one ureter. Unilateral ureter ligation is used in experimental animals to create a model of unilateral ureteral obstruction and renal fibrosis." [ISBN:978-1455756438, PMID:28912732]
-synonym: "unilateral ureteral obstruction" RELATED []
-synonym: "UUO" RELATED []
-is_a: XCO:0001074 ! ureter ligation
-created_by: slaulede
-creation_date: 2023-08-01T14:00:10Z
-
-[Term]
-id: XCO:0001076
-name: bilateral ureter ligation
-def: "This is a condition in which the main influencing factor is an experimental surgical procedure causing blockage of both ureters. Bilateral ureter ligation (BUL) is used in experimental animals to create a model of renal failure." [ISBN:978-1455756438, PMID:20797570]
-synonym: "bilateral ureteral obstruction" RELATED []
-synonym: "BUL" EXACT []
-synonym: "BUO" RELATED []
-is_a: XCO:0001074 ! ureter ligation
-created_by: slaulede
-creation_date: 2023-08-01T14:15:15Z
 
 [Typedef]
 id: has_component
