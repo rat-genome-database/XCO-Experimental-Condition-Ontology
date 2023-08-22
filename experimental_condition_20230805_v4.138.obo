@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.139
-date: 12:08:2023 20:13
+data-version: 4.138
+date: 05:08:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -10769,35 +10769,6 @@ synonym: "BUO" RELATED []
 is_a: XCO:0001074 ! ureter ligation
 created_by: slaulede
 creation_date: 2023-08-01T14:15:15Z
-
-[Term]
-id: XCO:0001077
-name: bisphenol F
-def: "This is any condition in which the main influencing factor is bisphenol F, an organic compound with the chemical formula (HOC6H4)2CH2. It is structurally related to bisphenol A (BPA), a popular precursor for forming plastics, as both belong to the category of molecules known as bisphenols, which feature two phenol groups connected via a linking group." [https://en.wikipedia.org/wiki/Bisphenol_F]
-synonym: "4-(4-hydroxybenzyl)phenol" EXACT []
-synonym: "4,4&#8242;-Dihydroxydiphenylmethane" EXACT []
-synonym: "4,4&#8242;-Methylenediphenol" EXACT []
-synonym: "4,4'-bisphenol F" EXACT []
-synonym: "BPF" EXACT []
-xref: CHEBI:34575
-xref: MESH:C008745
-is_a: XCO:0000396 ! phenolic/phenol derivative
-created_by: slaulede
-creation_date: 2023-08-08T16:49:17Z
-
-[Term]
-id: XCO:0001078
-name: controlled bisphenol F content drinking water
-def: "This is any condition in which the main influencing factor is bisphenol F in a drink made up of water and a specified amount of bisphenol F consumed by an organism as part of an experiment. Bisphenol F is an organic compound with the chemical formula (HOC6H4)2CH2." [https://en.wikipedia.org/wiki/Bisphenol_F, https://www.merriam-webster.com/]
-synonym: "controlled 4,4&#8242;-Dihydroxydiphenylmethane content drinking water" EXACT []
-synonym: "controlled 4,4&#8242;-Methylenediphenol content drinking water" EXACT []
-synonym: "controlled BPF content drinking water" EXACT []
-xref: CHEBI:34575
-xref: MESH:C008745
-is_a: XCO:0000163 ! controlled content drinking water
-relationship: has_component XCO:0001077 ! bisphenol F
-created_by: slaulede
-creation_date: 2023-08-08T17:13:41Z
 
 [Typedef]
 id: has_component
