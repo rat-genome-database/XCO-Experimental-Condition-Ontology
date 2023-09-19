@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.139
-date: 12:08:2023 20:13
+data-version: 4.140
+date: 16:09:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -10798,6 +10798,18 @@ is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0001077 ! bisphenol F
 created_by: slaulede
 creation_date: 2023-08-08T17:13:41Z
+
+[Term]
+id: XCO:0001079
+name: adenine
+def: "This is any condition in which the main influencing factor is adenine, the parent compound of the 6-aminopurines, composed of a purine having an amino group at C-6. Adenine is one of the five constituent bases of nucleic acids.The shape of adenine is complementary to either thymine in DNA or uracil in RNA." [CHEBI:16708, https://en.wikipedia.org/wiki/Adenine]
+synonym: "1H-Purin-6-amine" EXACT []
+synonym: "6-Aminopurine" EXACT []
+synonym: "9H-purin-6-amine" EXACT []
+xref: MESH:D000225
+is_a: XCO:0000342 ! chemical with specified structure
+created_by: slaulede
+creation_date: 2023-09-14T15:58:46Z
 
 [Typedef]
 id: has_component
