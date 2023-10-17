@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.140
-date: 16:09:2023 20:13
+data-version: 4.141
+date: 14:10:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -10810,6 +10810,64 @@ xref: MESH:D000225
 is_a: XCO:0000342 ! chemical with specified structure
 created_by: slaulede
 creation_date: 2023-09-14T15:58:46Z
+
+[Term]
+id: XCO:0001080
+name: monoiodoacetate
+def: "This is any condition in which the main influencing factor is monoiodoacetate, a haloacetate(1-) resulting from the deprotonation of the carboxy group of iadoacetic acid." [CHEBI:23123]
+synonym: "iodoacetate" EXACT []
+synonym: "MIA" EXACT []
+is_a: XCO:0000149 ! ion/salt
+is_a: XCO:0000261 ! arthritis inducing chemical
+created_by: slaulede
+creation_date: 2023-10-02T13:55:23Z
+
+[Term]
+id: XCO:0001081
+name: SBFI-103
+def: "This is any condition in which the main influencing factor is SBFI-103, a selective FABP5 inhibitor. It is an experimental drug for treatment of cancer and osteoarthritis." [https://synapse.patsnap.com/drug/8addafe1559d4e20a32638b36f0515ec, PMID:35650684]
+synonym: "9-Fluorenylmethyl a-3-hydroxycarbonyl-2,4-di(2-methoxylphenyl)-cyclobutane-1-carboxylate" EXACT []
+synonym: "alpha-SBFI-103" EXACT []
+synonym: "FABP5-IN-1" EXACT []
+synonym: "SB-FI-103" EXACT []
+xref: CAS:2132990-98-6
+is_a: XCO:0000120 ! inhibitor
+created_by: slaulede
+creation_date: 2023-10-02T14:40:38Z
+
+[Term]
+id: XCO:0001082
+name: bovine type II collagen
+def: "This is any condition in which the major influencing factor is the fibrillar collagen which comprises the main component of cartilage and is also found in the vitreous humor of the eye. Collagens are a family of extracellular, closely related proteins occurring as a major component of connective tissue, giving it strength and flexibility." [http://en.wikipedia.org/wiki/Collagen, ISBN:978-1455756438]
+synonym: "Bos taurus type II collagen" EXACT []
+synonym: "cattle type II collagen" EXACT []
+is_a: XCO:0000281 ! type II collagen
+created_by: slaulede
+creation_date: 2023-10-03T13:13:21Z
+
+[Term]
+id: XCO:0001083
+name: imperatorin
+def: "This is any condition in which the main influencing factor is imperatorin, a member of the class of psoralens that is psoralen substituted by a prenyloxy group at position 8. Isolated from Angelica dahurica and Angelica koreana, it acts as a acetylcholinesterase inhibitor." [CHEBI:5885]
+synonym: "9-[(3-methylbut-2-en-1-yl)oxy]-7H-furo[3,2-g]chromen-7-one" EXACT []
+synonym: "IMP" EXACT []
+xref: CAS:482-44-0
+xref: MESH:C031534
+xref: PMID:32392637
+is_a: XCO:0000523 ! enzyme inhibitor
+created_by: slaulede
+creation_date: 2023-10-03T13:24:53Z
+
+[Term]
+id: XCO:0001084
+name: beta-Sitosterol
+def: "This is any condition in which the main influencing factor is beta-Sitosterol, one of several phytosterols (plant sterols) with chemical structures similar to that of cholesterol. It is a white, waxy powder with a characteristic odor, and is one of the components of the food additive E499." [https://en.wikipedia.org/wiki/Beta-Sitosterol]
+synonym: "beta-sitosterol" EXACT []
+xref: CAS:83-46-5
+xref: PMID:32392637
+is_a: XCO:0000091 ! steroid
+created_by: slaulede
+creation_date: 2023-10-03T14:44:34Z
 
 [Typedef]
 id: has_component
