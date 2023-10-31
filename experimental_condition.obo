@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.141
-date: 14:10:2023 20:13
+data-version: 4.142
+date: 28:10:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -10868,6 +10868,15 @@ xref: PMID:32392637
 is_a: XCO:0000091 ! steroid
 created_by: slaulede
 creation_date: 2023-10-03T14:44:34Z
+
+[Term]
+id: XCO:0001085
+name: experimental epidural spinal cord compression
+def: "This is a condition induced by an experimental surgical procedure involving disruption of CSF circulation in the spinal cord. This artificial compression is intended to mimic the human disease canalicular syringomyelia." [PMID:37275526]
+synonym: "experimental extradural spinal cord compression" EXACT []
+is_a: XCO:0000165 ! surgical manipulation
+created_by: slaulederkind
+creation_date: 2023-10-27T17:01:49Z
 
 [Typedef]
 id: has_component
