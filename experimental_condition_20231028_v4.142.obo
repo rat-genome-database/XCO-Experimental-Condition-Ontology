@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.143
-date: 04:11:2023 20:13
+data-version: 4.142
+date: 28:10:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -3948,7 +3948,7 @@ creation_date: 2014-03-07T13:09:25Z
 [Term]
 id: XCO:0000435
 name: antineoplastic agent
-def: "This is any condition in which the main influencing factor is any chemical that inhibits or prevents the proliferation of neoplasms." []
+def: "A condition in which the main influencing factor is any chemical that inhibits or prevents the proliferation of neoplasms." []
 synonym: "anticancer agent" RELATED []
 synonym: "cancer chemotherapy agent" RELATED []
 xref: CHEBI:35610
@@ -4444,7 +4444,7 @@ creation_date: 2015-04-30T14:31:11Z
 [Term]
 id: XCO:0000484
 name: ceftriaxone
-def: "This is any condition in which the main influencing factor is ceftriaxone, a third-generation cephalosporin antibacterial agent with broad-spectrum activity against both Gram-positive and Gram-negative bacteria." [http://en.wikipedia.org/wiki/Ceftriaxone "Wikipedia"]
+def: "A third-generation cephalosporin antibacterial agent with broad-spectrum activity against both Gram-positive and Gram-negative bacteria." [http://en.wikipedia.org/wiki/Ceftriaxone "Wikipedia"]
 xref: CHEBI:29007
 is_a: XCO:0000483 ! antibacterial agent
 created_by: JSmith
@@ -5963,11 +5963,10 @@ creation_date: 2019-08-01T14:50:02Z
 id: XCO:0000642
 name: monocrotaline
 def: "Monocrotaline is a pyrrolizidine alkaloid and a toxic plant constituent that poisons livestock and humans through the ingestion of contaminated grains and other foods. The alkaloid causes pulmonary artery hypertension, right ventricular hypertrophy, and pathological changes in the pulmonary vasculature. Significant attenuation of the cardiopulmonary changes are noted after oral magnesium treatment." [https://www.ncbi.nlm.nih.gov/mesh/68016686 "MESH"]
-synonym: "crotaline" EXACT []
-synonym: "MCT" EXACT []
+synonym: "https://www.ncbi.nlm.nih.gov/mesh/68016686" RELATED []
+synonym: "MCT" RELATED []
 xref: CHEBI:6980
-xref: CID:9415
-xref: MESH:D016686
+xref: pubchem.compound:9415
 is_a: XCO:0000239 ! toxic substance
 created_by: sjwang
 creation_date: 2019-08-01T17:00:38Z
@@ -6829,7 +6828,7 @@ creation_date: 2020-06-11T17:41:02Z
 [Term]
 id: XCO:0000722
 name: solid food deprivation
-def: "This is any condition in which the main influencing factor is solid food deprivation, a condition in which solid food is withheld for a specified period of time, while nourishment through liquids is provided." [https://www.merriam-webster.com/, PMID:23955305]
+def: "Condition in which solid food is withheld for a specified period of time, while nourishment through liquids is provided." [https://www.merriam-webster.com/, PMID:23955305]
 xref: PMID:23955305
 is_a: XCO:0000461 ! restricted feeding
 created_by: slaulede
@@ -10364,7 +10363,7 @@ def: "This is any condition in which the main influencing factor is an experimen
 synonym: "spinal cord injury" BROAD []
 xref: PMID:15629760
 xref: PMID:28106101
-is_a: XCO:0001091 ! experimental spinal cord injury
+is_a: XCO:0000165 ! surgical manipulation
 created_by: slaulede
 creation_date: 2023-05-26T10:20:43Z
 
@@ -10875,123 +10874,9 @@ id: XCO:0001085
 name: experimental epidural spinal cord compression
 def: "This is a condition induced by an experimental surgical procedure involving disruption of CSF circulation in the spinal cord. This artificial compression is intended to mimic the human disease canalicular syringomyelia." [PMID:37275526]
 synonym: "experimental extradural spinal cord compression" EXACT []
-is_a: XCO:0001091 ! experimental spinal cord injury
+is_a: XCO:0000165 ! surgical manipulation
 created_by: slaulederkind
 creation_date: 2023-10-27T17:01:49Z
-
-[Term]
-id: XCO:0001086
-name: TRV023
-def: "This is any condition in which the main influencing factor is TRV023, an angiotensin analogue which is a beta-arrestin selective signaling AGTR1 agonist. It is a biased ligand because it does not affect G-protein signaling by AGTR1." [PMID:32259102, PMID:34201646]
-synonym: "Sar-Arg-Val-Tyr-Lys-His-Pro-Ala-OH" EXACT []
-synonym: "TRV" EXACT []
-is_a: XCO:0000135 ! receptor agonist
-created_by: slaulederkind
-creation_date: 2023-10-31T13:11:19Z
-
-[Term]
-id: XCO:0001087
-name: limited bedding and nesting
-def: "This is any condition in which the main influencing factor is limited bedding and nesting, a housing condition designed to create a model of early life adversity. The minimum bedding/nesting may be as little as a paper towel in a plain, unadorned cage." [PMID:35102257]
-synonym: "LBN" EXACT []
-synonym: "limited bedding/nesting model" EXACT []
-synonym: "limited bedding and nesting model" EXACT []
-is_a: XCO:0000033 ! housing condition
-created_by: slaulederkind
-creation_date: 2023-10-31T13:46:58Z
-
-[Term]
-id: XCO:0001088
-name: cefuroxime
-def: "This is any condition in which the main influencing factor is cefuroxime, a broad-spectrum cephalosporin antibiotic resistant to beta-lactamase. Cefuroxime has been proposed for treatment of infections of gram-negative organisms, gram-positive organisms, gonorrhea, and haemophilus." [MESH:D002444]
-synonym: "3-[(carbamoyloxy)methyl]-7beta-[(2Z)-2-(furan-2-yl)-2-(methoxyimino)acetamido]-3,4-didehydrocepham-4-carboxylic acid" EXACT []
-synonym: "CHEBI:3515" EXACT []
-synonym: "CID:5479529" EXACT []
-is_a: XCO:0000483 ! antibacterial agent
-created_by: slaulederkind
-creation_date: 2023-11-02T12:28:19Z
-
-[Term]
-id: XCO:0001089
-name: hirudin
-def: "This is any condition in which the main influencing factor is a hirudin, a single-chain polypeptide of about 65 amino acids (7 kDa) found in leech saliva, that has a neutral hydrophobic N terminus, an acidic hydrophilic C terminus, and a compact, hydrophobic core region. Hirudins, both natural and synthetic, are inhibitors of thrombin." [MESH:D006629]
-synonym: "hirudins" BROAD []
-xref: MESH:C074619
-xref: MESH:C083544
-xref: PMID:34621173
-is_a: XCO:0000523 ! enzyme inhibitor
-is_a: XCO:0001090 ! anticoagulant
-created_by: slaulederkind
-creation_date: 2023-11-02T13:01:47Z
-
-[Term]
-id: XCO:0001090
-name: anticoagulant
-def: "This is any condition in which the main influencing factor is an anticoagulant, a substance that hinders the clotting of blood." [https://www.merriam-webster.com/, ISBN:978-1455756438]
-xref: CHEBI:50249
-xref: MESH:D000925
-xref: PMID:34621173
-is_a: XCO:0000341 ! chemical with specified function
-created_by: slaulederkind
-creation_date: 2023-11-02T13:12:35Z
-
-[Term]
-id: XCO:0001091
-name: experimental spinal cord injury
-def: "This is any condition in which the main influencing factor is experimental spinal cord injury, a penetrating or non-penetrating injury to the spinal cord resulting from experimentally controlled trauma." [https://www.merriam-webster.com/, MESH:D013119]
-xref: DOID:9000039
-xref: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE149657
-is_a: XCO:0000165 ! surgical manipulation
-created_by: slaulederkind
-creation_date: 2023-11-02T13:45:26Z
-
-[Term]
-id: XCO:0001092
-name: sciatic nerve crush
-def: "This is any condition in which the main influencing factor is an experimentally controlled sciatic nerve crush, which is used as a model of sciatic neuropathy, Wallerian degeneration, and axonal regeneration." [PMID:35768768]
-xref: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE149657
-is_a: XCO:0000165 ! surgical manipulation
-created_by: slaulederkind
-creation_date: 2023-11-02T13:57:14Z
-
-[Term]
-id: XCO:0001093
-name: epigallocatechin-3-gallate
-def: "This is any condition in which the main influencing factor is epigallocatechin-3-gallate, a gallate ester which is an antimutagen found in tea (Camellia sinensis) with the highest concentration in green tea." [MESH:C045651]
-synonym: "(-)-epigallocatechin 3-gallate" EXACT []
-synonym: "EGCG" EXACT []
-synonym: "epigallocatechin gallate" EXACT []
-xref: CHEBI:4806
-is_a: XCO:0000435 ! antineoplastic agent
-created_by: slaulederkind
-creation_date: 2023-11-03T14:46:21Z
-
-[Term]
-id: XCO:0001094
-name: CFT&#8208;1 tea infusion
-def: "This is any condition in which the main influencing factor is CFT-1, a green tea variety called Camellia sinensis (L.) O. Kuntze cv. CFT&#8208;1, which is rich in EGCG (antimutagen epigallocatechin-3-gallate)." [https://en.wikipedia.org/wiki/Camellia_sinensis, PMID:31428352]
-synonym: "Camellia sinensis (L.) O. Kuntze cv. CFT&#8208;1" EXACT []
-synonym: "Camellia sinensis CV.CFT&#8208;1 tea" EXACT []
-synonym: "CFT&#8208;1 green tea infusion" EXACT []
-synonym: "CFT-1" EXACT []
-synonym: "EGCG&#8208;rich tea" EXACT []
-is_a: XCO:0000075 ! tea
-created_by: slaulederkind
-creation_date: 2023-11-03T15:30:13Z
-
-[Term]
-id: XCO:0001095
-name: FYT tea infusion
-def: "This is any condition in which the main influencing factor is FYT, a common green tea variety called Camellia sinensis (L.) O. Kuntze cv. Fuyun6." [https://en.wikipedia.org/wiki/Camellia_sinensis, PMID:31428352]
-synonym: "Camellia sinensis (L.) O. Kuntze cv. Fuyun6" EXACT []
-synonym: "Camellia sinensis (L.) O. Kuntze cv. FYT" EXACT []
-synonym: "Camellia sinensis CV.FYT tea" EXACT []
-synonym: "Fuyun6 green tea" EXACT []
-synonym: "FYT" EXACT []
-synonym: "FYT green tea infusion" EXACT []
-is_a: XCO:0000075 ! tea
-created_by: slaulederkind
-creation_date: 2023-11-03T15:57:46Z
 
 [Typedef]
 id: has_component
