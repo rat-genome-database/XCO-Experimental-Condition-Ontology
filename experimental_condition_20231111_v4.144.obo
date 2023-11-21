@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.145
-date: 18:11:2023 20:13
+data-version: 4.144
+date: 11:11:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -896,10 +896,7 @@ creation_date: 2012-01-09T01:29:47Z
 [Term]
 id: XCO:0000119
 name: amino acid
-def: "This is any condition in which the main influencing factor is an amino acid, any naturally occurring or synthetic organic compound containing an amino group, a carboxylic acid group and a side chain. An amino acid may be administered as a nutritional supplement or as a drug." [https://en.wikipedia.org/wiki/Amino_acid "Wikipedia", https://www.merriam-webster.com/]
-synonym: "amino acids" EXACT []
-xref: CHEBI:33709
-xref: MESH:D000596
+def: "Any naturally occurring or synthetic organic compound containing an amino group, a carboxylic acid group and a side chain. An amino acid may be administered as a nutritional supplement or as a drug." [http://en.eikipedia.org/wiki/ "Wikipedia"]
 is_a: XCO:0000342 ! chemical with specified structure
 created_by: JSmith
 creation_date: 2012-02-16T12:55:34Z
@@ -1265,7 +1262,7 @@ creation_date: 2012-03-26T04:56:10Z
 id: XCO:0000157
 name: physical restraint
 def: "The use of manual or mechanical means to limit some or all of an animal's normal movement for the purpose of examination, collection of samples, drug administration, therapy, or experimental manipulation." [http://grants.nih.gov/grants/olaw/Guide-for-the-care-and-use-of-Laboratory-animals.pdf "NIH"]
-is_a: XCO:0001100 ! physical manipulation
+is_a: XCO:0000001 ! activity
 created_by: JSmith
 creation_date: 2012-06-07T12:30:41Z
 
@@ -1399,7 +1396,7 @@ creation_date: 2012-07-11T04:09:48Z
 [Term]
 id: XCO:0000173
 name: polysaccharide
-def: "A macromolecule consisting of large numbers (>10) of monosaccharide residues, that is, simple carbohydrate residues each consisting of a single basic sugar unit with the general formula (CH2O)n, linked glycosidically." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+def: "A macromolecule consisting of large numbers of monosaccharide residues, that is, simple carbohydrate residues each consisting of a single basic sugar unit with the general formula Cn(H2O)n, linked glycosidically." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 xref: CHEBI:18154
 is_a: XCO:0000172 ! carbohydrate
 created_by: JSmith
@@ -5212,16 +5209,9 @@ creation_date: 2018-11-21T09:51:04Z
 [Term]
 id: XCO:0000562
 name: salidroside
-def: "This is any condition in which the main influencing factor is salidroside, a glucoside of tyrosol found in the plant Rhodiola rosea. It is thought to be one of the compounds responsible for the antidepressant and anxiolytic actions of this plant." [https://druginfo.nlm.nih.gov/drugportal/name/salidroside "Drug Information Portal"]
-synonym: "2-(4-Hydroxyphenyl)ethyl &#946;-D-glucopyranoside" EXACT []
-synonym: "rhodioloside" EXACT []
-synonym: "rhodosin" EXACT []
-synonym: "sallidroside" EXACT []
-synonym: "tyrosol glucoside" EXACT []
-xref: CHEBI:9009
-xref: MESH:C009172
+def: "A glucoside of tyrosol found in the plant Rhodiola rosea. It is thought to be one of the compounds responsible for the antidepressant and anxiolytic actions of this plant." [https://druginfo.nlm.nih.gov/drugportal/name/salidroside "Drug Information Portal"]
+synonym: "Rhodioloside" EXACT []
 is_a: XCO:0000561 ! antidepressant
-is_a: XCO:0001122 ! anti-anxiety agent
 created_by: sjwang
 creation_date: 2018-11-21T09:53:27Z
 
@@ -5634,13 +5624,8 @@ creation_date: 2019-03-18T16:27:59Z
 [Term]
 id: XCO:0000607
 name: acetic acid
-def: "This is any condition in which the main influencing factor is acetic acid, the product of the oxidation of ethanol and of the destructive distillation of wood. Acetic acid is used locally, occasionally internally, as a counterirritant and also as a reagent." [CHEBI:15366, Stedman:Stedmans_Medical_Dictionary_26th_ed]
-synonym: "ethanoic acid" EXACT []
-synonym: "ethylic acid" EXACT []
-synonym: "methane carboxylic acid" EXACT []
-synonym: "vinegar acid" EXACT []
-xref: MESH:D019342
-is_a: XCO:0000342 ! chemical with specified structure
+def: "Product of the oxidation of ethanol and of the destructive distillation of wood. Acetic acid is used locally, occasionally internally, as a counterirritant and also as a reagent." [CHEBI:15366, Stedman:Stedmans_Medical_Dictionary_26th_ed]
+is_a: XCO:0000088 ! chemical
 created_by: sjwang
 creation_date: 2019-03-19T17:06:26Z
 
@@ -5659,14 +5644,11 @@ creation_date: 2019-03-27T15:27:46Z
 
 [Term]
 id: XCO:0000609
-name: 4-methyl-2-(piperidin-1-yl)-quinoline
+name: 4-methyl-2-(piperidin-1-yl) quinoline
 def: "A potent and selective blocker of TRPC4 channels." [PMID:24388923]
-synonym: "4-methyl-2-(piperidin-1-yl)quinoline" EXACT []
-synonym: "4-methyl-2-piperidin-1-ylquinoline" EXACT []
 synonym: "ML-204" EXACT []
-synonym: "ML204" EXACT []
-xref: CID:230710
-is_a: XCO:0000269 ! calcium channel inhibitor
+xref: pubchem.compound:230710
+is_a: XCO:0000222 ! cation channel inhibitor
 created_by: sjwang
 creation_date: 2019-03-27T15:43:10Z
 
@@ -7720,12 +7702,11 @@ creation_date: 2021-02-16T17:08:36Z
 [Term]
 id: XCO:0000809
 name: 2-methyl-6-(phenylethynyl)pyridine
-def: "This is any condition in which the main influencing factor is 2-methyl-6-(phenylethynyl)pyridine, a methylpyridine that consists of 2-methylpyridine bearing an additional phenylethynyl group at position 6. It is a potent and highly selective non-competitive antagonist at the mGlu5 receptor subtype (IC50 = 36 nM) and a positive allosteric modulator at mGlu4 receptors. It functions as an excitatory amino acid antagonist and an anxiolytic agent." [CHEBI:64159, MESH:C121465]
+def: "Any condition in which the main influencing factor is 2-methyl-6-(phenylethynyl)pyridine, a methylpyridine that consists of 2-methylpyridine bearing an additional phenylethynyl group at position 6. It is a potent and highly selective non-competitive antagonist at the mGlu5 receptor subtype (IC50 = 36 nM) and a positive allosteric modulator at mGlu4 receptors. It functions as an excitatory amino acid antagonist and an anxiolytic agent." [CHEBI:64159, MESH:C121465]
 synonym: "2-methyl-6-(phenylethynyl)pyridine" EXACT []
 synonym: "MPEP" EXACT []
 xref: PMID:28615682
 is_a: XCO:0000160 ! receptor antagonist
-is_a: XCO:0001122 ! anti-anxiety agent
 created_by: slaulede
 creation_date: 2021-02-16T17:41:28Z
 
@@ -11066,9 +11047,9 @@ creation_date: 2023-11-09T10:36:46Z
 [Term]
 id: XCO:0001100
 name: physical manipulation
-def: "This is any condition in which the main influencing factor is the use of manual or mechanical, non-surgical means to aid a patient or experimental animal in performing some biological activity for the purpose of examination, collection of samples, drug administration, therapy, or experimental manipulation. This may or may not require the use of tools or devices." [https://anti-doping.government.bg/en/m2-khimicheski-i-fizicheski-manipulatsii_p58.html, https://www.merriam-webster.com/]
+def: "This is the use of manual or mechanical, non-surgical means to aid a patient or experimental animal in performing some biological activity for the purpose of examination, collection of samples, drug administration, therapy, or experimental manipulation. This may or may not require the use of tools or devices." [https://anti-doping.government.bg/en/m2-khimicheski-i-fizicheski-manipulatsii_p58.html, https://www.merriam-webster.com/]
 xref: PMID:35627209
-is_a: XCO:0000000 ! experimental condition
+is_a: XCO:0000001 ! activity
 created_by: slaulederkind
 creation_date: 2023-11-09T13:03:47Z
 
@@ -11143,286 +11124,6 @@ xref: DOID:9001725
 is_a: XCO:0001105 ! controlled in situ ophthalmic condition
 created_by: slaulederkind
 creation_date: 2023-11-10T15:57:47Z
-
-[Term]
-id: XCO:0001107
-name: polymer
-def: "This is any condition in which the main influencing factor is a polymer, any of a class of natural or synthetic substances composed of very large molecules, called macromolecules, which are multiples of simpler chemical units called monomers." [https://www.britannica.com/science/polymer]
-xref: PMID:36693849
-is_a: XCO:0000342 ! chemical with specified structure
-created_by: slaulederkind
-creation_date: 2023-11-13T12:40:55Z
-
-[Term]
-id: XCO:0001108
-name: alginate
-def: "This is any condition in which the main influencing factor is alginate, a naturally occurring anionic polymer typically obtained from brown seaweed. It is used as a wound dressing to keep the wound area moist." [PMID:22125349]
-xref: PMID:36693849
-is_a: XCO:0001107 ! polymer
-created_by: slaulederkind
-creation_date: 2023-11-13T12:50:44Z
-
-[Term]
-id: XCO:0001109
-name: glycosaminoglycan
-def: "This is any condition in which the main influencing factor is a glycosaminoglycan, any polysaccharide composed of repeating disaccharide units and containing a substantial proportion of amino monosaccharide residues. Glycosaminoglycans are constituents of mucoproteins, glycoproteins, and blood-group substances." [CHEBI:18085, https://www.merriam-webster.com/, https://www.ncbi.nlm.nih.gov/books/NBK544295/]
-synonym: "GAG" EXACT []
-synonym: "mucopolysaccharide" EXACT []
-synonym: "s-GAG" NARROW []
-synonym: "snail glycosaminoglycan" NARROW []
-xref: PMID:36693849
-relationship: has_component XCO:0000556 ! amino monosaccharide
-created_by: slaulederkind
-creation_date: 2023-11-13T13:21:20Z
-
-[Term]
-id: XCO:0001110
-name: d-SMG
-def: "This is any condition in which the main influencing factor is dried snail-mucus gel (SMG), a natural substance derived from mucus harvested from snails (Achatina fulica or Helix lucorum). The chemical composition of SMG includes a high percentage of heparin-like glycosaminoglycan." [https://www.merriam-webster.com/, PMID:36693849]
-synonym: "dried SMG" EXACT []
-synonym: "dried snail-mucus gel" EXACT []
-synonym: "dried snail-mucus glue" EXACT []
-xref: PMID:36693849
-is_a: XCO:0000761 ! biologic
-created_by: slaulederkind
-creation_date: 2023-11-13T14:10:33Z
-
-[Term]
-id: XCO:0001111
-name: mercury dichloride
-def: "This is any condition in which the main influencing factor is mercury dichloride, a mercury coordination entity made up of linear triatomic molecules in which a mercury atom is bonded to two chlorines. Water-soluble, it is highly toxic. Once used in a wide variety of applications, its use has markedly declined as less toxic alternatives have been developed." [CHEBI:31823]
-synonym: "HgCl2" EXACT []
-synonym: "Mercuric chloride" EXACT []
-synonym: "mercury(2+) chloride" EXACT []
-xref: MESH:D008627
-xref: PMID:32599119
-is_a: XCO:0000342 ! chemical with specified structure
-is_a: XCO:0001112 ! nephrotoxicant
-created_by: slaulederkind
-creation_date: 2023-11-14T09:45:49Z
-
-[Term]
-id: XCO:0001112
-name: nephrotoxicant
-def: "This is any condition in which the main influencing factor is a nephrotoxic substance that causes injury to the kidney or damages its function." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
-synonym: "kidney toxicity-inducing chemical" EXACT []
-synonym: "nephrotoxic agent" EXACT []
-synonym: "nephrotoxicity-inducing chemical" EXACT []
-synonym: "renal toxicity-inducing chemical" EXACT []
-xref: CHEBI:50909
-xref: PMID:32599119
-is_a: XCO:0000259 ! disease-inducing chemical
-created_by: slaulederkind
-creation_date: 2023-11-14T13:26:51Z
-
-[Term]
-id: XCO:0001113
-name: folic acid
-def: "This is any condition in which the main influencing factor is folic acid, an N-acyl-amino acid that is a form of the water-soluble vitamin B9." [CHEBI:27470, https://www.merriam-webster.com/]
-synonym: "folate" RELATED []
-synonym: "folicin" EXACT []
-synonym: "pteroylglutamic acid" EXACT []
-synonym: "vitamin B9" EXACT []
-xref: MESH:D005492
-xref: PMID:33375730
-is_a: XCO:0000119 ! amino acid
-is_a: XCO:0000377 ! vitamin
-created_by: slaulederkind
-creation_date: 2023-11-14T14:00:24Z
-
-[Term]
-id: XCO:0001114
-name: controlled folic acid content diet
-def: "This is any condition in which the main influencing factor is a controlled folic acid content diet, a solid diet in which the amount of folic acid is maintained at a specified level. Folic acid is an N-acyl-amino acid that is a form of the water-soluble vitamin B9." [CHEBI:27470, https://www.merriam-webster.com/]
-synonym: "controlled folicin content diet" EXACT []
-synonym: "controlled  pteroylglutamic acid content diet" EXACT []
-synonym: "controlled vitamin B9 content diet" EXACT []
-xref: MESH:D005492
-xref: PMID:33375730
-is_a: XCO:0000690 ! controlled vitamin content diet
-is_a: XCO:0001113 ! folic acid
-created_by: slaulederkind
-creation_date: 2023-11-14T14:18:28Z
-
-[Term]
-id: XCO:0001115
-name: (6S)-5-methyltetrahydrofolic acid
-def: "This is any condition in which the main influencing factor is (6S)-5-methyltetrahydrofolic acid, the primary biologically active form of folate (vitamin B9)." [CHEBI:136009, https://en.wikipedia.org/wiki/Levomefolic_acid]
-synonym: "(6S)-5-MTHF" EXACT []
-synonym: "Levomefolic acid" EXACT []
-synonym: "N-[4-({[(6S)-2-amino-5-methyl-4-oxo-3,4,5,6,7,8-hexahydropteridin-6-yl]methyl}amino)benzoyl]-L-glutamic acid" EXACT []
-xref: CHEBI:136009
-xref: CID:135398561
-xref: PMID:33375730
-is_a: XCO:0000377 ! vitamin
-created_by: slaulederkind
-creation_date: 2023-11-14T16:20:34Z
-
-[Term]
-id: XCO:0001116
-name: controlled (6S)-5-methyltetrahydrofolic acid content diet
-def: "This is any condition in which the main influencing factor is a controlled (6S)-5-methyltetrahydrofolic acid content diet, a solid diet in which the amount of (6S)-5-methyltetrahydrofolic acid is maintained at a specified level. (6S)-5-methyltetrahydrofolic acid is the primary biologically active form of folate (vitamin B9)." [https://en.wikipedia.org/wiki/Levomefolic_acid, PMID:_35999905]
-synonym: "controlled (6S)-5-MTHF content diet" EXACT []
-synonym: "controlled 5-MTHF content diet" EXACT []
-xref: CHEBI:136009
-xref: PMID:33375730
-is_a: XCO:0000690 ! controlled vitamin content diet
-is_a: XCO:0001115 ! (6S)-5-methyltetrahydrofolic acid
-created_by: slaulederkind
-creation_date: 2023-11-14T16:35:06Z
-
-[Term]
-id: XCO:0001117
-name: pefloxacin
-def: "This is any condition in which the main influencing factor is pefloxacin, a substituted quinolone that is an antibacterial agent and inhibitor of DNA biosynthesis." [CHEBI:50199]
-synonym: "1-ethyl-6-fluoro-7-(4-methylpiperazin-1-yl)-4-oxo-1,4-dihydroquinoline-3-carboxylic acid" EXACT []
-synonym: "pefloxacinium" EXACT []
-xref: MESH:D015366
-is_a: XCO:0000483 ! antibacterial agent
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulederkind
-creation_date: 2023-11-14T17:41:45Z
-
-[Term]
-id: XCO:0001118
-name: experimental unilateral anterior crossbite
-def: "This is any condition in which the main influencing factor is the use of a prosthetic device to generate a unilateral anterior crossbite in laboratory animals. A unilateral anterior crossbite is a specific type of dental malocclusion that creates temporomandibular joint osteoarthritis via biomechanical stress in the experimental subject or patient." [ISBN-13:978-1455756438, PMID:26746151]
-synonym: "experimental UAC" EXACT []
-xref: PMID:37919852
-is_a: XCO:0001100 ! physical manipulation
-created_by: slaulederkind
-creation_date: 2023-11-16T12:12:51Z
-
-[Term]
-id: XCO:0001119
-name: deionized water
-def: "This is any condition in which the main influencing factor is deionized water, a form of purified water that is filtered through one or two tanks of ion-exchange resin which replaces cations with hydrogen (H+) ions and anions with hydroxyl (OH-) ions, leaving a mineral-free water." [https://www.merriam-webster.com/, https://www.waterdropfilter.com/blogs/water]
-synonym: "deionized H2O" EXACT []
-synonym: "pure water" BROAD []
-xref: PMID:32745584
-is_a: XCO:0000021 ! water
-created_by: slaulederkind
-creation_date: 2023-11-16T13:38:37Z
-
-[Term]
-id: XCO:0001120
-name: almorexant
-def: "This is any condition in which the main influencing factor is almorexant, an experimental drug developed to combat insomnia. Almorexant is a competitive, dual OX1 and OX2 receptor antagonist and selectively inhibits the functional consequences of OX1 and OX2 receptor activation, such as intracellular Ca2+ mobilization." [https://en.wikipedia.org/wiki/Almorexant]
-synonym: "(2R)-2-[(1S)-6,7-dimethoxy-1-[2-[4-(triluoromethyl)phenyl]ethyl]-3,4-dihydro-1H-isoquinolin-2-yl]-N-methyl-2-phenylacetamide" EXACT []
-synonym: "ACT-078573" EXACT []
-xref: PMID:32066707
-is_a: XCO:0000160 ! receptor antagonist
-created_by: slaulederkind
-creation_date: 2023-11-16T14:00:56Z
-
-[Term]
-id: XCO:0001121
-name: PEG 400
-def: "This is any condition in which the main influencing factor is polyethylene glycol 400, a polymer composed of repeating ethyleneoxy units with an average molecular weight of 400. PEG 400 is a clear, colorless, liquid with low toxicity, affording wide use in a variety of pharmaceutical formulations." [CHEBI:46793, https://en.wikipedia.org/wiki/PEG_400]
-synonym: "polyethylene glycol 400" EXACT []
-xref: CHEBI:46793
-is_a: XCO:0000926 ! polyethylene glycol
-created_by: slaulederkind
-creation_date: 2023-11-16T14:17:21Z
-
-[Term]
-id: XCO:0001122
-name: anti-anxiety agent
-def: "This is any condition in which the main influencing factor is an anti-anxiety agent, a medication or other intervention that reduces anxiety. Anxiolytic medications are used for the treatment of anxiety disorders and their related psychological and physical symptoms." [https://en.wikipedia.org/wiki/Anxiolytic, https://www.merriam-webster.com/]
-synonym: "anti-anxiety drug" EXACT []
-synonym: "antipanic agent" EXACT []
-synonym: "anxiolytic" EXACT []
-synonym: "anxiolytic medication" EXACT []
-xref: D014151
-xref: PMID:37966567
-is_a: XCO:0000341 ! chemical with specified function
-created_by: slaulederkind
-creation_date: 2023-11-17T10:05:28Z
-
-[Term]
-id: XCO:0001123
-name: alpidem
-def: "This is any condition in which the main influencing factor is alpidem, a drug formerly used to treat anxiety disorders but its medical use was discontinued due to liver toxicity." [https://en.wikipedia.org/wiki/Alpidem]
-xref: CHEBI:135649
-xref: MESH:C052036
-xref: PMID:32119089
-is_a: XCO:0001122 ! anti-anxiety agent
-created_by: slaulederkind
-creation_date: 2023-11-17T10:28:29Z
-
-[Term]
-id: XCO:0001124
-name: amiodarone
-def: "This is any condition in which the main influencing factor is amiodarone, an antianginal and class III antiarrhythmic drug that increases the duration of ventricular and atrial muscle action by inhibiting potassium channels and voltage-gated sodium channels. Following the channel inhibition is a resulting decrease in heart rate and in vascular resistance." [MESH:D000638]
-synonym: "(2-butyl-1-benzofuran-3-yl){4-[2-(diethylamino)ethoxy]-3,5-diiodophenyl}methanone" EXACT []
-synonym: "Amiodarona" EXACT []
-synonym: "Amiodaronum" EXACT []
-synonym: "Cordarone" EXACT []
-xref: CHEBI:2663
-xref: PMID:32119089
-is_a: XCO:0000225 ! potassium channel inhibitor
-is_a: XCO:0000618 ! sodium channel inhibitor
-created_by: slaulederkind
-creation_date: 2023-11-17T11:29:29Z
-
-[Term]
-id: XCO:0001125
-name: amoxicillin
-def: "This is any condition in which the main influencing factor is amoxicillin, a penicillin in which the substituent at position 6 of the penam ring is a 2-amino-2-(4-hydroxyphenyl)acetamido group. Amoxicillin is a broad-spectrum semisynthetic antibiotic similar to AMPICILLIN except that its resistance to gastric acid permits higher serum levels with oral administration." [CHEBI:2676, MESH:D000658]
-synonym: "amox" EXACT []
-synonym: "amoxycillin" EXACT []
-xref: PMID:32119089
-is_a: XCO:0000483 ! antibacterial agent
-created_by: slaulederkind
-creation_date: 2023-11-17T12:03:49Z
-
-[Term]
-id: XCO:0001126
-name: curcumin
-def: "This is any condition in which the main influencing factor is curcumin , a beta-diketone that is obtained from tumeric, the powdered root of Curcuma longa. Curcumin appears to possess a spectrum of pharmacological properties, due primarily to its inhibitory effects on metabolic enzymes." [CHEBI:3962, MESH:D003474]
-synonym: "(1E,6E)-1,7-bis(4-hydroxy-3-methoxyphenyl)hepta-1,6-diene-3,5-dione" EXACT []
-synonym: "Diferuloylmethane" EXACT []
-xref: PMID:37916359
-is_a: XCO:0000271 ! antioxidant
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000505 ! anti-inflammatory agent
-created_by: slaulederkind
-creation_date: 2023-11-17T14:16:02Z
-
-[Term]
-id: XCO:0001127
-name: Buyang Huanwu Decoction
-def: "This is any condition in which the main influencing factor is BHD (Buyang Huanwu Decoction), a multi-herbal composition (classic traditional chinese medicine formula) commonly prescribed in the treatment of cerebrovascular diseases." [PMID:32171896]
-synonym: "BHF" EXACT []
-synonym: "Boyang Hwano Decoction" EXACT []
-synonym: "Buyang Huanwu Formula" EXACT []
-synonym: "Bu Yang Huan WU Tang" EXACT []
-synonym: "Buyang Huanwu Tang" EXACT []
-is_a: XCO:0000850 ! therapeutic agent
-created_by: slaulederkind
-creation_date: 2023-11-17T14:41:23Z
-
-[Term]
-id: XCO:0001128
-name: polysaccharide derivative
-def: "This is any condition in which the main influencing factor is a polysaccharide derivative, a carbohydrate derivative that is any derivative of a polysaccharide (a biomacromolecule consisting of large numbers of monosaccharide residues linked glycosidically). Various molecules can be covalently attached to the hydroxyl groups of polysaccharides and thus form polysaccaride derivatives." [CHEBI:65212, https://en.wikipedia.org/wiki/Polysaccharide#Derivatives]
-synonym: "polycarbohydrate derivative" EXACT []
-xref: PMID:32119089
-is_a: XCO:0000173 ! polysaccharide
-created_by: slaulederkind
-creation_date: 2023-11-17T18:00:43Z
-
-[Term]
-id: XCO:0001129
-name: carboxymethylcellulose
-def: "This is any condition in which the main influencing factor is carboxymethylcellulose , a polysaccharide derivative that is cellulose in which carboxymethyl groups are bound to some of the hydroxyl groups of the glucopyranose monomers." [CHEBI:85146, https://en.wikipedia.org/wiki/Carboxymethyl_cellulose]
-synonym: "carboxymethyl cellulose" EXACT []
-synonym: "cellulose gum" EXACT []
-synonym: "CMC" EXACT []
-xref: PMID:32119089
-is_a: XCO:0001128 ! polysaccharide derivative
-created_by: slaulederkind
-creation_date: 2023-11-17T18:06:34Z
 
 [Typedef]
 id: has_component
