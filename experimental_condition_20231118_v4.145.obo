@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.146
-date: 25:11:2023 20:13
+data-version: 4.145
+date: 18:11:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -5848,13 +5848,11 @@ creation_date: 2019-07-24T14:33:14Z
 
 [Term]
 id: XCO:0000628
-name: atorvastatin
-def: "Atorvastatin (Lipitor) is a member of the drug class known as statins. It is used for lowering cholesterol. Atorvastatin is a competitive inhibitor of hydroxymethylglutaryl-coenzyme A (HMG-CoA) reductase, the rate-determining enzyme in cholesterol biosynthesis via the mevalonate pathway. HMG-CoA reductase catalyzes the conversion of HMG-CoA to mevalonate. Atorvastatin acts primarily in the liver. Decreased hepatic cholesterol levels increases hepatic uptake of cholesterol and reduces plasma cholesterol levels." [https://en.wikipedia.org/wiki/Atorvastatin]
-synonym: "(3R,5R)-7-[3-(anilinocarbonyl)-5-(4-fluorophenyl)-4-phenyl-2-(propan-2-yl)-1H-pyrrol-1-yl]-3,5-dihydroxyheptanoic acid" EXACT []
-synonym: "Lipitor" EXACT []
+name: Atorvastatin
+def: "Atorvastatin (Lipitor) is a member of the drug class known as statins. It is used for lowering cholesterol. Atorvastatin is a competitive inhibitor of hydroxymethylglutaryl-coenzyme A (HMG-CoA) reductase, the rate-determining enzyme in cholesterol biosynthesis via the mevalonate pathway. HMG-CoA reductase catalyzes the conversion of HMG-CoA to mevalonate. Atorvastatin acts primarily in the liver. Decreased hepatic cholesterol levels increases hepatic uptake of cholesterol and reduces plasma cholesterol levels." []
+synonym: "Lipitor" RELATED []
 xref: CHEBI:39548
 is_a: XCO:0000523 ! enzyme inhibitor
-is_a: XCO:0000680 ! antilipemic agent
 created_by: sjwang
 creation_date: 2019-07-24T15:29:21Z
 
@@ -11425,57 +11423,6 @@ xref: PMID:32119089
 is_a: XCO:0001128 ! polysaccharide derivative
 created_by: slaulederkind
 creation_date: 2023-11-17T18:06:34Z
-
-[Term]
-id: XCO:0001130
-name: amprenavir
-def: "This is any condition in which the main influencing factor is amprenavir, a protease inhibitor designed to treat HIV infections. Amprenavir has been replaced by fosamprenavir, a prodrug of amprenavir." [https://en.wikipedia.org/wiki/Amprenavir]
-synonym: "[(3S)-oxolan-3-yl] N-[(2S,3R)-4-[(4-aminophenyl)sulfonyl-(2-methylpropyl)amino]-3-hydroxy-1-phenylbutan-2-yl]carbamate" EXACT []
-xref: CHEBI:40050
-xref: MESH:C095108
-is_a: XCO:0000523 ! enzyme inhibitor
-is_a: XCO:0000657 ! antiviral agent
-created_by: slaulederkind
-creation_date: 2023-11-20T18:47:45Z
-
-[Term]
-id: XCO:0001131
-name: azithromycin
-def: "This is any condition in which the main influencing factor is azithromycin, a semi-synthetic, broad-spectrum, macrolide antibiotic structurally related to erythromycin. It has been used in the treatment of various types of bacterial infections." [https://en.wikipedia.org/wiki/Azithromycin, MESH:D017963]
-synonym: "9-deoxo-9a-aza-9a-methyl-9a-homoerythromycin" EXACT []
-synonym: "Azasite" NARROW []
-synonym: "Zithromax" NARROW []
-xref: CHEBI:2955
-xref: PMID:32119089
-is_a: XCO:0000483 ! antibacterial agent
-created_by: slaulederkind
-creation_date: 2023-11-21T10:56:37Z
-
-[Term]
-id: XCO:0001132
-name: sesame oil
-def: "This is any condition in which the main influencing factor is sesame oil, an edible vegetable oil derived from sesame seeds. Sesame oil can be used as a solvent for an injected drug or an intravenous drip." [https://en.wikipedia.org/wiki/Sesame_oil]
-synonym: "sesame seed oil" EXACT []
-xref: PMID:32119089
-is_a: XCO:0000774 ! oil
-created_by: slaulederkind
-creation_date: 2023-11-21T14:26:20Z
-
-[Term]
-id: XCO:0001133
-name: bardoxolone
-def: "This is any condition in which the main influencing factor is bardoxolone, a synthetic triterpenoid compound with potential antineoplastic and anti-inflammatory activities. Bardoxolone blocks the synthesis of inducible nitric oxide synthase (iNOS) and inducible cyclooxygenase (COX-2), two enzymes involved in inflammation and carcinogenesis." [NCI:C48382]
-synonym: "(4aS,6aR,6bS,8aR,12aS,14aR,14bS)-11-cyano-2,2,6a,6b,9,9,12a-heptamethyl-10,14-dioxo-1,3,4,5,6,7,8,8a,14a,14b-decahydropicene-4a-carboxylic acid" EXACT []
-synonym: "CDDO" EXACT []
-synonym: "RTA 401" EXACT []
-synonym: "RTA-401" EXACT []
-xref: CHEBI:177450
-xref: CID:400010
-xref: PMID:32119089
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000505 ! anti-inflammatory agent
-created_by: slaulederkind
-creation_date: 2023-11-21T14:43:36Z
 
 [Typedef]
 id: has_component
