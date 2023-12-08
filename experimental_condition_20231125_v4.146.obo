@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.147
-date: 02:12:2023 20:13
+data-version: 4.146
+date: 25:11:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -67,7 +67,7 @@ is_a: XCO:0000998 ! controlled breathing condition
 
 [Term]
 id: XCO:0000010
-name: controlled air oxygen content
+name: air oxygen content
 def: "A condition in which the oxygen level of the air surrounding an organism or breathed by the organism is controlled as part of the experiment." [RGD:MS]
 relationship: part_of XCO:0000009 ! controlled atmosphere composition
 
@@ -185,7 +185,6 @@ id: XCO:0000028
 name: caffeinated drink
 def: "A drink containing caffeine, one of the methylxanthines soluble in water and alcohol and obtainable from coffee, tea, guarana and mate." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000020 ! drink
-relationship: has_component XCO:0001134 ! caffeine
 
 [Term]
 id: XCO:0000029
@@ -503,8 +502,8 @@ creation_date: 2010-01-05T03:11:33Z
 id: XCO:0000074
 name: controlled caffeine content drinking water
 def: "A drink made up of water and a specified amount of caffeine consumed by an organism as part of an experiment. Caffeine is a xanthine alkaloid that acts primarily as a central nervous system and metabolic stimulant, and also as a mild vasoconstrictor, diuretic, and bronchodilator." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Caffeine "Wikipedia", ISBN:978-1416049982]
+is_a: XCO:0000028 ! caffeinated drink
 is_a: XCO:0000163 ! controlled content drinking water
-relationship: has_component XCO:0001134 ! caffeine
 created_by: mshimoyama
 creation_date: 2010-01-05T03:15:30Z
 
@@ -1983,7 +1982,7 @@ creation_date: 2012-10-16T12:39:20Z
 id: XCO:0000232
 name: nucleic acid
 def: "A high-molecular-weight polymeric compound composed of nucleotides, each consisting of a purine or pyrimidine base, a ribose or deoxyribose sugar, and a phosphate group." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
-is_a: XCO:0001107 ! polymer
+is_a: XCO:0000342 ! chemical with specified structure
 created_by: JSmith
 creation_date: 2012-10-16T01:26:26Z
 
@@ -5120,7 +5119,7 @@ def: "This is an experimental condition in which the main influencing factor is 
 xref: CHEBI:5775
 xref: PMID:3611778
 is_a: XCO:0000163 ! controlled content drinking water
-relationship: has_component XCO:0000551 ! hydralazine
+is_a: XCO:0000551 ! hydralazine
 created_by: jrsmith
 creation_date: 2018-05-15T17:24:24Z
 
@@ -5147,7 +5146,7 @@ id: XCO:0000555
 name: controlled lisinopril content drinking water
 def: "A drink made up of water and a specified amount of lisinopril consumed by an organism as part of an experiment." []
 is_a: XCO:0000163 ! controlled content drinking water
-relationship: has_component XCO:0000535 ! lisinopril
+is_a: XCO:0000535 ! lisinopril
 created_by: sjwang
 creation_date: 2018-11-14T16:04:27Z
 
@@ -5284,7 +5283,7 @@ creation_date: 2018-12-05T14:06:11Z
 id: XCO:0000569
 name: controlled hydralazine hydrochloride content drinking water
 is_a: XCO:0000163 ! controlled content drinking water
-relationship: has_component XCO:0000568 ! hydralazine hydrochloride
+is_a: XCO:0000568 ! hydralazine hydrochloride
 created_by: sjwang
 creation_date: 2018-12-05T14:21:28Z
 
@@ -5348,7 +5347,7 @@ creation_date: 2018-12-05T15:07:54Z
 id: XCO:0000576
 name: controlled meropenem content drinking water
 is_a: XCO:0000163 ! controlled content drinking water
-relationship: has_component XCO:0000575 ! meropenem
+is_a: XCO:0000575 ! meropenem
 created_by: sjwang
 creation_date: 2018-12-05T15:12:42Z
 
@@ -5421,7 +5420,7 @@ creation_date: 2018-12-05T15:55:37Z
 [Term]
 id: XCO:0000585
 name: scrambled control oligodeoxynucleotide
-def: "A control oligodeoxynucleotide with a non-specific scrambled sequence." []
+def: "A control oligonucleotide with a non-specific scrambled sequence." []
 synonym: "scrambled control ODN" RELATED []
 synonym: "SCR ODN" RELATED []
 is_a: XCO:0000234 ! deoxyribonucleic acid
@@ -6061,7 +6060,7 @@ id: XCO:0000650
 name: controlled cilazapril content drinking water
 def: "A drink made up of water and a specified amount of cilazapril consumed by an organism as part of an experiment. Cilazapril is a prodrug that is hydrolyzed to its main metabolite cilazaprilat, an inhibitor of angiotensin-converting enzyme (ACE)." []
 is_a: XCO:0000163 ! controlled content drinking water
-relationship: has_component XCO:0000592 ! cilazapril
+is_a: XCO:0000592 ! cilazapril
 created_by: slaulede
 creation_date: 2019-12-16T15:56:17Z
 
@@ -6151,7 +6150,7 @@ id: XCO:0000660
 name: controlled nisoldipine content drinking water
 def: "A drink made up of water and a specified amount of nisoldipine in which the amount of nisoldipine consumed is maintained at a specified level." []
 is_a: XCO:0000163 ! controlled content drinking water
-relationship: has_component XCO:0000658 ! nisoldipine
+is_a: XCO:0000658 ! nisoldipine
 created_by: slaulede
 creation_date: 2020-01-28T16:53:19Z
 
@@ -6337,7 +6336,7 @@ synonym: "controlled Enacard content drinking water" EXACT []
 synonym: "controlled Renitec content drinking water" EXACT []
 synonym: "controlled Vasotec content drinking water" EXACT []
 is_a: XCO:0000163 ! controlled content drinking water
-relationship: has_component XCO:0000542 ! enalapril
+is_a: XCO:0000542 ! enalapril
 created_by: slaulede
 creation_date: 2020-03-06T13:46:09Z
 
@@ -6604,7 +6603,7 @@ def: "A regimen of solid food in which the amount of BAY60-4552 consumed is cont
 synonym: "Nelociguat" EXACT []
 xref: PMID:22783192
 is_a: XCO:0000014 ! controlled content diet
-relationship: has_component XCO:0000698 ! BAY60-4552
+is_a: XCO:0000698 ! BAY60-4552
 created_by: slaulede
 creation_date: 2020-05-15T11:16:58Z
 
@@ -7229,10 +7228,9 @@ creation_date: 2020-10-13T18:01:28Z
 
 [Term]
 id: XCO:0000761
-name: biologics and probiotics
-def: "Any condition in which the main influencing factor is a biologic (product of, or component of, a living organism) or probiotic introduced externally or internally to a subject to effect a change in phenotype of the subject, usually in treatment of a medical condition. Probiotics are live microorganisms that are intended to have health benefits when consumed or applied to the body." [https://www.fda.gov/about-fda/center-biologics-evaluation-and-research-cber/what-are-biologics-questions-and-answers, https://www.merriam-webster.com/, https://www.nccih.nih.gov/health/probiotics-what-you-need-to-know]
-synonym: "biological medical product" EXACT []
-synonym: "biopharmaceutical" EXACT []
+name: biologic
+def: "Any condition in which the main influencing factor is a biologic (product of, or component of, a living organism) introduced externally or internally to a subject to effect a change in phenotype of the subject, usually in treatment of a medical condition." [https://www.fda.gov/about-fda/center-biologics-evaluation-and-research-cber/what-are-biologics-questions-and-answers, https://www.merriam-webster.com/]
+synonym: "biological product" EXACT []
 is_a: XCO:0000000 ! experimental condition
 created_by: slaulede
 creation_date: 2020-10-15T17:39:53Z
@@ -7251,7 +7249,7 @@ creation_date: 2020-10-15T17:53:02Z
 id: XCO:0000763
 name: T cells
 def: "Any condition in which the main influencing factor is an injection of T cells (T lymphocytes). T cells are integral to the functioning of the immune system and are at the core of adaptive immunity, the system that tailors the body's immune response to specific pathogens" [CL:0000084, https://www.medicinenet.com/script/main/art.asp?articlekey=11300]
-is_a: XCO:0000761 ! biologics and probiotics
+is_a: XCO:0000761 ! biologic
 created_by: slaulede
 creation_date: 2020-10-15T18:06:48Z
 
@@ -7301,7 +7299,7 @@ creation_date: 2020-10-16T17:50:16Z
 id: XCO:0000769
 name: antiserum
 def: "Blood serum that contains antibodies against an infective agent (such as a bacteria or virus) or toxic substance (such as snake venom) and may be used to prevent or treat infection or poisoning." [https://www.biologyonline.com/dictionary/antiserum, https://www.merriam-webster.com/]
-is_a: XCO:0000761 ! biologics and probiotics
+is_a: XCO:0000761 ! biologic
 created_by: slaulede
 creation_date: 2020-10-19T13:58:56Z
 
@@ -8690,7 +8688,7 @@ synonym: "controlled Altace content drinking water" EXACT []
 xref: CHEBI:8774
 xref: PMID:20864942
 is_a: XCO:0000163 ! controlled content drinking water
-relationship: has_component XCO:0000548 ! ramipril
+is_a: XCO:0000548 ! ramipril
 created_by: slaulede
 creation_date: 2021-08-26T11:53:55Z
 
@@ -8780,7 +8778,7 @@ synonym: "controlled Microzide content drinking water" EXACT []
 xref: CHEBI:5778
 xref: PMID:3611778
 is_a: XCO:0000163 ! controlled content drinking water
-relationship: has_component XCO:0000899 ! hydrochlorothiazide
+is_a: XCO:0000899 ! hydrochlorothiazide
 created_by: slaulede
 creation_date: 2021-10-07T14:29:25Z
 
@@ -8791,7 +8789,7 @@ def: "This is an experimental condition in which the main influencing factor is 
 xref: CHEBI:135735
 xref: PMID:8505110
 is_a: XCO:0000163 ! controlled content drinking water
-relationship: has_component XCO:0000540 ! delapril
+is_a: XCO:0000540 ! delapril
 created_by: slaulede
 creation_date: 2021-10-07T15:05:11Z
 
@@ -8803,7 +8801,7 @@ xref: CHEBI:3348
 xref: MESH:C081643
 xref: PMID:8505110
 is_a: XCO:0000163 ! controlled content drinking water
-relationship: has_component XCO:0000438 ! candesartan
+is_a: XCO:0000438 ! candesartan
 created_by: slaulede
 creation_date: 2021-10-07T15:17:01Z
 
@@ -8829,7 +8827,7 @@ synonym: "controlled RSV content drinking water" EXACT []
 synonym: "controlled SRT501 content drinking water" EXACT []
 xref: MESH:D000077185
 is_a: XCO:0000163 ! controlled content drinking water
-relationship: has_component XCO:0000856 ! resveratrol
+is_a: XCO:0000856 ! resveratrol
 created_by: slaulede
 creation_date: 2021-10-08T18:16:04Z
 
@@ -8960,7 +8958,7 @@ name: controlled ethanol content drinking water used as vehicle
 def: "Any condition in which the main influencing factor is a drink made up of water and a specified amount of ethanol, serving as a control condition for some chemical delivered in ethanol and drinking water." [https://www.merriam-webster.com/]
 xref: PMID30621358
 is_a: XCO:0000023 ! controlled ethanol content drinking water
-relationship: has_component XCO:0000325 ! ethanol
+is_a: XCO:0000325 ! ethanol
 created_by: slaulede
 creation_date: 2021-11-01T12:46:32Z
 
@@ -9119,7 +9117,7 @@ name: controlled ColonLYTELY content drinking water
 def: "Thia is a drink made up of water and a specified amount of ColonLYTELY (5.9% Macrogol 3350 solution) in which the amount of ColonLYTELY consumed is maintained at a specified level." [https://www.colonprep.com.au, PMID:32084371]
 synonym: "controlled Macrogol 3350 content drinking water" NARROW []
 is_a: XCO:0000163 ! controlled content drinking water
-relationship: has_component XCO:0000928 ! ColonLYTELY
+is_a: XCO:0000928 ! ColonLYTELY
 created_by: slaulede
 creation_date: 2022-03-07T12:52:46Z
 
@@ -9271,7 +9269,7 @@ synonym: "controlled 2-amino-2-deoxyglucose content drinking water" EXACT []
 xref: CHEBI:5417
 xref: PMID:22446865
 is_a: XCO:0000163 ! controlled content drinking water
-relationship: has_component XCO:0000557 ! glucosamine
+is_a: XCO:0000557 ! glucosamine
 created_by: slaulede
 creation_date: 2022-06-03T16:16:44Z
 
@@ -9298,7 +9296,7 @@ synonym: "controlled dihydroquercetin content drinking water" EXACT []
 xref: CHEBI:38747
 xref: PMID:22446865
 is_a: XCO:0000163 ! controlled content drinking water
-relationship: has_component XCO:0000558 ! taxifolin
+is_a: XCO:0000558 ! taxifolin
 created_by: slaulede
 creation_date: 2022-06-03T16:45:16Z
 
@@ -9401,7 +9399,7 @@ synonym: "controlled Serpasil content drinking water" EXACT []
 xref: CHEBI:28487
 xref: PMID:21107278
 is_a: XCO:0000163 ! controlled content drinking water
-relationship: has_component XCO:0000550 ! reserpine
+is_a: XCO:0000550 ! reserpine
 created_by: slaulede
 creation_date: 2022-06-10T16:51:15Z
 
@@ -9484,7 +9482,7 @@ id: XCO:0000960
 name: 10% CO2, 20% O2, 70% N2
 def: "This is a condition in which the level of carbon dioxide (10%), oxygen (20%), and nitrogen (70%) in the air surrounding the organism or breathed by the organism is controlled as part of the experiment." [https://www.merriam-webster.com/, PMID:21421817]
 xref: PMID:21421817
-is_a: XCO:0000010 ! controlled air oxygen content
+is_a: XCO:0000010 ! air oxygen content
 is_a: XCO:0000012 ! air carbon dioxide content
 created_by: slaulede
 creation_date: 2022-07-18T18:12:29Z
@@ -9879,7 +9877,7 @@ creation_date: 2023-03-14T15:14:58Z
 [Term]
 id: XCO:0000996
 name: transfer of CHAER1 siRNA using Lipofectamine reagent
-def: "This is any condition in which the main influencing factor is CHAER1 (cardiac hypertrophy associated epigenetic regulator 1) siRNA transfected by Lipofectamine. CHAER1 is an ncRNA involved in epigenetic regulation of gene expression. Lipofectamine is a proprietary formulation for transfecting small RNAs into cultured eukaryotic cells." [https://en.wikipedia.org/wiki/Small_interfering_RNA, https://www.thermofisher.com/us/en/home/life-science/cell-culture/transfection/transfection-reagents/lipofectamine-rnaimax-reagent.html]
+def: "This is any condition in which the main influencing factor is CHAER1 (cardiac hypertrophy associated epigenetic regulator 1) siRNA. CHAER1 is an ncRNA involved in epigenetic regulation of gene expression. Lipofectamine is a proprietary formulation for transfecting small RNAs into cultured eukaryotic cells." [https://en.wikipedia.org/wiki/Small_interfering_RNA, https://www.thermofisher.com/us/en/home/life-science/cell-culture/transfection/transfection-reagents/lipofectamine-rnaimax-reagent.html]
 synonym: "transfection of CHAER1 short interfering RNA using Lipofectamine reagent" EXACT []
 synonym: "transfection of CHAER1 silencing RNA using Lipofectamine reagent" EXACT []
 synonym: "transfection of CHAER1 siRNA using Lipofectamine reagent" EXACT []
@@ -9893,7 +9891,7 @@ creation_date: 2023-03-23T13:58:48Z
 [Term]
 id: XCO:0000997
 name: transfer of negative control siRNA using Lipofectamine reagent
-def: "This is any condition in which the main influencing factor is negative control siRNA delivered with Lipofectamine. Negative control siRNA is an siRNA with no significant sequence similarity to eukaryotic gene sequences. Lipofectamine is a proprietary formulation for transfecting small RNAs into cultured eukaryotic cells." [https://en.wikipedia.org/wiki/Small_interfering_RNA, https://www.thermofisher.com/us/en/home/life-science/cell-culture/transfection/transfection-reagents/lipofectamine-rnaimax-reagent.html]
+def: "This is any condition in which the main influencing factor is negative control siRNA. Negative control siRNA is an siRNA with no significant sequence similarity to eukaryotic gene sequences. Lipofectamine is a proprietary formulation for transfecting small RNAs into cultured eukaryotic cells." [https://en.wikipedia.org/wiki/Small_interfering_RNA, https://www.thermofisher.com/us/en/home/life-science/cell-culture/transfection/transfection-reagents/lipofectamine-rnaimax-reagent.html]
 synonym: "transfection of negative control short interfering RNA using Lipofectamine reagent" EXACT []
 synonym: "transfection of negative control silencing RNA using Lipofectamine reagent" EXACT []
 synonym: "transfection of negative control siRNA using Lipofectamine reagent" EXACT []
@@ -10342,7 +10340,7 @@ synonym: "Mycobacterium tuberculosis strain H37Ra" EXACT []
 synonym: "MYCTA" EXACT []
 xref: PMID:31344254
 xref: UniProt:419947
-is_a: XCO:0000761 ! biologics and probiotics
+is_a: XCO:0000761 ! biologic
 created_by: slaulede
 creation_date: 2023-05-19T14:35:05Z
 
@@ -11107,7 +11105,6 @@ name: 17beta-estradiol 3-benzoate
 def: "This is any condition in which the main influencing factor is 17beta-estradiol 3-benzoate, the C17&#946; benzoate ester of estradiol." [CID:222757]
 synonym: "&#946;-estradiol 3-benzoate" EXACT []
 synonym: "(17beta)-17-hydroxyestra-1(10),2,4-trien-3-yl benzoate" EXACT []
-synonym: "estradiol 3-benzoate" EXACT []
 synonym: "estradiol benzoate" EXACT []
 xref: CHEBI:77006
 is_a: XCO:0000092 ! 17 beta-estradiol
@@ -11188,7 +11185,7 @@ synonym: "dried SMG" EXACT []
 synonym: "dried snail-mucus gel" EXACT []
 synonym: "dried snail-mucus glue" EXACT []
 xref: PMID:36693849
-is_a: XCO:0000761 ! biologics and probiotics
+is_a: XCO:0000761 ! biologic
 created_by: slaulederkind
 creation_date: 2023-11-13T14:10:33Z
 
@@ -11479,124 +11476,6 @@ is_a: XCO:0000435 ! antineoplastic agent
 is_a: XCO:0000505 ! anti-inflammatory agent
 created_by: slaulederkind
 creation_date: 2023-11-21T14:43:36Z
-
-[Term]
-id: XCO:0001134
-name: caffeine
-def: "This is any condition in which the main influencing factor is caffeine, a methylxanthine naturally occurring in some beverages and also used as a pharmacological agent. Caffeine's most notable pharmacological effect is as a central nervous system stimulant, increasing alertness and producing agitation." [MESH:D002110]
-synonym: "MESH:D002110" EXACT []
-xref: CHEBI:27732
-is_a: XCO:0000122 ! diuretic
-is_a: XCO:0000160 ! receptor antagonist
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulederkind
-creation_date: 2023-11-27T18:04:45Z
-
-[Term]
-id: XCO:0001135
-name: carbamazepine
-def: "This is any condition in which the main influencing factor is carbamazepine, a dibenzazepine that acts as a sodium channel blocker. Carbamazepine is used as an anticonvulsant and it may also be used in the management of bipolar disorder and neuropathic pain." [https://en.wikipedia.org/wiki/Carbamazepine, MESH:D002220]
-synonym: "5H-dibenzo[b,f]azepine-5-carboxamide" EXACT []
-synonym: "CBZ" EXACT []
-synonym: "Tegretol" EXACT []
-xref: CHEBI:3387
-xref: CID:2554
-is_a: XCO:0000106 ! anesthetic/analgesic
-is_a: XCO:0000618 ! sodium channel inhibitor
-is_a: XCO:0000950 ! anticonvulsant
-created_by: slaulederkind
-creation_date: 2023-11-30T14:31:38Z
-
-[Term]
-id: XCO:0001136
-name: propylene glycol
-def: "This is any condition in which the main influencing factor is propylene glycol, a synthetic small organic alcohol that is hydrophylic. Propylene glycol has various laboratory, pharmaceutical, and industrial uses." [CID:1030, https://en.wikipedia.org/wiki/Propylene_glycol]
-synonym: "1,2-dihydroxypropane" EXACT []
-synonym: "1,2-propanediol" EXACT []
-synonym: "MESH:D019946" EXACT []
-synonym: "methyl glycol" EXACT []
-synonym: "trimethyl glycol" EXACT []
-is_a: XCO:0000323 ! alcohol
-created_by: slaulederkind
-creation_date: 2023-11-30T14:55:03Z
-
-[Term]
-id: XCO:0001137
-name: carisoprodol
-def: "This is any condition in which the main influencing factor is carisoprodol, a carbamate ester which is a centrally acting skeletal muscle relaxant whose mechanism of action may be related to its sedative actions. Carisoprodol is used for the relief of discomfort associated with acute, painful musculoskeletal conditions." [https://www.ncbi.nlm.nih.gov/books/NBK553077, MESH:D002328]
-synonym: "2-[(carbamoyloxy)methyl]-2-methylpentyl propan-2-ylcarbamate" EXACT []
-synonym: "Carisoprodate" EXACT []
-synonym: "Isomeprobamate" EXACT []
-xref: CHEBI:3419
-is_a: XCO:0000511 ! ester
-created_by: slaulederkind
-creation_date: 2023-11-30T15:30:53Z
-
-[Term]
-id: XCO:0001138
-name: cefprozil
-def: "This is any condition in which the main influencing factor is cefprozil, a semisynthetic, second-generation cephalosporin. Cefprozil is used to treat bronchitis as well as ear, skin and other bacterial infections." [CHEBI:3506, CID:5281006]
-synonym: "Cefzil" EXACT []
-is_a: XCO:0000483 ! antibacterial agent
-created_by: slaulederkind
-creation_date: 2023-11-30T15:49:04Z
-
-[Term]
-id: XCO:0001139
-name: chloramphenicol
-def: "This is any condition in which the main influencing factor is chloramphenicol, a topical,broad-spectrum antibiotic first isolated from cultures of Streptomyces venequelae but now produced synthetically. Chloramphenicol act s by interfering with bacterial protein synthesis" [MESH:D002701]
-synonym: "2,2-dichloro-N-[(1R,2R)-2-hydroxy-1-(hydroxymethyl)-2-(4-nitrophenyl)ethyl]acetamide" EXACT []
-xref: CHEBI:17698
-xref: CID:5959
-is_a: XCO:0000483 ! antibacterial agent
-created_by: slaulederkind
-creation_date: 2023-12-01T08:16:50Z
-
-[Term]
-id: XCO:0001140
-name: chlormezanone
-def: "This is any condition in which the main influencing factor is chlormezanone, an anxiolytic drug, a muscle relaxant and an antipsychotic agent whose clinical use was discontinued because of rare but serious cutaneous reactions." [CHEBI:3619]
-synonym: "Chlormethazanone" EXACT []
-synonym: "Chlormethazone" EXACT []
-synonym: "Clormetazanone" EXACT []
-xref: CID:2717
-is_a: XCO:0001122 ! anti-anxiety agent
-created_by: slaulederkind
-creation_date: 2023-12-01T08:45:42Z
-
-[Term]
-id: XCO:0001141
-name: scrambled control oligonucleotide
-def: "This is any condition in which the main influencing factor is a negative control oligonucleotide. A negative control oligonucleotide is an oligonucleotide with no significant sequence similarity to eukaryotic gene sequences and may be a scrambled version of the experimental oligonucleotide used." [https://en.wikipedia.org/wiki/Oligonucleotide, https://www.oligotherapeutics.org/april-2019-paper-of-the-month/]
-synonym: "scrambled control RNA oligomer" EXACT []
-synonym: "scrambled control RNA oligonucleotide" EXACT []
-is_a: XCO:0000233 ! ribonucleic acid
-created_by: slaulederkind
-creation_date: 2023-12-01T09:58:36Z
-
-[Term]
-id: XCO:0001142
-name: transfer of MIR143 mimic
-def: "This is any condition in which the main influencing factor is a MIR143 mimic transferred into an organism or cell culture. MIR143 mimic is a chemically modified double-stranded RNA molecule designed to mimic endogenous MIR143 function. MIR143 is associated with cardiovascular and other diseases." [https://www.thermofisher.com/us/en/home/life-science/epigenetics-noncoding-rna-research/mirna-analysis/mirna-mimics-inhibitors.html, RGD:1346221]
-synonym: "transfection of MIR-143 mimic" EXACT []
-synonym: "transfection of MIR143 mimic" EXACT []
-synonym: "transfer of MIR-143 mimic" EXACT []
-synonym: "transfer of miR143 mimic" EXACT []
-is_a: XCO:0000233 ! ribonucleic acid
-created_by: slaulederkind
-creation_date: 2023-12-01T09:58:47Z
-
-[Term]
-id: XCO:0001143
-name: Limosilactobacillus reuteri
-def: "This is any condition in which the main influencing factor is Limosilactobacillus reuteri (a lactic acid bacterium). L. reuteri is a probiotic bacterium found in a variety of natural environments, including the gastrointestinal tract of humans and other animals." [https://en.wikipedia.org/wiki/Limosilactobacillus_reuteri, PMID:35336098]
-synonym: "L. reuteri" EXACT []
-synonym: "Lactobacillus fermentum biotype II" EXACT []
-synonym: "Lactobacillus reuteri" EXACT []
-xref: PMID:37422471
-is_a: XCO:0000761 ! biologics and probiotics
-created_by: slaulederkind
-creation_date: 2023-12-01T11:19:30Z
 
 [Typedef]
 id: has_component
