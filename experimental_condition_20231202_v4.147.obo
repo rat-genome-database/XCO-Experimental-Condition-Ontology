@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.148
-date: 09:12:2023 20:13
+data-version: 4.147
+date: 02:12:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -948,12 +948,11 @@ creation_date: 2012-02-16T01:52:39Z
 [Term]
 id: XCO:0000124
 name: furosemide
-def: "This is any condition whose main influencing factor is furosemide, a diuretic drug which inhibits Nkcc2 (Slc12a1), one of the Na-K symporters and reduces the reabsorption of sodium chloride. Furosemide is used experimentally for sodium depletion." [http://en.eikipedia.org/wiki/ "Wikipedia"]
-synonym: "4-chloro-2-{[(furan-2-yl)methyl]amino}-5-sulfamoylbenzoic acid" EXACT []
+def: "A diuretic drug which inhibits Nkcc2, one of the Na-K symporters and reduces the reabsorption of sodium chloride. Furosemide is used experimentally for sodium depletion." [http://en.eikipedia.org/wiki/ "Wikipedia"]
 synonym: "Frusemide" RELATED []
 synonym: "Lasix" RELATED []
 xref: CHEBI:47426
-xref: CID:3440
+xref: pubchem.compound:3440
 is_a: XCO:0000122 ! diuretic
 is_a: XCO:0000123 ! sulfonamide
 created_by: JSmith
@@ -1118,15 +1117,12 @@ creation_date: 2012-03-15T07:56:15Z
 [Term]
 id: XCO:0000142
 name: sodium nitroprusside
-def: "The red-coloured inorganic salt with the formula Na2[Fe(CN)5NO]?2H2O used as a potent vasodilator." [http://en.wikipedia.org/wiki/Sodium_nitroprusside "Wikipedia"]
+def: "The red-coloured inorganic salt with the formula Na2[Fe(CN)5NO]·2H2O used as a potent vasodilator." [http://en.wikipedia.org/wiki/Sodium_nitroprusside "Wikipedia"]
 synonym: "disodium pentacyanonitrosylferrate(2-) dehydrate" EXACT []
-synonym: "nitroprusside disodium dihydrate" EXACT []
-synonym: "SNP" EXACT []
-synonym: "sodium nitroferricyanide(III) dihydrate" EXACT []
-synonym: "sodium pentacyanidonitrosylferrate(2-)" EXACT []
-synonym: "sodium pentacyanidonitrosylferrate(III)" EXACT []
+synonym: "sodium nitroferricyanide" EXACT []
 xref: CHEBI:29321
-xref: CID:11953895
+xref: pubchem.compound:11953891
+xref: pubchem.compound:11963579
 is_a: XCO:0000140 ! vasodilator
 created_by: JSmith
 creation_date: 2012-03-15T07:58:24Z
@@ -1301,7 +1297,7 @@ creation_date: 2012-07-03T03:15:44Z
 [Term]
 id: XCO:0000161
 name: losartan
-def: "This is any condition whose main influencing factor is losartan, an angiotensin II receptor antagonist and vasodilator which consists of a biphenylyltetrazole where a 1,1'-biphenyl group is attached at the 5-position. Losartan also has an additional trisubstituted imidazol-1-ylmethyl group at the 4'-position." []
+def: "Angiotensin receptor antagonist and vasodilator which consists of a biphenylyltetrazole where a 1,1'-biphenyl group is attached at the 5-position. Losartan also has an additional trisubstituted imidazol-1-ylmethyl group at the 4'-position." []
 xref: CHEBI:6541
 is_a: XCO:0000140 ! vasodilator
 is_a: XCO:0000536 ! angiotensin II receptor antagonist
@@ -1543,7 +1539,7 @@ synonym: "Arfonad" RELATED []
 synonym: "trimetaphan camsilate" EXACT []
 xref: CAS:7187-66-8
 xref: CHEBI:9729
-is_a: XCO:0000842 ! nicotinic antagonist
+is_a: XCO:0000630 ! cholinergic antagonist
 created_by: JSmith
 creation_date: 2012-07-30T08:54:30Z
 
@@ -2839,13 +2835,9 @@ creation_date: 2013-06-25T16:08:47Z
 id: XCO:0000320
 name: hexamethonium
 def: "Either of two compounds (C12H30Br2N2 or C12H30Cl2N2) used in the treatment of hypertension. Hexamethonium is a depolarising ganglionic blocker, a nicotinic acetylcholine receptor antagonist that acts in autonomic ganglia by binding in or on the receptor but not the acetylcholine binding site itself." [http://en.wikipedia.org/wiki/Hexamethonium "Wikipedia", Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
-synonym: "Benzohexamethonium" EXACT []
-synonym: "hexamethone" EXACT []
-synonym: "hexathonide" EXACT []
-xref: CHEBI:5700
-xref: CID:3604
-xref: MESH:D018738
-is_a: XCO:0000842 ! nicotinic antagonist
+xref: chembl.compound:CHEMBL105608
+xref: pubchem.compound:3604
+is_a: XCO:0000160 ! receptor antagonist
 created_by: JSmith
 creation_date: 2013-06-25T17:12:45Z
 
@@ -2865,8 +2857,8 @@ id: XCO:0000322
 name: hexamethonium chloride
 def: "The compound C12H30Cl2N2, consisting of a hexamethonium cation and dichloride anion, used in the treatment of hypertension. Hexamethonium is a depolarising ganglionic blocker, a nicotinic acetylcholine receptor antagonist that acts in autonomic ganglia by binding in or on the receptor but not the acetylcholine binding site itself." [http://en.wikipedia.org/wiki/Hexamethonium "Wikipedia", Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
 synonym: "hexamethonium dichloride" RELATED []
-xref: CHEMBL:105608
-xref: CID:93550
+xref: chembl.compound:CHEMBL105608
+xref: pubchem.compound:93550
 is_a: XCO:0000320 ! hexamethonium
 created_by: JSmith
 creation_date: 2013-06-25T17:19:38Z
@@ -4004,6 +3996,7 @@ xref: CHEBI:3348
 xref: MESH:C081643
 is_a: XCO:0000140 ! vasodilator
 is_a: XCO:0000536 ! angiotensin II receptor antagonist
+is_a: XCO:0000863 ! antihypertensive agent
 created_by: JSMITH
 creation_date: 2014-04-17T13:11:54Z
 
@@ -4183,7 +4176,6 @@ id: XCO:0000455
 name: controlled corn oil content diet
 def: "A solid diet in which the amount of corn oil is maintained at a specified level. Corn oil is a refined fixed, that is, nonvolatile, oil obtained from corn, the embryo of Zea mays plant. It is sometimes promoted as a good source of polyunsaturated fatty acids." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_a: XCO:0000454 ! controlled oil content diet
-relationship: has_component XCO:0000829 ! corn oil
 created_by: JSmith
 creation_date: 2014-06-12T17:28:44Z
 
@@ -4954,22 +4946,21 @@ creation_date: 2018-05-11T10:54:07Z
 [Term]
 id: XCO:0000536
 name: angiotensin II receptor antagonist
-def: "This is any condition in which the main influencing factor is an angiotensin II receptor antagonist, an agent that blocks angiotensin II receptors and is used to treat high blood pressure and heart failure." [https://en.wikipedia.org/wiki/Angiotensin_II_receptor_blocker "Wikipedia"]
+def: "Any condition in which the main influencing factor is an agent that blocks one or more angiotensin II receptors." [https://en.wikipedia.org/wiki/Angiotensin_II_receptor_blocker "Wikipedia"]
 synonym: "angiotensin II receptor blocker" EXACT []
-synonym: "angiotensin receptor blocker" EXACT []
-synonym: "ARB" EXACT []
-synonym: "sartan" EXACT []
+synonym: "ARB" RELATED []
+synonym: "sartan" RELATED []
 is_a: XCO:0000160 ! receptor antagonist
-is_a: XCO:0000863 ! antihypertensive agent
 created_by: jrsmith
 creation_date: 2018-05-14T18:01:31Z
 
 [Term]
 id: XCO:0000537
 name: olmesartan medoxomil
-def: "This is any condition in which the main influencing factor is olmesartan medoxomil, an angiotensin II receptor blocker which is used as an antihypertensive agent." [https://en.wikipedia.org/wiki/Olmesartan "Wikipedia"]
+def: "An experimental condition in which the main influencing factor is olmesartan medoxomil, an angiotensin II receptor blocker which is used as an antihypertensive agent." [https://en.wikipedia.org/wiki/Olmesartan "Wikipedia"]
 synonym: "CS-866" RELATED []
 is_a: XCO:0000536 ! angiotensin II receptor antagonist
+is_a: XCO:0000863 ! antihypertensive agent
 created_by: jrsmith
 creation_date: 2018-05-14T18:27:28Z
 
@@ -5520,11 +5511,11 @@ creation_date: 2018-12-27T10:28:04Z
 [Term]
 id: XCO:0000594
 name: saralasin
-def: "This is any condition in which the main influencing factor is saralasin, a competitive angiotensin II receptor antagonist with partial agonistic activity previously used to distinguish renovascular hypertension from essential hypertension." [https://en.wikipedia.org/wiki/Saralasin]
+def: "A condition in which the main influencing factor is saralasin, a partial angiotensin II receptor agonist and antihypertensive agent." []
 synonym: "Sar-Arg-Val-Tyr-Val-His-Pro-Ala" EXACT []
 xref: CHEBI:135894
-xref: CID:6324663
 is_a: XCO:0000536 ! angiotensin II receptor antagonist
+is_a: XCO:0000863 ! antihypertensive agent
 created_by: sjwang
 creation_date: 2018-12-27T13:23:15Z
 
@@ -6090,8 +6081,7 @@ name: controlled E4177 content drinking water
 def: "A drink made up of water and a specified amount of E4177 consumed by an organism as part of an experiment. E4177 is an agent that blocks one or more angiotensin II receptors." []
 synonym: "controlled 4'-((2-cyclopropyl-7-methyl-3H-imidazo[4,5-b]pyridin-3-yl)methyl)-[1,1'-biphenyl]-2-carboxylic acid content drinking water" EXACT []
 synonym: "controlled E-4177 content drinking water" EXACT []
-is_a: XCO:0000163 ! controlled content drinking water
-relationship: has_component XCO:0000651 ! E4177
+is_a: XCO:0000651 ! E4177
 created_by: slaulede
 creation_date: 2019-12-16T16:39:42Z
 
@@ -6799,7 +6789,7 @@ def: "A regimen of solid food in which the amount of SB-239063 consumed is contr
 synonym: "controlled EC 2.7.11.24 inhibitor content diet" BROAD []
 xref: PMID:14561850
 is_a: XCO:0000014 ! controlled content diet
-relationship: has_component XCO:0000714 ! SB-239063
+is_a: XCO:0000714 ! SB-239063
 created_by: slaulede
 creation_date: 2020-06-08T14:38:59Z
 
@@ -6848,11 +6838,12 @@ creation_date: 2020-06-08T17:19:58Z
 [Term]
 id: XCO:0000721
 name: eprosartan
-def: "This is any condition whose main influencing factor is eprosartan, a member of the class of imidazoles and thiophenes that is an angiotensin II receptor antagonist used for the treatment of high blood pressure." [CHEBI:4814]
+def: "A member of the class of imidazoles and thiophenes that is an angiotensin II receptor antagonist used for the treatment of high blood pressure." [CHEBI:4814]
 synonym: "Eprozar" EXACT []
 synonym: "Teveten" EXACT []
 xref: CHEBI:4814
 is_a: XCO:0000536 ! angiotensin II receptor antagonist
+is_a: XCO:0000863 ! antihypertensive agent
 created_by: slaulede
 creation_date: 2020-06-11T17:41:02Z
 
@@ -7137,13 +7128,9 @@ creation_date: 2020-09-22T15:31:08Z
 [Term]
 id: XCO:0000750
 name: diclofenac
-def: "This is any condition whose main influencing factor is diclofenac, a monocarboxylic acid consisting of phenylacetic acid having a (2,6-dichlorophenyl)amino group at the 2-position. It is a non-steroidal anti-inflammatory agent (NSAID) with antipyretic and analgesic actions. It is primarily available as the sodium salt." [CHEBI:47381, MESH:D004008]
-synonym: "Diclofenac acid" EXACT []
-synonym: "Voltaren" NARROW []
+def: "A monocarboxylic acid consisting of phenylacetic acid having a (2,6-dichlorophenyl)amino group at the 2-position. It is a non-steroidal anti-inflammatory agent (NSAID) with antipyretic and analgesic actions. It is primarily available as the sodium salt." [CHEBI:47381, MESH:D004008]
 xref: CHEBI:47381
-xref: CID:3033
 xref: MESH:D004008
-xref: PMID:32119089
 is_a: XCO:0000106 ! anesthetic/analgesic
 is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
 is_a: XCO:0000523 ! enzyme inhibitor
@@ -7510,7 +7497,7 @@ creation_date: 2020-11-12T16:13:47Z
 [Term]
 id: XCO:0000789
 name: methylcellulose
-def: "This is any condition in which the main influencing factor is methylcellulose, a methylester of cellulose used as an emulsifying and suspending agent in cosmetics, pharmaceuticals and the chemical industry. It is used therapeutically as a bulk laxative." [CHEBI:53448, MESH:D008747]
+def: "Methylcellulose is a methylester of cellulose and it is used as an emulsifying and suspending agent in cosmetics, pharmaceuticals and the chemical industry. It is used therapeutically as a bulk laxative." [CHEBI:53448, MESH:D008747]
 synonym: "Citrucel" EXACT []
 synonym: "MC" EXACT []
 synonym: "methyl cellulose" EXACT []
@@ -11610,433 +11597,6 @@ xref: PMID:37422471
 is_a: XCO:0000761 ! biologics and probiotics
 created_by: slaulederkind
 creation_date: 2023-12-01T11:19:30Z
-
-[Term]
-id: XCO:0001144
-name: chlorpropamide
-def: "Thhis is any condition in which the main influencing factor is chlorpropamide, an N-sulfonylurea that is a hypoglycaemic agent used in the treatment of type 2 (non-insulin-dependent) diabetes mellitus not responding to dietary modification." [CHEBI:3650, MESH:D002747]
-synonym: "Chloropropamide" EXACT []
-synonym: "CID:2727" EXACT []
-xref: PMID:32119089
-is_a: XCO:0000407 ! hypoglycemic agent
-created_by: slaulederkind
-creation_date: 2023-12-04T11:26:47Z
-
-[Term]
-id: XCO:0001145
-name: cimetidine
-def: "This is any condition in which the main influencing factor is cimetidine, an H2-receptor antagonist that inhibits gastric acid secretion, as well as pepsin and gastrin output." [MESH:D002927]
-synonym: "2-cyano-1-methyl-3-(2-{[(5-methyl-1H-imidazol-4-yl)methyl]sulfanyl}ethyl)guanidine" EXACT []
-synonym: "Tagamet" EXACT []
-xref: CHEBI:3699
-xref: CID:2756
-xref: PMID:32119089
-is_a: XCO:0000160 ! receptor antagonist
-created_by: slaulederkind
-creation_date: 2023-12-04T11:54:03Z
-
-[Term]
-id: XCO:0001146
-name: clarithromycin
-def: "This is any condition in which the main influencing factor is clarithromycin, a synthetic macrolide antibiotic used in the treatment of respiratory-tract, skin and soft-tissue infections. Clarithromycin is derived from erythromycin and is a protein synthesis inhibitor in bacteria." [CHEBI:3732, MESH:D017291]
-synonym: "Clarithromycine" EXACT []
-synonym: "Clathromycin" EXACT []
-xref: CID:84029
-is_a: XCO:0000483 ! antibacterial agent
-is_a: XCO:0000532 ! protein synthesis inhibitor
-created_by: slaulederkind
-creation_date: 2023-12-04T13:52:47Z
-
-[Term]
-id: XCO:0001147
-name: clofibrate
-def: "This is any condition whose main influencing factor is clofibrate, a fibric acid derivative used in the treatment of hyperlipoproteinemia type III and severe hypertriglyceridemia." [MESH:D002994]
-synonym: "ethyl 2-(4-chlorophenoxy)-2-methylpropanoate" EXACT []
-synonym: "ethyl clofibrate" EXACT []
-xref: CHEBI:3750
-xref: CID:2796
-xref: PMID:32119089
-is_a: XCO:0000680 ! antilipemic agent
-created_by: slaulederkind
-creation_date: 2023-12-04T14:05:02Z
-
-[Term]
-id: XCO:0001148
-name: clopidogrel
-def: "This is any condition whose main influencing factor is clopidogrel, a ticlopidine analog and platelet P2Y12 receptor antagonist that inhibits adenosine diphosphate-mediated platelet aggregation. It is used to prevent thromboembolism in patients with arterial occlusive diseases." [MESH:D000077144]
-synonym: "methyl (2S)-(2-chlorophenyl)(6,7-dihydrothieno[3,2-c]pyridin-5(4H)-yl)acetate" EXACT []
-synonym: "Plavix" EXACT []
-xref: CHEBI:37941
-xref: PMID:32119089
-is_a: XCO:0000160 ! receptor antagonist
-is_a: XCO:0001090 ! anticoagulant
-created_by: slaulederkind
-creation_date: 2023-12-04T14:19:35Z
-
-[Term]
-id: XCO:0001149
-name: clozapine
-def: "This is any condition whose main influencing factor is clozapine, a tricylic dibenzodiazepinethat binds several types of central nervous system receptors. Clozapine is a serotonin antagonist, with strong binding to 5-HT 2A/2C receptor subtype. It also displays strong affinity to several dopaminergic receptors, but shows only weak antagonism at the dopamine D2 receptor." [MESH:D003024]
-synonym: "8-chloro-11-(4-methylpiperazin-1-yl)-5H-dibenzo[b,e][1,4]diazepine" EXACT []
-xref: CHEBI:3766
-xref: PMID:32119089
-is_a: XCO:0000160 ! receptor antagonist
-created_by: slaulederkind
-creation_date: 2023-12-04T14:30:46Z
-
-[Term]
-id: XCO:0001150
-name: compound Z
-def: "This is any condition whose main influencing factor is compound Z, a pterin phosphate that is an oxidation product of cPMP (fosdenopterin). It is functionally related to a neopterin. Compound Z is a pharmacologically inactive product of fosdenopterin metabolism." [CID:135889290]
-synonym: "2-amino-6-{[(4S,5R)-2,5-dihydroxy-2-oxido-1,3,2-dioxaphosphinan-4-yl]carbonyl}pteridin-4(3H)-one" EXACT []
-xref: CHEBI:60211
-xref: PMID:32119089
-is_a: XCO:0000342 ! chemical with specified structure
-created_by: slaulederkind
-creation_date: 2023-12-04T14:51:06Z
-
-[Term]
-id: XCO:0001151
-name: Augmentin
-def: "This is any condition whose main influencing factor is Augmentin, a fixed-ratio combination of amoxicillin trihydrate and potassium clavulanate. Augmentin is a broad-spectrum antibiotic." [MESH:D019980]
-synonym: "Amoxicillin clavulanate potassium" EXACT []
-synonym: "Amoxicillin-Clavulanic Acid" EXACT []
-synonym: "Amoxycillin-Clavulanic Acid" EXACT []
-synonym: "Clavamox" EXACT []
-synonym: "co-amoxiclav" EXACT []
-xref: CID:23665637
-xref: MESH:D019980
-xref: PMID:32119089
-relationship: has_component XCO:0001125 ! amoxicillin
-created_by: slaulederkind
-creation_date: 2023-12-04T15:22:17Z
-
-[Term]
-id: XCO:0001152
-name: diltiazem
-def: "This is any condition whose main influencing factor is diltiazem, a benzothiazepine derivative that is a calcium-channel blocker and vasodilator. Diltiazem is used in the hydrochloride form in the management of angina pectoris and hypertension." [CHEBI:101278]
-synonym: "(2S,3S)-5-[2-(dimethylamino)ethyl]-2-(4-methoxyphenyl)-4-oxo-2,3,4,5-tetrahydro-1,5-benzothiazepin-3-yl acetate" EXACT []
-xref: CID:39186
-xref: MESH:D004110
-xref: PMID:32119089
-is_a: XCO:0000140 ! vasodilator
-is_a: XCO:0000269 ! calcium channel inhibitor
-is_a: XCO:0000863 ! antihypertensive agent
-created_by: slaulederkind
-creation_date: 2023-12-04T15:40:48Z
-
-[Term]
-id: XCO:0001153
-name: diphenhydramine
-def: "This is any condition whose main influencing factor is diphenhydramine, an histamine H1 antagonist used for for hypersensitivity reactions, for pruritus, as a hypnotic, and as an ingredient in common cold preparations." [MESH:D004155]
-synonym: "2-(diphenylmethoxy)-N,N-dimethylethanamine" EXACT []
-synonym: "Benedryl" EXACT []
-xref: CHEBI:4636
-xref: CID:3100
-xref: PMID:32119089
-is_a: XCO:0000160 ! receptor antagonist
-created_by: slaulederkind
-creation_date: 2023-12-04T15:53:25Z
-
-[Term]
-id: XCO:0001154
-name: dipyridamole
-def: "This is any condition whose main influencing factor is dipyridamole, a phosphodiesterase inhibitor that blocks uptake and metabolism of adenosine by erythrocytes and vascular endothelial cells. Dipyridamole is an inhibitor of platelet aggregation and a vasodilator agent." [CHEBI:4653, MESH:D004176]
-synonym: "2,2',2'',2'''-[(4,8-dipiperidin-1-ylpyrimido[5,4-d]pyrimidine-2,6-diyl)dinitrilo]tetraethanol" EXACT []
-synonym: "2,6-Bis(diethanolamino)-4,8-dipiperidinopyrimido(5,4-d)pyrimidine" EXACT []
-xref: CID:3108
-xref: PMID:32119089
-is_a: XCO:0000140 ! vasodilator
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulederkind
-creation_date: 2023-12-05T12:10:08Z
-
-[Term]
-id: XCO:0001155
-name: disopyramide
-def: "This is any condition whose main influencing factor is disopyramide, a sodium channel blocker and class I anti-arrhythmic agent with a depressant action on the heart similar to that of guanidine. Disopyramide also possesses some anticholinergic and local anesthetic properties." [https://en.wikipedia.org/wiki/Disopyramide, MESH:D004206]
-synonym: "4-(diisopropylamino)-2-phenyl-2-pyridin-2-ylbutanamide" EXACT []
-xref: CHEBI:4657
-xref: CID:3114
-is_a: XCO:0000618 ! sodium channel inhibitor
-created_by: slaulederkind
-creation_date: 2023-12-05T13:44:50Z
-
-[Term]
-id: XCO:0001156
-name: erythromycin
-def: "This is any condition whose main influencing factor is erythromycin, any of several wide-spectrum macrolide antibiotics obtained from actinomycete Saccharopolyspora erythraea (Streptomyces erythraeus). Erythromycin inhibits protein synthesis by binding to 50S ribosomal subunits, thus interfering with translocation of amino acids during translation and assembly of proteins" [CHEBI:48923, MESH:D004917]
-xref: CID:12560
-xref: PMID:32119089
-is_a: XCO:0000483 ! antibacterial agent
-is_a: XCO:0000532 ! protein synthesis inhibitor
-created_by: slaulederkind
-creation_date: 2023-12-05T13:56:45Z
-
-[Term]
-id: XCO:0001157
-name: esomeprazole
-def: "This is any condition in which the main influencing factor is esomeprazole, an inhibitor of gastric acid secretion used for the treatment of gastro-oesophageal reflux disease, dyspepsia, peptic ulcer disease, and Zollinger-Ellison syndrome." [CHEBI:50275]
-xref: CID:9568614
-xref: MESH:D064098
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulederkind
-creation_date: 2023-12-05T14:18:05Z
-
-[Term]
-id: XCO:0001158
-name: ethambutol
-def: "This is any condition whose main influencing factor is ethambutol, an ethylenediamine derivative that is an antimycobacterial drug, effective against Mycobacterium tuberculosis and some other mycobacteria." [CHEBI:4877]
-synonym: "(2S,2'S)-2,2'-(ethane-1,2-diyldiimino)dibutan-1-ol" EXACT []
-xref: CID:14052
-xref: MESH:D004977
-xref: PMID:32119089
-is_a: XCO:0000483 ! antibacterial agent
-created_by: slaulederkind
-creation_date: 2023-12-05T14:29:06Z
-
-[Term]
-id: XCO:0001159
-name: felbamate
-def: "This is any condition whose main influencing factor is felbamate, a PEGylated phenylcarbamate derivative that acts as an antagonist of NMDA receptors. Felbamate is used as an anticonvulsant, primarily for the treatment of seizures in severe refractory epilepsy." [MESH:D000078328]
-synonym: "2-phenylpropane-1,3-diyl dicarbamate" EXACT []
-xref: CHEBI:4995
-xref: PMID:32119089
-is_a: XCO:0000950 ! anticonvulsant
-created_by: slaulederkind
-creation_date: 2023-12-07T11:57:35Z
-
-[Term]
-id: XCO:0001160
-name: flucloxacillin
-def: "This is any condition in which the main influencing factor is flucloxacillin, a penicillin anti-bacterial drug used to treat skin infections, external ear infections, infections of leg ulcers, diabetic foot infections, and infection of bone" [https://en.wikipedia.org/wiki/Flucloxacillin, MESH:D005436]
-synonym: "6beta-[3-(2-chloro-6-fluorophenyl)-5-methyl-1,2-oxazole-4-carboxamido]-2,2-dimethylpenam-3alpha-carboxylic acid" EXACT []
-synonym: "Floxacillin" EXACT []
-xref: CHEBI:5098
-xref: CID:21319
-is_a: XCO:0000483 ! antibacterial agent
-created_by: slaulederkind
-creation_date: 2023-12-07T13:24:24Z
-
-[Term]
-id: XCO:0001161
-name: fluoxetine
-def: "This is any condition whose main influencing factor is fluoxetine, the first highly specific serotonin reuptake inhibitor (SSRI). It is used as an antidepressant and often has a more acceptable side-effects profile than traditional antidepressants." [MESH:D005473]
-synonym: "Methyl({3-phenyl-3-[4-(trifluoromethyl)phenoxy]propyl})amine" EXACT []
-synonym: "N-Methyl-3-(p-trifluoromethylphenoxy)-3-phenylpropylamine" EXACT []
-synonym: "rac-N-methyl-3-phenyl-3-[4-(trifluoromethyl)phenoxy]propan-1-amine" EXACT []
-xref: CID:3386
-is_a: XCO:0000561 ! antidepressant
-created_by: slaulederkind
-creation_date: 2023-12-07T13:36:29Z
-
-[Term]
-id: XCO:0001162
-name: flutamide
-def: "This is any condition whose main influencing factor is flutamide ,a monocarboxylic acid amide which has a role as an androgen receptor antagonist and an antineoplastic agent." [CID:3397]
-synonym: "2-methyl-N-[4-nitro-3-(trifluoromethyl)phenyl]propanamide" EXACT []
-synonym: "4'-Nitro-3'-trifluoromethylisobutyranilide" EXACT []
-synonym: "NFBA" EXACT []
-synonym: "niftolid" EXACT []
-xref: CHEBI:5132
-xref: MESH:D005485
-is_a: XCO:0000160 ! receptor antagonist
-is_a: XCO:0000435 ! antineoplastic agent
-created_by: slaulederkind
-creation_date: 2023-12-07T13:51:59Z
-
-[Term]
-id: XCO:0001163
-name: hydroxyzine
-def: "This is any condition whose main influencing factor is hydroxyzine, a histamine H1 receptor antagonist that is an anxiolytic drug, a dermatologic drug, an antipruritic drug and an anticoronaviral agent." [CID:3658, MESH:D006919]
-synonym: "2-(2-{4-[(4-chlorophenyl)(phenyl)methyl]piperazin-1-yl}ethoxy)ethanol" EXACT []
-xref: CHEBI:5818
-xref: PMID:32119089
-is_a: XCO:0000160 ! receptor antagonist
-is_a: XCO:0001122 ! anti-anxiety agent
-created_by: slaulederkind
-creation_date: 2023-12-07T14:15:00Z
-
-[Term]
-id: XCO:0001164
-name: labetalol
-def: "This is any condition whose main influencing factor is labetalol, a salicylamide derivative that is a non-cardioselective blocker of beta-adrenergic receptors and alpha-1 adrenergic receptors used to treat high blood pressure." [CHEBI:6343, MESH:D007741]
-synonym: "2-hydroxy-5-{1-hydroxy-2-[(1-methyl-3-phenylpropyl)amino]ethyl}benzamide" EXACT []
-synonym: "3-Carboxamido-4-hydroxy-alpha-((1-methyl-3-phenylpropylamino)methyl)benzyl alcohol" EXACT []
-synonym: "kabetalol" EXACT []
-xref: CID 3869
-xref: PMID:32119089
-is_a: XCO:0000336 ! adrenergic antagonist
-created_by: slaulederkind
-creation_date: 2023-12-07T15:57:48Z
-
-[Term]
-id: XCO:0001165
-name: lapatinib
-def: "This is any condition whose main influencing factor is lapatinib, a quinazoline derivative that inhibits epidermal growth factor receptor (Egfr) and erb-b2 receptor tyrosine kinase 2 (Erbb2/Her2) tyrosine kinases. It is used for the treatment of advanced or metastatic breast cancer, where tumors overexpress Erbb2/Her2." [MESH:D000077341]
-synonym: "lapatinib ditosylate" EXACT []
-synonym: "N-[3-chloro-4-(3-fluorobenzyloxy)phenyl]-6-[5-({[2-(methanesulfonyl)ethyl]amino}methyl)furan-2-yl]quinazolin-4-amine" EXACT []
-xref: CHEBI:49603
-xref: CID:208908
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000970 ! protein kinase inhibitor
-created_by: slaulederkind
-creation_date: 2023-12-07T19:22:36Z
-
-[Term]
-id: XCO:0001166
-name: hydroxypropyl methylcellulose
-def: "This is any condition in which the main influencing factor is hydroxypropyl methylcellulose, a semisynthetic, inert, viscoelastic polymer used in eye drops, as well as an excipient and controlled-delivery component in oral medicaments, found in a variety of commercial products." [https://en.wikipedia.org/wiki/Hypromellose]
-synonym: "(hydroxypropyl)methyl cellulose" EXACT []
-synonym: "HPMC" EXACT []
-synonym: "hydroxypropyl methyl cellulose" EXACT []
-synonym: "hypromellose" EXACT []
-xref: CHEBI:30618
-is_a: XCO:0001107 ! polymer
-created_by: slaulederkind
-creation_date: 2023-12-07T19:37:18Z
-
-[Term]
-id: XCO:0001167
-name: polysorbate
-def: "This is any condition in which the main influencing factor is any poly(ethylene glycol) derivative composed of PEG-ylated sorbitan [2-(1,2-dihydroxyethyl)tetrahydrofuran-3,4-diol] normally containing a total of 20 oxyethylene groups, with one or more of the terminal hydroxy groups esterified with a fatty acyl group. They are used as emulsifiers and dispersing agents in some pharmaceuticals products and as defoamers and emulsifiers in some foods." [CHEBI:53422]
-synonym: "polysorbates" EXACT []
-synonym: "tweens" EXACT []
-relationship: has_component XCO:0000926 ! polyethylene glycol
-created_by: slaulederkind
-creation_date: 2023-12-07T19:52:38Z
-
-[Term]
-id: XCO:0001168
-name: polysorbate 80
-def: "This is any condition in which the main influencing factor is polysorbate 80, a polymer composed of PEG-ylated sorbitan, where the total number of poly(ethylene glycol) units is 20 (w + x + y + z = 20) and a single terminal is capped by an oleoyl group. Polysorbate 80 is a nonionic surfactant and emulsifier often used in pharmaceuticals, foods, and cosmetics." [CHEBI:53426, https://en.wikipedia.org/wiki/Polysorbate_80]
-synonym: "Kolliphor PS 80" EXACT []
-synonym: "polyoxyethylene (80) sorbitan monooleate" EXACT []
-synonym: "PS 80" EXACT []
-synonym: "Tween 80" EXACT []
-is_a: XCO:0001167 ! polysorbate
-created_by: slaulederkind
-creation_date: 2023-12-07T20:01:09Z
-
-[Term]
-id: XCO:0001169
-name: controlled ethanol content deionized water used as vehicle
-def: "This is any condition in which the vehicle is made up of deionized water and a specified amount of ethanol, serving as a solvent for some specified chemical." [https://www.merriam-webster.com/]
-synonym: "ethanol in deionized water used as vehicle" EXACT []
-is_a: XCO:0001119 ! deionized water
-relationship: has_component XCO:0000325 ! ethanol
-created_by: slaulederkind
-creation_date: 2023-12-07T22:13:55Z
-
-[Term]
-id: XCO:0001170
-name: levofloxacin
-def: "This is any condition whose main influencing factor is levofloxacin, a fluoroquinolone antibiotic with activity against both gram-negative and gram-positive bacteria compared to R-(+)-ofloxacin and remains stereochemically stable following administration (i.e. it does not invert to the inactive isomer). Levofloxacin is an inhibitor of bacterial topoisomerase IV and DNA gyrase." []
-created_by: slaulederkind
-creation_date: 2023-12-08T14:26:27Z
-
-[Term]
-id: XCO:0001171
-name: levofloxacin
-def: "This is any condition whose main influencing factor is levofloxacin, a fluoroquinolone antibiotic that is active against both gram-negative and gram-positive bacteria. Levofloxacin is an inhibitor of both bacterial topoisomerase IV and DNA gyrase." [CHEBI:63598, CID:149096]
-synonym: "(3S)-9-fluoro-3-methyl-10-(4-methylpiperazin-1-yl)-7-oxo-2,3-dihydro-7H-[1,4]oxazino[2,3,4-ij]quinoline-6-carboxylic acid" EXACT []
-xref: MESH:D064704
-is_a: XCO:0000483 ! antibacterial agent
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulederkind
-creation_date: 2023-12-08T15:45:16Z
-
-[Term]
-id: XCO:0001172
-name: lopinavir
-def: "This is any condition in which the main influencing factor is lopinavir, an HIV protease inhibitor used in a fixed-dose combination with ritonavir. Lopinavir is also a cytochrome P-450 inhibitor." [MESH:D061466]
-synonym: "(2S)-N-[(2S,4S,5S)-5-{[(2,6-dimethylphenoxy)acetyl]amino}-4-hydroxy-1,6-diphenylhexan-2-yl]-3-methyl-2-(2-oxotetrahydropyrimidin-1(2H)-yl)butanamide" EXACT []
-synonym: "LPV" EXACT []
-xref: CHEBI:31781
-xref: CID:92727
-is_a: XCO:0000657 ! antiviral agent
-is_a: XCO:0000748 ! protease inhibitor
-created_by: slaulederkind
-creation_date: 2023-12-08T16:01:36Z
-
-[Term]
-id: XCO:0001173
-name: loracarbef
-def: "This is any condition in which the main influencing factor is loracarbef, a carbacephem antibiotic used to treat a wide range of infections caused by both gram-positive and gram-negative bacteria." [CID:5284585]
-synonym: "7beta-[(2R)-2-amino-2-phenylacetyl]nitrilo-3-chloro-3,4-didehydrocepham-4-carboxylic acid" EXACT []
-synonym: "loracarbef anhydrous" EXACT []
-xref: CHEBI:47544
-is_a: XCO:0000483 ! antibacterial agent
-created_by: slaulederkind
-creation_date: 2023-12-08T16:13:54Z
-
-[Term]
-id: XCO:0001174
-name: lumiracoxib
-def: "This is any condition whose main influencing factor is lumiracoxib, a highly selective cyclooxygenase 2 inhibitor used for the treatment of osteoarthritis until it was withdrawn from use due to concerns of hepatotoxicity." [CHEBI:73044]
-synonym: "lumiracoxibum" EXACT []
-synonym: "LUR" EXACT []
-synonym: "{2-[(2-chloro-6-fluorophenyl)amino]-5-methylphenyl}acetic acid" EXACT []
-xref: CID:151166
-xref: MESH:C473384
-xref: PMID:32119089
-is_a: XCO:0000106 ! anesthetic/analgesic
-is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulederkind
-creation_date: 2023-12-08T16:29:47Z
-
-[Term]
-id: XCO:0001175
-name: acetone
-def: "This is any condition in which the main influencing factor is acetone, a methyl ketone that consists of propane bearing an oxo group at C2. Acetone is used as a solvent and an antiseptic. It is one of the ketone bodies produced during ketoacidosis. Acetone is used to make drugs and other chemicals." [CHEBI:15347, CID:180]
-synonym: "2-propanal" EXACT []
-synonym: "2-propanone" EXACT []
-synonym: "beta-ketopropane" EXACT []
-synonym: "dimethyl ketone" EXACT []
-synonym: "propan-2-one" EXACT []
-xref: MESH:D000096
-is_a: XCO:0000342 ! chemical with specified structure
-created_by: slaulederkind
-creation_date: 2023-12-08T19:35:08Z
-
-[Term]
-id: XCO:0001176
-name: LY2886721
-def: "This is any condition whose main influencing factor is LY2886721, an inhibitor of protease beta-secretase 1 (BACE1), which is a key protease controlling the formation of amyloid &#946; (a peptide hypothesized to play a significant role in the pathogenesis of Alzheimer's disease)." [PMID:25609634]
-synonym: "LY-2886721" EXACT []
-synonym: "N-(3-((4aS,7aS)-2-amino-4a,5,7,7a-tetrahydro-4H-furo[3,4-d][1,3]thiazin-7a-yl)-4-fluorophenyl)-5-fluoropicolinamide" EXACT []
-xref: CID:49837968
-xref: PMID:32119089
-is_a: XCO:0000748 ! protease inhibitor
-created_by: slaulederkind
-creation_date: 2023-12-09T10:23:21Z
-
-[Term]
-id: XCO:0001177
-name: megestrol
-def: "This is any condition in which the main influencing factor is megestrol, a 3-oxo Delta(4)-steroid that is a progestational hormone used most commonly as the acetate ester. As the acetate, it is more potent than progesterone both as a progestagen and as an ovulation inhibitor. Megestrol has also been used in the palliative treatment of breast cancer and as an appetite enhancer in cachectic subjects." [CHEBI:6722, MESH:D008535]
-synonym: "17-Hydroxy-6-methylpregna-4,6-diene-3,20-dione" EXACT []
-synonym: "6-Methyl-17-hydroxypregna-4,6-diene-3,20-dione" EXACT []
-synonym: "Pregna-4,6-diene-3,20-dione, 17-hydroxy-6-methyl-" EXACT []
-xref: CID:19090
-xref: PMID:32119089
-is_a: XCO:0000435 ! antineoplastic agent
-created_by: slaulederkind
-creation_date: 2023-12-09T10:34:00Z
-
-[Term]
-id: XCO:0001178
-name: methimazole
-def: "This is any condition in which the main influencing factor is methimazole, a thioureylene antithyroid agent that inhibits the formation of thyroid hormones by interfering with the incorporation of iodine into tyrosyl residues of thyroglobulin through inhibition of the peroxidase enzyme." [MESH:D008713]
-synonym: "1-Methyl-2-mercaptoimidazole" EXACT []
-synonym: "1-Methylimidazole-2-thiol" EXACT []
-synonym: "2-Mercapto-1-methylimidazole" EXACT []
-xref: CHEBI:50673
-xref: CID:1349907
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulederkind
-creation_date: 2023-12-09T11:24:32Z
 
 [Typedef]
 id: has_component
