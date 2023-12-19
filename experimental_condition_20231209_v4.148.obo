@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.149
-date: 16:12:2023 20:13
+data-version: 4.148
+date: 09:12:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -6297,7 +6297,7 @@ creation_date: 2020-03-05T16:13:01Z
 id: XCO:0000673
 name: alpha-adrenergic agonist
 alt_id: CHEBI:35569
-def: "This is any condition in which the main influencing factor is an alpha-adrenergic agonist, an agent that selectively binds to and activates alpha-adrenergic receptors." [CHEBI:35569]
+def: "An agent that selectively binds to and activates alpha-adrenergic receptors." [CHEBI:35569]
 synonym: "alpha-adrenergic agonists" EXACT []
 synonym: "alpha-adrenergic receptor agonist" EXACT []
 synonym: "alpha-adrenoceptor agonists" EXACT []
@@ -6310,12 +6310,11 @@ id: XCO:0000674
 name: clonidine
 alt_id: CHEBI:46631
 alt_id: MESH:D003000
-def: "This is any condition in which the main influencing factor is clonidine, an imidazoline sympatholytic agent that stimulates alpha-2 adrenergic receptors and central imidazoline receptors. It is commonly used in the management of hypertension." [MESH:D003000]
+def: "An imidazoline sympatholytic agent that stimulates ALPHA-2 ADRENERGIC RECEPTORS and central IMIDAZOLINE RECEPTORS. It is commonly used in the management of HYPERTENSION" [MESH:D003000]
 synonym: "Catapres" EXACT []
 synonym: "Kapvay" EXACT []
 synonym: "Nexiclon" EXACT []
 is_a: XCO:0000673 ! alpha-adrenergic agonist
-is_a: XCO:0000863 ! antihypertensive agent
 created_by: slaulede
 creation_date: 2020-03-05T16:56:21Z
 
@@ -7762,15 +7761,13 @@ creation_date: 2021-02-16T18:30:58Z
 [Term]
 id: XCO:0000811
 name: A23187
-def: "This is any condition in which the main influencing factor is A23187, an ionophorous, polyether antibiotic from Streptomyces chartreusensis. It binds and transports calcium and other divalent cations across membranes." [MESH:D000001]
+def: "Any condition in which the main influencing factor is A23187, an ionophorous, polyether antibiotic from Streptomyces chartreusensis. It binds and transports CALCIUM and other divalent cations across membranes." [MESH:D000001]
 synonym: "A-23187" EXACT []
 synonym: "calcimycin" EXACT []
 xref: CHEBI:3305
 xref: MESH:D000001
 xref: PMID:22508433
 is_a: XCO:0000140 ! vasodilator
-is_a: XCO:0000482 ! antimicrobial agent
-is_a: XCO:0000890 ! ionophore
 created_by: slaulede
 creation_date: 2021-02-22T13:09:46Z
 
@@ -9358,7 +9355,7 @@ creation_date: 2022-06-09T15:23:24Z
 [Term]
 id: XCO:0000949
 name: PPDA
-def: "This is any condition in which the main influencing factor is PPDA, a subtype-selective NMDA receptor antagonist that preferentially binds to GluN2C/GluN2D (NR2C/NR2D) containing receptors." [CHEBI:189866]
+def: "This is a condition in which the main influencing factor is PPDA, a subtype-selective NMDA receptor antagonist that preferentially binds to GluN2C/GluN2D (NR2C/NR2D) containing receptors." [CHEBI:189866]
 synonym: "(2S*,3R*)-1-(Phenanthren-2-carbonyl)piperazine-2,3-dicarboxylic acid" EXACT []
 synonym: "cis-piperidine dicarboxylic acid" EXACT []
 synonym: "Cis-PPDA" EXACT []
@@ -11836,7 +11833,7 @@ creation_date: 2023-12-07T13:36:29Z
 [Term]
 id: XCO:0001162
 name: flutamide
-def: "This is any condition in which the main influencing factor is flutamide ,a monocarboxylic acid amide which has a role as an androgen receptor antagonist and an antineoplastic agent." [CID:3397]
+def: "This is any condition whose main influencing factor is flutamide ,a monocarboxylic acid amide which has a role as an androgen receptor antagonist and an antineoplastic agent." [CID:3397]
 synonym: "2-methyl-N-[4-nitro-3-(trifluoromethyl)phenyl]propanamide" EXACT []
 synonym: "4'-Nitro-3'-trifluoromethylisobutyranilide" EXACT []
 synonym: "NFBA" EXACT []
@@ -12040,206 +12037,6 @@ xref: CID:1349907
 is_a: XCO:0000523 ! enzyme inhibitor
 created_by: slaulederkind
 creation_date: 2023-12-09T11:24:32Z
-
-[Term]
-id: XCO:0001179
-name: iopromide
-def: "This is any condition in which the main influencing factor is iopromide, an organoiodine compound and a dicarboxylic acid diamide used as an x-ray contrast agent for angiography. Iopromide is also a nephrotoxic agent." [CID:3736]
-synonym: "iopromid" EXACT []
-synonym: "N,N'-bis(2,3-dihydroxypropyl)-2,4,6-triiodo-5-[(methoxyacetyl)amino]-N-methylisophthalamide" EXACT []
-xref: CHEBI:63578
-xref: MESH:C038192
-is_a: XCO:0001112 ! nephrotoxicant
-created_by: slaulederkind
-creation_date: 2023-12-11T15:49:02Z
-
-[Term]
-id: XCO:0001180
-name: OC43p
-def: "This is any condition in which the major influencing factor is OC43p, a synthetic peptide whose sequence (VSKIVHFFKTFTTSTALAFA) is derived from the Human coronavirus OC43 gene ORF1ab/ORF1ab polyprotein. This sequence is homologous to the myelin basic protein pronociceptive peptide MBP84-104 from human/rat." [PMID:35466531]
-synonym: "human coronavirus OC43&#8208;encoded polypeptide" EXACT []
-synonym: "MHV p65-like protein" RELATED []
-synonym: "OC43:653-673" EXACT []
-synonym: "ORF1ab polyprotein" RELATED []
-synonym: "ORF1a polyprotein" RELATED []
-synonym: "polyprotein pp1a" RELATED []
-synonym: "polyprotein pp1ab" RELATED []
-synonym: "VSKIVHFFKTFTTSTALAFA" EXACT []
-is_a: XCO:0000260 ! peptide/protein antigen
-created_by: slaulederkind
-creation_date: 2023-12-11T16:45:35Z
-
-[Term]
-id: XCO:0001181
-name: OC43p&#8208;SCR
-def: "This is any condition in which the major influencing factor is OC43p-SCR, a synthetic peptide whose sequence (VFIAHSVKFTKSFTLATTFA) is a scrambled version of OC43p, a peptide derived from the Human coronavirus OC43 gene ORF1ab/ORF1ab polyprotein. This OC43p&#8208;SCR sequence is used as an experimental control for OC43p." [PMID:35466531]
-synonym: "OC43p&#8208;SCR1" EXACT []
-synonym: "VFIAHSVKFTKSFTLATTFA" EXACT []
-is_a: XCO:0000260 ! peptide/protein antigen
-created_by: slaulederkind
-creation_date: 2023-12-11T17:22:19Z
-
-[Term]
-id: XCO:0001182
-name: methyldopa
-def: "This is any condition in which the main influencing factor is methyldopa, a centrally acting sympatholytic agent and an antihypertensive agent. It is an analog of DOPA (3,4&#8208;hydroxyphenylanine), and it is a prodrug, meaning that the drug requires biotransformation to an active metabolite for therapeutic effects. Methyldopa is in the alpha-2 adrenergic receptor agonist family of medications. It works by stimulating the brain to decrease the activity of the sympathetic nervous system." [CID:38853, https://en.wikipedia.org/wiki/Methyldopa]
-synonym: "&#945;-methyldopa" EXACT []
-synonym: "alpha medopa" EXACT []
-synonym: "alphamethyldopa" EXACT []
-synonym: "alpha-methyl-L-dopa" EXACT []
-xref: MESH:D008750
-is_a: XCO:0000673 ! alpha-adrenergic agonist
-is_a: XCO:0000863 ! antihypertensive agent
-created_by: slaulederkind
-creation_date: 2023-12-12T13:26:35Z
-
-[Term]
-id: XCO:0001183
-name: metiamide
-def: "This is any condition in which the main influencing factor is metiamide, a histamine H2 receptor antagonist developed from another H2 antagonist, burimamide. It was an intermediate compound in the development of the successful anti-ulcer drug cimetidine." [https://en.wikipedia.org/wiki/Metiamide]
-synonym: "1-Methyl-3-(2-{[(5-methyl-1H-imidazol-4-yl)methyl]thio}ethyl)thiourea" EXACT []
-synonym: "methiamide" EXACT []
-synonym: "N-Methyl-N'-(2-{[(5-methyl-1H-imidazol-4-yl)methyl]sulfanyl}ethyl)thiourea" EXACT []
-xref: CHEBI:6896
-xref: CID:1548992
-xref: PMID:32119089
-is_a: XCO:0000160 ! receptor antagonist
-created_by: slaulederkind
-creation_date: 2023-12-12T13:48:07Z
-
-[Term]
-id: XCO:0001184
-name: mibefradil
-def: "This is any condition in which the main influencing factor is mibefradil, a benzimidazoyl-substituted tetralin that selectively binds and inhibits T-type calcium channels. Mibefradil is a vasodilator and antihypertensive agent." [MESH:D020748]
-synonym: "[(1S,2S)-2-[2-[3-(1H-benzimidazol-2-yl)propyl-methylamino]ethyl]-6-fluoro-1-propan-2-yl-3,4-dihydro-1H-naphthalen-2-yl] 2-methoxyacetate" EXACT []
-synonym: "Acetic acid, methoxy-, 2-(2-((3-(1H-benzimidazol-2-yl)propyl)methylamino)ethyl)-6-fluoro-1,2,3,4-tetrahydro-1-(1-methylethyl)-2-naphthalenyl ester, (1S-cis)-" EXACT []
-xref: CHEBI:6920
-xref: CID:60663
-is_a: XCO:0000140 ! vasodilator
-is_a: XCO:0000269 ! calcium channel inhibitor
-is_a: XCO:0000863 ! antihypertensive agent
-created_by: slaulederkind
-creation_date: 2023-12-12T14:02:56Z
-
-[Term]
-id: XCO:0001185
-name: MK-0773
-def: "This is any condition in which the main influencing factor is MK-0773, an experimental drug that was under development for the treatment of sarcopenia. MK-0773 is a 4-azasteroid and agonist of the androgen receptor (SARM, selective androgen receptor modulator)." [https://en.wikipedia.org/wiki/MK-0773]
-synonym: "(1S,3aS,3bS,5aR,9aS,9bS,11aS)-8-fluoro-N-(1H-imidazo[4,5-b]pyridin-2-ylmethyl)-6,9a,11a-trimethyl-7-oxo-2,3,3a,3b,4,5,5a,9b,10,11-decahydro-1H-indeno[5,4-f]quinoline-1-carboxamide" EXACT []
-synonym: "PF-05314882" EXACT []
-xref: CID:11950726
-xref: PMID:32119089
-is_a: XCO:0000091 ! steroid
-is_a: XCO:0000135 ! receptor agonist
-created_by: slaulederkind
-creation_date: 2023-12-12T14:42:14Z
-
-[Term]
-id: XCO:0001186
-name: MK-3207
-def: "This is any condition in which the main influencing factor is MK-03207, a highly potent calcitonin gene-related peptide (CGRP) receptor antagonist designed to be an antimigraine therapeutic." [PMID:24900170]
-synonym: "2-((8R)-8-(3,5-Difluorophenyl)-10-oxo-6,9-diazaspiro(4.5)dec-9-yl)-N-((2R)-2'-oxo-1,1',2',3-tetrahydrospiro(indene-2,3'-pyrrolo(2,3-b)pyridin)-5-yl)acetamide" EXACT []
-synonym: "MK3207" EXACT []
-xref: CID:25019940
-is_a: XCO:0000160 ! receptor antagonist
-created_by: slaulederkind
-creation_date: 2023-12-12T14:57:03Z
-
-[Term]
-id: XCO:0001187
-name: ampicillin
-def: "This is any condition in which the main influencing factor is ampicillin, a semi-synthetic derivative of penicillin that functions as an orally active broad-spectrum antibiotic. Ampicillin is a penicillin in which the substituent at position 6 of the penam ring is a 2-amino-2-phenylacetamido group." [CID:6249]
-synonym: "6beta-[(2R)-2-amino-2-phenylacetamido]-2,2-dimethylpenam-3alpha-carboxylic acid" EXACT []
-synonym: "aminobenzylpenicillin" EXACT []
-xref: CHEBI:28971
-xref: MESH:D000667
-is_a: XCO:0000483 ! antibacterial agent
-created_by: slaulederkind
-creation_date: 2023-12-14T12:00:21Z
-
-[Term]
-id: XCO:0001188
-name: neomycin sulfate
-def: "This is any condition in which the main influencing factor is neomycin sulfate, the sulfate salt form of neomycin, a broad spectrum aminoglycoside antibiotic derived from Streptomyces fradiae with antibacterial activity. Neomycin is an antibiotic complex consisting of 3 components: the two isomeric components B and C are the active components, and neomycin A is the minor component. Neomycin is a protein synthesis inhibitor and bacteriacidal agent." [https://pubchem.ncbi.nlm.nih.gov/#query=neomycin%20sulfate]
-xref: CHEBI:31635
-xref: PMID:32119089
-xref: SID:483925982
-is_a: XCO:0000483 ! antibacterial agent
-created_by: slaulederkind
-creation_date: 2023-12-14T13:05:10Z
-
-[Term]
-id: XCO:0001189
-name: metronidazole
-def: "This is any condition in which the main influencing factor is metronidazole, a commonly used antibiotic, belonging to the nitroimidazole class of antibiotics. Metronidazole is frequently used to treat gastrointestinal infections and parasitic infections such as trichomoniasis, giardiasis, and amebiasis. The antiparasitic of properties of metronidazole set it apart from many other antibacterial drugs, allowing it to treat a wider variety of infections." [CID:4173]
-synonym: "2-(2-methyl-5-nitro-1H-imidazol-1-yl)ethanol" EXACT []
-xref: CHEBI:6909
-xref: MESH:D008795
-is_a: XCO:0000482 ! antimicrobial agent
-created_by: slaulederkind
-creation_date: 2023-12-14T13:22:30Z
-
-[Term]
-id: XCO:0001190
-name: amphotericin B
-def: "This is any condition in which the main influencing factor is amphotericin B, macrolide antifungal and antiprotozoal antibiotic produced by Streptomyces nodosus." [CID:5280965, MESH:D000666]
-synonym: "(1R,3S,5R,6R,9R,11R,15S,16R,17R,18S,19E,21E,23E,25E,27E,29E,31E,33R,35S,36R,37S)-33-[(3-amino-3,6-dideoxy-beta-D-mannopyranosyl)oxy]-1,3,5,6,9,11,17,37-octahydroxy-15,16,18-trimethyl-13-oxo-14,39-dioxabicyclo[33.3.1]nonatriaconta-19,21,23,25,27,29,31-heptaene-36-carboxylic acid" EXACT []
-synonym: "amphotericin" EXACT []
-xref: CHEBI:2682
-is_a: XCO:0000482 ! antimicrobial agent
-created_by: slaulederkind
-creation_date: 2023-12-14T13:36:38Z
-
-[Term]
-id: XCO:0001191
-name: nabumetone
-def: "This is any condition in which the main influencing factor is nabumetone, a prodrug that is converted to the active metabolite, 6-methoxy-2-naphthylacetic acid. Nabumetone is a methyl ketone non-steroidal anti-inflammatory drug and cyclooxygenase-2 (COX2) inhibitor that is used in the management of pain associated with osteoarthritis and rheumatoid arthritis." [CHEBI:7443, MESH:D000077430]
-synonym: "4-(6-Methoxy-2-naphthyl)-2-butanone" EXACT []
-synonym: "4-(6-methoxynaphthalen-2-yl)butan-2-one" EXACT []
-synonym: "Relafen" EXACT []
-xref: CID:4409
-xref: PMID:32119089
-is_a: XCO:0000106 ! anesthetic/analgesic
-is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulederkind
-creation_date: 2023-12-15T11:08:39Z
-
-[Term]
-id: XCO:0001192
-name: nadolol
-def: "This is any condition in which the main influencing factor is nadolol, a non-selective beta-adrenergic antagonist with a long half-life, used in cardiovascular disease to treat arrhythmias, angina pectoris, and hypertension. Nadolol is also used to treat vascular headaches." [CID:39147, MESH:D009248]
-synonym: "rac-(2R,3S)-5-[3-(tert-butylamino)-2-hydroxypropoxy]-1,2,3,4-tetrahydronaphthalene-2,3-diol" EXACT []
-xref: CHEBI:7444
-is_a: XCO:0000336 ! adrenergic antagonist
-is_a: XCO:0000863 ! antihypertensive agent
-created_by: slaulederkind
-creation_date: 2023-12-15T11:34:46Z
-
-[Term]
-id: XCO:0001193
-name: naproxen
-def: "This is any condition in which the main influencing factor is naproxen, a methoxynaphthalene that is 2-methoxynaphthalene substituted by a carboxy ethyl group at position 6. Naproxen is a non-steroidal anti-inflammatory drug commonly used for the reduction of pain, fever, inflammation and stiffness. Naproxen inhibits both the COX-1 and COX-2 enzymes." [CHEBI:7476]
-synonym: "(2S)-2-(6-methoxynaphthalen-2-yl)propanoic acid" EXACT []
-synonym: "(S)-(+)-2-(6-Methoxy-2-naphthyl)propionic acid" EXACT []
-xref: CID:156391
-xref: MESH:D009288
-is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulederkind
-creation_date: 2023-12-15T11:49:04Z
-
-[Term]
-id: XCO:0001194
-name: NB-360
-def: "This is any condition in which the main influencing factor is NB-360, a dual BACE1/BACE2 (beta-secretase 1/beta-secretase 2) inhibitor that stops the progression of amyloid-&#946; (A&#946;) deposition and reduces neuroinflammation." [https://www.medchemexpress.com/nb-360.html]
-synonym: "NB-360 HCl" RELATED []
-xref: CAS:1262857-73-7
-xref: CID:66665322
-xref: PMID:32119089
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulederkind
-creation_date: 2023-12-15T15:38:28Z
 
 [Typedef]
 id: has_component
