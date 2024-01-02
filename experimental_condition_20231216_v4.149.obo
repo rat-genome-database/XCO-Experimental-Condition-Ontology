@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.150
-date: 30:12:2023 20:13
+data-version: 4.149
+date: 16:12:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -790,7 +790,7 @@ creation_date: 2010-11-10T02:19:58Z
 [Term]
 id: XCO:0000106
 name: anesthetic/analgesic
-def: "This is any condition in which the main influencing factor is a drug or agent used to reduce or eliminate pain or sensation." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "Condition in which the main influencing factor is a drug or agent used to reduce or eliminate pain or sensation." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000341 ! chemical with specified function
 created_by: mshimoyama
 creation_date: 2011-01-21T09:44:08Z
@@ -2336,8 +2336,8 @@ creation_date: 2013-03-11T16:14:44Z
 [Term]
 id: XCO:0000269
 name: calcium channel inhibitor
-def: "This is any condition in which the main influencing factor is any chemical substance which decreases or interferes with the activity of a calcium channel, one or more membrane-bound globular proteins that display selective permeability to calcium ions, the chemical element with atomic number 20 that has lost two electrons forming a cation with a charge of +2, and allow diffusion of these ions across a cell membrane." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
-synonym: "calcium channel blocker" EXACT []
+def: "Any chemical substance which decreases or interferes with the activity of a calcium channel, one or more membrane-bound globular proteins that display selective permeability to calcium ions, the chemical element with atomic number 20 that has lost two electrons forming a cation with a charge of +2, and allow diffusion of these ions across a cell membrane." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+synonym: "calcium channel blocker" RELATED []
 is_a: XCO:0000222 ! cation channel inhibitor
 created_by: JSmith
 creation_date: 2013-03-11T16:37:02Z
@@ -3066,8 +3066,7 @@ creation_date: 2013-09-03T16:26:49Z
 [Term]
 id: XCO:0000342
 name: chemical with specified structure
-def: "This is any condition in which the main influencing factor is a substance having a specific molecular composition obtained by or used in a reaction involving changes to atoms or molecules, where that molecular composition explicitly contains one or more particular parts or groups that are held or put together in a particular way." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, American_Heritage:The_American_Heritage_Science_Dictionary_2005, Collins:Collins_Online_English_Dictionary]
-synonym: "Not4Curation" RELATED []
+def: "Any condition in which the main influencing factor is a substance having a specific molecular composition obtained by or used in a reaction involving changes to atoms or molecules, where that molecular composition explicitly contains one or more particular parts or groups that are held or put together in a particular way." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, American_Heritage:The_American_Heritage_Science_Dictionary_2005, Collins:Collins_Online_English_Dictionary]
 xref: CHEBI:24431
 is_a: XCO:0000088 ! chemical
 created_by: JSmith
@@ -4448,7 +4447,7 @@ creation_date: 2015-04-30T14:25:42Z
 [Term]
 id: XCO:0000483
 name: antibacterial agent
-def: "This is any condition in which the main influencing factor is an antibacterial agent, a substance that kills or slows the growth of bacteria, unicellular prokaryotic microorganisms that commonly multiply by cell division, lack a nucleus or membrane-bound organelles, and generally have a cell wall." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "A substance that kills or slows the growth of bacteria, unicellular prokaryotic microorganisms that commonly multiply by cell division, lack a nucleus or membrane-bound organelles, and generally have a cell wall." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 xref: CHEBI:33282
 is_a: XCO:0000482 ! antimicrobial agent
 created_by: JSmith
@@ -4826,7 +4825,7 @@ creation_date: 2017-07-18T13:27:01Z
 [Term]
 id: XCO:0000523
 name: enzyme inhibitor
-def: "This is any condition in which the main influencing factor is a chemical which decreases or interferes with the activity of an enzyme, a protein that catalyzes chemical reactions of other substances without itself being destroyed or altered upon completion of the reactions." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "Any condition in which the main influencing factor is a chemical which decreases or interferes with the activity of an enzyme, a protein that catalyzes chemical reactions of other substances without itself being destroyed or altered upon completion of the reactions." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000120 ! inhibitor
 created_by: jesmith
 creation_date: 2017-07-18T13:31:10Z
@@ -5215,7 +5214,7 @@ creation_date: 2018-11-19T14:48:04Z
 [Term]
 id: XCO:0000561
 name: antidepressant
-def: "This is a condition in which the main influencing factor is an antidepressant, a mood-stimulating drug used primarily in the treatment of affective disorders and related conditions." []
+def: "Antidepressants are mood-stimulating drugs used primarily in the treatment of affective disorders and related conditions." []
 is_a: XCO:0000341 ! chemical with specified function
 created_by: sjwang
 creation_date: 2018-11-21T09:51:04Z
@@ -5374,10 +5373,7 @@ creation_date: 2018-12-05T15:17:00Z
 [Term]
 id: XCO:0000578
 name: omeprazole
-def: "This is any condition in which the main influencing factor is omeprazole, a highly effective inhibitor of gastric acid secretion used in the therapy of stomach ulcers and Zollinger-Ellison syndrome." [MESH:D009853]
-synonym: "rac-5-methoxy-2-{[(4-methoxy-3,5-dimethylpyridin-2-yl)methyl]sulfinyl}-1H-benzimidazole" EXACT []
-xref: CHEBI:7772
-xref: CID:4594
+def: "A highly effective inhibitor of gastric acid secretion used in the therapy of stomach ulcers and Zollinger-Ellison syndrome." []
 is_a: XCO:0000577 ! proton pump inhibitor
 created_by: sjwang
 creation_date: 2018-12-05T15:19:50Z
@@ -5393,7 +5389,7 @@ creation_date: 2018-12-05T15:24:01Z
 [Term]
 id: XCO:0000580
 name: forced feeding
-def: "This is any condition in which the main influencing factor is the administration of food or drug by force, especially to a laboratory animal, typically through a tube leading down the throat to the stomach." []
+def: "The administration of food or drugs by force, especially to an animal, typically through a tube leading down the throat to the stomach." []
 is_a: XCO:0000013 ! diet
 created_by: sjwang
 creation_date: 2018-12-05T15:43:29Z
@@ -5401,13 +5397,7 @@ creation_date: 2018-12-05T15:43:29Z
 [Term]
 id: XCO:0000581
 name: oral gavage
-alt_id: XCO:0000582
-alt_id: XCO:0000583
-alt_id: XCO:0000584
-def: "This is any condition in which the main influencing factor is the introduction of material, food, or drug into the stomach by a tube via the oral cavity." []
-synonym: "controlled cecal material content oral gavage" NARROW []
-synonym: "controlled content oral gavage" EXACT []
-synonym: "controlled omeprazole content  oral gavage" NARROW []
+def: "Introduction of material, foods or drugs into the stomach by a tube via the oral cavity." []
 is_a: XCO:0000580 ! forced feeding
 created_by: sjwang
 creation_date: 2018-12-05T15:45:21Z
@@ -5416,7 +5406,7 @@ creation_date: 2018-12-05T15:45:21Z
 id: XCO:0000582
 name: controlled content oral gavage
 def: "Oral gavage in which the amount of one or more solutes are adjusted to a requirement." []
-is_obsolete: true
+is_a: XCO:0000581 ! oral gavage
 created_by: sjwang
 creation_date: 2018-12-05T15:49:29Z
 
@@ -5424,7 +5414,8 @@ creation_date: 2018-12-05T15:49:29Z
 id: XCO:0000583
 name: controlled omeprazole content  oral gavage
 def: "An oral gavage solution made up of solvent and a specified amount of omeprazole." []
-is_obsolete: true
+is_a: XCO:0000578 ! omeprazole
+is_a: XCO:0000582 ! controlled content oral gavage
 created_by: sjwang
 creation_date: 2018-12-05T15:51:33Z
 
@@ -5432,7 +5423,7 @@ creation_date: 2018-12-05T15:51:33Z
 id: XCO:0000584
 name: controlled cecal material content oral gavage
 def: "An oral gavage delivery made up of a specified amount of harvested cecal material." []
-is_obsolete: true
+is_a: XCO:0000582 ! controlled content oral gavage
 created_by: sjwang
 creation_date: 2018-12-05T15:55:37Z
 
@@ -5702,11 +5693,9 @@ creation_date: 2019-03-27T15:52:55Z
 [Term]
 id: XCO:0000611
 name: nifedipine
-def: "This is any condition in which the main influencing factor is nifedipine, a potent vasodilator agent with calcium antagonistic action. It is a useful anti-anginal agent that also lowers blood pressure." [MESH:D009543]
-synonym: "dimethyl 2,6-dimethyl-4-(2-nitrophenyl)-1,4-dihydropyridine-3,5-dicarboxylate" EXACT []
+def: "Nifedipine is a potent vasodilator agent with calcium antagonistic action. It is a useful anti-anginal agent that also lowers blood pressure." [MESH:D009543]
 xref: CHEBI:7565
-xref: CID:4485
-is_a: XCO:0000140 ! vasodilator
+xref: pubchem.compound:4485
 is_a: XCO:0000269 ! calcium channel inhibitor
 created_by: sjwang
 creation_date: 2019-04-22T16:41:50Z
@@ -7149,7 +7138,7 @@ creation_date: 2020-09-22T15:31:08Z
 [Term]
 id: XCO:0000750
 name: diclofenac
-def: "This is any condition in which the main influencing factor is diclofenac, a monocarboxylic acid consisting of phenylacetic acid having a (2,6-dichlorophenyl)amino group at the 2-position. It is a non-steroidal anti-inflammatory agent (NSAID) with antipyretic and analgesic actions. It is primarily available as the sodium salt." [CHEBI:47381, MESH:D004008]
+def: "This is any condition whose main influencing factor is diclofenac, a monocarboxylic acid consisting of phenylacetic acid having a (2,6-dichlorophenyl)amino group at the 2-position. It is a non-steroidal anti-inflammatory agent (NSAID) with antipyretic and analgesic actions. It is primarily available as the sodium salt." [CHEBI:47381, MESH:D004008]
 synonym: "Diclofenac acid" EXACT []
 synonym: "Voltaren" NARROW []
 xref: CHEBI:47381
@@ -7383,7 +7372,7 @@ creation_date: 2020-10-19T18:21:13Z
 [Term]
 id: XCO:0000776
 name: fatty acid
-def: "This is any condition in which the main influencing factor is an aliphatic monocarboxylic acid derived from or contained in esterified form in an animal or vegetable fat, oil or wax." [CHEBI:35366, https://www.merriam-webster.com/]
+def: "Any condition in which the main influencing factor is any aliphatic monocarboxylic acid derived from or contained in esterified form in an animal or vegetable fat, oil or wax." [CHEBI:35366, https://www.merriam-webster.com/]
 xref: CHEBI:35366
 is_a: XCO:0000342 ! chemical with specified structure
 created_by: slaulede
@@ -7633,17 +7622,14 @@ creation_date: 2021-02-08T16:43:57Z
 [Term]
 id: XCO:0000799
 name: ether
-def: "This is any condition in which the main influencing factor is ether, a mobile, very volatile, highly flammable liquid used as an inhalation anesthetic and as a solvent for waxes, fats, oils, perfumes, alkaloids, and gums." [https://www.merriam-webster.com/, MESH:D004986]
+def: "A mobile, very volatile, highly flammable liquid used as an inhalation anesthetic and as a solvent for waxes, fats, oils, perfumes, alkaloids, and gums. It is mildly irritating to skin and mucous membranes." [https://www.merriam-webster.com/, MESH:D004986]
 synonym: "(C2H5)2O" EXACT []
 synonym: "C4H10O" EXACT []
 synonym: "CH3CH2OCH2CH3" EXACT []
 synonym: "Diethyl ether" EXACT []
-synonym: "Ethyl ether" EXACT []
-xref: CHEBI:25698he
-xref: CID:3283
+xref: CHEBI:25698
 xref: D004986
 is_a: XCO:0000106 ! anesthetic/analgesic
-is_a: XCO:0001196 ! ethers
 created_by: slaulede
 creation_date: 2021-02-08T16:54:25Z
 
@@ -8150,16 +8136,15 @@ creation_date: 2021-06-10T11:03:37Z
 [Term]
 id: XCO:0000844
 name: sodium phenobarbital
-def: "This is any condition in which the main influencing factor is the sodium salt of phenobarbital (barbituric acid substituted at C-5 by ethyl and phenyl groups). Sodium phenobarbital is an acvtivator of the constitutive androstane receptor (CAR; Nr1i3)." [CHEBI:8070, PMID:29548889]
+def: "Any condition in which the main influencing factor is the sodium salt of phenobarbital (barbituric acid substituted at C-5 by ethyl and phenyl groups). Sodium phenobarbital is an acvtivator of the constitutive androstane receptor (CAR; Nr1i3)." [CHEBI:8070, PMID:29548889]
 synonym: "C12H11N2NaO3" EXACT []
-synonym: "Luminal sodium" EXACT []
 synonym: "NaPB" EXACT []
 synonym: "phenobarbital sodium" EXACT []
 synonym: "phenobarbital sodium salt" EXACT []
 synonym: "Sodium phenobarbitone" EXACT []
 xref: PMID:29548889
+is_a: XCO:0000089 ! neoplasm-inducing chemical
 is_a: XCO:0000135 ! receptor agonist
-relationship: has_component XCO:0001203 ! phenobarbital
 created_by: slaulede
 creation_date: 2021-06-24T15:00:49Z
 
@@ -9386,7 +9371,7 @@ creation_date: 2022-06-09T15:28:58Z
 [Term]
 id: XCO:0000950
 name: anticonvulsant
-def: "This is any condition in which the main influencing factor is a drug or agent used to prevent seizures or reduce their severity. Anticonvulsants suppress the excessive rapid firing of neurons during seizures and prevent the spread of the seizure within the brain." [CHEBI:35623, https://en.wikipedia.org/wiki/Anticonvulsant]
+def: "This is a condition in which the main influencing factor is a drug or agent used to prevent seizures or reduce their severity. Anticonvulsants suppress the excessive rapid firing of neurons during seizures and prevent the spread of the seizure within the brain." [CHEBI:35623, https://en.wikipedia.org/wiki/Anticonvulsant]
 synonym: "antiepileptic" EXACT []
 synonym: "antiepileptic drug" EXACT []
 synonym: "antiseizure drug" EXACT []
@@ -10073,7 +10058,7 @@ name: penicillin-streptomycin
 def: "This is any experimental condition in which the main influencing factor is a mixture of penicillin G and streptomycin (penicillin-streptomycin) that is widely used in mammalian cell culture media to prevent bacterial contamination. The solution contains 5,000 units of penicillin G (sodium salt) which acts as the active base, and 5,000 micrograms of streptomycin (sulfate) (base per milliliter), formulated in 0.85% saline." [https://en.wikipedia.org/wiki/Pen-Strep]
 synonym: "Pen-Strep" EXACT []
 xref: PMID:31283468
-relationship: has_component XCO:0001202 ! penicillin
+is_a: XCO:0000483 ! antibacterial agent
 relationship: part_of XCO:0000965 ! controlled in vitro cell condition
 created_by: slaulede
 creation_date: 2023-04-06T13:28:20Z
@@ -11408,7 +11393,7 @@ def: "This is any condition in which the main influencing factor is amoxicillin,
 synonym: "amox" EXACT []
 synonym: "amoxycillin" EXACT []
 xref: PMID:32119089
-is_a: XCO:0001202 ! penicillin
+is_a: XCO:0000483 ! antibacterial agent
 created_by: slaulederkind
 creation_date: 2023-11-17T12:03:49Z
 
@@ -12168,7 +12153,7 @@ synonym: "6beta-[(2R)-2-amino-2-phenylacetamido]-2,2-dimethylpenam-3alpha-carbox
 synonym: "aminobenzylpenicillin" EXACT []
 xref: CHEBI:28971
 xref: MESH:D000667
-is_a: XCO:0001202 ! penicillin
+is_a: XCO:0000483 ! antibacterial agent
 created_by: slaulederkind
 creation_date: 2023-12-14T12:00:21Z
 
@@ -12255,114 +12240,6 @@ xref: PMID:32119089
 is_a: XCO:0000523 ! enzyme inhibitor
 created_by: slaulederkind
 creation_date: 2023-12-15T15:38:28Z
-
-[Term]
-id: XCO:0001195
-name: nefazodone
-def: "This is any condition in which the main influencing factor is nefazodone, an aromatic ether with multiple roles, including that of an antidepressant, a serotonergic antagonist, a serotonin uptake inhibitor, an alpha-adrenergic antagonist and an analgesic." []
-created_by: slaulederkind
-creation_date: 2023-12-28T13:14:53Z
-
-[Term]
-id: XCO:0001196
-name: ethers
-def: "This is any condition in which the main influencing factor is an ether, any of a class of compounds that contain an ether group, an oxygen atom connected to two alkyl or aryl groups. They have the general formula R&#8722;O&#8722;R&#8242;, where R and R&#8242; represent the alkyl or aryl groups." [https://en.wikipedia.org/wiki/Ether]
-xref: CHEBI:25698
-xref: MESH:D004987
-is_a: XCO:0000342 ! chemical with specified structure
-created_by: slaulederkind
-creation_date: 2023-12-28T13:36:58Z
-
-[Term]
-id: XCO:0001197
-name: nevirapine
-def: "This is any condition in which the main influencing factor is nevirapine, a non-nucleoside reverse transcriptase inhibitor (NNRTI) used in combination with nucleoside analogues for treatment of Human Immunodeficiency Virus Type 1 (HIV-1) infections and acquired immunodeficiency syndrome (AIDS)." [CID:4463, MESH:D019829]
-synonym: "11-Cyclopropyl-4-methyl-5,11-dihydro-6H-dipyrido[3,2-b:2',3'-e][1,4]diazepin-6-one" EXACT []
-synonym: "2-cyclopropyl-7-methyl-2,4,9,15-tetraazatricyclo[9.4.0.0^{3,8}]pentadeca-1(11),3,5,7,12,14-hexaen-10-one" EXACT []
-xref: CHEBI:63613
-is_a: XCO:0000523 ! enzyme inhibitor
-is_a: XCO:0000657 ! antiviral agent
-created_by: slaulederkind
-creation_date: 2023-12-28T13:52:45Z
-
-[Term]
-id: XCO:0001198
-name: nitrofurantoin
-def: "This is any condition in which the main influencing factor is nitrofurantoin, a urinary anti-bacterial agent effective against most gram-positive and gram-negative organisms. Nitrofurantoin is converted by bacterial nitroreductases to electrophilic intermediates which inhibit the citric acid cycle as well as synthesis of DNA, RNA, and protein." [CID:6604200, MESH:D009582]
-synonym: "1-{[(5-nitro-2-furyl)methylene]amino}imidazolidine-2,4-dione" EXACT []
-xref: CHEBI:71415
-is_a: XCO:0000483 ! antibacterial agent
-created_by: slaulederkind
-creation_date: 2023-12-28T14:15:53Z
-
-[Term]
-id: XCO:0001199
-name: oxandrolone
-def: "This is any condition in which the main influencing factor is oxandrolone, a synthetic, anabolic steroid hormone analog of testosterone." [CID:5878]
-synonym: "17beta-hydroxy-17alpha-methyl-2-oxa-5alpha-androstan-3-one" EXACT []
-synonym: "DODECAHYDRO-3-HYDROXY-6-(HYDROXY-METHYL)-3,3A,6-TRIMETH YL-1H-BENZ" EXACT []
-xref: CHEBI:7820
-xref: MESH:D010074
-is_a: XCO:0000135 ! receptor agonist
-is_a: XCO:0000229 ! steroid hormone
-created_by: slaulederkind
-creation_date: 2023-12-29T11:30:06Z
-
-[Term]
-id: XCO:0001200
-name: panadiplon
-def: "This is any condition in which the main influencing factor is panadiplon (U-78875), an anxiolytic drug with a novel chemical structure. Panadiplon has a similar pharmacological profile to the benzodiazepine family of drugs, but with mainly anxiolytic properties and relatively little sedative or amnestic effect, and so is classified as a nonbenzodiazepine anxiolytic." [https://en.wikipedia.org/wiki/Panadiplon]
-synonym: "U-78875" EXACT []
-xref: CAS:124423-84-3
-xref: CID:3033821
-is_a: XCO:0000135 ! receptor agonist
-is_a: XCO:0001122 ! anti-anxiety agent
-created_by: slaulederkind
-creation_date: 2023-12-29T12:44:41Z
-
-[Term]
-id: XCO:0001201
-name: paroxetine
-def: "This is any condition in which the main influencing factor is paroxetine, a serotonin uptake inhibitor that is effective in the treatment of depression and anxiety." [CHEBI:7936]
-synonym: "(3S,4R)-3-[(1,3-benzodioxol-5-yloxy)methyl]-4-(4-fluorophenyl)piperidine" EXACT []
-synonym: "Piperidine, 3-((1,3-benzodioxol-5-yloxy)methyl)-4-(4-fluorophenyl)-, (3S,4R)-" EXACT []
-xref: CID:43815
-xref: MESH:D017374
-is_a: XCO:0000561 ! antidepressant
-is_a: XCO:0001122 ! anti-anxiety agent
-created_by: slaulederkind
-creation_date: 2023-12-29T13:24:50Z
-
-[Term]
-id: XCO:0001202
-name: penicillin
-def: "This is any condition in which the main influencing factor is a penicillin, one of a group of &#946;-lactam antibiotics originally obtained from Penicillium molds. Penicillins are widely used for different bacterial infections, though many types of bacteria have developed resistance following extensive use." [https://en.wikipedia.org/wiki/Penicillin]
-synonym: "P" EXACT []
-synonym: "PCN" EXACT []
-synonym: "PEN" EXACT []
-synonym: "penicillin G" NARROW []
-synonym: "penicillins" EXACT []
-synonym: "penicillin V" NARROW []
-xref: CHEBI:17334
-xref: D010406
-xref: PMID:32119089
-is_a: XCO:0000483 ! antibacterial agent
-created_by: slaulederkind
-creation_date: 2023-12-29T13:38:29Z
-
-[Term]
-id: XCO:0001203
-name: phenobarbital
-def: "This is any condition in which the main influencing factor is phenobarbital, a barbiturate that acts as a nonselective central nervous system depressant. Phenobarbital potentiates GABA action on GABA-A receptors, modulates chloride currents through receptor channels, and inhibits glutamate induced depolarizations." [MESH:D010634]
-synonym: "Luminal" EXACT []
-synonym: "phenobarb" EXACT []
-synonym: "phenobarbitone" EXACT []
-xref: CID:4763
-xref: MESH:D010634
-is_a: XCO:0000950 ! anticonvulsant
-is_a: XCO:0001122 ! anti-anxiety agent
-created_by: slaulederkind
-creation_date: 2023-12-29T17:24:51Z
 
 [Typedef]
 id: has_component
