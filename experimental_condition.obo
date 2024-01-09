@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 4.150
-date: 30:12:2023 20:13
+date: 06:01:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -1322,7 +1322,7 @@ creation_date: 2012-07-09T10:58:54Z
 [Term]
 id: XCO:0000163
 name: controlled content drinking water
-def: "Drinking water in which the amount of one or more solutes are adjusted to a requirement." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed]
+def: "This is any condition in which the main influencing factor is drinking water in which the amount of one or more solutes are adjusted to a requirement." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed]
 is_a: XCO:0000021 ! water
 created_by: JSmith
 creation_date: 2012-07-09T11:14:14Z
@@ -2399,7 +2399,7 @@ creation_date: 2013-03-12T13:10:01Z
 id: XCO:0000275
 name: glucose
 def: "A monosaccharide sugar, C6H12O6, occurring widely in plant and animal tissues. It is one of the three dietary monosaccharides, along with fructose and galactose, that are absorbed directly into the bloodstream during digestion, is the end product of carbohydrate metabolism, and is the chief source of energy for living organisms." [http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
-synonym: "dextrose" RELATED []
+xref: dextrose
 is_a: XCO:0000274 ! monosaccharide
 created_by: JSmith
 creation_date: 2013-03-12T13:28:39Z
@@ -3056,7 +3056,7 @@ creation_date: 2013-08-23T15:45:06Z
 [Term]
 id: XCO:0000341
 name: chemical with specified function
-def: "Any condition in which the main influencing factor is a substance having a specific molecular composition obtained by or used in a reaction involving changes to atoms or molecules and which has the capacity to perform a particular role or initiate or participate in a particular activity or process." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Collins:Collins_Online_English_Dictionary, Mosby:Mosbys_Dental_Dictionary--2nd_Ed]
+def: "This is any condition in which the main influencing factor is any condition in which the main influencing factor is a substance having a specific molecular composition obtained by or used in a reaction involving changes to atoms or molecules and which has the capacity to perform a particular role or initiate or participate in a particular activity or process." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Collins:Collins_Online_English_Dictionary, Mosby:Mosbys_Dental_Dictionary--2nd_Ed]
 synonym: "chemical with specified role" EXACT []
 xref: CHEBI:50906
 is_a: XCO:0000088 ! chemical
@@ -3877,10 +3877,13 @@ creation_date: 2014-03-05T09:50:27Z
 [Term]
 id: XCO:0000426
 name: 1H-pyrazole
-def: "A condition in which the main influencing factor is 1H-pyrazole, an antioxidant, heterocyclic organic compound with the formula C3H3N2H which is a 5-membered ring of three carbon atoms and two adjacent nitrogen centers, i.e., with nitrogens at positions 1 and 2 of the ring." [http://en.wikipedia.org/wiki/Pyrazole "Wikipedia"]
+def: "This is any condition in which the main influencing factor is 1H-pyrazole, a heterocyclic organic compound with the formula C3H3N2H which is a 5-membered ring of three carbon atoms and two adjacent nitrogen centers, i.e., with nitrogens at positions 1 and 2 of the ring. 1H-pyrazole is a tautomer of 3H-pyrazole and 4H-pyrazole. Pyrazole is a core motif in many antioxidant molecules." [http://en.wikipedia.org/wiki/Pyrazole "Wikipedia"]
+synonym: "1,2-Diazacyclopenta-2,4-diene" EXACT []
 synonym: "1,2-diazole" RELATED []
+synonym: "pyrazole" EXACT []
 xref: CHEBI:17241
-is_a: XCO:0000271 ! antioxidant
+xref: PMID:34355092
+relationship: part_of XCO:0000271 ! antioxidant
 created_by: JSmith
 creation_date: 2014-03-05T09:52:40Z
 
@@ -3897,7 +3900,7 @@ creation_date: 2014-03-05T09:54:44Z
 [Term]
 id: XCO:0000428
 name: fructose
-def: "A condition in which the main influencing factor is fructose, a monosaccharide isomer of glucose which, although it is a 6-carbon sugar (hexose), generally exists as a 5-member hemiketal ring. Fructose is one of three dietary monosaccharides that are absorbed directly into the bloodstream during digestion, is covalently bound to glucose to form the sucrose molecule, and is found naturally in honey and many sweet fruits." [http://en.wikipedia.org/wiki/Fructose "Wikipedia"]
+def: "This is any condition in which the main influencing factor is fructose, a monosaccharide isomer of glucose which, although it is a 6-carbon sugar (hexose), generally exists as a 5-member hemiketal ring. Fructose is one of three dietary monosaccharides, along with glucose and galactose, that are absorbed directly into the bloodstream during digestion." [http://en.wikipedia.org/wiki/Fructose "Wikipedia"]
 xref: CHEBI:15824
 xref: CHEBI:28757
 is_a: XCO:0000274 ! monosaccharide
@@ -3907,7 +3910,8 @@ creation_date: 2014-03-05T10:26:45Z
 [Term]
 id: XCO:0000429
 name: controlled fructose content drinking water
-def: "A drink made up of water and a specified amount of fructose consumed by an organism as part of an experiment. Fructose is one of three dietary monosaccharides that are absorbed directly into the bloodstream during digestion, is covalently bound to glucose to form the sucrose molecule, and is found naturally in honey and many sweet fruits." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Fructose "Wikipedia", ISBN:978-1416049982]
+def: "This is any condition in which the main influencing factor is a drink made up of water and a specified amount of fructose consumed by a subject. Fructose is one of three dietary monosaccharides that are absorbed directly into the bloodstream during digestion." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Fructose "Wikipedia", ISBN:978-1416049982]
+xref: PMID:33790226
 is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0000428 ! fructose
 created_by: JSmith
@@ -4041,7 +4045,7 @@ creation_date: 2014-04-17T15:49:21Z
 [Term]
 id: XCO:0000441
 name: controlled 2-acetamidofluorene content drinking water
-def: "A drink made up of water and a specified amount of 2-acetamidofluorene, a substituted ortho-fused polycyclic arene that is a carcinogenic and mutagenic derivative of fluorene, consumed by an organism as part of an experiment." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Acetylaminofluorene "Wikipedia", ISBN:978-1416049982]
+def: "This is any condition in which the main influencing factor is a drink made up of water and a specified amount of 2-acetamidofluorene, a substituted ortho-fused polycyclic arene that is a carcinogenic and mutagenic derivative of fluorene, consumed by a subject." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Acetylaminofluorene "Wikipedia", ISBN:978-1416049982]
 synonym: "controlled 2-AAF content drinking water" RELATED []
 synonym: "controlled 2-acetylaminofluorene content drinking water" RELATED []
 xref: CHEBI:17356
@@ -5317,8 +5321,8 @@ creation_date: 2018-12-05T14:27:59Z
 [Term]
 id: XCO:0000572
 name: vancomycin
-def: "A complex glycopeptide from Streptomyces orientalis. It inhibits a specific step in the synthesis of the peptidoglycan layer in the Gram-positive bacteria Staphylococcus aureus and Clostridium difficile." []
-xref: CHEBI:28001
+def: "This is any condition in which the main influencing factor is vancomycin, a complex glycopeptide from Streptomyces orientalis. Vancomycin inhibits a specific step in the synthesis of the peptidoglycan layer in the Gram-positive bacteria Staphylococcus aureus and Clostridium difficile." [CHEBI:28001]
+xref: MESH:D014640
 is_a: XCO:0000483 ! antibacterial agent
 created_by: sjwang
 creation_date: 2018-12-05T14:37:41Z
@@ -5713,11 +5717,15 @@ creation_date: 2019-04-22T16:41:50Z
 
 [Term]
 id: XCO:0000612
-name: Endothelin-1
-def: "Endothelin-1 is a 21-amino acid peptide produced in a variety of tissues including endothelial and vascular smooth-muscle cells, neurons and astrocytes in the central nervous system, and endometrial cells. It acts as a modulator of vasomotor tone, cell proliferation, and hormone production." [PMID:7609754]
+name: endothelin-1
+def: "This is any condition in which the main influencing factor is endothelin-1, a 21-amino acid peptide produced in a variety of tissues including endothelial and vascular smooth-muscle cells, neurons and astrocytes in the central nervous system, and endometrial cells. It acts as a modulator of vasomotor tone, cell proliferation, and hormone production." [PMID:7609754]
+synonym: "Edn1" EXACT []
+synonym: "ET-1" EXACT []
+synonym: "Et1" EXACT []
 xref: CHEBI:80240
-xref: pubchem.compound:16212950
-is_a: XCO:0000193 ! peptide/protein
+xref: CID:16212950
+xref: PMID:12070093
+is_a: XCO:0000783 ! cytokine
 created_by: sjwang
 creation_date: 2019-05-08T14:50:29Z
 
@@ -5761,11 +5769,17 @@ creation_date: 2019-05-23T14:15:07Z
 [Term]
 id: XCO:0000617
 name: quinidine
-def: "Quinidine sulfate is an optical isomer of quinine, extracted from the bark of the CHINCHONA tree and similar plant species. This alkaloid dampens the excitability of cardiac and skeletal muscles by blocking sodium and potassium currents across cellular membranes. It prolongs cellular ACTION POTENTIALS, and decreases automaticity. Quinidine also blocks muscarinic and alpha-adrenergic neurotransmission." [https://www.ncbi.nlm.nih.gov/mesh/68011802 "MESH"]
+def: "This is any condition in which the main influencing factor is quinidine, a stereoisomer of quinine which dampens the excitability of cardiac and skeletal muscles by blocking voltage-gated sodium channels and potassium channels. Quinidine prolongs action potentials, blocks muscarinic and alpha-adrenergic neurotransmission, and inhibits multiple enzymes." [MESH:68011802 "MESH"]
+synonym: "(9S)-6'-methoxycinchonan-9-ol" EXACT []
+synonym: "alpha-(6-Methoxy-4-quinolyl)-5-vinyl-2-quinuclidinemethanol" EXACT []
 xref: CHEBI:28593
+xref: CID:441074
 xref: MESH:68011802
-xref: pubchem.compound:5953
+is_a: XCO:0000225 ! potassium channel inhibitor
+is_a: XCO:0000336 ! adrenergic antagonist
+is_a: XCO:0000523 ! enzyme inhibitor
 is_a: XCO:0000618 ! sodium channel inhibitor
+is_a: XCO:0000630 ! cholinergic antagonist
 created_by: sjwang
 creation_date: 2019-05-23T14:24:09Z
 
@@ -6400,7 +6414,7 @@ creation_date: 2020-04-20T13:26:24Z
 [Term]
 id: XCO:0000681
 name: Medica 16
-def: "An &#945;,&#969;-dicarboxylic acid that is hexadecanedioic acid carrying methyl groups at positions 3 and 14. It is a free fatty acid 1 (FFA1/GPR40) receptor agonist and an ATP citrate lyase inhibitor, and exhibits hypolipidemic and antidiabetogenic properties." [CHEBI:149582]
+def: "This is any condition in which the main influencing factor is Medica 16, an &#945;,&#969;-dicarboxylic acid that is hexadecanedioic acid carrying methyl groups at positions 3 and 14. It is a free fatty acid 1 (FFA1/GPR40) receptor agonist and an ATP citrate lyase inhibitor, and exhibits hypolipidemic and antidiabetogenic properties." [CHEBI:149582]
 synonym: "3,3,14,14-Tetramethylhexadecanedioic acid" EXACT []
 synonym: "Medic-16" EXACT []
 xref: CAS:87272-20-6
@@ -7459,7 +7473,7 @@ creation_date: 2020-10-27T16:52:12Z
 [Term]
 id: XCO:0000783
 name: cytokine
-def: "Any condition in which the main influencing factor is a cytokine, a small secreted protein that has a specific effect on the interactions and communications between cells. Cytokine is a general name for other signaling molecules, including lymphokines, monokines, and chemokines." [ISBN-13:978-1608316922, PMID:17426506]
+def: "This is any condition in which the main influencing factor is a cytokine, a small secreted protein that has a specific effect on the interactions and communications between cells. Cytokine is a general name for other signaling molecules, including lymphokines, monokines, and chemokines." [ISBN-13:978-1608316922, PMID:17426506]
 synonym: "chemokine" NARROW []
 synonym: "lymphokine" NARROW []
 synonym: "monokine" NARROW []
@@ -7470,7 +7484,7 @@ creation_date: 2020-10-30T13:38:35Z
 [Term]
 id: XCO:0000784
 name: interleukin-2
-def: "Any condition in which the main influencing factor is interleukin-2, a cytokine made by a type of T lymphocyte. It increases the growth and activity of other T lymphocytes and B lymphocytes, and affects the development of the immune system." [https://www.cancer.gov/publications/dictionaries/cancer-terms/def/interleukin-2, ISBN-13:978-1608316922]
+def: "This is any condition in which the main influencing factor is interleukin-2, a cytokine made by a type of T lymphocyte. It increases the growth and activity of other T lymphocytes and B lymphocytes, and affects the development of the immune system." [https://www.cancer.gov/publications/dictionaries/cancer-terms/def/interleukin-2, ISBN-13:978-1608316922]
 synonym: "IL-2" EXACT []
 synonym: "IL2" EXACT []
 synonym: "interleukin 2" EXACT []
@@ -8459,8 +8473,8 @@ creation_date: 2021-07-16T15:49:31Z
 
 [Term]
 id: XCO:0000872
-name: Thymosin alpha-1
-def: "Thymosin alpha-1 is one member of a family of heat-stable, polypeptide hormones secreted by the thymus gland. Thymosins are immune response-modulating molecules." [MESH:D013947, PMID:33362999]
+name: thymosin alpha-1
+def: "This is any condition in which the main influencing factor is thymosin alpha-1, a member of a family of heat-stable, polypeptide hormones secreted by the thymus gland. Thymosins are immune response-modulating molecules." [MESH:D013947, PMID:33362999]
 synonym: "prothymosin alpha" RELATED []
 synonym: "prothymosin, alpha" RELATED []
 synonym: "PTMA" RELATED []
@@ -10373,7 +10387,7 @@ synonym: "Mycobacterium tuberculosis strain H37Ra" EXACT []
 synonym: "MYCTA" EXACT []
 xref: PMID:31344254
 xref: UniProt:419947
-is_a: XCO:0000761 ! biologics and probiotics
+is_a: XCO:0001212 ! bacteria
 created_by: slaulede
 creation_date: 2023-05-19T14:35:05Z
 
@@ -11625,7 +11639,7 @@ synonym: "L. reuteri" EXACT []
 synonym: "Lactobacillus fermentum biotype II" EXACT []
 synonym: "Lactobacillus reuteri" EXACT []
 xref: PMID:37422471
-is_a: XCO:0000761 ! biologics and probiotics
+is_a: XCO:0001212 ! bacteria
 created_by: slaulederkind
 creation_date: 2023-12-01T11:19:30Z
 
@@ -12179,7 +12193,7 @@ def: "This is any condition in which the main influencing factor is neomycin sul
 xref: CHEBI:31635
 xref: PMID:32119089
 xref: SID:483925982
-is_a: XCO:0000483 ! antibacterial agent
+relationship: has_component XCO:0001210 ! neomycin
 created_by: slaulederkind
 creation_date: 2023-12-14T13:05:10Z
 
@@ -12363,6 +12377,189 @@ is_a: XCO:0000950 ! anticonvulsant
 is_a: XCO:0001122 ! anti-anxiety agent
 created_by: slaulederkind
 creation_date: 2023-12-29T17:24:51Z
+
+[Term]
+id: XCO:0001204
+name: pentoxifylline
+def: "This is any condition in which the main influencing factor is pentoxifylline, a synthetic dimethylxanthine derivative that inhibits phosphodiesterase and affects blood rheology. It improves blood flow by increasing erythrocyte and leukocyte flexibility. Pentoxifylline has both anti-oxidant and anti-inflammatory properties." [CID:4740, MESH:D010431]
+synonym: "3,7-Dihydro-3,7-dimethyl-1-(5-oxohexyl)-1H-purine-2,6-dione" EXACT []
+synonym: "3,7-dimethyl-1-(5-oxohexyl)purine-2,6-dione" EXACT []
+synonym: "PTX" EXACT []
+xref: CHEBI:7986
+xref: PMID:32119089
+is_a: XCO:0000271 ! antioxidant
+is_a: XCO:0000505 ! anti-inflammatory agent
+is_a: XCO:0000523 ! enzyme inhibitor
+created_by: slaulederkind
+creation_date: 2024-01-02T14:30:47Z
+
+[Term]
+id: XCO:0001205
+name: perhexiline maleate
+def: "This is any condition in which the main influencing factor is perhexiline maleate, a coronary vasodilator used as a prophylactic antianginal agent. Perhexiline inhibits mitochondrial carnitine palmitoyltransferase-1 and -2." [MESH:D010480, PMID:37110858]
+synonym: "2-(2,2-dicyclohexylethyl)piperidine" EXACT []
+synonym: "perhexiline" EXACT []
+synonym: "Piperidine, 2-(2,2-dicyclohexylethyl)-" EXACT []
+xref: CID:5284439
+xref: PMID:32119089
+is_a: XCO:0000140 ! vasodilator
+is_a: XCO:0000435 ! antineoplastic agent
+is_a: XCO:0000523 ! enzyme inhibitor
+created_by: slaulederkind
+creation_date: 2024-01-02T14:59:49Z
+
+[Term]
+id: XCO:0001206
+name: probenecid
+def: "This is any condition in which the main influencing factor is probenecid, the prototypical uricosuric agent, a drug that promotes the excretion of uric acid. Probenecid inhibits the renal excretion of organic anions and reduces tubular reabsorption of urate. Because probenecid reduces the renal tubular excretion of other drugs, it has been used as an adjunct to antibacterial therapy." [https://www.sciencedirect.com/topics/neuroscience/uricosuric, MESH:D011339]
+synonym: "4-(Dipropylsulfamoyl)benzoic acid" EXACT []
+synonym: "p-(Dipropylsulfamoyl)benzoic acid" EXACT []
+synonym: "probenecid acid" EXACT []
+xref: CHEBI:8426
+xref: CID:4911
+is_a: XCO:0000120 ! inhibitor
+created_by: slaulederkind
+creation_date: 2024-01-02T15:14:50Z
+
+[Term]
+id: XCO:0001207
+name: propranolol
+def: "This is any condition in which the main influencing factor is propranolol, a widely used non-cardioselective beta-adrenergic antagonist. Propranolol functions as an anxiolytic drug, an anti-arrhythmia drug, a vasodilator agent, and an antihypertensive agent." [CID:4946, MESH:D011433]
+synonym: "1-(isopropylamino)-3-(1-naphthyloxy)propan-2-ol" EXACT []
+synonym: "2-Propanol, 1-((1-methylethyl)amino)-3-(1-naphthalenyloxy)-" EXACT []
+synonym: "3-(naphthalen-1-yloxy)-1-(propan-2-ylamino)propan-2-ol" EXACT []
+synonym: "beta-Propranolol" EXACT []
+xref: CHEBI:8499
+xref: PMID:32119089
+is_a: XCO:0000140 ! vasodilator
+is_a: XCO:0000336 ! adrenergic antagonist
+is_a: XCO:0000863 ! antihypertensive agent
+is_a: XCO:0001122 ! anti-anxiety agent
+created_by: slaulederkind
+creation_date: 2024-01-02T16:01:49Z
+
+[Term]
+id: XCO:0001208
+name: MWNT-7
+def: "This is any condition in which the main influencing factor is MWNT-7, a multi&#8208;walled carbon nanotube, which is a molecule consisting of three or more concentric graphene cylinders. Fibers of MWNT-7 range in size from 5.11 &#956;m to 84.7 nm." [CHEBI:50596, PMID:37513116]
+synonym: "Mitsui-7" EXACT []
+synonym: "MWCNT-7" EXACT []
+synonym: "NT50a" EXACT []
+synonym: "XNRI-7" EXACT []
+is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000342 ! chemical with specified structure
+created_by: slaulederkind
+creation_date: 2024-01-04T12:18:08Z
+
+[Term]
+id: XCO:0001209
+name: lixisenatide
+def: "This is any condition in which the main influencing factor is lixisenatide, a 44 amino acid polypeptide and glucagon-like peptide 1 receptor agonist used as an adjunct to diet and exercise for the treatment of adults with type II diabetes." [CHEBI:85662, https://en.wikipedia.org/wiki/Lixisenatide]
+synonym: "H-HGEGTFTSDLSKQMEEEAVRLFIEWLKNGGPSSGAPPSKKKKKK-NH2" EXACT []
+xref: CID:90472060
+xref: PMID:37423944
+is_a: XCO:0000135 ! receptor agonist
+is_a: XCO:0000193 ! peptide/protein
+is_a: XCO:0000407 ! hypoglycemic agent
+created_by: slaulederkind
+creation_date: 2024-01-04T13:20:30Z
+
+[Term]
+id: XCO:0001210
+name: neomycin
+def: "This is any condition in which the main influencing factor is neomycin, a broad spectrum aminoglycoside antibiotic derived from Streptomyces fradiae with antibacterial activity. Neomycin is an antibiotic complex consisting of 3 components: the two isomeric components B and C are the active components, and neomycin A is a minor component and a degradation product of B and C. Neomycin is a protein synthesis inhibitor and bacteriacidal agent, primarily effective against gram-negative bacteria." [https://pubchem.ncbi.nlm.nih.gov/#query=neomycin, https://www.ncbi.nlm.nih.gov/books/NBK560603]
+xref: CHEBI:7507
+xref: MESH:D009355
+xref: PMID:33790226
+is_a: XCO:0000483 ! antibacterial agent
+created_by: slaulederkind
+creation_date: 2024-01-05T11:08:45Z
+
+[Term]
+id: XCO:0001211
+name: Parabacteroides distasonis
+def: "This is any condition in which the main influencing factor is Parabacteroides distasonis, an anaerobic, gram-negative bacillus of the CFB group of bacteria. P. distasonis is an aerotolerant anaerobe found in the gastrointestinal tract of numerous species." [NCBI:txid823, PMID:33790226]
+synonym: "Bacteroides distasonis" EXACT []
+xref: MESH:C000641579
+is_a: XCO:0001212 ! bacteria
+created_by: slaulederkind
+creation_date: 2024-01-05T12:24:25Z
+
+[Term]
+id: XCO:0001212
+name: bacteria
+def: "This is any condition in which the main influencing factor is bacteria, any of a domain of chiefly round, spiral, or rod-shaped single-celled prokaryotic microorganisms that are represented in most ecological niches on earth." [https://www.merriam-webster.com/]
+xref: NCBI:txid2
+is_a: XCO:0000761 ! biologics and probiotics
+created_by: slaulederkind
+creation_date: 2024-01-05T13:06:43Z
+
+[Term]
+id: XCO:0001213
+name: Parabacteroides johnsonii
+def: "This is any condition in which the main influencing factor is Parabacteroides johnsonii, an anaerobic, gram-negative bacillus of the CFB group of bacteria. P. johnsonii is an anaerobe isolated from human fecal matter." [https://en.wikipedia.org/wiki/Parabacteroides_johnsonii, PMID:17267966]
+synonym: "M-165T" EXACT []
+synonym: "Parabacteroides johnsonii M-165" EXACT []
+xref: NCBI:txid387661
+xref: PMID:33790226
+is_a: XCO:0001212 ! bacteria
+created_by: slaulederkind
+creation_date: 2024-01-05T14:08:16Z
+
+[Term]
+id: XCO:0001214
+name: reverse osmosis-filtered water
+def: "This is any condition in which the main influencing factor is reverse osmosis-filtered water, purified water that has sediment and chlorine removed from it with a prefilter before solutes are removed by a semipermeable membrane. Reverse osmosis-filtered water also passes through a postfilter after the semi-permeable membrane." [https://www.freshwatersystems.com/blogs/blog/what-is-reverse-osmosis#1]
+synonym: "RO-filtered H2O" EXACT []
+synonym: "RO-filtered water" EXACT []
+xref: PMID:33790226
+is_a: XCO:0000021 ! water
+created_by: slaulederkind
+creation_date: 2024-01-05T14:27:10Z
+
+[Term]
+id: XCO:0001215
+name: controlled fructose content reverse osmosis-filtered drinking water
+def: "This is any condition in which the main influencing factor is a drink made up of reverse osmosis-filtered water and a specified amount of fructose consumed by an organism as part of an experiment. Fructose is one of three dietary monosaccharides, along with glucose and galactose, that are absorbed directly into the bloodstream during digestion." [https://www.freshwatersystems.com/blogs/blog/what-is-reverse-osmosis#1, https://www.merriam-webster.com/]
+synonym: "controlled fructose content RO-filtered drinking water" EXACT []
+xref: PMID:33790226
+is_a: XCO:0000429 ! controlled fructose content drinking water
+created_by: slaulederkind
+creation_date: 2024-01-05T16:06:22Z
+
+[Term]
+id: XCO:0001216
+name: controlled glucose content drinking water
+def: "This is any condition in which the main influencing factor is a drink made up of water and a specified amount of glucose consumed by a subject. Glucose is a monosaccharide sugar, C6H12O6, occurring widely in plant and animal tissues. Glucose is one of the three dietary monosaccharides, along with fructose and galactose, that are absorbed directly into the bloodstream during digestion" [https://www.merriam-webster.com/]
+synonym: "controlled dextrose content drinking water" EXACT []
+xref: PMID:33790226
+is_a: XCO:0000163 ! controlled content drinking water
+relationship: has_component XCO:0000275 ! glucose
+created_by: slaulederkind
+creation_date: 2024-01-05T16:23:57Z
+
+[Term]
+id: XCO:0001217
+name: controlled glucose content reverse osmosis-filtered drinking water
+def: "This is any condition in which the main influencing factor is a drink made up of reverse osmosis-filtered water and a specified amount of glucose consumed by an organism as part of an experiment. Glucose is one of three dietary monosaccharides, along with fructose and galactose, that are absorbed directly into the bloodstream during digestion." [https://www.merriam-webster.com/]
+synonym: "controlled dextrose content reverse osmosis-filtered drinking water" EXACT []
+synonym: "controlled glucose content RO-filtered drinking water" EXACT []
+xref: PMID:33790226
+is_a: XCO:0001216 ! controlled glucose content drinking water
+created_by: slaulederkind
+creation_date: 2024-01-05T16:40:50Z
+
+[Term]
+id: XCO:0001218
+name: controlled ampicillin content drinking water
+def: "This is any condition in which the main influencing factor is a drink made up of water and a specified amount of ampicillin, a semi-synthetic derivative of penicillin that functions as an orally active broad-spectrum antibiotic. Ampicillin is a penicillin in which the substituent at position 6 of the penam ring is a 2-amino-2-phenylacetamido group." [CID:6249, https://www.merriam-webster.com/]
+synonym: "controlled aminobenzylpenicillin content drinking water" EXACT []
+xref: CHEBI:28971
+xref: MESH:D000667
+is_a: XCO:0000163 ! controlled content drinking water
+relationship: has_component XCO:0001187 ! ampicillin
+created_by: slaulederkind
+creation_date: 2024-01-05T16:56:23Z
 
 [Typedef]
 id: has_component
