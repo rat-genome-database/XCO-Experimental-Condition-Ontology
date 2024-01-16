@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.151
-date: 13:01:2024 20:13
+data-version: 4.150
+date: 06:01:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -104,8 +104,6 @@ is_a: XCO:0000014 ! controlled content diet
 [Term]
 id: XCO:0000016
 name: standard rat chow
-def: "This is any condition in which the main influencing factor is standard rat chow, a laboratory foodstuff which typically has 380-390 kcal/100 g with 9-10% of calories derived from fat, 70-80% of calories derived from carbohydrate, and 10-15% of calories derived from protein." [https://www.zeiglerfeed.com/research-diets/rodent-nih-31-open-formula-auto/, PMID:36386439]
-synonym: "standard rodent chow" BROAD []
 is_a: XCO:0000069 ! standard diet
 
 [Term]
@@ -194,7 +192,7 @@ id: XCO:0000029
 name: controlled carbohydrate content diet
 def: "A regimen of solid food in which the amount of carbohydrates consumed is controlled." [RGD:MS]
 is_a: XCO:0000014 ! controlled content diet
-relationship: has_component XCO:0000172 ! carbohydrate
+is_a: XCO:0000172 ! carbohydrate
 
 [Term]
 id: XCO:0000030
@@ -619,7 +617,7 @@ creation_date: 2010-06-29T03:35:43Z
 [Term]
 id: XCO:0000088
 name: chemical
-def: "This is any condition in which the main influencing factor is a compound or substance that has been purified or prepared, especially artificially." [https://languages.oup.com/google-dictionary-en/]
+def: "Any condition in which the main influencing factor is a substance having a specific molecular composition obtained by or used in a reaction involving changes to atoms or molecules." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Collins:Collins_Online_English_Dictionary]
 is_a: XCO:0000000 ! experimental condition
 created_by: mshimoyama
 creation_date: 2010-11-01T01:00:51Z
@@ -1406,8 +1404,7 @@ creation_date: 2012-07-11T04:09:48Z
 [Term]
 id: XCO:0000173
 name: polysaccharide
-def: "This is any condition whose main influencing factor is a polysaccharide, a macromolecule consisting of large numbers (>10) of monosaccharide residues, that is, simple carbohydrate residues each consisting of a single basic sugar unit with the general formula (CH2O)n, linked glycosidically." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
-synonym: "polysaccharides" EXACT []
+def: "A macromolecule consisting of large numbers (>10) of monosaccharide residues, that is, simple carbohydrate residues each consisting of a single basic sugar unit with the general formula (CH2O)n, linked glycosidically." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 xref: CHEBI:18154
 is_a: XCO:0000172 ! carbohydrate
 created_by: JSmith
@@ -3059,7 +3056,7 @@ creation_date: 2013-08-23T15:45:06Z
 [Term]
 id: XCO:0000341
 name: chemical with specified function
-def: "This is any condition in which the main influencing factor is a substance having a specific molecular composition obtained by or used in a reaction involving changes to atoms or molecules and which has the capacity to perform a particular role or initiate or participate in a particular activity or process." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Collins:Collins_Online_English_Dictionary, Mosby:Mosbys_Dental_Dictionary--2nd_Ed]
+def: "This is any condition in which the main influencing factor is any condition in which the main influencing factor is a substance having a specific molecular composition obtained by or used in a reaction involving changes to atoms or molecules and which has the capacity to perform a particular role or initiate or participate in a particular activity or process." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Collins:Collins_Online_English_Dictionary, Mosby:Mosbys_Dental_Dictionary--2nd_Ed]
 synonym: "chemical with specified role" EXACT []
 xref: CHEBI:50906
 is_a: XCO:0000088 ! chemical
@@ -4815,7 +4812,7 @@ creation_date: 2017-07-18T13:25:13Z
 [Term]
 id: XCO:0000521
 name: direct electrical nerve stimulation
-def: "This is any condition in which the main influencing factor is the alteration of nerve activity through targeted delivery of an electrical stimulus directly to a specific nerve or nerves, for example through the use of microelectrodes or an implanted device." [https://en.wikipedia.org/wiki/Neurostimulation "Wikipedia"]
+def: "Any condition in which the main influencing factor is the alteration of nerve activity through targeted delivery of an electrical stimulus directly to a specific nerve or nerves, for example through the use of microelectrodes or an implanted device." [https://en.wikipedia.org/wiki/Neurostimulation "Wikipedia"]
 synonym: "direct electrical nerve stimulus" RELATED []
 is_a: XCO:0000520 ! neuromodulation
 created_by: jesmith
@@ -4825,7 +4822,7 @@ creation_date: 2017-07-18T13:25:52Z
 id: XCO:0000522
 name: common peroneal nerve direct electrical stimulation
 def: "A condition in which the main influencing factor is the alteration of nerve activity through targeted delivery of an electrical stimulus directly the common peroneal nerve(s), for example through the use of microelectrodes or an implanted device. The common peroneal nerve is one of the terminal divisions of the sciatic nerve, diverging from the tibial nerve at the upper end of the popliteal fossa, then coursing with the biceps tendon along the lateral portion of the popliteal space to wind around the neck of the fibula, where it divides into the superficial and deep peroneal nerves." [Farlex:Farlex_Partner_Medical_Dictionary_2012, https://en.wikipedia.org/wiki/Common_peroneal_nerve "Wikipedia", https://en.wikipedia.org/wiki/Neurostimulation "Wikipedia"]
-synonym: "direct electrical stimulus of the common peroneal nerve" EXACT []
+synonym: "direct electrical stimulus of the common peroneal nerve" RELATED []
 is_a: XCO:0000521 ! direct electrical nerve stimulation
 created_by: jesmith
 creation_date: 2017-07-18T13:27:01Z
@@ -5593,16 +5590,9 @@ creation_date: 2018-12-27T15:39:58Z
 
 [Term]
 id: XCO:0000600
-name: 2,3,7,8-tetrachlorodibenzo-p-dioxin
-def: "This is any condition in which the main influencing factor is 2,3,7,8-tetrachlorodibenzo-p-dioxin, a polychlorinated dibenzo-p-dioxin that activates the aryl hydrocarbon (AH) receptor, a transcription factor." [https://en.wikipedia.org/wiki/2\,3\,7\,8-Tetrachlorodibenzodioxin]
-synonym: "2,3,7,8-Tetrachlorodibenzo[b,e][1,4]dioxine" EXACT []
-synonym: "2,3,7,8-tetrachlorooxanthrene" EXACT []
-synonym: "TCDD" EXACT []
-synonym: "tetrachlorodibenzodioxin" EXACT []
-synonym: "tetrachlorodibenzo-p-dioxin" EXACT []
-synonym: "tetradioxin" EXACT []
+name: 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD)
+def: "A polychlorinated dibenzodioxine that has formula C12H4Cl4O2." []
 xref: CHEBI:28119
-xref: CID:15625
 is_a: XCO:0000135 ! receptor agonist
 created_by: sjwang
 creation_date: 2019-01-21T12:54:07Z
@@ -6323,7 +6313,7 @@ id: XCO:0000672
 name: tetracyclines
 alt_id: CHEBI:26895
 alt_id: MESH:D013754
-def: "This is any condition in which the main influencing factor is a subclass of polyketides having an octahydrotetracene-2-carboxamide skeleton, substituted with many hydroxy and other groups." [CHEBI:26895]
+def: "A subclass of polyketides having an octahydrotetracene-2-carboxamide skeleton, substituted with many hydroxy and other groups." [CHEBI:26895]
 is_a: XCO:0000342 ! chemical with specified structure
 created_by: slaulede
 creation_date: 2020-03-05T16:13:01Z
@@ -7246,7 +7236,6 @@ synonym: "Solutol HS 15" EXACT []
 xref: CHEBI:9194
 is_a: XCO:0000511 ! ester
 is_a: XCO:0000757 ! surfactant
-is_a: XCO:0001232 ! emulsifier
 relationship: has_component XCO:0000926 ! polyethylene glycol
 created_by: slaulede
 creation_date: 2020-09-25T14:43:25Z
@@ -9138,7 +9127,7 @@ creation_date: 2022-03-01T17:38:17Z
 [Term]
 id: XCO:0000926
 name: polyethylene glycol
-def: "This is any condition in which the main influencing factor is a polyether compound, composed of repeating ethyleneoxy units, and derived from petroleum. Polyethylene glycol has many applications, including medical uses like in the composition of some laxatives." [CHEBI:46793, https://en.wikipedia.org/wiki/Polyethylene_glycol]
+def: "This is a is a polyether compound, composed of repeating ethyleneoxy units, derived from petroleum with many applications, including medical uses like in the composition of some laxatives." [CHEBI:46793, https://en.wikipedia.org/wiki/Polyethylene_glycol]
 synonym: "PEG" EXACT []
 synonym: "PEO" EXACT []
 synonym: "POE" EXACT []
@@ -11711,7 +11700,8 @@ synonym: "methyl (2S)-(2-chlorophenyl)(6,7-dihydrothieno[3,2-c]pyridin-5(4H)-yl)
 synonym: "Plavix" EXACT []
 xref: CHEBI:37941
 xref: PMID:32119089
-is_a: XCO:0001238 ! ticlopidine
+is_a: XCO:0000160 ! receptor antagonist
+is_a: XCO:0001090 ! anticoagulant
 created_by: slaulederkind
 creation_date: 2023-12-04T14:19:35Z
 
@@ -11944,7 +11934,6 @@ name: polysorbate
 def: "This is any condition in which the main influencing factor is any poly(ethylene glycol) derivative composed of PEG-ylated sorbitan [2-(1,2-dihydroxyethyl)tetrahydrofuran-3,4-diol] normally containing a total of 20 oxyethylene groups, with one or more of the terminal hydroxy groups esterified with a fatty acyl group. They are used as emulsifiers and dispersing agents in some pharmaceuticals products and as defoamers and emulsifiers in some foods." [CHEBI:53422]
 synonym: "polysorbates" EXACT []
 synonym: "tweens" EXACT []
-is_a: XCO:0001232 ! emulsifier
 relationship: has_component XCO:0000926 ! polyethylene glycol
 created_by: slaulederkind
 creation_date: 2023-12-07T19:52:38Z
@@ -12571,231 +12560,6 @@ is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0001187 ! ampicillin
 created_by: slaulederkind
 creation_date: 2024-01-05T16:56:23Z
-
-[Term]
-id: XCO:0001219
-name: medium-chain triglyceride-containing ketogenic diet
-def: "This is any condition in which the main influencing factor is a medium-chain triglyceride-containing ketogenic diet (MCTKD), a solid diet with a specific ratio of fat weight to carbohydrate plus protein weight. MCTKDs with different ketogenic ratios are designated by KR values. Medium chain triglycerides are absorbed and transported more efficiently than other types of fat in the diet and yield more ketones produced in the liver per unit of dietary energy." [PMID:36386439]
-synonym: "KD" BROAD []
-synonym: "ketogenic diet" BROAD []
-synonym: "MCT-KD" EXACT []
-synonym: "MCTKD" EXACT []
-is_a: XCO:0000014 ! controlled content diet
-created_by: slaulederkind
-creation_date: 2024-01-08T14:26:56Z
-
-[Term]
-id: XCO:0001220
-name: medium-chain triglyceride-containing ketogenic diet, KR 2.0
-def: "This is any condition in which the main influencing factor is a medium-chain triglyceride-containing ketogenic diet (MCTKD), KR 2.0, a solid diet with a specific ratio of fat weight to carbohydrate plus protein weight of approximately 2.0. A diet with a higher KR ratio delivers more fat than a diet with a lower KR." [PMID:36386439]
-synonym: "MCT-KD, KR 2.0" EXACT []
-synonym: "MCTKD, KR 2.0" EXACT []
-synonym: "medium-chain triglyceride-containing ketogenic diet, ketogenic ratio 2.0" EXACT []
-is_a: XCO:0001219 ! medium-chain triglyceride-containing ketogenic diet
-created_by: slaulederkind
-creation_date: 2024-01-08T14:47:02Z
-
-[Term]
-id: XCO:0001221
-name: medium-chain triglyceride-containing ketogenic diet, KR 1.4
-def: "This is any condition in which the main influencing factor is a medium-chain triglyceride-containing ketogenic diet (MCTKD), KR 1.4, a solid diet with a specific ratio of fat weight to carbohydrate plus protein weight of approximately 1.4. A diet with a higher KR ratio delivers more fat than a diet with a lower KR." [PMID:36386439]
-synonym: "MCT-KD, KR 1.4" EXACT []
-synonym: "MCTKD, KR 1.4" EXACT []
-synonym: "medium-chain triglyceride-containing ketogenic diet, ketogenic ratio 1.4" EXACT []
-is_a: XCO:0001219 ! medium-chain triglyceride-containing ketogenic diet
-created_by: slaulederkind
-creation_date: 2024-01-08T14:54:32Z
-
-[Term]
-id: XCO:0001222
-name: ritonavir
-def: "This is any condition in which the main influencing factor is ritonavir, a CYP3A inhibitor and antiretroviral drug from the protease inhibitor class used to treat HIV infection and AIDS. Ritonavir is often used as a fixed-dose combination with another protease inhibitor, lopinavir. Ritonavir is also used in combination with dasabuvir sodium hydrate, ombitasvir and paritaprevir for treatment of chronic hepatitis C virus genotype 1 infection and cirrhosis of the liver." [CHEBI:45409]
-synonym: "N-[(2S,4S,5S)-4-hydroxy-1,6-diphenyl-5-{[(1,3-thiazol-5-ylmethoxy)carbonyl]amino}hexan-2-yl]-N(2)-(methyl{[2-(propan-2-yl)-1,3-thiazol-4-yl]methyl}carbamoyl)-L-valinamide" EXACT []
-xref: CID:392622
-xref: MESH:D019438
-is_a: XCO:0000657 ! antiviral agent
-is_a: XCO:0000748 ! protease inhibitor
-created_by: slaulederkind
-creation_date: 2024-01-08T15:19:08Z
-
-[Term]
-id: XCO:0001223
-name: sitaxentan
-def: "This is any condition in which the main influencing factor is sitaxentan, a drug designed for the treatment of pulmonary arterial hypertension (PAH). The use of sitaxentan was discontinued because of the side effect of hepatotoxicity." [CID:216235]
-xref: CHEBI:135736
-is_a: XCO:0000342 ! chemical with specified structure
-created_by: slaulederkind
-creation_date: 2024-01-08T15:28:14Z
-
-[Term]
-id: XCO:0001224
-name: sudoxicam
-def: "This is any condition in which the main influencing factor is sudoxicam, a benzothiazine derivative and non-steroidal anti-inflammatory drug. Sudoxicam also has anti-edema and antipyretic activity." [https://www.medchemexpress.com/sudoxicam.html, https://www.scbt.com/p/sudoxicam-34042-85-8]
-xref: CID:54682951
-xref: MESH:C100301
-is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
-created_by: slaulederkind
-creation_date: 2024-01-09T14:26:00Z
-
-[Term]
-id: XCO:0001225
-name: sumatriptan
-def: "This is any condition in which the main influencing factor is sumatriptan, a serotonin agonist that acts selectively at 5HT1 receptors. It i s used for the acute treatment of migraine with or without aura in adults." [CHEBI:10650, CID:5358]
-synonym: "1-{3-[2-(dimethylamino)ethyl]-1H-indol-5-yl}-N-methylmethanesulfonamide" EXACT []
-synonym: "Imitrex" EXACT []
-xref: MESH:D018170
-is_a: XCO:0000135 ! receptor agonist
-is_a: XCO:0000141 ! vasoconstrictor
-created_by: slaulederkind
-creation_date: 2024-01-09T14:36:52Z
-
-[Term]
-id: XCO:0001226
-name: tacrine
-def: "This is any condition in which the main influencing factor is tacrine, a centerally active cholinesterase inhibitor that crosses the blood-brain barrier. Tacrine has been used to counter the effects of muscle relaxants, as a respiratory stimulant, and in the treatment of Alzheimer's disease and other central nervous system disorders. Tacrine is also a histamine N-methyltransferase inhibitor." [MESH:D013619]
-xref: CHEBI:45980
-xref: CID:1935
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulederkind
-creation_date: 2024-01-09T14:46:59Z
-
-[Term]
-id: XCO:0001227
-name: teriparatide
-def: "This is any condition in which the main influencing factor is teriparatide, a recombinant human parathyroid hormone analogue that is used to treat osteoporosis in women or men with a high risk for bone fracture. Teriparatide is made up of the first amino(N)-terminal 34 amino acids of human PTH (parathyroid hormone) and is an osteoanabolic agent." [SID:483927060]
-synonym: "human PTH (1-34)" EXACT []
-synonym: "PTH (1-34)" EXACT []
-synonym: "TPTD" EXACT []
-xref: CHEBI:135983
-xref: GSE121109
-is_a: XCO:0000228 ! peptide hormone
-created_by: slaulederkind
-creation_date: 2024-01-09T15:24:19Z
-
-[Term]
-id: XCO:0001228
-name: electrical muscle stimulation
-def: "This is any condition in which the main influencing factor is electrical muscle stimulation (EMS), a transcutaneous method of stimulating skeletal muscle. EMS is designed to facilitate passive activation of a large number of motor units and induce synchronous recruitment of muscle fibers, with the aim of strengthening or maintaining muscle mass." [PMID:36705372]
-synonym: "EMS" EXACT []
-xref: PMID:30933441
-is_a: XCO:0000000 ! experimental condition
-created_by: slaulederkind
-creation_date: 2024-01-11T14:53:45Z
-
-[Term]
-id: XCO:0001229
-name: Baihu-Guizhi decoction
-def: "This is any condition in which the main influencing factor is Baihu-Guizhi decoction, an anti-arthritic drug of traditional Chinese medicine (TCM). Baihu-Guizhi decoction (BHGZD) is extensively used for the treatment of rheumatoid arthritis (RA)." [PMID:34675809]
-synonym: "BHGZD" EXACT []
-xref: PMID:35799788
-xref: PMID:36195951
-is_a: XCO:0000505 ! anti-inflammatory agent
-created_by: slaulederkind
-creation_date: 2024-01-11T15:21:04Z
-
-[Term]
-id: XCO:0001230
-name: Imwitor 742
-def: "This is any condition in which the main influencing factor is Imwitor 742, a blend of mono-, di- and triglycerides, mainly of caprylic and capric acid. Imwitor 742 acts as a solubilizer for poorly soluble drugs in oral administration forms (i.e. capsules), as a penetration enhancer in topical drug forms, and as a co-emulsifier in emulsions." [https://marcordev.com/wp-content/uploads/2020/07/IMWITOR_742_TDSH-1.pdf]
-synonym: "Glycerol Monocaprylocaprate, type I" EXACT []
-synonym: "Glyceryl Mono- and Dicaprylocaprate" EXACT []
-xref: PMID:32119089
-is_a: XCO:0001231 ! solvent
-is_a: XCO:0001232 ! emulsifier
-created_by: slaulederkind
-creation_date: 2024-01-11T16:07:16Z
-
-[Term]
-id: XCO:0001231
-name: solvent
-def: "This is any condition in which the main influencing factor is a solvent, a liquid that can dissolve other substances (solutes) without any change in their chemical composition." [CHEBI:46787, https://www.merriam-webster.com/]
-synonym: "solvents" NARROW []
-xref: MESH:D012997
-is_a: XCO:0000341 ! chemical with specified function
-created_by: slaulederkind
-creation_date: 2024-01-11T16:13:49Z
-
-[Term]
-id: XCO:0001232
-name: emulsifier
-def: "This is any condition in which the main influencing factor is an emulsifier, a surface-active agent (such as a soap) promoting the formation and stabilization of an emulsion (a fine dispersion of minute droplets of one liquid in another in which it is not soluble)." [https://languages.oup.com/google-dictionary-en/, https://www.merriam-webster.com/]
-xref: CHEBI:63046
-xref: PMID:32119089
-is_a: XCO:0000341 ! chemical with specified function
-created_by: slaulederkind
-creation_date: 2024-01-11T16:29:53Z
-
-[Term]
-id: XCO:0001233
-name: telcagepant
-def: "This is any condition in which the main influencing factor is telcagepant, a calcitonin gene-related peptide (CGRP) receptor antagonist which was an investigational drug for the acute treatment and prevention of migraine. Development of telcagepant was discontinued due to hepatic side effects." [https://en.wikipedia.org/wiki/Telcagepant]
-synonym: "MK-0974" EXACT []
-synonym: "MK0974" EXACT []
-synonym: "N-[(3R,6S)-6-(2,3-Difluorophenyl)hexahydro-2-oxo-1-(2,2,2-trifluoroethyl)-1H-azepin-3-yl]-4-(2,3-dihydro-2-oxo-1H-imidazo[4,5-b]pyridin-1-yl)-1-piperidinecarboxamide" EXACT []
-xref: CID:11319053
-is_a: XCO:0000160 ! receptor antagonist
-created_by: slaulederkind
-creation_date: 2024-01-12T11:09:21Z
-
-[Term]
-id: XCO:0001234
-name: telithromycin
-def: "This is any condition in which the main influencing factor is telithromycin, a semi-synthetic erythromycin derivative which belongs to a new chemical class of antibiotics called ketolides. Similar to the macrolide antibiotics, telithromycin prevents bacterial growth by interfering with bacterial protein synthesis." [CID:3002190]
-synonym: "Ketek" EXACT []
-xref: CHEBI:29688
-xref: MESH:C106791
-is_a: XCO:0000483 ! antibacterial agent
-is_a: XCO:0000532 ! protein synthesis inhibitor
-created_by: slaulederkind
-creation_date: 2024-01-12T11:21:08Z
-
-[Term]
-id: XCO:0001235
-name: tetracycline
-def: "This is any condition in which the main influencing factor is tetracycline, a broad-spectrum polyketide antibiotic produced by the Streptomyces genus of actinobacteria. Tetracycline is both an antibacterial and antiprotozoal drug." [CID:54675776]
-synonym: "(4S,4aS,5aS,6S,12aS)-4-(dimethylamino)-3,6,10,12,12a-pentahydroxy-6-methyl-1,11-dioxo-1,4,4a,5,5a,6,11,12a-octahydrotetracene-2-carboxamide" EXACT []
-xref: CHEBI:27902
-xref: MESH:D013752
-is_a: XCO:0000483 ! antibacterial agent
-is_a: XCO:0000532 ! protein synthesis inhibitor
-is_a: XCO:0000672 ! tetracyclines
-created_by: slaulederkind
-creation_date: 2024-01-12T12:11:59Z
-
-[Term]
-id: XCO:0001236
-name: Morinda officinalis polysaccharide
-def: "This is any condition whose main influencing factor is Morinda officinalis polysaccharide, a crude polysaccharide extract from the root of Morinda officinalis, a plant used in traditional Chinese medicine." [PMID:31465803]
-synonym: "M. officinalis polysaccharide" EXACT []
-synonym: "MOP" EXACT []
-synonym: "MOP-100" NARROW []
-synonym: "MOP-60" NARROW []
-synonym: "Morinda officinalis polysaccharides" EXACT []
-xref: PMID:34466146
-is_a: XCO:0000173 ! polysaccharide
-created_by: slaulederkind
-creation_date: 2024-01-12T13:30:17Z
-
-[Term]
-id: XCO:0001237
-name: experimental varicocele
-def: "This is any condition whose main influencing factor is an experimental varicocele generated by partial ligation of the left renal vein. A varicocele is an abnormal dilation of the pampiniform plexus (veins) of the spermatic cord.." [ISBN-13:978-1455756438, PMID:34466146]
-xref: PMID:28138407
-is_a: XCO:0000595 ! surgical manipulation of blood vessels
-created_by: slaulederkind
-creation_date: 2024-01-12T13:50:18Z
-
-[Term]
-id: XCO:0001238
-name: ticlopidine
-def: "This is any condition in which the main influencing factor is ticlopidine, an inhibitor of platelet aggregation. It is a prodrug that is metabolised to an active form, which blocks the ADP receptor that is involved in GPIIb/IIIa receptor activation leading to platelet aggregation." [CID:5472]
-synonym: "5-(2-chlorobenzyl)-4,5,6,7-tetrahydrothieno[3,2-c]pyridine" EXACT []
-xref: CHEBI:9588
-xref: MESH:D013988
-is_a: XCO:0000160 ! receptor antagonist
-is_a: XCO:0001090 ! anticoagulant
-created_by: slaulederkind
-creation_date: 2024-01-12T18:37:58Z
 
 [Typedef]
 id: has_component
