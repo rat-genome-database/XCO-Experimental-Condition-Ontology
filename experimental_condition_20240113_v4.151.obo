@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.152
-date: 20:01:2024 20:13
+data-version: 4.151
+date: 13:01:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -139,11 +139,9 @@ is_a: XCO:0000013 ! diet
 [Term]
 id: XCO:0000021
 name: water
-def: "This is any condition in which the main influencing factor is water, the clear, colorless, odorless, tasteless liquid each molecule of which contains one atom of oxygen and two atoms of hydrogen (H2O). Water may be used for drinking, as a solvent, or as an environmental component." [http://www.yourdictionary.com/drink "YourDictionary", Mosby:Mosbys_Medical_Dictionary--8th_Ed]
-synonym: "H2O" EXACT []
+def: "The clear, colorless, odorless, tasteless liquid each molecule of which contains one atom of oxygen and two atoms of hydrogen (H2O), specifically, as supplied for drinking, that is, to be brought into the mouth and swallowed to quench thirst, for nourishment, etc." [http://www.yourdictionary.com/drink "YourDictionary", Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+synonym: "drinking water" EXACT []
 is_a: XCO:0000020 ! drink
-is_a: XCO:0000342 ! chemical with specified structure
-is_a: XCO:0001231 ! solvent
 
 [Term]
 id: XCO:0000022
@@ -731,7 +729,7 @@ id: XCO:0000099
 name: control condition
 alt_id: XCO:0000056
 alt_id: XCO:0000791
-def: "This is any condition in which the major influencing factor is a uniform set of parameters accepted as normal or average and used by general consent as a basis of comparison. It is a baseline condition in which none of the experimental manipulations are performed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "This is a condition defined by a mostly uniform set of parameters accepted as normal or average and used by general consent as a basis of comparison. It is a baseline condition in which none of the experimental manipulations are performed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "naive control condition" EXACT []
 synonym: "standard condition" EXACT []
 synonym: "standard control condition" EXACT []
@@ -796,7 +794,6 @@ id: XCO:0000106
 name: anesthetic/analgesic
 def: "This is any condition in which the main influencing factor is a drug or agent used to reduce or eliminate pain or sensation." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000341 ! chemical with specified function
-is_a: XCO:0000850 ! therapeutic agent
 created_by: mshimoyama
 creation_date: 2011-01-21T09:44:08Z
 
@@ -1034,10 +1031,8 @@ id: XCO:0000132
 name: acepromazine
 def: "A phenothiazine-derivative antipsychotic drug used in animals as a sedative and antiemetic and which can also cause peripheral vasodilation." [http://en.wikipedia.org/wiki/Acepromazine "Wikipedia"]
 xref: CHEBI:44932
-xref: CID:6077
+xref: pubchem.compound:6077
 is_a: XCO:0000106 ! anesthetic/analgesic
-is_a: XCO:0000140 ! vasodilator
-is_a: XCO:0001245 ! antiemetic
 created_by: JSmith
 creation_date: 2012-03-15T07:39:01Z
 
@@ -3701,13 +3696,12 @@ creation_date: 2014-02-28T12:48:15Z
 [Term]
 id: XCO:0000407
 name: hypoglycemic agent
-def: "This is any condition in which the main influencing factor is a substance which has the ability to lower the level of glucose, particularly blood glucose, in an organism." []
+def: "A condition in which the main influencing factor is a substance which has the ability to lower the level of glucose, particularly blood glucose, in an organism." []
 synonym: "antidiabetic agent" RELATED []
 synonym: "antidiabetic  drug" RELATED []
 synonym: "antihyperglycemic agent" EXACT []
 xref: CHEBI:35526
 is_a: XCO:0000341 ! chemical with specified function
-is_a: XCO:0000850 ! therapeutic agent
 created_by: JSmith
 creation_date: 2014-02-28T17:14:36Z
 
@@ -3979,7 +3973,6 @@ synonym: "anticancer agent" RELATED []
 synonym: "cancer chemotherapy agent" RELATED []
 xref: CHEBI:35610
 is_a: XCO:0000341 ! chemical with specified function
-is_a: XCO:0000850 ! therapeutic agent
 created_by: JSmith
 creation_date: 2014-03-12T13:30:22Z
 
@@ -4678,7 +4671,6 @@ def: "A condition in which the main influencing factor is a chemical which count
 synonym: "antiinflammatory agent" EXACT []
 xref: CHEBI:67079
 is_a: XCO:0000341 ! chemical with specified function
-is_a: XCO:0000850 ! therapeutic agent
 created_by: jesmith
 creation_date: 2017-02-22T18:36:33Z
 
@@ -5230,10 +5222,8 @@ creation_date: 2018-11-19T14:48:04Z
 [Term]
 id: XCO:0000561
 name: antidepressant
-def: "This is any condition in which the main influencing factor is an antidepressant, a mood-stimulating drug used primarily in the treatment of affective disorders and related conditions." [CHEBI:35469]
-xref: MESH:D000928
+def: "This is a condition in which the main influencing factor is an antidepressant, a mood-stimulating drug used primarily in the treatment of affective disorders and related conditions." []
 is_a: XCO:0000341 ! chemical with specified function
-is_a: XCO:0000850 ! therapeutic agent
 created_by: sjwang
 creation_date: 2018-11-21T09:51:04Z
 
@@ -5411,7 +5401,6 @@ creation_date: 2018-12-05T15:24:01Z
 id: XCO:0000580
 name: forced feeding
 def: "This is any condition in which the main influencing factor is the administration of food or drug by force, especially to a laboratory animal, typically through a tube leading down the throat to the stomach." []
-synonym: "gavage" EXACT []
 is_a: XCO:0000013 ! diet
 created_by: sjwang
 creation_date: 2018-12-05T15:43:29Z
@@ -5967,9 +5956,8 @@ creation_date: 2019-07-30T16:03:10Z
 [Term]
 id: XCO:0000634
 name: antidiuretic
-def: "This is a condition in which the main influencing factor is an antidiuretic, a substance that helps to control fluid balance in an animal's body by reducing urination, opposing diuresis. Its effects are opposite that of a diuretic." []
+def: "An antidiuretic is a substance that helps to control fluid balance in an animal's body by reducing urination, opposing diuresis. Its effects are opposite that of a diuretic." []
 is_a: XCO:0000341 ! chemical with specified function
-is_a: XCO:0000850 ! therapeutic agent
 created_by: sjwang
 creation_date: 2019-07-30T16:16:56Z
 
@@ -5987,10 +5975,9 @@ creation_date: 2019-07-30T16:18:43Z
 [Term]
 id: XCO:0000636
 name: immunosuppressive agent
-def: "This is any condition in which the main influencing factor is an agent that suppresses immune function by one of several mechanisms of action. Classical cytotoxic immunosuppressants act by inhibiting DNA synthesis. Others may act through activation of T-cells or by inhibiting the activation of helper cells. In addition, an immunosuppressive agent is a role played by a compound which is exhibited by a capability to diminish the extent and/or voracity of an immune response." [CHEBI:35705]
+def: "An agent that suppresses immune function by one of several mechanisms of action. Classical cytotoxic immunosuppressants act by inhibiting DNA synthesis. Others may act through activation of T-cells or by inhibiting the activation of helper cells. In addition, an immunosuppressive agent is a role played by a compound which is exhibited by a capability to diminish the extent and/or voracity of an immune response." [CHEBI:35705]
 xref: CHEBI:35705
 is_a: XCO:0000341 ! chemical with specified function
-is_a: XCO:0000850 ! therapeutic agent
 created_by: sjwang
 creation_date: 2019-08-01T12:47:37Z
 
@@ -6428,10 +6415,9 @@ creation_date: 2020-04-20T13:16:09Z
 id: XCO:0000680
 name: antilipemic agent
 alt_id: CHEBI:35679
-def: "This is any condition in which the main influencing factor is a substance used to treat hyperlipidemia (an excess of lipids in the blood)." [CHEBI:35679]
+def: "A substance used to treat hyperlipidemia (an excess of lipids in the blood)." [CHEBI:35679]
 synonym: "antilipemic drug" EXACT []
 is_a: XCO:0000341 ! chemical with specified function
-is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulede
 creation_date: 2020-04-20T13:26:24Z
 
@@ -7251,7 +7237,7 @@ creation_date: 2020-09-25T14:25:59Z
 [Term]
 id: XCO:0000756
 name: Kolliphor HS 15
-def: "This is any condition in which the main influencing factor is Kolliphor HS 15, a non-ionic surfactant and emulsifier that is a potential therapeutic agent because of its effectiveness for reversing multidrug resistance in vitro and its low toxicity in vivo." [https://www.sigmaaldrich.com/catalog/papers/1988130, PMID:1988130]
+def: "This non-ionic surfactant and emulsifier is a potential therapeutic agent because of its effectiveness for reversing multidrug resistance in vitro and its low toxicity in vivo." [https://www.sigmaaldrich.com/catalog/papers/1988130, PMID:1988130]
 synonym: "Macrogol (15)-hydroxystearate" EXACT []
 synonym: "Polyethylene glycol (15)-hydroxystearate" EXACT []
 synonym: "Polyoxyethylated 12-hydroxystearic acid" EXACT []
@@ -7259,7 +7245,8 @@ synonym: "Solutol" EXACT []
 synonym: "Solutol HS 15" EXACT []
 xref: CHEBI:9194
 is_a: XCO:0000511 ! ester
-is_a: XCO:0001248 ! poloxamers
+is_a: XCO:0000757 ! surfactant
+is_a: XCO:0001232 ! emulsifier
 relationship: has_component XCO:0000926 ! polyethylene glycol
 created_by: slaulede
 creation_date: 2020-09-25T14:43:25Z
@@ -8397,11 +8384,10 @@ creation_date: 2021-07-06T17:28:01Z
 [Term]
 id: XCO:0000863
 name: antihypertensive agent
-def: "This is any condition in which the main influencing factor is a drug used in the treatment of acute or chronic vascular hypertension regardless of pharmacological mechanism." [CHEBI:35674, ISBN-13:9780781733908]
+def: "A condition in which the main influencing factor is any drug used in the treatment of acute or chronic vascular hypertension regardless of pharmacological mechanism." [CHEBI:35674, ISBN-13:9780781733908]
 synonym: "antihypertensive drug" EXACT []
 xref: PMID:18480177
 is_a: XCO:0000341 ! chemical with specified function
-is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulede
 creation_date: 2021-07-06T17:35:52Z
 
@@ -9060,7 +9046,7 @@ creation_date: 2021-11-30T18:14:19Z
 [Term]
 id: XCO:0000918
 name: ambient air
-def: "This is any condition in which the major influencing factor is atmospheric air in its natural state. The composition of ambient air varies depending on the elevation above sea level, but is typically 78% nitrogen and 21% oxygen." [https://www.thermofisher.com]
+def: "A condition in which the major influencing factor is atmospheric air in its natural state. The composition of ambient air varies depending on the elevation above sea level, but is typically 78% nitrogen and 21% oxygen." [https://www.thermofisher.com]
 synonym: "atmospheric air" EXACT []
 synonym: "room air" EXACT []
 is_a: XCO:0000099 ! control condition
@@ -9432,7 +9418,6 @@ synonym: "antiseizure drug" EXACT []
 xref: MESH:D000927
 xref: PMID:32507787
 is_a: XCO:0000341 ! chemical with specified function
-is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulede
 creation_date: 2022-06-09T15:44:11Z
 
@@ -11026,7 +11011,6 @@ xref: CHEBI:50249
 xref: MESH:D000925
 xref: PMID:34621173
 is_a: XCO:0000341 ! chemical with specified function
-is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulederkind
 creation_date: 2023-11-02T13:12:35Z
 
@@ -11413,7 +11397,6 @@ synonym: "anxiolytic medication" EXACT []
 xref: D014151
 xref: PMID:37966567
 is_a: XCO:0000341 ! chemical with specified function
-is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulederkind
 creation_date: 2023-11-17T10:05:28Z
 
@@ -11469,9 +11452,8 @@ creation_date: 2023-11-17T14:16:02Z
 
 [Term]
 id: XCO:0001127
-name: Buyang Huanwu decoction
+name: Buyang Huanwu Decoction
 def: "This is any condition in which the main influencing factor is BHD (Buyang Huanwu Decoction), a multi-herbal composition (classic traditional chinese medicine formula) commonly prescribed in the treatment of cerebrovascular diseases." [PMID:32171896]
-synonym: "BHD" EXACT []
 synonym: "BHF" EXACT []
 synonym: "Boyang Hwano Decoction" EXACT []
 synonym: "Buyang Huanwu Formula" EXACT []
@@ -11992,22 +11974,15 @@ creation_date: 2023-12-07T22:13:55Z
 [Term]
 id: XCO:0001170
 name: levofloxacin
-def: "This is any condition whose main influencing factor is levofloxacin, a fluoroquinolone antibiotic with activity against both gram-negative and gram-positive bacteria compared to R-(+)-ofloxacin and remains stereochemically stable following administration (i.e. it does not invert to the inactive isomer). Levofloxacin is an inhibitor of bacterial topoisomerase IV and DNA gyrase." [CID:149096]
-synonym: "(3S)-9-fluoro-3-methyl-10-(4-methylpiperazin-1-yl)-7-oxo-2,3-dihydro-7H-[1,4]oxazino[2,3,4-ij]quinoline-6-carboxylic acid" EXACT []
-xref: CHEBI:63598
-xref: MESH:D064704
-is_obsolete: true
+def: "This is any condition whose main influencing factor is levofloxacin, a fluoroquinolone antibiotic with activity against both gram-negative and gram-positive bacteria compared to R-(+)-ofloxacin and remains stereochemically stable following administration (i.e. it does not invert to the inactive isomer). Levofloxacin is an inhibitor of bacterial topoisomerase IV and DNA gyrase." []
 created_by: slaulederkind
 creation_date: 2023-12-08T14:26:27Z
 
 [Term]
 id: XCO:0001171
 name: levofloxacin
-alt_id: XCO:0001170
 def: "This is any condition whose main influencing factor is levofloxacin, a fluoroquinolone antibiotic that is active against both gram-negative and gram-positive bacteria. Levofloxacin is an inhibitor of both bacterial topoisomerase IV and DNA gyrase." [CHEBI:63598, CID:149096]
 synonym: "(3S)-9-fluoro-3-methyl-10-(4-methylpiperazin-1-yl)-7-oxo-2,3-dihydro-7H-[1,4]oxazino[2,3,4-ij]quinoline-6-carboxylic acid" EXACT []
-synonym: "levofloxacin" EXACT []
-xref: CHEBI:63598
 xref: MESH:D064704
 is_a: XCO:0000483 ! antibacterial agent
 is_a: XCO:0000523 ! enzyme inhibitor
@@ -12309,13 +12284,7 @@ creation_date: 2023-12-15T15:38:28Z
 [Term]
 id: XCO:0001195
 name: nefazodone
-def: "This is any condition in which the main influencing factor is nefazodone, an aromatic ether with multiple roles, including that of an antidepressant, a serotonergic antagonist, a serotonin uptake inhibitor, an alpha-adrenergic antagonist and an analgesic." [CID:4449]
-synonym: "2-{3-[4-(3-chlorophenyl)piperazin-1-yl]propyl}-5-ethyl-4-(2-phenoxyethyl)-2,4-dihydro-3H-1,2,4-triazol-3-one" EXACT []
-xref: CHEBI:7494
-xref: MESH:C051752
-is_a: XCO:0000106 ! anesthetic/analgesic
-is_a: XCO:0000336 ! adrenergic antagonist
-is_a: XCO:0000561 ! antidepressant
+def: "This is any condition in which the main influencing factor is nefazodone, an aromatic ether with multiple roles, including that of an antidepressant, a serotonergic antagonist, a serotonin uptake inhibitor, an alpha-adrenergic antagonist and an analgesic." []
 created_by: slaulederkind
 creation_date: 2023-12-28T13:14:53Z
 
@@ -12721,7 +12690,6 @@ synonym: "BHGZD" EXACT []
 xref: PMID:35799788
 xref: PMID:36195951
 is_a: XCO:0000505 ! anti-inflammatory agent
-is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulederkind
 creation_date: 2024-01-11T15:21:04Z
 
@@ -12828,242 +12796,6 @@ is_a: XCO:0000160 ! receptor antagonist
 is_a: XCO:0001090 ! anticoagulant
 created_by: slaulederkind
 creation_date: 2024-01-12T18:37:58Z
-
-[Term]
-id: XCO:0001239
-name: gefitinib
-def: "This is any condition in which the main influencing factor is gefitinib, an EGFR (epidermal growth factor receptor) tyrosine kinase inhibitor used for the treatment of non-small cell lung cancer." [CHEBI:49668]
-synonym: "N-(3-chloro-4-fluorophenyl)-7-methoxy-6-(3-morpholin-4-ylpropoxy)quinazolin-4-amine" EXACT []
-synonym: "ZD1839" EXACT []
-xref: CID:123631
-xref: MESH:D000077156
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000970 ! protein kinase inhibitor
-created_by: slaulederkind
-creation_date: 2024-01-15T13:18:12Z
-
-[Term]
-id: XCO:0001240
-name: afatinib
-def: "This is any condition in which the main influencing factor is afatinib, an inhibitor of epidermal growth factor receptor (EGFR, ERBB2, ERBB3, ERBB4) tyrosine kinases used for the treatment of metastatic non-small cell lung cancer." [MESH:D000077716]
-synonym: "(2E)-N-{4-[(3-chloro-4-fluorophenyl)amino]-7-[(3S)-tetrahydrofuran-3-yloxy]quinazolin-6-yl}-4-(dimethylamino)but-2-enamide" EXACT []
-xref: CHEBI:61390
-xref: CID:10184653
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000970 ! protein kinase inhibitor
-created_by: slaulederkind
-creation_date: 2024-01-15T13:43:35Z
-
-[Term]
-id: XCO:0001241
-name: tienilic acid
-def: "This is any condition in which the main influencing factor is tienilic acid, a loop diuretic with uricosuric action. Tienilic acid was marketed for the treatment of hypertension until being withdrawn in 1982 because of reports of hepatotoxicity." [CID:38409]
-synonym: "[2,3-dichloro-4-(2-thienylcarbonyl)phenoxy]acetic acid" EXACT []
-synonym: "ticrynafen" EXACT []
-xref: CHEBI:9590
-xref: MESH:D013989
-is_a: XCO:0000122 ! diuretic
-is_a: XCO:0000863 ! antihypertensive agent
-created_by: slaulederkind
-creation_date: 2024-01-15T15:48:27Z
-
-[Term]
-id: XCO:0001242
-name: tolcapone
-def: "This is any condition in which the main influencing factor is tolcapone, a catechol O-methyltransferase (COMT) inhibitor used in the treatment of Parkinson disease." [MESH:D000077867]
-synonym: "(3,4-dihydroxy-5-nitrophenyl)(4-methylphenyl)methanone" EXACT []
-xref: CHEBI:63630
-xref: CID:4659569
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulederkind
-creation_date: 2024-01-15T16:12:42Z
-
-[Term]
-id: XCO:0001243
-name: wind
-def: "This is any condition in which the major influencing factor is wind, the movement of air of any velocity, especially an experimentally controlled velocity. The air may be ambient or otherwise controlled." [https://www.merriam-webster.com/]
-xref: PMID:35799788
-relationship: has_component XCO:0000918 ! ambient air
-relationship: part_of XCO:0001244 ! ambient environment
-created_by: slaulederkind
-creation_date: 2024-01-16T13:30:43Z
-
-[Term]
-id: XCO:0001244
-name: ambient environment
-def: "This is any condition in which the major influencing factor is the ambient environment, an encompassing atmosphere which includes temperature, light, sound, and air content as parameters." [https://www.merriam-webster.com/]
-synonym: "atmosphere" EXACT []
-is_a: XCO:0000000 ! experimental condition
-created_by: slaulederkind
-creation_date: 2024-01-16T13:50:10Z
-
-[Term]
-id: XCO:0001245
-name: antiemetic
-def: "This is any condition in which the main influencing factor is an antiemetic, a drug used to prevent nausea or vomiting. An antiemetic may affect the medullary control centers (the vomiting center and the chemoreceptive trigger zone) or peripheral receptors." [CHEBI:50919]
-xref: D000932
-xref: https://www.merriam-webster.com/dictionary/antiemetic
-is_a: XCO:0000341 ! chemical with specified function
-is_a: XCO:0000850 ! therapeutic agent
-created_by: slaulederkind
-creation_date: 2024-01-16T14:27:16Z
-
-[Term]
-id: XCO:0001246
-name: trimethobenzamide
-def: "This is any condition in which the main influencing factor is trimethobenzamide, a drug used to prevent nausea and vomiting in humans." [CHEBI:27796]
-synonym: "N-{4-[2-(dimethylamino)ethoxy]benzyl}-3,4,5-trimethoxybenzamide" EXACT []
-xref: CID:5577
-xref: MESH:C100146
-is_a: XCO:0001245 ! antiemetic
-created_by: slaulederkind
-creation_date: 2024-01-16T14:35:01Z
-
-[Term]
-id: XCO:0001247
-name: sterile water
-def: "This is any condition in which the main influencing factor is sterile water, which is high quality water used for medical irrigation, injection, or inhalation and has been prepared to eliminate microbial contamination. Sterile water may be used as a pharmaceutical solvent." [https://www.merriam-webster.com/, https://www.rxlist.com/sterile-water-drug.htm]
-synonym: "sterile H2O" EXACT []
-is_a: XCO:0000021 ! water
-created_by: slaulederkind
-creation_date: 2024-01-16T14:59:01Z
-
-[Term]
-id: XCO:0001248
-name: poloxamers
-def: "This is any condition in which the main influencing factor is poloxamers, nonionic triblock copolymers composed of a central hydrophobic chain of polyoxypropylene (poly(propylene oxide)) flanked by two hydrophilic chains of polyoxyethylene (poly(ethylene oxide)). The length of the copolymer chains can be varied to alter the properties of the whole molecule." [https://en.wikipedia.org/wiki/Poloxamer]
-synonym: "Kolliphors" EXACT []
-synonym: "Pluronics" EXACT []
-synonym: "Synperonics" EXACT []
-xref: MESH:D020442
-xref: PMID:32119089
-is_a: XCO:0000757 ! surfactant
-is_a: XCO:0001232 ! emulsifier
-created_by: slaulederkind
-creation_date: 2024-01-16T15:27:53Z
-
-[Term]
-id: XCO:0001249
-name: Poloxamer 407
-def: "This is any condition in which the main influencing factor is Poloxamer 407 (P407), a nonionic triblock copolymer with a polyoxypropylene molecular mass of 4000 g/mol and a 70% polyoxyethylene content. P407 is used as an emulsifying agent and solubilizing agent in cosmetic and personal products." [CID:24751, https://en.wikipedia.org/wiki/Poloxamer]
-synonym: "P407" EXACT []
-is_a: XCO:0001248 ! poloxamers
-created_by: slaulederkind
-creation_date: 2024-01-16T16:33:41Z
-
-[Term]
-id: XCO:0001250
-name: Poria cocos
-def: "This is any condition in which the main influencing factor is Poria cocos, a fungus used extensively as a medicinal mushroom in traditional Chinese medicine." [https://en.wikipedia.org/wiki/Wolfiporia_extensa]
-synonym: "China root" EXACT []
-synonym: "fu ling" EXACT []
-synonym: "hoelen" EXACT []
-synonym: "Macrohyporia cocos" EXACT []
-synonym: "Macrohyporia extensa" EXACT []
-synonym: "matsuhodo" EXACT []
-synonym: "PC" EXACT []
-synonym: "poria" EXACT []
-synonym: "tuckahoe" EXACT []
-synonym: "Wolfiporia cocos" EXACT []
-synonym: "Wolfiporia extensa" EXACT []
-is_a: XCO:0000850 ! therapeutic agent
-relationship: has_component XCO:0000173 ! polysaccharide
-created_by: slaulederkind
-creation_date: 2024-01-18T13:48:59Z
-
-[Term]
-id: XCO:0001251
-name: Alismatis rhizoma
-def: "This is any condition in which the main influencing factor is Alismatis rhizoma, the rhizomes of A. orientale (Alisma orientale, a flowering plant species found in Asia) which have been used as a traditional Chinese medicine and as a kampo Japanese medicine. Terpenoids have been identified as characteristic constituents of Alisma orientale." [https://en.wikipedia.org/wiki/Alisma_orientale]
-synonym: "Alisma orientale (Sam.) Juzep rhizomes" EXACT []
-synonym: "AR" EXACT []
-synonym: "Asian water plantain" EXACT []
-xref: CHEBI:26873
-xref: PMID:27080939
-is_a: XCO:0000850 ! therapeutic agent
-created_by: slaulederkind
-creation_date: 2024-01-18T14:09:22Z
-
-[Term]
-id: XCO:0001252
-name: PC-AR
-def: "This is any condition in which the main influencing factor is PC-AR, an extract derived from a 60%-40% mix (by weight) of Poria cocos and Alismatis rhizoma." [PMID:37840052]
-synonym: "aqueous extract of Poria cocos-Alismatis rhizoma" EXACT []
-synonym: "Poria cocos-Alismatis rhizoma" EXACT []
-relationship: has_component XCO:0001250 ! Poria cocos
-relationship: has_component XCO:0001251 ! Alismatis rhizoma
-created_by: slaulederkind
-creation_date: 2024-01-18T15:11:22Z
-
-[Term]
-id: XCO:0001253
-name: Huatan Jiangzhuo decoction
-def: "This is any condition in which the main influencing factor is Huatan Jiangzhuo decoction, a combination of six traditional Chinese medicines that is used for lipid metabolism-related disorders." [PMID:33641781]
-synonym: "HJD" EXACT []
-synonym: "HTJZD" EXACT []
-xref: PMID:33936248
-is_a: XCO:0000850 ! therapeutic agent
-created_by: slaulederkind
-creation_date: 2024-01-18T15:29:08Z
-
-[Term]
-id: XCO:0001254
-name: troglitazone
-def: "This is any condition in which the main influencing factor is troglitazone, a hypoglycemic agent that was taken off the market due to hepatotoxicity issues. Troglitazone is also an antioxidant, a vasodilator agent, an anticonvulsant, an anticoagulant, an antineoplastic agent, and a long-chain-fatty-acid--CoA ligase inhibitor." []
-synonym: "5-{4-[(6-hydroxy-2,5,7,8-tetramethyl-3,4-dihydro-2H-chromen-2-yl)methoxy]benzyl}-1,3-thiazolidine-2,4-dione" EXACT []
-xref: CHEBI:9753
-xref: MESH:D000077288
-xref: PMID:32119089
-is_a: XCO:0000140 ! vasodilator
-is_a: XCO:0000271 ! antioxidant
-is_a: XCO:0000407 ! hypoglycemic agent
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000523 ! enzyme inhibitor
-is_a: XCO:0000950 ! anticonvulsant
-is_a: XCO:0001090 ! anticoagulant
-created_by: slaulederkind
-creation_date: 2024-01-19T10:41:51Z
-
-[Term]
-id: XCO:0001255
-name: indomethacin
-def: "This is any condition in which the main influencing factor is indomethacin, a non-steroidal anti-inflammatory drug (NSAID) used to treat mild to moderate acute pain and relieve symptoms of arthritis (osteoarthritis and rheumatoid arthritis) or gout. Indomethacin also inhibits the motility of polymorphonuclear leukocytes." [https://www.mayoclinic.org/drugs-supplements/indomethacin-oral-route/description/drg-20069700, MESH:D007213]
-synonym: "[1-(4-chlorobenzoyl)-5-methoxy-2-methyl-1H-indol-3-yl]acetic acid" EXACT []
-synonym: "indometacin" EXACT []
-xref: CHEBI:49662
-xref: CID:3715
-is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulederkind
-creation_date: 2024-01-19T10:58:34Z
-
-[Term]
-id: XCO:0001256
-name: total parenteral nutrition
-def: "This is any condition in which the main influencing factor is total parenteral nutrition (TPN), a method of feeding that bypasses the gastrointestinal tract by using an intravenous route. Total parenteral nutrition exists when no significant nutrition is obtained by other routes." [https://en.wikipedia.org/wiki/Parenteral_nutrition, https://medlineplus.gov/ency/patientinstructions/000177.htm]
-synonym: "central venous nutrition" NARROW []
-synonym: "CVN" NARROW []
-synonym: "peripheral parenteral nutrition" NARROW []
-synonym: "TNA" EXACT []
-synonym: "total nutrient admixture" EXACT []
-synonym: "TPN" EXACT []
-xref: PMID:32644462
-is_a: XCO:0000013 ! diet
-created_by: slaulederkind
-creation_date: 2024-01-19T11:31:20Z
-
-[Term]
-id: XCO:0001257
-name: trovafloxacin
-def: "This is any condition in which the main influencing factor is trovafloxacin, a broad spectrum antibiotic more effective against Gram-positive bacteria than Gram-negative bacteria. Trovafloxacin exerts its antibacterial activity by inhibiting the uncoiling of supercoiled DNA by blocking the activity of DNA gyrase and topoisomerase IV." [CID:62959]
-synonym: "7-[(1R,5S,6s)-6-amino-3-azabicyclo[3.1.0]hex-3-yl]-1-(2,4-difluorophenyl)-6-fluoro-4-oxo-1,4-dihydro-1,8-naphthyridine-3-carboxylic acid" EXACT []
-synonym: "TVFX" EXACT []
-xref: CHEBI:9763
-xref: MESH:C080163
-is_a: XCO:0000483 ! antibacterial agent
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulederkind
-creation_date: 2024-01-19T13:03:35Z
 
 [Typedef]
 id: has_component
