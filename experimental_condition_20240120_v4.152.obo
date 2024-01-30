@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.153
-date: 27:01:2024 20:13
+data-version: 4.152
+date: 20:01:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -44,7 +44,7 @@ is_a: XCO:0000008 ! running
 [Term]
 id: XCO:0000006
 name: swimming
-def: "This is any condition in which the main influencing factor is swimming, the action of a subject moving it's appendages to propel itself through water." [Encarta:Encarta_World_English_Dictionary]
+def: "A condition in which the main influencing factor is the action of moving one's appendages to propel oneself through water." [Encarta:Encarta_World_English_Dictionary]
 is_a: XCO:0000059 ! physical activity
 
 [Term]
@@ -6069,14 +6069,9 @@ creation_date: 2019-11-05T10:21:40Z
 [Term]
 id: XCO:0000645
 name: propofol
-def: "This is any condition in which the main influencing factor is propofol, an intravenous anesthetic agent which has a very rapid onset after infusion or bolus injection plus a very short recovery period of a couple of minutes. Propofol has also been used as an anticonvulsant and antiemetic." [MESH:D015742]
-synonym: "2,6-bis(propan-2-yl)phenol" EXACT []
-synonym: "2,6-DIISOPROPYLPHENOL" EXACT []
+def: "A phenol resulting from the formal substitution of the hydrogen at the 2 position of 1,3-diisopropylbenzene by a hydroxy group." []
 xref: CHEBI:44915
-xref: CID:4943
 is_a: XCO:0000106 ! anesthetic/analgesic
-is_a: XCO:0000950 ! anticonvulsant
-is_a: XCO:0001245 ! antiemetic
 created_by: sjwang
 creation_date: 2019-11-27T12:37:25Z
 
@@ -13069,204 +13064,6 @@ is_a: XCO:0000483 ! antibacterial agent
 is_a: XCO:0000523 ! enzyme inhibitor
 created_by: slaulederkind
 creation_date: 2024-01-19T13:03:35Z
-
-[Term]
-id: XCO:0001258
-name: valproate
-def: "This is any condition in which the main influencing factor is valproate, a branched-chain saturated fatty acid anion that is the conjugate base of valproic acid. Valproic acid is used in the treatment of epilepsy and bipolar disorder." [CID:3549980]
-synonym: "2-propylpentanoate" EXACT []
-synonym: "VPA" EXACT []
-xref: CHEBI:60654
-is_a: XCO:0000950 ! anticonvulsant
-relationship: part_of XCO:0000776 ! fatty acid
-created_by: slaulederkind
-creation_date: 2024-01-22T09:34:42Z
-
-[Term]
-id: XCO:0001259
-name: valsartan
-def: "This is any condition in which the main influencing factor is valsartan, a monocarboxylic acid amide and angiotensin II type 1 receptor blocker that is used to treat hypertension. Valsartan is also used in the management of heart failure and type 2 diabetes-associated nephropathy." [CID:60846, MESH:D000068756]
-synonym: "N-pentanoyl-N-{[2'-(1H-tetrazol-5-yl)[1,1'-biphenyl]-4-yl]methyl}-L-valine" EXACT []
-xref: CHEBI:9927
-is_a: XCO:0000536 ! angiotensin II receptor antagonist
-created_by: slaulederkind
-creation_date: 2024-01-22T09:54:58Z
-
-[Term]
-id: XCO:0001260
-name: sterile water, pH-adjusted
-def: "This is any condition in which the main influencing factor is pH-adjusted sterile water, an acidity- or alkalinity-adjusted sterile water that is equilibrated to a specific pH." [https://www.merriam-webster.com, https://www.rxlist.com/sterile-water-drug.htm]
-synonym: "sterile H2O, pH-adjusted" EXACT []
-is_a: XCO:0001247 ! sterile water
-created_by: slaulederkind
-creation_date: 2024-01-22T11:22:07Z
-
-[Term]
-id: XCO:0001261
-name: Ma Xing Shi Gan decoction
-def: "This is any condition in which the main influencing factor is Ma Xing Shi Gan decoction, an anti-inflammatory and antiviral drug of traditional Chinese medicine (TCM). Ma Xing Shi Gan decoction has shown some effectiveness in the treatment of COVID-19 infection." [PMID:33324213]
-synonym: "Maxing Shigan Decoction" EXACT []
-synonym: "Maxingshigan Decoction" EXACT []
-synonym: "MXSG" EXACT []
-synonym: "MXSG Decoction" EXACT []
-xref: PMID:32360484
-is_a: XCO:0000505 ! anti-inflammatory agent
-is_a: XCO:0000657 ! antiviral agent
-is_a: XCO:0000850 ! therapeutic agent
-created_by: slaulederkind
-creation_date: 2024-01-22T13:02:45Z
-
-[Term]
-id: XCO:0001262
-name: ximelagatran
-def: "This is any condition in which the main influencing factor is ximelagatran, which is an anticoagulant, a serine protease inhibitor and a prodrug for melagatran." [CID:9574101]
-synonym: "ethyl N-{(1R)-1-cyclohexyl-2-[(2S)-2-{[4-(N'-hydroxycarbamimidoyl)benzyl]carbamoyl}azetidin-1-yl]-2-oxoethyl}glycinate" EXACT []
-xref: CHEBI:65172
-xref: MESH:C426686
-is_a: XCO:0000523 ! enzyme inhibitor
-is_a: XCO:0001090 ! anticoagulant
-created_by: slaulederkind
-creation_date: 2024-01-23T11:32:13Z
-
-[Term]
-id: XCO:0001263
-name: zafirlukast
-def: "This is any condition in which the main influencing factor is zafirlukast, a leukotriene receptor antagonist (LTRA) and cytochrome P450 2C9 (CYP2C9) inhibitor." [CID:5717]
-synonym: "cyclopentyl 3-[2-methoxy-4-(2-methylphenylsulfonylcarbamoyl)benzyl]-1-methyl-1H-indol-5-ylcarbamate" EXACT []
-xref: CHEBI:10100
-xref: MESH:C062735
-is_a: XCO:0000160 ! receptor antagonist
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulederkind
-creation_date: 2024-01-23T13:19:13Z
-
-[Term]
-id: XCO:0001264
-name: phloretin
-def: "This is any condition in which the main influencing factor is phloretin, an antineoplastic agent and natural dihydrochalcone found in many fruits." [CID:4788]
-synonym: "3-(4-hydroxyphenyl)-1-(2,4,6-trihydroxyphenyl)propan-1-one" EXACT []
-synonym: "PHL" EXACT []
-xref: CHEBI:17276
-xref: MESH:D010693
-xref: PMID:36793870
-is_a: XCO:0000271 ! antioxidant
-is_a: XCO:0000435 ! antineoplastic agent
-created_by: slaulederkind
-creation_date: 2024-01-23T13:32:00Z
-
-[Term]
-id: XCO:0001265
-name: stress
-def: "This is any condition in which the main influencing factor is stress, which is a physical, chemical, or emotional factor that causes bodily or mental tension and may be a factor in disease causation." [https://www.merriam-webster.com]
-synonym: "pressure" EXACT []
-synonym: "strain" EXACT []
-synonym: "tension" EXACT []
-is_a: XCO:0000000 ! experimental condition
-created_by: slaulederkind
-creation_date: 2024-01-23T14:18:33Z
-
-[Term]
-id: XCO:0001266
-name: cage tilt
-def: "This is any condition in which the main influencing factor is cage tilt, a procedure designed to cause mild stress in laboratory animals. Typically, the cage is tilted at 30 - 45 degrees for a few hours at a time to overnight." [https://www.merriam-webster.com, PMID:26650668]
-synonym: "cage tilt stress" EXACT []
-xref: PMID:34568850
-is_a: XCO:0001265 ! stress
-created_by: slaulederkind
-creation_date: 2024-01-23T14:47:18Z
-
-[Term]
-id: XCO:0001267
-name: reversed light/dark cycle
-def: "This is any condition in which the main influencing factor is a reversed light/dark cycle, a light/dark cycle that is opposite of the normal day/night conditions the subject or patient experiences." [https://www.merriam-webster.com]
-synonym: "reverse day/night lighting" EXACT []
-synonym: "reversed day/night lighting" EXACT []
-synonym: "reversed light/dark cycle" EXACT []
-xref: PMID:36793870
-is_a: XCO:0000459 ! controlled light/dark cycle
-created_by: slaulederkind
-creation_date: 2024-01-23T15:27:16Z
-
-[Term]
-id: XCO:0001268
-name: tail clip
-def: "This is any condition in which the main influencing factor is a tail clip procedure, a procedure done in the process of collecting blood from a laboratory animal. The subject is usually lightly restrained by the handler or by a mechancal device, while a few millimeters is cut off the end of the tail." [PMID:18459706]
-synonym: "tail-clip" EXACT []
-synonym: "tail snip" EXACT []
-xref: PMID:36793870
-is_a: XCO:0001265 ! stress
-created_by: slaulederkind
-creation_date: 2024-01-23T16:02:29Z
-
-[Term]
-id: XCO:0001269
-name: forced swimming
-def: "This is any condition in which the main influencing factor is forced swimming, a situation in which the subject (typically a laboratory rodent) inside a water-filled cylinder must swim to survive." [https://www.merriam-webster.com]
-synonym: "behavioural despair test" EXACT []
-synonym: "forced swimming test" EXACT []
-synonym: "forced swim test" EXACT []
-synonym: "FST" EXACT []
-synonym: "Porsolt forced swimming test" EXACT []
-xref: PMID:26650668
-xref: PMID:36793870
-is_a: XCO:0000006 ! swimming
-created_by: slaulederkind
-creation_date: 2024-01-23T16:19:18Z
-
-[Term]
-id: XCO:0001270
-name: forced cold water swimming
-def: "This is any condition in which the main influencing factor is forced swimming in cold water, a situation in which the subject (typically a laboratory rodent), inside a water-filled cylinder, must swim to survive." [https://en.wikipedia.org/wiki/Behavioural_despair_test, PMID:36793870]
-synonym: "cold water FST" EXACT []
-synonym: "forced cold water swim" EXACT []
-synonym: "forced cold water swimming test" EXACT []
-synonym: "forced cold water swim test" EXACT []
-is_a: XCO:0001269 ! forced swimming
-created_by: slaulederkind
-creation_date: 2024-01-23T16:31:48Z
-
-[Term]
-id: XCO:0001271
-name: zimelidine
-def: "This is any condition in which the main influencing factor is zimelidine, an SRI (serotonin uptake inhibitor) antidepressant whose use was discontinued because of the risk of Guillain-Barre syndrome as a side effect." [CID:5365247]
-synonym: "2-Propen-1-amine, 3-(4-bromophenyl)-N,N-dimethyl-3-(3-pyridinyl)-, (Z)-" EXACT []
-xref: CAS:56775-88-3
-xref: CHEBI:135357
-xref: MESH:D015031
-is_a: XCO:0000561 ! antidepressant
-created_by: slaulederkind
-creation_date: 2024-01-25T09:24:24Z
-
-[Term]
-id: XCO:0001272
-name: zolpidem
-def: "This is any condition in which the main influencing factor is zolpidem, an imidazopyridine derivative and short-acting GABA-A receptor agonist that is used for the treatment of insomnia." [MESH:D000077334]
-synonym: "N,N-dimethyl-2-[6-methyl-2-(4-methylphenyl)imidazo[1,2-a]pyridin-3-yl]acetamide" EXACT []
-xref: CHEBI:10125
-xref: CID:5732
-is_a: XCO:0000135 ! receptor agonist
-created_by: slaulederkind
-creation_date: 2024-01-25T09:47:44Z
-
-[Term]
-id: XCO:0001273
-name: high-protein/ammoniagenic diet
-def: "This is any condition in which the main influencing factor is a high-protein/ammoniagenic diet, which is a standard diet supplemented with additional amino acids including leucine (~13% of amino acids), valine (~11% of amino acids), and the absence of isoleucine." [PMID:10459831, PMID:36539425]
-is_a: XCO:0000030 ! controlled protein content diet
-created_by: slaulederkind
-creation_date: 2024-01-25T12:58:34Z
-
-[Term]
-id: XCO:0001274
-name: telmisartan
-def: "This is any condition in which the main influencing factor is telmisartan, a biphenyl compound and benzimidazole derivative that acts as an angiotensin II type 1 receptor antagonist used in the management of hypertension." [MESH:D000077333]
-synonym: "4'-[(1,7'-dimethyl-2'-propyl-1H,3'H-2,5'-bibenzimidazol-3'-yl)methyl][1,1'-biphenyl]-2-carboxylic acid" EXACT []
-xref: CHEBI:9434
-xref: CID:65999
-is_a: XCO:0000523 ! enzyme inhibitor
-is_a: XCO:0000536 ! angiotensin II receptor antagonist
-created_by: slaulederkind
-creation_date: 2024-01-25T13:22:29Z
 
 [Typedef]
 id: has_component
