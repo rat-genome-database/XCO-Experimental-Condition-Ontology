@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.154
-date: 03:02:2024 20:13
+data-version: 4.153
+date: 27:01:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -2632,7 +2632,6 @@ name: fluid deprivation
 def: "Condition in which liquids for drinking (bringing a liquid into the mouth and swallowing it to quench thirst, for nourishment, etc.), such as water, are withheld for a specified period of time." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, http://www.yourdictionary.com/drink "YourDictionary"]
 synonym: "water deprivation" NARROW []
 is_a: XCO:0000013 ! diet
-relationship: part_of XCO:0001275 ! unpredictable chronic mild stress
 created_by: JSmith
 creation_date: 2013-06-11T09:50:38Z
 
@@ -6918,7 +6917,6 @@ name: solid food deprivation
 def: "This is any condition in which the main influencing factor is solid food deprivation, a condition in which solid food is withheld for a specified period of time, while nourishment through liquids is provided." [https://www.merriam-webster.com/, PMID:23955305]
 xref: PMID:23955305
 is_a: XCO:0000461 ! restricted feeding
-relationship: part_of XCO:0001275 ! unpredictable chronic mild stress
 created_by: slaulede
 creation_date: 2020-06-12T17:33:11Z
 
@@ -13173,7 +13171,7 @@ name: cage tilt
 def: "This is any condition in which the main influencing factor is cage tilt, a procedure designed to cause mild stress in laboratory animals. Typically, the cage is tilted at 30 - 45 degrees for a few hours at a time to overnight." [https://www.merriam-webster.com, PMID:26650668]
 synonym: "cage tilt stress" EXACT []
 xref: PMID:34568850
-relationship: part_of XCO:0001275 ! unpredictable chronic mild stress
+is_a: XCO:0001265 ! stress
 created_by: slaulederkind
 creation_date: 2024-01-23T14:47:18Z
 
@@ -13196,7 +13194,7 @@ def: "This is any condition in which the main influencing factor is a tail clip 
 synonym: "tail-clip" EXACT []
 synonym: "tail snip" EXACT []
 xref: PMID:36793870
-relationship: part_of XCO:0001275 ! unpredictable chronic mild stress
+is_a: XCO:0001265 ! stress
 created_by: slaulederkind
 creation_date: 2024-01-23T16:02:29Z
 
@@ -13212,7 +13210,6 @@ synonym: "Porsolt forced swimming test" EXACT []
 xref: PMID:26650668
 xref: PMID:36793870
 is_a: XCO:0000006 ! swimming
-relationship: part_of XCO:0001275 ! unpredictable chronic mild stress
 created_by: slaulederkind
 creation_date: 2024-01-23T16:19:18Z
 
@@ -13270,74 +13267,6 @@ is_a: XCO:0000523 ! enzyme inhibitor
 is_a: XCO:0000536 ! angiotensin II receptor antagonist
 created_by: slaulederkind
 creation_date: 2024-01-25T13:22:29Z
-
-[Term]
-id: XCO:0001275
-name: unpredictable chronic mild stress
-def: "This is any condition in which the main influencing factor is unpredictable chronic mild stress, an experimental model of depression that involves exposing laboratory animals (usually mice or rats) at unpredictable times over several weeks to a series of minor-intensity stressors. This process results in the development of a number of behavioral alterations in a large majority of animals, including anhedonia (loss of pleasure) and apathy." [PMID:34406704, PMID:7202217]
-synonym: "chronic unpredictable mild stress" EXACT []
-synonym: "chronic unpredictable stress" EXACT []
-synonym: "CMS" EXACT []
-synonym: "CUMS" EXACT []
-synonym: "UCMS" EXACT []
-is_a: XCO:0001265 ! stress
-created_by: slaulederkind
-creation_date: 2024-01-29T12:15:10Z
-
-[Term]
-id: XCO:0001276
-name: bromobenzene
-def: "This is any condition in which the main influencing factor is bromobenzene, the simplest member of the class of bromobenzenes, that is benzene in which a single hydrogen has been substituted by a bromine. Bromobenzene is used as a solvent, particularly for large-scale crystallizations, and for the introduction of phenyl groups in organic synthesis." [CHEBI:3179]
-synonym: "Benzene, bromo" EXACT []
-synonym: "Monobromobenzene" EXACT []
-synonym: "PhBr" EXACT []
-synonym: "Phenyl bromide" EXACT []
-xref: CID:7961
-xref: MESH:C032036
-is_a: XCO:0001231 ! solvent
-created_by: slaulederkind
-creation_date: 2024-01-30T12:12:23Z
-
-[Term]
-id: XCO:0001277
-name: nicotinamide
-def: "This is any condition in which the main influencing factor is nicotinamide, a pyridine derivative that is a component of the coenzyme NAD, a form of vitamin B3, an antioxidant, a histone deacetylase inhibitor, and an anti-inflammatory agent." [CID:936]
-synonym: "3-pyridinecarboxamide" EXACT []
-synonym: "NAM" EXACT []
-synonym: "niacinamide" EXACT []
-synonym: "vitamin B3" BROAD []
-xref: CHEBI:17154
-xref: MESH:D009536
-is_a: XCO:0000271 ! antioxidant
-is_a: XCO:0000505 ! anti-inflammatory agent
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulederkind
-creation_date: 2024-01-30T12:34:51Z
-
-[Term]
-id: XCO:0001278
-name: controlled nicotinamide content drinking water
-def: "This is any condition in which the main influencing factor is a drink made up of water and a specified amount of nicotinamide, in which the amount of nicotinamide consumed is maintained at a specified level." [https://www.merriam-webster.com/]
-synonym: "controlled NAM content drinking water" EXACT []
-synonym: "controlled niacinamide content drinking water" EXACT []
-xref: CHEBI:17154
-xref: CID:936
-xref: MESH:D009536
-is_a: XCO:0000163 ! controlled content drinking water
-is_a: XCO:0001277 ! nicotinamide
-created_by: slaulederkind
-creation_date: 2024-01-30T12:51:51Z
-
-[Term]
-id: XCO:0001279
-name: partial bladder outlet obstruction
-def: "This is any condition in which the main influencing factor is partial bladder outlet obstruction, an experimental constriction of the neck of the urinary bladder to restrict urine flow and model changes that occur in clinical bladder outlet obstruction (BOO). Partial bladder outlet obstruction may be achieved surgically by passing a catheter through the urethra into the bladder, suturing around the neck of the bladder, and removing the catheter." [PMID:20590549]
-synonym: "pBOO" EXACT []
-xref: GSE167430
-xref: https://my.clevelandclinic.org/health/diseases/15181-bladder-outlet-obstruction
-is_a: XCO:0000165 ! surgical manipulation
-created_by: slaulederkind
-creation_date: 2024-02-01T10:29:45Z
 
 [Typedef]
 id: has_component
