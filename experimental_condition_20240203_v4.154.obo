@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.155
-date: 10:02:2024 20:13
+data-version: 4.154
+date: 03:02:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -50,13 +50,13 @@ is_a: XCO:0000059 ! physical activity
 [Term]
 id: XCO:0000007
 name: walking
-def: "This is any condition in which the main influencing factor is walking, the act of ambulation, moving oneself forward on legs or on an exercise apparatus." [Encarta:Encarta_World_English_Dictionary]
+def: "The act of ambulation, moving oneself forward on legs or on an exercise apparatus." [Encarta:Encarta_World_English_Dictionary]
 is_a: XCO:0000059 ! physical activity
 
 [Term]
 id: XCO:0000008
 name: running
-def: "This is any condition in which the main influencing factor is running, the action of rapid movement of feet that propels the organism forward or is done on an exercise machine so that the organism performs the activity in place." [Encarta:Encarta_World_English_Dictionary]
+def: "Condition in which the major influencing factor is the action of rapid movement of feet that propels the organism forward or is done on an exercise machine so that the organism performs the activity in place." [Encarta:Encarta_World_English_Dictionary]
 is_a: XCO:0000059 ! physical activity
 
 [Term]
@@ -1278,7 +1278,6 @@ id: XCO:0000157
 name: physical restraint
 def: "The use of manual or mechanical means to limit some or all of an animal's normal movement for the purpose of examination, collection of samples, drug administration, therapy, or experimental manipulation." [http://grants.nih.gov/grants/olaw/Guide-for-the-care-and-use-of-Laboratory-animals.pdf "NIH"]
 is_a: XCO:0001100 ! physical manipulation
-relationship: part_of XCO:0001275 ! unpredictable chronic mild stress
 created_by: JSmith
 creation_date: 2012-06-07T12:30:41Z
 
@@ -2185,8 +2184,8 @@ creation_date: 2012-11-30T15:56:41Z
 [Term]
 id: XCO:0000253
 name: sodium ion
-def: "This is any condition in which the main influencing factor is an ion of sodium, the chemical element with atomic number 11, that has lost one electron, forming a cation with a charge of +1." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-comment: Not used for sodium salt in animal feed. For that application XCO:0000022, "controlled sodium content diet" is used.
+def: "A condition in which the main influencing factor is an atom of sodium, the chemical element with atomic number 11, that has lost one electron, forming a cation with a charge of +1." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+comment: Not used for sodium salt in animal feed. For that application  XCO:0000022, "controlled sodium content diet" is used.
 synonym: "Na+ ion" EXACT []
 xref: CHEBI:29101
 is_a: XCO:0000149 ! ion/salt
@@ -7100,7 +7099,7 @@ creation_date: 2020-09-14T18:06:38Z
 [Term]
 id: XCO:0000739
 name: housing in trios
-def: "This is any condition in which the main influencing factor is housing in trios, a sutuation where subjects are housed in groups of three during a specified time period(s)." [https://www.merriam-webster.com/, PMID:16197708]
+def: "Subjects maintained in groups of three during specified time period." [https://www.merriam-webster.com/, PMID:16197708]
 is_a: XCO:0000033 ! housing condition
 created_by: slaulede
 creation_date: 2020-09-15T14:52:57Z
@@ -7108,7 +7107,7 @@ creation_date: 2020-09-15T14:52:57Z
 [Term]
 id: XCO:0000740
 name: housing with pathogen-infected subject
-def: "This is any condition in which the main influencing factor is housing with pathogen-infected subject(s), a situation in which at least one subject in the housing had a pathogenic infection during the time period leading up to the specified housing period." [https://www.merriam-webster.com/, PMID:16197708]
+def: "A condition in which subjects are maintained in housing groups in which at least one subject had a pathogenic infection during the time period leading up to the specified housing period." [https://www.merriam-webster.com/, PMID:16197708]
 is_a: XCO:0000033 ! housing condition
 created_by: slaulede
 creation_date: 2020-09-15T15:27:06Z
@@ -8990,13 +8989,13 @@ creation_date: 2021-10-25T15:20:22Z
 [Term]
 id: XCO:0000911
 name: sodium bicarbonate
-def: "This is any condition in which the main influencing factor is sodium bicarbonate, a white, crystalline powder that is commonly used as a pH buffering agent, an electrolyte replenisher, systemic alkalizer and in topical cleansing solutions." [MESH:D017693]
+def: "A condition in which the main influencing factor is sodium bicarbonate, a white, crystalline powder that is commonly used as a pH buffering agent, an electrolyte replenisher, systemic alkalizer and in topical cleansing solutions." [MESH:D017693]
 synonym: "baking soda" EXACT []
 synonym: "bicarbonate of soda" EXACT []
 synonym: "sodium hydrogen carbonate" EXACT []
 synonym: "sodium hydrogencarbonate" EXACT []
 xref: PMID:29168078
-relationship: has_component XCO:0000253 ! sodium ion
+is_a: XCO:0000253 ! sodium ion
 created_by: slaulede
 creation_date: 2021-10-25T17:24:20Z
 
@@ -11502,13 +11501,12 @@ creation_date: 2023-11-17T18:00:43Z
 [Term]
 id: XCO:0001129
 name: carboxymethylcellulose
-def: "This is any condition in which the main influencing factor is carboxymethylcellulose, a polysaccharide derivative that is cellulose in which carboxymethyl groups are bound to some of the hydroxyl groups of the glucopyranose monomers." [CHEBI:85146, https://en.wikipedia.org/wiki/Carboxymethyl_cellulose]
+def: "This is any condition in which the main influencing factor is carboxymethylcellulose , a polysaccharide derivative that is cellulose in which carboxymethyl groups are bound to some of the hydroxyl groups of the glucopyranose monomers." [CHEBI:85146, https://en.wikipedia.org/wiki/Carboxymethyl_cellulose]
 synonym: "carboxymethyl cellulose" EXACT []
 synonym: "cellulose gum" EXACT []
 synonym: "CMC" EXACT []
 xref: PMID:32119089
 is_a: XCO:0001128 ! polysaccharide derivative
-is_a: XCO:0001232 ! emulsifier
 created_by: slaulederkind
 creation_date: 2023-11-17T18:06:34Z
 
@@ -13183,14 +13181,11 @@ creation_date: 2024-01-23T14:47:18Z
 id: XCO:0001267
 name: reversed light/dark cycle
 def: "This is any condition in which the main influencing factor is a reversed light/dark cycle, a light/dark cycle that is opposite of the normal day/night conditions the subject or patient experiences." [https://www.merriam-webster.com]
-synonym: "continuous lighting" NARROW []
-synonym: "partially reversed day/night lighting" NARROW []
 synonym: "reverse day/night lighting" EXACT []
 synonym: "reversed day/night lighting" EXACT []
 synonym: "reversed light/dark cycle" EXACT []
 xref: PMID:36793870
 is_a: XCO:0000459 ! controlled light/dark cycle
-relationship: part_of XCO:0001275 ! unpredictable chronic mild stress
 created_by: slaulederkind
 creation_date: 2024-01-23T15:27:16Z
 
@@ -13343,65 +13338,6 @@ xref: https://my.clevelandclinic.org/health/diseases/15181-bladder-outlet-obstru
 is_a: XCO:0000165 ! surgical manipulation
 created_by: slaulederkind
 creation_date: 2024-02-01T10:29:45Z
-
-[Term]
-id: XCO:0001280
-name: open field task
-def: "This is any condition in which the main influencing factor is the open field task, which is designed to measure the movement and other behavior exhibited by a subject responding to an experimentally defined, open space. The open field test is used to assess activity and behavior in laboratory animals, usually rodents." [https://en.wikipedia.org/wiki/Open_field_(animal_test), https://med.stanford.edu/sbfnl/services/bm/sm/openfield.html]
-synonym: "open field maze" EXACT []
-synonym: "open field test" EXACT []
-xref: PMID:25742564
-xref: PMID:36793870
-is_a: XCO:0000059 ! physical activity
-created_by: slaulederkind
-creation_date: 2024-02-05T12:42:37Z
-
-[Term]
-id: XCO:0001281
-name: sodium octanoate
-def: "This is any condition in which the main influencing factor is sodium octanoate, an organic sodium salt comprising equal numbers of sodium and octanoate ions." [CHEBI:132100]
-synonym: "octanoic acid, sodium salt" EXACT []
-synonym: "sodium caprylate" EXACT []
-synonym: "sodium n-octanoate" EXACT []
-xref: CID:23664772
-xref: PMID:34939931
-relationship: has_component XCO:0000253 ! sodium ion
-created_by: slaulederkind
-creation_date: 2024-02-05T16:24:49Z
-
-[Term]
-id: XCO:0001282
-name: sodium carboxymethylcellulose
-def: "This is any condition in which the main influencing factor is sodium carboxymethylcellulose, a cellulose derivative which is a beta-(1,4)-D-glucopyranose polymer. Sodium carboxymethylcellulose is a commonly used form of carboxymethylcellulose." [https://en.wikipedia.org/wiki/Carboxymethyl_cellulose#References, MESH:D002266]
-synonym: "carboxymethylcellulose sodium" EXACT []
-synonym: "carboxymethylcellulose sodium salt" EXACT []
-synonym: "carmellose sodium" EXACT []
-synonym: "CMC-Na" EXACT []
-xref: CHEBI:85146
-xref: CID:6328154
-is_a: XCO:0001129 ! carboxymethylcellulose
-created_by: slaulederkind
-creation_date: 2024-02-06T11:57:19Z
-
-[Term]
-id: XCO:0001283
-name: grouped housing
-def: "This is any condition in which the main influencing factor is grouped housing, a living situation involving four or more individual subjects housed in the same structure." [PMID:15033287, PMID:37044360]
-synonym: "group housing" EXACT []
-is_a: XCO:0000033 ! housing condition
-relationship: part_of XCO:0001275 ! unpredictable chronic mild stress
-created_by: slaulederkind
-creation_date: 2024-02-08T16:10:11Z
-
-[Term]
-id: XCO:0001284
-name: soiled cage
-def: "This is any condition in which the main influencing factor is a soiled cage, a housing condition designed to create stress in subjects living in such housing. The soiled cage is typically a cage in which excess water has been introduced to the bedding (for example: 200 ml water in 100 g of sawdust bedding)." [PMID:15033287, PMID:36793870]
-synonym: "wet cage" EXACT []
-is_a: XCO:0000033 ! housing condition
-relationship: part_of XCO:0001275 ! unpredictable chronic mild stress
-created_by: slaulederkind
-creation_date: 2024-02-08T16:47:00Z
 
 [Typedef]
 id: has_component
