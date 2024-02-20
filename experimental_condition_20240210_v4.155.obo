@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.156
-date: 17:02:2024 20:13
+data-version: 4.155
+date: 10:02:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -10508,7 +10508,7 @@ name: Walker 256 cells
 def: "This is any condition in which the main influencing factor is Walker 256, a rat mammary gland carcinoma cell line." [https://www.atcc.org/products/ccl-38, https://www.merriam-webster.com]
 synonym: "LLC-WRC 256 cells" EXACT []
 synonym: "W256 cells" EXACT []
-xref: Cellosaurus:CVCL_3537
+xref: Cellosaurus CVCL_3537
 xref: PMID:32209134
 is_a: XCO:0000709 ! cancer cells
 created_by: slaulede
@@ -10801,7 +10801,7 @@ id: XCO:0001070
 name: papain
 def: "This is any condition in which the main influencing factor is papain, a cysteine protease present in papaya (Carica papaya) and mountain papaya (Vasconcellea cundinamarcensis). In addition to experimental uses in biology research, it has wide ranging commercial applications in the leather, cosmetic, textiles, detergents, food and pharmaceutical industries." [https://en.wikipedia.org/wiki/Papain]
 synonym: "papaya proteinase 1" EXACT []
-xref: EC:3.4.22.2
+xref: EC 3.4.22.2
 xref: MESH:D010206
 is_a: XCO:0000176 ! enzyme
 created_by: slaulede
@@ -11933,7 +11933,7 @@ def: "This is any condition whose main influencing factor is labetalol, a salicy
 synonym: "2-hydroxy-5-{1-hydroxy-2-[(1-methyl-3-phenylpropyl)amino]ethyl}benzamide" EXACT []
 synonym: "3-Carboxamido-4-hydroxy-alpha-((1-methyl-3-phenylpropylamino)methyl)benzyl alcohol" EXACT []
 synonym: "kabetalol" EXACT []
-xref: CID:3869
+xref: CID 3869
 xref: PMID:32119089
 is_a: XCO:0000336 ! adrenergic antagonist
 created_by: slaulederkind
@@ -13402,16 +13402,6 @@ is_a: XCO:0000033 ! housing condition
 relationship: part_of XCO:0001275 ! unpredictable chronic mild stress
 created_by: slaulederkind
 creation_date: 2024-02-08T16:47:00Z
-
-[Term]
-id: XCO:0001285
-name: oxaliplatin
-def: "This is any condition in which the main influencing factor is oxaliplatin, an organoplatinum complex that is a commonly used as a chemothrepeutic drug for treatment of metastatic colorectal cancer." [XCO:0000088]
-synonym: "(SP-4-2)[(1R,2R)-cyclohexane-1,2-diamine-kappa(2)N,N'][ethanedioato(2-)-kappa(2)O(1),O(2)]platinum" EXACT []
-xref: GSE160543
-is_a: XCO:0000435 ! antineoplastic agent
-created_by: slaulederkind
-creation_date: 2024-02-16T15:16:38Z
 
 [Typedef]
 id: has_component
