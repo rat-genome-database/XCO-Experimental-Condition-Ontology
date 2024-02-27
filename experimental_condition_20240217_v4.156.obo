@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.157
-date: 24:02:2024 20:13
+data-version: 4.156
+date: 17:02:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -7837,7 +7837,7 @@ creation_date: 2021-02-22T13:09:46Z
 [Term]
 id: XCO:0000812
 name: controlled hemorrhage
-def: "This is any condition in which the main influencing factor is controlled hemorrhage, the drawing of blood (by venipuncture or artery puncture) for transfusion, apheresis, diagnostic testing, or experimental procedures." [https://www.merriam-webster.com/, ISBN-13:978-0702033896]
+def: "The drawing of blood (by venipuncture or artery puncture) for transfusion, apheresis, diagnostic testing, or experimental procedures." [https://www.merriam-webster.com/, ISBN-13:978-0702033896]
 synonym: "phlebotomy" NARROW []
 xref: PMID:17998886
 is_a: XCO:0000595 ! surgical manipulation of blood vessels
@@ -9071,7 +9071,7 @@ name: ambient air
 def: "This is any condition in which the major influencing factor is atmospheric air in its natural state. The composition of ambient air varies depending on the elevation above sea level, but is typically 78% nitrogen and 21% oxygen." [https://www.thermofisher.com]
 synonym: "atmospheric air" EXACT []
 synonym: "room air" EXACT []
-relationship: part_of XCO:0001244 ! ambient environment
+is_a: XCO:0000099 ! control condition
 created_by: slaulede
 creation_date: 2021-12-07T15:31:29Z
 
@@ -10508,7 +10508,7 @@ name: Walker 256 cells
 def: "This is any condition in which the main influencing factor is Walker 256, a rat mammary gland carcinoma cell line." [https://www.atcc.org/products/ccl-38, https://www.merriam-webster.com]
 synonym: "LLC-WRC 256 cells" EXACT []
 synonym: "W256 cells" EXACT []
-xref: Cellosaurus:CVCL_3537
+xref: Cellosaurus CVCL_3537
 xref: PMID:32209134
 is_a: XCO:0000709 ! cancer cells
 created_by: slaulede
@@ -10801,7 +10801,7 @@ id: XCO:0001070
 name: papain
 def: "This is any condition in which the main influencing factor is papain, a cysteine protease present in papaya (Carica papaya) and mountain papaya (Vasconcellea cundinamarcensis). In addition to experimental uses in biology research, it has wide ranging commercial applications in the leather, cosmetic, textiles, detergents, food and pharmaceutical industries." [https://en.wikipedia.org/wiki/Papain]
 synonym: "papaya proteinase 1" EXACT []
-xref: EC:3.4.22.2
+xref: EC 3.4.22.2
 xref: MESH:D010206
 is_a: XCO:0000176 ! enzyme
 created_by: slaulede
@@ -11933,7 +11933,7 @@ def: "This is any condition whose main influencing factor is labetalol, a salicy
 synonym: "2-hydroxy-5-{1-hydroxy-2-[(1-methyl-3-phenylpropyl)amino]ethyl}benzamide" EXACT []
 synonym: "3-Carboxamido-4-hydroxy-alpha-((1-methyl-3-phenylpropylamino)methyl)benzyl alcohol" EXACT []
 synonym: "kabetalol" EXACT []
-xref: CID:3869
+xref: CID 3869
 xref: PMID:32119089
 is_a: XCO:0000336 ! adrenergic antagonist
 created_by: slaulederkind
@@ -12893,6 +12893,7 @@ name: wind
 def: "This is any condition in which the major influencing factor is wind, the movement of air of any velocity, especially an experimentally controlled velocity. The air may be ambient or otherwise controlled." [https://www.merriam-webster.com/]
 xref: PMID:35799788
 relationship: has_component XCO:0000918 ! ambient air
+relationship: part_of XCO:0001244 ! ambient environment
 created_by: slaulederkind
 creation_date: 2024-01-16T13:30:43Z
 
@@ -13411,141 +13412,6 @@ xref: GSE160543
 is_a: XCO:0000435 ! antineoplastic agent
 created_by: slaulederkind
 creation_date: 2024-02-16T15:16:38Z
-
-[Term]
-id: XCO:0001286
-name: von Frey monofilament stimulus
-def: "This is any condition in which the main influencing factor is a Von Frey monofilament stimulus, usually encountered in a Von Frey assay, which is used to evaluate mechanical allodynia in laboratory rodents. The von Frey test, which may be manual or electronic, uses von Frey monofilaments (hair or fibers), which are small pieces of nylon rod, approximately 50 mm in length, and of varying diameters, to test a rodent's sensitivity to punctate mechanical pressure on the plantar surface of a rear paw. Von Frey filaments are able to deliver force in the range of 0.08 to 2940 mN." [https://en.wikipedia.org/wiki/Nociception_assay, PMID:28932184]
-synonym: "von Frey assay condition" EXACT []
-xref: PMID:34808752
-is_a: XCO:0000052 ! tactile stimulus
-created_by: slaulederkind
-creation_date: 2024-02-19T15:10:13Z
-
-[Term]
-id: XCO:0001287
-name: hot plate stimulus
-def: "This is any condition in which the main influencing factor is a hot plate stimulus, usually encountered by laboratory rodents in thermal hyperalgesia testing. The hot plate test is a useful screening tool for interventions of analgesia and involves placing the subject on its feet on a temperature-regulatable hot plate inside a cylindrical chamber." [https://en.wikipedia.org/wiki/Hot_plate_test, https://maze.conductscience.com/portfolio/hot-plate/]
-synonym: "PMID:34808752" EXACT []
-is_a: XCO:0000052 ! tactile stimulus
-created_by: slaulederkind
-creation_date: 2024-02-19T15:33:23Z
-
-[Term]
-id: XCO:0001288
-name: acetone drop stimulus
-def: "This is any condition in which the main influencing factor is an acetone drop stimulus, usually encountered in a test used to measure cold allodynia behavior in the experimental subject, typically a rodent. The test involves applying a small drop (50 - 100 ul) of acetone to the mid-plantar area of the hind paw and recording the resulting behavior for one minute. The skin temperature of the subject drops ~3 - 5 degrees during the test." [PMID:30228362]
-xref: PMID:34808752
-is_a: XCO:0000052 ! tactile stimulus
-created_by: slaulederkind
-creation_date: 2024-02-22T13:16:18Z
-
-[Term]
-id: XCO:0001289
-name: tenotomy
-def: "This is any condition in which the main influencing factor is tenotomy, any process involving transcutaneous or surgical techniques for incision of a tendon to investigate and/or treat a pathological condition. Tenotomy may involve needle puncture, incision, or complete transection of a tendon." [https://my.clevelandclinic.org/health/treatments/24123-tenotomy]
-synonym: "open tenotomy" NARROW []
-xref: PMID:35897746
-is_a: XCO:0000165 ! surgical manipulation
-created_by: slaulederkind
-creation_date: 2024-02-22T14:12:59Z
-
-[Term]
-id: XCO:0001290
-name: Achilles tendon transection
-def: "This is any condition in which the main influencing factor is Achilles tendon transection, a process involving a surgical technique for complete transection of the calcaneal and plantaris tendon to investigate tendon healing in an experimental animal model." [https://en.wikipedia.org/wiki/Achilles_tendon, PMID:35897746]
-synonym: "Achille's tenotomy" EXACT []
-synonym: "open Achilles tenotomy" EXACT []
-is_a: XCO:0001289 ! tenotomy
-created_by: slaulederkind
-creation_date: 2024-02-22T14:31:22Z
-
-[Term]
-id: XCO:0001291
-name: particulate matter
-def: "This is any condition in which the main influencing factor is particulate matter (particle pollution), a mixture of inhalable, solid particles and liquid droplets found in the air. The size of particulate matter ranges from visible to microscopic." [https://www.epa.gov/pm-pollution/particulate-matter-pm-basics#PM]
-synonym: "particle pollution" EXACT []
-synonym: "PM" EXACT []
-xref: PMID:35897746
-is_a: XCO:0000342 ! chemical with specified structure
-relationship: part_of XCO:0000918 ! ambient air
-created_by: slaulederkind
-creation_date: 2024-02-23T11:04:16Z
-
-[Term]
-id: XCO:0001292
-name: PM2.5
-def: "This is any condition in which the main influencing factor is PM2.5, which is particulate matter consisting of fine inhalable particles, with diameters that are generally 2.5 micrometers and smaller." []
-xref: PMID:35897746
-created_by: slaulederkind
-creation_date: 2024-02-23T11:11:58Z
-
-[Term]
-id: XCO:0001293
-name: PM2.5
-def: "This is any condition in which the main influencing factor is PM2.5, which is particulate matter consisting of fine inhalable particles, with diameters that are generally 2.5 micrometers and smaller." [https://www.epa.gov/pm-pollution/particulate-matter-pm-basics#PM]
-synonym: "2.5 um particulate matter" EXACT []
-xref: PMID:35897746
-is_a: XCO:0001291 ! particulate matter
-created_by: slaulederkind
-creation_date: 2024-02-23T11:17:32Z
-
-[Term]
-id: XCO:0001294
-name: PM10
-def: "This is any condition in which the main influencing factor is PM10, which is particulate matter consisting of inhalable particles, with diameters that are generally 10 micrometers and smaller." [https://www.epa.gov/pm-pollution/particulate-matter-pm-basics#PM]
-synonym: "10 um particulate matter" EXACT []
-xref: PMID:35897746
-is_a: XCO:0001291 ! particulate matter
-created_by: slaulederkind
-creation_date: 2024-02-23T11:22:35Z
-
-[Term]
-id: XCO:0001295
-name: gingerol
-def: "This is any condition in which the main influencing factor is gingerol, a beta-hydroxy ketone that is 5-hydroxydecan-3-one substituted by a 4-hydroxy-3-methoxyphenyl moiety at position 1. Gingerol is a constituent of fresh ginger and other plants. Gingerol may have antifungal and antineoplastic properties." [CHEBI:10136, https://en.wikipedia.org/wiki/File\:Gingerol_cytotoxic_activity.jpg]
-synonym: "(5S)-5-hydroxy-1-(4-hydroxy-3-methoxyphenyl)decan-3-one" EXACT []
-synonym: "(6)-Gingerol" EXACT []
-synonym: "6-Gingerol" EXACT []
-xref: CID:442793
-xref: MESH:C007845
-xref: PMID:35897746
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000482 ! antimicrobial agent
-created_by: slaulederkind
-creation_date: 2024-02-23T13:21:55Z
-
-[Term]
-id: XCO:0001296
-name: blood transfusion
-def: "This is any condition in which the main influencing factor is blood transfusion, an intravenous transfer of blood or blood components from one subject to another or from one subject back to the same subject (after treatment or storage of blood/blood product)." [https://en.wikipedia.org/wiki/Blood_transfusion, https://www.merriam-webster.com]
-synonym: "autologous blood transfusion" NARROW []
-synonym: "homologous blood transfusion" NARROW []
-synonym: "transfusion" EXACT []
-xref: PMID:35897746
-is_a: XCO:0000761 ! biologics and probiotics
-created_by: slaulederkind
-creation_date: 2024-02-23T13:48:00Z
-
-[Term]
-id: XCO:0001297
-name: autologous blood transfusion
-def: "This is any condition in which the main influencing factor is autologous blood transfusion, the intravenous reinfusion of blood or blood components to the same individual from whom they were taken." [https://www.merriam-webster.com, PMID:8400524]
-xref: PMID:35897746
-is_a: XCO:0001296 ! blood transfusion
-created_by: slaulederkind
-creation_date: 2024-02-23T13:55:44Z
-
-[Term]
-id: XCO:0001298
-name: bleomycin
-def: "This is any condition in which the main influencing factor is bleomycin, a complex of related glycopeptide antibiotics from Streptomyces verticillus consisting of bleomycin A2 and B2. Bleomycin inhibits DNA metabolism and is used as an antineoplastic, especially for solid tumors." [CID:5360373]
-synonym: "bleomycin a2" EXACT []
-xref: PMID:33881353
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000482 ! antimicrobial agent
-created_by: slaulederkind
-creation_date: 2024-02-23T14:57:46Z
 
 [Typedef]
 id: has_component
