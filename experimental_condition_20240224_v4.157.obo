@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.158
-date: 02:03:2024 20:13
+data-version: 4.157
+date: 24:02:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -6033,14 +6033,8 @@ creation_date: 2019-08-01T14:40:57Z
 
 [Term]
 id: XCO:0000641
-name: myocardial reperfusion
-def: "This is any condition in which the main influencing factor is myocardial reperfusion, any situation in which the flow of blood to the heart is restored after a period of blood vessel occlusion occurring experimentally." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
-synonym: "myocardial ischemia/reperfusion" EXACT []
-synonym: "myocardial ischemia-reperfusion" EXACT []
-synonym: "myocardium ischemia/reperfusion" EXACT []
-synonym: "myocardium ischemia-reperfusion" EXACT []
-xref: PMID:26448786
-xref: PMID:27671317
+name: Myocardial reperfusion
+def: "Any experimental condition in which the flow of blood to the heart is restored after a period of blood vessel occlusion occurred naturally or experimentally." []
 is_a: XCO:0000640 ! controlled in situ myocardial condition
 created_by: sjwang
 creation_date: 2019-08-01T14:50:02Z
@@ -11224,8 +11218,8 @@ creation_date: 2023-11-10T15:50:43Z
 
 [Term]
 id: XCO:0001106
-name: retinal reperfusion
-def: "This is any condition in which the main influencing factor is retinal reperfusion, the flow of blood to the retina being restored after a period of blood vessel occlusion occurring experimentally." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
+name: retina reperfusion
+def: "This is any condition in which the main influencing factor is the flow of blood to the retina being restored after a period of blood vessel occlusion occurred naturally or experimentally." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
 synonym: "retina ischemia/reperfusion" EXACT []
 synonym: "retina ischemia-reperfusion" EXACT []
 synonym: "retinal ischemia-reperfusion" EXACT []
@@ -13552,72 +13546,6 @@ is_a: XCO:0000435 ! antineoplastic agent
 is_a: XCO:0000482 ! antimicrobial agent
 created_by: slaulederkind
 creation_date: 2024-02-23T14:57:46Z
-
-[Term]
-id: XCO:0001299
-name: middle cerebral artery occlusion sham procedure
-def: "This is any condition in which the main influencing factor is a middle cerebral artery (MCA) occlusion sham procedure, which follows the same surgical process as an MCA occlusion without blocking the middle cerebral artery." [https://www.merriam-webster.com/]
-synonym: "MCA occlusion sham procedure" EXACT []
-synonym: "MCA occlusion sham surgery" EXACT []
-synonym: "middle cerebral artery occlusion sham surgery" EXACT []
-xref: PMID:2643202
-xref: PMID:33935709
-relationship: part_of XCO:0000348 ! middle cerebral artery occlusion
-created_by: slaulederkind
-creation_date: 2024-02-26T14:15:53Z
-
-[Term]
-id: XCO:0001300
-name: cerebral reperfusion
-def: "This is any condition in which the main influencing factor is cerebral reperfusion, any situation in which the flow of blood to the cerebral hemispheres is restored after a period of blood vessel occlusion occurring experimentally." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
-synonym: "cerebral ischemia/reperfusion" EXACT []
-synonym: "cerebral ischemia-reperfusion" EXACT []
-synonym: "cerebrum ischemia/reperfusion" EXACT []
-synonym: "cerebrum ischemia-reperfusion" EXACT []
-synonym: "cerebrum reperfusion" EXACT []
-xref: PMID:33935709
-relationship: has_component XCO:0000348 ! middle cerebral artery occlusion
-created_by: slaulederkind
-creation_date: 2024-02-27T14:36:39Z
-
-[Term]
-id: XCO:0001301
-name: AEGE extract
-def: "This is any condition in which the main influencing factor is AEGE extract, an herbal mixture extracted from the dried roots and rhizomes or stems of Acanthopanax senticosus Harms (ASH; Eleutherococcus senticosus; Siberian Ginseng) and Gastrodia elata Blume (Tianma; GE)." [PMID:33935709]
-synonym: "AEGE" EXACT []
-synonym: "ASE and GEB" EXACT []
-is_a: XCO:0000850 ! therapeutic agent
-created_by: slaulederkind
-creation_date: 2024-02-27T15:16:18Z
-
-[Term]
-id: XCO:0001302
-name: dapagliflozin
-def: "This is any condition in which the main influencing factor is dapagliflozin, a sodium-glucose cotransporter 2 (SGLT2) inhibitor used for managing diabetes mellitus type 2." [CID:9887712]
-synonym: "(1S)-1,5-anhydro-1-[4-chloro-3-(4-ethoxybenzyl)phenyl]-D-glucitol" EXACT []
-synonym: "DAPA" EXACT []
-xref: CHEBI:85078
-xref: MESH:C529054
-xref: PMID:37383701
-is_a: XCO:0000120 ! inhibitor
-is_a: XCO:0000407 ! hypoglycemic agent
-created_by: slaulederkind
-creation_date: 2024-03-01T10:57:39Z
-
-[Term]
-id: XCO:0001303
-name: sinomenine
-def: "This is any condition in which the main influencing factor is sinomenine, a unique plant alkaloid that releases histamine in association with degranulation of tissue mast cells in mammalian tissues. Sinomenine has been used in herbal medicine for the treatment of rheumatism and arthritis. Sinomenine also has anti-angiogenic, anti-inflammatory, and anti-apoptotic effects." [CID:5459308]
-synonym: "cocculine" EXACT []
-synonym: "cucoline" EXACT []
-synonym: "cuculine" EXACT []
-xref: CHEBI:9163
-xref: MESH:C009271
-xref: PMID:61710
-is_a: XCO:0000140 ! vasodilator
-is_a: XCO:0000505 ! anti-inflammatory agent
-created_by: slaulederkind
-creation_date: 2024-03-01T11:26:11Z
 
 [Typedef]
 id: has_component
