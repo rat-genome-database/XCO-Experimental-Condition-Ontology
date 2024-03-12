@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.159
-date: 09:03:2024 20:13
+data-version: 4.158
+date: 02:03:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -13618,48 +13618,6 @@ is_a: XCO:0000140 ! vasodilator
 is_a: XCO:0000505 ! anti-inflammatory agent
 created_by: slaulederkind
 creation_date: 2024-03-01T11:26:11Z
-
-[Term]
-id: XCO:0001304
-name: Danlu tongdu
-def: "This is any condition in which the main influencing factor is Danlu tongdu, a Chinese patent medicine made up of five traditional Chinese drugs, including Salviae miltiorrhizae, Astragali radix, Eucommiae cortex, Corydalis rhizoma and Cervi cornus colla. Danlu tongdu is used in treatment of lumbar spinal stenosis and lumbosacral disc herniations, but has some adverse side-effects on liver." [PMID:36408216]
-synonym: "DLTD" EXACT []
-is_a: XCO:0000850 ! therapeutic agent
-created_by: slaulederkind
-creation_date: 2024-03-04T17:50:54Z
-
-[Term]
-id: XCO:0001305
-name: pulmonary artery occlusion
-def: "This is any condition in which the main influencing factor is pulmonary artery occlusion, a clinical or experimental surgical procedure which restricts the amount of blood flow to the lung via the pulmonary artery." [PMID:32809673]
-synonym: "PAB" EXACT []
-synonym: "pulmonary artery banding" EXACT []
-synonym: "pulmonary artery ligation" EXACT []
-xref: PMID:36631871
-is_a: XCO:0000347 ! blood vessel occlusion
-created_by: slaulederkind
-creation_date: 2024-03-05T13:47:25Z
-
-[Term]
-id: XCO:0001306
-name: experimental traumatic muscle injury
-def: "This is a condition induced by an mechanical procedure involving controlled trauma to skeletal muscle. The controlled muscle trauma may be to model contusion, strain, or laceration." [PMID:23328717, PMID:24011855]
-synonym: "experimental mechanical muscle injury" EXACT []
-synonym: "experimental muscle contusion" NARROW []
-synonym: "experimental muscle laceration" NARROW []
-synonym: "experimental muscle strain" NARROW []
-is_a: XCO:0001100 ! physical manipulation
-created_by: slaulederkind
-creation_date: 2024-03-08T14:04:49Z
-
-[Term]
-id: XCO:0001307
-name: experimental muscle contusion
-def: "This is a condition induced by an mechanical procedure involving controlled trauma to skeletal muscle, such as the vastus medialis (part of the quadriceps muscle). Controlled muscle contusion has been used to model myofascial pain syndrome and other skeletal muscle injuries." [PMID:23328717, PMID:24011855]
-synonym: "experimental muscle bruise" EXACT []
-is_a: XCO:0001306 ! experimental traumatic muscle injury
-created_by: slaulederkind
-creation_date: 2024-03-08T14:37:50Z
 
 [Typedef]
 id: has_component
