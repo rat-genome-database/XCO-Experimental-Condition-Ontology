@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.161
-date: 30:03:2024 20:13
+data-version: 4.160
+date: 23:03:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -5112,12 +5112,10 @@ creation_date: 2018-05-15T16:51:40Z
 id: XCO:0000549
 name: left anterior descending coronary artery occlusion
 def: "A surgical manipulation causing blockage of the left anterior descending coronary artery, the artery supplying blood to approximately half of the left ventricle of the heart including the anterolateral myocardium, apex, and interventricular septum." [https://en.wikipedia.org/wiki/Anterior_interventricular_branch_of_left_coronary_artery "Wikipedia"]
-synonym: "interventricular artery occlusion" EXACT []
-synonym: "LAD blockage" EXACT []
-synonym: "LAD occlusion" EXACT []
-synonym: "left anterior descending artery occlusion" EXACT []
-synonym: "left coronary artery ligation" NARROW []
-synonym: "widow maker occlusion" EXACT []
+synonym: "LAD blockage" RELATED []
+synonym: "LAD occlusion" RELATED []
+synonym: "left coronary artery ligation" EXACT []
+synonym: "widow maker occlusion" RELATED []
 is_a: XCO:0000347 ! blood vessel occlusion
 created_by: jrsmith
 creation_date: 2018-05-15T16:57:52Z
@@ -7330,7 +7328,7 @@ creation_date: 2020-10-15T17:53:02Z
 [Term]
 id: XCO:0000763
 name: T cells
-def: "This is any condition in which the main influencing factor is an injection of T cells (T lymphocytes). T cells are integral to the functioning of the immune system and are at the core of adaptive immunity, the system that tailors the body's immune response to specific pathogens" [CL:0000084, https://www.medicinenet.com/script/main/art.asp?articlekey=11300]
+def: "Any condition in which the main influencing factor is an injection of T cells (T lymphocytes). T cells are integral to the functioning of the immune system and are at the core of adaptive immunity, the system that tailors the body's immune response to specific pathogens" [CL:0000084, https://www.medicinenet.com/script/main/art.asp?articlekey=11300]
 is_a: XCO:0000761 ! biologics and probiotics
 created_by: slaulede
 creation_date: 2020-10-15T18:06:48Z
@@ -13557,7 +13555,6 @@ synonym: "MCA occlusion sham surgery" EXACT []
 synonym: "middle cerebral artery occlusion sham surgery" EXACT []
 xref: PMID:2643202
 xref: PMID:33935709
-is_a: XCO:0000100 ! sham surgical control condition
 relationship: part_of XCO:0000348 ! middle cerebral artery occlusion
 created_by: slaulederkind
 creation_date: 2024-02-26T14:15:53Z
@@ -13778,120 +13775,6 @@ is_a: XCO:0000027 ! surgical implantation
 is_a: XCO:0000520 ! neuromodulation
 created_by: slaulederkind
 creation_date: 2024-03-21T17:30:51Z
-
-[Term]
-id: XCO:0001319
-name: 3D printed scaffold
-def: "This is any condition in which the main influencing factor is implantation of a 3D printed scaffold, an artificial construct which mimics the extracellular matrix of the host tissue. The scaffold may be made of natural or synthetic polymers, metal, or ceramic." [https://www.sciencedirect.com/science/article/pii/S2590238522002983, https://www.sciencedirect.com/topics/materials-science/scaffold-for-tissue-engineering]
-xref: PMID:35040587
-is_a: XCO:0000027 ! surgical implantation
-created_by: slaulederkind
-creation_date: 2024-03-25T14:44:30Z
-
-[Term]
-id: XCO:0001320
-name: 3D printed GelMA scaffold
-def: "This is any condition in which the main influencing factor is implantation of a 3D printed gelatin-methacryloyl (GelMA) scaffold, a tissue scaffold made of the bioprintable, natural polymer hydrogel gelatin methacryloyl. GelMA has been widely utilized for diverse tissue engineering applications." [PMID:38507816]
-synonym: "3D printed gelatin methacryloyl scaffold" EXACT []
-xref: PMID:35040587
-xref: PMID:38507816
-is_a: XCO:0001319 ! 3D printed scaffold
-created_by: slaulederkind
-creation_date: 2024-03-25T15:16:51Z
-
-[Term]
-id: XCO:0001321
-name: 3D printed PCL scaffold
-def: "This is any condition in which the main influencing factor is implantation of a 3D printed polycaprolactone (PCL) scaffold, a tissue scaffold made of the printable, synthetic polymer material polycaprolactone. PCL has been used in bone tissue engineering due to its advantages such as good biocompatibility, slow degradation rate, and the potential for loadbearing applications. PCL has also been tested for tendon repair." []
-is_a: XCO:0001319 ! 3D printed scaffold
-created_by: slaulederkind
-creation_date: 2024-03-25T15:49:18Z
-
-[Term]
-id: XCO:0001322
-name: 3D printed &#946;&#8208;TCP scaffold
-def: "This is any condition in which the main influencing factor is implantation of a 3D printed &#946;&#8208;TCP scaffold, a tissue scaffold made of a printable, bioceramic material (mainly &#946;&#8208;tricalcium phosphate/&#946;&#8208;TCP). &#946;-tricalcium phosphate (&#946;-TCP) is one the most used and potent synthetic bone graft substitutes. &#946;-TCP has the beneficial properties of biocompatibility, osteoconductivity, osteoinductivity, and biodegradability." [PMID:35669331]
-synonym: "3D printed &#946;-tricalcium phosphate scaffold" EXACT []
-xref: PMID:35040587
-is_a: XCO:0001319 ! 3D printed scaffold
-created_by: slaulederkind
-creation_date: 2024-03-26T13:38:24Z
-
-[Term]
-id: XCO:0001323
-name: experimental drill-hole bone defect
-def: "This is any condition in which the main influencing factor is an experimental drill-hole bone defect, a controlled, precisely defined defect created with a surgical bone drill. This type of bone defect is made in laboratory animals to study the healing of bone fractures and sometimes for delivery of therapeutic substances." [PMID:35849443]
-synonym: "burr holing" RELATED []
-synonym: "trepanation" RELATED []
-synonym: "trepanning" RELATED []
-synonym: "trephination" RELATED []
-xref: https://www.osmosis.org/answers/trephination
-xref: PMID:35040587
-is_a: XCO:0000165 ! surgical manipulation
-created_by: slaulederkind
-creation_date: 2024-03-26T14:13:37Z
-
-[Term]
-id: XCO:0001324
-name: H1-hESC-derived hNPCs
-def: "This is any condition in which the main influencing factor is an injection or infusion of human neural progenitor cells derived from the H1 human embryonic stem cell line (H1-hESC)." [PMID:35030322]
-synonym: "H1-derived hNPCs" EXACT []
-xref: https://www.wicell.org/home/stem-cells/catalog-of-stem-cell-lines/wa01.cmsx
-xref: PMID:18564034
-is_a: XCO:0000761 ! biologics and probiotics
-created_by: slaulederkind
-creation_date: 2024-03-26T14:55:28Z
-
-[Term]
-id: XCO:0001325
-name: 3-aminoisobutyric acid
-def: "This is any condition in which the main influencing factor is 3-aminoisobutyric acid, which is isobutyric acid in which one of the methyl hydrogens is substituted by an amino group. During exercise, 3-aminoisobutyric acid is secreted by muscle cells into the blood, and when this molecule interacts with adipocytes, it may induce signaling pathways that regulate the metabolism of fats, insulin, and cholesterol." [CID:64956]
-synonym: "3-amino-2-methylpropanoic acid" EXACT []
-synonym: "BAIBA" EXACT []
-synonym: "beta-aminoisobutyric acid" EXACT []
-xref: CAS:144-90-1
-xref: CHEBI:27389
-is_a: XCO:0000342 ! chemical with specified structure
-created_by: slaulederkind
-creation_date: 2024-03-28T13:08:38Z
-
-[Term]
-id: XCO:0001326
-name: left anterior descending coronary artery occlusion sham procedure
-def: "This is any condition in which the main influencing factor is a left anterior descending coronary artery occlusion sham procedure, which follows the same surgical process as an left anterior descending coronary artery occlusion without blocking the left anterior descending coronary artery." [PMID:35282369]
-synonym: "interventricular artery occlusion sham procedure" EXACT []
-synonym: "LAD occlusion sham procedure" EXACT []
-synonym: "left anterior descending artery occlusion sham procedure" EXACT []
-is_a: XCO:0000100 ! sham surgical control condition
-relationship: part_of XCO:0000549 ! left anterior descending coronary artery occlusion
-created_by: slaulederkind
-creation_date: 2024-03-28T13:27:56Z
-
-[Term]
-id: XCO:0001327
-name: letrozole
-def: "This is any condition in which the main influencing factor is letrozole, a triazole and benzonitrile derivative that is a selective non-steroidal aromatase inhibitor, similar to anastrozole. Letrozole is used in the treatment of metastatic or locally advanced breast cancer in postmenopausal women." [MESH:D000077289]
-synonym: "4,4'-(1H-1,2,4-triazol-1-ylmethanediyl)dibenzonitrile" EXACT []
-xref: CHEBI:6413
-xref: CID:3902
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulederkind
-creation_date: 2024-03-28T14:12:18Z
-
-[Term]
-id: XCO:0001328
-name: mogroside
-def: "This is any condition in which the main influencing factor is a mogroside, a glycoside of cucurbitane derivatives found in certain plants, such as monkfruit (S. grosvenorii). Mogrosides are extracted from monkfruit and used in the manufacture of sugar substitutes. Mogrosides have shown some efficacy as anticarcinogens, anti-inflammatory agents, sugar- and lipid-lowering agents." [https://en.wikipedia.org/wiki/Mogroside, https://www.future-science.com/doi/10.4155/fmc-2017-0255]
-synonym: "mogrosides" EXACT []
-xref: CHEBI:139477
-xref: PMID:35418943
-is_a: XCO:0000271 ! antioxidant
-is_a: XCO:0000407 ! hypoglycemic agent
-is_a: XCO:0000505 ! anti-inflammatory agent
-is_a: XCO:0000850 ! therapeutic agent
-created_by: slaulederkind
-creation_date: 2024-03-28T14:43:56Z
 
 [Typedef]
 id: has_component
