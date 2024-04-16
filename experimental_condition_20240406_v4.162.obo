@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.163
-date: 13:04:2024 20:13
+data-version: 4.162
+date: 06:04:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -4405,8 +4405,7 @@ creation_date: 2015-04-30T13:35:44Z
 [Term]
 id: XCO:0000477
 name: Streptococcus pneumoniae D39
-def: "This is any condition in which the main influencing factor is Streptococcus pneumoniae D39, a potentially virulent strain of the S. pneumoniae species of Gram-positive, alpha-hemolytic, facultative anaerobic bacteria commonly found in the nasopharynx of healthy human carriers." [http://en.wikipedia.org/wiki/Streptococcus_pneumoniae "Wikipedia"]
-synonym: "Streptococcus pneumoniae serotype 2, strain D39" EXACT []
+def: "A condition in which the primary influencing factor is Streptococcus pneumoniae D39, a potentially virulent strain of the S. pneumoniae species of Gram-positive, alpha-hemolytic, facultative anaerobic bacteria commonly found in the nasopharynx of healthy human carriers." [http://en.wikipedia.org/wiki/Streptococcus_pneumoniae "Wikipedia"]
 synonym: "Streptococcus pneumoniae strain D39" EXACT []
 xref: NCBITaxon:373153
 is_a: XCO:0000476 ! Streptococcus pneumoniae
@@ -4416,7 +4415,7 @@ creation_date: 2015-04-30T13:36:39Z
 [Term]
 id: XCO:0000478
 name: Streptococcus pneumoniae TIGR4
-def: "This is any condition in which the main influencing factor is Streptococcus pneumoniae TIGR4, a potentially virulent strain of the S. pneumoniae species of Gram-positive, alpha-hemolytic, facultative anaerobic bacteria commonly found in the nasopharynx of healthy human carriers." [http://en.wikipedia.org/wiki/Streptococcus_pneumoniae "Wikipedia"]
+def: "A condition in which the primary influencing factor is Streptococcus pneumoniae TIGR4, a potentially virulent strain of the S. pneumoniae species of Gram-positive, alpha-hemolytic, facultative anaerobic bacteria commonly found in the nasopharynx of healthy human carriers." [http://en.wikipedia.org/wiki/Streptococcus_pneumoniae "Wikipedia"]
 synonym: "Streptococcus pneumoniae strain TIGR4" EXACT []
 xref: NCBITaxon:170187
 is_a: XCO:0000476 ! Streptococcus pneumoniae
@@ -5041,7 +5040,7 @@ creation_date: 2018-05-15T16:06:25Z
 [Term]
 id: XCO:0000542
 name: enalapril
-def: "This is any condition in which the main influencing factor is enalapril, a prodrug that is rapidly metabolized in the liver to enalaprilat, a potent, competitive inhibitor of angiotensin-converting enzyme (ACE)." [https://en.wikipedia.org/wiki/Enalapril "Wikipedia"]
+def: "An experimental condition in which the main influencing factor is enalapril, a prodrug that is rapidly metabolized in the liver to enalaprilat, a potent, competitive inhibitor of angiotensin-converting enzyme (ACE)." [https://en.wikipedia.org/wiki/Enalapril "Wikipedia"]
 synonym: "Enacard" RELATED []
 synonym: "Renitec" RELATED []
 synonym: "Vasotec" RELATED []
@@ -6647,7 +6646,7 @@ creation_date: 2020-05-15T09:53:41Z
 [Term]
 id: XCO:0000697
 name: GSK2181236A
-def: "This is any condition in which the main influencing factor is GSK2181236A, a small molecule actvator of soluble guanylate cyclase." [PMID:22783192]
+def: "This chemical belongs to a novel group of small molecule compounds which increase the enzymatic activity of soluble guanylate cyclase." [PMID:22783192]
 synonym: "1-(6-{2-[({3-methyl-4 -[(trifluoromethyl)oxy]-4-biphenylyl}methyl)oxy] phenyl}-2-pyridinyl)-5-(trifluoromethyl)-1H-pyrazole-4-carboxylic acid" EXACT []
 xref: PMID:22783192
 is_a: XCO:0000695 ! soluble guanylate cyclase activator
@@ -6667,7 +6666,7 @@ creation_date: 2020-05-15T10:36:38Z
 [Term]
 id: XCO:0000699
 name: controlled GSK2181236A content diet
-def: "This is any condition in which the main influencing factor is a controlled GSK2181236A content diet, a regimen of solid food in which the amount of GSK2181236A consumed is controlled." [PMID:22783192]
+def: "A regimen of solid food in which the amount of GSK2181236A consumed is controlled." [PMID:22783192]
 synonym: "controlled 1-(6-{2-[({3-methyl-4 -[(trifluoromethyl)oxy]-4-biphenylyl}methyl)oxy] phenyl}-2-pyridinyl)-5-(trifluoromethyl)-1H-pyrazole-4-carboxylic acid content diet" EXACT []
 xref: PMID:22783192
 is_a: XCO:0000014 ! controlled content diet
@@ -7315,7 +7314,7 @@ name: biologics and probiotics
 def: "Any condition in which the main influencing factor is a biologic (product of, or component of, a living organism) or probiotic introduced externally or internally to a subject to effect a change in phenotype of the subject, usually in treatment of a medical condition. Probiotics are live microorganisms that are intended to have health benefits when consumed or applied to the body." [https://www.fda.gov/about-fda/center-biologics-evaluation-and-research-cber/what-are-biologics-questions-and-answers, https://www.merriam-webster.com/, https://www.nccih.nih.gov/health/probiotics-what-you-need-to-know]
 synonym: "biological medical product" EXACT []
 synonym: "biopharmaceutical" EXACT []
-is_a: XCO:0000850 ! therapeutic agent
+is_a: XCO:0000000 ! experimental condition
 created_by: slaulede
 creation_date: 2020-10-15T17:39:53Z
 
@@ -8294,7 +8293,7 @@ name: stem cells
 def: "This is a condition in which the main influencing factor is a stem cell, an unspecialized cell capable of perpetuating itself through cell division and having the potential to give rise to a variety of differentiated cells with specialized functions." [CL:0000034, https://en.wikipedia.org/wiki/Stem_cell, https://www.merriam-webster.com/]
 synonym: "Not4Curation" RELATED []
 xref: PMID:29273085
-is_a: XCO:0000761 ! biologics and probiotics
+is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulede
 creation_date: 2021-06-28T18:41:49Z
 
@@ -10376,7 +10375,7 @@ id: XCO:0001032
 name: human neural progenitor cells
 def: "This is any condition in which the main influencing factor is neural progenitor cells, which are isolated from embryonic or fetal CNS tissue and can be expanded in culture for prolonged periods using genetic or epigenetic approaches. Expanded cells have the capacity to differentiate into neurons, oligodendrocytes, or astrocytes." [PMID:18341406]
 synonym: "hNPCs" EXACT []
-is_a: XCO:0000851 ! stem cells
+is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulede
 creation_date: 2023-05-18T14:23:53Z
 
@@ -13840,7 +13839,7 @@ def: "This is any condition in which the main influencing factor is an injection
 synonym: "H1-derived hNPCs" EXACT []
 xref: https://www.wicell.org/home/stem-cells/catalog-of-stem-cell-lines/wa01.cmsx
 xref: PMID:18564034
-is_a: XCO:0001032 ! human neural progenitor cells
+is_a: XCO:0000761 ! biologics and probiotics
 created_by: slaulederkind
 creation_date: 2024-03-26T14:55:28Z
 
@@ -14002,164 +14001,6 @@ is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0001336 ! enrofloxacin
 created_by: slaulederkind
 creation_date: 2024-04-05T10:52:59Z
-
-[Term]
-id: XCO:0001338
-name: human, adipose-derived stromal cells
-def: "This is any condition in which the main influencing factor is human, adipose-derived stromal cells, which are isolated from lipoaspirates from healthy adult donors. They are mesenchymal stem cells that can be expanded in culture" [PMID:35566725]
-synonym: "adipose-derived mesenchymal stem cells" EXACT []
-synonym: "adipose tissue mesenchymal stem cells" EXACT []
-synonym: "ASC" EXACT []
-synonym: "AT&#8208;MSCs" EXACT []
-synonym: "human ASC" EXACT []
-synonym: "human PLA cells" EXACT []
-synonym: "PLA cells" EXACT []
-synonym: "processed lipoaspirate cells" EXACT []
-is_a: XCO:0000851 ! stem cells
-created_by: slaulederkind
-creation_date: 2024-04-08T13:22:27Z
-
-[Term]
-id: XCO:0001339
-name: human serum
-def: "This is any experimental condition in which the main influencing factor is human serum. Human serum is used in tissue engineering, transplantation and cell therapy applications, for the expansion of mesenchymal stem cells (MSC) from adipose tissue or bone marrow, ex vivo expansion of peripheral blood cells, etc." [https://en.wikipedia.org/wiki/Serum_(blood), https://www.sigmaaldrich.com/US/en/product/sigma/h4522]
-synonym: "human blood plasma without the clotting factors" EXACT []
-xref: MESH:D044967
-xref: PMID:35566725
-is_a: XCO:0000965 ! controlled in vitro cell condition
-created_by: slaulederkind
-creation_date: 2024-04-08T14:04:38Z
-
-[Term]
-id: XCO:0001340
-name: human, skin-derived ABCB5+ stromal cells
-def: "This is any condition in which the main influencing factor is human, skin-derived ABCB5+ stromal cells, which are ABCB5-positive mesenchymal stem cells (MSCs) isolated from skin of healthy adult donors and can be expanded in culture. ABCB5+ MSCs are used in therapy for chronic wounds and other skin diseases." [https://www.gesundheitsindustrie-bw.de/en/article/news/innovative-stem-cell-therapy-chronic-wounds]
-synonym: "ABCB5+ MSCs" EXACT []
-synonym: "ABCB5-positive mesenchymal stem cells" EXACT []
-xref: PMID:35566725
-is_a: XCO:0000851 ! stem cells
-created_by: slaulederkind
-creation_date: 2024-04-08T14:45:47Z
-
-[Term]
-id: XCO:0001341
-name: conditioned medium
-def: "This is any condition in which the main influencing factor is cultured cell-conditioned medium, which consists of the liquid nutrient medium the cells are grown in plus soluble factors secreted by the cells." [PMID:30595826]
-synonym: "conditioned culture medium" EXACT []
-synonym: "cultured cell-conditioned medium" EXACT []
-xref: PMID:35566725
-is_a: XCO:0000965 ! controlled in vitro cell condition
-created_by: slaulederkind
-creation_date: 2024-04-08T16:41:42Z
-
-[Term]
-id: XCO:0001342
-name: human, adipose-derived stromal cell-conditioned medium
-def: "This is any condition in which the main influencing factor is human, adipose-derived stromal cell-conditioned medium, which consists of the liquid nutrient medium the cells are grown in plus soluble factors secreted by the cells." [PMID:30595826]
-synonym: "human ASC-conditioned medium" EXACT []
-synonym: "human PLA-conditioned medium" EXACT []
-xref: PMID:35566725
-is_a: XCO:0001341 ! conditioned medium
-created_by: slaulederkind
-creation_date: 2024-04-08T20:18:39Z
-
-[Term]
-id: XCO:0001343
-name: human, skin-derived ABCB5+ MSC/THP-1-conditioned medium
-def: "This is any condition in which the main influencing factor is a co-culture of human, skin-derived ABCB5+ stromal cells and THP-1-derived macrophage-conditioned medium, which consists of the liquid nutrient medium the cells are grown in plus soluble factors secreted by the cells." [PMID:30595826]
-synonym: "ABCB5+-derived CoCM+" EXACT []
-synonym: "ABCB5+ MSC/THP-1 conditioned medium" EXACT []
-xref: PMID:35566725
-is_a: XCO:0001341 ! conditioned medium
-created_by: slaulederkind
-creation_date: 2024-04-08T20:36:46Z
-
-[Term]
-id: XCO:0001344
-name: Streptococcus pneumoniae 262
-def: "This is any condition in which the main influencing factor is Streptococcus pneumoniae strain 262, a bacterium isolated from the sputum of a human male. This bacterial culture has applications in respiratory disease research. This strain is serotype 19 (Danish designation 19F)." [ATCC:49619]
-synonym: "Streptococcus pneumoniae strain 262" EXACT []
-synonym: "Streptococcus pneumoniae strain 262, serotype 19" EXACT []
-synonym: "Streptococcus Pneumonia Serotype 19F" EXACT []
-xref: PMID:35784337
-is_a: XCO:0000476 ! Streptococcus pneumoniae
-created_by: slaulederkind
-creation_date: 2024-04-09T14:42:02Z
-
-[Term]
-id: XCO:0001345
-name: splenic ultrasound neuromodulation
-def: "This is any condition in which the main influencing factor is splenic stimulation via ultrasound, a method to noninvasively modulate neural signaling in the spleen." [PMID:35784337]
-synonym: "splenic U/S neuromodulation" EXACT []
-synonym: "splenic U/S stimulation" EXACT []
-synonym: "splenic ultrasound stimulation" EXACT []
-synonym: "ultrasound-induced neuromodulation of spleen" EXACT []
-xref: PMID:30862827
-is_a: XCO:0000520 ! neuromodulation
-created_by: slaulederkind
-creation_date: 2024-04-09T15:10:22Z
-
-[Term]
-id: XCO:0001346
-name: enalaprilat
-def: "This is any condition in which the main influencing factor is enalaprilat, the active metabolite of the orally available pro-drug enalapril. Used in the treatment of hypertension, heart failure, and nephropathies, enalapril is an ACE inhibitor that prevents Angiotensin Converting Enzyme (ACE) from transforming angiotensin I into angiotensin II. Enalaprilat is enalapril in which the ethyl ester group has been hydrolysed to the corresponding carboxylic acid." [CID:5462501]
-synonym: "CHEBI:59877" RELATED []
-synonym: "enalaprilat dihydrate" RELATED []
-synonym: "N-[(1S)-1-carboxy-3-phenylpropyl]-L-alanyl-L-proline" EXACT []
-xref: CHEBI:4786
-xref: enalaprilat (anhydrous)
-is_a: XCO:0000542 ! enalapril
-created_by: slaulederkind
-creation_date: 2024-04-12T12:43:11Z
-
-[Term]
-id: XCO:0001347
-name: Compound 1
-def: "This is any condition in which the main influencing factor is Compound 1, a bicyclic molecule (patented by Merck & Co., Inc.) that can have various substituents and is a soluble guanylate cyclase activator." [Patent_No.:_US_9\,365\,574_B2]
-xref: PMID:35085251
-is_a: XCO:0000695 ! soluble guanylate cyclase activator
-created_by: slaulederkind
-creation_date: 2024-04-12T13:02:34Z
-
-[Term]
-id: XCO:0001348
-name: controlled Compound 1 content diet
-def: "This is any condition in which the main influencing factor is a controlled Compound 1 content diet, a regimen of solid food in which the amount of Compound 1 consumed is controlled. Coumpound 1 is a soluble guanylate cyclase activator." [https://www.merriam-webster.com, Patent_No.:_US_9\,365\,574_B2]
-xref: PMID:35085251
-is_a: XCO:0000014 ! controlled content diet
-relationship: has_component XCO:0001347 ! Compound 1
-created_by: slaulederkind
-creation_date: 2024-04-12T13:13:10Z
-
-[Term]
-id: XCO:0001349
-name: controlled enalapril content diet
-def: "This is any condition in which the main influencing factor is a controlled enalapril content diet, a regimen of solid food in which the amount of enalapril consumed is controlled. Enalapril is a prodrug that is rapidly metabolized in the liver to enalaprilat, a potent, competitive inhibitor of angiotensin-converting enzyme (ACE)." [https://en.wikipedia.org/wiki/Enalapril, https://www.merriam-webster.com]
-xref: CHEBI:4784
-xref: PMID:35085251
-is_a: XCO:0000014 ! controlled content diet
-relationship: has_component XCO:0000542 ! enalapril
-created_by: slaulederkind
-creation_date: 2024-04-12T13:28:02Z
-
-[Term]
-id: XCO:0001350
-name: diallyl trisulfide
-def: "This is any condition in which the main influencing factor is diallyl trisulfide, an organic trisulfide that is trisulfane in which both of the hydrogens are replaced by allyl groups. Diallyl trisulfide is a component of the essential oil of garlic and a major component of the traditional Chinese medicine allitridium. Diallyl trisulfide has multiple medicinal effects." [CHEBI:78492]
-synonym: "DATS" EXACT []
-synonym: "diallyltrisulfane" EXACT []
-xref: CID:16315
-xref: MESH:C042577
-xref: PMID:35419300
-is_a: XCO:0000140 ! vasodilator
-is_a: XCO:0000160 ! receptor antagonist
-is_a: XCO:0000271 ! antioxidant
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000482 ! antimicrobial agent
-is_a: XCO:0000505 ! anti-inflammatory agent
-is_a: XCO:0000680 ! antilipemic agent
-created_by: slaulederkind
-creation_date: 2024-04-12T13:54:25Z
 
 [Typedef]
 id: has_component
