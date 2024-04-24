@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.164
-date: 20:04:2024 20:13
+data-version: 4.163
+date: 13:04:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -87,7 +87,7 @@ relationship: part_of XCO:0000009 ! controlled atmosphere composition
 id: XCO:0000013
 name: diet
 def: "The food and drink consumed by an organism day to day." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-is_a: XCO:0001365 ! consumption
+is_a: XCO:0000000 ! experimental condition
 
 [Term]
 id: XCO:0000014
@@ -531,7 +531,7 @@ creation_date: 2010-01-05T03:15:55Z
 id: XCO:0000077
 name: tobacco use
 def: "The use of any product made for human consumption from Nicotiana tabacum." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-is_a: XCO:0001365 ! consumption
+is_a: XCO:0000013 ! diet
 created_by: mshimoyama
 creation_date: 2010-01-05T03:17:37Z
 
@@ -6095,13 +6095,11 @@ creation_date: 2019-11-27T12:37:25Z
 
 [Term]
 id: XCO:0000646
-name: azoxymethane
-def: "This is any condition in which the main influencing factor is azoxymethane (AOM), a gene mutation agent that may be used with dextran sulfate sodium (DSS) to create colon cancer models in laboratory animals." []
-synonym: "AOM" EXACT []
+name: Azoxymethane
+def: "Azoxymethane (AOM), a gene mutation agent, may be used with dextran sulfate sodium (DSS) to create cancer models in laboratory animals which can be used to study mechanisms of cancer progression and chemoprevention." []
+synonym: "ML-MFCD00126912" EXACT []
 xref: CAS:25843-45-2
-xref: CID:33184
-xref: MDL:MFCD00126912
-xref: PMID:16928827
+xref: pubchem.compound:329770827
 is_a: XCO:0000089 ! neoplasm-inducing chemical
 created_by: sjwang
 creation_date: 2019-12-04T15:04:39Z
@@ -7489,9 +7487,9 @@ creation_date: 2020-10-22T13:12:29Z
 [Term]
 id: XCO:0000780
 name: liposomes
-def: "This is any condition in which the main influencing factor is liposomes, artificial vesicles composed of one or more concentric phospholipid bilayers and used to deliver biologically relevant substances." [https://www.merriam-webster.com/, https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/liposome]
+def: "An experimental condition in which the main influencing factor is liposomes, artificial vesicles composed of one or more concentric phospholipid bilayers and used to deliver biologically relevant substances." [https://www.merriam-webster.com/, https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/liposome]
 xref: PMID:6744286
-is_a: XCO:0000342 ! chemical with specified structure
+is_a: XCO:0000341 ! chemical with specified function
 created_by: slaulede
 creation_date: 2020-10-27T16:40:20Z
 
@@ -12247,7 +12245,7 @@ creation_date: 2023-12-14T12:00:21Z
 [Term]
 id: XCO:0001188
 name: neomycin sulfate
-def: "This is any condition in which the main influencing factor is neomycin sulfate, the sulfate salt form of neomycin, a broad spectrum aminoglycoside antibiotic derived from Streptomyces fradiae with antibacterial activity. Neomycin is an antibiotic complex consisting of 3 components: the two isomeric components B and C are the active components, and neomycin A is the minor component. Neomycin is a protein synthesis inhibitor and bacteriacidal agent." [CID:62403]
+def: "This is any condition in which the main influencing factor is neomycin sulfate, the sulfate salt form of neomycin, a broad spectrum aminoglycoside antibiotic derived from Streptomyces fradiae with antibacterial activity. Neomycin is an antibiotic complex consisting of 3 components: the two isomeric components B and C are the active components, and neomycin A is the minor component. Neomycin is a protein synthesis inhibitor and bacteriacidal agent." [https://pubchem.ncbi.nlm.nih.gov/#query=neomycin%20sulfate]
 xref: CHEBI:31635
 xref: PMID:32119089
 xref: SID:483925982
@@ -14162,179 +14160,6 @@ is_a: XCO:0000505 ! anti-inflammatory agent
 is_a: XCO:0000680 ! antilipemic agent
 created_by: slaulederkind
 creation_date: 2024-04-12T13:54:25Z
-
-[Term]
-id: XCO:0001351
-name: controlled neomycin sulfate content drinking water
-def: "This is any condition in which the main influencing factor is a drink made up of water and a specified amount of neomycin sulfate, the sulfate salt form of neomycin, a broad spectrum aminoglycoside antibiotic derived from Streptomyces fradiae with antibacterial activity. Neomycin is an antibiotic complex consisting of 3 components: the two isomeric components B and C are the active components, and neomycin A is the minor component. Neomycin is a protein synthesis inhibitor and bacteriacidal agent." []
-created_by: slaulederkind
-creation_date: 2024-04-15T09:49:25Z
-
-[Term]
-id: XCO:0001352
-name: controlled neomycin sulfate content drinking water
-def: "This is any condition in which the main influencing factor is a drink made up of water and a specified amount of neomycin sulfate, the sulfate salt form of neomycin, a broad spectrum aminoglycoside antibiotic derived from Streptomyces fradiae with antibacterial activity. Neomycin is an antibiotic complex consisting of 3 components: the two isomeric components B and C are the active components, and neomycin A is the minor component. Neomycin is a protein synthesis inhibitor and bacteriacidal agent." [CID:62403]
-synonym: "CHEBI:31635" EXACT []
-synonym: "PMID:32119089" EXACT []
-synonym: "SID:483925982" EXACT []
-is_a: XCO:0000163 ! controlled content drinking water
-is_a: XCO:0001188 ! neomycin sulfate
-created_by: slaulederkind
-creation_date: 2024-04-15T11:11:20Z
-
-[Term]
-id: XCO:0001353
-name: controlled metronidazole content drinking water
-def: "This is any condition in which the main influencing factor is a drink made up of water and a specified amount of metronidazole, a commonly used antibiotic, belonging to the nitroimidazole class of antibiotics. Metronidazole is frequently used to treat gastrointestinal infections and parasitic infections such as trichomoniasis, giardiasis, and amebiasis. The antiparasitic of properties of metronidazole set it apart from many other antibacterial drugs, allowing it to treat a wider variety of infections." [CID:4173]
-synonym: "controlled 2-(2-methyl-5-nitro-1H-imidazol-1-yl)ethanol content drinking water" EXACT []
-xref: CHEBI:6909
-xref: MESH:D008795
-is_a: XCO:0000163 ! controlled content drinking water
-is_a: XCO:0001189 ! metronidazole
-created_by: slaulederkind
-creation_date: 2024-04-15T11:23:39Z
-
-[Term]
-id: XCO:0001354
-name: vancomycin hydrochloride
-def: "This is any condition in which the main influencing factor is vancomycin hydrochloride, the hydrochloride salt of vancomycin, a branched tricyclic glycosylated peptide used for the treatment of certain bacterial infections, such as infections caused by Clostridium difficile and Staphylococcus aureus." [CID:6420023]
-xref: CHEBI:28001
-xref: MESH:D014640
-is_a: XCO:0000572 ! vancomycin
-created_by: slaulederkind
-creation_date: 2024-04-15T12:34:59Z
-
-[Term]
-id: XCO:0001355
-name: controlled vancomycin hydrochloride content drinking water
-def: "This is any condition in which the main influencing factor is a drink made up of water and a specified amount of vancomycin hydrochloride, the hydrochloride salt of vancomycin, a branched tricyclic glycosylated peptide used for the treatment of certain bacterial infections, such as infections caused by Clostridium difficile and Staphylococcus aureus." [CID:6420023]
-synonym: "CHEBI:28001" EXACT []
-synonym: "MESH:D014640" EXACT []
-is_a: XCO:0000163 ! controlled content drinking water
-is_a: XCO:0001354 ! vancomycin hydrochloride
-created_by: slaulederkind
-creation_date: 2024-04-15T12:41:18Z
-
-[Term]
-id: XCO:0001356
-name: ampicillin sodium
-def: "This is any condition in which the main influencing factor is ampicillin sodium, the sodium salt form of ampicillin, a broad-spectrum semisynthetic derivative of aminopenicillin. Ampicillin sodium inhibits bacterial cell wall synthesis by binding to penicillin binding proteins, thereby inhibiting peptidoglycan synthesis, a critical component of the bacterial cell wall." [CID:23663979]
-synonym: "PMID:33957990" EXACT []
-synonym: "sodium 6beta-[(2R)-2-amino-2-phenylacetamido]-2,2-dimethylpenam-3alpha-carboxylate" EXACT []
-xref: CHEBI:34535
-is_a: XCO:0001187 ! ampicillin
-created_by: slaulederkind
-creation_date: 2024-04-15T12:48:57Z
-
-[Term]
-id: XCO:0001357
-name: controlled ampicillin sodium content drinking water
-def: "This is any condition in which the main influencing factor is a drink made up of water and a specified amount of ampicillin sodium, the sodium salt form of ampicillin, a broad-spectrum semisynthetic derivative of aminopenicillin. Ampicillin sodium inhibits bacterial cell wall synthesis by binding to penicillin binding proteins, thereby inhibiting peptidoglycan synthesis, a critical component of the bacterial cell wall." [CID:23663979, https://www.merriam-webster.com/]
-synonym: "controlled sodium 6beta-[(2R)-2-amino-2-phenylacetamido]-2,2-dimethylpenam-3alpha-carboxylate content drinking water" EXACT []
-xref: CHEBI:34535
-xref: PMID:33957990
-is_a: XCO:0000163 ! controlled content drinking water
-is_a: XCO:0001356 ! ampicillin sodium
-created_by: slaulederkind
-creation_date: 2024-04-15T12:52:59Z
-
-[Term]
-id: XCO:0001358
-name: fecal transplantation
-def: "This is any condition in which the main influencing factor is fecal transplantation, a clinical or experimental procedure to collect feces from a donor and introduce them into a recipient's gastrointestinal tract. In patients the procedure can be used to control an infection of Clostridium difficile (C. diff)." [https://en.wikipedia.org/wiki/Fecal_microbiota_transplant, https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/fecal-transplant]
-synonym: "fecal microbial transplantation" EXACT []
-synonym: "fecal microbiota transplantation" EXACT []
-synonym: "fecal transplant" EXACT []
-synonym: "FMT" EXACT []
-synonym: "stool transplantation" EXACT []
-is_a: XCO:0000761 ! biologics and probiotics
-created_by: slaulederkind
-creation_date: 2024-04-15T13:42:58Z
-
-[Term]
-id: XCO:0001359
-name: fecal transplantation from DHEA-treated donor
-def: "This is any condition in which the main influencing factor is fecal transplantation from a DHEA (dehydroepiandrosterone)-treated donor, an experimental procedure to collect feces from a DHEA-treated donor and introduce them into a recipient's gastrointestinal tract. This procedure is used to investigate gut dysbiosis in various conditions, including cancer and polycystic ovary syndrome." [https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/fecal-transplant, PMID:33957990]
-synonym: "fecal microbial transplantation from DHEA-treated donor" EXACT []
-synonym: "fecal microbiota transplantation from DHEA-treated donor" EXACT []
-synonym: "fecal transplant from DHEA-treated donor" EXACT []
-synonym: "FMT from DHEA-treated donor" EXACT []
-is_a: XCO:0001358 ! fecal transplantation
-created_by: slaulederkind
-creation_date: 2024-04-15T14:04:09Z
-
-[Term]
-id: XCO:0001360
-name: fecal transplantation from control donor
-def: "This is any condition in which the main influencing factor is fecal transplantation from a control donor, an experimental procedure to collect feces from a control donor and introduce them into a recipient's gastrointestinal tract. This procedure is used to investigate gut dysbiosis in various conditions, including cancer and polycystic ovary syndrome." [https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/fecal-transplant, PMID:33957990]
-synonym: "fecal microbial transplantation from control donor" EXACT []
-synonym: "fecal microbiota transplantation from control donor" EXACT []
-synonym: "fecal transplant from control donor" EXACT []
-synonym: "FMT from DHEA-treated donor" EXACT []
-is_a: XCO:0001358 ! fecal transplantation
-created_by: slaulederkind
-creation_date: 2024-04-15T14:16:05Z
-
-[Term]
-id: XCO:0001361
-name: pulmonary artery occlusion sham procedure
-def: "This is any condition in which the main influencing factor is a pulmonary artery occlusion sham procedure, which follows the same surgical process as a pulmonary artery occlusion without blocking the pulmonary artery." [PMID:33064565]
-synonym: "(Sham) PAB" EXACT []
-synonym: "pulmonary artery sham banding" EXACT []
-synonym: "pulmonary artery sham ligation" EXACT []
-synonym: "sham PAB" EXACT []
-is_a: XCO:0000100 ! sham surgical control condition
-is_a: XCO:0001305 ! pulmonary artery occlusion
-created_by: slaulederkind
-creation_date: 2024-04-16T14:35:03Z
-
-[Term]
-id: XCO:0001362
-name: experimental post-traumatic osteoarthritis of the knee joint
-def: "This is any condition in which the main influencing factor is experimental post-traumatic osteoarthritis (PTOA) of the knee joint. This model of PTOA is initiated in rodents by axial compression overload of the joint to the point of ACL (anterior cruciate ligament) rupture." [ISBN-13:9780781733908, PMID:27235904]
-synonym: "experimental PTOA of knee" EXACT []
-xref: PMID:32778777
-xref: PMID:37425196
-is_a: XCO:0001100 ! physical manipulation
-created_by: slaulederkind
-creation_date: 2024-04-19T13:27:38Z
-
-[Term]
-id: XCO:0001363
-name: CGS 21680-filled liposomes
-def: "This is any condition in which the main influencing factor is CGS 21680-filled liposomes, artificial vesicles composed of one or more concentric phospholipid bilayers and containing CGS 21680 hydrochloride. CGS 21680 is an adenosine A2a receptor (Adora2a) agonist." [PMID:32778777]
-synonym: "CGS 21680-containing liposomes" EXACT []
-synonym: "CGS21680-filled liposomes" EXACT []
-synonym: "CGS 21680 liposomes" EXACT []
-synonym: "Lipo-CGS" EXACT []
-xref: https://www.tocris.com/products/cgs-21680-hydrochloride_1063
-is_a: XCO:0000780 ! liposomes
-created_by: slaulederkind
-creation_date: 2024-04-19T16:21:25Z
-
-[Term]
-id: XCO:0001364
-name: isoliensinine
-def: "This is any condition in which the main influencing factor is isoliensinine, a bisbenzylisoquinoline alkaloid isolated from the lotus plant (Nelumbo nucifera Gaertn). Isoliensinine is claimed to have antitumor, cardioprotective, antioxidant, antidepressant, and anti-HIV properties." [https://en.wikipedia.org/wiki/Nelumbo_nucifera, PMID:33967765]
-synonym: "(1R)-1-[[4-hydroxy-3-[[(1R)-6-methoxy-1-[(4-methoxyphenyl)methyl]-2-methyl-3,4-dihydro-1H-isoquinolin-7-yl]oxy]phenyl]methyl]-6-methoxy-2-methyl-3,4-dihydro-1H-isoquinolin-7-ol" EXACT []
-xref: CHEBI:185701
-xref: MESH:C499779
-xref: PMID:37701045
-is_a: XCO:0000271 ! antioxidant
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000561 ! antidepressant
-created_by: slaulederkind
-creation_date: 2024-04-19T16:58:30Z
-
-[Term]
-id: XCO:0001365
-name: consumption
-def: "This is any condition in which the main influencing factor is diet-like consumption, the act or process of consuming food, drink, or other substance by way of an oral route into the body." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
-xref: NCIT:C19706
-xref: NCIT:C20134
-is_a: XCO:0000000 ! experimental condition
-created_by: slaulederkind
-creation_date: 2024-04-19T18:10:27Z
 
 [Typedef]
 id: has_component
