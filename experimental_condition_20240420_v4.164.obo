@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.166
-date: 04:05:2024 20:13
+data-version: 4.164
+date: 20:04:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -3317,8 +3317,8 @@ creation_date: 2013-12-20T13:30:01Z
 id: XCO:0000367
 name: sham surgical device implantation
 def: "A surgery in which a device is inserted which lacks the chemical or drug that in the experimental samples it would dispense." [PMID:15687265]
+is_a: XCO:0000027 ! surgical implantation
 is_a: XCO:0000100 ! sham surgical control condition
-relationship: part_of XCO:0000027 ! surgical implantation
 created_by: JSmith
 creation_date: 2013-12-20T14:06:20Z
 
@@ -3931,7 +3931,7 @@ creation_date: 2014-03-05T10:27:59Z
 [Term]
 id: XCO:0000430
 name: silymarin
-def: "This is any condition in which the main influencing factor is silymarin, a strongly antioxidant mixture of flavonolignans extracted from the milk thistle plant (Silybum marianum). The components or silymarin are capable of scavenging both free radicals and reactive oxygen species (ROS)." [PMID:24145092]
+def: "A condition in which the main influencing factor is silymarin, a strongly antioxidant mixture of flavonolignans extracted from the milk thistle plant (Silybum marianum). The components or silymarin are capable of scavenging both free radicals and reactive oxygen species (ROS)." [PMID:24145092]
 is_a: XCO:0000271 ! antioxidant
 created_by: JSmith
 creation_date: 2014-03-05T10:39:11Z
@@ -7314,7 +7314,7 @@ creation_date: 2020-10-13T18:01:28Z
 [Term]
 id: XCO:0000761
 name: biologics and probiotics
-def: "This is any condition in which the main influencing factor is a biologic (product of, or component of, a living organism) or probiotic introduced externally or internally to a subject to effect a change in phenotype of the subject, usually in treatment of a medical condition. Probiotics are live microorganisms that are intended to have health benefits when consumed or applied to the body." [https://www.fda.gov/about-fda/center-biologics-evaluation-and-research-cber/what-are-biologics-questions-and-answers, https://www.merriam-webster.com/, https://www.nccih.nih.gov/health/probiotics-what-you-need-to-know]
+def: "Any condition in which the main influencing factor is a biologic (product of, or component of, a living organism) or probiotic introduced externally or internally to a subject to effect a change in phenotype of the subject, usually in treatment of a medical condition. Probiotics are live microorganisms that are intended to have health benefits when consumed or applied to the body." [https://www.fda.gov/about-fda/center-biologics-evaluation-and-research-cber/what-are-biologics-questions-and-answers, https://www.merriam-webster.com/, https://www.nccih.nih.gov/health/probiotics-what-you-need-to-know]
 synonym: "biological medical product" EXACT []
 synonym: "biopharmaceutical" EXACT []
 is_a: XCO:0000850 ! therapeutic agent
@@ -10743,13 +10743,12 @@ creation_date: 2023-06-26T17:12:25Z
 [Term]
 id: XCO:0001064
 name: 5/6 nephrectomy
-def: "This is any condition in which the main influencing factor is a 5/6 nephrectomy, which is an experimental procedure performed to produce an animal model of chronic kidney disease in rodents. Typically, the right kidney is removed and the poles of the left kidney are removed to produce a total renal system which is 1/6 of original capacity. The animal is typically allowed to recover for a week between the total and partial nephrectomy." [ISBN:978-1455756438, PMID:32001792]
+def: "This is any condition in which the main influencing factor is a 5/6 nephrectomy, which is an experimental procedure performed to produce an animal model of chronic kidney disease in rodents. Typically, the right kidney is removed and the poles of the left kidney are removed to produce a total renal system which is 1/6 of original capacity." [ISBN:978-1455756438, PMID:32001792]
 synonym: "5/6 nephrectomy" EXACT []
 synonym: "5/6 Nx" EXACT []
 synonym: "five-sixths partial nephrectomy" EXACT []
 synonym: "subtotal 5/6 nephrectomy" EXACT []
 synonym: "subtotal nephrectomy" EXACT []
-synonym: "two-step subtotal nephrectomy" EXACT []
 xref: PMID:28760335
 is_a: XCO:0000017 ! nephrectomy
 created_by: slaulede
@@ -13727,7 +13726,7 @@ name: inferior alveolar nerve transection
 def: "This is any condition in which the main influencing factor is transection of the inferior alveolar nerve, a model of a peripheral nerve injury. The inferior alveolar nerve (IAN) is a branch of the mandibular nerve in the lower jaw. The inferior alveolar nerve branches into the mylohyoid nerve and the mental nerve." [https://www.ncbi.nlm.nih.gov/books/NBK546712/, PMID:37946211]
 synonym: "IANX" EXACT []
 synonym: "transection of the inferior alveolar nerve" EXACT []
-is_a: XCO:0001373 ! surgical nerve transection
+is_a: XCO:0000165 ! surgical manipulation
 created_by: slaulederkind
 creation_date: 2024-03-19T12:35:17Z
 
@@ -14165,6 +14164,13 @@ created_by: slaulederkind
 creation_date: 2024-04-12T13:54:25Z
 
 [Term]
+id: XCO:0001351
+name: controlled neomycin sulfate content drinking water
+def: "This is any condition in which the main influencing factor is a drink made up of water and a specified amount of neomycin sulfate, the sulfate salt form of neomycin, a broad spectrum aminoglycoside antibiotic derived from Streptomyces fradiae with antibacterial activity. Neomycin is an antibiotic complex consisting of 3 components: the two isomeric components B and C are the active components, and neomycin A is the minor component. Neomycin is a protein synthesis inhibitor and bacteriacidal agent." []
+created_by: slaulederkind
+creation_date: 2024-04-15T09:49:25Z
+
+[Term]
 id: XCO:0001352
 name: controlled neomycin sulfate content drinking water
 def: "This is any condition in which the main influencing factor is a drink made up of water and a specified amount of neomycin sulfate, the sulfate salt form of neomycin, a broad spectrum aminoglycoside antibiotic derived from Streptomyces fradiae with antibacterial activity. Neomycin is an antibiotic complex consisting of 3 components: the two isomeric components B and C are the active components, and neomycin A is the minor component. Neomycin is a protein synthesis inhibitor and bacteriacidal agent." [CID:62403]
@@ -14278,7 +14284,7 @@ synonym: "pulmonary artery sham banding" EXACT []
 synonym: "pulmonary artery sham ligation" EXACT []
 synonym: "sham PAB" EXACT []
 is_a: XCO:0000100 ! sham surgical control condition
-relationship: part_of XCO:0001305 ! pulmonary artery occlusion
+is_a: XCO:0001305 ! pulmonary artery occlusion
 created_by: slaulederkind
 creation_date: 2024-04-16T14:35:03Z
 
@@ -14329,139 +14335,6 @@ xref: NCIT:C20134
 is_a: XCO:0000000 ! experimental condition
 created_by: slaulederkind
 creation_date: 2024-04-19T18:10:27Z
-
-[Term]
-id: XCO:0001366
-name: DMEM/F-12
-def: "This is any condition in which the main influencing factor is DMEM/F-12, a widely used basal medium for supporting the growth of many different mammalian cells. DMEM/F-12 is a 1:1 mixture of DMEM and Ham's F-12. This formulation combines DMEM's high concentrations of glucose, amino acids, and vitamins with F-12's wide variety of components. DMEM/F-12 uses a sodium bicarbonate buffer system and therefore requires a 5?10% CO2 environment to maintain physiological pH." [https://www.merriam-webster.com/, https://www.thermofisher.com/order/catalog/product/11320033?SID=srch-srp-11320033]
-synonym: "DMEM/F12" EXACT []
-synonym: "DMEM/Ham's F-12" EXACT []
-synonym: "Dulbecco's Modified Eagle Medium/Nutrient Mixture F-12" EXACT []
-xref: PMID:35030322
-relationship: has_component XCO:0000988 ! Dulbecco's Modified Eagle's Medium
-created_by: slaulederkind
-creation_date: 2024-04-22T16:52:52Z
-
-[Term]
-id: XCO:0001367
-name: medial meniscus transection
-def: "This is any condition in which the main influencing factor is medial meniscus transection, a model of osteoarthritis (OA) in the laboratory rat. The procedure involves transection of the medial collateral ligament, incision of the synovial membrane, and full transsection of the medial meniscus so as to form anterior and posterior halves of the meniscus." [https://www.merriam-webster.com/, PMID:36354073]
-synonym: "medial meniscal transection" EXACT []
-synonym: "MMT" EXACT []
-xref: PMID:32963278
-is_a: XCO:0000165 ! surgical manipulation
-created_by: slaulederkind
-creation_date: 2024-04-22T18:11:16Z
-
-[Term]
-id: XCO:0001368
-name: medial meniscus transection sham procedure
-def: "This is any condition in which the main influencing factor is a medial meniscus transection sham procedure, which follows the same surgical process as a medial meniscus transection without cutting the medial meniscus." [https://www.merriam-webster.com/, PMID:36354073]
-synonym: "medial meniscal transection sham procedure" EXACT []
-synonym: "MMT sham procedure" EXACT []
-xref: PMID:32963278
-is_a: XCO:0000100 ! sham surgical control condition
-relationship: part_of XCO:0001367 ! medial meniscus transection
-created_by: slaulederkind
-creation_date: 2024-04-22T18:33:41Z
-
-[Term]
-id: XCO:0001369
-name: exosomes
-def: "This is any condition in which the main influencing factor is exosomes, a subset of extracellular vesicles (EVs) generated by all cells from the endosomal compartment. Exosomes may carry nucleic acids, proteins, lipids, and metabolites." [PMID:32029601]
-synonym: "EVs of endosomal origin" EXACT []
-synonym: "extracellular vesicles of endosomal origin" EXACT []
-xref: PMID:37478186
-is_a: XCO:0000761 ! biologics and probiotics
-created_by: slaulederkind
-creation_date: 2024-04-25T13:56:16Z
-
-[Term]
-id: XCO:0001370
-name: Ancr/E7-exosomes
-def: "This is any condition in which the main influencing factor is Ancr/E7-modified exosomes, which are exosomes generated from Lamp2b-E7 transfected host cells, collected, and electroporated with lncRNA-ANCR. The experimental purpose of delivery of Ancr/E7-exosomes is blood vessel anticalcification." [PMID:_37478186]
-synonym: "Ancr/E7-EXO" EXACT []
-synonym: "Ancr/E7-modified exosomes" EXACT []
-xref: PMID:32029601
-is_a: XCO:0001369 ! exosomes
-created_by: slaulederkind
-creation_date: 2024-04-25T14:35:39Z
-
-[Term]
-id: XCO:0001371
-name: Ancr/E7 exosome-modified TEBV implantation
-def: "This is any condition in which the main influencing factor is Ancr/E7 exosome-modified TEBV implantation, which is the replacement of a blood vessel with a tissue-engineered blood vessel incorporating Ancr/E7 exosomes." [PMID:37478186]
-synonym: "Ancr/E7 exosome-modified tissue-engineered blood vessel implantation" EXACT []
-synonym: "PMID:32029601" EXACT []
-xref: PMID:23181145
-is_a: XCO:0000027 ! surgical implantation
-created_by: slaulederkind
-creation_date: 2024-04-25T15:01:50Z
-
-[Term]
-id: XCO:0001372
-name: TEBV implantation sham surgery
-def: "This is any condition in which the main influencing factor is TEBV implantation sham surgery, which follows the same surgical process as a TEBV implantation without the replacement of a blood vessel with a tissue-engineered blood vessel." [https://www.merriam-webster.com/, PMID:37478186]
-synonym: "tissue-engineered blood vessel implantation sham surgery" EXACT []
-is_a: XCO:0000100 ! sham surgical control condition
-relationship: part_of XCO:0001371 ! Ancr/E7 exosome-modified TEBV implantation
-created_by: slaulederkind
-creation_date: 2024-04-25T15:15:43Z
-
-[Term]
-id: XCO:0001373
-name: surgical nerve transection
-def: "This is any condition in which the main influencing factor is transection of some specific nerve, usually performed on a laboratory animal to study peripheral nerve injury." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
-synonym: "surgical transection of nerve" EXACT []
-xref: PMID:37660072
-xref: PMID:37946211
-is_a: XCO:0000165 ! surgical manipulation
-created_by: slaulederkind
-creation_date: 2024-04-26T13:43:46Z
-
-[Term]
-id: XCO:0001374
-name: spared nerve injury
-def: "This is any condition in which the main influencing factor is spared nerve injury, a model of neuropathic pain in rodents. The model consists of ligation/transection of the common peroneal and tibial nerves (two of the three branches of the sciatic nerve), while the sural nerve (third branch of the sciatic nerve) is left intact. This allows mechanical allodynia to be measured on the surface of the ipsilateral paw." [PMID:21876524]
-synonym: "SNI" EXACT []
-synonym: "SNI model" EXACT []
-synonym: "spared nerve injury model" EXACT []
-xref: PMID:37660072
-is_a: XCO:0001373 ! surgical nerve transection
-created_by: slaulederkind
-creation_date: 2024-04-26T14:06:48Z
-
-[Term]
-id: XCO:0001375
-name: spared nerve injury sham surgery
-def: "This is any condition in which the main influencing factor is spared nerve injury sham surgery, which follows the same surgical process as a spared nerve injury without the ligation/transection of the common peroneal and tibial nerves." [PMID:21876524]
-synonym: "SNI sham surgery" EXACT []
-xref: PMID:37660072
-is_a: XCO:0000100 ! sham surgical control condition
-relationship: part_of XCO:0001374 ! spared nerve injury
-created_by: slaulederkind
-creation_date: 2024-04-26T14:23:02Z
-
-[Term]
-id: XCO:0001376
-name: experimental spinal cord transection at T10/T11
-def: "This is any condition in which the main influencing factor is an experimental transection of the rat spinal cord at the vertebral level of thoracic 10/11 (T10/11). This procedure involves laminectomy of the tenth vertebra and complete transection of the isolated section of spinal cord." [ISBN-13:9780781733908, PMID:37744239]
-synonym: "SSCI" EXACT []
-synonym: "suprasacral spinal cord injury" EXACT []
-is_a: XCO:0001091 ! experimental spinal cord injury
-created_by: slaulederkind
-creation_date: 2024-04-29T15:57:35Z
-
-[Term]
-id: XCO:0001377
-name: experimental spinal cord transection at T10/T11 sham surgery
-def: "This is any condition in which the main influencing factor is an experimental spinal cord transection sham procedure at T10/T11, which follows the same surgical process through laminectomy, but no spinal cord transection occurs." [ISBN-13:9780781733908, PMID:37744239]
-synonym: "sham SSCI" EXACT []
-synonym: "sham suprasacral spinal cord injury" EXACT []
-is_a: XCO:0000100 ! sham surgical control condition
-relationship: part_of XCO:0001376 ! experimental spinal cord transection at T10/T11
-created_by: slaulederkind
-creation_date: 2024-04-29T16:09:31Z
 
 [Typedef]
 id: has_component

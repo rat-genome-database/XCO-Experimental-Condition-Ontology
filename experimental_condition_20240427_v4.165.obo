@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.166
-date: 04:05:2024 20:13
+data-version: 4.165
+date: 27:04:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -3931,7 +3931,7 @@ creation_date: 2014-03-05T10:27:59Z
 [Term]
 id: XCO:0000430
 name: silymarin
-def: "This is any condition in which the main influencing factor is silymarin, a strongly antioxidant mixture of flavonolignans extracted from the milk thistle plant (Silybum marianum). The components or silymarin are capable of scavenging both free radicals and reactive oxygen species (ROS)." [PMID:24145092]
+def: "A condition in which the main influencing factor is silymarin, a strongly antioxidant mixture of flavonolignans extracted from the milk thistle plant (Silybum marianum). The components or silymarin are capable of scavenging both free radicals and reactive oxygen species (ROS)." [PMID:24145092]
 is_a: XCO:0000271 ! antioxidant
 created_by: JSmith
 creation_date: 2014-03-05T10:39:11Z
@@ -14165,6 +14165,13 @@ created_by: slaulederkind
 creation_date: 2024-04-12T13:54:25Z
 
 [Term]
+id: XCO:0001351
+name: controlled neomycin sulfate content drinking water
+def: "This is any condition in which the main influencing factor is a drink made up of water and a specified amount of neomycin sulfate, the sulfate salt form of neomycin, a broad spectrum aminoglycoside antibiotic derived from Streptomyces fradiae with antibacterial activity. Neomycin is an antibiotic complex consisting of 3 components: the two isomeric components B and C are the active components, and neomycin A is the minor component. Neomycin is a protein synthesis inhibitor and bacteriacidal agent." []
+created_by: slaulederkind
+creation_date: 2024-04-15T09:49:25Z
+
+[Term]
 id: XCO:0001352
 name: controlled neomycin sulfate content drinking water
 def: "This is any condition in which the main influencing factor is a drink made up of water and a specified amount of neomycin sulfate, the sulfate salt form of neomycin, a broad spectrum aminoglycoside antibiotic derived from Streptomyces fradiae with antibacterial activity. Neomycin is an antibiotic complex consisting of 3 components: the two isomeric components B and C are the active components, and neomycin A is the minor component. Neomycin is a protein synthesis inhibitor and bacteriacidal agent." [CID:62403]
@@ -14441,27 +14448,6 @@ is_a: XCO:0000100 ! sham surgical control condition
 relationship: part_of XCO:0001374 ! spared nerve injury
 created_by: slaulederkind
 creation_date: 2024-04-26T14:23:02Z
-
-[Term]
-id: XCO:0001376
-name: experimental spinal cord transection at T10/T11
-def: "This is any condition in which the main influencing factor is an experimental transection of the rat spinal cord at the vertebral level of thoracic 10/11 (T10/11). This procedure involves laminectomy of the tenth vertebra and complete transection of the isolated section of spinal cord." [ISBN-13:9780781733908, PMID:37744239]
-synonym: "SSCI" EXACT []
-synonym: "suprasacral spinal cord injury" EXACT []
-is_a: XCO:0001091 ! experimental spinal cord injury
-created_by: slaulederkind
-creation_date: 2024-04-29T15:57:35Z
-
-[Term]
-id: XCO:0001377
-name: experimental spinal cord transection at T10/T11 sham surgery
-def: "This is any condition in which the main influencing factor is an experimental spinal cord transection sham procedure at T10/T11, which follows the same surgical process through laminectomy, but no spinal cord transection occurs." [ISBN-13:9780781733908, PMID:37744239]
-synonym: "sham SSCI" EXACT []
-synonym: "sham suprasacral spinal cord injury" EXACT []
-is_a: XCO:0000100 ! sham surgical control condition
-relationship: part_of XCO:0001376 ! experimental spinal cord transection at T10/T11
-created_by: slaulederkind
-creation_date: 2024-04-29T16:09:31Z
 
 [Typedef]
 id: has_component
