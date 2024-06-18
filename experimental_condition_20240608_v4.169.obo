@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.170
-date: 15:06:2024 20:13
+data-version: 4.169
+date: 08:06:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -61,17 +61,15 @@ is_a: XCO:0000059 ! physical activity
 
 [Term]
 id: XCO:0000009
-name: controlled atmospheric composition
-def: "This is any condition in which the main influencing factor is control of the amount of one or more of the gases which make up the air surrounding an organism, as part of the experiment on that organism." [https://www.merriam-webster.com/, ISBN:978-1416049982]
-synonym: "controlled atmosphere composition" EXACT []
+name: controlled atmosphere composition
+def: "An experimental condition in which the amount of one or more of the gases which make up the air surrounding an organism are controlled, or in which additional components are added to the air surrounding an organism, as part of the experiment on that organism." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, RGD:MS]
 is_a: XCO:0000998 ! controlled breathing condition
 
 [Term]
 id: XCO:0000010
 name: controlled air oxygen content
-def: "This is any condition in which the main influencing factor is controlled air oxygen content surrounding an organism or breathed by the organism as part of the experiment." [RGD:MS]
-synonym: "air oxygen content" EXACT []
-relationship: part_of XCO:0000009 ! controlled atmospheric composition
+def: "A condition in which the oxygen level of the air surrounding an organism or breathed by the organism is controlled as part of the experiment." [RGD:MS]
+relationship: part_of XCO:0000009 ! controlled atmosphere composition
 
 [Term]
 id: XCO:0000011
@@ -81,10 +79,9 @@ is_a: XCO:0000111 ! temperature exposure
 
 [Term]
 id: XCO:0000012
-name: controlled air carbon dioxide content
-def: "This is any condition in which the main influencing factor is controlled air carbon dioxide content surrounding an organism or breathed by the organism as part of the experiment." [RGD:MS]
-synonym: "air carbon dioxide content" EXACT []
-relationship: part_of XCO:0000009 ! controlled atmospheric composition
+name: air carbon dioxide content
+def: "A condition in which the level of carbon dioxide in the air surrounding the organism or breathed by the organism is controlled as part of the experiment." [RGD:MS]
+relationship: part_of XCO:0000009 ! controlled atmosphere composition
 
 [Term]
 id: XCO:0000013
@@ -374,8 +371,8 @@ is_obsolete: true
 [Term]
 id: XCO:0000057
 name: rebreathed air
-def: "This is any experimental condition in which the main influencing factor is rebreathed air, air which has been exhaled and breathed in again." [Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
-is_a: XCO:0000009 ! controlled atmospheric composition
+def: "Breathing in again air which has been exhaled." [Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
+relationship: part_of XCO:0000009 ! controlled atmosphere composition
 created_by: mshimoyama
 creation_date: 2009-12-17T01:47:13Z
 
@@ -2294,7 +2291,7 @@ creation_date: 2013-03-01T17:35:20Z
 [Term]
 id: XCO:0000263
 name: pristane
-def: "This is any condition in which the main influencing factor is pristane, an acyclic saturated hydrocarbon derived from phytane by loss of its C-16 terminal methyl group. Pristane has a role as a biomarker and an immunological adjuvant. It is a norterpene and a long-chain alkane." []
+def: "A condition in which the major influencing factor is an acyclic saturated hydrocarbon derived from phytane by loss of its C-16 terminal methyl group." []
 synonym: "2,6,10,14-tetramethylpentadecane" EXACT []
 xref: CHEBI:53181
 xref: MESH:C009042
@@ -3533,7 +3530,7 @@ id: XCO:0000389
 name: controlled cigarette smoke content
 def: "A condition in which the air surrounding an organism or breathed by the organism contains a controlled amount of cigarette smoke, the combined gases and particulates given off when tobacco in the form of a cigarette burns or smolders. A cigarette is a cylinder of cut blonde or black tobacco ensheathed in a tube of paper, with or without an incorporated filter to decrease inhaled tars." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine]
 synonym: "exposure to atmospheric cigarette smoke" RELATED []
-relationship: part_of XCO:0000009 ! controlled atmospheric composition
+relationship: part_of XCO:0000009 ! controlled atmosphere composition
 created_by: JSmith
 creation_date: 2014-01-21T16:58:06Z
 
@@ -4898,7 +4895,7 @@ creation_date: 2017-08-11T16:51:14Z
 [Term]
 id: XCO:0000528
 name: gene transfer
-def: "This is any condition in which copies of an exogenous gene have been transiently or stably inserted into a living cell or organism in order to induce synthesis of that gene's product or to block synthesis of some gene product." [Webster:Random_House_Kernerman_Websters_College_Dictionary_2010]
+def: "A condition in which copies of an exogenous gene have been  (transiently or stably) inserted into a living cell or organism in order to induce synthesis of that gene's product." [Webster:Random_House_Kernerman_Websters_College_Dictionary_2010]
 synonym: "horizontal gene transfer" RELATED []
 is_a: XCO:0000527 ! genetic manipulation
 created_by: jesmith
@@ -5911,10 +5908,9 @@ creation_date: 2019-07-17T10:22:31Z
 [Term]
 id: XCO:0000627
 name: spironolactone
-def: "Any condition in which the main influencing factor is spironolactone, a potassium-sparing diuretic that competitively inhibits mineralocorticoid receptors in the distal convoluted tubule to promote sodium and water excretion and potassium retention. Spironolactone is indicated to treat a number of conditions including heart failure, edema, hyperaldosteronism, adrenal hyperplasia, hypertension, and nephrotic syndrome." [drugbank:DB00421]
-synonym: "7alpha-(acetylsulfanyl)-3-oxo-17alpha-pregn-4-ene-21,17-carbolactone" EXACT []
+def: "Any condition in which the main influencing factor isspironolactone, a potassium-sparing diuretic that competitively inhibits mineralocorticoid receptors in the distal convoluted tubule to promote sodium and water excretion and potassium retention. Spironolactone is indicated to treat a number of conditions including heart failure, edema, hyperaldosteronism, adrenal hyperplasia, hypertension, and nephrotic syndrome." [drugbank:DB00421]
+synonym: "DB00421" EXACT []
 xref: CHEBI:9241
-xref: MESH:D013148
 is_a: XCO:0000122 ! diuretic
 is_a: XCO:0000838 ! mineralocorticoid receptor antagonist
 created_by: sjwang
@@ -9591,8 +9587,7 @@ name: 10% CO2, 20% O2, 70% N2
 def: "This is a condition in which the level of carbon dioxide (10%), oxygen (20%), and nitrogen (70%) in the air surrounding the organism or breathed by the organism is controlled as part of the experiment." [https://www.merriam-webster.com/, PMID:21421817]
 xref: PMID:21421817
 is_a: XCO:0000010 ! controlled air oxygen content
-is_a: XCO:0000012 ! controlled air carbon dioxide content
-is_a: XCO:0001403 ! controlled air nitrogen content
+is_a: XCO:0000012 ! air carbon dioxide content
 created_by: slaulede
 creation_date: 2022-07-18T18:12:29Z
 
@@ -9958,7 +9953,7 @@ synonym: "air H2O content" EXACT []
 synonym: "controlled H2O content air" EXACT []
 synonym: "controlled water content air" EXACT []
 xref: PMID:26640375
-is_a: XCO:0000009 ! controlled atmospheric composition
+is_a: XCO:0000009 ! controlled atmosphere composition
 created_by: slaulede
 creation_date: 2023-03-14T14:39:30Z
 
@@ -9987,12 +9982,13 @@ creation_date: 2023-03-14T15:14:58Z
 [Term]
 id: XCO:0000996
 name: transfer of CHAER1 siRNA using Lipofectamine reagent
-def: "This is any condition in which the main influencing factor is CHAER1 (cardiac hypertrophy associated epigenetic regulator 1) siRNA (small interfering RNA) transfected by Lipofectamine. Small interfering RNA (siRNA) is a class of double-stranded RNA (20-24bp) that acts in the RNA interference pathway, by interfering with the expression of genes with complementary nucleotide sequence to that of siRNA, inducing mRNA degradation. CHAER1 is an ncRNA involved in epigenetic regulation of gene expression. Lipofectamine is a proprietary formulation for transfecting small RNAs into cultured eukaryotic cells." [https://en.wikipedia.org/wiki/Small_interfering_RNA, https://www.thermofisher.com/us/en/home/life-science/cell-culture/transfection/transfection-reagents/lipofectamine-rnaimax-reagent.html]
+def: "This is any condition in which the main influencing factor is CHAER1 (cardiac hypertrophy associated epigenetic regulator 1) siRNA transfected by Lipofectamine. CHAER1 is an ncRNA involved in epigenetic regulation of gene expression. Lipofectamine is a proprietary formulation for transfecting small RNAs into cultured eukaryotic cells." [https://en.wikipedia.org/wiki/Small_interfering_RNA, https://www.thermofisher.com/us/en/home/life-science/cell-culture/transfection/transfection-reagents/lipofectamine-rnaimax-reagent.html]
 synonym: "transfection of CHAER1 short interfering RNA using Lipofectamine reagent" EXACT []
 synonym: "transfection of CHAER1 silencing RNA using Lipofectamine reagent" EXACT []
 synonym: "transfection of CHAER1 siRNA using Lipofectamine reagent" EXACT []
 synonym: "transfection of CHAER1 small interfering RNA using Lipofectamine reagent" EXACT []
 xref: PMID:27618650
+is_a: XCO:0000233 ! ribonucleic acid
 is_a: XCO:0000528 ! gene transfer
 created_by: slaulede
 creation_date: 2023-03-23T13:58:48Z
@@ -10000,13 +9996,13 @@ creation_date: 2023-03-23T13:58:48Z
 [Term]
 id: XCO:0000997
 name: transfer of negative control siRNA using Lipofectamine reagent
-def: "This is any condition in which the main influencing factor is negative control siRNA (small interfering RNA) delivered with Lipofectamine. Negative control siRNA is an siRNA with no significant sequence similarity to eukaryotic gene sequences. Lipofectamine is a proprietary formulation for transfecting small RNAs into cultured eukaryotic cells." [https://en.wikipedia.org/wiki/Small_interfering_RNA, https://www.thermofisher.com/us/en/home/life-science/cell-culture/transfection/transfection-reagents/lipofectamine-rnaimax-reagent.html]
+def: "This is any condition in which the main influencing factor is negative control siRNA delivered with Lipofectamine. Negative control siRNA is an siRNA with no significant sequence similarity to eukaryotic gene sequences. Lipofectamine is a proprietary formulation for transfecting small RNAs into cultured eukaryotic cells." [https://en.wikipedia.org/wiki/Small_interfering_RNA, https://www.thermofisher.com/us/en/home/life-science/cell-culture/transfection/transfection-reagents/lipofectamine-rnaimax-reagent.html]
 synonym: "transfection of negative control short interfering RNA using Lipofectamine reagent" EXACT []
 synonym: "transfection of negative control silencing RNA using Lipofectamine reagent" EXACT []
 synonym: "transfection of negative control siRNA using Lipofectamine reagent" EXACT []
 synonym: "transfection of negative control small interfering RNA using Lipofectamine reagent" EXACT []
 xref: PMID:27618650
-is_a: XCO:0000528 ! gene transfer
+is_a: XCO:0000233 ! ribonucleic acid
 created_by: slaulede
 creation_date: 2023-03-23T14:11:37Z
 
@@ -11171,7 +11167,7 @@ xref: CHEBI:30563
 xref: CHEBI:46727
 xref: MESH:D011791
 xref: MESH:D012822
-is_a: XCO:0000009 ! controlled atmospheric composition
+is_a: XCO:0000009 ! controlled atmosphere composition
 is_a: XCO:0001098 ! crystalline silica
 created_by: slaulederkind
 creation_date: 2023-11-09T10:36:46Z
@@ -13804,7 +13800,7 @@ id: XCO:0001319
 name: 3D printed scaffold
 def: "This is any condition in which the main influencing factor is implantation of a 3D printed scaffold, an artificial construct which mimics the extracellular matrix of the host tissue. The scaffold may be made of natural or synthetic polymers, metal, or ceramic." [https://www.sciencedirect.com/science/article/pii/S2590238522002983, https://www.sciencedirect.com/topics/materials-science/scaffold-for-tissue-engineering]
 xref: PMID:35040587
-is_a: XCO:0001409 ! tissue engineering scaffold
+is_a: XCO:0000027 ! surgical implantation
 created_by: slaulederkind
 creation_date: 2024-03-25T14:44:30Z
 
@@ -14630,25 +14626,23 @@ creation_date: 2024-05-31T18:55:30Z
 
 [Term]
 id: XCO:0001390
-name: CGG hydrogel scaffold
+name: CGG hydrogel implantation
 def: "This is any condition in which the main influencing factor is implantation of a CGG hydrogel, a biomimetic hydrogel composed of gelatin and chitosan networks covalently cross-linked by genipin. Additional components added to these gel scaffolds are intended to increase mechanical performance and the migration, proliferation, and osteodifferentiation of endogenous mesenchymal stem cells (MSCs). Hydrogel implants are one of many methods used in bone tissue engineering." [PMID:38284176]
-synonym: "CGG hydrogel implantation" EXACT []
 synonym: "genipin cross-linked biomimetic hydrogel implantation" EXACT []
 xref: PMID:32752105
-is_a: XCO:0001409 ! tissue engineering scaffold
+is_a: XCO:0000027 ! surgical implantation
 created_by: slaulederkind
 creation_date: 2024-06-03T13:49:46Z
 
 [Term]
 id: XCO:0001391
-name: CGG-Cit hydrogel scaffold
+name: CGG-Cit hydrogel implantation
 def: "This is any condition in which the main influencing factor is implantation of a CGG-Cit hydrogel, a citrate (Cit)-coordinated CGG hydrogel composed of gelatin and chitosan networks covalently cross-linked by genipin and coordinated with sodium citrate (Na3Cit). Sodium citrate used in the formation of these gel scaffolds increase mechanical performance and the migration, proliferation, and osteodifferentiation of endogenous mesenchymal stem cells (MSCs)." [PMID:38284176]
-synonym: "CGG-Cit hydrogel implantation" EXACT []
 synonym: "CGG-citrate hydrogel implantation" EXACT []
 synonym: "citrate-based hydrogel implantation" EXACT []
 synonym: "Na3Cit-coordinated CGG hydrogel implantation" EXACT []
 xref: PMID:32752105
-is_a: XCO:0001390 ! CGG hydrogel scaffold
+is_a: XCO:0001390 ! CGG hydrogel implantation
 created_by: slaulederkind
 creation_date: 2024-06-03T14:14:56Z
 
@@ -14693,189 +14687,6 @@ is_a: XCO:0000026 ! surgical removal
 is_a: XCO:0001394 ! osteotomy
 created_by: slaulederkind
 creation_date: 2024-06-07T15:36:01Z
-
-[Term]
-id: XCO:0001396
-name: transfer of circNrxn3 siRNA using jetPEI transfection reagent
-def: "This is any condition in which the main influencing factor is circNrxn3 (a circular RNA originating from the neurexin 3 gene) siRNA transfected by jetPEI transfection reagent. JetPEI transfection reagent is a linear polyethylenimine derivative, designed for high throughput screening (HTS) in adherent and suspension cell cultures." [https://www.polyplus-sartorius.com/products/jetpei, PMID:38036039]
-synonym: "transfection of circNrxn3 short interfering RNA using jetPEI transfection reagent" EXACT []
-synonym: "transfection of circNrxn3 silencing RNA using jetPEI transfection reagent" EXACT []
-synonym: "transfection of circNrxn3 siRNA using jetPEI transfection reagent" EXACT []
-synonym: "transfection of circNrxn3 small interfering RNA using jetPEI transfection reagent" EXACT []
-is_a: XCO:0000528 ! gene transfer
-created_by: slaulederkind
-creation_date: 2024-06-10T15:20:19Z
-
-[Term]
-id: XCO:0001397
-name: transfer of negative control siRNA using jetPEI transfection reagent
-def: "This is any condition in which the main influencing factor is negative control siRNA delivered with jetPEI transfection reagent. Negative control siRNA is an siRNA with no significant sequence similarity to eukaryotic gene sequences. JetPEI transfection reagent is a linear polyethylenimine derivative, designed for high throughput screening (HTS) in adherent and suspension cell cultures." [https://www.polyplus-sartorius.com/products/jetpei, PMID:38036039]
-synonym: "transfection of negative control short interfering RNA using jetPEI transfection reagent" EXACT []
-synonym: "transfection of negative control silencing RNA using jetPEI transfection reagent" EXACT []
-synonym: "transfection of negative control siRNA using jetPEI transfection reagent" EXACT []
-synonym: "transfection of negative control small interfering RNA using jetPEI transfection reagent" EXACT []
-is_a: XCO:0000528 ! gene transfer
-created_by: slaulederkind
-creation_date: 2024-06-10T15:30:39Z
-
-[Term]
-id: XCO:0001398
-name: phenylethanoid glycosides
-def: "This is any condition in which the main influencing factor is phenylethanoid glycosides (PhGs), a class of natural glycosides containing hydroxy-methoxy-substituted phenylethyl and hydroxy-methoxy-substituted cinnamoyl groups, usually with central glucose as the parent core, and also an ester bond and oxygen glycoside bond. PhGs are obtained from a wide range of sources and show strong biological and pharmacological activities, such as antioxidant, antibacterial and neuroprotective effects." [PMID:35267401]
-synonym: "PGC" NARROW []
-synonym: "phenylethanoid glycosides of desert-living Cistanche" NARROW []
-synonym: "PhGs" EXACT []
-xref: PMID:37439895
-is_a: XCO:0000271 ! antioxidant
-is_a: XCO:0000483 ! antibacterial agent
-is_a: XCO:0000850 ! therapeutic agent
-created_by: slaulederkind
-creation_date: 2024-06-10T16:07:10Z
-
-[Term]
-id: XCO:0001399
-name: sevoflurane
-def: "This is any condition in which the main influencing factor is sevoflurane, an ether compound having fluoromethyl and 1,1,1,3,3,3-hexafluoroisopropyl as the two alkyl groups. Sevoflurane is a non-explosive inhalation anesthetic used in the induction and maintenance of general anesthesia. It does not cause respiratory irritation and may also prevent platelet aggregation." [MESH:D000077149, XCO:0000088]
-synonym: "1,1,1,3,3,3-Hexafluoro-2-(fluoromethoxy)propane" EXACT []
-synonym: "fluoromethyl hexafluoroisopropyl ether" EXACT []
-xref: CID:5206
-is_a: XCO:0000106 ! anesthetic/analgesic
-is_a: XCO:0001196 ! ethers
-created_by: slaulederkind
-creation_date: 2024-06-10T17:18:06Z
-
-[Term]
-id: XCO:0001400
-name: desflurane
-def: "This is any condition in which the main influencing factor is desflurane, an organofluorine compound that is an inhalation anaesthetic functionally related to methoxyethane." [CID:42113]
-synonym: "2-(difluoromethoxy)-1,1,1,2-tetrafluoroethane" EXACT []
-synonym: "difluoromethyl 1,2,2,2-tetrafluoroethyl ether" EXACT []
-xref: CHEBI:4445
-is_a: XCO:0000106 ! anesthetic/analgesic
-created_by: slaulederkind
-creation_date: 2024-06-10T17:37:14Z
-
-[Term]
-id: XCO:0001401
-name: Xiaogu San
-def: "This is any condition in which the main influencing factor is Xiaogu San, a multi-herbal composition (traditional chinese medicine formula) which contains components commonly prescribed in the treatment of pain and inflammation.." [PMID:34629040]
-synonym: "XGS" EXACT []
-is_a: XCO:0000850 ! therapeutic agent
-created_by: slaulederkind
-creation_date: 2024-06-11T15:21:30Z
-
-[Term]
-id: XCO:0001402
-name: 21% O2, 79% N2
-def: "This is a condition in which the level of oxygen (21%) and nitrogen (79%) in the air surrounding the organism or breathed by the organism is controlled as part of the experiment." [https://www.merriam-webster.com/, PMID:33230951]
-synonym: "normoxia" EXACT []
-xref: PMID:33230951
-is_a: XCO:0000010 ! controlled air oxygen content
-is_a: XCO:0001403 ! controlled air nitrogen content
-created_by: slaulederkind
-creation_date: 2024-06-11T16:27:54Z
-
-[Term]
-id: XCO:0001403
-name: controlled air nitrogen content
-def: "This is any condition in which the main influencing factor is controlled air nitrogen content surrounding an organism or breathed by the organism as part of the experiment." [https://www.merriam-webster.com/, PMID:33230951]
-xref: PMID:33230951
-is_a: XCO:0000009 ! controlled atmospheric composition
-created_by: slaulederkind
-creation_date: 2024-06-11T16:33:00Z
-
-[Term]
-id: XCO:0001404
-name: 42% O2, 58% N2
-def: "This is a condition in which the level of oxygen (42%) and nitrogen (58%) in the air surrounding the organism or breathed by the organism is controlled as part of the experiment." [https://www.merriam-webster.com/, PMID:33230951]
-xref: PMID:33230951
-is_a: XCO:0000010 ! controlled air oxygen content
-is_a: XCO:0001403 ! controlled air nitrogen content
-created_by: slaulederkind
-creation_date: 2024-06-11T16:39:06Z
-
-[Term]
-id: XCO:0001405
-name: controlled atmospheric pressure
-def: "This is any condition in which the main influencing factor is controlled atmospheric pressure, which involves controlling volume of the air, temperature of the air, and humidity of the air breathed. Controlled atmospheric pressure may be achieved by the use of a hypobaric or hyperbaric chamber." [https://www.dellamarca.it/en/what-and-how-the-pressure-chamber-works/#, https://www.merriam-webster.com/]
-xref: PMID:33230951
-is_a: XCO:0000998 ! controlled breathing condition
-created_by: slaulederkind
-creation_date: 2024-06-11T17:07:49Z
-
-[Term]
-id: XCO:0001406
-name: hypobaric chamber
-def: "This is any condition in which the main influencing factor is a hypobaric chamber, which lowers atmospheric pressure to simulate high altitude." [https://www.dellamarca.it/en/what-and-how-the-pressure-chamber-works/#, https://www.merriam-webster.com/]
-synonym: "altitude chamber" EXACT []
-synonym: "pressure chamber" EXACT []
-is_a: XCO:0001405 ! controlled atmospheric pressure
-created_by: slaulederkind
-creation_date: 2024-06-11T17:23:50Z
-
-[Term]
-id: XCO:0001407
-name: dextran sulfate sodium
-def: "This is any condition in which the main influencing factor is dextran sulfate sodium, a synthetic sulfated polysaccharide with anticoagulant activity used in immunological research to induce colitis. Dextran polymer molecules with a molecular weight of 36-50 kDa are frequently used to produce colitis in rodents." [https://en.wikipedia.org/wiki/Dextran_sulphate_sodium]
-synonym: "dextran sodium sulfate" EXACT []
-synonym: "DSS" EXACT []
-xref: CHEBI:191875
-is_a: XCO:0001090 ! anticoagulant
-relationship: has_component XCO:0000253 ! sodium ion
-created_by: slaulederkind
-creation_date: 2024-06-13T17:25:50Z
-
-[Term]
-id: XCO:0001408
-name: controlled dextran sulfate sodium content drinking water
-def: "This is any condition in which the main influencing factor is a drink made up of water and a specified amount of dextran sulfate sodium, a synthetic, sulfated polysaccharide with anticoagulant activity used in immunological research to induce colitis." [https://en.wikipedia.org/wiki/Dextran_sulphate_sodium, https://www.merriam-webster.com/]
-synonym: "controlled dextran sodium sulfate content drinking water" EXACT []
-synonym: "controlled DSS content drinking water" EXACT []
-is_a: XCO:0000163 ! controlled content drinking water
-relationship: has_component XCO:0001407 ! dextran sulfate sodium
-created_by: slaulederkind
-creation_date: 2024-06-13T17:33:05Z
-
-[Term]
-id: XCO:0001409
-name: tissue engineering scaffold
-def: "This is any condition in which the main influencing factor is implantation of an engineered tissue scaffold, an artificial construct which mimics the extracellular matrix of the host tissue. The scaffold may be made of natural or synthetic polymers, metal, or ceramic." [https://www.sciencedirect.com/science/article/pii/S2590238522002983, https://www.sciencedirect.com/topics/materials-science/scaffold-for-tissue-engineering]
-synonym: "Not4Curation" RELATED []
-xref: PMID:38654018
-is_a: XCO:0000027 ! surgical implantation
-created_by: slaulederkind
-creation_date: 2024-06-14T15:41:14Z
-
-[Term]
-id: XCO:0001410
-name: GelMA scaffold
-def: "This is any condition in which the main influencing factor is implantation of a gelatin-methacryloyl (GelMA) scaffold, a tissue scaffold made of methacrylated gelatin (collagen). GelMA has been widely utilized for diverse tissue engineering applications." [https://www.sciencedirect.com/science/article/pii/S2590238522002983, PMID:38654018]
-synonym: "gelatin-methacryloyl scaffold" EXACT []
-is_a: XCO:0001409 ! tissue engineering scaffold
-created_by: slaulederkind
-creation_date: 2024-06-14T16:08:19Z
-
-[Term]
-id: XCO:0001411
-name: CTS scaffold
-def: "This is any condition in which the main influencing factor is implantation of a porous chitosan (CTS) scaffold, a tissue scaffold made of macroporous chitosan hydrogel. Chitosan is a linear polysaccharide composed of randomly distributed β-(1→4)-linked D-glucosamine (deacetylated unit) and N-acetyl-D-glucosamine. Chitosan is attractive as a bone scaffold material because it supports the attachment and proliferation of osteoblasts as well as formation of mineralized bone matrix." [https://en.wikipedia.org/wiki/Chitosan, PMID:24999429]
-synonym: "chitosan scaffold" EXACT []
-xref: PMID:38654018
-is_a: XCO:0001409 ! tissue engineering scaffold
-created_by: slaulederkind
-creation_date: 2024-06-14T16:51:04Z
-
-[Term]
-id: XCO:0001412
-name: PLA scaffold
-def: "This is any condition in which the main influencing factor is implantation of a polylactic acid (PLA) scaffold, a tissue scaffold made of Poly(L-Lactic acid) in the form of a nanofiber membrane made by electrospinning. Electrospinning leads to membranes with relatively uniform pore size distribution with high interconnectivity of pores and significantly higher porosity, typically around 80%." [https://www.sciencedirect.com/science/article/pii/S0011916414005190, PMID:35582285]
-synonym: "L-Lactide polymer scaffold" EXACT []
-synonym: "PLA scaffold implant" EXACT []
-synonym: "poly(L-Lactic acid) scaffold" EXACT []
-synonym: "polylactic acid scaffold" EXACT []
-is_a: XCO:0001409 ! tissue engineering scaffold
-created_by: slaulederkind
-creation_date: 2024-06-14T17:25:28Z
 
 [Typedef]
 id: has_component
