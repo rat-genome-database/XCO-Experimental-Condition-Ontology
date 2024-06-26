@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.171
-date: 22:06:2024 20:13
+data-version: 4.170
+date: 15:06:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -2367,6 +2367,7 @@ def: "A sulfur-containing carboxylic acid with a pyrrolidine substituent at C-1,
 xref: CHEBI:3380
 is_a: XCO:0000140 ! vasodilator
 is_a: XCO:0000524 ! angiotensin converting enzyme inhibitor
+is_a: XCO:0000863 ! antihypertensive agent
 created_by: JSmith
 creation_date: 2013-03-11T16:51:57Z
 
@@ -2839,7 +2840,6 @@ creation_date: 2013-06-25T15:13:18Z
 id: XCO:0000318
 name: surgical construction
 def: "A process in which manual and instrumental techniques are used to assemble or combine parts or substances, especially in order to create something new." [Cambridge:Cambridge_Online_Dictionary_of_American_English, Collins:Collins_Online_English_Dictionary, http://en.wikipedia.org/wiki/Surgery "Wikipedia"]
-synonym: "Not4Curation" RELATED []
 is_a: XCO:0000165 ! surgical manipulation
 created_by: JSmith
 creation_date: 2013-06-25T16:06:11Z
@@ -9083,9 +9083,8 @@ creation_date: 2021-11-30T17:49:55Z
 [Term]
 id: XCO:0000917
 name: distilled water
-def: "This is any condition in which the main influencing factor is distilled water, which is purified by successive evaporation and condensation. It is experimentally provided for hydration or as a vehicle control for some dissolved substance." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
+def: "The clear, colorless, odorless, tasteless liquid each molecule of which contains one atom of oxygen and two atoms of hydrogen (H2O), purified by successive evaporation and condensation. It is experimentally provided for hydration or as a vehicle control for some dissolved substance." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
 synonym: "clarified water" RELATED []
-synonym: "dH2O" EXACT []
 synonym: "distilled H2O" EXACT []
 synonym: "purified water" RELATED []
 xref: PMID:12684228
@@ -13802,42 +13801,39 @@ creation_date: 2024-03-21T17:30:51Z
 
 [Term]
 id: XCO:0001319
-name: 3D printed scaffold implantation
+name: 3D printed scaffold
 def: "This is any condition in which the main influencing factor is implantation of a 3D printed scaffold, an artificial construct which mimics the extracellular matrix of the host tissue. The scaffold may be made of natural or synthetic polymers, metal, or ceramic." [https://www.sciencedirect.com/science/article/pii/S2590238522002983, https://www.sciencedirect.com/topics/materials-science/scaffold-for-tissue-engineering]
 xref: PMID:35040587
-is_a: XCO:0001409 ! tissue engineering scaffold implantation
+is_a: XCO:0001409 ! tissue engineering scaffold
 created_by: slaulederkind
 creation_date: 2024-03-25T14:44:30Z
 
 [Term]
 id: XCO:0001320
-name: 3D printed GelMA scaffold implantation
+name: 3D printed GelMA scaffold
 def: "This is any condition in which the main influencing factor is implantation of a 3D printed gelatin-methacryloyl (GelMA) scaffold, a tissue scaffold made of the bioprintable, natural polymer hydrogel gelatin methacryloyl. GelMA has been widely utilized for diverse tissue engineering applications." [PMID:38507816]
-synonym: "3D printed gelatin methacryloyl scaffold implant" EXACT []
-synonym: "3D printed gelatin methacryloyl scaffold implantation" EXACT []
+synonym: "3D printed gelatin methacryloyl scaffold" EXACT []
 xref: PMID:35040587
 xref: PMID:38507816
-is_a: XCO:0001319 ! 3D printed scaffold implantation
+is_a: XCO:0001319 ! 3D printed scaffold
 created_by: slaulederkind
 creation_date: 2024-03-25T15:16:51Z
 
 [Term]
 id: XCO:0001321
-name: 3D printed PCL scaffold implantation
-def: "This is any condition in which the main influencing factor is implantation of a 3D printed polycaprolactone (PCL) scaffold, a tissue scaffold made of the printable, synthetic polymer material polycaprolactone. PCL has been used in bone tissue engineering due to its advantages such as good biocompatibility, slow degradation rate, and the potential for loadbearing applications. PCL has also been tested for tendon repair." [PMID:35040587]
-synonym: "3D printed polycaprolactone scaffold implantation" EXACT []
-is_a: XCO:0001319 ! 3D printed scaffold implantation
+name: 3D printed PCL scaffold
+def: "This is any condition in which the main influencing factor is implantation of a 3D printed polycaprolactone (PCL) scaffold, a tissue scaffold made of the printable, synthetic polymer material polycaprolactone. PCL has been used in bone tissue engineering due to its advantages such as good biocompatibility, slow degradation rate, and the potential for loadbearing applications. PCL has also been tested for tendon repair." []
+is_a: XCO:0001319 ! 3D printed scaffold
 created_by: slaulederkind
 creation_date: 2024-03-25T15:49:18Z
 
 [Term]
 id: XCO:0001322
-name: 3D printed β‐TCP scaffold implantation
-def: "This is any condition in which the main influencing factor is implantation of a 3D printed β‐TCP scaffold, a tissue scaffold made of a printable, bioceramic material (mainly β‐tricalcium phosphate/β‐TCP). β-tricalcium phosphate (β-TCP) is one the most used and potent synthetic bone graft substitutes. β-TCP has the beneficial properties of biocompatibility, osteoconductivity, osteoinductivity, and biodegradability." [PMID:35669331]
-synonym: "3D printed β-tricalcium phosphate scaffold implant" EXACT []
-synonym: "3D printed β-tricalcium phosphate scaffold implantation" EXACT []
+name: 3D printed &#946;&#8208;TCP scaffold
+def: "This is any condition in which the main influencing factor is implantation of a 3D printed &#946;&#8208;TCP scaffold, a tissue scaffold made of a printable, bioceramic material (mainly &#946;&#8208;tricalcium phosphate/&#946;&#8208;TCP). &#946;-tricalcium phosphate (&#946;-TCP) is one the most used and potent synthetic bone graft substitutes. &#946;-TCP has the beneficial properties of biocompatibility, osteoconductivity, osteoinductivity, and biodegradability." [PMID:35669331]
+synonym: "3D printed &#946;-tricalcium phosphate scaffold" EXACT []
 xref: PMID:35040587
-is_a: XCO:0001319 ! 3D printed scaffold implantation
+is_a: XCO:0001319 ! 3D printed scaffold
 created_by: slaulederkind
 creation_date: 2024-03-26T13:38:24Z
 
@@ -13991,7 +13987,7 @@ creation_date: 2024-04-04T10:34:20Z
 [Term]
 id: XCO:0001335
 name: transgenerational maternal exposure to oxycodone
-def: "This is any condition in which the main influencing factor is any maternal exposure to oxycodone that has transgenerational effects. This is a condition typically studied to determine the effect of maternal (F0) oxycodone use/exposure on the F2/F3 offspring by direct effects on the F1/F2 generations in utero or during nursing, or by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of F1 offspring to affect the F2 generation. The maternal exposure may be any time after gestational development of germline cells in the F1 generation up to the time of weaning of F1 offspring to affect the F3 generation." [https://www.merriam-webster.com, PMID:25839742]
+def: "This is any condition in which the main influencing factor is any maternal exposure to oxycodone that has transgenerational effects. This is a condition typically studied to determine the effect of maternal (F0) oxycodone use/exposure on the F2/F3 offspring by direct effects on the F1/F2 generations in utero or during nursing, or by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of F1 offspring to affect the F2 generation. The maternal exposure may be any time after gestational developent of germline cells in the F1 generation up to the time of weaning of F1 offspring to affect the F3 generation." [https://www.merriam-webster.com, PMID:25839742]
 xref: CHEBI:7852
 xref: PMID:33490084
 is_a: XCO:0001330 ! oxycodone
@@ -14634,25 +14630,25 @@ creation_date: 2024-05-31T18:55:30Z
 
 [Term]
 id: XCO:0001390
-name: CGG hydrogel implantation
+name: CGG hydrogel scaffold
 def: "This is any condition in which the main influencing factor is implantation of a CGG hydrogel, a biomimetic hydrogel composed of gelatin and chitosan networks covalently cross-linked by genipin. Additional components added to these gel scaffolds are intended to increase mechanical performance and the migration, proliferation, and osteodifferentiation of endogenous mesenchymal stem cells (MSCs). Hydrogel implants are one of many methods used in bone tissue engineering." [PMID:38284176]
-synonym: "CGG hydrogel scaffold implantation" EXACT []
+synonym: "CGG hydrogel implantation" EXACT []
 synonym: "genipin cross-linked biomimetic hydrogel implantation" EXACT []
 xref: PMID:32752105
-is_a: XCO:0001409 ! tissue engineering scaffold implantation
+is_a: XCO:0001409 ! tissue engineering scaffold
 created_by: slaulederkind
 creation_date: 2024-06-03T13:49:46Z
 
 [Term]
 id: XCO:0001391
-name: CGG-Cit hydrogel implantation
+name: CGG-Cit hydrogel scaffold
 def: "This is any condition in which the main influencing factor is implantation of a CGG-Cit hydrogel, a citrate (Cit)-coordinated CGG hydrogel composed of gelatin and chitosan networks covalently cross-linked by genipin and coordinated with sodium citrate (Na3Cit). Sodium citrate used in the formation of these gel scaffolds increase mechanical performance and the migration, proliferation, and osteodifferentiation of endogenous mesenchymal stem cells (MSCs)." [PMID:38284176]
-synonym: "CGG-Cit hydrogel scaffold implantation" EXACT []
+synonym: "CGG-Cit hydrogel implantation" EXACT []
 synonym: "CGG-citrate hydrogel implantation" EXACT []
 synonym: "citrate-based hydrogel implantation" EXACT []
 synonym: "Na3Cit-coordinated CGG hydrogel implantation" EXACT []
 xref: PMID:32752105
-is_a: XCO:0001390 ! CGG hydrogel implantation
+is_a: XCO:0001390 ! CGG hydrogel scaffold
 created_by: slaulederkind
 creation_date: 2024-06-03T14:14:56Z
 
@@ -14842,7 +14838,7 @@ creation_date: 2024-06-13T17:33:05Z
 
 [Term]
 id: XCO:0001409
-name: tissue engineering scaffold implantation
+name: tissue engineering scaffold
 def: "This is any condition in which the main influencing factor is implantation of an engineered tissue scaffold, an artificial construct which mimics the extracellular matrix of the host tissue. The scaffold may be made of natural or synthetic polymers, metal, or ceramic." [https://www.sciencedirect.com/science/article/pii/S2590238522002983, https://www.sciencedirect.com/topics/materials-science/scaffold-for-tissue-engineering]
 synonym: "Not4Curation" RELATED []
 xref: PMID:38654018
@@ -14852,123 +14848,34 @@ creation_date: 2024-06-14T15:41:14Z
 
 [Term]
 id: XCO:0001410
-name: GelMA scaffold implantation
+name: GelMA scaffold
 def: "This is any condition in which the main influencing factor is implantation of a gelatin-methacryloyl (GelMA) scaffold, a tissue scaffold made of methacrylated gelatin (collagen). GelMA has been widely utilized for diverse tissue engineering applications." [https://www.sciencedirect.com/science/article/pii/S2590238522002983, PMID:38654018]
-synonym: "gelatin-methacryloyl scaffold implant" EXACT []
-synonym: "GelMA scaffold implant" EXACT []
-is_a: XCO:0001409 ! tissue engineering scaffold implantation
+synonym: "gelatin-methacryloyl scaffold" EXACT []
+is_a: XCO:0001409 ! tissue engineering scaffold
 created_by: slaulederkind
 creation_date: 2024-06-14T16:08:19Z
 
 [Term]
 id: XCO:0001411
-name: CTS scaffold implantation
+name: CTS scaffold
 def: "This is any condition in which the main influencing factor is implantation of a porous chitosan (CTS) scaffold, a tissue scaffold made of macroporous chitosan hydrogel. Chitosan is a linear polysaccharide composed of randomly distributed β-(1→4)-linked D-glucosamine (deacetylated unit) and N-acetyl-D-glucosamine. Chitosan is attractive as a bone scaffold material because it supports the attachment and proliferation of osteoblasts as well as formation of mineralized bone matrix." [https://en.wikipedia.org/wiki/Chitosan, PMID:24999429]
-synonym: "chitosan scaffold implant" EXACT []
-synonym: "CTS scaffold implant" EXACT []
+synonym: "chitosan scaffold" EXACT []
 xref: PMID:38654018
-is_a: XCO:0001409 ! tissue engineering scaffold implantation
+is_a: XCO:0001409 ! tissue engineering scaffold
 created_by: slaulederkind
 creation_date: 2024-06-14T16:51:04Z
 
 [Term]
 id: XCO:0001412
-name: PLA scaffold implantation
+name: PLA scaffold
 def: "This is any condition in which the main influencing factor is implantation of a polylactic acid (PLA) scaffold, a tissue scaffold made of Poly(L-Lactic acid) in the form of a nanofiber membrane made by electrospinning. Electrospinning leads to membranes with relatively uniform pore size distribution with high interconnectivity of pores and significantly higher porosity, typically around 80%." [https://www.sciencedirect.com/science/article/pii/S0011916414005190, PMID:35582285]
-synonym: "L-Lactide polymer scaffold implant" EXACT []
+synonym: "L-Lactide polymer scaffold" EXACT []
 synonym: "PLA scaffold implant" EXACT []
-synonym: "poly(L-Lactic acid) scaffold implant" EXACT []
-synonym: "polylactic acid scaffold implant" EXACT []
-is_a: XCO:0001409 ! tissue engineering scaffold implantation
+synonym: "poly(L-Lactic acid) scaffold" EXACT []
+synonym: "polylactic acid scaffold" EXACT []
+is_a: XCO:0001409 ! tissue engineering scaffold
 created_by: slaulederkind
 creation_date: 2024-06-14T17:25:28Z
-
-[Term]
-id: XCO:0001413
-name: allisartan
-def: "This is any condition in which the main influencing factor is allisartan, an orally potent, selective, non-peptide inhibitor of Angiotensin II Type 1 receptors. Allisartan is an antihypertensive agent that protects various organs from damage of high blood pressure." [https://www.medchemexpress.com/allisartan-isoproxil.html]
-synonym: "allisartan isoproxil" EXACT []
-xref: CAS:947331-05-7
-xref: PMID:38590561
-is_a: XCO:0000536 ! angiotensin II receptor antagonist
-created_by: slaulederkind
-creation_date: 2024-06-17T15:57:36Z
-
-[Term]
-id: XCO:0001414
-name: Ramulus Mori alkaloids
-def: "This is a condition in which the main influencing factor is Ramulus Mori alkaloids, a group of polyhydroxy alkaloids extracted and isolated from mulberry twig (Morus alba L.). Mulberry twig extract is used in traditional Chinese medicine (TCM) and is used against hyperglycemia and obesity." [PMID:37063280]
-synonym: "Sangzhi alkaloids" EXACT []
-synonym: "SZ-A" EXACT []
-is_a: XCO:0000850 ! therapeutic agent
-created_by: slaulederkind
-creation_date: 2024-06-17T16:51:06Z
-
-[Term]
-id: XCO:0001415
-name: double-distilled water
-def: "This is any condition in which the main influencing factor is double distilled water, the secondary distillation of the water vapor of a prior distillation procedure. Double-distilled water (ddH2O) is traditionally considered the ‘most pure’ type of laboratory-grade water." [https://www.aatbio.com/resources/faq-frequently-asked-questions/What-are-the-differences-between-diH2O-dH2O-and-ddH2O]
-synonym: "ddH2O" EXACT []
-synonym: "doubly distilled water" EXACT []
-xref: PMID:30479497
-is_a: XCO:0000917 ! distilled water
-created_by: slaulederkind
-creation_date: 2024-06-18T16:39:23Z
-
-[Term]
-id: XCO:0001416
-name: distilled deionized water
-def: "This is any condition in which the main influencing factor is distilled, deionized water, a type of purified water that is sequentially distilled and deionized." [https://www.merriam-webster.com/, PMID:_20549630]
-synonym: "DDI H2O" EXACT []
-synonym: "distilled deionized H2O" EXACT []
-synonym: "Milli-Q system water" EXACT []
-xref: PMID:31919777
-is_a: XCO:0000917 ! distilled water
-is_a: XCO:0001119 ! deionized water
-created_by: slaulederkind
-creation_date: 2024-06-18T17:07:08Z
-
-[Term]
-id: XCO:0001417
-name: transgenerational maternal exposure to folic acid
-def: "This is any condition in which the main influencing factor is any maternal exposure to folic acid that has transgenerational effects. This is a condition typically studied to determine the effect of maternal (F0) folic acid use/exposure on the F2/F3 offspring by direct effects on the F1/F2 generations in utero or during nursing, or by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of F1 offspring to affect the F2 generation. The maternal exposure may be any time after gestational development of germline cells in the F1 generation up to the time of weaning of F1 offspring to affect the F3 generation." [https://www.merriam-webster.com/, PMID:25839742]
-xref: CHEBI:7852
-xref: PMID:31919777
-is_a: XCO:0001113 ! folic acid
-created_by: slaulederkind
-creation_date: 2024-06-21T16:15:05Z
-
-[Term]
-id: XCO:0001418
-name: transgenerational paternal exposure to folic acid
-def: "This is any condition in which the main influencing factor is any paternal exposure to folic acid that has transgenerational effects. This is a condition typically studied to determine the effect of paternal (F0) folic acid use/exposure on the F2/F3 offspring by direct effects on the F1 generation via germ cell exposure. The paternal exposure may be any time after sexual maturity up to the time of copulation." [https://www.merriam-webster.com/, PMID:25839742]
-xref: CHEBI:7852
-xref: PMID:31919777
-is_a: XCO:0001113 ! folic acid
-created_by: slaulederkind
-creation_date: 2024-06-21T16:54:45Z
-
-[Term]
-id: XCO:0001419
-name: transgenerational maternal exposure to distilled deionized water
-def: "This is any condition in which the main influencing factor is any maternal exposure to distilled, deionized water used as a vehicle control for transgenerational effects of some chemical. This is a condition typically studied to control for the effect of maternal (F0) chemical use/exposure on the F2/F3 offspring by direct effects on the F1/F2 generations in utero or during nursing, or by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of F1 offspring to affect the F2 generation. The maternal exposure may be any time after gestational development of germline cells in the F1 generation up to the time of weaning of F1 offspring to affect the F3 generation." [https://www.merriam-webster.com/, PMID:25839742]
-synonym: "transgenerational maternal exposure to distilled, deionized water" EXACT []
-xref: CHEBI:7852
-xref: PMID:31919777
-is_a: XCO:0001416 ! distilled deionized water
-created_by: slaulederkind
-creation_date: 2024-06-21T17:15:02Z
-
-[Term]
-id: XCO:0001420
-name: transgenerational paternal exposure to distilled deionized water
-def: "This is any condition in which the main influencing factor is any paternal exposure to distilled, deionized water used as a vehicle control for transgenerational effects of some chemical. This is a condition typically studied to determine the effect of paternal (F0) distilled, deionized water use/exposure on the F2/F3 offspring by direct effects on the F1 generation via germ cell exposure. The paternal exposure may be any time after sexual maturity up to the time of copulation." [https://www.merriam-webster.com/, PMID:25839742]
-synonym: "transgenerational paternal exposure to distilled, deionized water" EXACT []
-xref: CHEBI:7852
-xref: PMID:31919777
-is_a: XCO:0001416 ! distilled deionized water
-created_by: slaulederkind
-creation_date: 2024-06-21T17:21:50Z
 
 [Typedef]
 id: has_component
