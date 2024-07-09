@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.173
-date: 06:07:2024 20:13
+data-version: 4.172
+date: 29:06:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -15073,29 +15073,6 @@ xref: PMID:35768768
 is_a: XCO:0001092 ! sciatic nerve crush
 created_by: slaulederkind
 creation_date: 2024-06-28T17:52:14Z
-
-[Term]
-id: XCO:0001431
-name: CN-Patch implantation
-def: "This is any condition in which the main influencing factor is implantation of a CN-Patch hydrogel, an injectable hydrogel designed for controlled release of CO (carbon monoxide) and NO (nitric oxide) into host soft tissue. Catechol-modified chitosan (Chi-C) and aldehyde dextran (Odex) are used as the basis of the hydrogel for viscosity and hemostatic effects. Gelatin nanoparticles, GSNO (S-Nitrosoglutathione), and CORM-3 (Ru(CO)3Cl(glycinate) ) are suspended/dissolved in the hydrogel to accomplish the release of CO and NO." [https://www.merriam-webster.com/, PMID:37105981]
-synonym: "CN-Patch" EXACT []
-synonym: "CN-Patch implant" EXACT []
-xref: PMID:32118241
-relationship: has_component XCO:0001411 ! CTS scaffold implantation
-created_by: slaulederkind
-creation_date: 2024-07-01T15:26:53Z
-
-[Term]
-id: XCO:0001432
-name: single-pedicled skin flap
-def: "This is any condition in which the main influencing factor is an autologous, single pedicled skin flap, skin flap in which the flap is still attached to the original blood supply by a single blood vessel. This type of skin flap is relevant in specific clinical situations and in experimental situations for the purpose of studying various factors affecting the success of skin grafts." [https://www.merriam-webster.com/, https://www.sciencedirect.com/topics/medicine-and-dentistry/pedicled-skin-flap]
-synonym: "autologous pedicle flap" EXACT []
-synonym: "autologous, single pedicled skin flap" EXACT []
-xref: https://www.ncbi.nlm.nih.gov/books/NBK532874/
-xref: PMID:37105981
-is_a: XCO:0001053 ! surgical closure
-created_by: slaulederkind
-creation_date: 2024-07-01T16:51:16Z
 
 [Typedef]
 id: has_component
