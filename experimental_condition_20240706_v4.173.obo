@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.174
-date: 13:07:2024 20:13
+data-version: 4.173
+date: 06:07:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -15096,19 +15096,6 @@ xref: PMID:37105981
 is_a: XCO:0001053 ! surgical closure
 created_by: slaulederkind
 creation_date: 2024-07-01T16:51:16Z
-
-[Term]
-id: XCO:0001433
-name: canagliflozin
-def: "This is any condition in which the main influencing factor is canagliflozin, a glucoside-derived sodium/glucose cotransporter (Slc5a2) inhibitor used clinically to treat type 2 diabetes mellitus." [MESH:D000068896]
-synonym: "(1S)-1,5-anhydro-1-(3-{[5-(4-fluorophenyl)-2-thienyl]methyl}-4-methylphenyl)-D-glucitol" EXACT []
-synonym: "canagliflozin anhydrous" EXACT []
-xref: CHEBI:73274
-xref: CID:24812758
-is_a: XCO:0000120 ! inhibitor
-is_a: XCO:0000407 ! hypoglycemic agent
-created_by: slaulederkind
-creation_date: 2024-07-08T16:47:06Z
 
 [Typedef]
 id: has_component
