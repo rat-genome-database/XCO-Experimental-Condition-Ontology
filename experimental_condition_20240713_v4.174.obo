@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.175
-date: 20:07:2024 20:13
+data-version: 4.174
+date: 13:07:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -4554,7 +4554,7 @@ creation_date: 2015-12-07T15:56:22Z
 [Term]
 id: XCO:0000491
 name: controlled exposure to an organism of the same species
-def: "This is any condition in which the main influencing factor is controlled social contact with an organism from the same species. A species is a fundamental category of taxonomic classification, ranking below a genus and consisting of related organisms capable of interbreeding." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
+def: "An experimental condition in which a test subject is placed in social contact with an organism from the same species. A species is a fundamental category of taxonomic classification, ranking below a genus and consisting of related organisms capable of interbreeding." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
 is_a: XCO:0000489 ! temporary social environment condition
 created_by: jesmith
 creation_date: 2015-12-07T15:59:02Z
@@ -15109,28 +15109,6 @@ is_a: XCO:0000120 ! inhibitor
 is_a: XCO:0000407 ! hypoglycemic agent
 created_by: slaulederkind
 creation_date: 2024-07-08T16:47:06Z
-
-[Term]
-id: XCO:0001434
-name: parasite behavior in a Skinner box within a worker/parasite group feeding/reward paradigm
-def: "This is any condition in which the main influencing factor is acting as a parasite in a group feeding/reward paradigm in a customized Skinner box, an experimental setup to designed to create parasite-worker social relationships between subjects. The parasite subjects eat most of the rewarded food, while the worker subject performs most of the required lever presses to earn the reward." [https://www.merriam-webster.com, PMID:34815341]
-synonym: "parasite behavior in an operant conditioning chamber within a worker/parasite group feeding/reward paradigm" EXACT []
-synonym: "parasitic behavior in an operant conditioning chamber within a worker/parasite group feeding/reward paradigm" EXACT []
-synonym: "parasitic behavior in a Skinner box within a worker/parasite group feeding/reward paradigm" EXACT []
-is_a: XCO:0000491 ! controlled exposure to an organism of the same species
-created_by: slaulederkind
-creation_date: 2024-07-18T16:15:18Z
-
-[Term]
-id: XCO:0001435
-name: worker behavior in a Skinner box within a worker/parasite group feeding/reward paradigm
-def: "This is any condition in which the main influencing factor is acting as a servant (worker) in a group feeding/reward paradigm in a customized Skinner box, an experimental setup to designed to create parasite-worker social relationships between subjects. The worker subject performs most of the required lever presses to earn a reward (food), while the parasite subjects eat most of the rewarded food." [https://www.merriam-webster.com, PMID:34815341]
-synonym: "servant behavior in an operant conditioning chamber within a worker/parasite group feeding/reward paradigm" EXACT []
-synonym: "servant behavior in a Skinner box within a worker/parasite group feeding/reward paradigm" EXACT []
-synonym: "worker behavior in an operant conditioning chamber within a worker/parasite group feeding/reward paradigm" EXACT []
-is_a: XCO:0000491 ! controlled exposure to an organism of the same species
-created_by: slaulederkind
-creation_date: 2024-07-18T16:35:53Z
 
 [Typedef]
 id: has_component
