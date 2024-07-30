@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.176
-date: 27:07:2024 20:13
+data-version: 4.175
+date: 20:07:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -1353,8 +1353,7 @@ creation_date: 2012-07-09T11:19:29Z
 [Term]
 id: XCO:0000165
 name: surgical manipulation
-def: "This is any process involving manual and instrumental techniques for incision or excision of a part of an organism to investigate and/or treat a pathological condition." [http://en.wikipedia.org/wiki/Surgery "Wikipedia"]
-synonym: "Not4Curation" RELATED []
+def: "Any process involving manual and instrumental techniques for incision or excision of a part of an organism to investigate and/or treat a pathological condition." [http://en.wikipedia.org/wiki/Surgery "Wikipedia"]
 is_a: XCO:0000000 ! experimental condition
 created_by: JSmith
 creation_date: 2012-07-11T01:38:55Z
@@ -9665,7 +9664,7 @@ def: "This is is a type of weight-loss surgery that involves creating a small po
 synonym: "gastric bypass surgery" EXACT []
 synonym: "Roux-en-Y gastric bypass" EXACT []
 synonym: "Roux-en-Y gastric bypass surgery" EXACT []
-is_a: XCO:0001436 ! gastrointestinal bypass
+is_a: XCO:0000165 ! surgical manipulation
 created_by: slaulede
 creation_date: 2023-02-27T18:10:08Z
 
@@ -15132,17 +15131,6 @@ synonym: "worker behavior in an operant conditioning chamber within a worker/par
 is_a: XCO:0000491 ! controlled exposure to an organism of the same species
 created_by: slaulederkind
 creation_date: 2024-07-18T16:35:53Z
-
-[Term]
-id: XCO:0001436
-name: gastrointestinal bypass
-def: "This is any condition in which the main influencing factor is gastrointestinal bypass, a type of surgery that either bypasses the stomach or part of the small intestine as a weight loss strategy. Gastrointestinal bypass is also an experimental procedure to study the surgery in model organisms like rats." [https://www.mayoclinic.org/tests-procedures/bariatric-surgery/about/pac-20394258]
-synonym: "bariatric surgery" EXACT []
-synonym: "metabolic surgery" EXACT []
-synonym: "Not4Curation" RELATED []
-is_a: XCO:0000165 ! surgical manipulation
-created_by: slaulederkind
-creation_date: 2024-07-23T16:41:03Z
 
 [Typedef]
 id: has_component
