@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.177
-date: 03:08:2024 20:13
+data-version: 4.176
+date: 27:07:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -9661,7 +9661,7 @@ creation_date: 2023-02-14T12:17:04Z
 [Term]
 id: XCO:0000967
 name: gastric bypass
-def: "This is any condition in which the main influencing factor is a gastric bypass, a type of weight-loss surgery that involves creating a small pouch from the stomach and connecting the newly created pouch directly to the small intestine. After gastric bypass, swallowed food will go into this small pouch of stomach and then directly into the small intestine, thereby bypassing most of the stomach and the first section of the small intestine." [https://www.mayoclinic.org/tests-procedures/gastric-bypass-surgery/about/pac-20385189, https://www.merriam-webster.com]
+def: "This is is a type of weight-loss surgery that involves creating a small pouch from the stomach and connecting the newly created pouch directly to the small intestine. After gastric bypass, swallowed food will go into this small pouch of stomach and then directly into the small intestine, thereby bypassing most of the stomach and the first section of the small intestine." [https://www.mayoclinic.org/tests-procedures/gastric-bypass-surgery/about/pac-20385189, https://www.merriam-webster.com]
 synonym: "gastric bypass surgery" EXACT []
 synonym: "Roux-en-Y gastric bypass" EXACT []
 synonym: "Roux-en-Y gastric bypass surgery" EXACT []
@@ -15143,15 +15143,6 @@ synonym: "Not4Curation" RELATED []
 is_a: XCO:0000165 ! surgical manipulation
 created_by: slaulederkind
 creation_date: 2024-07-23T16:41:03Z
-
-[Term]
-id: XCO:0001437
-name: duodenal-jejunal bypass
-def: "This is any condition in which the main influencing factor is a duodenal-jejunal bypass, a surgical procedure which involves transection of the duodenum proximally and transection of the jejunum distal to the ligament of Treitz. The distal end of the jejunum is anastomosed to the proximal end of the duodenum (duodenojejunal anastomosis), which creates the bypass of the duodenum and most of the jejunum. The biliopancreatic limb is anastomosed to the alimentary limb distal to the duodenojejunal anastomosis in a Roux-en-Y fashion to divert biliopancreatic juice to the ileum." [PMID:36726038, PMID:38983805]
-synonym: "DJB" EXACT []
-is_a: XCO:0001436 ! gastrointestinal bypass
-created_by: slaulederkind
-creation_date: 2024-07-30T17:25:20Z
 
 [Typedef]
 id: has_component
