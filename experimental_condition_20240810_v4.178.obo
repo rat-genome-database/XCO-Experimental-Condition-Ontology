@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.179
-date: 17:08:2024 20:13
+data-version: 4.178
+date: 10:08:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -7828,6 +7828,7 @@ creation_date: 2021-02-16T17:08:36Z
 id: XCO:0000809
 name: 2-methyl-6-(phenylethynyl)pyridine
 def: "This is any condition in which the main influencing factor is 2-methyl-6-(phenylethynyl)pyridine, a methylpyridine that consists of 2-methylpyridine bearing an additional phenylethynyl group at position 6. It is a potent and highly selective non-competitive antagonist at the mGlu5 receptor subtype (IC50 = 36 nM) and a positive allosteric modulator at mGlu4 receptors. It functions as an excitatory amino acid antagonist and an anxiolytic agent." [CHEBI:64159, MESH:C121465]
+synonym: "2-methyl-6-(phenylethynyl)pyridine" EXACT []
 synonym: "MPEP" EXACT []
 xref: PMID:28615682
 is_a: XCO:0000160 ! receptor antagonist
@@ -9577,8 +9578,9 @@ creation_date: 2022-06-30T17:07:23Z
 [Term]
 id: XCO:0000959
 name: Guanabenz
-def: "This is any condition in which the main influencing factor is a dichlorobenzene derivative that is a cell-permeable α2-adrenoceptor agonist used as an antihypertensive agent." [CHEBI:5553, MESH:D006143]
+def: "This is any condition in which the main influencing factor is a dichlorobenzene derivative that is a cell-permeable &#945;2-adrenoceptor agonist used as an antihypertensive agent." [CHEBI:5553, MESH:D006143]
 synonym: "2,6-Dichlorobenzylideneaminoguanidine" EXACT []
+synonym: "Guanabenz" EXACT []
 xref: PMID:15458950
 is_a: XCO:0000673 ! alpha-adrenergic agonist
 is_a: XCO:0000863 ! antihypertensive agent
@@ -10344,7 +10346,7 @@ id: XCO:0001028
 name: gene transfer of the EYFP gene using a lentivirus vector
 def: "This is a condition in which the enhanced yellow fluorescent protein (EYFP) gene has been (transiently or stably) transferred into a cell or organism using an lentivirus carrier in order to induce synthesis of EYFP in the recipient cell or organism." [https://www.merriam-webster.com, PMID:31825308]
 synonym: "gene transduction of the enhanced yellow fluorescent protein gene using a lentivirus vector" EXACT []
-synonym: "gene transfer of the EYFP gene using a lentiviral vector" EXACT []
+synonym: "gene transfer of the EYFP gene using a lentivirus vector" EXACT []
 synonym: "lentiviral transfer of the EYFP gene" EXACT []
 synonym: "transduction of recombinant lentivirus containing the EYFP gene" EXACT []
 synonym: "transfer of recombinant lentivirus containing the EYFP gene" EXACT []
@@ -10759,6 +10761,7 @@ creation_date: 2023-06-26T17:12:25Z
 id: XCO:0001064
 name: 5/6 nephrectomy
 def: "This is any condition in which the main influencing factor is a 5/6 nephrectomy, which is an experimental procedure performed to produce an animal model of chronic kidney disease in rodents. Typically, the right kidney is removed and the poles of the left kidney are removed to produce a total renal system which is 1/6 of original capacity. The animal is typically allowed to recover for a week between the total and partial nephrectomy." [ISBN:978-1455756438, PMID:32001792]
+synonym: "5/6 nephrectomy" EXACT []
 synonym: "5/6 Nx" EXACT []
 synonym: "five-sixths partial nephrectomy" EXACT []
 synonym: "subtotal 5/6 nephrectomy" EXACT []
@@ -11251,6 +11254,7 @@ def: "This is any condition in which the main influencing factor is retinal repe
 synonym: "retina ischemia/reperfusion" EXACT []
 synonym: "retina ischemia-reperfusion" EXACT []
 synonym: "retinal ischemia-reperfusion" EXACT []
+synonym: "retinal reperfusion" EXACT []
 xref: DOID:9001725
 is_a: XCO:0001105 ! controlled in situ ophthalmic condition
 created_by: slaulederkind
@@ -12042,6 +12046,7 @@ name: levofloxacin
 alt_id: XCO:0001170
 def: "This is any condition whose main influencing factor is levofloxacin, a fluoroquinolone antibiotic that is active against both gram-negative and gram-positive bacteria. Levofloxacin is an inhibitor of both bacterial topoisomerase IV and DNA gyrase." [CHEBI:63598, CID:149096]
 synonym: "(3S)-9-fluoro-3-methyl-10-(4-methylpiperazin-1-yl)-7-oxo-2,3-dihydro-7H-[1,4]oxazino[2,3,4-ij]quinoline-6-carboxylic acid" EXACT []
+synonym: "levofloxacin" EXACT []
 xref: CHEBI:63598
 xref: MESH:D064704
 is_a: XCO:0000483 ! antibacterial agent
@@ -13212,7 +13217,7 @@ synonym: "continuous lighting" NARROW []
 synonym: "partially reversed day/night lighting" NARROW []
 synonym: "reverse day/night lighting" EXACT []
 synonym: "reversed day/night lighting" EXACT []
-synonym: "reverse light/dark cycle" EXACT []
+synonym: "reversed light/dark cycle" EXACT []
 xref: PMID:36793870
 is_a: XCO:0000459 ! controlled light/dark cycle
 relationship: part_of XCO:0001275 ! unpredictable chronic mild stress
@@ -13847,7 +13852,7 @@ synonym: "trepanning" RELATED []
 synonym: "trephination" RELATED []
 xref: https://www.osmosis.org/answers/trephination
 xref: PMID:35040587
-is_a: XCO:0001394 ! osteotomy
+is_a: XCO:0000165 ! surgical manipulation
 created_by: slaulederkind
 creation_date: 2024-03-26T14:13:37Z
 
@@ -15014,7 +15019,6 @@ id: XCO:0001425
 name: limbal resection
 def: "This is any condition in which the main influencing factor is limbal resection, an experimental procedure which surgically removes the border between cornea and sclera of the eye. Limbal resection causes limbal stem cell deficiency (LSCD), which leads to failure of corneal repair, followed by neovascularization, and other pathologic sequelae." [https://en.wikipedia.org/wiki/Limbal_stem_cell, https://eyewiki.aao.org/Limbal_Stem_Cell_Deficiency]
 synonym: "limbus resection" EXACT []
-xref: GEO:GSE245468
 xref: PMID:11900318
 is_a: XCO:0000165 ! surgical manipulation
 created_by: slaulederkind
@@ -15165,40 +15169,6 @@ xref: PMID:36526019
 is_a: XCO:0001409 ! tissue engineering scaffold implantation
 created_by: slaulederkind
 creation_date: 2024-08-06T16:37:23Z
-
-[Term]
-id: XCO:0001440
-name: peptide hydrogel implantation
-def: "This is any condition in which the main influencing factor is implantation of a peptide hydrogel, a hydrogel containing a self-assembling metal ion-chelating peptide (HPGIAQFF) . This peptide hydrogel serves as a control for the peptide hydrogel that contains chelated metal ions. Hydrogel implants are one of many methods used in bone tissue engineering." [https://www.sciencedirect.com/topics/materials-science/scaffold-for-tissue-engineering, PMID:36526019]
-synonym: "implantation of self-assembling metal ion-chelating peptide hydrogel without metal ions" EXACT []
-synonym: "PH implant" EXACT []
-is_a: XCO:0001439 ! bone tissue engineering scaffold implantation
-created_by: slaulederkind
-creation_date: 2024-08-13T14:38:15Z
-
-[Term]
-id: XCO:0001441
-name: processed pyritum hydrogel implantation
-def: "This is any condition in which the main influencing factor is implantation of a metal ion-chelating peptide hydrogel, a hydrogel containing a self-assembling metal ion-chelating peptide (HPGIAQFF) with chelated metal ions (Fe2+, Cu2+, Zn2+, Mn2+, Mg2+, and Ca2) . The metal ions are derived from processed pyritum, a Chinese medicine derived from pyritum disulfide. Hydrogel implants are one of many methods used in bone tissue engineering." [https://www.sciencedirect.com/topics/materials-science/scaffold-for-tissue-engineering, PMID:36526019]
-synonym: "implantation of self-assembling metal ion-chelating peptide hydrogel with metal ions" EXACT []
-synonym: "PPH implant" EXACT []
-relationship: has_component XCO:0001440 ! peptide hydrogel implantation
-created_by: slaulederkind
-creation_date: 2024-08-13T14:55:37Z
-
-[Term]
-id: XCO:0001442
-name: experimental drill-hole bone defect sham procedure
-def: "This is any condition in which the main influencing factor is an experimental drill-hole bone defect sham procedure, which follows the same surgical process through full tissue thickness incision, but no bone defect is made." [https://www.merriam-webster.com/, PMID:36526019]
-synonym: "sham burr holing procedure" EXACT []
-synonym: "sham trepanation" EXACT []
-synonym: "sham trepanning" EXACT []
-synonym: "sham trephination" EXACT []
-xref: PMID:35849443
-is_a: XCO:0000100 ! sham surgical control condition
-relationship: part_of XCO:0001323 ! experimental drill-hole bone defect
-created_by: slaulederkind
-creation_date: 2024-08-13T15:09:14Z
 
 [Typedef]
 id: has_component
