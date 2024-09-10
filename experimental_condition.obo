@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.179
-date: 17:08:2024 20:13
+data-version: 4.180
+date: 07:09:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -746,6 +746,8 @@ creation_date: 2010-11-02T02:06:02Z
 id: XCO:0000100
 name: sham surgical control condition
 def: "A surgical treatment or procedure that is performed as a control and that is similar to but omits a key therapeutic element of the treatment or procedure under investigation." [Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
+synonym: "placebo surgery" EXACT []
+synonym: "sham surgery" EXACT []
 is_a: XCO:0000099 ! control condition
 is_a: XCO:0000165 ! surgical manipulation
 created_by: mshimoyama
@@ -3326,8 +3328,10 @@ creation_date: 2013-12-20T13:30:01Z
 
 [Term]
 id: XCO:0000367
-name: sham surgical device implantation
-def: "A surgery in which a device is inserted which lacks the chemical or drug that in the experimental samples it would dispense." [PMID:15687265]
+name: surgical device implantation sham procedure
+def: "This is any condition in which the main influencing factor is surgical control device implantation in which the control device lacks the chemical or drug dispensed by the experimental device." [PMID:15687265]
+synonym: "control surgical device implantation" EXACT []
+synonym: "sham surgical device implantation" EXACT []
 is_a: XCO:0000100 ! sham surgical control condition
 relationship: part_of XCO:0000027 ! surgical implantation
 created_by: JSmith
@@ -14417,8 +14421,9 @@ creation_date: 2024-04-25T15:01:50Z
 
 [Term]
 id: XCO:0001372
-name: TEBV implantation sham surgery
+name: TEBV implantation sham procedure
 def: "This is any condition in which the main influencing factor is TEBV implantation sham surgery, which follows the same surgical process as a TEBV implantation without the replacement of a blood vessel with a tissue-engineered blood vessel." [https://www.merriam-webster.com/, PMID:37478186]
+synonym: "TEBV implantation sham surgery" EXACT []
 synonym: "tissue-engineered blood vessel implantation sham surgery" EXACT []
 is_a: XCO:0000100 ! sham surgical control condition
 relationship: part_of XCO:0001371 ! Ancr/E7 exosome-modified TEBV implantation
@@ -14450,9 +14455,10 @@ creation_date: 2024-04-26T14:06:48Z
 
 [Term]
 id: XCO:0001375
-name: spared nerve injury sham surgery
+name: spared nerve injury sham procedure
 def: "This is any condition in which the main influencing factor is spared nerve injury sham surgery, which follows the same surgical process as a spared nerve injury without the ligation/transection of the common peroneal and tibial nerves." [PMID:21876524]
 synonym: "SNI sham surgery" EXACT []
+synonym: "spared nerve injury sham surgery" EXACT []
 xref: PMID:37660072
 is_a: XCO:0000100 ! sham surgical control condition
 relationship: part_of XCO:0001374 ! spared nerve injury
@@ -14471,8 +14477,9 @@ creation_date: 2024-04-29T15:57:35Z
 
 [Term]
 id: XCO:0001377
-name: experimental spinal cord transection at T10/T11 sham surgery
+name: experimental spinal cord transection at T10/T11 sham procedure
 def: "This is any condition in which the main influencing factor is an experimental spinal cord transection sham procedure at T10/T11, which follows the same surgical process through laminectomy, but no spinal cord transection occurs." [ISBN-13:9780781733908, PMID:37744239]
+synonym: "experimental spinal cord transection at T10/T11 sham surgery" EXACT []
 synonym: "sham SSCI" EXACT []
 synonym: "sham suprasacral spinal cord injury" EXACT []
 is_a: XCO:0000100 ! sham surgical control condition
@@ -15199,6 +15206,57 @@ is_a: XCO:0000100 ! sham surgical control condition
 relationship: part_of XCO:0001323 ! experimental drill-hole bone defect
 created_by: slaulederkind
 creation_date: 2024-08-13T15:09:14Z
+
+[Term]
+id: XCO:0001443
+name: medial collateral ligament transection
+def: "This is any condition in which the main influencing factor is medial collateral ligament transection, a process involving a surgical technique for complete transection of the medial collateral ligament to investigate ligament healing in an experimental animal model." [PMID:38597671]
+synonym: "complete MCL tear" RELATED []
+synonym: "MCL transection" EXACT []
+is_a: XCO:0000165 ! surgical manipulation
+created_by: slaulederkind
+creation_date: 2024-09-05T15:06:23Z
+
+[Term]
+id: XCO:0001444
+name: muscle layer pouch
+def: "This is any condition in which the main influencing factor is an artificial pouch created by a surgical technique to cover a ligament wound with the adjacent muscle layer. The pouch may be used for delivery of drugs or other agents." [PMID:38597671]
+synonym: "artificial muscle layer pouch" EXACT []
+synonym: "surgical pouch" BROAD []
+is_a: XCO:0000318 ! surgical construction
+created_by: slaulederkind
+creation_date: 2024-09-05T15:54:18Z
+
+[Term]
+id: XCO:0001445
+name: TNF-primed human BM-MSC exosomes
+def: "This is any condition in which the main influencing factor is exosomes from human, bone marrow-derived, mesenchymal stromal cells which have been primed with cytokine TNF-alpha." [PMID:38597671]
+synonym: "TNFA-primed human BM-MSC exosomes" EXACT []
+synonym: "tumor necrosis factor alpha-primed human BM-MSC exosomes" EXACT []
+synonym: "tumor necrosis factor-primed human BM-MSC exosomes" EXACT []
+is_a: XCO:0001369 ! exosomes
+created_by: slaulederkind
+creation_date: 2024-09-06T11:29:42Z
+
+[Term]
+id: XCO:0001446
+name: CRX527-primed human BM-MSC exosomes
+def: "This is any condition in which the main influencing factor is exosomes from human, bone marrow-derived, mesenchymal stromal cells which have been primed with the synthetic lipid A analog CRX-527. CRX-527 is a Toll-like receptor 4 (TLR4) agonist." [https://www.invivogen.com/crx527, PMID:38597671]
+synonym: "CRX-527-primed human BM-MSC exosomes" EXACT []
+synonym: "CRX527-primed human bone marrow-derived mesenchymal stromal cell exosomes" EXACT []
+is_a: XCO:0001369 ! exosomes
+created_by: slaulederkind
+creation_date: 2024-09-06T11:44:43Z
+
+[Term]
+id: XCO:0001447
+name: T9 spinal cord contusion sham procedure
+def: "This is any condition in which the main influencing factor is a T9 spinal cord contusion sham procedure, which follows the same surgical process as a T9 spinal cord contusion procedure, but no contusion is generated. The sham procedure includes laminectomy of the ninth thoracic vertebra and exposure of the spinal cord." [PMID:38647358]
+synonym: "T9 spinal cord contusion sham surgery" EXACT []
+is_a: XCO:0000100 ! sham surgical control condition
+relationship: part_of XCO:0001042 ! T9 spinal cord contusion
+created_by: slaulederkind
+creation_date: 2024-09-06T13:30:46Z
 
 [Typedef]
 id: has_component
