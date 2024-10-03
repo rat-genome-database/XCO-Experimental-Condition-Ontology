@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.183
-date: 28:09:2024 20:13
+data-version: 4.180
+date: 07:09:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -4612,7 +4612,7 @@ creation_date: 2016-04-25T13:25:58Z
 
 [Term]
 id: XCO:0000497
-name: Parkinson disease-inducing chemical
+name: Parkinson disease inducing chemical
 def: "A condition in which the main influencing factor is a synthetic or naturally derived compound that causes loss of dopaminergic neurons and induces Parkinson-like symptoms (parkinsonism) in animal models and/or Parkinson disease in humans." [PMID:22108613]
 synonym: "Parkinson's disease inducing chemical" EXACT []
 synonym: "parkinsonism-inducing chemical" RELATED []
@@ -4629,7 +4629,7 @@ synonym: "6-hydoxydopamine" RELATED []
 synonym: "6-OHDA" RELATED []
 xref: CHEBI:78741
 is_a: XCO:0000495 ! neurotoxic substance
-is_a: XCO:0000497 ! Parkinson disease-inducing chemical
+is_a: XCO:0000497 ! Parkinson disease inducing chemical
 created_by: jesmith
 creation_date: 2016-04-25T15:27:15Z
 
@@ -4640,7 +4640,7 @@ def: "A condition in which the main influencing factor is1-methyl-4-phenyl-1,2,3
 synonym: "MPTP" RELATED []
 xref: CHEBI:17963
 is_a: XCO:0000495 ! neurotoxic substance
-is_a: XCO:0000497 ! Parkinson disease-inducing chemical
+is_a: XCO:0000497 ! Parkinson disease inducing chemical
 created_by: jesmith
 creation_date: 2016-04-25T15:31:31Z
 
@@ -4650,7 +4650,7 @@ name: paraquat
 def: "A condition in which the main influencing factor is paraquat, a herbicidal organic cation used to model Parkinson's disease in mice." [PMID:22108613]
 xref: CHEBI:34905
 is_a: XCO:0000495 ! neurotoxic substance
-is_a: XCO:0000497 ! Parkinson disease-inducing chemical
+is_a: XCO:0000497 ! Parkinson disease inducing chemical
 created_by: jesmith
 creation_date: 2016-04-25T15:35:55Z
 
@@ -4660,7 +4660,7 @@ name: rotenone
 def: "A condition in which the main influencing factor is rotenone, an insecticide and piscicide extracted from Leguminosa plants. Rotenone can be used to induce degeneration of dopaminergic neurons in animal models." [PMID:22108613]
 xref: CHEBI:28201
 is_a: XCO:0000496 ! neurotoxin
-is_a: XCO:0000497 ! Parkinson disease-inducing chemical
+is_a: XCO:0000497 ! Parkinson disease inducing chemical
 created_by: jesmith
 creation_date: 2016-04-25T15:41:51Z
 
@@ -6330,8 +6330,7 @@ name: arterial catheter implantation and controlled hemorrhage
 def: "The insertion of a tubular, flexible surgical instrument into an artery to withdraw a substantial, yet controlled, amount of blood." []
 synonym: "arterial catheter implantation and bleeding" EXACT []
 synonym: "arterial catheter implantation and hemorrhaging" EXACT []
-relationship: has_component XCO:0000360 ! arterial catheter implantation
-relationship: has_component XCO:0000812 ! controlled hemorrhage
+is_a: XCO:0000360 ! arterial catheter implantation
 created_by: slaulede
 creation_date: 2020-02-11T16:01:15Z
 
@@ -6895,14 +6894,14 @@ id: XCO:0000717
 name: MRI contrast agent
 def: "MRI contrast agents are an indispensable part of magnetic resonance imaging. Contrast agents are used to improve the visibility of internal body structures in magnetic resonance imaging (MRI)." [https://en.wikipedia.org/wiki/MRI_contrast_agent "Wikipedia", https://radiopaedia.org/articles/mri-contrast-agents?lang=us]
 xref: CHEBI:37335
-is_a: XCO:0001451 ! diagnostic imaging agent
+is_a: XCO:0000358 ! diagnostic agent
 created_by: slaulede
 creation_date: 2020-06-08T14:55:27Z
 
 [Term]
 id: XCO:0000718
-name: gadolinium-based contrast agent
-def: "This is any condition in which the main influencing factor is a Gadolinium-Based Contrast Agent (GBCA), an intravenous drug used in diagnostic imaging procedures to enhance the quality of magnetic resonance imaging (MRI) or magnetic resonance angiography (MRA)." [https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/information-gadolinium-based-contrast-agents "FDA"]
+name: gadolinium-based contrast agents
+def: "Gadolinium-Based Contrast Agents (GBCA) are intravenous drugs used in diagnostic imaging procedures to enhance the quality of magnetic resonance imaging (MRI) or magnetic resonance angiography (MRA)." [https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/information-gadolinium-based-contrast-agents "FDA"]
 synonym: "GBCA" EXACT []
 is_a: XCO:0000717 ! MRI contrast agent
 created_by: slaulede
@@ -6916,7 +6915,7 @@ synonym: "gadolinium (bis{2-[(carboxylatomethyl)(carboxymethyl)amino]ethyl}amino
 synonym: "Gd-DTPA" EXACT []
 synonym: "Magnevist" EXACT []
 xref: CHEBI:31797
-is_a: XCO:0000718 ! gadolinium-based contrast agent
+is_a: XCO:0000718 ! gadolinium-based contrast agents
 created_by: slaulede
 creation_date: 2020-06-08T15:14:36Z
 
@@ -7065,14 +7064,13 @@ creation_date: 2020-08-18T16:56:25Z
 [Term]
 id: XCO:0000733
 name: sanguinarine
-def: "This is any condition in which the main influencing factor is sanguinarine, a benzophenanthridine alkaloid derived from Sanguinaria canadensis and poppy Fumaria species, shown to exhibit anti-microbial, anti-tumoral, and anti-inflammatory activities." [CHEBI:17183, https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/sanguinarine, PMID:21849887]
+def: "A benzophenanthridine alkaloid derived from Sanguinaria canadensis and poppy Fumaria species, shown to exhibit anti-microbial, anti-tumoral, and anti-inflammatory activities." [CHEBI:17183, https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/sanguinarine, PMID:21849887]
 synonym: "13-methyl-2H,10H-[1,3]dioxolo[4,5-i][1,3]dioxolo[4',5':4,5]benzo[1,2-c]phenanthridinium" EXACT []
 synonym: "pseudochelerythrine" EXACT []
 xref: CHEBI:17183
 xref: MESH:C005705
 is_a: XCO:0000435 ! antineoplastic agent
 is_a: XCO:0000482 ! antimicrobial agent
-is_a: XCO:0000505 ! anti-inflammatory agent
 created_by: slaulede
 creation_date: 2020-09-04T16:56:22Z
 
@@ -10867,9 +10865,9 @@ creation_date: 2023-07-20T14:03:21Z
 id: XCO:0001073
 name: gene transfer of the KL gene using an adenovirus vector
 def: "This is any condition in which the main influencing factor is the klotho gene (KL) which has been (transiently or stably) transferred into a cell or organism using an adenovirus carrier in order to induce synthesis of that gene's product in the recipient cell or organism." [PMID:31950348]
-synonym: "gene transfer of the alpha klotho gene using an adenoviral vector" EXACT []
+synonym: "gene transfer of the alpha klotho gene using a adenoviral vector" EXACT []
 synonym: "gene transfer of the KL gene using an adenoviral vector" EXACT []
-synonym: "gene transfer of the klotho gene using an adenoviral vector" EXACT []
+synonym: "gene transfer of the klotho gene using a adenoviral vector" EXACT []
 synonym: "transduction of KL using an adenoviral vector" EXACT []
 synonym: "transduction of KL using an adenovirus vector" EXACT []
 is_a: XCO:0000529 ! gene transfer using adenovirus vector
@@ -11315,16 +11313,16 @@ synonym: "mercury(2+) chloride" EXACT []
 xref: MESH:D008627
 xref: PMID:32599119
 is_a: XCO:0000342 ! chemical with specified structure
-is_a: XCO:0001112 ! nephrotoxic chemical
+is_a: XCO:0001112 ! nephrotoxicant
 created_by: slaulederkind
 creation_date: 2023-11-14T09:45:49Z
 
 [Term]
 id: XCO:0001112
-name: nephrotoxic chemical
+name: nephrotoxicant
 def: "This is any condition in which the main influencing factor is a nephrotoxic substance that causes injury to the kidney or damages its function." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
 synonym: "kidney toxicity-inducing chemical" EXACT []
-synonym: "nephrotoxic agent" BROAD []
+synonym: "nephrotoxic agent" EXACT []
 synonym: "nephrotoxicity-inducing chemical" EXACT []
 synonym: "renal toxicity-inducing chemical" EXACT []
 xref: CHEBI:50909
@@ -11379,7 +11377,7 @@ creation_date: 2023-11-14T16:20:34Z
 [Term]
 id: XCO:0001116
 name: controlled (6S)-5-methyltetrahydrofolic acid content diet
-def: "This is any condition in which the main influencing factor is a controlled (6S)-5-methyltetrahydrofolic acid content diet, a solid diet in which the amount of (6S)-5-methyltetrahydrofolic acid is maintained at a specified level. (6S)-5-methyltetrahydrofolic acid is the primary biologically active form of folate (vitamin B9)." [https://en.wikipedia.org/wiki/Levomefolic_acid, PMID:35999905]
+def: "This is any condition in which the main influencing factor is a controlled (6S)-5-methyltetrahydrofolic acid content diet, a solid diet in which the amount of (6S)-5-methyltetrahydrofolic acid is maintained at a specified level. (6S)-5-methyltetrahydrofolic acid is the primary biologically active form of folate (vitamin B9)." [https://en.wikipedia.org/wiki/Levomefolic_acid, PMID:_35999905]
 synonym: "controlled (6S)-5-MTHF content diet" EXACT []
 synonym: "controlled 5-MTHF content diet" EXACT []
 xref: CHEBI:136009
@@ -12155,7 +12153,7 @@ synonym: "iopromid" EXACT []
 synonym: "N,N'-bis(2,3-dihydroxypropyl)-2,4,6-triiodo-5-[(methoxyacetyl)amino]-N-methylisophthalamide" EXACT []
 xref: CHEBI:63578
 xref: MESH:C038192
-is_a: XCO:0001112 ! nephrotoxic chemical
+is_a: XCO:0001112 ! nephrotoxicant
 created_by: slaulederkind
 creation_date: 2023-12-11T15:49:02Z
 
@@ -14141,7 +14139,7 @@ creation_date: 2024-04-12T12:43:11Z
 [Term]
 id: XCO:0001347
 name: Compound 1
-def: "This is any condition in which the main influencing factor is Compound 1, a bicyclic molecule (patented by Merck & Co., Inc.) that can have various substituents and is a soluble guanylate cyclase activator." [PatentNo:_US_9\,365\,574_B2]
+def: "This is any condition in which the main influencing factor is Compound 1, a bicyclic molecule (patented by Merck & Co., Inc.) that can have various substituents and is a soluble guanylate cyclase activator." [Patent_No.:_US_9\,365\,574_B2]
 xref: PMID:35085251
 is_a: XCO:0000695 ! soluble guanylate cyclase activator
 created_by: slaulederkind
@@ -14150,7 +14148,7 @@ creation_date: 2024-04-12T13:02:34Z
 [Term]
 id: XCO:0001348
 name: controlled Compound 1 content diet
-def: "This is any condition in which the main influencing factor is a controlled Compound 1 content diet, a regimen of solid food in which the amount of Compound 1 consumed is controlled. Coumpound 1 is a soluble guanylate cyclase activator." [https://www.merriam-webster.com, PatentNo:_US_9\,365\,574_B2]
+def: "This is any condition in which the main influencing factor is a controlled Compound 1 content diet, a regimen of solid food in which the amount of Compound 1 consumed is controlled. Coumpound 1 is a soluble guanylate cyclase activator." [https://www.merriam-webster.com, Patent_No.:_US_9\,365\,574_B2]
 xref: PMID:35085251
 is_a: XCO:0000014 ! controlled content diet
 relationship: has_component XCO:0001347 ! Compound 1
@@ -14402,7 +14400,7 @@ creation_date: 2024-04-25T13:56:16Z
 [Term]
 id: XCO:0001370
 name: Ancr/E7-exosomes
-def: "This is any condition in which the main influencing factor is Ancr/E7-modified exosomes, which are exosomes generated from Lamp2b-E7 transfected host cells, collected, and electroporated with lncRNA-ANCR. The experimental purpose of delivery of Ancr/E7-exosomes is blood vessel anticalcification." [PMID:37478186]
+def: "This is any condition in which the main influencing factor is Ancr/E7-modified exosomes, which are exosomes generated from Lamp2b-E7 transfected host cells, collected, and electroporated with lncRNA-ANCR. The experimental purpose of delivery of Ancr/E7-exosomes is blood vessel anticalcification." [PMID:_37478186]
 synonym: "Ancr/E7-EXO" EXACT []
 synonym: "Ancr/E7-modified exosomes" EXACT []
 xref: PMID:32029601
@@ -14923,7 +14921,7 @@ creation_date: 2024-06-18T16:39:23Z
 [Term]
 id: XCO:0001416
 name: distilled deionized water
-def: "This is any condition in which the main influencing factor is distilled, deionized water, a type of purified water that is sequentially distilled and deionized." [https://www.merriam-webster.com/, PMID:20549630]
+def: "This is any condition in which the main influencing factor is distilled, deionized water, a type of purified water that is sequentially distilled and deionized." [https://www.merriam-webster.com/, PMID:_20549630]
 synonym: "DDI H2O" EXACT []
 synonym: "distilled deionized H2O" EXACT []
 synonym: "Milli-Q system water" EXACT []
@@ -15259,149 +15257,6 @@ is_a: XCO:0000100 ! sham surgical control condition
 relationship: part_of XCO:0001042 ! T9 spinal cord contusion
 created_by: slaulederkind
 creation_date: 2024-09-06T13:30:46Z
-
-[Term]
-id: XCO:0001448
-name: fractional CO2 laser ablation of liver
-def: "This is a condition in which the main influencing factor is fractional CO2 laser ablation of liver, an experimental procedure involving the creation of microinjuries in a restricted surface area of liver. This use of fractional ablation is an adaptation of a technique of dermal scar treatment. Access to liver surface requires laparotomy." [https://lumenis.com/aesthetics/products/ultrapulse/, PMID:38661043]
-synonym: "fractional ablative CO2 laser treatment of liver" EXACT []
-synonym: "fractional CO2 laser ablation of hepatic surface" EXACT []
-synonym: "fractional CO2 laser ablative treatment of liver" EXACT []
-is_a: XCO:0000165 ! surgical manipulation
-created_by: slaulederkind
-creation_date: 2024-09-09T17:42:47Z
-
-[Term]
-id: XCO:0001449
-name: hepatotoxic chemical
-def: "This is any condition in which the main influencing factor is a hepatotoxic chemical, a chemical that causes injury to or disease of the liver." [https://www.merriam-webster.com, ISBN-13:9780781733908]
-synonym: "hepatotoxic agent" EXACT []
-synonym: "hepatotoxicity-inducing chemical" EXACT []
-synonym: "liver toxicity-inducing chemical" EXACT []
-xref: PMID:38661043
-is_a: XCO:0000259 ! disease-inducing chemical
-created_by: slaulederkind
-creation_date: 2024-09-10T11:20:09Z
-
-[Term]
-id: XCO:0001450
-name: thioacetamide
-def: "This is any condition in which the main influencing factor is thioacetamide, a thiocarboxamide consiting of acetamide having the oxygen replaced by sulfur. Thioacetamide is used to replicate the initiation and progression of human liver disease in laboratory rats." [CHEBI:32497, https://en.wikipedia.org/wiki/Thioacetamide]
-synonym: "acetothioamide" EXACT []
-synonym: "CID:2723949" EXACT []
-synonym: "ethanethioamide" EXACT []
-synonym: "thiacetamide" EXACT []
-xref: MESH:D013853
-is_a: XCO:0001449 ! hepatotoxic chemical
-created_by: slaulederkind
-creation_date: 2024-09-10T11:26:58Z
-
-[Term]
-id: XCO:0001451
-name: diagnostic imaging agent
-def: "This is any condition in which the main influencing factor is a diagnostic imaging agent, a substance administered to enhance contrast in images of the inside of the body obtained using X-rays, gamma-rays, sound waves, radio waves (MRI), or radioactive particles." [CHEBI:37334]
-xref: PMID:38704728
-is_a: XCO:0000358 ! diagnostic agent
-created_by: slaulederkind
-creation_date: 2024-09-10T16:53:48Z
-
-[Term]
-id: XCO:0001452
-name: gadodiamide
-def: "This is any condition in which the main influencing factor is gadodiamide, a gadolinium-based MRI contrast agent (GBCA), used in magnetic resonance imaging (MRI) procedures to assist in the visualization of blood vessels." [https://en.wikipedia.org/wiki/Gadodiamide]
-synonym: "Omniscan" EXACT []
-xref: CAS:131410-48-5
-xref: CID:24847884
-is_a: XCO:0000718 ! gadolinium-based contrast agent
-created_by: slaulederkind
-creation_date: 2024-09-10T17:17:56Z
-
-[Term]
-id: XCO:0001453
-name: gene transfer of the VEGFC gene using an adenovirus vector
-def: "This is any condition in which the main influencing factor is the vascular endothelial growth factor C gene (VEGFC) which has been (transiently or stably) transferred into a cell or organism using an adenovirus carrier in order to induce synthesis of that gene's product in the recipient cell or organism." [PMID:38704728]
-synonym: "gene transfer of AAV2/9‐CMV‐rVEGF‐C" NARROW []
-synonym: "gene transfer of the vascular endothelial growth factor C gene using an adenoviral vector" EXACT []
-synonym: "gene transfer of the VEGFC gene using an adenoviral vector" EXACT []
-synonym: "transduction of VEGFC using an adenoviral vector" EXACT []
-synonym: "transduction of VEGFC using an adenovirus vector" EXACT []
-is_a: XCO:0000529 ! gene transfer using adenovirus vector
-created_by: slaulederkind
-creation_date: 2024-09-10T17:34:42Z
-
-[Term]
-id: XCO:0001454
-name: gene transfer of the mNeonGreen gene using an adenovirus vector
-def: "This is any condition in which the main influencing factor is the mNeonGreen gene (mNG) which has been (transiently or stably) transferred into a cell or organism using an adenovirus carrier in order to induce synthesis of that gene's product in the recipient cell or organism. This gene codes for a green/yellow fluorescent protein and is used as a control for studying the effects of some other gene." [https://www.fpbase.org/protein/mneongreen/]
-synonym: "gene transfer of AAV2/9‐CMV‐mNeonGreen" NARROW []
-synonym: "gene transfer of the mNeonGreen gene using an adenoviral vector" EXACT []
-synonym: "gene transfer of the mNG gene using an adenoviral vector" EXACT []
-synonym: "transduction of mNG using an adenoviral vector" EXACT []
-synonym: "transduction of mNG using an adenovirus vector" EXACT []
-xref: PMID:38704728
-is_a: XCO:0000529 ! gene transfer using adenovirus vector
-created_by: slaulederkind
-creation_date: 2024-09-10T17:48:16Z
-
-[Term]
-id: XCO:0001455
-name: heroin
-def: "This is any condition in which the main influencing factor is heroin, a morphinane alkaloid that is morphine bearing two acetyl substituents on the O-3 and O-6 positions. Heroin has a role as an opioid analgesic, a mu-opioid receptor agonist and a prodrug." [CHEBI:27808, CID:5462328]
-synonym: "17-methyl-7,8-didehydro-4,5alpha-epoxymorphinan-3,6alpha-diyl diacetate" EXACT []
-synonym: "Diacetylmorphine" EXACT []
-synonym: "Diamorphine" EXACT []
-xref: MESH:D003932
-relationship: has_component XCO:0000610 ! morphine
-created_by: slaulederkind
-creation_date: 2024-09-12T14:02:42Z
-
-[Term]
-id: XCO:0001456
-name: psilocybin
-def: "This is any condition in which the main influencing factor is psilocybin, a naturally occurring psychedelic prodrug compound produced by more than 200 species of fungi. Psilocybin is quickly converted by the body to psilocin, a hallucinogen." [https://en.wikipedia.org/wiki/Psilocybin]
-synonym: "3-[2-(dimethylamino)ethyl]-1H-indol-4-yl dihydrogen phosphate" EXACT []
-synonym: "4-phosphoryloxy-N,N-dimethyltryptamine" EXACT []
-synonym: "4-PO-DMT" EXACT []
-synonym: "psilocybine" EXACT []
-xref: CHEBI:8614
-xref: CID:10624
-is_a: XCO:0000135 ! receptor agonist
-created_by: slaulederkind
-creation_date: 2024-09-12T14:26:48Z
-
-[Term]
-id: XCO:0001457
-name: ketanserin
-def: "This is any condition in which the main influencing factor is ketanserin, a selective serotonin receptor antagonist with weak adrenergic receptor blocking properties. Ketanserin is effective in lowering blood pressure in essential hypertension and it also inhibits platelet aggregation." [MESH:D007650]
-synonym: "3-{2-[4-(4-fluorobenzoyl)piperidin-1-yl]ethyl}quinazoline-2,4(1H,3H)-dione" EXACT []
-xref: CHEBI:6123
-xref: CID:3822
-is_a: XCO:0000336 ! adrenergic antagonist
-is_a: XCO:0000863 ! antihypertensive agent
-created_by: slaulederkind
-creation_date: 2024-09-12T14:49:25Z
-
-[Term]
-id: XCO:0001458
-name: intracerebral hemorrhage induced by collagenase injection
-def: "This is any condition in which the main influencing factor is experimental intracerebral hemorrhage induced by collagenase injection into the cerebrum, a method used to model intracerebral hemorrhage in laboratory animals. Severity of hemorrhage can be controlled by the amount of collagenase injected. For example 0.23 U of bacterial collagenase VII-S injected into rat striatum causes a moderate intracerebral hemorrhage, and 0.6 U of bacterial collagenase VII-S injected into rat striatum causes severe intracerebral hemorrhage." [https://www.merriam-webster.com, PMID:38927081]
-synonym: "experimental ICH induced by collagenase injection" EXACT []
-is_a: XCO:0000258 ! disease-inducing agent
-created_by: slaulederkind
-creation_date: 2024-09-16T14:35:52Z
-
-[Term]
-id: XCO:0001459
-name: ethoxysanguinarine
-def: "This is any condition in which the main influencing factor is ethoxysanguinarine, an activator of AMP-Activated Protein Kinase (AMPK). It possesses antibacterial and antiviral activities and offers therapeutic benefits for the treatment of respiratory syndrome virus-induced cytopathic effects." [PMID:31969821]
-synonym: "14-ethoxy-13-methyl-13,14-dihydro-(1,3)dioxolo(4',5':4,5)benzo(1,2-c)(1,3)dioxolo(4,5-i)phenanthridine" EXACT []
-synonym: "ETH" EXACT []
-xref: CAS:28342-31-6
-xref: CID:5317235
-xref: MESH:C000729450
-relationship: has_component XCO:0000733 ! sanguinarine
-created_by: slaulederkind
-creation_date: 2024-09-26T16:00:40Z
 
 [Typedef]
 id: has_component
