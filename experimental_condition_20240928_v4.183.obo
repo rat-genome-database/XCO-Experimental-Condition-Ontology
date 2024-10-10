@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.184
-date: 05:10:2024 20:13
+data-version: 4.183
+date: 28:09:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -1130,9 +1130,8 @@ creation_date: 2012-03-15T07:56:15Z
 [Term]
 id: XCO:0000142
 name: sodium nitroprusside
-def: "This is any condition in which the main influencing factor is sodium nitroprusside, the red-colored inorganic salt with the formula Na2[Fe(CN)5NO]?2H2O used as a potent vasodilator." [http://en.wikipedia.org/wiki/Sodium_nitroprusside "Wikipedia"]
+def: "The red-coloured inorganic salt with the formula Na2[Fe(CN)5NO]?2H2O used as a potent vasodilator." [http://en.wikipedia.org/wiki/Sodium_nitroprusside "Wikipedia"]
 synonym: "disodium pentacyanonitrosylferrate(2-) dehydrate" EXACT []
-synonym: "nitroprusside" EXACT []
 synonym: "nitroprusside disodium dihydrate" EXACT []
 synonym: "SNP" EXACT []
 synonym: "sodium nitroferricyanide(III) dihydrate" EXACT []
@@ -1140,7 +1139,6 @@ synonym: "sodium pentacyanidonitrosylferrate(2-)" EXACT []
 synonym: "sodium pentacyanidonitrosylferrate(III)" EXACT []
 xref: CHEBI:29321
 xref: CID:11953895
-xref: MESH:D009599
 is_a: XCO:0000140 ! vasodilator
 created_by: JSmith
 creation_date: 2012-03-15T07:58:24Z
@@ -1271,7 +1269,7 @@ creation_date: 2012-03-26T04:36:15Z
 [Term]
 id: XCO:0000156
 name: 0.9% sodium chloride solution
-def: "This is any condition in which the main influencing factor is a solution of sodium chloride (NaCl) and water in which the level of NaCl is maintained at a mass concentration of 9 grams per liter (0.9 grams per 100 mls of solution, or 0.9 % m/v). The osmolarity of normal saline is a close approximation to the osmolarity of NaCl in blood." [http://en.wikipedia.org/wiki/Saline_%28medicine%29 "Wikipedia"]
+def: "This is a condition in which the main influencing factor is a solution of sodium chloride (NaCl) and water in which the level of NaCl is maintained at a mass concentration of 9 grams per liter (0.9 grams per 100 mls of solution, or 0.9 % m/v). The osmolarity of normal saline is a close approximation to the osmolarity of NaCl in blood." [http://en.wikipedia.org/wiki/Saline_%28medicine%29 "Wikipedia"]
 synonym: "0.9% Sodium Chloride Injection" RELATED []
 synonym: "isotonic saline" EXACT []
 synonym: "normal saline" EXACT []
@@ -2927,11 +2925,11 @@ creation_date: 2013-08-07T16:39:26Z
 [Term]
 id: XCO:0000326
 name: controlled ethanol content saline
-def: "Any condition in which the main influencing factor is ethanol, the colorless, volatile, flammable liquid, CH3CH2OH, produced by yeast fermentation of carbohydrates or synthesized by hydration of ethylene, suspended in a saline solution, a homogeneous mixture of atoms of sodium, the chemical element with atomic number 11, that have lost one electron forming a cation with a charge of +1, and an equivalent number of atoms of chlorine, the chemical element with atomic number 17, that have gained one electron forming an anion with a charge of -1 dispersed molecularly in a sufficient quantity of water." [Webster:Random_House_Kernerman_Websters_College_Dictionary_2010]
+def: "Any condition in which the main influencing factor is ethanol, the colorless, volatile, flammable liquid, CH3CH2OH, produced by yeast fermentation of carbohydrates or synthesized by hydration of ethylene, suspended in a saline solution, a homogeneous mixture of atoms of sodium, the chemical element with atomic number 11, that have lost one electron forming a cation with a charge of +1, and an equivalent number of atoms of chlorine, the chemical element with atomic number 17, that have gained one electron forming an anion with a charge of -1 dispersed molecularly in a sufficient quantity of dissolving medium (solvent) such as water." [Webster:Random_House_Kernerman_Websters_College_Dictionary_2010]
 synonym: "ethanol in 0.9 % saline" NARROW []
 synonym: "ethanol in 0.9 % saline solution" NARROW []
 synonym: "ethanol in saline" EXACT []
-is_a: XCO:0000156 ! 0.9% sodium chloride solution
+relationship: has_component XCO:0000156 ! 0.9% sodium chloride solution
 relationship: has_component XCO:0000325 ! ethanol
 created_by: JSmith
 creation_date: 2013-08-07T16:45:26Z
@@ -3154,8 +3152,8 @@ creation_date: 2013-09-20T16:27:41Z
 [Term]
 id: XCO:0000347
 name: blood vessel occlusion
-def: "This is any condition in which the main influencing factor is surgical manipulation causing blockage of a blood vessel, any one of the network of muscular tubes that carry blood through the body." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
-is_a: XCO:0000596 ! blood vessel constriction
+def: "A surgical manipulation causing blockage of a blood vessel, any one of the network of muscular tubes that carry blood through the body." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+is_a: XCO:0000595 ! surgical manipulation of blood vessels
 created_by: JSmith
 creation_date: 2013-11-11T10:32:17Z
 
@@ -5595,20 +5593,20 @@ creation_date: 2018-12-27T15:05:18Z
 
 [Term]
 id: XCO:0000597
-name: abdominal aorta constriction
+name: abdominal aortic constriction
 def: "This is any condition in which the main influencing factor is surgical narrowing of the lumen of the abdominal aorta. The abdominal aorta consists of the suprarenal abdominal aorta and the infrarenal aorta." [PMID:28060255]
 synonym: "AAC" EXACT []
-synonym: "abdominal aortic constriction" EXACT []
+synonym: "abdominal aorta constriction" EXACT []
 is_a: XCO:0000596 ! blood vessel constriction
 created_by: sjwang
 creation_date: 2018-12-27T15:08:06Z
 
 [Term]
 id: XCO:0000598
-name: thoracic aorta constriction
+name: thoracic aortic constriction
 def: "This is any condition in which the main influencing factor is surgical narrowing of the lumen of the thoracic aorta. The thoracic aorta consists of the ascending aorta, the aortic arch, and the descending thoracic aorta." [https://en.wikipedia.org/wiki/Aorta]
 synonym: "TAC" NARROW []
-synonym: "thoracic aortic constriction" EXACT []
+synonym: "thoracic aorta constriction" EXACT []
 synonym: "transverse aortic constriction" NARROW []
 is_a: XCO:0000596 ! blood vessel constriction
 created_by: sjwang
@@ -8611,7 +8609,7 @@ creation_date: 2021-07-19T18:12:49Z
 [Term]
 id: XCO:0000877
 name: Hespan buffer
-def: "This is any condition in which the main influencing factor is Hespan buffer, 6% hetastarch in buffered solution. A buffer is a homogeneous mixture of molecules, atoms and/or ions, one or more of which have the capacity to cause the solution to resist change in pH upon addition of small amounts of acid or base, dispersed in a sufficient quantity of solvent." [https://www.fda.gov, PMID:10155362]
+def: "Any condition in which the main influencing factor is Hespan buffer, 6% hetastarch in buffered solution. A buffer is a homogeneous mixture of molecules, atoms and/or ions, one or more of which have the capacity to cause the solution to resist change in pH upon addition of small amounts of acid or base, dispersed in a sufficient quantity of solvent." [https://www.fda.gov, PMID:10155362]
 synonym: "HB" EXACT []
 xref: PMID:7818325
 is_a: XCO:0000315 ! buffer solution
@@ -15404,66 +15402,6 @@ xref: MESH:C000729450
 relationship: has_component XCO:0000733 ! sanguinarine
 created_by: slaulederkind
 creation_date: 2024-09-26T16:00:40Z
-
-[Term]
-id: XCO:0001460
-name: glycerol
-def: "This is any condition in which the main influencing factor is glycerol, a trihydroxy sugar alcohol that is an intermediate in carbohydrate and lipid metabolism. Glycerol is used as a solvent, emollient, pharmaceutical agent, and sweetening agent." [MESH:D005990]
-synonym: "glycerin" EXACT []
-synonym: "glycerine" EXACT []
-xref: CHEBI:17754
-xref: CID:753
-is_a: XCO:0000323 ! alcohol
-is_a: XCO:0001231 ! solvent
-created_by: slaulederkind
-creation_date: 2024-09-30T11:58:19Z
-
-[Term]
-id: XCO:0001461
-name: controlled glycerol content saline
-def: "This is any condition in which the main influencing factor is a specific amount of glycerol dissolved in saline (0.9% sodium chloride solution). Glycerol is a trihydroxy sugar alcohol that is used as a solvent, emollient, pharmaceutical agent, and sweetening agent." [MESH:D005990]
-synonym: "controlled glycerin content saline" EXACT []
-synonym: "controlled glycerine content saline" EXACT []
-xref: CHEBI:17754
-xref: CID:753
-is_a: XCO:0000156 ! 0.9% sodium chloride solution
-relationship: has_component XCO:0001460 ! glycerol
-created_by: slaulederkind
-creation_date: 2024-09-30T12:20:53Z
-
-[Term]
-id: XCO:0001462
-name: thoracic aorta constriction sham procedure
-def: "This is any condition in which the main influencing factor is a thoracic aortic constriction sham procedure, which follows the same surgical process as a thoracic aortic constriction without blocking the aorta." [PMID:39196177]
-synonym: "aorta sham banding" BROAD []
-synonym: "sham AOB" BROAD []
-synonym: "thoracic aorta sham banding" EXACT []
-synonym: "thoracic aorta sham ligation" EXACT []
-synonym: "thoracic aortic constriction sham procedure" EXACT []
-is_a: XCO:0000100 ! sham surgical control condition
-relationship: part_of XCO:0000598 ! thoracic aorta constriction
-created_by: slaulederkind
-creation_date: 2024-09-30T14:22:47Z
-
-[Term]
-id: XCO:0001463
-name: hyperbaric chamber
-def: "This is any condition in which the main influencing factor is a hyperbaric chamber, which raises atmospheric pressure to simulate atmospheric conditions below sea level or underwater. A hyperbaric chamber may use ambient air at high pressure (hyperbaric air) or air with high oxygen content at high pressure (hyperbaric oxygen therapy)." [https://en.wikipedia.org/wiki/Hyperbaric_medicine, PMID:39156650]
-is_a: XCO:0001405 ! controlled atmospheric pressure
-created_by: slaulederkind
-creation_date: 2024-09-30T15:19:05Z
-
-[Term]
-id: XCO:0001464
-name: citrate buffer
-def: "This is any condition in which the main influencing factor is citrate buffer, a combination of sodium citrate dihydrate and citric acid in water to form a solution with a pH range of 3.0 to 6.2." [https://www.aatbio.com/resources/buffer-preparations-and-recipes/citrate-buffer-ph-3-to-6-2]
-synonym: "sodium citrate buffer" EXACT []
-xref: CHEBI:53258
-xref: CID:6224
-xref: https://en.wikipedia.org/wiki/Trisodium_citrate
-is_a: XCO:0000315 ! buffer solution
-created_by: slaulederkind
-creation_date: 2024-10-01T15:59:01Z
 
 [Typedef]
 id: has_component
