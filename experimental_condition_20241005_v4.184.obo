@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.186
-date: 19:10:2024 20:13
+data-version: 4.184
+date: 05:10:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -15165,7 +15165,6 @@ creation_date: 2024-07-30T17:25:20Z
 id: XCO:0001438
 name: duodenal-jejunal bypass sham surgery
 def: "This is any condition in which the main influencing factor is duodenal-jejunal bypass sham surgery, a surgical procedure which follows the same surgical process as duodenal-jejunal bypass surgery, but all intestinal transections are reanastomosed without any tissue repositioning." []
-is_a: XCO:0001437 ! duodenal-jejunal bypass
 created_by: slaulederkind
 creation_date: 2024-08-05T12:42:55Z
 
@@ -15465,66 +15464,6 @@ xref: https://en.wikipedia.org/wiki/Trisodium_citrate
 is_a: XCO:0000315 ! buffer solution
 created_by: slaulederkind
 creation_date: 2024-10-01T15:59:01Z
-
-[Term]
-id: XCO:0001465
-name: ochratoxin A
-def: "This is any condition in which the main influencing factor is ochratoxin A, a phenylalanine derivative that is a nephrotoxic, carcinogenic mycotoxin. Ochratoxin A is among the most widely occurring food-contaminating mycotoxins, produced by Aspergillus ochraceus, Aspergillus carbonarius and Penicillium verrucosum." [CHEBI:7719]
-synonym: "N-{[(3R)-5-chloro-8-hydroxy-3-methyl-1-oxo-3,4-dihydro-1H-2-benzopyran-7-yl]carbonyl}-L-phenylalanine" EXACT []
-synonym: "OTA" EXACT []
-xref: CAS:303-47-9
-xref: CID:442530
-xref: MESH:C025589
-xref: PMID:37162024
-is_a: XCO:0000089 ! neoplasm-inducing chemical
-is_a: XCO:0000222 ! cation channel inhibitor
-is_a: XCO:0001112 ! nephrotoxic chemical
-created_by: slaulederkind
-creation_date: 2024-10-11T10:36:42Z
-
-[Term]
-id: XCO:0001466
-name: 3-chloro-1,2-propanediol
-def: "This is any condition in which the main influencing factor is 3-chloro-1,2-propanediol, a chlorinated propanediol with antifertility activity in males used as a chemosterilant in rodents." [MESH:D000517]
-synonym: "3-chloropropane-1,2-diol" EXACT []
-synonym: "3-Chloropropanediol" EXACT []
-synonym: "3-MCPD" EXACT []
-synonym: "3-Monochloropropane-1,2-diol" EXACT []
-synonym: "alpha-Chlorohydrin" EXACT []
-xref: CAS:96-24-2
-xref: CHEBI:18721
-xref: CID:7290
-xref: PMID:37162024
-is_a: XCO:0000342 ! chemical with specified structure
-created_by: slaulederkind
-creation_date: 2024-10-11T11:04:52Z
-
-[Term]
-id: XCO:0001467
-name: controlled 3-chloro-1,2-propanediol content drinking water
-def: "This is any condition in which the main influencing factor is a drink made up of water and a specified amount of 3-chloro-1,2-propanediol, a chlorinated propanediol with antifertility activity in males used as a chemosterilant in rodents." [https://www.merriam-webster.com, MESH:D000517]
-synonym: "controlled 3-chloropropane-1,2-diol content drinking water" EXACT []
-synonym: "controlled 3-Chloropropanediol content drinking water" EXACT []
-synonym: "controlled 3-MCPD content drinking water" EXACT []
-xref: CHEBI:18721
-xref: PMID:37162024
-is_a: XCO:0000163 ! controlled content drinking water
-relationship: has_component XCO:0001466 ! 3-chloro-1,2-propanediol
-created_by: slaulederkind
-creation_date: 2024-10-11T11:13:45Z
-
-[Term]
-id: XCO:0001468
-name: minocycline
-def: "This is any condition in which the main influencing factor is minocycline, a semi-synthetic second-generation tetracycline and a broad-spectrum antibiotic. Minocycline has a dimethylamino group at position 7 and lacks the methyl and hydroxy groups at position 5, which makes it effective against tetracycline-resistant staphylococcus infections." [CID:54675783, NBK:554519]
-synonym: "minomycin" EXACT []
-xref: CHEBI:50694
-xref: GEO:GSE261833
-xref: MESH:D008911
-is_a: XCO:0000483 ! antibacterial agent
-is_a: XCO:0000672 ! tetracyclines
-created_by: slaulederkind
-creation_date: 2024-10-11T14:41:45Z
 
 [Typedef]
 id: has_component

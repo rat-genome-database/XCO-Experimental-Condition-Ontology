@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.186
-date: 19:10:2024 20:13
+data-version: 4.185
+date: 12:10:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -15165,7 +15165,6 @@ creation_date: 2024-07-30T17:25:20Z
 id: XCO:0001438
 name: duodenal-jejunal bypass sham surgery
 def: "This is any condition in which the main influencing factor is duodenal-jejunal bypass sham surgery, a surgical procedure which follows the same surgical process as duodenal-jejunal bypass surgery, but all intestinal transections are reanastomosed without any tissue repositioning." []
-is_a: XCO:0001437 ! duodenal-jejunal bypass
 created_by: slaulederkind
 creation_date: 2024-08-05T12:42:55Z
 
@@ -15517,9 +15516,7 @@ creation_date: 2024-10-11T11:13:45Z
 id: XCO:0001468
 name: minocycline
 def: "This is any condition in which the main influencing factor is minocycline, a semi-synthetic second-generation tetracycline and a broad-spectrum antibiotic. Minocycline has a dimethylamino group at position 7 and lacks the methyl and hydroxy groups at position 5, which makes it effective against tetracycline-resistant staphylococcus infections." [CID:54675783, NBK:554519]
-synonym: "minomycin" EXACT []
 xref: CHEBI:50694
-xref: GEO:GSE261833
 xref: MESH:D008911
 is_a: XCO:0000483 ! antibacterial agent
 is_a: XCO:0000672 ! tetracyclines
