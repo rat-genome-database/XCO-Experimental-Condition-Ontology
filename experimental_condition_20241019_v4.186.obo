@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.187
-date: 09:11:2024 20:13
+data-version: 4.186
+date: 19:10:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -15525,56 +15525,6 @@ is_a: XCO:0000483 ! antibacterial agent
 is_a: XCO:0000672 ! tetracyclines
 created_by: slaulederkind
 creation_date: 2024-10-11T14:41:45Z
-
-[Term]
-id: XCO:0001469
-name: iron trichloride
-def: "This is any condition in which the main influencing factor is iron trichloride, a iron coordination entity that has the formula FeCl3(H2O)x." [CHEBI:30808, https://en.wikipedia.org/wiki/Iron(III)_chloride]
-synonym: "ferric chloride" EXACT []
-synonym: "iron(3+) chloride" EXACT []
-synonym: "iron(III) chloride" EXACT []
-synonym: "trichloroiron" EXACT []
-xref: CID:24380
-xref: MESH:C024555
-is_a: XCO:0000342 ! chemical with specified structure
-created_by: slaulederkind
-creation_date: 2024-11-04T14:12:23Z
-
-[Term]
-id: XCO:0001470
-name: hmSi-CREKA-RB-PFH nanoparticle
-def: "This is any condition in which the main influencing factor is hmSi-CREKA-RB-PFH nanoparticles, nanoparticles based on hollow mesoporous silica (hmSi), coated with CREKA (the fibrin-targeting peptide Cys-Arg-Glu-Lys-Ala), and filled with sonosensitizer RB (Rose Bengal) and phase transition molecular PFH (perfluorohexane). These particles are combined with the action of ultrasound in sonodynamic therapy (SDT) of thrombus." [PMID:39098904]
-synonym: "hmSi-CREKA-RB-PFH" EXACT []
-synonym: "hmSi-CREKA-RB-PFH nanoparticles" EXACT []
-xref: PMID:33987928
-is_a: XCO:0000338 ! chemical nanoparticle
-created_by: slaulederkind
-creation_date: 2024-11-04T15:22:22Z
-
-[Term]
-id: XCO:0001471
-name: ultrasound
-def: "This is any condition in which the main influencing factor is ultrasound, a technique used in both medical diagnostics and therapeutics. As a therapeutic method, it allows non-invasive means to treat tumors, thrombi, various neurodegenerative diseases, and other medical issues." [https://www.merriam-webster.com, ISBN-13:9780781733908]
-synonym: "sonography" EXACT []
-synonym: "ultrasonography" EXACT []
-xref: PMID:39098904
-is_a: XCO:0000000 ! experimental condition
-created_by: slaulederkind
-creation_date: 2024-11-04T17:00:39Z
-
-[Term]
-id: XCO:0001472
-name: alectinib
-def: "This is any condition in which the main influencing factor is alectinib, an organic heterotetracyclic compound, a member of morpholines, a member of piperidines, a nitrile and an aromatic ketone. Alectinib is an antineoplastic inhibitor of the receptor tyrosine kinase ALK (anaplastic lymphoma kinase). It is used to treat ALK-positive NSCLC (non-small cell lung cancer)." []
-synonym: "9-ethyl-6,6-dimethyl-8-[4-(morpholin-4-yl)piperidin-1-yl]-11-oxo-6,11-dihydro-5H-benzo[b]carbazole-3-carbonitrile" EXACT []
-synonym: "Alecensa" NARROW []
-synonym: "alectinib hydrochloride" NARROW []
-xref: CHEBI:90936
-xref: MESH:C582670
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000970 ! protein kinase inhibitor
-created_by: slaulederkind
-creation_date: 2024-11-07T10:17:30Z
 
 [Typedef]
 id: has_component
