@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.188
-date: 23:11:2024 20:13
+data-version: 4.187
+date: 09:11:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -15546,7 +15546,6 @@ name: hmSi-CREKA-RB-PFH nanoparticle
 def: "This is any condition in which the main influencing factor is hmSi-CREKA-RB-PFH nanoparticles, nanoparticles based on hollow mesoporous silica (hmSi), coated with CREKA (the fibrin-targeting peptide Cys-Arg-Glu-Lys-Ala), and filled with sonosensitizer RB (Rose Bengal) and phase transition molecular PFH (perfluorohexane). These particles are combined with the action of ultrasound in sonodynamic therapy (SDT) of thrombus." [PMID:39098904]
 synonym: "hmSi-CREKA-RB-PFH" EXACT []
 synonym: "hmSi-CREKA-RB-PFH nanoparticles" EXACT []
-xref: GEO:GSE254810
 xref: PMID:33987928
 is_a: XCO:0000338 ! chemical nanoparticle
 created_by: slaulederkind
