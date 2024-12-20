@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.190
-date: 14:12:2024 20:13
+data-version: 4.189
+date: 07:12:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -643,15 +643,13 @@ creation_date: 2010-11-01T01:01:08Z
 
 [Term]
 id: XCO:0000090
-name: 7,12-dimethyltetraphene
+name: 7,12-dimethyltetraphene (DMBA)
 def: "A tetraphene having methyl substituents at the 7- and 12- positions. It is a potent carcinogen and is present in tobacco smoke." []
 synonym: "7,12-dimethylbenzo[a]anthracene" RELATED []
-synonym: "7,12-DMBA" EXACT []
 synonym: "7,12-DMBA" RELATED []
 synonym: "9,10-Dimethyl-1,2-benzanthracene" RELATED []
 synonym: "DMBA" RELATED []
 xref: CHEBI:254496
-xref: CID:6001
 xref: MESH:D015127
 is_a: XCO:0000093 ! polycyclic arene
 created_by: mshimoyama
@@ -2752,7 +2750,7 @@ creation_date: 2013-06-21T17:12:21Z
 [Term]
 id: XCO:0000309
 name: heated ambient air exposure
-def: "An activity or condition in which the air surrounding or encircling the organism or isolated organ has a relatively high, or higher than considered normal, temperature, i.e., air in which the molecules possess a higher than normal amount of random kinetic energy." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed]
+def: "An activity or condition in which the air surrounding or encircling the organism has a relatively high, or higher than considered normal, temperature, i.e., air in which the molecules possess a higher than normal amount of random kinetic energy." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed]
 synonym: "heat exposure, ambient air" EXACT []
 synonym: "hot ambient air exposure" RELATED []
 synonym: "warm ambient air exposure" RELATED []
@@ -15645,7 +15643,7 @@ creation_date: 2024-12-05T16:41:34Z
 [Term]
 id: XCO:0001478
 name: controlled ex vivo liver condition
-def: "This is an experimental condition in which the internal or external environment of a liver is manipulated or regulated, for example through perfusion, increased or decreased blood flow, temperature, etc. after removal from the body." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
+def: "This is an experimental condition in which the internal or external environment of a liver is experimentally manipulated or regulated, for example through perfusion, increased or decreased blood flow, etc. after removal from the body." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
 synonym: "controlled isolated liver condition" EXACT []
 xref: PMID:36982476
 is_a: XCO:0000464 ! controlled ex vivo organ condition
@@ -15655,81 +15653,11 @@ creation_date: 2024-12-05T17:49:12Z
 [Term]
 id: XCO:0001479
 name: controlled ex vivo liver perfusion
-def: "This is an experimental condition consisting of perfusion (recirculated or single pass) of the isolated liver with some physiological buffer (consisting of controlled solute composition and specific flow rate) through the liver portal vein and/or hepatic artery.." [ISBN-13:9780781733908, PMID:36982476]
+def: "This is an experimental condition consisting of perfusion (recirculated or single pass) of the isolated liver with some physiological buffer (consisting of controlled solute composition and specific flow rate) through the liver portal vein." [ISBN-13:9780781733908, PMID:36982476]
 synonym: "controlled isolated liver perfusion" EXACT []
-synonym: "HMP of liver" NARROW []
-synonym: "hypothermic machine perfusion of ex vivo liver" NARROW []
-xref: PMID:36982476
 is_a: XCO:0001478 ! controlled ex vivo liver condition
 created_by: slaulederkind
 creation_date: 2024-12-05T17:59:35Z
-
-[Term]
-id: XCO:0001480
-name: histidine-tryptophan-ketoglutarate solution
-def: "This is any condition in which the main influencing factor is histidine-tryptophan-ketoglutarate (HTK) solution, a cardioplegic solution used in open heart surgery that is increasingly being used as a preservation solution for kidneys. in HTK tryptophan serves as a membrane stabilizer and antioxidant, ketoglutarate acts as a substrate for anaerobic metabolism during preservation and histidine serves as a pH-buffering component." [https://www.sciencedirect.com/topics/medicine-and-dentistry/histidine-tryptophan-ketoglutarate]
-synonym: "Custodiol HTK" NARROW []
-synonym: "Histidine-tryptophan-ketoglutarate" EXACT []
-synonym: "HTK" EXACT []
-xref: PMID:36982476
-is_a: XCO:0000315 ! buffer solution
-created_by: slaulederkind
-creation_date: 2024-12-09T16:25:11Z
-
-[Term]
-id: XCO:0001481
-name: ex vivo ischemic liver condition
-def: "This is any condition in which the main influencing factor is ischemia of an ex vivo liver, a liver that has been removed from an organism, but not oxygenated by perfusion or other means." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
-synonym: "ex vivo ischemia condition" BROAD []
-is_a: XCO:0001478 ! controlled ex vivo liver condition
-created_by: slaulederkind
-creation_date: 2024-12-09T16:54:14Z
-
-[Term]
-id: XCO:0001482
-name: controlled, oxygenated ex vivo liver perfusion
-def: "This is any condition in which the main influencing factor is perfusion (recirculated or single pass) of isolated liver with some oxygenated, physiological buffer (consisting of controlled solute composition and specific flow rate) through the hepatic portal vein." [ISBN-13:978-1455756438, PMID:36982476]
-synonym: "HOPE" NARROW []
-synonym: "hypothermic, oxygenated ex vivo liver perfusion" NARROW []
-is_a: XCO:0001479 ! controlled ex vivo liver perfusion
-created_by: slaulederkind
-creation_date: 2024-12-09T17:16:29Z
-
-[Term]
-id: XCO:0001483
-name: controlled in situ liver condition
-def: "This is any condition in which the main influencing factor is the experimental manipulation of the internal or external environment of the liver, for example through perfusion, increased or decreased blood flow, etc. without removal from the body." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
-xref: PMID:36982476
-is_a: XCO:0000166 ! controlled in situ organ condition
-created_by: slaulederkind
-creation_date: 2024-12-10T17:01:47Z
-
-[Term]
-id: XCO:0001484
-name: in situ ischemic liver condition
-def: "This is any condition in which the main influencing factor is ischemia of an in situ liver, a liver that remains in the organism at normal body temperature, but not oxygenated by natural circulation, perfusion, or other means." [ISBN-13:978-1455756438, PMID:36982476]
-is_a: XCO:0001483 ! controlled in situ liver condition
-created_by: slaulederkind
-creation_date: 2024-12-10T17:15:02Z
-
-[Term]
-id: XCO:0001485
-name: L4/L5 spinous process resection
-def: "This is any condition in which the main influencing factor is L4/L5 spinous process resection, an experimental procedure done to induce lumbar spine mechanical instability (LSI) in laboratory animals. The process involves removing the spinous processes along with the supraspinous and interspinous ligaments from lumbar vertebrae L4 and L5." [https://www.merriam-webster.com/, PMID:38982049]
-synonym: "surgical removal of L4/L5 spinous processes" EXACT []
-relationship: part_of XCO:0001043 ! laminectomy
-created_by: slaulederkind
-creation_date: 2024-12-12T14:31:41Z
-
-[Term]
-id: XCO:0001486
-name: L4/L5 spinous process resection sham procedure
-def: "This is any condition in which the main influencing factor is L4/L5 spinous process sham resection, which follows the same surgical process through the posterior paravertebral muscle and other soft tissue detachment from the L4-L5 vertebrae, but no spinous process resection occurs." [https://www.merriam-webster.com/, PMID:38982049]
-synonym: "L4/L5 spinous process resection sham surgery" EXACT []
-is_a: XCO:0000100 ! sham surgical control condition
-relationship: part_of XCO:0001485 ! L4/L5 spinous process resection
-created_by: slaulederkind
-creation_date: 2024-12-12T14:50:06Z
 
 [Typedef]
 id: has_component
