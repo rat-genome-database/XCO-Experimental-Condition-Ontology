@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.191
-date: 04:01:2025 20:13
+data-version: 4.190
+date: 14:12:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -153,7 +153,6 @@ id: XCO:0000022
 name: controlled sodium content diet
 def: "A regimen of solid food in which the amount of sodium consumed is controlled." [RGD:MS]
 is_a: XCO:0000014 ! controlled content diet
-relationship: has_component XCO:0000253 ! sodium ion
 
 [Term]
 id: XCO:0000023
@@ -2034,13 +2033,9 @@ creation_date: 2012-10-16T02:22:54Z
 
 [Term]
 id: XCO:0000235
-name: poly I:C
-def: "This is any condition in which the main influencing factor is poly I:C, a synthetic dsRNA composed of a strand of poly(I) annealed to a strand of poly(C). Poly(I:C) is acts as an immunostimulant and mimics a viral infection by interacting with Toll-like receptor 3 (TLR3)." [http://www.invivogen.com/tlr3-ligands?gclid=CLDYv5u4wLICFahaMgod_H8AGg "Website"]
-synonym: "dsRNA poly(I:C)" EXACT []
-synonym: "poly(I:C)" EXACT []
-synonym: "Poly(I:C) dsRNA" EXACT []
+name: Poly I:C
+def: "Poly I:C is a synthetic analog of dsRNA, which is the ligand of choice for Toll-like receptor 3 (TLR3). Poly(I:C) is composed of a strand of poly(I) annealed to a strand of poly(C)." [http://www.invivogen.com/tlr3-ligands?gclid=CLDYv5u4wLICFahaMgod_H8AGg "Website"]
 synonym: "polyinosine-polycytidylic acid" EXACT []
-synonym: "Polyinosinic:polycytidylic acid" EXACT []
 is_a: XCO:0000233 ! ribonucleic acid
 created_by: JSmith
 creation_date: 2012-10-16T02:34:34Z
@@ -4484,7 +4479,6 @@ def: "A substance that kills or slows the growth of one or more microorganisms, 
 synonym: "antibiotic" RELATED []
 xref: CHEBI:33281
 is_a: XCO:0000341 ! chemical with specified function
-is_a: XCO:0000850 ! therapeutic agent
 created_by: JSmith
 creation_date: 2015-04-30T14:25:42Z
 
@@ -5077,7 +5071,7 @@ creation_date: 2018-05-15T16:09:53Z
 [Term]
 id: XCO:0000543
 name: vitamin D
-def: "This is any condition in which the main influencing factor is one or more closely related forms (vitamers) of vitamin D, a group of fat-soluble vitamins (when ingested from dietary sources) and/or hormones (when produced by the skin in response to ultraviolet radiation). Vitamin D is involved in intestinal absorption of calcium, magnesium and phosphate, and in calcium homeostasis and metabolism." [https://en.wikipedia.org/wiki/Vitamin_D "Wikipedia"]
+def: "A condition in which the main influencing factor is one or more closely related forms (vitamers) of vitamin D, a group of fat-soluble secosteroid vitamins (when ingested from dietary sources) and/or hormones (when produced by the skin in response to ultraviolet radiation). Vitamin D is involved in intestinal absorption of calcium, magnesium and phosphate, and in calcium homeostasis and metabolism." [https://en.wikipedia.org/wiki/Vitamin_D "Wikipedia"]
 is_a: XCO:0000377 ! vitamin
 created_by: jrsmith
 creation_date: 2018-05-15T16:17:43Z
@@ -6709,7 +6703,7 @@ creation_date: 2020-05-15T11:12:27Z
 id: XCO:0000700
 name: controlled BAY60-4552 content diet
 def: "A regimen of solid food in which the amount of BAY60-4552 consumed is controlled." [PMID:22783192]
-synonym: "controlled Nelociguat content diet" EXACT []
+synonym: "Nelociguat" EXACT []
 xref: PMID:22783192
 is_a: XCO:0000014 ! controlled content diet
 relationship: has_component XCO:0000698 ! BAY60-4552
@@ -9754,7 +9748,7 @@ creation_date: 2023-03-02T15:15:18Z
 [Term]
 id: XCO:0000974
 name: bile duct ligation
-def: "This is a condition in which the main influencing factor is a surgical procedure causing blockage of the bile duct by suture ligation, which leads to acute obstructive jaundice and eventually to liver fibrosis." [https://www.sciencedirect.com/topics/medicine-and-dentistry/bile-duct-ligation]
+def: "This is a condition in which the main influencing factor is a surgical procedure causing blockage of the bile duct, which leads to acute obstructive jaundice and eventually to liver fibrosis." [https://www.sciencedirect.com/topics/medicine-and-dentistry/bile-duct-ligation]
 synonym: "CBDL" EXACT []
 synonym: "common bile duct ligation" EXACT []
 is_a: XCO:0000165 ! surgical manipulation
@@ -10010,20 +10004,20 @@ synonym: "transfection of CHAER1 silencing RNA using Lipofectamine reagent" EXAC
 synonym: "transfection of CHAER1 siRNA using Lipofectamine reagent" EXACT []
 synonym: "transfection of CHAER1 small interfering RNA using Lipofectamine reagent" EXACT []
 xref: PMID:27618650
-is_a: XCO:0000233 ! ribonucleic acid
+is_a: XCO:0000528 ! gene transfer
 created_by: slaulede
 creation_date: 2023-03-23T13:58:48Z
 
 [Term]
 id: XCO:0000997
 name: transfer of negative control siRNA using Lipofectamine reagent
-def: "This is any condition in which the main influencing factor is transfer of negative control siRNA (small interfering RNA) delivered with Lipofectamine. Negative control siRNA is an siRNA with no significant sequence similarity to eukaryotic gene sequences. Lipofectamine is a proprietary formulation for transfecting small RNAs into cultured eukaryotic cells." [https://en.wikipedia.org/wiki/Small_interfering_RNA, https://www.thermofisher.com/us/en/home/life-science/cell-culture/transfection/transfection-reagents/lipofectamine-rnaimax-reagent.html]
+def: "This is any condition in which the main influencing factor is negative control siRNA (small interfering RNA) delivered with Lipofectamine. Negative control siRNA is an siRNA with no significant sequence similarity to eukaryotic gene sequences. Lipofectamine is a proprietary formulation for transfecting small RNAs into cultured eukaryotic cells." [https://en.wikipedia.org/wiki/Small_interfering_RNA, https://www.thermofisher.com/us/en/home/life-science/cell-culture/transfection/transfection-reagents/lipofectamine-rnaimax-reagent.html]
 synonym: "transfection of negative control short interfering RNA using Lipofectamine reagent" EXACT []
 synonym: "transfection of negative control silencing RNA using Lipofectamine reagent" EXACT []
 synonym: "transfection of negative control siRNA using Lipofectamine reagent" EXACT []
 synonym: "transfection of negative control small interfering RNA using Lipofectamine reagent" EXACT []
 xref: PMID:27618650
-is_a: XCO:0001510 ! transfer of negative control siRNA
+is_a: XCO:0000528 ! gene transfer
 created_by: slaulede
 creation_date: 2023-03-23T14:11:37Z
 
@@ -10110,7 +10104,7 @@ def: "This is any condition in which the main influencing factor is negative con
 synonym: "negative control siRNA transfection" BROAD []
 synonym: "scrambled siRNA transfection" BROAD []
 synonym: "transfection of negative control siRNA using pSUPER plasmid" EXACT []
-is_a: XCO:0001510 ! transfer of negative control siRNA
+is_a: XCO:0000233 ! ribonucleic acid
 created_by: slaulede
 creation_date: 2023-03-28T17:21:28Z
 
@@ -10200,7 +10194,7 @@ def: "This is any condition in which the main influencing factor is negative con
 synonym: "transduction of negative control siRNA using a lentivirus" EXACT []
 synonym: "transduction of negative control siRNA using a lentivirus vector" EXACT []
 synonym: "transfer of negative control siRNA using a lentivirus" EXACT []
-is_a: XCO:0001510 ! transfer of negative control siRNA
+is_a: XCO:0000233 ! ribonucleic acid
 created_by: slaulede
 creation_date: 2023-04-06T14:42:17Z
 
@@ -12305,7 +12299,7 @@ def: "This is any condition in which the main influencing factor is amphotericin
 synonym: "(1R,3S,5R,6R,9R,11R,15S,16R,17R,18S,19E,21E,23E,25E,27E,29E,31E,33R,35S,36R,37S)-33-[(3-amino-3,6-dideoxy-beta-D-mannopyranosyl)oxy]-1,3,5,6,9,11,17,37-octahydroxy-15,16,18-trimethyl-13-oxo-14,39-dioxabicyclo[33.3.1]nonatriaconta-19,21,23,25,27,29,31-heptaene-36-carboxylic acid" EXACT []
 synonym: "amphotericin" EXACT []
 xref: CHEBI:2682
-is_a: XCO:0001489 ! antifungal agent
+is_a: XCO:0000482 ! antimicrobial agent
 created_by: slaulederkind
 creation_date: 2023-12-14T13:36:38Z
 
@@ -13252,7 +13246,7 @@ creation_date: 2024-01-23T16:02:29Z
 [Term]
 id: XCO:0001269
 name: forced swimming
-def: "This is any condition in which the main influencing factor is forced swimming, a situation in which the subject (typically a laboratory rodent) inside a water-filled chamber must swim to survive." [https://www.merriam-webster.com]
+def: "This is any condition in which the main influencing factor is forced swimming, a situation in which the subject (typically a laboratory rodent) inside a water-filled cylinder must swim to survive." [https://www.merriam-webster.com]
 synonym: "behavioural despair test" EXACT []
 synonym: "forced swimming test" EXACT []
 synonym: "forced swim test" EXACT []
@@ -13548,7 +13542,7 @@ xref: CID:442793
 xref: MESH:C007845
 xref: PMID:35897746
 is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0001489 ! antifungal agent
+is_a: XCO:0000482 ! antimicrobial agent
 created_by: slaulederkind
 creation_date: 2024-02-23T13:21:55Z
 
@@ -14724,7 +14718,7 @@ synonym: "transfection of circNrxn3 short interfering RNA using jetPEI transfect
 synonym: "transfection of circNrxn3 silencing RNA using jetPEI transfection reagent" EXACT []
 synonym: "transfection of circNrxn3 siRNA using jetPEI transfection reagent" EXACT []
 synonym: "transfection of circNrxn3 small interfering RNA using jetPEI transfection reagent" EXACT []
-is_a: XCO:0000233 ! ribonucleic acid
+is_a: XCO:0000528 ! gene transfer
 created_by: slaulederkind
 creation_date: 2024-06-10T15:20:19Z
 
@@ -14736,7 +14730,7 @@ synonym: "transfection of negative control short interfering RNA using jetPEI tr
 synonym: "transfection of negative control silencing RNA using jetPEI transfection reagent" EXACT []
 synonym: "transfection of negative control siRNA using jetPEI transfection reagent" EXACT []
 synonym: "transfection of negative control small interfering RNA using jetPEI transfection reagent" EXACT []
-is_a: XCO:0001510 ! transfer of negative control siRNA
+is_a: XCO:0000528 ! gene transfer
 created_by: slaulederkind
 creation_date: 2024-06-10T15:30:39Z
 
@@ -15736,468 +15730,6 @@ is_a: XCO:0000100 ! sham surgical control condition
 relationship: part_of XCO:0001485 ! L4/L5 spinous process resection
 created_by: slaulederkind
 creation_date: 2024-12-12T14:50:06Z
-
-[Term]
-id: XCO:0001487
-name: kainic acid
-def: "This is any condition in which the main influencing factor is kainic acid, a dicarboxylic acid, a pyrrolidinecarboxylic acid, a L-proline derivative and a non-proteinogenic L-alpha-amino acid. It has a role as an antinematodal drug and an excitatory amino acid agonist. Like many excitatory amino acid agonists it can cause neurotoxicity. Kainic acid is used to cause neurotoxicity and seizures in laboratory animals." [CID:10255]
-synonym: "(3S,4R)-3-(carboxymethyl)-4-(prop-1-en-2-yl)-L-proline" EXACT []
-synonym: "Digenic acid" EXACT []
-synonym: "digenin" RELATED []
-synonym: "kainate" EXACT []
-xref: CHEBI:31746
-xref: MESH:D007608
-is_a: XCO:0000119 ! amino acid
-is_a: XCO:0000886 ! epilepsy-inducing chemical
-created_by: slaulederkind
-creation_date: 2024-12-16T12:09:47Z
-
-[Term]
-id: XCO:0001488
-name: myclobutanil
-def: "This is any condition in which the main influencing factor is myclobutanil, a widely-used agricultural triazole fungicide. Myclobutanil may cause developmental toxicity and male reproductive toxicity." [CID:6336, PMID:32268158]
-synonym: "rac-2-(4-chlorophenyl)-2-(1H-1,2,4-triazol-1-ylmethyl)hexanenitrile" EXACT []
-xref: CHEBI:75281
-is_a: XCO:0001489 ! antifungal agent
-created_by: slaulederkind
-creation_date: 2024-12-16T13:27:39Z
-
-[Term]
-id: XCO:0001489
-name: antifungal agent
-def: "This is any condition in which the main influencing factor is an antifungal agent, a substance or other entity that kills or slows the growth of fungi." [https://www.merriam-webster.com/]
-synonym: "antifungal" EXACT []
-synonym: "fungicidal agent" NARROW []
-synonym: "fungistatic agent" NARROW []
-is_a: XCO:0000482 ! antimicrobial agent
-created_by: slaulederkind
-creation_date: 2024-12-16T13:34:36Z
-
-[Term]
-id: XCO:0001490
-name: lysergic acid diethylamide
-def: "This is any condition in which the main influencing factor is lysergic acid diethylamide, a semisynthetic derivative of ergot (Claviceps purpurea) that has complex effects on both peripheral and central nervous system serotonergic receptors. Lysergic acid diethylamide is a potent hallucinogen." [MESH:D008238]
-synonym: "(8R)-9,10-didehydro-N,N-diethyl-6-methylergoline-8-carboxamide" EXACT []
-synonym: "Delysid" NARROW []
-synonym: "D-Lsd" EXACT []
-synonym: "D-Lysergic acid diethylamide" EXACT []
-synonym: "LAD" EXACT []
-synonym: "LSD" EXACT []
-synonym: "LSD-25" EXACT []
-synonym: "LSD tartrate" NARROW []
-synonym: "Lysergide" EXACT []
-xref: CHEBI:6605
-xref: CID:5761
-is_a: XCO:0000135 ! receptor agonist
-is_a: XCO:0001122 ! antianxiety agent
-created_by: slaulederkind
-creation_date: 2024-12-16T14:01:14Z
-
-[Term]
-id: XCO:0001491
-name: calycosin
-def: "This is any condition in which the main influencing factor is calycosin, a 7-hydroxyisoflavone that functions as an antioxidant." [CID:5280448]
-synonym: "3',7-dihydroxy-4'-methoxyisoflavone" EXACT []
-synonym: "7,3'-dihydroxy-4'-methoxyisoflavone" EXACT []
-synonym: "7-hydroxy-3-(3-hydroxy-4-methoxyphenyl)-4H-chromen-4-one" EXACT []
-xref: CHEBI:17793
-xref: MESH:C121707
-is_a: XCO:0000271 ! antioxidant
-created_by: slaulederkind
-creation_date: 2024-12-16T14:24:34Z
-
-[Term]
-id: XCO:0001492
-name: 17alpha-ethynylestradiol
-def: "This is any condition in which the main influencing factor is 17alpha-ethynylestradiol, a semisynthetic alkylated estradiol with a 17-alpha-ethinyl substitution. It has high estrogenic potency when administered orally, and is often used as the estrogenic component in combination with progestogen in oral contraceptives." [CID:5991, MESH:D004997]
-synonym: "17alpha-ethynylestra-1,3,5(10)-triene-3,17beta-diol" EXACT []
-synonym: "ethinyl estradiol" EXACT []
-synonym: "ethynylestradiol" EXACT []
-xref: CHEBI:4903
-is_a: XCO:0000092 ! 17 beta-estradiol
-created_by: slaulederkind
-creation_date: 2024-12-17T14:47:20Z
-
-[Term]
-id: XCO:0001493
-name: multigenerational maternal exposure to 17alpha-ethynylestradiol
-def: "This is any condition in which the main influencing factor is any maternal exposure to 17alpha-ethynylestradiol that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) 17alpha-ethynylestradiol use/exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "multigenerational maternal exposure to 17alpha-ethynylestra-1,3,5(10)-triene-3,17beta-diol" EXACT []
-synonym: "multigenerational maternal exposure to ethinyl estradiol" EXACT []
-synonym: "multigenerational maternal exposure to ethynylestradiol" EXACT []
-xref: PMID:33296240
-is_a: XCO:0001492 ! 17alpha-ethynylestradiol
-created_by: slaulederkind
-creation_date: 2024-12-17T16:05:28Z
-
-[Term]
-id: XCO:0001494
-name: multigenerational maternal exposure to bisphenol A
-def: "This is any condition in which the main influencing factor is any maternal exposure to bisphenol A that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) bisphenol A use/exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com/, PMID:25839742]
-synonym: "multigenerational maternal exposure to BPA" EXACT []
-xref: PMID:33296240
-is_a: XCO:0000397 ! bisphenol A
-created_by: slaulederkind
-creation_date: 2024-12-17T16:05:44Z
-
-[Term]
-id: XCO:0001495
-name: multigenerational maternal exposure to sodium carboxymethylcellulose
-def: "This is any condition in which the main influencing factor is any maternal exposure to sodium carboxymethylcellulose that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) sodium carboxymethylcellulose use/exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com/, PMID:25839742]
-synonym: "multigenerational maternal exposure to carboxymethylcellulose sodium" EXACT []
-synonym: "multigenerational maternal exposure to carboxymethylcellulose sodium salt" EXACT []
-synonym: "multigenerational maternal exposure to carmellose sodium" EXACT []
-synonym: "multigenerational maternal exposure to CMC-Na" EXACT []
-xref: CHEBI:85146
-xref: CID:6328154
-xref: MESH:D002266
-is_a: XCO:0001282 ! sodium carboxymethylcellulose
-created_by: slaulederkind
-creation_date: 2024-12-17T16:05:51Z
-
-[Term]
-id: XCO:0001496
-name: gestational maternal exposure to 17alpha-ethynylestradiol
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to 17alpha-ethynylestradiol. This is a condition typically studied to determine the effect of maternal (F0) 17alpha-ethynylestradiol use/exposure on the F1 offspring" [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
-synonym: "gestational maternal exposure to 17alpha-ethynylestra-1,3,5(10)-triene-3,17beta-diol" EXACT []
-synonym: "gestational maternal exposure to ethinyl estradiol" EXACT []
-synonym: "gestational maternal exposure to ethynylestradiol" EXACT []
-xref: PMID:33296240
-relationship: part_of XCO:0001493 ! multigenerational maternal exposure to 17alpha-ethynylestradiol
-created_by: slaulederkind
-creation_date: 2024-12-17T16:20:57Z
-
-[Term]
-id: XCO:0001497
-name: gestational maternal exposure to bisphenol A
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to bisphenol A. This is a condition typically studied to determine the effect of maternal (F0) bisphenol A use/exposure on the F1 offspring" [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
-synonym: "gestational maternal exposure to BPA" EXACT []
-xref: PMID:33296240
-relationship: part_of XCO:0001494 ! multigenerational maternal exposure to bisphenol A
-created_by: slaulederkind
-creation_date: 2024-12-17T16:21:42Z
-
-[Term]
-id: XCO:0001498
-name: gestational maternal exposure to sodium carboxymethylcellulose
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to sodium carboxymethylcellulose. This is a condition typically studied to determine the effect of maternal (F0) sodium carboxymethylcellulose use/exposure on the F1 offspring" [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
-synonym: "gestational maternal exposure to carboxymethylcellulose sodium" EXACT []
-synonym: "gestational maternal exposure to carboxymethylcellulose sodium salt" EXACT []
-synonym: "gestational maternal exposure to carmellose sodium" EXACT []
-synonym: "gestational maternal exposure to CMC-Na" EXACT []
-xref: CHEBI:85146
-xref: CID:6328154
-xref: MESH:D002266
-relationship: part_of XCO:0001495 ! multigenerational maternal exposure to sodium carboxymethylcellulose
-created_by: slaulederkind
-creation_date: 2024-12-17T16:22:14Z
-
-[Term]
-id: XCO:0001499
-name: inferior vena cava ligation
-def: "This is any condition in which the main influencing factor is surgical narrowing of the lumen of the inferior vena cava by suture ligation, typically done caudal of the renal veins for establishing a model of deep vein thrombosis (DVT). Typically, side branches of the IVC caudal to the renal veins are fully ligated in this DVT model." [PMID:37664678]
-synonym: "IVC ligation" EXACT []
-is_a: XCO:0000596 ! blood vessel constriction
-created_by: slaulederkind
-creation_date: 2024-12-19T14:01:43Z
-
-[Term]
-id: XCO:0001500
-name: inferior vena cava ligation sham procedure
-def: "This is any condition in which the main influencing factor is an inferior vena cava ligation sham procedure, which follows the same surgical process as an inferior vena cava ligation without blocking the inferior vena cava or any other veins." [PMID:37664678]
-synonym: "IVC ligation sham procedure" EXACT []
-is_a: XCO:0000100 ! sham surgical control condition
-relationship: part_of XCO:0001499 ! inferior vena cava ligation
-created_by: slaulederkind
-creation_date: 2024-12-19T14:33:27Z
-
-[Term]
-id: XCO:0001501
-name: phosphate ion
-def: "This is any condition in which the main influencing factor is phosphate ion ([PO4]3−), a molecular species derived from phosphoric acid by the removal of three protons." [https://en.wikipedia.org/wiki/Phosphate#\:~\:text=The%20phosphate%20ion%20has%20a\,4.]
-synonym: "[PO 4]3−" EXACT []
-synonym: "orthophosphate ion" EXACT []
-xref: PMID:26739890
-is_a: XCO:0000149 ! ion/salt
-created_by: slaulederkind
-creation_date: 2024-12-19T15:23:32Z
-
-[Term]
-id: XCO:0001502
-name: controlled phosphate content diet
-def: "This is any condition in which the main influencing factor is a controlled phosphate content diet, which is a regimen of solid food in which the amount of phosphate consumed is controlled." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
-synonym: "controlled [PO 4]3− content diet" EXACT []
-synonym: "controlled orthophosphate content diet" EXACT []
-xref: PMID:26739890
-is_a: XCO:0000014 ! controlled content diet
-relationship: has_component XCO:0001501 ! phosphate ion
-created_by: slaulederkind
-creation_date: 2024-12-19T16:26:39Z
-
-[Term]
-id: XCO:0001503
-name: alfacalcidol
-def: "This is any condition in which the main influencing factor is alfacalcidol, a member of the class of D3 vitamins that is calciol in which the hydrogen at the 1alpha position is replaced by a hydroxy group. It is an active metabolite of cholecalciferol, which performs important functions in regulation of the calcium balance and the bone metabolism." []
-synonym: "(1S,3R,5Z,7E)-9,10-secocholesta-5,7,10-triene-1,3-diol" EXACT []
-synonym: "1alpha-hydroxycholecalciferol" EXACT []
-synonym: "1alpha-hydroxy-vitamin D3" EXACT []
-synonym: "1alpha-hydroxyvitamin D3" EXACT []
-synonym: "1-Hydroxycholecalciferol" EXACT []
-synonym: "alphacalcidol" EXACT []
-xref: CID:5282181
-xref: MESH:C008088
-is_a: XCO:0000545 ! vitamin D3
-created_by: slaulederkind
-creation_date: 2024-12-19T16:43:49Z
-
-[Term]
-id: XCO:0001504
-name: metal pellet implantation in muscle
-def: "This is any condition in which the main influencing factor is the surgical implantation of some type of metal pellet in muscle. This procedure is used to study the effect of various metals in laboratory models of shrapnel wounds." [PMID:33017228]
-synonym: "metal fragment implantation in muscle" RELATED []
-is_a: XCO:0000027 ! surgical implantation
-created_by: slaulederkind
-creation_date: 2024-12-20T10:38:24Z
-
-[Term]
-id: XCO:0001505
-name: tantalum pellet implantation in muscle
-def: "This is any condition in which the main influencing factor is the surgical implantation of tantalum pellet(s) in muscle. Tantalum implantation serves as a control for other metal implantation because tantalum has great biocompatibility in implants, devices, and stents, and is largely thought to be inert both in vitro and in vivo." [PMID:33017228]
-synonym: "control metal pellet implantation in muscle" BROAD []
-synonym: "Ta pellet implantation in muscle" EXACT []
-xref: CHEBI:37222
-is_a: XCO:0001504 ! metal pellet implantation in muscle
-created_by: slaulederkind
-creation_date: 2024-12-20T11:01:28Z
-
-[Term]
-id: XCO:0001506
-name: nickel pellet implantation in muscle
-def: "This is any condition in which the main influencing factor is the surgical implantation of nickel pellet(s) in muscle. Nickel is a hard and ductile transition metal that is used in various metal alloys." [https://en.wikipedia.org/wiki/Nickel]
-synonym: "Ni pellet implantation in muscle" EXACT []
-xref: CHEBI:33748
-xref: PMID:33017228
-is_a: XCO:0001504 ! metal pellet implantation in muscle
-created_by: slaulederkind
-creation_date: 2024-12-20T11:21:49Z
-
-[Term]
-id: XCO:0001507
-name: cobalt pellet implantation in muscle
-def: "This is any condition in which the main influencing factor is the surgical implantation of cobalt pellet(s) in muscle. Cobalt is a hard, brittle transition metal used in metal alloys, batteries, and in colorants." [https://en.wikipedia.org/wiki/Cobalt]
-synonym: "Co pellet implantation in muscle" EXACT []
-xref: CHEBI:33888
-xref: PMID:33017228
-is_a: XCO:0001504 ! metal pellet implantation in muscle
-created_by: slaulederkind
-creation_date: 2024-12-20T12:12:11Z
-
-[Term]
-id: XCO:0001508
-name: lead pellet implantation in muscle
-def: "This is any condition in which the main influencing factor is the surgical implantation of lead pellet(s) in muscle. Lead is a soft, malleable, dense post-transition metal that has been used in many different man-made products." [https://en.wikipedia.org/wiki/Lead]
-synonym: "Pb pellet implantation in muscle" EXACT []
-xref: CHEBI:33585
-xref: PMID:33017228
-is_a: XCO:0001504 ! metal pellet implantation in muscle
-created_by: slaulederkind
-creation_date: 2024-12-20T12:28:37Z
-
-[Term]
-id: XCO:0001509
-name: depleted uranium pellet implantation in muscle
-def: "This is any condition in which the main influencing factor is the surgical implantation of depleted uranium pellet(s) in muscle. Depleted uranium is uranium with a lower content of the fissile isotope 235U than natural uranium. Both depleted uranium and uranium are extremely dense metals." [https://en.wikipedia.org/wiki/Depleted_uranium]
-synonym: "DU pellet implantation in muscle" EXACT []
-xref: CHEBI:33499
-xref: PMID:33017228
-is_a: XCO:0001504 ! metal pellet implantation in muscle
-created_by: slaulederkind
-creation_date: 2024-12-20T12:38:09Z
-
-[Term]
-id: XCO:0001510
-name: transfer of negative control siRNA
-def: "This is any condition in which the main influencing factor is transfer of negative control siRNA (small interfering RNA) delivered by transfection or transduction (transfer by virus). Negative control siRNA is an siRNA with no significant sequence similarity to eukaryotic gene sequences. Transfection may be accomplished with chemical, physical, or nonviral biological methods." [ISBN-13:978-1455756438]
-synonym: "Not4Curation" RELATED []
-xref: PMID:33976969
-is_a: XCO:0000233 ! ribonucleic acid
-created_by: slaulederkind
-creation_date: 2024-12-30T13:38:49Z
-
-[Term]
-id: XCO:0001511
-name: transfer of rat Oprm-1 shRNA using an adenovirus vector
-def: "This is any condition in which the main influencing factor is transfer of rat Oprm-1 (opioid receptor, mu 1) shRNA. Oprm-1 is the mu opioid receptor (MOR). The mu opioid receptor is the principal target of endogenous opioid peptides and opioid analgesic agents such as beta-endorphin and enkephalins." [ISBN-13:978-1455756438, RGD:737513]
-synonym: "transduction of rat Oprm-1 shRNA using an adenoviral vector" EXACT []
-synonym: "transduction of rat Oprm-1 shRNA using an adenovirus vector" EXACT []
-synonym: "transfer of rat MOR shRNA using an adeno-associated viral (AAV) vector" EXACT []
-synonym: "transfer of rat MOR shRNA using an adenovirus vector" EXACT []
-synonym: "transfer of rat mu opioid receptor shRNA using an adenoviral vector" EXACT []
-synonym: "transfer of rat mu opioid receptor shRNA using an adenovirus vector" EXACT []
-synonym: "transfer of rat Oprm-1 short hairpin RNA using an adenovirus vector" EXACT []
-synonym: "transfer of rat Oprm-1 shRNA using an adeno-associated viral (AAV) vector" EXACT []
-is_a: XCO:0000233 ! ribonucleic acid
-created_by: slaulederkind
-creation_date: 2024-12-30T13:55:56Z
-
-[Term]
-id: XCO:0001512
-name: transfer of negative control shRNA using an adenovirus vector
-def: "This is any condition in which the main influencing factor is transfer of negative control shRNA (short hairpin RNA) delivered with an adenovirus vector. Negative control shRNA is an shRNA with no significant sequence similarity to eukaryotic gene sequences and may be a scrambled version of the experimental shRNA used." [ISBN-13:978-1455756438, PMID:32388931]
-synonym: "transduction of negative control shRNA using an adenoviral vector" EXACT []
-synonym: "transduction of negative control shRNA using an adenovirus vector" EXACT []
-synonym: "transfer of negative control short hairpin RNA using an adenovirus vector" EXACT []
-synonym: "transfer of negative control shRNA using an adeno-associated viral (AAV) vector" EXACT []
-synonym: "transfer of negative control shRNA using an adenoviral vector" EXACT []
-synonym: "transfer of negative control shRNA using an adenovirus vector" EXACT []
-is_a: XCO:0000233 ! ribonucleic acid
-created_by: slaulederkind
-creation_date: 2024-12-30T14:19:40Z
-
-[Term]
-id: XCO:0001513
-name: methylazoxymethanol acetate
-def: "This is any condition in which the main influencing factor is methylazoxymethanol acetate, a neurotoxin which reduces DNA synthesis. Methylazoxymethanol acetate is used in making animal models of neurological diseases including schizophrenia and epilepsy. It may also be carcinogenic." [https://en.wikipedia.org/wiki/Methylazoxymethanol_acetate]
-synonym: "[(Z)-methyl-ONN-azoxy]methyl acetate" EXACT []
-synonym: "MAM" EXACT []
-xref: CID:5363199
-xref: MESH:D008746
-is_a: XCO:0000089 ! neoplasm-inducing chemical
-is_a: XCO:0000496 ! neurotoxin
-created_by: slaulederkind
-creation_date: 2024-12-30T14:52:28Z
-
-[Term]
-id: XCO:0001514
-name: multigenerational maternal exposure to methylazoxymethanol acetate
-def: "This is any condition in which the main influencing factor is any maternal exposure to methylazoxymethanol acetate that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) methylazoxymethanol acetate use/exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "multigenerational maternal exposure to [(Z)-methyl-ONN-azoxy]methyl acetate" EXACT []
-synonym: "multigenerational maternal exposure to MAM" EXACT []
-xref: PMID:32497066
-is_a: XCO:0001513 ! methylazoxymethanol acetate
-created_by: slaulederkind
-creation_date: 2024-12-31T12:16:49Z
-
-[Term]
-id: XCO:0001515
-name: gestational maternal exposure to methylazoxymethanol acetate
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to methylazoxymethanol acetate. This is a condition typically studied to determine the effect of maternal (F0) methylazoxymethanol acetate use/exposure on the F1 offspring." [https://www.merriam-webster.com/, PMID:25839742]
-synonym: "gestational maternal exposure to [(Z)-methyl-ONN-azoxy]methyl acetate" EXACT []
-synonym: "gestational maternal exposure to MAM" EXACT []
-xref: PMID:32497066
-relationship: part_of XCO:0001514 ! multigenerational maternal exposure to methylazoxymethanol acetate
-created_by: slaulederkind
-creation_date: 2024-12-31T12:20:59Z
-
-[Term]
-id: XCO:0001516
-name: multigenerational maternal exposure to poly I:C
-def: "This is any condition in which the main influencing factor is any maternal exposure to poly I:C that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) poly I:C use/exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "multigenerational maternal exposure to dsRNA poly(I:C)" EXACT []
-synonym: "multigenerational maternal exposure to poly(I:C)" EXACT []
-synonym: "multigenerational maternal exposure to Poly(I:C) dsRNA" EXACT []
-synonym: "multigenerational maternal exposure to polyinosinic-polycytidylic acid" EXACT []
-xref: PMID:32497066
-is_a: XCO:0000235 ! poly I:C
-created_by: slaulederkind
-creation_date: 2024-12-31T12:35:05Z
-
-[Term]
-id: XCO:0001517
-name: gestational maternal exposure to poly I:C
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to poly I:C. This is a condition typically studied to determine the effect of maternal (F0) poly I:C use/exposure on the F1 offspring." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "gestational maternal exposure dsRNA poly(I:C)" EXACT []
-synonym: "gestational maternal exposure poly(I:C)" EXACT []
-synonym: "gestational maternal exposure polyinosinic-polycytidylic acid" EXACT []
-synonym: "gestational maternal exposure to Poly(I:C) dsRNA" EXACT []
-xref: PMID:32497066
-relationship: part_of XCO:0001516 ! multigenerational maternal exposure to poly I:C
-created_by: slaulederkind
-creation_date: 2024-12-31T12:50:37Z
-
-[Term]
-id: XCO:0001518
-name: multigenerational maternal exposure to a controlled protein content diet
-def: "This is any condition in which the main influencing factor is maternal exposure to a controlled protein content diet that has multigenerational effects. This is a condition typically studied to determine the effect of a maternal (F0) controlled protein content diet on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "multigenerational maternal exposure to controlled protein content diet" EXACT []
-xref: PMID:32497066
-is_a: XCO:0000030 ! controlled protein content diet
-created_by: slaulederkind
-creation_date: 2024-12-31T13:04:46Z
-
-[Term]
-id: XCO:0001519
-name: gestational maternal exposure to a controlled protein content diet
-def: "This is any condition in which the main influencing factor is gestational maternal exposure to a controlled protein content diet. This is a condition typically studied to determine the effect of a maternal (F0) controlled protein content diet on the F1 offspring." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "gestational maternal exposure to controlled protein content diet" EXACT []
-synonym: "PMID:32497066" EXACT []
-relationship: part_of XCO:0001518 ! multigenerational maternal exposure to a controlled protein content diet
-created_by: slaulederkind
-creation_date: 2024-12-31T13:10:28Z
-
-[Term]
-id: XCO:0001520
-name: multigenerational maternal exposure to controlled air oxygen content
-def: "This is any condition in which the main influencing factor is any maternal exposure to controlled air oxygen content that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) controlled air oxygen content exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "multigenerational maternal exposure to measured air oxygen content" EXACT []
-xref: PMID:32639867
-is_a: XCO:0001525 ! multigenerational parental exposure to controlled air oxygen content
-created_by: slaulederkind
-creation_date: 2025-01-03T15:02:26Z
-
-[Term]
-id: XCO:0001521
-name: pregestational maternal exposure to controlled air oxygen content
-def: "This is any condition in which the main influencing factor is any pregestational maternal exposure to controlled air oxygen content. This is a condition typically studied to determine the effect of maternal (F0) controlled air oxygen content exposure on the F1 offspring." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "maternal exposure to controlled air oxygen content prior to a pregnancy" EXACT []
-synonym: "maternal exposure to measured air oxygen content prior to a pregnancy" EXACT []
-xref: PMID:32639867
-relationship: part_of XCO:0001520 ! multigenerational maternal exposure to controlled air oxygen content
-created_by: slaulederkind
-creation_date: 2025-01-03T15:08:23Z
-
-[Term]
-id: XCO:0001522
-name: gestational maternal exposure to controlled air oxygen content
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to controlled air oxygen content. This is a condition typically studied to determine the effect of maternal (F0) controlled air oxygen content exposure on the F1 offspring." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "maternal exposure to controlled air oxygen content during pregnancy" EXACT []
-xref: PMID:32639867
-relationship: part_of XCO:0001520 ! multigenerational maternal exposure to controlled air oxygen content
-created_by: slaulederkind
-creation_date: 2025-01-03T15:14:51Z
-
-[Term]
-id: XCO:0001523
-name: maternal exposure to controlled air oxygen content during nursing
-def: "This is any condition in which the main influencing factor is any maternal exposure to controlled air oxygen content during nursing of offspring. This is a condition typically studied to determine the effect of maternal (F0) controlled air oxygen content exposure during the postnatal, preweaning period on the F1 offspring ." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "maternal exposure to controlled air oxygen content during nursing of offspring" EXACT []
-xref: PMID:32639867
-relationship: part_of XCO:0001520 ! multigenerational maternal exposure to controlled air oxygen content
-created_by: slaulederkind
-creation_date: 2025-01-03T15:27:49Z
-
-[Term]
-id: XCO:0001524
-name: multigenerational paternal exposure to controlled air oxygen content
-def: "This is any condition in which the main influencing factor is any paternal exposure to controlled air oxygen content that has multigenerational effects. This is a condition typically studied to determine the effect of paternal (F0) controlled air oxygen content exposure on the F1 offspring. The paternal exposure may be any time before conception of offspring." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "multigenerational paternal exposure to measured air oxygen content" EXACT []
-synonym: "pre-copulatory paternal exposure to controlled air oxygen content" EXACT []
-synonym: "precopulatory paternal exposure to controlled air oxygen content" EXACT []
-xref: PMID:32639867
-is_a: XCO:0001525 ! multigenerational parental exposure to controlled air oxygen content
-created_by: slaulederkind
-creation_date: 2025-01-03T15:40:17Z
-
-[Term]
-id: XCO:0001525
-name: multigenerational parental exposure to controlled air oxygen content
-def: "This is any condition in which the main influencing factor is any parental exposure to controlled air oxygen content that has multigenerational effects. This is a condition typically studied to determine the effect of maternal/paternal (F0) controlled air oxygen content exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring. Paternal exposure to controlled air oxygen content may occur anytime before successful copulation." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "multigenerational paternal exposure to measured air oxygen content" EXACT []
-synonym: "Not4Curation" RELATED []
-xref: PMID:32639867
-is_a: XCO:0000010 ! controlled air oxygen content
-created_by: slaulederkind
-creation_date: 2025-01-03T15:52:55Z
 
 [Typedef]
 id: has_component
