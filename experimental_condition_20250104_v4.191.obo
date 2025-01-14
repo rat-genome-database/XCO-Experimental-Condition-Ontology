@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.192
-date: 11:01:2025 20:13
+data-version: 4.191
+date: 04:01:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -2095,7 +2095,7 @@ id: XCO:0000241
 name: streptozotocin
 def: "This is any condition in which the main influencing factor is streptozotocin, a naturally occurring chemical that is particularly toxic to the insulin-producing beta cells of the pancreas in mammals. STZ can be used to treat pancreatic islet cell cancers and to model type 1 diabetes mellitus in animals via destruction of the insulin-producing beta cells of the islets of Langerhans." [http://en.wikipedia.org/wiki/Streptozotocin "Wikipedia"]
 synonym: "streptozocin" EXACT []
-synonym: "STZ" EXACT []
+synonym: "STZ" RELATED []
 xref: CHEBI:9288
 is_a: XCO:0000240 ! toxin
 is_a: XCO:0000435 ! antineoplastic agent
@@ -4646,11 +4646,8 @@ creation_date: 2016-04-25T15:27:15Z
 [Term]
 id: XCO:0000499
 name: 1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine
-def: "This is any condition in which the main influencing factor is1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine (MPTP), the precursor to the toxic metabolite MPP+ (1-methyl-4-phenylpyridinium cation) which promotes degeneration of dopaminergic neurons." [PMID:22108613]
-synonym: "MPTP" EXACT []
-synonym: "N-Methyl-4-phenyl-1,2,3,6-tetrahydropyridine" EXACT []
-synonym: "N-methyl-4-phenylpyridinium" EXACT []
-synonym: "Pyridine, 1,2,3,6-tetrahydro-1-methyl-4-phenyl-" EXACT []
+def: "A condition in which the main influencing factor is1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine (MPTP), the precursor to the toxic metabolite MPP+ (1-methyl-4-phenylpyridinium cation) which promotes degeneration of dopaminergic neurons." [PMID:22108613]
+synonym: "MPTP" RELATED []
 xref: CHEBI:17963
 is_a: XCO:0000495 ! neurotoxic substance
 is_a: XCO:0000497 ! Parkinson disease-inducing chemical
@@ -13979,7 +13976,6 @@ synonym: "maternal exposure to oxycodone during pregnancy" EXACT []
 xref: CHEBI:7852
 xref: PMID:25839742
 xref: PMID:33490084
-is_a: XCO:0000420 ! controlled in utero environment
 relationship: part_of XCO:0001334 ! multigenerational maternal exposure to oxycodone
 relationship: part_of XCO:0001335 ! transgenerational maternal exposure to oxycodone
 created_by: slaulederkind
@@ -14571,7 +14567,6 @@ synonym: "maternal exposure to metyrapone during pregnancy" EXACT []
 xref: CHEBI:44241
 xref: PMID:25839742
 xref: PMID:38007547
-is_a: XCO:0000420 ! controlled in utero environment
 relationship: part_of XCO:0001381 ! multigenerational maternal exposure to metyrapone
 created_by: slaulederkind
 creation_date: 2024-05-24T14:40:41Z
@@ -14596,7 +14591,6 @@ synonym: "maternal exposure to lipopolysaccharide during pregnancy" EXACT []
 synonym: "maternal exposure to LPS during pregnancy" EXACT []
 xref: CHEBI:16412
 xref: PMID:38007547
-is_a: XCO:0000420 ! controlled in utero environment
 relationship: part_of XCO:0001383 ! multigenerational maternal exposure to lipopolysaccharide
 created_by: slaulederkind
 creation_date: 2024-05-24T15:10:20Z
@@ -14619,8 +14613,6 @@ def: "This is any condition in which the main influencing factor is any gestatio
 synonym: "gestational maternal exposure to 0.9% sodium chloride solution" EXACT []
 synonym: "gestational maternal exposure to normal saline" EXACT []
 xref: PMID:38007547
-is_a: XCO:0000101 ! vehicle control condition
-is_a: XCO:0000420 ! controlled in utero environment
 is_a: XCO:0001385 ! multigenerational maternal exposure to saline
 created_by: slaulederkind
 creation_date: 2024-05-28T15:26:32Z
@@ -14981,8 +14973,6 @@ def: "This is any condition in which the main influencing factor is any maternal
 synonym: "transgenerational maternal exposure to distilled, deionized water" EXACT []
 xref: CHEBI:7852
 xref: PMID:31919777
-is_a: XCO:0000101 ! vehicle control condition
-is_a: XCO:0000420 ! controlled in utero environment
 is_a: XCO:0001416 ! distilled deionized water
 created_by: slaulederkind
 creation_date: 2024-06-21T17:15:02Z
@@ -14994,7 +14984,6 @@ def: "This is any condition in which the main influencing factor is any paternal
 synonym: "transgenerational paternal exposure to distilled, deionized water" EXACT []
 xref: CHEBI:7852
 xref: PMID:31919777
-is_a: XCO:0000101 ! vehicle control condition
 is_a: XCO:0001416 ! distilled deionized water
 created_by: slaulederkind
 creation_date: 2024-06-21T17:21:50Z
@@ -15874,7 +15863,6 @@ synonym: "gestational maternal exposure to 17alpha-ethynylestra-1,3,5(10)-triene
 synonym: "gestational maternal exposure to ethinyl estradiol" EXACT []
 synonym: "gestational maternal exposure to ethynylestradiol" EXACT []
 xref: PMID:33296240
-is_a: XCO:0000420 ! controlled in utero environment
 relationship: part_of XCO:0001493 ! multigenerational maternal exposure to 17alpha-ethynylestradiol
 created_by: slaulederkind
 creation_date: 2024-12-17T16:20:57Z
@@ -15882,10 +15870,9 @@ creation_date: 2024-12-17T16:20:57Z
 [Term]
 id: XCO:0001497
 name: gestational maternal exposure to bisphenol A
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to bisphenol A. This is a condition typically studied to determine the effect of maternal (F0) bisphenol A use/exposure on the F1 offspring." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
+def: "This is any condition in which the main influencing factor is any gestational maternal exposure to bisphenol A. This is a condition typically studied to determine the effect of maternal (F0) bisphenol A use/exposure on the F1 offspring" [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
 synonym: "gestational maternal exposure to BPA" EXACT []
 xref: PMID:33296240
-is_a: XCO:0000420 ! controlled in utero environment
 relationship: part_of XCO:0001494 ! multigenerational maternal exposure to bisphenol A
 created_by: slaulederkind
 creation_date: 2024-12-17T16:21:42Z
@@ -15901,7 +15888,6 @@ synonym: "gestational maternal exposure to CMC-Na" EXACT []
 xref: CHEBI:85146
 xref: CID:6328154
 xref: MESH:D002266
-is_a: XCO:0000420 ! controlled in utero environment
 relationship: part_of XCO:0001495 ! multigenerational maternal exposure to sodium carboxymethylcellulose
 created_by: slaulederkind
 creation_date: 2024-12-17T16:22:14Z
@@ -16099,7 +16085,6 @@ def: "This is any condition in which the main influencing factor is any gestatio
 synonym: "gestational maternal exposure to [(Z)-methyl-ONN-azoxy]methyl acetate" EXACT []
 synonym: "gestational maternal exposure to MAM" EXACT []
 xref: PMID:32497066
-is_a: XCO:0000420 ! controlled in utero environment
 relationship: part_of XCO:0001514 ! multigenerational maternal exposure to methylazoxymethanol acetate
 created_by: slaulederkind
 creation_date: 2024-12-31T12:20:59Z
@@ -16126,7 +16111,6 @@ synonym: "gestational maternal exposure poly(I:C)" EXACT []
 synonym: "gestational maternal exposure polyinosinic-polycytidylic acid" EXACT []
 synonym: "gestational maternal exposure to Poly(I:C) dsRNA" EXACT []
 xref: PMID:32497066
-is_a: XCO:0000420 ! controlled in utero environment
 relationship: part_of XCO:0001516 ! multigenerational maternal exposure to poly I:C
 created_by: slaulederkind
 creation_date: 2024-12-31T12:50:37Z
@@ -16147,7 +16131,6 @@ name: gestational maternal exposure to a controlled protein content diet
 def: "This is any condition in which the main influencing factor is gestational maternal exposure to a controlled protein content diet. This is a condition typically studied to determine the effect of a maternal (F0) controlled protein content diet on the F1 offspring." [https://www.merriam-webster.com, PMID:25839742]
 synonym: "gestational maternal exposure to controlled protein content diet" EXACT []
 synonym: "PMID:32497066" EXACT []
-is_a: XCO:0000420 ! controlled in utero environment
 relationship: part_of XCO:0001518 ! multigenerational maternal exposure to a controlled protein content diet
 created_by: slaulederkind
 creation_date: 2024-12-31T13:10:28Z
@@ -16179,7 +16162,6 @@ name: gestational maternal exposure to controlled air oxygen content
 def: "This is any condition in which the main influencing factor is any gestational maternal exposure to controlled air oxygen content. This is a condition typically studied to determine the effect of maternal (F0) controlled air oxygen content exposure on the F1 offspring." [https://www.merriam-webster.com, PMID:25839742]
 synonym: "maternal exposure to controlled air oxygen content during pregnancy" EXACT []
 xref: PMID:32639867
-is_a: XCO:0000420 ! controlled in utero environment
 relationship: part_of XCO:0001520 ! multigenerational maternal exposure to controlled air oxygen content
 created_by: slaulederkind
 creation_date: 2025-01-03T15:14:51Z
@@ -16216,74 +16198,6 @@ xref: PMID:32639867
 is_a: XCO:0000010 ! controlled air oxygen content
 created_by: slaulederkind
 creation_date: 2025-01-03T15:52:55Z
-
-[Term]
-id: XCO:0001526
-name: multigenerational maternal exposure to streptozotocin
-def: "This is any condition in which the main influencing factor is any maternal exposure to streptozotocin that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) streptozotocin exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com/, PMID:25839742]
-synonym: "multigenerational maternal exposure to streptozocin" EXACT []
-synonym: "multigenerational maternal exposure to STZ" EXACT []
-xref: PMID:32595139
-is_a: XCO:0000241 ! streptozotocin
-created_by: slaulederkind
-creation_date: 2025-01-06T12:10:27Z
-
-[Term]
-id: XCO:0001527
-name: gestational maternal exposure to streptozotocin
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to streptozotocin. This is a condition typically studied to determine the effect of maternal (F0) streptozotocin exposure on the F1 offspring." [https://www.merriam-webster.com/, PMID:25839742]
-synonym: "gestational maternal exposure to streptozocin" EXACT []
-synonym: "gestational maternal exposure to STZ" EXACT []
-xref: PMID:32595139
-is_a: XCO:0000420 ! controlled in utero environment
-relationship: part_of XCO:0001526 ! multigenerational maternal exposure to streptozotocin
-created_by: slaulederkind
-creation_date: 2025-01-06T12:26:31Z
-
-[Term]
-id: XCO:0001528
-name: multigenerational maternal exposure to citrate buffer
-def: "This is any condition in which the main influencing factor is any maternal exposure to citrate buffer that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) citrate buffer exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring. Citrate buffer is a combination of sodium citrate dihydrate and citric acid in water to form a solution with a pH range of 3.0 to 6.2." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "multigenerational maternal exposure to sodium citrate buffer" EXACT []
-xref: PMID:32595139
-is_a: XCO:0001464 ! citrate buffer
-created_by: slaulederkind
-creation_date: 2025-01-06T12:42:24Z
-
-[Term]
-id: XCO:0001529
-name: gestational maternal exposure to citrate buffer
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to citrate buffer. This is a condition typically studied to determine the effect of maternal (F0) citrate buffer exposure on the F1 offspring. This is typically a control condition for gestational maternal exposure to some chemical agent." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "gestational maternal exposure to sodium citrate buffer" EXACT []
-xref: PMID:32595139
-is_a: XCO:0000101 ! vehicle control condition
-is_a: XCO:0000420 ! controlled in utero environment
-relationship: part_of XCO:0001528 ! multigenerational maternal exposure to citrate buffer
-created_by: slaulederkind
-creation_date: 2025-01-06T12:57:18Z
-
-[Term]
-id: XCO:0001530
-name: multigenerational maternal exposure to hyperglycemia
-def: "This is any condition in which the main influencing factor is any maternal exposure to hyperglycemia (blood glucose level > 180 mg/dl) that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) hyperglycemia exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "multigenerational maternal exposure to high blood glucose" EXACT []
-synonym: "multigenerational maternal exposure to high blood sugar" EXACT []
-xref: PMID:32595139
-relationship: has_component XCO:0000275 ! glucose
-created_by: slaulederkind
-creation_date: 2025-01-06T13:15:35Z
-
-[Term]
-id: XCO:0001531
-name: gestational maternal exposure to hyperglycemia
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to hyperglycemia (blood glucose level > 180 mg/dl). This is a condition typically studied to determine the effect of maternal (F0) hyperglycemia exposure on the F1 offspring." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "gestational maternal exposure to high blood glucose" EXACT []
-synonym: "gestational maternal exposure to high blood sugar" EXACT []
-xref: PMID:32595139
-is_a: XCO:0000420 ! controlled in utero environment
-relationship: part_of XCO:0001530 ! multigenerational maternal exposure to hyperglycemia
-created_by: slaulederkind
-creation_date: 2025-01-06T13:36:01Z
 
 [Typedef]
 id: has_component
