@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.192
-date: 11:01:2025 20:13
+data-version: 4.193
+date: 01:02:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -16284,6 +16284,17 @@ is_a: XCO:0000420 ! controlled in utero environment
 relationship: part_of XCO:0001530 ! multigenerational maternal exposure to hyperglycemia
 created_by: slaulederkind
 creation_date: 2025-01-06T13:36:01Z
+
+[Term]
+id: XCO:0001532
+name: Masquelet surgery
+def: "This is any condition in which the main influencing factor is use of the Masquelet surgical technique, a surgical procedure used to reconstruct bone defects, particularly those that are large or infected. This technique involves placement of a polymethyl methacrylate (PMMA) cement spacer in a bone defect to allow growth of a vascularized membrane that promotes bone regeneration. A second stage in the method involves removing the spacer after membrane growth and replacing it with bone graft." [PMID:_21543068]
+synonym: "Masquelet induced-membrane technique" EXACT []
+synonym: "Masquelet technique" EXACT []
+synonym: "Masquelet treatment" EXACT []
+relationship: has_component XCO:0001394 ! osteotomy
+created_by: slaulederkind
+creation_date: 2025-01-31T12:58:10Z
 
 [Typedef]
 id: has_component
