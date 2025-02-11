@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.194
-date: 08:02:2025 20:13
+data-version: 4.193
+date: 01:02:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -3394,7 +3394,7 @@ creation_date: 2014-01-09T13:51:38Z
 [Term]
 id: XCO:0000373
 name: surgical denervation
-def: "This is any condition in which the main influencing factor is surgical denervation, which my involve transection, resection, or complete surgical removal of a nerve, any of the cordlike structures that convey impulses between the central nervous system and one or more parts of the body, and that each consist of an outer connective tissue sheath surrounding a bundle of conductive fibers." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Dental_Dictionary--2nd_Ed]
+def: "The resection or complete surgical removal of a nerve, any of the cordlike structures that convey impulses between the central nervous system and one or more parts of the body, and that each consist of an outer connective tissue sheath surrounding a bundle of conductive fibers." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Dental_Dictionary--2nd_Ed]
 xref: MESH:D003714
 is_a: XCO:0000026 ! surgical removal
 created_by: JSmith
@@ -3405,7 +3405,7 @@ id: XCO:0000374
 name: axotomy
 def: "Surgical transection or severing of an axon, the process of a neuron capable of conducting action potentials or self-propagating nerve impulses away from the cell body." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 xref: MESH:D019771
-is_a: XCO:0001373 ! surgical nerve transection
+is_a: XCO:0000373 ! surgical denervation
 created_by: JSmith
 creation_date: 2014-01-09T14:56:20Z
 
@@ -9889,12 +9889,12 @@ creation_date: 2023-03-13T14:07:11Z
 
 [Term]
 id: XCO:0000985
-name: transfer of rat wild type Ccny-specific shRNA using a lentivirus vector
+name: transfer of rat wild type Ccny-specific shRNA  using a lentivirus vector
 def: "This is a condition in which the rat wild type cyclin Y gene short hairpin RNA (Ccny-shRNA) has been (transiently or stably) transferred into a cell or organism using a lentivirus carrier in order to reduce synthesis of rat wild type cyclin Y in the recipient cell or organism." [https://www.merriam-webster.com, PMID:28241067]
 synonym: "lentiviral transfer of the rat wild type Ccny-specific shRNA" EXACT []
-synonym: "transduction of recombinant lentivirus containing the rat wild type Ccny-specific shRNA" EXACT []
+synonym: "transduction of recombinant lentivirus containing the rat wild type-specific shRNA" EXACT []
 synonym: "transfer of recombinant lentivirus containing the rat wild type-specific shRNA" EXACT []
-is_a: XCO:0001537 ! transfer of shRNA using a lentivirus vector
+is_a: XCO:0000233 ! ribonucleic acid
 created_by: slaulede
 creation_date: 2023-03-13T14:27:37Z
 
@@ -9906,7 +9906,7 @@ synonym: "lentiviral transfer of the rat wild type Ccny-specific shRNA and the E
 synonym: "transduction of recombinant lentivirus containing the rat wild type-specific shRNA and the EGFP gene" EXACT []
 synonym: "transfer of recombinant lentivirus containing the rat wild type-specific shRNA and the EGFP gene" EXACT []
 is_a: XCO:0000983 ! gene transfer of the EGFP gene using a lentivirus vector
-is_a: XCO:0000985 ! transfer of rat wild type Ccny-specific shRNA using a lentivirus vector
+is_a: XCO:0000985 ! transfer of rat wild type Ccny-specific shRNA  using a lentivirus vector
 created_by: slaulede
 creation_date: 2023-03-13T14:36:52Z
 
@@ -10119,23 +10119,23 @@ creation_date: 2023-03-28T17:21:28Z
 
 [Term]
 id: XCO:0001007
-name: transfer of negative control shRNA using a lentivirus vector
+name: transfer of negative control shRNA using a lentiviral vector
 def: "This is any condition in which the main influencing factor is negative control shRNA delivered with a lentivirus vector. Negative control shRNA is an shRNA with no significant sequence similarity to eukaryotic gene sequences and may be a scrambled version of the experimental shRNA used." [https://www.origene.com/products/cdna-clones/lentiviral-particles/control-particles, PMID:31606248]
 synonym: "transduction of negative control shRNA using a lentivirus" EXACT []
 synonym: "transduction of negative control shRNA using a lentivirus vector" EXACT []
-synonym: "transfer of negative control shRNA using a lentiviral vector" EXACT []
-is_a: XCO:0001537 ! transfer of shRNA using a lentivirus vector
+synonym: "transfer of negative control shRNA using a lentivirus" EXACT []
+is_a: XCO:0000233 ! ribonucleic acid
 created_by: slaulede
 creation_date: 2023-03-31T11:00:04Z
 
 [Term]
 id: XCO:0001008
-name: transfer of Pum2 shRNA using a lentivirus vector
+name: transfer of Pum2 shRNA using a lentiviral vector
 def: "This is any condition in which the main influencing factor is Pum2 (pumilio RNA-binding family member 2) shRNA. Pum2 is a protein that exhibits lncRNA binding, miRNA binding, and mRNA 3'-UTR binding. Pum2 is involved in negative regulation of gene expression and regulation of intracellular mRNA localization." [https://blog.addgene.org, PMID:31606248]
 synonym: "transduction of Pum2 shRNA using a lentivirus" EXACT []
 synonym: "transduction of Pum2 shRNA using a lentivirus vector" EXACT []
-synonym: "transfer of Pum2 shRNA using a lentiviral vector" EXACT []
-is_a: XCO:0001537 ! transfer of shRNA using a lentivirus vector
+synonym: "transfer of Pum2 shRNA using a lentivirus" EXACT []
+is_a: XCO:0000233 ! ribonucleic acid
 created_by: slaulede
 creation_date: 2023-03-31T11:37:24Z
 
@@ -10178,8 +10178,8 @@ creation_date: 2023-04-06T13:28:20Z
 id: XCO:0001012
 name: gene transfer of the rat Rbpms gene using a lentivirus vector
 def: "This is a condition in which the rat Rbpms (RNA binding protein, mRNA processing factor) gene has been (transiently or stably) transferred into a cell or organism using a lentivirus carrier in order to induce synthesis of Rbpms in the recipient cell or organism." [https://www.merriam-webster.com, PMID:31283468]
+synonym: "gene transfer of rat Rbpms using a lentiviral vector" EXACT []
 synonym: "gene transfer of rat Rbpms using a lentivirus vector" EXACT []
-synonym: "gene transfer of the rat Rbpms gene using a lentiviral vector" EXACT []
 synonym: "transduction of rat Rbpms using a lentiviral vector" EXACT []
 synonym: "transduction of rat Rbpms using a lentivirus vector" EXACT []
 is_a: XCO:0000982 ! gene transfer using lentivirus vector
@@ -10191,9 +10191,6 @@ id: XCO:0001013
 name: transfer of rat RBPMS siRNA using a lentivirus vector
 def: "This is any condition in which the main influencing factor is rat RBPMS (RNA binding protein, mRNA processing factor)-specific siRNA. This siRNA has been transferred into a cell or organism using a lentivirus carrier in order to block synthesis of RBPMS in the recipient cell or organism." [https://en.wikipedia.org/wiki/Small_interfering_RNA, PMID:31283468]
 synonym: "transduction of RBPMS siRNA using a lentivirus vector" EXACT []
-synonym: "transfer of rat RBPMS short interfering RNA using a lentivirus vector" EXACT []
-synonym: "transfer of rat RBPMS siRNA using a lentiviral vector" EXACT []
-synonym: "transfer of rat RBPMS small interfering RNA using a lentivirus vector" EXACT []
 xref: PMID:31283468
 is_a: XCO:0000233 ! ribonucleic acid
 created_by: slaulede
@@ -14459,7 +14456,7 @@ def: "This is any condition in which the main influencing factor is transection 
 synonym: "surgical transection of nerve" EXACT []
 xref: PMID:37660072
 xref: PMID:37946211
-is_a: XCO:0000373 ! surgical denervation
+is_a: XCO:0000165 ! surgical manipulation
 created_by: slaulederkind
 creation_date: 2024-04-26T13:43:46Z
 
@@ -16298,93 +16295,6 @@ synonym: "Masquelet treatment" EXACT []
 relationship: has_component XCO:0001394 ! osteotomy
 created_by: slaulederkind
 creation_date: 2025-01-31T12:58:10Z
-
-[Term]
-id: XCO:0001533
-name: sciatic nerve ablation
-def: "This is any condition in which the main influencing factor is sciatic nerve ablation, surgical removal of some part of the sciatic nerve." [https://www.merriam-webster.com]
-synonym: "surgical removal of part of the sciatic nerve" EXACT []
-xref: PMID:33008419
-relationship: has_component XCO:0000375 ! sciatic nerve axotomy
-created_by: slaulederkind
-creation_date: 2025-02-04T13:32:24Z
-
-[Term]
-id: XCO:0001534
-name: peripheral nerve allograft
-def: "This is any condition in which the main influencing factor is a peripheral nerve allograft, a non-self peripheral nerve transplantation, typically without histocompatibility matching between donor and host. Commonly, a portion of a donor nerve replaces the damaged portion of the host nerve and involves neurorrhaphy (re-apposing the cut ends with epineurial microsutures)." [PMID:35227261]
-synonym: "peripheral nerve transplant" EXACT []
-xref: PMID:33008419
-is_a: XCO:0000027 ! surgical implantation
-relationship: has_component XCO:0001373 ! surgical nerve transection
-created_by: slaulederkind
-creation_date: 2025-02-04T14:44:35Z
-
-[Term]
-id: XCO:0001535
-name: PEG-fusion protocol
-def: "This is any condition in which the main influencing factor is the PEG-fusion protocol, a peripheral nerve allograft procedure involving sequential administration of four pharmaceutical agents and neurorrhaphy (microsutures through the epi- or perineurium)." [PMID:_33008419]
-synonym: "PEG-fusion" EXACT []
-synonym: "PEG-fusion allograft protocol" EXACT []
-xref: PMID:30586569
-is_a: XCO:0001534 ! peripheral nerve allograft
-created_by: slaulederkind
-creation_date: 2025-02-04T15:22:05Z
-
-[Term]
-id: XCO:0001536
-name: gene transfer of the mouse Vdr gene using a lentivirus vector
-def: "This is a condition in which the mouse Vdr (vitamin D receptor) gene has been (transiently or stably) transferred into a cell or organism using a lentivirus carrier in order to induce synthesis of Vdr in the recipient cell or organism." [https://www.merriam-webster.com, PMID:32771696]
-synonym: "gene transfer of mouse Vdr using a lentivirus vector" EXACT []
-synonym: "gene transfer of the mouse Vdr gene using a lentiviral vector" EXACT []
-synonym: "gene transfer of the mouse vitamin D receptor gene using a lentivirus vector" EXACT []
-synonym: "transduction of the mouse Vdr gene using a lentiviral vector" EXACT []
-synonym: "transduction of the mouse Vdr gene using a lentivirus vector" EXACT []
-synonym: "transduction of the mouse vitamin D receptor gene using a lentivirus vector" EXACT []
-xref: RGD:11484
-is_a: XCO:0000982 ! gene transfer using lentivirus vector
-created_by: slaulederkind
-creation_date: 2025-02-07T11:08:43Z
-
-[Term]
-id: XCO:0001537
-name: transfer of shRNA using a lentivirus vector
-def: "This is any condition in which the main influencing factor is shRNA (short hairpin ribonucleic acid). shRNA is a synthetic RNA molecule that can silence genes in cells. It's a key technology for targeted gene silencing. shRNA is delivered to cells using plasmids, viral vectors, or bacterial vectors" [https://en.wikipedia.org/wiki/Short_hairpin_RNA, PMID:23027054]
-synonym: "Not4Curation" RELATED []
-synonym: "transfer of short hairpin ribonucleic acid using a lentivirus vector" EXACT []
-synonym: "transfer of short hairpin RNA using a lentivirus vector" EXACT []
-synonym: "transfer of shRNA using a lentiviral vector" EXACT []
-synonym: "transfer of small hairpin RNA using a lentivirus vector" EXACT []
-xref: PMID:22365779
-relationship: has_component XCO:0000233 ! ribonucleic acid
-created_by: slaulederkind
-creation_date: 2025-02-07T12:13:40Z
-
-[Term]
-id: XCO:0001538
-name: transfer of rat Vdr shRNA using a lentivirus vector
-def: "This is a condition in which rat Vdr shRNA (vitamin D (1,25-dihydroxyvitamin D3) receptor-specific short hairpin RNA) has been (transiently or stably) transferred into a cell or organism using a lentivirus carrier in order to reduce synthesis of Vdr in the recipient cell or organism." [https://en.wikipedia.org/wiki/Short_hairpin_RNA, PMID:33258480]
-synonym: "ransfer of rat vitamin D (1,25-dihydroxyvitamin D3) receptor shRNA using a lentivirus vector" EXACT []
-synonym: "transduction of rat Vdr shRNA using a lentiviral vector" EXACT []
-synonym: "transduction of rat Vdr shRNA using a lentivirus vector" EXACT []
-synonym: "transfer of rat Vdr shRNA using a lentiviral vector" EXACT []
-xref: PMID:23027054
-is_a: XCO:0001537 ! transfer of shRNA using a lentivirus vector
-created_by: slaulederkind
-creation_date: 2025-02-07T13:25:10Z
-
-[Term]
-id: XCO:0001539
-name: sham gene transfer using an empty lentivirus vector
-def: "This is a condition in which an empty lentivirus vector (transiently or stably) has been transferred into a cell or organism. This condition is used as a control for a lentivirus transfer of a specific gene." [https://en.wikipedia.org/wiki/Transduction_(genetics), PMID:28927539]
-synonym: "sham gene transfer using an empty lentiviral vector" EXACT []
-synonym: "sham transduction using an empty lentiviral vector" EXACT []
-synonym: "sham transduction using an empty lentivirus vector" EXACT []
-xref: PMID:32771696
-is_a: XCO:0000099 ! control condition
-is_a: XCO:0000982 ! gene transfer using lentivirus vector
-created_by: slaulederkind
-creation_date: 2025-02-07T13:46:11Z
 
 [Typedef]
 id: has_component
