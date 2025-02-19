@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.195
-date: 15:02:2025 20:13
+data-version: 4.194
+date: 08:02:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -11046,8 +11046,6 @@ creation_date: 2023-10-31T13:11:19Z
 id: XCO:0001087
 name: limited bedding and nesting
 def: "This is any condition in which the main influencing factor is limited bedding and nesting, a housing condition designed to create a model of early life adversity. The minimum bedding/nesting may be as little as a paper towel in a plain, unadorned cage." [PMID:35102257]
-synonym: "early-life adversity" RELATED []
-synonym: "ELA" RELATED []
 synonym: "LBN" EXACT []
 synonym: "limited bedding/nesting model" EXACT []
 synonym: "limited bedding and nesting model" EXACT []
@@ -16387,93 +16385,6 @@ is_a: XCO:0000099 ! control condition
 is_a: XCO:0000982 ! gene transfer using lentivirus vector
 created_by: slaulederkind
 creation_date: 2025-02-07T13:46:11Z
-
-[Term]
-id: XCO:0001540
-name: skeletal muscle ablation
-def: "This is any condition in which the main influencing factor is skeletal muscle ablation, which is surgical removal of all or part of one or more skeletal muscles. It is an experimental procedure used in laboratory animals to observe and determine what compensation measures are brought to bear in the remaining musculature." [https://www.merriam-webster.com, PMID:39069823]
-synonym: "surgical removal of skeletal muscle" EXACT []
-xref: PMID:33486778
-is_a: XCO:0000026 ! surgical removal
-created_by: slaulederkind
-creation_date: 2025-02-10T17:06:28Z
-
-[Term]
-id: XCO:0001541
-name: unilateral ablation of the gastrocnemius and soleus muscles
-def: "This is any condition in which the main influencing factor is unilateral, surgical removal of the gastrocnemius (distal two-thirds) and soleus muscles. This synergist ablation is performed in experimental animals to cause functional overload in the plantaris muscle." [https://www.merriam-webster.com, PMID:39069823]
-synonym: "synergist ablation model" EXACT []
-synonym: "unilateral, surgical removal of the gastrocnemius and soleus muscles" EXACT []
-xref: PMID:33486778
-is_a: XCO:0001540 ! skeletal muscle ablation
-created_by: slaulederkind
-creation_date: 2025-02-10T17:22:57Z
-
-[Term]
-id: XCO:0001542
-name: oxytocin
-def: "This is any condition in which the main influencing factor is oxytocin, a peptide hormone (CYIQNCPLG) that is released from the posterior pituitary gland as a uterine-contracting and milk-ejecting hormone acting on smooth muscle cells. Oxytocin is also a neurotransmitter in the brain." [CHEBI:7872, MESH:D010121]
-synonym: "Pitocin" EXACT []
-xref: PMID:38327784
-is_a: XCO:0000228 ! peptide hormone
-created_by: slaulederkind
-creation_date: 2025-02-11T10:44:06Z
-
-[Term]
-id: XCO:0001543
-name: multigenerational maternal exposure to oxytocin
-def: "This is any condition in which the main influencing factor is any maternal exposure to oxytocin that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) oxytocin use/exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com, PMID:25839742]
-xref: PMID:38327784
-is_a: XCO:0001542 ! oxytocin
-created_by: slaulederkind
-creation_date: 2025-02-11T14:06:50Z
-
-[Term]
-id: XCO:0001544
-name: transgenerational maternal exposure to oxytocin
-def: "This is any condition in which the main influencing factor is any maternal exposure to oxytocin that has transgenerational effects. This is a condition typically studied to determine the effect of maternal (F0) oxytocin use/exposure on the F2/F3 offspring by direct effects on the F1/F2 generations in utero or during nursing, or by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of F1 offspring to affect the F2 generation. The maternal exposure may be any time after gestational development of germline cells in the F1 generation up to the time of weaning of F1 offspring to affect the F3 generation." [https://www.merriam-webster.com, PMID:25839742]
-xref: PMID:38327784
-is_a: XCO:0001542 ! oxytocin
-created_by: slaulederkind
-creation_date: 2025-02-11T14:13:59Z
-
-[Term]
-id: XCO:0001545
-name: gestational maternal exposure to oxytocin
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to oxytocin. This is a condition typically studied to determine the effect of maternal (F0) oxytocin use/exposure on the F1 offspring." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
-xref: PMID:38327784
-is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001543 ! multigenerational maternal exposure to oxytocin
-is_a: XCO:0001544 ! transgenerational maternal exposure to oxytocin
-created_by: slaulederkind
-creation_date: 2025-02-11T14:18:41Z
-
-[Term]
-id: XCO:0001546
-name: tramadol hydrochloride
-def: "This is any condition in which the main influencing factor is tramadol hydrochloride, a racemate consisting of equal amounts of (R,R)- and (S,S)-tramadol hydrochloride. Tramadol hydrochloride is a centrally acting synthetic opioid analgesic, used to treat moderately severe pain. Tramadol hydrochloride has a role as a delta-opioid receptor agonist, a kappa-opioid receptor agonist, a mu-opioid receptor agonist, an adrenergic uptake inhibitor, an antitussive, a capsaicin receptor antagonist, a muscarinic antagonist, a nicotinic antagonist, a NMDA receptor antagonist, a serotonergic antagonist and a serotonin uptake inhibitor." [CHEBI:32250, CID:63013]
-synonym: "rac-(1R,2R)-2-[(dimethylamino)methyl]-1-(3-methoxyphenyl)cyclohexanol hydrochloride" EXACT []
-synonym: "racemic tramadol hydrochloride" EXACT []
-synonym: "tramadol HCl" EXACT []
-xref: CAS:36282-47-0
-xref: PMID:33486778
-is_a: XCO:0000336 ! adrenergic antagonist
-is_a: XCO:0000947 ! NMDA receptor antagonist
-is_a: XCO:0001329 ! opioid analgesic
-created_by: slaulederkind
-creation_date: 2025-02-11T14:44:47Z
-
-[Term]
-id: XCO:0001547
-name: controlled tramadol hydrochloride content drinking water
-def: "This is any condition in which the main influencing factor is a drink made up of water and a specified amount of tramadol hydrochloride, a synthetic opioid analgesic, consumed by a subject." [CHEBI:32250, https://www.merriam-webster.com]
-synonym: "controlled racemic tramadol hydrochloride content drinking water" EXACT []
-synonym: "controlled tramadol HCl content drinking water" EXACT []
-xref: PMID:33486778
-is_a: XCO:0000163 ! controlled content drinking water
-relationship: has_component XCO:0001546 ! tramadol hydrochloride
-created_by: slaulederkind
-creation_date: 2025-02-11T15:05:33Z
 
 [Typedef]
 id: has_component
