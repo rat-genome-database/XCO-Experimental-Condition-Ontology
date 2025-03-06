@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.196
-date: 01:03:2025 20:13
+data-version: 4.195
+date: 15:02:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -11333,8 +11333,8 @@ synonym: "Mercuric chloride" EXACT []
 synonym: "mercury(2+) chloride" EXACT []
 xref: MESH:D008627
 xref: PMID:32599119
+is_a: XCO:0000342 ! chemical with specified structure
 is_a: XCO:0001112 ! nephrotoxic chemical
-is_a: XCO:0001549 ! inorganic chloride
 created_by: slaulederkind
 creation_date: 2023-11-14T09:45:49Z
 
@@ -15563,7 +15563,7 @@ synonym: "iron(III) chloride" EXACT []
 synonym: "trichloroiron" EXACT []
 xref: CID:24380
 xref: MESH:C024555
-is_a: XCO:0001549 ! inorganic chloride
+is_a: XCO:0000342 ! chemical with specified structure
 created_by: slaulederkind
 creation_date: 2024-11-04T14:12:23Z
 
@@ -16474,57 +16474,6 @@ is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0001546 ! tramadol hydrochloride
 created_by: slaulederkind
 creation_date: 2025-02-11T15:05:33Z
-
-[Term]
-id: XCO:0001548
-name: manganese(II) chloride tetrahydrate
-def: "This is any condition in which the main influencing factor is manganese(II) chloride tetrahydrate, the tetrahydrate form of manganese(II) chloride. Manganese(II) chloride tetrahydrate has a role as a nutraceutical and a MRI contrast agent. Upon administration, manganese may act as an adjuvant and induce both humoral and cellular immune responses." [CID:643989]
-synonym: "Cl2H8MnO4" EXACT []
-synonym: "dichloromanganese--water (1/4)" EXACT []
-synonym: "manganese(2+) chloride tetrahydrate" EXACT []
-synonym: "manganese chloride" EXACT []
-synonym: "manganese dichloride tetrahydrate" EXACT []
-xref: CAS:13446-34-9
-xref: CHEBI:86368
-xref: PMID:33666854
-is_a: XCO:0001549 ! inorganic chloride
-created_by: slaulederkind
-creation_date: 2025-02-25T14:03:32Z
-
-[Term]
-id: XCO:0001549
-name: inorganic chloride
-def: "This is any condition in which the main influencing factor is inorganic chloride. Chlorine anion (Cl−) is an essential electrolyte located in all body fluids and responsible for maintaining acid/base balance, transmitting nerve impulses, and regulating liquid flow in and out of cells. Chloride compounds contain chlorine atoms bonded to metals like sodium (NaCl), calcium (CaCl2), or magnesium (MgCl2)." [https://chemicaltankerknowledgebase.com/chloride, https://en.wikipedia.org/wiki/Chloride]
-synonym: "inorganic chlorides" EXACT []
-synonym: "inorganic chloride salt" EXACT []
-synonym: "inorganic chloride salts" EXACT []
-xref: CHEBI:36093
-is_a: XCO:0000149 ! ion/salt
-created_by: slaulederkind
-creation_date: 2025-02-25T14:19:38Z
-
-[Term]
-id: XCO:0001550
-name: cellulose
-def: "This is any condition whose main influencing factor is cellulose, a polysaccharide consisting of a linear chain of several hundred to many thousands of β(1→4) linked D-glucose units, occurs naturally in such fibrous products as cotton and kapok, and is the raw material of many manufactured goods (such as paper, rayon, and cellophane)." [https://en.wikipedia.org/wiki/Cellulose, https://www.merriam-webster.com/dictionary/cellulose]
-synonym: "(C6H10O5)n" EXACT []
-xref: MESH:D002482
-xref: PMID:33602020
-is_a: XCO:0000173 ! polysaccharide
-created_by: slaulederkind
-creation_date: 2025-02-25T15:03:01Z
-
-[Term]
-id: XCO:0001551
-name: cellulose nanocrystal
-def: "This is any condition in which the main influencing factor is cellulose nanocrystals, formed by acid hydrolysis of cellulose. The family of nanocellulosic materials include microfibrilated cellulose, cellulose nanofibers, and cellulose nanocrystals. Cellulose nanocrystals are rod-shaped particles of 100 to 1000 nanometers in length." [https://en.wikipedia.org/wiki/Nanocellulose, PMID:33602020]
-synonym: "CNC" EXACT []
-synonym: "nanocrystalline cellulose" EXACT []
-synonym: "NCC" EXACT []
-is_a: XCO:0000338 ! chemical nanoparticle
-is_a: XCO:0001550 ! cellulose
-created_by: slaulederkind
-creation_date: 2025-02-25T16:04:23Z
 
 [Typedef]
 id: has_component
