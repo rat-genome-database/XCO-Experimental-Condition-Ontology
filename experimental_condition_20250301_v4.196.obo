@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.197
-date: 08:03:2025 20:13
+data-version: 4.196
+date: 01:03:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -477,7 +477,7 @@ creation_date: 2009-12-17T01:56:44Z
 [Term]
 id: XCO:0000070
 name: alcoholic drink
-def: "A drink containing ethanol, a transparent, colorless, volatile, flammable liquid, which is formed by microbial fermentation of carbohydrates." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "A drink containing ethanol, a transparent, colorless, volatile,flammable liquid, which is formed by microbial fermentation of carbohydrates." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "ethanol" RELATED []
 is_a: XCO:0000020 ! drink
 created_by: mshimoyama
@@ -3816,7 +3816,7 @@ creation_date: 2014-03-04T12:44:39Z
 [Term]
 id: XCO:0000416
 name: milk
-def: "This is any condition in which the main influencing factor is milk, a nutrient fluid containing proteins, fats, lactose, and various vitamins and minerals produced by the mammary gland of a female mammal." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
+def: "A nutrient fluid containing proteins, fats, lactose, and various vitamins and minerals produced by the mammary gland of a female mammal." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 is_a: XCO:0000020 ! drink
 created_by: JSmith
 creation_date: 2014-03-04T12:54:50Z
@@ -10723,7 +10723,7 @@ creation_date: 2023-06-23T14:40:29Z
 [Term]
 id: XCO:0001059
 name: controlled content saline drink
-def: "This is any condition in which the main influencing factor is a drink made up of saline (0.9% sodium chloride solution) and a specified amount of one or more solutes." [https://www.merriam-webster.com, ISBN:978-1455756438]
+def: "This is an experimental condition in which the main influencing factor is a drink made up of saline (0.9% sodium chloride solution) and a specified amount of one or more solutes." [https://www.merriam-webster.com, ISBN:978-1455756438]
 synonym: "controlled content 0.9% sodium chloride drink" EXACT []
 synonym: "controlled content drinking saline" EXACT []
 synonym: "controlled content normal saline drink" EXACT []
@@ -10736,7 +10736,7 @@ creation_date: 2023-06-23T14:54:26Z
 [Term]
 id: XCO:0001060
 name: controlled corticosterone content saline drink
-def: "This is any condition in which the main influencing factor is a drink made up of normal saline (0.9% sodium chloride) and a specified amount of corticosterone in which the amount of corticosterone consumed is maintained at a specified level." [https://www.merriam-webster.com, ISBN:978-1455756438]
+def: "This is an experimental condition in which the main influencing factor is a drink made up of normal saline (0.9% sodium chloride) and a specified amount of corticosterone in which the amount of corticosterone consumed is maintained at a specified level." [https://www.merriam-webster.com, ISBN:978-1455756438]
 synonym: "controlled corticosterone content 0.9% sodium chloride drink" EXACT []
 synonym: "controlled corticosterone content normal saline drink" EXACT []
 xref: PMID:30364965
@@ -16525,40 +16525,6 @@ is_a: XCO:0000338 ! chemical nanoparticle
 is_a: XCO:0001550 ! cellulose
 created_by: slaulederkind
 creation_date: 2025-02-25T16:04:23Z
-
-[Term]
-id: XCO:0001552
-name: liquid diet
-def: "This is any condition in which the main influencing factor is a liquid diet, a diet consisting of only liquids to provide essential nutrients and hydration. A liquid diet may include any food type able to be delivered easily through a drinking straw." [https://www.merriam-webster.com, https://www.webmd.com/diet/liquid-diets]
-synonym: "non-solid diet" EXACT []
-xref: PMID:37537282
-is_a: XCO:0000020 ! drink
-created_by: slaulederkind
-creation_date: 2025-03-06T13:26:18Z
-
-[Term]
-id: XCO:0001553
-name: Lieber-DeCarli control liquid diet
-def: "This is any condition in which the main influencing factor is Lieber-DeCarli control liquid diet, a liquid diet whose calories are 50% carbohydrate, 35% fat, and 15% protein." [https://www.bio-serv.com/pdf/F1259.pdf, https://www.merriam-webster.com]
-synonym: "Bio-Serv F1259" EXACT []
-synonym: "Lieber-DeCarli '82 control liquid diet" EXACT []
-xref: PMID:37537282
-is_a: XCO:0001552 ! liquid diet
-relationship: has_component XCO:0000021 ! water
-created_by: slaulederkind
-creation_date: 2025-03-06T13:39:33Z
-
-[Term]
-id: XCO:0001554
-name: Lieber-DeCarli ethanol liquid diet
-def: "This is any condition in which the main influencing factor is Lieber-DeCarli ethanol liquid diet, a liquid diet whose calories are 35% ethanol, 35% non-alcoholic carbohydrate, 35% fat, and 15% protein. The basic formula makes the ethanol content to be about 8% by volume." [https://www.bio-serv.com/pdf/F1258.pdf, https://www.merriam-webster.com]
-synonym: "Bio-Serv F1258" EXACT []
-synonym: "Lieber-DeCarli '82 ethanol liquid diet" EXACT []
-xref: PMID:37537282
-is_a: XCO:0001552 ! liquid diet
-relationship: has_component XCO:0000325 ! ethanol
-created_by: slaulederkind
-creation_date: 2025-03-06T14:25:45Z
 
 [Typedef]
 id: has_component
