@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.197
-date: 08:03:2025 20:13
+data-version: 4.198
+date: 22:03:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -61,9 +61,11 @@ is_a: XCO:0000059 ! physical activity
 
 [Term]
 id: XCO:0000009
-name: controlled atmospheric composition
-def: "This is any condition in which the main influencing factor is control of the amount of one or more of the gases which make up the air surrounding an organism, as part of the experiment on that organism." [https://www.merriam-webster.com/, ISBN:978-1416049982]
+name: controlled air content
+def: "This is any condition in which the main influencing factor is control of the amount of one or more of the gases or particles which make up or are found in the air surrounding an organism during the time course of some biological measurement." [https://www.merriam-webster.com/, ISBN:978-1416049982]
 synonym: "controlled atmosphere composition" EXACT []
+synonym: "controlled atmospheric composition" EXACT []
+synonym: "Not4Curation" RELATED []
 is_a: XCO:0000998 ! controlled breathing condition
 
 [Term]
@@ -71,7 +73,7 @@ id: XCO:0000010
 name: controlled air oxygen content
 def: "This is any condition in which the main influencing factor is controlled air oxygen content surrounding an organism or breathed by the organism as part of the experiment." [RGD:MS]
 synonym: "air oxygen content" EXACT []
-relationship: part_of XCO:0000009 ! controlled atmospheric composition
+is_a: XCO:0000009 ! controlled air content
 
 [Term]
 id: XCO:0000011
@@ -84,7 +86,7 @@ id: XCO:0000012
 name: controlled air carbon dioxide content
 def: "This is any condition in which the main influencing factor is controlled air carbon dioxide content surrounding an organism or breathed by the organism as part of the experiment." [RGD:MS]
 synonym: "air carbon dioxide content" EXACT []
-relationship: part_of XCO:0000009 ! controlled atmospheric composition
+is_a: XCO:0000009 ! controlled air content
 
 [Term]
 id: XCO:0000013
@@ -376,7 +378,7 @@ is_obsolete: true
 id: XCO:0000057
 name: rebreathed air
 def: "This is any experimental condition in which the main influencing factor is rebreathed air, air which has been exhaled and breathed in again." [Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
-is_a: XCO:0000009 ! controlled atmospheric composition
+is_a: XCO:0000009 ! controlled air content
 created_by: mshimoyama
 creation_date: 2009-12-17T01:47:13Z
 
@@ -3547,7 +3549,7 @@ id: XCO:0000389
 name: controlled cigarette smoke content
 def: "A condition in which the air surrounding an organism or breathed by the organism contains a controlled amount of cigarette smoke, the combined gases and particulates given off when tobacco in the form of a cigarette burns or smolders. A cigarette is a cylinder of cut blonde or black tobacco ensheathed in a tube of paper, with or without an incorporated filter to decrease inhaled tars." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine]
 synonym: "exposure to atmospheric cigarette smoke" RELATED []
-relationship: part_of XCO:0000009 ! controlled atmospheric composition
+is_a: XCO:0000009 ! controlled air content
 created_by: JSmith
 creation_date: 2014-01-21T16:58:06Z
 
@@ -8316,7 +8318,7 @@ creation_date: 2021-06-28T17:14:08Z
 [Term]
 id: XCO:0000850
 name: therapeutic agent
-def: "This is a condition in which the main influencing factor is a chemical, biologic, or organism that exerts some force or effect resulting in a favorable outcome or improvement in the symptoms of a disorder or disease." [https://www.merriam-webster.com/, ISBN-13:978-0683400076]
+def: "This is any condition in which the main influencing factor is a chemical, biologic, or organism that exerts some force or effect resulting in a favorable outcome or improvement in the symptoms of a disorder or disease." [https://www.merriam-webster.com/, ISBN-13:978-0683400076]
 synonym: "medicinal agent" EXACT []
 synonym: "Not4Curation" RELATED []
 synonym: "remedial agent" EXACT []
@@ -9648,11 +9650,15 @@ creation_date: 2022-10-18T11:24:31Z
 [Term]
 id: XCO:0000964
 name: perfluorooctanoic acid
-def: "This is is perfluorinated octanoic acid, a fluoroalkanoic acid." [CHEBI:35549]
+def: "This is any condition in which the main influencing factor is perfluorooctanoic acid, a fluoroalkanoic acid." [CHEBI:35549]
 synonym: "pentadecafluorooctanoic acid" EXACT []
+synonym: "perfluorinated octanoic acid" EXACT []
+synonym: "PFOA" EXACT []
+xref: https://www.cancer.org
 xref: MESH:C023036
 is_a: XCO:0000089 ! neoplasm-inducing chemical
 is_a: XCO:0000757 ! surfactant
+is_a: XCO:0001559 ! per- and polyfluoroalkyl substances
 created_by: slaulede
 creation_date: 2023-02-14T11:34:01Z
 
@@ -9978,7 +9984,7 @@ synonym: "air H2O content" EXACT []
 synonym: "controlled H2O content air" EXACT []
 synonym: "controlled water content air" EXACT []
 xref: PMID:26640375
-is_a: XCO:0000009 ! controlled atmospheric composition
+is_a: XCO:0000009 ! controlled air content
 created_by: slaulede
 creation_date: 2023-03-14T14:39:30Z
 
@@ -11195,7 +11201,7 @@ xref: CHEBI:30563
 xref: CHEBI:46727
 xref: MESH:D011791
 xref: MESH:D012822
-is_a: XCO:0000009 ! controlled atmospheric composition
+is_a: XCO:0000009 ! controlled air content
 is_a: XCO:0001098 ! crystalline silica
 created_by: slaulederkind
 creation_date: 2023-11-09T10:36:46Z
@@ -14815,7 +14821,7 @@ id: XCO:0001403
 name: controlled air nitrogen content
 def: "This is any condition in which the main influencing factor is controlled air nitrogen content surrounding an organism or breathed by the organism as part of the experiment." [https://www.merriam-webster.com/, PMID:33230951]
 xref: PMID:33230951
-is_a: XCO:0000009 ! controlled atmospheric composition
+is_a: XCO:0000009 ! controlled air content
 created_by: slaulederkind
 creation_date: 2024-06-11T16:33:00Z
 
@@ -16559,6 +16565,106 @@ is_a: XCO:0001552 ! liquid diet
 relationship: has_component XCO:0000325 ! ethanol
 created_by: slaulederkind
 creation_date: 2025-03-06T14:25:45Z
+
+[Term]
+id: XCO:0001555
+name: controlled air ethanol content
+def: "This is any condition in which the main influencing factor is controlled air ethanol content surrounding an organism or breathed by the organism as part of the experiment." [PMID:34573170]
+synonym: "chronic intermittent ethanol" RELATED []
+synonym: "chronic intermittent ethanol vapor exposure" NARROW []
+synonym: "chronic intermittent ethanol vapor inhalation" NARROW []
+synonym: "CIE" RELATED []
+synonym: "controlled air ethanol vapor content" EXACT []
+xref: PMID:28363981
+is_a: XCO:0000009 ! controlled air content
+created_by: slaulederkind
+creation_date: 2025-03-20T12:36:33Z
+
+[Term]
+id: XCO:0001556
+name: acadesine
+def: "This is any condition in which the main influencing factor is acadesine, a purine nucleoside analogue and activator of AMP-activated protein kinase. Acadesine is used for the treatment of acute lymphoblastic leukemia and is reported to have cardioprotective effects." [CHEBI:28498]
+synonym: "5-Amino-1-beta-D-ribofuranosyl-1H-imidazole-4-carboxamide" EXACT []
+synonym: "5-Aminoimidazole-4-carboxamide 1-beta-D-ribofuranoside" EXACT []
+synonym: "AICAR" EXACT []
+synonym: "AICA ribofuranoside" EXACT []
+synonym: "AICA-riboside" EXACT []
+xref: CID:46780289
+xref: MESH:C011651
+is_a: XCO:0000392 ! nucleoside/nucleotide
+is_a: XCO:0000435 ! antineoplastic agent
+is_a: XCO:0000694 ! enzyme activator
+created_by: slaulederkind
+creation_date: 2025-03-20T13:31:59Z
+
+[Term]
+id: XCO:0001557
+name: ventral trunk of subdiaphragmatic vagus nerve direct electrical stimulation
+def: "This is any condition in which the main influencing factor is direct electrical stimulation of the ventral trunk of the subdiaphragmatic vagus nerve. The electrical stimulation is delivered by some sort of bioelectronic implant. The vagus nerve (the tenth cranial nerve), is a mixed nerve that carries both sensory and motor information. The vagus nerve is the longest nerve in the human body as it originates in the brainstem and travels down the neck and into the thorax and abdomen." [PMID:30725856]
+synonym: "sdVNS" EXACT []
+synonym: "subdiaphragmatic vagus nerve stimulation" EXACT []
+synonym: "tenth cranial nerve direct electrical stimulation" BROAD []
+synonym: "vagal nerve direct electrical stimulation" BROAD []
+synonym: "vagus nerve direct electrical stimulation" BROAD []
+xref: PMID:37746712
+is_a: XCO:0000521 ! direct electrical nerve stimulation
+created_by: slaulederkind
+creation_date: 2025-03-20T18:27:29Z
+
+[Term]
+id: XCO:0001558
+name: ventral trunk of subdiaphragmatic vagus nerve direct electrical stimulation sham procedure
+def: "This is any condition in which the main influencing factor is ventral trunk of subdiaphragmatic vagus nerve direct electrical stimulation sham procedure. This procedure involves all the surgical maneuvers and implantations minus the electrode leads." [PMID:37746712]
+synonym: "sdVNS sham" EXACT []
+synonym: "subdiaphragmatic vagus nerve stimulation sham" EXACT []
+synonym: "tenth cranial nerve direct electrical stimulation sham" EXACT []
+synonym: "vagal nerve direct electrical stimulation sham" EXACT []
+synonym: "vagus nerve direct electrical stimulation sham" EXACT []
+xref: PMID:30725856
+is_a: XCO:0000100 ! sham surgical control condition
+relationship: part_of XCO:0001557 ! ventral trunk of subdiaphragmatic vagus nerve direct electrical stimulation
+created_by: slaulederkind
+creation_date: 2025-03-21T11:51:23Z
+
+[Term]
+id: XCO:0001559
+name: per- and polyfluoroalkyl substances
+def: "This is any condition in which the main influencing factor is a per- or polyfluoroalkyl substance. These are organofluorine compounds that have multiple fluorine atoms attached to an alkyl chain (perfluoroalkyl compounds have carbon chain atoms that are completely fluorinated and polyfluoroalkyl compounds have at least one of the carbon atoms in the alkyl chain not fully fluorinated)." [CHEBI:172397, CHEBI:172406]
+synonym: "forever chemicals" EXACT []
+synonym: "PFAS" EXACT []
+synonym: "PFASs" EXACT []
+xref: PMID:38963985
+is_a: XCO:0000342 ! chemical with specified structure
+created_by: slaulederkind
+creation_date: 2025-03-21T14:08:22Z
+
+[Term]
+id: XCO:0001560
+name: perfluorohexane sulfonate
+def: "This is any condition in which the main influencing factor is perfluorohexane sulfonate, the conjugate base of perfluorohexanesulfonic acid." [https://en.wikipedia.org/wiki/Conjugate_(acid-base_theory), https://en.wikipedia.org/wiki/Perfluorohexanesulfonic_acid]
+synonym: "perfluorohexanesulfonate" EXACT []
+synonym: "PFHxS" RELATED []
+synonym: "potassium perfluorohexanesulfonate" NARROW []
+xref: CID:23678874
+is_a: XCO:0001559 ! per- and polyfluoroalkyl substances
+created_by: slaulederkind
+creation_date: 2025-03-21T14:35:38Z
+
+[Term]
+id: XCO:0001561
+name: 6-propyl-2-thiouracil
+def: "This is any condition in which the main influencing factor is 6-propyl-2-thiouracil (propylthiouracil), a drug used to treat Graves' disease and hyperthyroidism. Propylthiouracil is a thyroid hormone antagonist, a nitric oxide synthase inhibitor, an antioxidant, and an antidote to paracetamol poisoning." [CID:657298, https://www.mayoclinic.org/drugs-supplements/propylthiouracil-oral-route/description/drg-20072978]
+synonym: "6-n-propylthiouracil" EXACT []
+synonym: "6-propyl-2-sulfanylidene-2,3-dihydropyrimidin-4(1H)-one" EXACT []
+synonym: "propylthiouracil" EXACT []
+synonym: "PTU" EXACT []
+xref: CHEBI:8502
+xref: MESH:D011441
+is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000271 ! antioxidant
+is_a: XCO:0000523 ! enzyme inhibitor
+created_by: slaulederkind
+creation_date: 2025-03-21T14:53:57Z
 
 [Typedef]
 id: has_component
