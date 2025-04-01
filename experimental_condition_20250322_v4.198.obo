@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.199
-date: 29:03:2025 20:13
+data-version: 4.198
+date: 22:03:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -13999,7 +13999,7 @@ creation_date: 2024-04-01T16:10:18Z
 [Term]
 id: XCO:0001333
 name: maternal exposure to oxycodone during nursing
-def: "This is any condition in which the main influencing factor is any maternal exposure to oxycodone during nursing of offspring. This is a condition typically studied to determine the effect of maternal (F0) oxycodone use/exposure during the postnatal, preweaning period on the F1 offspring." [https://www.merriam-webster.com/]
+def: "This is any condition in which the main influencing factor is any maternal exposure to oxycodone during nursing of offspring. This is a condition typically studied to determine the effect of maternal (F0) oxycodone use/exposure during the postnatal, preweaning period on the F1 offspring ." [https://www.merriam-webster.com/]
 synonym: "maternal exposure to oxycodone during nursing of offspring" EXACT []
 xref: CHEBI:7852
 xref: PMID:33490084
@@ -16665,135 +16665,6 @@ is_a: XCO:0000271 ! antioxidant
 is_a: XCO:0000523 ! enzyme inhibitor
 created_by: slaulederkind
 creation_date: 2025-03-21T14:53:57Z
-
-[Term]
-id: XCO:0001562
-name: protamine sulfate
-def: "This is any condition in which the main influencing factor is protamine sulfate, an anti-heparin drug used to reverse the anti-coagulant effects of heparin. Protamine sulfate effects the reversal heparin activity predominantly via the formation of an inactive complex between the anionic heparin and its own cationic state." [https://en.wikipedia.org/wiki/Protamine_sulfate, https://go.drugbank.com/drugs/DB09141]
-synonym: "1-[3-(Hydroxymethyl)-1,4-dioxo-2,3,6,7,8,8a-hexahydropyrrolo[1,2-a]pyrazin-7-yl]-3-(1-phenylethyl)urea" EXACT []
-xref: CAS:9009-65-8
-xref: CID:76429668
-xref: PMID:39252992
-is_a: XCO:0000120 ! inhibitor
-created_by: slaulederkind
-creation_date: 2025-03-24T15:37:04Z
-
-[Term]
-id: XCO:0001563
-name: zymosan
-def: "This is any condition in which the main influencing factor is zymosan, a protein-carbohydrate complex derived from yeast cell walls. Zymosan induces experimental sterile inflammation and activates macrophages by binding to TLR2 and Dectin-1 receptors. Joint injection of zymosan induces arthritis in experimental animals to create a model of chronic proliferative arthritis." [https://en.wikipedia.org/wiki/Zymosan, PMID:911357]
-xref: MESH:D015054
-xref: PMID:39252992
-is_a: XCO:0000261 ! arthritis inducing chemical
-relationship: has_component XCO:0000173 ! polysaccharide
-created_by: slaulederkind
-creation_date: 2025-03-24T16:24:53Z
-
-[Term]
-id: XCO:0001564
-name: multigenerational maternal exposure to perfluorohexane sulfonate
-def: "This is any condition in which the main influencing factor is any maternal exposure to perfluorohexane sulfonate that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) perfluorohexane sulfonate use/exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "multigenerational maternal exposure to perfluorohexanesulfonate" EXACT []
-synonym: "multigenerational maternal exposure to potassium perfluorohexanesulfonate" NARROW []
-xref: CID:23678874
-xref: PMID:38963985
-is_a: XCO:0001560 ! perfluorohexane sulfonate
-created_by: slaulederkind
-creation_date: 2025-03-25T11:21:44Z
-
-[Term]
-id: XCO:0001565
-name: gestational maternal exposure to perfluorohexane sulfonate
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to perfluorohexane sulfonate. This is a condition typically studied to determine the effect of maternal (F0) perfluorohexane sulfonate use/exposure on the F1 offspring." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
-synonym: "gestational maternal exposure to perfluorohexanesulfonate" EXACT []
-synonym: "gestational maternal exposure to potassium perfluorohexanesulfonate" NARROW []
-xref: CID:23678874
-xref: PMID:38963985
-is_a: XCO:0000420 ! controlled in utero environment
-relationship: part_of XCO:0001564 ! multigenerational maternal exposure to perfluorohexane sulfonate
-created_by: slaulederkind
-creation_date: 2025-03-25T11:27:51Z
-
-[Term]
-id: XCO:0001566
-name: maternal exposure to perfluorohexane sulfonate during nursing
-def: "This is any condition in which the main influencing factor is any maternal exposure to perfluorohexane sulfonate during nursing of offspring. This is a condition typically studied to determine the effect of maternal (F0) perfluorohexane sulfonate use/exposure during the postnatal, preweaning period on the F1 offspring." [https://www.merriam-webster.com]
-synonym: "maternal exposure to perfluorohexanesulfonate" EXACT []
-synonym: "maternal exposure to potassium perfluorohexanesulfonate" NARROW []
-xref: CID:23678874
-xref: PMID:38963985
-relationship: part_of XCO:0001564 ! multigenerational maternal exposure to perfluorohexane sulfonate
-created_by: slaulederkind
-creation_date: 2025-03-25T12:49:32Z
-
-[Term]
-id: XCO:0001567
-name: multigenerational maternal exposure to 6-propyl-2-thiouracil
-def: "This is any condition in which the main influencing factor is any maternal exposure to 6-propyl-2-thiouracil that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) 6-propyl-2-thiouracil use/exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "multigenerational maternal exposure to propylthiouracil" EXACT []
-synonym: "multigenerational maternal exposure to PTU" EXACT []
-xref: CHEBI:8502
-xref: CID:657298
-xref: MESH:D011441
-xref: PMID:38963985
-is_a: XCO:0001561 ! 6-propyl-2-thiouracil
-created_by: slaulederkind
-creation_date: 2025-03-25T13:05:17Z
-
-[Term]
-id: XCO:0001568
-name: gestational maternal exposure to 6-propyl-2-thiouracil
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to 6-propyl-2-thiouracil. This is a condition typically studied to determine the effect of maternal (F0) 6-propyl-2-thiouracil use/exposure on the F1 offspring." [CID:657298, https://www.merriam-webster.com/]
-synonym: "gestational maternal exposure to propylthiouracil" EXACT []
-synonym: "gestational maternal exposure to PTU" EXACT []
-xref: CHEBI:8502
-xref: MESH:D011441
-xref: PMID:38963985
-is_a: XCO:0000420 ! controlled in utero environment
-relationship: part_of XCO:0001567 ! multigenerational maternal exposure to 6-propyl-2-thiouracil
-created_by: slaulederkind
-creation_date: 2025-03-25T13:11:27Z
-
-[Term]
-id: XCO:0001569
-name: maternal exposure to 6-propyl-2-thiouracil during nursing
-def: "This is any condition in which the main influencing factor is any maternal exposure to 6-propyl-2-thiouracil during nursing of offspring. This is a condition typically studied to determine the effect of maternal (F0) 6-propyl-2-thiouracil use/exposure during the postnatal, preweaning period on the F1 offspring." [CID:657298, https://www.merriam-webster.com/]
-synonym: "maternal exposure to propylthiouracil during nursing" EXACT []
-synonym: "maternal exposure to PTU during nursing" EXACT []
-xref: CHEBI:8502
-xref: MESH:D011441
-xref: PMID:38963985
-relationship: part_of XCO:0001567 ! multigenerational maternal exposure to 6-propyl-2-thiouracil
-created_by: slaulederkind
-creation_date: 2025-03-25T13:26:20Z
-
-[Term]
-id: XCO:0001570
-name: multigenerational maternal exposure to controlled air E-cigarette aerosol content
-def: "This is any condition in which the main influencing factor is any maternal exposure to controlled air E-cigarette/nicotine aerosol content that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) controlled air E-cigarette/nicotine (~2.4%) aerosol content exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "multigenerational maternal chronic intermittent e-cigarette exposure" EXACT []
-synonym: "multigenerational maternal CIEC exposure" EXACT []
-synonym: "multigenerational maternal exposure to controlled air BluPlus e-cig aerosol content" NARROW []
-synonym: "multigenerational maternal exposure to controlled air e-cig aerosol content" EXACT []
-synonym: "multigenerational maternal exposure to controlled air E-cigarette nicotine aerosol content" EXACT []
-xref: PMID:39414906
-relationship: has_component XCO:0001049 ! nicotine
-created_by: slaulederkind
-creation_date: 2025-03-27T11:27:19Z
-
-[Term]
-id: XCO:0001571
-name: gestational maternal exposure to controlled air E-cigarette aerosol content
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to controlled air E-cigarette/nicotine aerosol content. This is a condition typically studied to determine the effect of maternal (F0) controlled air E-cigarette/nicotine (~2.4%) content exposure on the F1 offspring." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "gestational maternal chronic intermittent e-cigarette exposure" EXACT []
-synonym: "gestational maternal CIEC exposure" EXACT []
-synonym: "gestational maternal exposure to controlled air BluPlus e-cig aerosol content" NARROW []
-synonym: "gestational maternal exposure to controlled air E-cigarette nicotine aerosol content" EXACT []
-synonym: "maternal exposure to controlled air E-cigarette aerosol content during pregnancy" EXACT []
-is_a: XCO:0000420 ! controlled in utero environment
-relationship: part_of XCO:0001570 ! multigenerational maternal exposure to controlled air E-cigarette aerosol content
-created_by: slaulederkind
-creation_date: 2025-03-27T12:19:09Z
 
 [Typedef]
 id: has_component
