@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 4.199
-date: 29:03:2025 20:13
+date: 05:04:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -3340,7 +3340,7 @@ creation_date: 2013-12-20T13:30:01Z
 [Term]
 id: XCO:0000367
 name: surgical device implantation sham procedure
-def: "This is any condition in which the main influencing factor is surgical control device implantation in which the control device lacks the chemical or drug dispensed by the experimental device." [PMID:15687265]
+def: "This is any condition in which the main influencing factor is surgical control device implantation in which the control device does not dispense the chemical, drug, or electrical stimulation dispensed by the experimental device." [PMID:15687265]
 synonym: "control surgical device implantation" EXACT []
 synonym: "sham surgical device implantation" EXACT []
 is_a: XCO:0000100 ! sham surgical control condition
@@ -4927,9 +4927,10 @@ creation_date: 2017-08-11T16:57:10Z
 [Term]
 id: XCO:0000529
 name: gene transfer using adenovirus vector
-def: "A condition in which gene transfer has been performed using an adenovirus as the carrier of the genetic material. An adenovirus is any of a group of medium-sized (90-100 nm) non-enveloped icosahedral viruses of the family Adenoviridae which are characterized by a nucleocapsid surrounding a double-stranded DNA genome." [Segen:Segens_Medical_Dictionary_2012]
+def: "This is any condition in which the main influencing factor is a gene transfer performed using an adenovirus as the carrier of the genetic material. An adenovirus is any of a group of medium-sized (90-100 nm) non-enveloped icosahedral viruses of the family Adenoviridae which are characterized by a nucleocapsid surrounding a double-stranded DNA genome. An adenovirus is a double-stranded DNA virus that can replicate independently." [Segen:Segens_Medical_Dictionary_2012]
 synonym: "adenoviral gene transfer" EXACT []
 synonym: "adenovirus transfer" EXACT []
+synonym: "AdV transfer" EXACT []
 is_a: XCO:0000528 ! gene transfer
 created_by: jesmith
 creation_date: 2017-08-11T16:58:54Z
@@ -8163,7 +8164,7 @@ creation_date: 2021-05-18T13:40:36Z
 [Term]
 id: XCO:0000837
 name: gene transfer of the 15-LO-1 gene using an adenovirus vector
-def: "A condition in which the 15-Lipoxygenase-1 (15-LO-1) gene has been (transiently or stably) transferred into a cell or organism using an adenovirus carrier in order to induce synthesis of that gene's product in the recipient cell or organism." [PMID:23079672]
+def: "A condition in which the 15-Lipoxygenase-1 (15-LO-1) gene has been transferred into a cell or organism using an adenovirus carrier in order to induce synthesis of that gene's product in the recipient cell or organism." [PMID:23079672]
 synonym: "gene transfer of the 15-Lipoxygenase-1 gene using an adenovirus vector" EXACT []
 synonym: "gene transfer using Ad15-LO-1" EXACT []
 xref: PMID:23079672
@@ -16575,6 +16576,7 @@ synonym: "chronic intermittent ethanol vapor exposure" NARROW []
 synonym: "chronic intermittent ethanol vapor inhalation" NARROW []
 synonym: "CIE" RELATED []
 synonym: "controlled air ethanol vapor content" EXACT []
+xref: GEO:GSE159136
 xref: PMID:28363981
 is_a: XCO:0000009 ! controlled air content
 created_by: slaulederkind
@@ -16606,6 +16608,7 @@ synonym: "subdiaphragmatic vagus nerve stimulation" EXACT []
 synonym: "tenth cranial nerve direct electrical stimulation" BROAD []
 synonym: "vagal nerve direct electrical stimulation" BROAD []
 synonym: "vagus nerve direct electrical stimulation" BROAD []
+xref: GEO:GSE189615
 xref: PMID:37746712
 is_a: XCO:0000521 ! direct electrical nerve stimulation
 created_by: slaulederkind
@@ -16633,6 +16636,7 @@ def: "This is any condition in which the main influencing factor is a per- or po
 synonym: "forever chemicals" EXACT []
 synonym: "PFAS" EXACT []
 synonym: "PFASs" EXACT []
+xref: GEO:GSE262750
 xref: PMID:38963985
 is_a: XCO:0000342 ! chemical with specified structure
 created_by: slaulederkind
@@ -16696,6 +16700,7 @@ def: "This is any condition in which the main influencing factor is any maternal
 synonym: "multigenerational maternal exposure to perfluorohexanesulfonate" EXACT []
 synonym: "multigenerational maternal exposure to potassium perfluorohexanesulfonate" NARROW []
 xref: CID:23678874
+xref: GEO:GSE262750
 xref: PMID:38963985
 is_a: XCO:0001560 ! perfluorohexane sulfonate
 created_by: slaulederkind
@@ -16708,6 +16713,7 @@ def: "This is any condition in which the main influencing factor is any gestatio
 synonym: "gestational maternal exposure to perfluorohexanesulfonate" EXACT []
 synonym: "gestational maternal exposure to potassium perfluorohexanesulfonate" NARROW []
 xref: CID:23678874
+xref: GEO:GSE262750
 xref: PMID:38963985
 is_a: XCO:0000420 ! controlled in utero environment
 relationship: part_of XCO:0001564 ! multigenerational maternal exposure to perfluorohexane sulfonate
@@ -16721,6 +16727,7 @@ def: "This is any condition in which the main influencing factor is any maternal
 synonym: "maternal exposure to perfluorohexanesulfonate" EXACT []
 synonym: "maternal exposure to potassium perfluorohexanesulfonate" NARROW []
 xref: CID:23678874
+xref: GEO:GSE262750
 xref: PMID:38963985
 relationship: part_of XCO:0001564 ! multigenerational maternal exposure to perfluorohexane sulfonate
 created_by: slaulederkind
@@ -16734,6 +16741,7 @@ synonym: "multigenerational maternal exposure to propylthiouracil" EXACT []
 synonym: "multigenerational maternal exposure to PTU" EXACT []
 xref: CHEBI:8502
 xref: CID:657298
+xref: GEO:GSE262750
 xref: MESH:D011441
 xref: PMID:38963985
 is_a: XCO:0001561 ! 6-propyl-2-thiouracil
@@ -16747,6 +16755,7 @@ def: "This is any condition in which the main influencing factor is any gestatio
 synonym: "gestational maternal exposure to propylthiouracil" EXACT []
 synonym: "gestational maternal exposure to PTU" EXACT []
 xref: CHEBI:8502
+xref: GEO:GSE262750
 xref: MESH:D011441
 xref: PMID:38963985
 is_a: XCO:0000420 ! controlled in utero environment
@@ -16761,6 +16770,7 @@ def: "This is any condition in which the main influencing factor is any maternal
 synonym: "maternal exposure to propylthiouracil during nursing" EXACT []
 synonym: "maternal exposure to PTU during nursing" EXACT []
 xref: CHEBI:8502
+xref: GEO:GSE262750
 xref: MESH:D011441
 xref: PMID:38963985
 relationship: part_of XCO:0001567 ! multigenerational maternal exposure to 6-propyl-2-thiouracil
@@ -16776,6 +16786,7 @@ synonym: "multigenerational maternal CIEC exposure" EXACT []
 synonym: "multigenerational maternal exposure to controlled air BluPlus e-cig aerosol content" NARROW []
 synonym: "multigenerational maternal exposure to controlled air e-cig aerosol content" EXACT []
 synonym: "multigenerational maternal exposure to controlled air E-cigarette nicotine aerosol content" EXACT []
+xref: GEO:GSE278792
 xref: PMID:39414906
 relationship: has_component XCO:0001049 ! nicotine
 created_by: slaulederkind
@@ -16794,6 +16805,118 @@ is_a: XCO:0000420 ! controlled in utero environment
 relationship: part_of XCO:0001570 ! multigenerational maternal exposure to controlled air E-cigarette aerosol content
 created_by: slaulederkind
 creation_date: 2025-03-27T12:19:09Z
+
+[Term]
+id: XCO:0001572
+name: 2,2',5,5'-tetrachlorobiphenyl
+def: "This is any condition in which the main influencing factor is 2,2',5,5'-tetrachlorobiphenyl, a tetrachlorobiphenyl that is biphenyl in which the hydrogens at the 2 and 5 position of each benzene ring are replaced by chlorines." [CHEBI:34206, MESH:C009407]
+synonym: "1,1'-Biphenyl, 2,2',5,5'-tetrachloro-" EXACT []
+synonym: "2,2',5,5'-tetrachloro-1,1'-biphenyl" EXACT []
+synonym: "PCB-52" EXACT []
+synonym: "PCB52" EXACT []
+xref: CID:37248
+xref: MESH:C009407
+xref: PMID:39369937
+is_a: XCO:0000342 ! chemical with specified structure
+created_by: slaulederkind
+creation_date: 2025-03-31T13:04:18Z
+
+[Term]
+id: XCO:0001573
+name: subthalamic nucleus stimulation via implanted electrode
+def: "This is any condition in which the main influencing factor is the alteration of nerve activity through targeted delivery of an electrical stimulus directly to the subthalamic nucleus. This is done with implanted electrode(s)." [http://braininfo.rprc.washington.edu/Default.aspx, PMID:28470693]
+synonym: "brain stimulation via implanted electrode" BROAD []
+synonym: "STN stimulation via implanted electrode" EXACT []
+xref: PMID:39481497
+is_a: XCO:0000027 ! surgical implantation
+is_a: XCO:0000520 ! neuromodulation
+created_by: slaulederkind
+creation_date: 2025-04-03T16:28:04Z
+
+[Term]
+id: XCO:0001574
+name: subthalamic nucleus implanted electrode sham procedure
+def: "This is any condition in which the main influencing factor is an subthalamic nucleus implanted electrode sham procedure, which follows the same surgical process as a subthalamic nucleus implanted electrode procedure, but no electrical stimulus is delivered." [http://braininfo.rprc.washington.edu/Default.aspx, PMID:39481497]
+synonym: "STN implanted electrode sham procedure" EXACT []
+xref: PMID:28470693
+is_a: XCO:0000367 ! surgical device implantation sham procedure
+relationship: part_of XCO:0001573 ! subthalamic nucleus stimulation via implanted electrode
+created_by: slaulederkind
+creation_date: 2025-04-03T17:05:06Z
+
+[Term]
+id: XCO:0001575
+name: gene transfer using adeno-associated virus vector
+def: "This is any condition in which the main influencing factor is a gene transfer performed using an adeno-associated virus as the carrier of the genetic material. An adeno-associated virus is a small, non-enveloped, single-stranded DNA virus that is replication-deficient, i.e. it needs a helper virus to replicate. AAV is a promising vector for gene therapy due to its ability to infect both dividing and non-dividing cells, its low immunogenicity, and its ability to mediate long-term expression without integrating into the host genome." [https://www.bio-techne.com/resources/blogs/how-adenovirus-and-adeno-associated-virus-work-as-gene-therapy-vectors, https://www.vectorbiolabs.com/adenovirus-vs-aav/]
+synonym: "gene transduction using AAV vector" EXACT []
+synonym: "gene transduction using an adeno-associated virus vector" EXACT []
+synonym: "gene transfer using AAV vector" EXACT []
+xref: PMID:39481497
+is_a: XCO:0000528 ! gene transfer
+created_by: slaulederkind
+creation_date: 2025-04-03T17:48:26Z
+
+[Term]
+id: XCO:0001576
+name: gene transfer of the human A53T α-synuclein gene using an AAV1/2 hybrid virus vector
+def: "This is any condition in which the main influencing factor is gene transfer of the human A53T α-synuclein gene using an AAV1/2 hybrid virus vector. A53T α-synuclein is a mutant form of the human synuclein alpha (SNCA) gene." [https://www.bio-techne.com/resources/blogs/how-adenovirus-and-adeno-associated-virus-work-as-gene-therapy-vectors, PMID:_28143577]
+synonym: "gene transduction of the human A53T α-synuclein gene using an AAV1/2 hybrid virus vector" EXACT []
+synonym: "gene transfer of the human A53T SNCA gene using an AAV1/2 hybrid virus vector" EXACT []
+xref: PMID:39481497
+is_a: XCO:0001575 ! gene transfer using adeno-associated virus vector
+created_by: slaulederkind
+creation_date: 2025-04-03T18:08:36Z
+
+[Term]
+id: XCO:0001577
+name: sham gene transfer using an empty AAV1/2 hybrid virus vector
+def: "This is any condition in which the main influencing factor is an empty AAV1/2 hybrid virus vector that has been transferred into a cell or organism. This condition is used as a control for a AAV1/2 hybrid virus transfer of a specific gene." [https://www.vectorbiolabs.com/adenovirus-vs-aav/, PMID:28143577]
+synonym: "sham gene transfer using an AAV1/2 hybrid virus empty vector" EXACT []
+synonym: "sham gene transfer using an AAV1/2 hybrid virus EV" EXACT []
+synonym: "sham gene transfer using an empty AAV1/2 hybrid virus vector" EXACT []
+xref: PMID:39481497
+is_a: XCO:0000099 ! control condition
+is_a: XCO:0001575 ! gene transfer using adeno-associated virus vector
+created_by: slaulederkind
+creation_date: 2025-04-03T18:26:16Z
+
+[Term]
+id: XCO:0001578
+name: choline‐sufficient, amino acid‐defined diet
+def: "This is any condition in which the main influencing factor is a choline‐sufficient, amino acid‐defined (CSAA) diet. A CSAA diet is often used as a control diet in studies investigating the effects of choline deficiency on liver health, particularly in models of non-alcoholic fatty liver disease (NAFLD)." [PMID:36062292]
+synonym: "CSAA diet" EXACT []
+xref: PMID:39562169
+xref: PMID:40029260
+is_a: XCO:0000014 ! controlled content diet
+is_a: XCO:0000099 ! control condition
+created_by: slaulederkind
+creation_date: 2025-04-04T18:03:47Z
+
+[Term]
+id: XCO:0001579
+name: controlled resveratrol content, CSAA diet
+def: "This is any condition in which the main influencing factor is a choline‐sufficient, amino acid‐defined (CSAA) diet with controlled resveratrol content." [https://www.merriam-webster.com, PMID:39562169]
+synonym: "controlled resveratrol content, choline‐sufficient, amino acid‐defined diet" EXACT []
+xref: PMID:40029260
+is_a: XCO:0001578 ! choline‐sufficient, amino acid‐defined diet
+relationship: has_component XCO:0000856 ! resveratrol
+created_by: slaulederkind
+creation_date: 2025-04-04T18:15:53Z
+
+[Term]
+id: XCO:0001580
+name: pterostilbene
+def: "This is any condition in which the main influencing factor is pterostilbene, a polyphenol which is an antioxidant, antineoplastic agent, and anti-inflammatory agent." [CID:5281727]
+synonym: "4-[(E)-2-(3,5-dimethoxyphenyl)ethenyl]phenol" EXACT []
+xref: CHEBI:8630
+xref: MESH:C107773
+xref: PMID:39562169
+xref: PMID:40029260
+is_a: XCO:0000271 ! antioxidant
+is_a: XCO:0000435 ! antineoplastic agent
+is_a: XCO:0000505 ! anti-inflammatory agent
+created_by: slaulederkind
+creation_date: 2025-04-04T18:42:28Z
 
 [Typedef]
 id: has_component
