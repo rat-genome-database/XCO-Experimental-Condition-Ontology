@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.202
-date: 17:05:2025 20:13
+data-version: 4.199
+date: 12:04:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -304,7 +304,7 @@ is_a: XCO:0000038 ! radiation exposure
 [Term]
 id: XCO:0000046
 name: infrared radiation exposure
-def: "The condition of being subjected to electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components, with wavelengths longer than those of visible light, i.e. from approximately 750 to 2500 nm." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, http://en.wikipedia.org/wiki/Electromagnetic_Radiation "Wikipedia"]
+def: "The condition of being subjected to electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components, with wavelengths longer than those of visible light, i.e. from approximately 750 nm to 1 mm." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, http://en.wikipedia.org/wiki/Electromagnetic_Radiation "Wikipedia"]
 synonym: "IR radiation exposure" EXACT []
 is_a: XCO:0000044 ! non-ionizing radiation exposure
 is_a: XCO:0000045 ! electromagnetic radiation exposure
@@ -7297,7 +7297,7 @@ creation_date: 2020-09-25T14:09:32Z
 [Term]
 id: XCO:0000755
 name: dimethyl sulfoxide
-def: "This is any condition in which the main influencing factor is dimethyl sulfoxide, a 2-carbon sulfoxide and highly polar organic liquid, that is used widely as a chemical solvent. Because of its ability to penetrate biological membranes, it is used as a vehicle for topical application of pharmaceuticals. Dimethyl sulfoxide shows a range of pharmacological activity including analgesia and anti-inflammation." [CHEBI:28262, MESH:D004121]
+def: "Any condition in which the main influencing factor is dimethyl sulfoxide, a 2-carbon sulfoxide and highly polar organic liquid, that is used widely as a chemical solvent. Because of its ability to penetrate biological membranes, it is used as a vehicle for topical application of pharmaceuticals. Dimethyl sulfoxide shows a range of pharmacological activity including analgesia and anti-inflammation." [CHEBI:28262, MESH:D004121]
 synonym: "DMSO" EXACT []
 xref: CHEBI:28262
 xref: MESH:D004121
@@ -8319,7 +8319,7 @@ creation_date: 2021-06-28T17:14:08Z
 [Term]
 id: XCO:0000850
 name: therapeutic agent
-def: "This is any condition in which the main influencing factor is a chemical, biologic, organism, or action that exerts some force or effect resulting in a favorable outcome or improvement in the symptoms of a disorder or disease." [https://www.merriam-webster.com/, ISBN-13:978-0683400076]
+def: "This is any condition in which the main influencing factor is a chemical, biologic, or organism that exerts some force or effect resulting in a favorable outcome or improvement in the symptoms of a disorder or disease." [https://www.merriam-webster.com/, ISBN-13:978-0683400076]
 synonym: "medicinal agent" EXACT []
 synonym: "Not4Curation" RELATED []
 synonym: "remedial agent" EXACT []
@@ -8587,7 +8587,7 @@ creation_date: 2021-07-19T17:18:00Z
 [Term]
 id: XCO:0000874
 name: controlled in situ lung condition
-def: "This is any condition in which the main influencing factor is a controlled in situ lung condition in which the internal or external environment of one or both lungs is experimentally manipulated, for example through perfusion, increased or decreased blood flow, etc. without removal from the body." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
+def: "Any experimental condition in which the internal or external environment of one or both lungs is experimentally manipulated, for example through perfusion, increased or decreased blood flow, etc. without removal from the body." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
 synonym: "controlled in situ pulmonary condition" EXACT []
 synonym: "Not4Curation" EXACT []
 xref: PMID:7818325
@@ -8978,7 +8978,7 @@ creation_date: 2021-10-12T18:50:59Z
 [Term]
 id: XCO:0000906
 name: ovalbumin
-def: "This is any condition in which the main influencing factor is ovalbumin, the main protein found in egg white. Ovalbumin displays sequence and three-dimensional homology to the serpin superfamily, but unlike most serpins it is not a serine protease inhibitor." [https://en.wikipedia.org/wiki/Ovalbumin, ISBN-13:9780781733908]
+def: "Any condition in which the main influencing factor is ovalbumin, the main protein found in egg white. Ovalbumin displays sequence and three-dimensional homology to the serpin superfamily, but unlike most serpins it is not a serine protease inhibitor." [https://en.wikipedia.org/wiki/Ovalbumin, ISBN-13:9780781733908]
 synonym: "OVA" EXACT []
 xref: https://en.wikipedia.org/wiki/Ovalbumin
 is_a: XCO:0000193 ! peptide/protein
@@ -11184,10 +11184,6 @@ creation_date: 2023-11-06T16:56:32Z
 id: XCO:0001098
 name: crystalline silica
 def: "This is any condition in which the main influencing factor is crystalline silica. Silica is synonymous with silicon dioxide (SiO2) and commonly found in nature as sand. Silica exists mainly as crystalline silica (mostly in the form of quartz)." [https://safesilica.eu/crystalline-silica-the-science/, https://www.merriam-webster.com/]
-synonym: "fracking sand dust" NARROW []
-synonym: "fracking sand particles" NARROW []
-synonym: "FSD" NARROW []
-synonym: "FSP" NARROW []
 synonym: "respirable crystalline silica" NARROW []
 xref: CHEBI:30563
 xref: CHEBI:46727
@@ -11199,12 +11195,8 @@ creation_date: 2023-11-09T10:09:39Z
 
 [Term]
 id: XCO:0001099
-name: controlled air crystalline silica content
+name: air crystalline silica content
 def: "This is any condition in which the main influencing factor is respirable crystalline silica, which is breathable silica dust. The level of crystalline silica in the air surrounding an organism or breathed by an organism is determined by environmental conditions, work conditions, or controlled as part of an experiment." [https://leadlab.com/what-is-crystalline-silica-testing/, https://www.merriam-webster.com/]
-synonym: "air crystalline silica content" EXACT []
-synonym: "controlled air fracking sand dust content" NARROW []
-synonym: "controlled air fracking sand particle content" NARROW []
-synonym: "controlled air FSD content" NARROW []
 synonym: "respirable crystalline silica content" EXACT []
 xref: CHEBI:30563
 xref: CHEBI:46727
@@ -11554,7 +11546,7 @@ synonym: "Boyang Hwano Decoction" EXACT []
 synonym: "Buyang Huanwu Formula" EXACT []
 synonym: "Bu Yang Huan WU Tang" EXACT []
 synonym: "Buyang Huanwu Tang" EXACT []
-is_a: XCO:0001623 ! Traditional Chinese Medicine
+is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulederkind
 creation_date: 2023-11-17T14:41:23Z
 
@@ -12798,7 +12790,7 @@ synonym: "BHGZD" EXACT []
 xref: PMID:35799788
 xref: PMID:36195951
 is_a: XCO:0000505 ! anti-inflammatory agent
-is_a: XCO:0001623 ! Traditional Chinese Medicine
+is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulederkind
 creation_date: 2024-01-11T15:21:04Z
 
@@ -13042,7 +13034,7 @@ synonym: "poria" EXACT []
 synonym: "tuckahoe" EXACT []
 synonym: "Wolfiporia cocos" EXACT []
 synonym: "Wolfiporia extensa" EXACT []
-is_a: XCO:0001623 ! Traditional Chinese Medicine
+is_a: XCO:0000850 ! therapeutic agent
 relationship: has_component XCO:0000173 ! polysaccharide
 created_by: slaulederkind
 creation_date: 2024-01-18T13:48:59Z
@@ -13056,7 +13048,7 @@ synonym: "AR" EXACT []
 synonym: "Asian water plantain" EXACT []
 xref: CHEBI:26873
 xref: PMID:27080939
-is_a: XCO:0001623 ! Traditional Chinese Medicine
+is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulederkind
 creation_date: 2024-01-18T14:09:22Z
 
@@ -13078,7 +13070,7 @@ def: "This is any condition in which the main influencing factor is Huatan Jiang
 synonym: "HJD" EXACT []
 synonym: "HTJZD" EXACT []
 xref: PMID:33936248
-is_a: XCO:0001623 ! Traditional Chinese Medicine
+is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulederkind
 creation_date: 2024-01-18T15:29:08Z
 
@@ -13183,7 +13175,7 @@ synonym: "MXSG Decoction" EXACT []
 xref: PMID:32360484
 is_a: XCO:0000505 ! anti-inflammatory agent
 is_a: XCO:0000657 ! antiviral agent
-is_a: XCO:0001623 ! Traditional Chinese Medicine
+is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulederkind
 creation_date: 2024-01-22T13:02:45Z
 
@@ -13641,8 +13633,7 @@ name: AEGE extract
 def: "This is any condition in which the main influencing factor is AEGE extract, an herbal mixture extracted from the dried roots and rhizomes or stems of Acanthopanax senticosus Harms (ASH; Eleutherococcus senticosus; Siberian Ginseng) and Gastrodia elata Blume (Tianma; GE)." [PMID:33935709]
 synonym: "AEGE" EXACT []
 synonym: "ASE and GEB" EXACT []
-synonym: "GEB-ASE" EXACT []
-is_a: XCO:0001623 ! Traditional Chinese Medicine
+is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulederkind
 creation_date: 2024-02-27T15:16:18Z
 
@@ -13680,7 +13671,7 @@ id: XCO:0001304
 name: Danlu tongdu
 def: "This is any condition in which the main influencing factor is Danlu tongdu, a Chinese patent medicine made up of five traditional Chinese drugs, including Salviae miltiorrhizae, Astragali radix, Eucommiae cortex, Corydalis rhizoma and Cervi cornus colla. Danlu tongdu is used in treatment of lumbar spinal stenosis and lumbosacral disc herniations, but has some adverse side-effects on liver." [PMID:36408216]
 synonym: "DLTD" EXACT []
-is_a: XCO:0001623 ! Traditional Chinese Medicine
+is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulederkind
 creation_date: 2024-03-04T17:50:54Z
 
@@ -13726,7 +13717,7 @@ synonym: "Er xian tang" RELATED []
 synonym: "Erxian tang" RELATED []
 synonym: "EXD" EXACT []
 synonym: "Two Immortals Decoction" RELATED []
-is_a: XCO:0001623 ! Traditional Chinese Medicine
+is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulederkind
 creation_date: 2024-03-18T14:40:55Z
 
@@ -14509,8 +14500,8 @@ creation_date: 2024-04-26T14:23:02Z
 id: XCO:0001376
 name: experimental spinal cord transection at T10/T11
 def: "This is any condition in which the main influencing factor is an experimental transection of the rat spinal cord at the vertebral level of thoracic 10/11 (T10/11). This procedure involves laminectomy of the tenth vertebra and complete transection of the isolated section of spinal cord." [ISBN-13:9780781733908, PMID:37744239]
-synonym: "experimental SSCI" EXACT []
-synonym: "experimental suprasacral spinal cord injury" EXACT []
+synonym: "SSCI" EXACT []
+synonym: "suprasacral spinal cord injury" EXACT []
 is_a: XCO:0001091 ! experimental spinal cord injury
 created_by: slaulederkind
 creation_date: 2024-04-29T15:57:35Z
@@ -14811,7 +14802,7 @@ id: XCO:0001401
 name: Xiaogu San
 def: "This is any condition in which the main influencing factor is Xiaogu San, a multi-herbal composition (traditional chinese medicine formula) which contains components commonly prescribed in the treatment of pain and inflammation.." [PMID:34629040]
 synonym: "XGS" EXACT []
-is_a: XCO:0001623 ! Traditional Chinese Medicine
+is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulederkind
 creation_date: 2024-06-11T15:21:30Z
 
@@ -14947,7 +14938,7 @@ name: Ramulus Mori alkaloids
 def: "This is a condition in which the main influencing factor is Ramulus Mori alkaloids, a group of polyhydroxy alkaloids extracted and isolated from mulberry twig (Morus alba L.). Mulberry twig extract is used in traditional Chinese medicine (TCM) and is used against hyperglycemia and obesity." [PMID:37063280]
 synonym: "Sangzhi alkaloids" EXACT []
 synonym: "SZ-A" EXACT []
-is_a: XCO:0001623 ! Traditional Chinese Medicine
+is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulederkind
 creation_date: 2024-06-17T16:51:06Z
 
@@ -15506,7 +15497,6 @@ xref: CHEBI:53258
 xref: CID:6224
 xref: https://en.wikipedia.org/wiki/Trisodium_citrate
 is_a: XCO:0000315 ! buffer solution
-relationship: has_component XCO:0001600 ! citrate salt
 created_by: slaulederkind
 creation_date: 2024-10-01T15:59:01Z
 
@@ -15915,7 +15905,7 @@ creation_date: 2024-12-17T16:21:42Z
 [Term]
 id: XCO:0001498
 name: gestational maternal exposure to sodium carboxymethylcellulose
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to sodium carboxymethylcellulose. This is a condition typically studied to determine the effect of maternal (F0) sodium carboxymethylcellulose use/exposure on the F1 offspring." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
+def: "This is any condition in which the main influencing factor is any gestational maternal exposure to sodium carboxymethylcellulose. This is a condition typically studied to determine the effect of maternal (F0) sodium carboxymethylcellulose use/exposure on the F1 offspring" [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
 synonym: "gestational maternal exposure to carboxymethylcellulose sodium" EXACT []
 synonym: "gestational maternal exposure to carboxymethylcellulose sodium salt" EXACT []
 synonym: "gestational maternal exposure to carmellose sodium" EXACT []
@@ -16825,7 +16815,6 @@ synonym: "2,2',5,5'-tetrachloro-1,1'-biphenyl" EXACT []
 synonym: "PCB-52" EXACT []
 synonym: "PCB52" EXACT []
 xref: CID:37248
-xref: GEO:GSE246555
 xref: MESH:C009407
 xref: PMID:39369937
 is_a: XCO:0000342 ! chemical with specified structure
@@ -16928,540 +16917,6 @@ is_a: XCO:0000435 ! antineoplastic agent
 is_a: XCO:0000505 ! anti-inflammatory agent
 created_by: slaulederkind
 creation_date: 2025-04-04T18:42:28Z
-
-[Term]
-id: XCO:0001581
-name: controlled pterostilbene content, CSAA diet
-def: "This is any condition in which the main influencing factor is a choline‐sufficient, amino acid‐defined (CSAA) diet with controlled pterostilbene content." [https://www.merriam-webster.com/, PMID:39562169]
-synonym: "controlled pterostilbene content, choline‐sufficient, amino acid‐defined diet" EXACT []
-xref: PMID:40029260
-is_a: XCO:0001578 ! choline‐sufficient, amino acid‐defined diet
-relationship: has_component XCO:0001580 ! pterostilbene
-created_by: slaulederkind
-creation_date: 2025-04-15T17:11:17Z
-
-[Term]
-id: XCO:0001582
-name: chlorogenic acid
-def: "This is any condition in which the main influencing factor is chlorogenic acid, a cinnamate ester obtained by formal condensation of the carboxy group of trans-caffeic acid with the 3-hydroxy group of quinic acid. It is an investigational drug for its anti-inflammatory, anti-cancer, anti-diabetic, and other medicinal properties." [CID:1794427, PMID:29080460]
-synonym: "(1S,3R,4R,5R)-3-{[(2E)-3-(3,4-Dihydroxyphenyl)prop-2-enoyl]oxy}-1,4,5-trihydroxycyclohexane-1-carboxylic acid" EXACT []
-synonym: "3-CQA" EXACT []
-synonym: "CGA" EXACT []
-xref: CHEBI:16112
-xref: MESH:D002726
-xref: PMID:39562169
-is_a: XCO:0000505 ! anti-inflammatory agent
-is_a: XCO:0000511 ! ester
-created_by: slaulederkind
-creation_date: 2025-04-17T13:06:34Z
-
-[Term]
-id: XCO:0001583
-name: controlled chlorogenic acid content, CSAA diet
-def: "This is any condition in which the main influencing factor is a choline‐sufficient, amino acid‐defined (CSAA) diet with controlled chlorogenic acid content." [CID:1794427, https://www.merriam-webster.com/]
-synonym: "controlled 3-CQA content, CSAA diet" EXACT []
-synonym: "controlled CGA content, CSAA diet" EXACT []
-xref: CHEBI:16112
-xref: MESH:D002726
-xref: PMID:39562169
-is_a: XCO:0001578 ! choline‐sufficient, amino acid‐defined diet
-relationship: has_component XCO:0001582 ! chlorogenic acid
-created_by: slaulederkind
-creation_date: 2025-04-17T13:25:39Z
-
-[Term]
-id: XCO:0001584
-name: multigenerational maternal exposure to dimethyl sulfoxide
-def: "This is any condition in which the main influencing factor is any maternal exposure to dimethyl sulfoxide that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) dimethyl sulfoxide use/exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com/, PMID:25839742]
-synonym: "multigenerational maternal exposure to DMSO" EXACT []
-xref: PMID:39652430
-is_a: XCO:0000755 ! dimethyl sulfoxide
-created_by: slaulederkind
-creation_date: 2025-04-17T18:43:58Z
-
-[Term]
-id: XCO:0001585
-name: gestational maternal exposure to dimethyl sulfoxide
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to dimethyl sulfoxide. This is a condition typically studied to determine the effect of maternal (F0) dimethyl sulfoxide use/exposure on the F1 offspring." [https://www.merriam-webster.com/, PMID:25839742]
-synonym: "gestational maternal exposure to DMSO" EXACT []
-xref: PMID:39652430
-is_a: XCO:0000101 ! vehicle control condition
-is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001584 ! multigenerational maternal exposure to dimethyl sulfoxide
-created_by: slaulederkind
-creation_date: 2025-04-18T10:55:22Z
-
-[Term]
-id: XCO:0001586
-name: 2-[1H-indol-3-yl(oxo)methyl]-4-thiazolecarboxylic acid methyl ester
-def: "This is any condition in which the main influencing factor is 2-[1H-indol-3-yl(oxo)methyl]-4-thiazolecarboxylic acid methyl ester, an indolyl carboxylic acid." [CHEBI:93059]
-synonym: "2-(1H-Indol-3-ylcarbonyl)-4-thiazolecarboxylic acid methyl ester" EXACT []
-synonym: "ITE" EXACT []
-synonym: "methyl 2-(1H-indol-3-ylcarbonyl)-1,3-thiazole-4-carboxylate" EXACT []
-synonym: "methyl 2-(1H-indole-3-carbonyl)-1,3-thiazole-4-carboxylate" EXACT []
-xref: CHEBI:93059
-is_a: XCO:0000511 ! ester
-created_by: slaulederkind
-creation_date: 2025-04-18T11:08:38Z
-
-[Term]
-id: XCO:0001587
-name: multigenerational maternal exposure to ITE
-def: "This is any condition in which the main influencing factor is any maternal exposure to ITE (2-[1H-indol-3-yl(oxo)methyl]-4-thiazolecarboxylic acid methyl ester) that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) ITE use/exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com/, PMID:25839742]
-synonym: "multigenerational maternal exposure to 2-(1H-Indol-3-ylcarbonyl)-4-thiazolecarboxylic acid methyl ester" EXACT []
-synonym: "multigenerational maternal exposure to 2-[1H-indol-3-yl(oxo)methyl]-4-thiazolecarboxylic acid methyl ester" EXACT []
-synonym: "multigenerational maternal exposure to methyl 2-(1H-indol-3-ylcarbonyl)-1,3-thiazole-4-carboxylate" EXACT []
-synonym: "multigenerational maternal exposure to methyl 2-(1H-indole-3-carbonyl)-1,3-thiazole-4-carboxylate" EXACT []
-xref: PMID:39652430
-is_a: XCO:0001586 ! 2-[1H-indol-3-yl(oxo)methyl]-4-thiazolecarboxylic acid methyl ester
-created_by: slaulederkind
-creation_date: 2025-04-18T11:53:22Z
-
-[Term]
-id: XCO:0001588
-name: gestational maternal exposure to ITE
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to ITE (2-[1H-indol-3-yl(oxo)methyl]-4-thiazolecarboxylic acid methyl ester). This is a condition typically studied to determine the effect of maternal (F0) ITE use/exposure on the F1 offspring." [https://www.merriam-webster.com/, PMID:25839742]
-synonym: "gestational maternal exposure to 2-(1H-indol-3-ylcarbonyl)-1,3-thiazole-4-carboxylate" EXACT []
-synonym: "gestational maternal exposure to 2-(1H-Indol-3-ylcarbonyl)-4-thiazolecarboxylic acid methyl ester" EXACT []
-synonym: "gestational maternal exposure to 2-(1H-indole-3-carbonyl)-1,3-thiazole-4-carboxylate" EXACT []
-synonym: "gestational maternal exposure to 2-[1H-indol-3-yl(oxo)methyl]-4-thiazolecarboxylic acid methyl ester" EXACT []
-xref: PMID:39652430
-is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001587 ! multigenerational maternal exposure to ITE
-created_by: slaulederkind
-creation_date: 2025-04-18T12:15:35Z
-
-[Term]
-id: XCO:0001589
-name: lung ischemia/reperfusion
-def: "This is any condition in which the main influencing factor is lung ischemia/reperfusion, an experimental surgical procedure which involves clamping/releasing of the pulmonary hilum on one side of the lungs. Blood vessels, nerves, and bronchi pass through the hilum to all the lobes of the lungs." [https://www.merriam-webster.com/, PMID:39655220]
-synonym: "I-post-C" RELATED []
-synonym: "LIRI" EXACT []
-is_a: XCO:0000874 ! controlled in situ lung condition
-created_by: slaulederkind
-creation_date: 2025-04-18T13:52:23Z
-
-[Term]
-id: XCO:0001590
-name: lung ischemia/reperfusion sham procedure
-def: "This is any condition in which the main influencing factor is a lung ischemia/reperfusion sham procedure, which follows the same surgical process as an lung ischemia/reperfusion procedure without blocking the pulmonary hilum." [https://www.merriam-webster.com/, PMID:39655220]
-synonym: "I-post-C sham procedure" RELATED []
-synonym: "LIRI sham procedure" EXACT []
-is_a: XCO:0000100 ! sham surgical control condition
-relationship: part_of XCO:0001589 ! lung ischemia/reperfusion
-created_by: slaulederkind
-creation_date: 2025-04-18T14:15:30Z
-
-[Term]
-id: XCO:0001591
-name: experimental T10/T11 spinal cord transection/scar resection
-def: "This is any condition in which the main influencing factor is scar resection after healing of an experimental transection of the rat spinal cord at the vertebral level of thoracic 10/11 (T10/11). This procedure involves laminectomy of the tenth vertebra and complete transection of the isolated section of spinal cord. This procedure is followed by resection of the center (~1 mm) of the scar tissue formed (by ~ day 42) in the gap created by the transection." [https://www.merriam-webster.com/, PMID:39733145]
-synonym: "experimental SCI scar resection" EXACT []
-synonym: "experimental spinal cord injury scar resection" EXACT []
-synonym: "experimental SSCI scar resection" EXACT []
-synonym: "experimental suprasacral spinal cord injury scar resection" EXACT []
-relationship: has_component XCO:0001376 ! experimental spinal cord transection at T10/T11
-created_by: slaulederkind
-creation_date: 2025-04-24T11:05:37Z
-
-[Term]
-id: XCO:0001592
-name: porcine dECM hydrogel implantation
-def: "This is any condition in which the main influencing factor is implantation of a porcine, decellularized, extracellular matrix (dECM) hydrogel scaffold, a tissue scaffold made of decellularized, extracellular matrix from porcine kidney. dECM hydrogel has been utilized for experimental nerve regeneration, spinal cord injury repair, and resected kidney defect repair." []
-created_by: slaulederkind
-creation_date: 2025-04-24T11:35:37Z
-
-[Term]
-id: XCO:0001593
-name: human iPS cell-derived hNS/PCs
-def: "This is any condition in which the main influencing factor is an injection or infusion of human neural stem/progenitor cells (hNS/PCs) derived from human induced pluripotent stem cells." [https://www.merriam-webster.com/, PMID:39733145]
-comment: neural stem progenitor cell
-synonym: "human induced pluripotent stem cell-derived hNS/PCs" EXACT []
-synonym: "human induced pluripotent stem cell-derived neural stem/progenitor cells" EXACT []
-synonym: "human iPS cell-derived neural stem/progenitor cells" EXACT []
-is_a: XCO:0001032 ! human neural progenitor cells
-created_by: slaulederkind
-creation_date: 2025-04-24T12:22:39Z
-
-[Term]
-id: XCO:0001594
-name: aluminium hydroxide
-def: "This is any condition in which the main influencing factor is aluminium hydroxide, an antacid used for the symptomatic relief of heartburn. Aluminium hydroxide is also used in other applications: as an antiperspirant, as an emulsifier, in dentifrices, as an adjuvant in bacterins and vaccines, in water purification, etc." [https://go.drugbank.com/drugs/DB06723, MESH:D000536]
-synonym: "Al(OH)3" EXACT []
-synonym: "aluminium(III) hydroxide" EXACT []
-synonym: "trihydroxidoaluminium" EXACT []
-xref: CHEBI:33130
-xref: PMID:34367159
-is_a: XCO:0000342 ! chemical with specified structure
-created_by: slaulederkind
-creation_date: 2025-04-25T14:00:53Z
-
-[Term]
-id: XCO:0001595
-name: Mengovirus
-def: "This is any condition in which the main influencing factor is Mengovirus, a single-stranded RNA virus that belongs to the genus Cardiovirus. The Mengovirus infects vertebrates and is able to suppress the host's immune response by reducing the expression of Nuclear Factor kappa B." [https://en.wikipedia.org/wiki/Mengovirus]
-synonym: "Columbia SK virus" EXACT []
-synonym: "Mengo virus" EXACT []
-synonym: "mouse Elberfield virus" EXACT []
-synonym: "vMC0  (attenuated)" NARROW []
-xref: PMID:34367159
-is_a: XCO:0000237 ! viral pathogen
-created_by: slaulederkind
-creation_date: 2025-04-25T15:24:02Z
-
-[Term]
-id: XCO:0001596
-name: OM-85
-def: "This is any condition in which the main influencing factor is OM-85, an immunostimulanting combination of molecules extracted from the walls of bacteria that commonly cause respiratory infections. OM-85 can enhance immunity by promoting the maturation of dendritic cells in the gastrointestinal Peyer's patches, which in turn strengthens immune defenses in the lung." [https://en.wikipedia.org/wiki/OM-85#, PMID:35985019]
-synonym: "Broncho-Vaxom" NARROW []
-synonym: "OM85" EXACT []
-xref: PMID:34367159
-is_a: XCO:0000505 ! anti-inflammatory agent
-is_a: XCO:0000761 ! biologics and probiotics
-created_by: slaulederkind
-creation_date: 2025-04-25T15:59:11Z
-
-[Term]
-id: XCO:0001597
-name: multigenerational maternal exposure to valproate
-def: "This is any condition in which the main influencing factor is any maternal exposure to valproate that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) valproate use/exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "multigenerational maternal exposure to 2-propylpentanoate" EXACT []
-synonym: "multigenerational maternal exposure to VPA" EXACT []
-xref: CHEBI:60654
-xref: PMID:33712455
-is_a: XCO:0001258 ! valproate
-created_by: slaulederkind
-creation_date: 2025-04-25T17:20:59Z
-
-[Term]
-id: XCO:0001598
-name: gestational maternal exposure to valproate
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to valproate. This is a condition typically studied to determine the effect of maternal (F0) valproate use/exposure on the F1 offspring." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
-synonym: "gestational maternal exposure to 2-propylpentanoate" EXACT []
-synonym: "gestational maternal exposure to VPA" EXACT []
-synonym: "maternal exposure to 2-propylpentanoate during pregnancy" EXACT []
-synonym: "maternal exposure to valproate during pregnancy" EXACT []
-synonym: "maternal exposure to VPA during pregnancy" EXACT []
-xref: CHEBI:60654
-xref: PMID:33712455
-is_a: XCO:0001597 ! multigenerational maternal exposure to valproate
-created_by: slaulederkind
-creation_date: 2025-04-25T17:24:58Z
-
-[Term]
-id: XCO:0001599
-name: TAK-418
-def: "This is any condition in which the main influencing factor is TAK-418, a selective, orally active lysine demethylase 1A (KDM1A) enzyme inhibitor. TAK-418 is used to treat autism symptoms in animal models of neurodevelopmental disorders ." [CHEBI:230499]
-synonym: "LVM0PK6IHG" EXACT []
-xref: CAS:1818252-53-7
-xref: CID:118432651
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulederkind
-creation_date: 2025-04-25T17:42:11Z
-
-[Term]
-id: XCO:0001600
-name: citrate salt
-def: "This is any condition in which the main influencing factor is citrate salt, a salt of citric acid." [CHEBI:50744]
-synonym: "citrate" EXACT []
-synonym: "citrate(3-)" EXACT []
-synonym: "citrates" EXACT []
-synonym: "citrate salts" EXACT []
-xref: CID:31348
-is_a: XCO:0000149 ! ion/salt
-created_by: slaulederkind
-creation_date: 2025-04-25T18:11:42Z
-
-[Term]
-id: XCO:0001601
-name: JNK-IN-5A
-def: "This is any condition in which the main influencing factor is JNK-IN-5A, an inhibitor of JNK2 (MAPK9/mitogen-activated protein kinase 9), JNK3 (MAPK10/mitogen-activated protein kinase 10) and other mitogen-activated protein kinases." [https://www.rndsystems.com/products/tcs-jnk-5a_2827]
-synonym: "JNK Inhibitor IX" EXACT []
-synonym: "N-(3-cyano-4,5,6,7-tetrahydro-1-benzothiophen-2-yl)-1-naphthalenecarboxamide" EXACT []
-synonym: "TCS JNK 5a" EXACT []
-xref: CHEBI:91453
-xref: CID:766949
-xref: PMID:39932177
-is_a: XCO:0000505 ! anti-inflammatory agent
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulederkind
-creation_date: 2025-04-29T16:57:43Z
-
-[Term]
-id: XCO:0001602
-name: dehydration
-def: "This is any condition in which the main influencing factor is dehydration, which occurs when a subject's body loses more fluids than it takes in, leading to a state where it doesn't have enough water and other fluids to function properly. In experimental animals dehydration may be used as a kidney stressor." [https://www.kidney.org/news-stories/can-dehydration-affect-your-kidneys, https://www.mayoclinic.org/diseases-conditions/dehydration/symptoms-causes/syc-20354086]
-synonym: "lack of hydration" EXACT []
-xref: MP:0001429
-xref: PMID:35910780
-is_a: XCO:0000021 ! water
-created_by: slaulederkind
-creation_date: 2025-05-01T10:58:22Z
-
-[Term]
-id: XCO:0001603
-name: icariin
-def: "This is any condition in which the main influencing factor is icariin, a flavonoid compound found in plants of the genus Epimedium. Icarin is the major flavonoid responsible for the pharmacological actions of Epimedii Herb, used in traditional Chinese medicine." [https://en.wikipedia.org/wiki/Icariin, PMID:35910780]
-synonym: "3-[(6-deoxy-alpha-L-mannopyranosyl)oxy]-5-hydroxy-2-(4-methoxyphenyl)-8-(3-methylbut-2-en-1-yl)-4-oxo-4H-chromen-7-yl beta-D-glucopyranoside" EXACT []
-synonym: "7-(β-D-Glucopyranosyloxy)-5-hydroxy-4′-methoxy-8-(3-methylbut-2-en-1-yl)-3-(α-L-rhamnopyranosyloxy)flavone" EXACT []
-xref: CHEBI:78420
-xref: CID:5318997
-xref: MESH:C056599
-is_a: XCO:0000271 ! antioxidant
-is_a: XCO:0000505 ! anti-inflammatory agent
-created_by: slaulederkind
-creation_date: 2025-05-01T11:19:57Z
-
-[Term]
-id: XCO:0001604
-name: multigenerational maternal exposure to controlled fat content diet
-def: "This is any condition in which the main influencing factor is any maternal exposure to controlled fat content diet that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) controlled fat content diet on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com, PMID:25839742]
-is_a: XCO:0000025 ! controlled fat content diet
-created_by: slaulederkind
-creation_date: 2025-05-01T12:49:21Z
-
-[Term]
-id: XCO:0001605
-name: pregestational maternal exposure to controlled fat content diet
-def: "This is any condition in which the main influencing factor is any pregestational maternal exposure to a controlled fat content diet. This is a condition typically studied to determine the effect of a maternal (F0) controlled fat content diet on the F1 offspring." [https://www.merriam-webster.com, PMID:29972240]
-synonym: "maternal exposure to a controlled fat content diet prior to a pregnancy" EXACT []
-relationship: part_of XCO:0001604 ! multigenerational maternal exposure to controlled fat content diet
-created_by: slaulederkind
-creation_date: 2025-05-01T13:03:12Z
-
-[Term]
-id: XCO:0001606
-name: maternal exposure to controlled fat content diet during nursing
-def: "This is any condition in which the main influencing factor is any maternal exposure to a controlled fat content diet during nursing of offspring. This is a condition typically studied to determine the effect of a maternal (F0) controlled fat content diet exposure during the postnatal, preweaning period on the F1 offspring." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "maternal exposure to a controlled fat content diet during nursing of offspring" EXACT []
-xref: PMID:29972240
-relationship: part_of XCO:0001604 ! multigenerational maternal exposure to controlled fat content diet
-created_by: slaulederkind
-creation_date: 2025-05-01T13:38:20Z
-
-[Term]
-id: XCO:0001607
-name: gestational maternal exposure to controlled fat content diet
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to a controlled fat content diet. This is a condition typically studied to determine the effect of a maternal (F0) controlled fat content diet on the F1 offspring." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
-synonym: "maternal exposure to a controlled fat content diet during pregnancy" EXACT []
-xref: PMID:29972240
-is_a: XCO:0000420 ! controlled in utero environment
-relationship: part_of XCO:0001604 ! multigenerational maternal exposure to controlled fat content diet
-created_by: slaulederkind
-creation_date: 2025-05-01T13:48:42Z
-
-[Term]
-id: XCO:0001608
-name: multigenerational maternal exposure to standard rat chow diet
-def: "This is any condition in which the main influencing factor is any maternal exposure to a standard rat chow diet that has multigenerational effects. This is a condition typically studied to determine the effect of a maternal (F0) standard rat chow diet on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com]
-synonym: "multigenerational maternal exposure to control diet" BROAD []
-synonym: "multigenerational maternal exposure to standard rat diet" EXACT []
-xref: PMID:29972240
-is_a: XCO:0000016 ! standard rat chow
-created_by: slaulederkind
-creation_date: 2025-05-01T14:35:31Z
-
-[Term]
-id: XCO:0001609
-name: gestational maternal exposure to standard rat chow diet
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to standard rat chow. This is a condition typically studied to determine the effect of maternal (F0) standard rat chow diet on the F1 offspring." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
-synonym: "maternal exposure to a standard rat chow diet during pregnancy" EXACT []
-xref: PMID:29972240
-is_a: XCO:0000420 ! controlled in utero environment
-relationship: part_of XCO:0001608 ! multigenerational maternal exposure to standard rat chow diet
-created_by: slaulederkind
-creation_date: 2025-05-01T14:47:45Z
-
-[Term]
-id: XCO:0001610
-name: maternal exposure to standard rat chow diet during nursing
-def: "This is any condition in which the main influencing factor is any maternal exposure to standard rat chow diet during nursing of offspring. This is a condition typically studied to determine the effect of maternal (F0) standard rat chow diet exposure during the postnatal, preweaning period on the F1 offspring." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "maternal exposure to a standard rat chow diet during nursing of offspring" EXACT []
-xref: PMID:29972240
-relationship: part_of XCO:0001608 ! multigenerational maternal exposure to standard rat chow diet
-created_by: slaulederkind
-creation_date: 2025-05-01T14:57:58Z
-
-[Term]
-id: XCO:0001611
-name: pregestational maternal exposure to standard rat chow diet
-def: "This is any condition in which the main influencing factor is any pregestational maternal exposure to a standard rat chow diet. This is a condition typically studied to determine the effect of a maternal (F0) standard rat chow diet on the F1 offspring." [https://www.merriam-webster.com]
-synonym: "pregestational maternal exposure to control diet" BROAD []
-synonym: "pregestational maternal exposure to standard rat chow" EXACT []
-xref: PMID:29972240
-relationship: part_of XCO:0001608 ! multigenerational maternal exposure to standard rat chow diet
-created_by: slaulederkind
-creation_date: 2025-05-01T15:05:39Z
-
-[Term]
-id: XCO:0001612
-name: cinacalcet
-def: "This is any condition in which the main influencing factor is cinacalcet, a secondary amino compound that is a member of the naphthalenes and the trifluoromethyl)benzenes. Cinacalcet is a calcium sensing receptor (CASR) agonist and a P450 inhibitor." [CID:156419]
-synonym: "N-[(1R)-1-(1-naphthyl)ethyl]-3-[3-(trifluoromethyl)phenyl]propan-1-amine" EXACT []
-xref: CHEBI:48390
-xref: MESH:D000069449
-is_a: XCO:0000135 ! receptor agonist
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulederkind
-creation_date: 2025-05-02T12:04:03Z
-
-[Term]
-id: XCO:0001613
-name: recombinant alteplase
-def: "This is any condition in which the main influencing factor is recombinant alteplase, a biosynthetic form of human tissue-type plasminogen activator (t-PA). Alteplase is an anticoagulant which converts plasminogen to plasmin (fibrinolysin)." [https://en.wikipedia.org/wiki/Alteplase, MESH:D010959]
-synonym: "Actilyse" NARROW []
-synonym: "Activase" NARROW []
-synonym: "recombinant plasminogen activator, tissue type" EXACT []
-synonym: "recombinant PLAT" EXACT []
-synonym: "recombinant t-PA" EXACT []
-synonym: "rt-PA" EXACT []
-synonym: "tissue-type plasminogen activator" EXACT []
-is_a: XCO:0000176 ! enzyme
-is_a: XCO:0000694 ! enzyme activator
-is_a: XCO:0001090 ! anticoagulant
-created_by: slaulederkind
-creation_date: 2025-05-05T13:56:45Z
-
-[Term]
-id: XCO:0001614
-name: urokinase-loaded nano-patrols
-def: "This is any condition in which the main influencing factor is urokinase-loaded nano-patrols, which are mesoporous polydopamine nanoparticles which have been loaded with human urokinase and coated with three different single-stranded DNAs to function as thrombin aptamers, pore sealers, and release biomarkers. These specialized nanoparticles are used for regulating therapeutic urokinase dose based on the in vivo thrombolysis resistance of thrombi." [PMID:39823346]
-synonym: "uPA-loaded mesoporous polydopamine nanoparticles" NARROW []
-synonym: "uPA-loaded nano-patrols" EXACT []
-synonym: "uPA-loaded pDA nanoparticles" NARROW []
-synonym: "urokinase-loaded mesoporous polydopamine nanoparticles" EXACT []
-xref: CHEBI:50803
-xref: PMID:34078604
-is_a: XCO:0001090 ! anticoagulant
-relationship: has_component XCO:0000176 ! enzyme
-relationship: has_component XCO:0000338 ! chemical nanoparticle
-created_by: slaulederkind
-creation_date: 2025-05-05T16:09:21Z
-
-[Term]
-id: XCO:0001615
-name: aluminum hydroxide
-def: "This is any condition in which the main influencing factor is aluminium hydroxide, an inorganic salt used as an antacid. Aluminium hydroxide is a basic compound that acts by neutralizing hydrochloric acid in gastric secretions." [CID:10176082]
-synonym: "Al(OH)3" EXACT []
-synonym: "aluminium(3+) hydroxide" EXACT []
-synonym: "aluminium(III) hydroxide" EXACT []
-synonym: "aluminium hydroxide" EXACT []
-synonym: "aluminum hydrate" EXACT []
-synonym: "hydrated alumina" EXACT []
-synonym: "trihydroxidoaluminium" EXACT []
-xref: CHEBI:33130
-xref: MESH:D000536
-is_a: XCO:0000149 ! ion/salt
-created_by: slaulederkind
-creation_date: 2025-05-06T14:54:56Z
-
-[Term]
-id: XCO:0001616
-name: partial body near-infrared laser irradiation
-def: "This is any condition in which the main influencing factor is partial body near-infrared laser irradiation, which is exposure to laser-emitted, electromagnetic radiation with wavelengths ranging from 750 to 2500 nm. Near-infrared electromagnetic radiation may be used analytically or as part of a therapeutic process." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
-synonym: "partial body NIR laser irradiation" EXACT []
-xref: PMID:39823346
-is_a: XCO:0000046 ! infrared radiation exposure
-is_a: XCO:0000804 ! laser therapy
-created_by: slaulederkind
-creation_date: 2025-05-08T15:10:09Z
-
-[Term]
-id: XCO:0001617
-name: partial body near-infrared II laser irradiation
-def: "This is any condition in which the main influencing factor is partial body near-infrared II laser irradiation, which is exposure to laser-emitted, electromagnetic radiation with wavelengths ranging from 1000 to 1700 nm. Near-infrared II electromagnetic radiation may be used analytically or as part of a therapeutic process." [PMID:32083067, PMID:37596326]
-synonym: "partial body NIR 2 laser irradiation" EXACT []
-synonym: "partial body NIR-II laser irradiation" EXACT []
-xref: PMID:39823346
-is_a: XCO:0001616 ! partial body near-infrared laser irradiation
-created_by: slaulederkind
-creation_date: 2025-05-08T15:19:05Z
-
-[Term]
-id: XCO:0001618
-name: filtered air
-def: "This is any condition in which the main influencing factor is filtered air, which is air cleared of particulate matter or other pollutants. This is a control condition for the study of various air pollutants." [GSE:242155, https://www.merriam-webster.com/]
-synonym: "cleaned air" EXACT []
-synonym: "cleared air" EXACT []
-is_a: XCO:0000009 ! controlled air content
-is_a: XCO:0000099 ! control condition
-created_by: slaulederkind
-creation_date: 2025-05-09T17:05:17Z
-
-[Term]
-id: XCO:0001619
-name: controlled air diesel exhaust particle content
-def: "This is any condition in which the main influencing factor is diesel exhaust particles, a component of ambient air pollution. The level of diesel exhaust particles in the air surrounding an organism or breathed by an organism is determined by environmental conditions, work conditions, or controlled as part of an experiment." [GSE:242155, https://www.merriam-webster.com/]
-synonym: "controlled air DEP content" EXACT []
-synonym: "controlled air diesel particle content" EXACT []
-synonym: "controlled air diesel particulate matter content" EXACT []
-synonym: "controlled air DPM content" EXACT []
-is_a: XCO:0000009 ! controlled air content
-created_by: slaulederkind
-creation_date: 2025-05-09T17:22:30Z
-
-[Term]
-id: XCO:0001620
-name: Yuanhu Zhitong Prescription
-def: "This is any condition in which the main influencing factor is Yuanhu Zhitong Prescription, a traditional Chinese medicine (TCM) formula used for pain relief. The main ingredients of Yuanhu Zhitong Prescription are Radix angelicae dahuricae (white angelica root) and Rhizoma corydalis (gold thread rhizome)." [PMID:_23762151]
-synonym: "YHP" EXACT []
-synonym: "Yuan Hu Zhi tong" EXACT []
-synonym: "Yuanhuzhitong preparation" EXACT []
-synonym: "YZP" EXACT []
-xref: PMID:38729540
-is_a: XCO:0000106 ! anesthetic/analgesic
-is_a: XCO:0001623 ! Traditional Chinese Medicine
-created_by: slaulederkind
-creation_date: 2025-05-13T16:03:29Z
-
-[Term]
-id: XCO:0001621
-name: Corydalis yanhusuo
-def: "This is any condition in which the main influencing factor is Corydalis yanhusuo, a plant species in the genus Corydalis. The tuber of Corydalis yanhusuo, frequently mislabeled as the root, is an important therapeutic agent for pain relief in traditional Chinese medicine (TCM)." [https://en.wikipedia.org/wiki/Corydalis_yanhusuo, PMID:_34946576]
-synonym: "Asian corydalis" EXACT []
-synonym: "corydalis" EXACT []
-synonym: "Corydalis yanhusuo extract" EXACT []
-synonym: "Corydalis yanhusuo, rhizoma" EXACT []
-synonym: "CYH" EXACT []
-synonym: "YH" EXACT []
-synonym: "YHS" EXACT []
-synonym: "Yuanhu" EXACT []
-xref: PMID:38729540
-is_a: XCO:0001623 ! Traditional Chinese Medicine
-created_by: slaulederkind
-creation_date: 2025-05-13T16:34:00Z
-
-[Term]
-id: XCO:0001622
-name: Angelica dahurica
-def: "This is any condition in which the main influencing factor is Angelica dahurica, whose root is a well-known traditional Chinese medicine (TCM). Angelica dahurica and Corydalis yanhusuo are the main ingredients of Yuanhu Zhitong Prescription" [https://en.wikipedia.org/wiki/Angelica_dahurica, PMID:35847034]
-synonym: "A. dahurica" EXACT []
-synonym: "AD" EXACT []
-synonym: "Angelica dahurica root" EXACT []
-synonym: "Baizhi" EXACT []
-synonym: "bai zhi" EXACT []
-synonym: "BZ" EXACT []
-synonym: "Chinese angelica" EXACT []
-synonym: "Dahurian angelica" EXACT []
-synonym: "garden angelica" EXACT []
-synonym: "root of the Holy Ghost" EXACT []
-synonym: "wild angelica" EXACT []
-xref: PMID:38729540
-is_a: XCO:0001623 ! Traditional Chinese Medicine
-created_by: slaulederkind
-creation_date: 2025-05-13T16:56:53Z
-
-[Term]
-id: XCO:0001623
-name: Traditional Chinese Medicine
-def: "This is any condition in which the main influencing factor is Traditional Chinese Medicine (TCM), a medical system that has been used for thousands of years to prevent, diagnose, and treat disease. Traditional Chinese medicine includes acupuncture, diet, herbal therapy, meditation, physical exercise, and massage." [https://en.wikipedia.org/wiki/Traditional_Chinese_medicine, https://www.cancer.gov/publications/dictionaries/cancer-terms]
-synonym: "Not4Curation" RELATED []
-synonym: "Oriental medicine" EXACT []
-synonym: "TCM" EXACT []
-xref: PMID:38729540
-is_a: XCO:0000850 ! therapeutic agent
-created_by: slaulederkind
-creation_date: 2025-05-13T17:11:41Z
 
 [Typedef]
 id: has_component

@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.202
-date: 17:05:2025 20:13
+data-version: 4.201
+date: 10:05:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -8319,7 +8319,7 @@ creation_date: 2021-06-28T17:14:08Z
 [Term]
 id: XCO:0000850
 name: therapeutic agent
-def: "This is any condition in which the main influencing factor is a chemical, biologic, organism, or action that exerts some force or effect resulting in a favorable outcome or improvement in the symptoms of a disorder or disease." [https://www.merriam-webster.com/, ISBN-13:978-0683400076]
+def: "This is any condition in which the main influencing factor is a chemical, biologic, or organism that exerts some force or effect resulting in a favorable outcome or improvement in the symptoms of a disorder or disease." [https://www.merriam-webster.com/, ISBN-13:978-0683400076]
 synonym: "medicinal agent" EXACT []
 synonym: "Not4Curation" RELATED []
 synonym: "remedial agent" EXACT []
@@ -11554,7 +11554,7 @@ synonym: "Boyang Hwano Decoction" EXACT []
 synonym: "Buyang Huanwu Formula" EXACT []
 synonym: "Bu Yang Huan WU Tang" EXACT []
 synonym: "Buyang Huanwu Tang" EXACT []
-is_a: XCO:0001623 ! Traditional Chinese Medicine
+is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulederkind
 creation_date: 2023-11-17T14:41:23Z
 
@@ -12798,7 +12798,7 @@ synonym: "BHGZD" EXACT []
 xref: PMID:35799788
 xref: PMID:36195951
 is_a: XCO:0000505 ! anti-inflammatory agent
-is_a: XCO:0001623 ! Traditional Chinese Medicine
+is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulederkind
 creation_date: 2024-01-11T15:21:04Z
 
@@ -13042,7 +13042,7 @@ synonym: "poria" EXACT []
 synonym: "tuckahoe" EXACT []
 synonym: "Wolfiporia cocos" EXACT []
 synonym: "Wolfiporia extensa" EXACT []
-is_a: XCO:0001623 ! Traditional Chinese Medicine
+is_a: XCO:0000850 ! therapeutic agent
 relationship: has_component XCO:0000173 ! polysaccharide
 created_by: slaulederkind
 creation_date: 2024-01-18T13:48:59Z
@@ -13056,7 +13056,7 @@ synonym: "AR" EXACT []
 synonym: "Asian water plantain" EXACT []
 xref: CHEBI:26873
 xref: PMID:27080939
-is_a: XCO:0001623 ! Traditional Chinese Medicine
+is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulederkind
 creation_date: 2024-01-18T14:09:22Z
 
@@ -13078,7 +13078,7 @@ def: "This is any condition in which the main influencing factor is Huatan Jiang
 synonym: "HJD" EXACT []
 synonym: "HTJZD" EXACT []
 xref: PMID:33936248
-is_a: XCO:0001623 ! Traditional Chinese Medicine
+is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulederkind
 creation_date: 2024-01-18T15:29:08Z
 
@@ -13183,7 +13183,7 @@ synonym: "MXSG Decoction" EXACT []
 xref: PMID:32360484
 is_a: XCO:0000505 ! anti-inflammatory agent
 is_a: XCO:0000657 ! antiviral agent
-is_a: XCO:0001623 ! Traditional Chinese Medicine
+is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulederkind
 creation_date: 2024-01-22T13:02:45Z
 
@@ -13641,8 +13641,7 @@ name: AEGE extract
 def: "This is any condition in which the main influencing factor is AEGE extract, an herbal mixture extracted from the dried roots and rhizomes or stems of Acanthopanax senticosus Harms (ASH; Eleutherococcus senticosus; Siberian Ginseng) and Gastrodia elata Blume (Tianma; GE)." [PMID:33935709]
 synonym: "AEGE" EXACT []
 synonym: "ASE and GEB" EXACT []
-synonym: "GEB-ASE" EXACT []
-is_a: XCO:0001623 ! Traditional Chinese Medicine
+is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulederkind
 creation_date: 2024-02-27T15:16:18Z
 
@@ -13680,7 +13679,7 @@ id: XCO:0001304
 name: Danlu tongdu
 def: "This is any condition in which the main influencing factor is Danlu tongdu, a Chinese patent medicine made up of five traditional Chinese drugs, including Salviae miltiorrhizae, Astragali radix, Eucommiae cortex, Corydalis rhizoma and Cervi cornus colla. Danlu tongdu is used in treatment of lumbar spinal stenosis and lumbosacral disc herniations, but has some adverse side-effects on liver." [PMID:36408216]
 synonym: "DLTD" EXACT []
-is_a: XCO:0001623 ! Traditional Chinese Medicine
+is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulederkind
 creation_date: 2024-03-04T17:50:54Z
 
@@ -13726,7 +13725,7 @@ synonym: "Er xian tang" RELATED []
 synonym: "Erxian tang" RELATED []
 synonym: "EXD" EXACT []
 synonym: "Two Immortals Decoction" RELATED []
-is_a: XCO:0001623 ! Traditional Chinese Medicine
+is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulederkind
 creation_date: 2024-03-18T14:40:55Z
 
@@ -14811,7 +14810,7 @@ id: XCO:0001401
 name: Xiaogu San
 def: "This is any condition in which the main influencing factor is Xiaogu San, a multi-herbal composition (traditional chinese medicine formula) which contains components commonly prescribed in the treatment of pain and inflammation.." [PMID:34629040]
 synonym: "XGS" EXACT []
-is_a: XCO:0001623 ! Traditional Chinese Medicine
+is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulederkind
 creation_date: 2024-06-11T15:21:30Z
 
@@ -14947,7 +14946,7 @@ name: Ramulus Mori alkaloids
 def: "This is a condition in which the main influencing factor is Ramulus Mori alkaloids, a group of polyhydroxy alkaloids extracted and isolated from mulberry twig (Morus alba L.). Mulberry twig extract is used in traditional Chinese medicine (TCM) and is used against hyperglycemia and obesity." [PMID:37063280]
 synonym: "Sangzhi alkaloids" EXACT []
 synonym: "SZ-A" EXACT []
-is_a: XCO:0001623 ! Traditional Chinese Medicine
+is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulederkind
 creation_date: 2024-06-17T16:51:06Z
 
@@ -17399,69 +17398,6 @@ synonym: "controlled air DPM content" EXACT []
 is_a: XCO:0000009 ! controlled air content
 created_by: slaulederkind
 creation_date: 2025-05-09T17:22:30Z
-
-[Term]
-id: XCO:0001620
-name: Yuanhu Zhitong Prescription
-def: "This is any condition in which the main influencing factor is Yuanhu Zhitong Prescription, a traditional Chinese medicine (TCM) formula used for pain relief. The main ingredients of Yuanhu Zhitong Prescription are Radix angelicae dahuricae (white angelica root) and Rhizoma corydalis (gold thread rhizome)." [PMID:_23762151]
-synonym: "YHP" EXACT []
-synonym: "Yuan Hu Zhi tong" EXACT []
-synonym: "Yuanhuzhitong preparation" EXACT []
-synonym: "YZP" EXACT []
-xref: PMID:38729540
-is_a: XCO:0000106 ! anesthetic/analgesic
-is_a: XCO:0001623 ! Traditional Chinese Medicine
-created_by: slaulederkind
-creation_date: 2025-05-13T16:03:29Z
-
-[Term]
-id: XCO:0001621
-name: Corydalis yanhusuo
-def: "This is any condition in which the main influencing factor is Corydalis yanhusuo, a plant species in the genus Corydalis. The tuber of Corydalis yanhusuo, frequently mislabeled as the root, is an important therapeutic agent for pain relief in traditional Chinese medicine (TCM)." [https://en.wikipedia.org/wiki/Corydalis_yanhusuo, PMID:_34946576]
-synonym: "Asian corydalis" EXACT []
-synonym: "corydalis" EXACT []
-synonym: "Corydalis yanhusuo extract" EXACT []
-synonym: "Corydalis yanhusuo, rhizoma" EXACT []
-synonym: "CYH" EXACT []
-synonym: "YH" EXACT []
-synonym: "YHS" EXACT []
-synonym: "Yuanhu" EXACT []
-xref: PMID:38729540
-is_a: XCO:0001623 ! Traditional Chinese Medicine
-created_by: slaulederkind
-creation_date: 2025-05-13T16:34:00Z
-
-[Term]
-id: XCO:0001622
-name: Angelica dahurica
-def: "This is any condition in which the main influencing factor is Angelica dahurica, whose root is a well-known traditional Chinese medicine (TCM). Angelica dahurica and Corydalis yanhusuo are the main ingredients of Yuanhu Zhitong Prescription" [https://en.wikipedia.org/wiki/Angelica_dahurica, PMID:35847034]
-synonym: "A. dahurica" EXACT []
-synonym: "AD" EXACT []
-synonym: "Angelica dahurica root" EXACT []
-synonym: "Baizhi" EXACT []
-synonym: "bai zhi" EXACT []
-synonym: "BZ" EXACT []
-synonym: "Chinese angelica" EXACT []
-synonym: "Dahurian angelica" EXACT []
-synonym: "garden angelica" EXACT []
-synonym: "root of the Holy Ghost" EXACT []
-synonym: "wild angelica" EXACT []
-xref: PMID:38729540
-is_a: XCO:0001623 ! Traditional Chinese Medicine
-created_by: slaulederkind
-creation_date: 2025-05-13T16:56:53Z
-
-[Term]
-id: XCO:0001623
-name: Traditional Chinese Medicine
-def: "This is any condition in which the main influencing factor is Traditional Chinese Medicine (TCM), a medical system that has been used for thousands of years to prevent, diagnose, and treat disease. Traditional Chinese medicine includes acupuncture, diet, herbal therapy, meditation, physical exercise, and massage." [https://en.wikipedia.org/wiki/Traditional_Chinese_medicine, https://www.cancer.gov/publications/dictionaries/cancer-terms]
-synonym: "Not4Curation" RELATED []
-synonym: "Oriental medicine" EXACT []
-synonym: "TCM" EXACT []
-xref: PMID:38729540
-is_a: XCO:0000850 ! therapeutic agent
-created_by: slaulederkind
-creation_date: 2025-05-13T17:11:41Z
 
 [Typedef]
 id: has_component
