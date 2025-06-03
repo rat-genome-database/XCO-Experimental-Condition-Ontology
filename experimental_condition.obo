@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 4.202
-date: 17:05:2025 20:13
+date: 31:05:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -805,6 +805,7 @@ creation_date: 2010-11-10T02:19:58Z
 id: XCO:0000106
 name: anesthetic/analgesic
 def: "This is any condition in which the main influencing factor is a drug or agent used to reduce or eliminate pain or sensation." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+synonym: "Not4Curation" RELATED []
 is_a: XCO:0000341 ! chemical with specified function
 is_a: XCO:0000850 ! therapeutic agent
 created_by: mshimoyama
@@ -1840,6 +1841,7 @@ creation_date: 2012-09-13T06:45:59Z
 id: XCO:0000214
 name: activator
 def: "Any substance that makes another substance active or reactive, induces a chemical reaction, or combines with an enzyme to increase its catalytic activity." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
+synonym: "Not4Curation" RELATED []
 is_a: XCO:0000341 ! chemical with specified function
 created_by: JSmith
 creation_date: 2012-10-04T05:09:16Z
@@ -3730,9 +3732,10 @@ creation_date: 2014-02-28T12:48:15Z
 id: XCO:0000407
 name: hypoglycemic agent
 def: "This is any condition in which the main influencing factor is a substance which has the ability to lower the level of glucose, particularly blood glucose, in an organism." []
-synonym: "antidiabetic agent" RELATED []
-synonym: "antidiabetic  drug" RELATED []
+synonym: "antidiabetic agent" EXACT []
+synonym: "antidiabetic  drug" EXACT []
 synonym: "antihyperglycemic agent" EXACT []
+synonym: "Not4Curation" RELATED []
 xref: CHEBI:35526
 is_a: XCO:0000341 ! chemical with specified function
 is_a: XCO:0000850 ! therapeutic agent
@@ -4710,6 +4713,7 @@ id: XCO:0000505
 name: anti-inflammatory agent
 def: "A condition in which the main influencing factor is a chemical which counteracts or suppresses inflammation." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "antiinflammatory agent" EXACT []
+synonym: "Not4Curation" RELATED []
 xref: CHEBI:67079
 is_a: XCO:0000341 ! chemical with specified function
 is_a: XCO:0000850 ! therapeutic agent
@@ -5268,6 +5272,7 @@ creation_date: 2018-11-19T14:48:04Z
 id: XCO:0000561
 name: antidepressant
 def: "This is any condition in which the main influencing factor is an antidepressant, a mood-stimulating drug used primarily in the treatment of affective disorders and related conditions." [CHEBI:35469]
+synonym: "Not4Curation" RELATED []
 xref: MESH:D000928
 is_a: XCO:0000341 ! chemical with specified function
 is_a: XCO:0000850 ! therapeutic agent
@@ -6877,10 +6882,15 @@ creation_date: 2020-06-05T13:42:43Z
 id: XCO:0000714
 name: SB-239063
 def: "A member of the class of imidazoles carrying 4-hydroxycyclohexyl, 4-fluorophenyl and 2-methoxypyrimidin-4-yl substituents at positions 1, 4 and 5 respectively. It is a mitogen-activated protein kinase inhibitor." [CHEBI:90681]
+synonym: "Cyclohexanol, 4-(4-(4-fluorophenyl)-5-(2-methoxy-4-pyrimidinyl)-1H-imidazol-1-yl)-, trans-" EXACT []
 synonym: "EC 2.7.11.24 inhibitor" EXACT []
+synonym: "SB 239063" EXACT []
+synonym: "SB239063" EXACT []
 synonym: "trans-1-(4-hydroxycyclohexyl)-4-(4-fluorophenyl)-5-(2-methoxypyridimidin-4-yl)imidazole" EXACT []
 synonym: "trans-4-[4-(4-fluorophenyl)-5-(2-methoxypyrimidin-4-yl)-1H-imidazol-1-yl]cyclohexan-1-ol" EXACT []
+xref: CAS:193551-21-2
 xref: CHEBI:90681
+xref: CID:5166
 xref: MESH:C406525
 is_a: XCO:0000715 ! mitogen-activated protein kinase inhibitor
 created_by: slaulede
@@ -6889,7 +6899,7 @@ creation_date: 2020-06-08T14:10:13Z
 [Term]
 id: XCO:0000715
 name: mitogen-activated protein kinase inhibitor
-def: "Any condition in which the main influencing factor is a chemical which decreases or interferes with the activity of a mitogen-activated protein kinase." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed]
+def: "This is any condition in which the main influencing factor is a chemical which decreases or interferes with the activity of a mitogen-activated protein kinase." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed]
 synonym: "EC 2.7.11.24 inhibitor" EXACT []
 synonym: "MAPK inhibitor" RELATED []
 is_a: XCO:0000970 ! protein kinase inhibitor
@@ -9488,6 +9498,7 @@ def: "This is any condition in which the main influencing factor is a drug or ag
 synonym: "antiepileptic" EXACT []
 synonym: "antiepileptic drug" EXACT []
 synonym: "antiseizure drug" EXACT []
+synonym: "Not4Curation" RELATED []
 xref: MESH:D000927
 xref: PMID:32507787
 is_a: XCO:0000341 ! chemical with specified function
@@ -9728,7 +9739,9 @@ name: SB525334
 def: "This is any condition in which the main influencing factor is the chemical SB525334, which decreases or interferes with the activity of the serine/threonine protein kinase Alk5 (activin receptor-like kinase-5)." [RGD:733386]
 synonym: "6-(2-(tert-Butyl)-5-(6-methylpyridin-2-yl)-1H-imidazol-4-yl)quinoxaline" EXACT []
 synonym: "SB 525334" EXACT []
+synonym: "SB-525334" EXACT []
 synonym: "TGF- beta RI Kinase Inhibitor VIII" EXACT []
+xref: CID:9967941
 is_a: XCO:0000970 ! protein kinase inhibitor
 created_by: slaulede
 creation_date: 2023-03-02T14:58:14Z
@@ -11090,6 +11103,7 @@ creation_date: 2023-11-02T13:01:47Z
 id: XCO:0001090
 name: anticoagulant
 def: "This is any condition in which the main influencing factor is an anticoagulant, a substance that hinders the clotting of blood." [https://www.merriam-webster.com/, ISBN:978-1455756438]
+synonym: "Not4Curation" RELATED []
 xref: CHEBI:50249
 xref: MESH:D000925
 xref: PMID:34621173
@@ -11487,6 +11501,7 @@ synonym: "antianxiety drug" EXACT []
 synonym: "antipanic agent" EXACT []
 synonym: "anxiolytic" EXACT []
 synonym: "anxiolytic medication" EXACT []
+synonym: "Not4Curation" RELATED []
 xref: MESH:D014151
 xref: PMID:37966567
 is_a: XCO:0000341 ! chemical with specified function
@@ -12048,7 +12063,8 @@ creation_date: 2023-12-07T19:52:38Z
 [Term]
 id: XCO:0001168
 name: polysorbate 80
-def: "This is any condition in which the main influencing factor is polysorbate 80, a polymer composed of PEG-ylated sorbitan, where the total number of poly(ethylene glycol) units is 20 (w + x + y + z = 20) and a single terminal is capped by an oleoyl group. Polysorbate 80 is a nonionic surfactant and emulsifier often used in pharmaceuticals, foods, and cosmetics." [CHEBI:53426, https://en.wikipedia.org/wiki/Polysorbate_80]
+def: "This is any condition in which the main influencing factor is polysorbate 80, a polymer composed of PEG-ylated sorbitan and oleic acid. Polysorbate 80 is a nonionic surfactant and emulsifier often used in pharmaceuticals, foods, and cosmetics." [CHEBI:53426, https://en.wikipedia.org/wiki/Polysorbate_80]
+synonym: "(x)-sorbitan mono-9-octadecenoate poly(oxy-1,2-ethanediyl)" EXACT []
 synonym: "Kolliphor PS 80" EXACT []
 synonym: "polyoxyethylene (80) sorbitan monooleate" EXACT []
 synonym: "PS 80" EXACT []
@@ -16884,7 +16900,6 @@ name: sham gene transfer using an empty AAV1/2 hybrid virus vector
 def: "This is any condition in which the main influencing factor is an empty AAV1/2 hybrid virus vector that has been transferred into a cell or organism. This condition is used as a control for a AAV1/2 hybrid virus transfer of a specific gene." [https://www.vectorbiolabs.com/adenovirus-vs-aav/, PMID:28143577]
 synonym: "sham gene transfer using an AAV1/2 hybrid virus empty vector" EXACT []
 synonym: "sham gene transfer using an AAV1/2 hybrid virus EV" EXACT []
-synonym: "sham gene transfer using an empty AAV1/2 hybrid virus vector" EXACT []
 xref: PMID:39481497
 is_a: XCO:0000099 ! control condition
 is_a: XCO:0001575 ! gene transfer using adeno-associated virus vector
@@ -17183,7 +17198,7 @@ xref: CHEBI:91453
 xref: CID:766949
 xref: PMID:39932177
 is_a: XCO:0000505 ! anti-inflammatory agent
-is_a: XCO:0000523 ! enzyme inhibitor
+is_a: XCO:0000715 ! mitogen-activated protein kinase inhibitor
 created_by: slaulederkind
 creation_date: 2025-04-29T16:57:43Z
 
@@ -17462,6 +17477,88 @@ xref: PMID:38729540
 is_a: XCO:0000850 ! therapeutic agent
 created_by: slaulederkind
 creation_date: 2025-05-13T17:11:41Z
+
+[Term]
+id: XCO:0001624
+name: RG2833
+def: "This is any condition in which the main influencing factor is RG2833, a brain-penetrant histone deacetylase 1/3 (HDAC1/3) inhibitor. It is being investigated as a potential therapeutic agent for cancer, neurological disorders, and other conditions." [PMCID:PMC9164640]
+synonym: "N-(6-(2-Aminophenylamino)-6-oxohexyl)-4-methylbenzamide" EXACT []
+synonym: "RG-2833" EXACT []
+synonym: "RGFP 109" EXACT []
+xref: CID:56654642
+is_a: XCO:0000523 ! enzyme inhibitor
+created_by: slaulederkind
+creation_date: 2025-05-22T15:53:06Z
+
+[Term]
+id: XCO:0001625
+name: controlled RG2833 content diet
+def: "This is any condition in which the main influencing factor is a diet made up of standard chow and a specified amount of RG2833, a brain-penetrant histone deacetylase 1/3 (HDAC1/3) inhibitor." [PMCID:PMC9164640]
+synonym: "controlled N-(6-(2-Aminophenylamino)-6-oxohexyl)-4-methylbenzamide content diet" EXACT []
+synonym: "controlled RG-2833 content diet" EXACT []
+synonym: "controlled RGFP 109 content diet" EXACT []
+xref: CID:56654642
+is_a: XCO:0000014 ! controlled content diet
+relationship: has_component XCO:0001624 ! RG2833
+created_by: slaulederkind
+creation_date: 2025-05-22T16:15:07Z
+
+[Term]
+id: XCO:0001626
+name: pioglitazone
+def: "This is any condition in which the main influencing factor is pioglitazone, a member of the class of thiazolidenediones that is an insulin-sensitizing drug, a pantothenate kinase inhibitor, a cardioprotective agent, a PPARgamma agonist, an antidepressant, and a hypoglycemic agent." [CID:4829]
+synonym: "5-{4-[2-(5-ethylpyridin-2-yl)ethoxy]benzyl}-1,3-thiazolidine-2,4-dione" EXACT []
+synonym: "Actos" EXACT []
+synonym: "Pioglitazone Hydrochloride" RELATED []
+xref: CHEBI:8228
+xref: MESH:D000077205
+xref: PMID:38188512
+is_a: XCO:0000407 ! hypoglycemic agent
+is_a: XCO:0000523 ! enzyme inhibitor
+is_a: XCO:0000561 ! antidepressant
+is_a: XCO:0001196 ! ethers
+created_by: slaulederkind
+creation_date: 2025-05-27T10:27:52Z
+
+[Term]
+id: XCO:0001627
+name: polysorbate 20
+def: "This is any condition in which the main influencing factor is polysorbate 20, a nonionic surfactant and detergent widely used in various applications, including biochemical and life science research, food production, and personal care products. Polysorbate 20 is a polymer composed of PEG-ylated sorbitan, where the total number of poly(ethylene glycol) units is 20 (w + x + y + z = 20) and a single terminal is capped by a dodecanoyl group." [https://en.wikipedia.org/wiki/Polysorbate_20, https://www.sigmaaldrich.com]
+synonym: "Kolliphor PS 20" EXACT []
+synonym: "polyoxyethylene (20) sorbitan monolaurate" EXACT []
+synonym: "Tween 20" EXACT []
+xref: CHEBI:53424
+xref: CID:443314
+is_a: XCO:0001167 ! polysorbate
+created_by: slaulederkind
+creation_date: 2025-05-29T11:48:58Z
+
+[Term]
+id: XCO:0001628
+name: sham gene transfer using an empty adenovirus vector
+def: "This is a condition in which an empty adenovirus vector (transiently or stably) has been transferred into a cell or organism. This condition is used as a control for an adenovirus transfer of a specific gene." [https://en.wikipedia.org/wiki/Transduction_(genetics), https://www.cancer.gov/publications/dictionaries/cancer-terms/def/adenovirus-vector]
+synonym: "sham gene transfer using an adenovirus empty vector" EXACT []
+synonym: "sham gene transfer using an adenovirus EV" EXACT []
+xref: PMID:39938686
+is_a: XCO:0000099 ! control condition
+is_a: XCO:0000529 ! gene transfer using adenovirus vector
+created_by: slaulederkind
+creation_date: 2025-05-29T12:59:16Z
+
+[Term]
+id: XCO:0001629
+name: TRULI
+def: "This is any condition in which the main influencing factor is TRULI, a potent and ATP-competitive inhibitor of Lats1 (large tumor suppressor kinase 1) and Lats2 (large tumor suppressor kinase 2) kinases. TRULI promotes Yap-dependent proliferation in postmitotic mammalian tissues by inhibiting phosphorylation of YES1-associated transcriptional regulator (YAP1)." [https://www.bertin-bioreagent.com/lats-in-1/, https://www.medchemexpress.com/truli.html]
+synonym: "Lats-IN-1" EXACT []
+synonym: "LATS Inhibitor 1" EXACT []
+synonym: "N-[(2E)-3-Benzyl-1,3-thiazol-2(3H)-ylidene]-1H-pyrrolo[2,3-b]pyridine-3-carboxamide" EXACT []
+synonym: "N-[3-(phenylmethyl)-2(3H)-thiazolylidene]-1H-pyrrolo[2,3-b]pyridine-3-carboxamide" EXACT []
+xref: CAS:1424635-83-5
+xref: PMID:39938686
+is_a: XCO:0000089 ! neoplasm-inducing chemical
+is_a: XCO:0000970 ! protein kinase inhibitor
+created_by: slaulederkind
+creation_date: 2025-05-29T14:35:10Z
 
 [Typedef]
 id: has_component
