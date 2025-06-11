@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.203
-date: 07:06:2025 20:13
+data-version: 4.202
+date: 31:05:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -4930,7 +4930,7 @@ creation_date: 2017-08-11T16:57:10Z
 
 [Term]
 id: XCO:0000529
-name: gene transfer using an adenovirus vector
+name: gene transfer using adenovirus vector
 def: "This is any condition in which the main influencing factor is a gene transfer performed using an adenovirus as the carrier of the genetic material. An adenovirus is any of a group of medium-sized (90-100 nm) non-enveloped icosahedral viruses of the family Adenoviridae which are characterized by a nucleocapsid surrounding a double-stranded DNA genome. An adenovirus is a double-stranded DNA virus that can replicate independently." [Segen:Segens_Medical_Dictionary_2012]
 synonym: "adenoviral gene transfer" EXACT []
 synonym: "adenovirus transfer" EXACT []
@@ -4948,7 +4948,7 @@ synonym: "adenoviral transfer of the murine Ace2 gene" EXACT []
 synonym: "transfer of recombinant adenovirus containing the murine Ace2 gene" EXACT []
 xref: MGI:1917258
 xref: RGD:1550521
-is_a: XCO:0000529 ! gene transfer using an adenovirus vector
+is_a: XCO:0000529 ! gene transfer using adenovirus vector
 created_by: jesmith
 creation_date: 2017-08-11T17:15:29Z
 
@@ -4959,7 +4959,7 @@ def: "A condition in which the enhanced green fluorescent protein (EGFP) gene ha
 synonym: "Ad-EGFP" RELATED []
 synonym: "adenoviral transfer of the EGFP gene" EXACT []
 synonym: "transfer of recombinant adenovirus containing the EGFP gene" EXACT []
-is_a: XCO:0000529 ! gene transfer using an adenovirus vector
+is_a: XCO:0000529 ! gene transfer using adenovirus vector
 created_by: jesmith
 creation_date: 2017-08-11T17:17:27Z
 
@@ -5668,7 +5668,7 @@ def: "A condition in which the rat natriuretic peptide B gene has been (transien
 synonym: "gene transfer of adenovirus-NPPB" EXACT []
 synonym: "gene transfer of the rat BNP gene using an adenovirus vector" EXACT []
 synonym: "gene transfer of the rat Nppb gene using an adenovirus vector" EXACT []
-is_a: XCO:0000529 ! gene transfer using an adenovirus vector
+is_a: XCO:0000529 ! gene transfer using adenovirus vector
 created_by: sjwang
 creation_date: 2019-01-22T13:43:52Z
 
@@ -6276,7 +6276,7 @@ id: XCO:0000661
 name: one-kidney, one-clip occlusion
 def: "A surgical manipulation causing blood vessel blockage by the clipping of one renal artery and surgical removal of the contralateral kidney." [https://www.hindawi.com/journals/bmri/2015/528757/tab1/]
 synonym: "1k1c" EXACT []
-is_a: XCO:0000347 ! blood vessel occlusion
+is_a: XCO:0000596 ! blood vessel constriction
 created_by: slaulede
 creation_date: 2020-01-31T09:44:27Z
 
@@ -6285,8 +6285,7 @@ id: XCO:0000662
 name: two-kidney, one-clip occlusion
 def: "A surgical manipulation causing blood vessel blockage by the clipping of one renal artery." [https://www.hindawi.com/journals/bmri/2015/528757/tab1/]
 synonym: "2K1C" EXACT []
-synonym: "renal artery ligation" RELATED []
-is_a: XCO:0000347 ! blood vessel occlusion
+is_a: XCO:0000596 ! blood vessel constriction
 created_by: slaulede
 creation_date: 2020-01-31T09:55:35Z
 
@@ -6295,7 +6294,7 @@ id: XCO:0000663
 name: two-kidney, two-clip occlusion
 def: "A surgical manipulation causing blood vessel blockage by the dissection and clipping of both renal arteries." [https://www.hindawi.com/journals/bmri/2015/528757/tab1/]
 synonym: "2K2C" EXACT []
-is_a: XCO:0000347 ! blood vessel occlusion
+is_a: XCO:0000596 ! blood vessel constriction
 created_by: slaulede
 creation_date: 2020-01-31T10:08:45Z
 
@@ -6429,7 +6428,7 @@ creation_date: 2020-03-05T16:56:21Z
 
 [Term]
 id: XCO:0000675
-name: gene transfer using a retrovirus vector
+name: gene transfer using retrovirus vector
 def: "A condition in which gene transfer has been performed using a retrovirus as the carrier of the genetic material. A retrovirus is any of a family (Retroviridae) of single-stranded RNA viruses that produce reverse transcriptase by means of which DNA is produced using their RNA as a template and incorporated into the genome of infected cells." [https://www.merriam-webster.com/dictionary/retrovirus]
 synonym: "retroviral gene transfer" EXACT []
 synonym: "retrovirus transfer" EXACT []
@@ -6444,7 +6443,7 @@ def: "A condition in which the rat erb-b2 receptor tyrosine kinase 2 gene (Erbb2
 synonym: "pJR-neu" RELATED []
 synonym: "retroviral transfer of the rat Erbb2 gene" EXACT []
 synonym: "transfer of recombinant retrovirus containing the rat Erbb2 gene" EXACT []
-is_a: XCO:0000675 ! gene transfer using a retrovirus vector
+is_a: XCO:0000675 ! gene transfer using retrovirus vector
 created_by: slaulede
 creation_date: 2020-03-06T12:01:39Z
 
@@ -6469,7 +6468,7 @@ synonym: "Ad-Mertk" RELATED []
 synonym: "transfer of recombinant adenovirus containing the rat Mertk gene" EXACT []
 xref: PMID:11592982
 xref: RGD:69283
-is_a: XCO:0000529 ! gene transfer using an adenovirus vector
+is_a: XCO:0000529 ! gene transfer using adenovirus vector
 created_by: slaulede
 creation_date: 2020-03-13T14:57:43Z
 
@@ -6713,7 +6712,7 @@ def: "This is any condition in which the main influencing factor is a controlled
 synonym: "controlled 1-(6-{2-[({3-methyl-4 -[(trifluoromethyl)oxy]-4-biphenylyl}methyl)oxy] phenyl}-2-pyridinyl)-5-(trifluoromethyl)-1H-pyrazole-4-carboxylic acid content diet" EXACT []
 xref: PMID:22783192
 is_a: XCO:0000014 ! controlled content diet
-relationship: has_component XCO:0000697 ! GSK2181236A
+is_a: XCO:0000697 ! GSK2181236A
 created_by: slaulede
 creation_date: 2020-05-15T11:12:27Z
 
@@ -7686,7 +7685,7 @@ synonym: "adenoviral transfer of the Lin28B gene" EXACT []
 synonym: "gene transfer of the Lin28B gene using an adenovirus vector" EXACT []
 synonym: "transfer of recombinant adenovirus containing the Lin28B gene" EXACT []
 xref: PMID:27384999
-is_a: XCO:0000529 ! gene transfer using an adenovirus vector
+is_a: XCO:0000529 ! gene transfer using adenovirus vector
 created_by: slaulede
 creation_date: 2020-12-01T17:05:51Z
 
@@ -7963,7 +7962,7 @@ creation_date: 2021-03-02T15:55:53Z
 
 [Term]
 id: XCO:0000818
-name: gene transfer using a plasmid vector
+name: gene transfer using plasmid vector
 def: "A condition in which gene transfer has been performed using a plasmid as the carrier of the genetic material. A plasmid is a small, circular, double-stranded DNA molecule that is distinct from a cell's chromosomal DNA. Plasmids naturally exist in bacterial cells, and they also occur in some eukaryotes. Plasmids that are used experimentally as molecular tools are called vectors." [https://www.merriam-webster.com/, https://www.nature.com/scitable/definition/plasmid-plasmids-28/]
 synonym: "plasmid gene transfer" EXACT []
 xref: PMID:21993171
@@ -7976,7 +7975,7 @@ id: XCO:0000819
 name: gene transfer using plasmid vector pVAX2
 def: "A condition in which gene transfer has been performed using the plasmid pVAX2 as the carrier of the genetic material. The pVAX2 plasmid is based on the pVAX1 plasmid, which was designed for use in the development of DNA vaccines." [https://www.thermofisher.com/order/catalog/product/V26020#/V26020, PMID:19440225]
 xref: PMID:19440225
-is_a: XCO:0000818 ! gene transfer using a plasmid vector
+is_a: XCO:0000818 ! gene transfer using plasmid vector
 created_by: slaulede
 creation_date: 2021-03-04T18:29:17Z
 
@@ -8168,7 +8167,7 @@ synonym: "gene transfer of the herpes simplex virus thymidine kinase gene using 
 synonym: "gene transfer of the Herpes Simplex Virus type 1 thymidine kinase gene using an adenovirus vector" EXACT []
 synonym: "gene transfer using AdHSV-tk" EXACT []
 xref: PMID:23079672
-is_a: XCO:0000529 ! gene transfer using an adenovirus vector
+is_a: XCO:0000529 ! gene transfer using adenovirus vector
 created_by: slaulede
 creation_date: 2021-05-18T13:40:36Z
 
@@ -8179,7 +8178,7 @@ def: "A condition in which the 15-Lipoxygenase-1 (15-LO-1) gene has been transfe
 synonym: "gene transfer of the 15-Lipoxygenase-1 gene using an adenovirus vector" EXACT []
 synonym: "gene transfer using Ad15-LO-1" EXACT []
 xref: PMID:23079672
-is_a: XCO:0000529 ! gene transfer using an adenovirus vector
+is_a: XCO:0000529 ! gene transfer using adenovirus vector
 created_by: slaulede
 creation_date: 2021-05-18T13:57:02Z
 
@@ -9876,7 +9875,7 @@ creation_date: 2023-03-09T13:47:41Z
 
 [Term]
 id: XCO:0000982
-name: gene transfer using a lentivirus vector
+name: gene transfer using lentivirus vector
 def: "This is a condition in which gene transfer has been performed using a lentivirus as the carrier of the genetic material. Lentivirus is a genus of retroviruses that cause chronic and deadly diseases characterized by long incubation periods, in humans and other mammalian species. Lentiviruses are distributed worldwide, and are known to be hosted in apes, cows, goats, horses, cats, and sheep as well as several other mammals." [https://en.wikipedia.org/wiki/Lentivirus, ISBN-13:978-0781733908]
 synonym: "lentiviral gene transfer" EXACT []
 synonym: "lentivirus transfer" EXACT []
@@ -9894,7 +9893,7 @@ synonym: "gene transfer of the enhanced green fluorescent protein gene using a l
 synonym: "lentiviral transfer of the EGFP gene" EXACT []
 synonym: "transduction of recombinant lentivirus containing the EGFP gene" EXACT []
 synonym: "transfer of recombinant lentivirus containing the EGFP gene" EXACT []
-is_a: XCO:0000982 ! gene transfer using a lentivirus vector
+is_a: XCO:0000982 ! gene transfer using lentivirus vector
 created_by: slaulede
 creation_date: 2023-03-13T13:41:04Z
 
@@ -9904,7 +9903,7 @@ name: gene transfer of the rat wild type Ccny gene using a lentivirus vector
 def: "This is a condition in which the rat wild type cyclin Y gene (Ccny) has been (transiently or stably) transferred into a cell or organism using a lentivirus carrier in order to induce synthesis of rat cyclin Y in the recipient cell or organism." [PMID:26220330]
 synonym: "lentiviral transfer of the rat wild type Ccny gene" EXACT []
 synonym: "transfer of recombinant lentivirus containing the rat wild type Ccny gene" EXACT []
-is_a: XCO:0000982 ! gene transfer using a lentivirus vector
+is_a: XCO:0000982 ! gene transfer using lentivirus vector
 created_by: slaulede
 creation_date: 2023-03-13T14:07:11Z
 
@@ -10203,7 +10202,7 @@ synonym: "gene transfer of rat Rbpms using a lentivirus vector" EXACT []
 synonym: "gene transfer of the rat Rbpms gene using a lentiviral vector" EXACT []
 synonym: "transduction of rat Rbpms using a lentiviral vector" EXACT []
 synonym: "transduction of rat Rbpms using a lentivirus vector" EXACT []
-is_a: XCO:0000982 ! gene transfer using a lentivirus vector
+is_a: XCO:0000982 ! gene transfer using lentivirus vector
 created_by: slaulede
 creation_date: 2023-04-06T14:09:22Z
 
@@ -10379,7 +10378,7 @@ synonym: "gene transfer of Rpl10a using a lentivirus vector" EXACT []
 synonym: "transduction of ribosomal protein L10A using a lentiviral vector" EXACT []
 synonym: "transduction of ribosomal protein L10A using a lentivirus vector" EXACT []
 synonym: "transduction of Rpl10a using a lentiviral vector" EXACT []
-is_a: XCO:0000982 ! gene transfer using a lentivirus vector
+is_a: XCO:0000982 ! gene transfer using lentivirus vector
 created_by: slaulede
 creation_date: 2023-05-11T15:08:39Z
 
@@ -10392,7 +10391,7 @@ synonym: "gene transfer of the EYFP gene using a lentiviral vector" EXACT []
 synonym: "lentiviral transfer of the EYFP gene" EXACT []
 synonym: "transduction of recombinant lentivirus containing the EYFP gene" EXACT []
 synonym: "transfer of recombinant lentivirus containing the EYFP gene" EXACT []
-is_a: XCO:0000982 ! gene transfer using a lentivirus vector
+is_a: XCO:0000982 ! gene transfer using lentivirus vector
 created_by: slaulede
 creation_date: 2023-05-11T15:33:38Z
 
@@ -10897,7 +10896,7 @@ synonym: "gene transfer of the soluble transforming growth factor-beta receptor 
 synonym: "gene transfer of the sTGF&#946;R2 gene using an adenoviral vector" EXACT []
 synonym: "transduction of sTGF&#946;R2 using an adenoviral vector" EXACT []
 synonym: "transduction of sTGF&#946;R2 using an adenovirus vector" EXACT []
-is_a: XCO:0000529 ! gene transfer using an adenovirus vector
+is_a: XCO:0000529 ! gene transfer using adenovirus vector
 created_by: slaulede
 creation_date: 2023-07-20T14:03:21Z
 
@@ -10910,7 +10909,7 @@ synonym: "gene transfer of the KL gene using an adenoviral vector" EXACT []
 synonym: "gene transfer of the klotho gene using an adenoviral vector" EXACT []
 synonym: "transduction of KL using an adenoviral vector" EXACT []
 synonym: "transduction of KL using an adenovirus vector" EXACT []
-is_a: XCO:0000529 ! gene transfer using an adenovirus vector
+is_a: XCO:0000529 ! gene transfer using adenovirus vector
 created_by: slaulede
 creation_date: 2023-07-20T14:15:01Z
 
@@ -15388,7 +15387,7 @@ synonym: "gene transfer of the vascular endothelial growth factor C gene using a
 synonym: "gene transfer of the VEGFC gene using an adenoviral vector" EXACT []
 synonym: "transduction of VEGFC using an adenoviral vector" EXACT []
 synonym: "transduction of VEGFC using an adenovirus vector" EXACT []
-is_a: XCO:0000529 ! gene transfer using an adenovirus vector
+is_a: XCO:0000529 ! gene transfer using adenovirus vector
 created_by: slaulederkind
 creation_date: 2024-09-10T17:34:42Z
 
@@ -15402,7 +15401,7 @@ synonym: "gene transfer of the mNG gene using an adenoviral vector" EXACT []
 synonym: "transduction of mNG using an adenoviral vector" EXACT []
 synonym: "transduction of mNG using an adenovirus vector" EXACT []
 xref: PMID:38704728
-is_a: XCO:0000529 ! gene transfer using an adenovirus vector
+is_a: XCO:0000529 ! gene transfer using adenovirus vector
 created_by: slaulederkind
 creation_date: 2024-09-10T17:48:16Z
 
@@ -16378,7 +16377,7 @@ synonym: "transduction of the mouse Vdr gene using a lentiviral vector" EXACT []
 synonym: "transduction of the mouse Vdr gene using a lentivirus vector" EXACT []
 synonym: "transduction of the mouse vitamin D receptor gene using a lentivirus vector" EXACT []
 xref: RGD:11484
-is_a: XCO:0000982 ! gene transfer using a lentivirus vector
+is_a: XCO:0000982 ! gene transfer using lentivirus vector
 created_by: slaulederkind
 creation_date: 2025-02-07T11:08:43Z
 
@@ -16418,7 +16417,7 @@ synonym: "sham transduction using an empty lentiviral vector" EXACT []
 synonym: "sham transduction using an empty lentivirus vector" EXACT []
 xref: PMID:32771696
 is_a: XCO:0000099 ! control condition
-is_a: XCO:0000982 ! gene transfer using a lentivirus vector
+is_a: XCO:0000982 ! gene transfer using lentivirus vector
 created_by: slaulederkind
 creation_date: 2025-02-07T13:46:11Z
 
@@ -16874,7 +16873,7 @@ creation_date: 2025-04-03T17:05:06Z
 
 [Term]
 id: XCO:0001575
-name: gene transfer using an adeno-associated virus vector
+name: gene transfer using adeno-associated virus vector
 def: "This is any condition in which the main influencing factor is a gene transfer performed using an adeno-associated virus as the carrier of the genetic material. An adeno-associated virus is a small, non-enveloped, single-stranded DNA virus that is replication-deficient, i.e. it needs a helper virus to replicate. AAV is a promising vector for gene therapy due to its ability to infect both dividing and non-dividing cells, its low immunogenicity, and its ability to mediate long-term expression without integrating into the host genome." [https://www.bio-techne.com/resources/blogs/how-adenovirus-and-adeno-associated-virus-work-as-gene-therapy-vectors, https://www.vectorbiolabs.com/adenovirus-vs-aav/]
 synonym: "gene transduction using AAV vector" EXACT []
 synonym: "gene transduction using an adeno-associated virus vector" EXACT []
@@ -16891,7 +16890,7 @@ def: "This is any condition in which the main influencing factor is gene transfe
 synonym: "gene transduction of the human A53T α-synuclein gene using an AAV1/2 hybrid virus vector" EXACT []
 synonym: "gene transfer of the human A53T SNCA gene using an AAV1/2 hybrid virus vector" EXACT []
 xref: PMID:39481497
-is_a: XCO:0001575 ! gene transfer using an adeno-associated virus vector
+is_a: XCO:0001575 ! gene transfer using adeno-associated virus vector
 created_by: slaulederkind
 creation_date: 2025-04-03T18:08:36Z
 
@@ -16903,7 +16902,7 @@ synonym: "sham gene transfer using an AAV1/2 hybrid virus empty vector" EXACT []
 synonym: "sham gene transfer using an AAV1/2 hybrid virus EV" EXACT []
 xref: PMID:39481497
 is_a: XCO:0000099 ! control condition
-is_a: XCO:0001575 ! gene transfer using an adeno-associated virus vector
+is_a: XCO:0001575 ! gene transfer using adeno-associated virus vector
 created_by: slaulederkind
 creation_date: 2025-04-03T18:26:16Z
 
@@ -17332,7 +17331,6 @@ synonym: "recombinant PLAT" EXACT []
 synonym: "recombinant t-PA" EXACT []
 synonym: "rt-PA" EXACT []
 synonym: "tissue-type plasminogen activator" EXACT []
-xref: DrugBank:DB00009
 is_a: XCO:0000176 ! enzyme
 is_a: XCO:0000694 ! enzyme activator
 is_a: XCO:0001090 ! anticoagulant
@@ -17541,10 +17539,9 @@ name: sham gene transfer using an empty adenovirus vector
 def: "This is a condition in which an empty adenovirus vector (transiently or stably) has been transferred into a cell or organism. This condition is used as a control for an adenovirus transfer of a specific gene." [https://en.wikipedia.org/wiki/Transduction_(genetics), https://www.cancer.gov/publications/dictionaries/cancer-terms/def/adenovirus-vector]
 synonym: "sham gene transfer using an adenovirus empty vector" EXACT []
 synonym: "sham gene transfer using an adenovirus EV" EXACT []
-xref: GEO:GSE249368
 xref: PMID:39938686
 is_a: XCO:0000099 ! control condition
-is_a: XCO:0000529 ! gene transfer using an adenovirus vector
+is_a: XCO:0000529 ! gene transfer using adenovirus vector
 created_by: slaulederkind
 creation_date: 2025-05-29T12:59:16Z
 
@@ -17557,262 +17554,11 @@ synonym: "LATS Inhibitor 1" EXACT []
 synonym: "N-[(2E)-3-Benzyl-1,3-thiazol-2(3H)-ylidene]-1H-pyrrolo[2,3-b]pyridine-3-carboxamide" EXACT []
 synonym: "N-[3-(phenylmethyl)-2(3H)-thiazolylidene]-1H-pyrrolo[2,3-b]pyridine-3-carboxamide" EXACT []
 xref: CAS:1424635-83-5
-xref: GEO:GSE249368
 xref: PMID:39938686
 is_a: XCO:0000089 ! neoplasm-inducing chemical
 is_a: XCO:0000970 ! protein kinase inhibitor
 created_by: slaulederkind
 creation_date: 2025-05-29T14:35:10Z
-
-[Term]
-id: XCO:0001630
-name: desferrioxamine B
-def: "This is any condition in which the main influencing factor is desferrioxamine B, a natural product native to Streptomyces pilosus that has a role as an iron chelator, a siderophore, a ferroptosis inhibitor and a bacterial metabolite." [CID:2973]
-synonym: "deferoxamine" EXACT []
-synonym: "Deferrioxamine B" EXACT []
-synonym: "desferrioxamine" EXACT []
-synonym: "DFO" EXACT []
-synonym: "N'-{5-[acetyl(hydroxy)amino]pentyl}-N-(5-{4-[(5-aminopentyl)(hydroxy)amino]-4-oxobutanamido}pentyl)-N-hydroxybutanediamide" EXACT []
-xref: CHEBI:4356
-xref: MESH:D003676
-xref: PMID:39872995
-is_a: XCO:0000120 ! inhibitor
-is_a: XCO:0001631 ! chelator
-created_by: slaulederkind
-creation_date: 2025-06-02T12:28:06Z
-
-[Term]
-id: XCO:0001631
-name: chelator
-def: "This is any condition in which the main influencing factor is a chelator, an organic chemical that bonds with and removes free metal ions from solutions. The complex between a metal ion and a chelator is water-soluble and not easily dissociated." [https://www.sciencedirect.com/topics/medicine-and-dentistry/chelating-agent]
-synonym: "chelating agent" EXACT []
-synonym: "metal chelating Agent" EXACT []
-synonym: "metal chelator" EXACT []
-xref: CHEBI:38161
-xref: PMID:39872995
-is_a: XCO:0000341 ! chemical with specified function
-created_by: slaulederkind
-creation_date: 2025-06-02T12:43:24Z
-
-[Term]
-id: XCO:0001632
-name: SCH 23390
-def: "This is any condition in which the main influencing factor is SCH 23390, a selective dopamine receptor D1 (DRD1) antagonist." [MESH:C534628]
-synonym: "(R)-2,3,4,5-Tetrahydro-8-chloro-3-methyl-5-phenyl-1H-3-benzazepin-7-ol" EXACT []
-synonym: "8-chloro-3-methyl-5-phenyl-2,3,4,5-tetrahydro-1H-3-benzazepin-7-ol" EXACT []
-synonym: "SCH-23390" EXACT []
-synonym: "SCH23390" EXACT []
-xref: CHEBI:73297
-xref: CID:3036864
-xref: PMID:40141377
-is_a: XCO:0000160 ! receptor antagonist
-created_by: slaulederkind
-creation_date: 2025-06-02T13:10:11Z
-
-[Term]
-id: XCO:0001633
-name: gene transfer of the Gja1 gene using an adenovirus vector
-def: "This is any condition in which the main influencing factor is the gap junction protein, alpha 1 gene (Gja1) which has been (transiently or stably) transferred into a cell or organism using an adenovirus carrier in order to induce synthesis of that gene's product in the recipient cell or organism." [PMID:39938686]
-synonym: "gene transfer of the connexin 43 gene using an adenovirus vector" EXACT []
-synonym: "gene transfer of the Cx43 gene using an adenovirus vector" EXACT []
-synonym: "gene transfer of the gap junction protein, alpha 1 gene using an adenoviral vector" EXACT []
-synonym: "gene transfer of the gap junction protein, alpha 1 gene using an adenovirus vector" EXACT []
-synonym: "gene transfer of the Gja1 gene using an adenoviral vector" EXACT []
-synonym: "gene transfer of the wild type Gja1 gene using an adenovirus vector" EXACT []
-synonym: "gene transfer of the wild-type Gja1 gene using an adenovirus vector" EXACT []
-synonym: "transduction of Gja1 using an adenoviral vector" EXACT []
-synonym: "transduction of Gja1 using an adenovirus vector" EXACT []
-is_a: XCO:0000529 ! gene transfer using an adenovirus vector
-created_by: slaulederkind
-creation_date: 2025-06-02T13:57:31Z
-
-[Term]
-id: XCO:0001634
-name: gene transfer of the Gja1 gene S282A variant using an adenovirus vector
-def: "This is any condition in which the main influencing factor is the S282A variant of the gap junction protein, alpha 1 gene (Gja1) which has been (transiently or stably) transferred into a cell or organism using an adenovirus carrier in order to induce synthesis of that gene's product in the recipient cell or organism." [PMID:39938686]
-synonym: "gene transfer of the connexin 43 gene S282A variant using an adenovirus vector" EXACT []
-synonym: "gene transfer of the Cx43 gene S282A variant using an adenovirus vector" EXACT []
-synonym: "gene transfer of the gap junction protein, alpha 1 gene S282A variant using an adenoviral vector" EXACT []
-synonym: "gene transfer of the gap junction protein, alpha 1 gene S282A variant using an adenovirus vector" EXACT []
-synonym: "gene transfer of the Gja1 gene S282A variant using an adenoviral vector" EXACT []
-synonym: "gene transfer of the wild type Gja1 gene S282A variant using an adenovirus vector" EXACT []
-synonym: "gene transfer of the wild-type Gja1 S282A variant gene using an adenovirus vector" EXACT []
-synonym: "transduction of Gja1 S282A variant using an adenoviral vector" EXACT []
-synonym: "transduction of Gja1 S282A variant using an adenovirus vector" EXACT []
-is_a: XCO:0000529 ! gene transfer using an adenovirus vector
-created_by: slaulederkind
-creation_date: 2025-06-02T14:18:51Z
-
-[Term]
-id: XCO:0001635
-name: ginsenoside C-K
-def: "This is any condition in which the main influencing factor is ginsenoside C-K, a ginsenoside found in Panax species that has a role as a plant metabolite, an antineoplastic agent, a hepatoprotective agent, an anti-allergic agent and an anti-inflammatory agent. Ginsenoside C-K is also a beta-D-glucoside, a 12beta-hydroxy steroid, a tetracyclic triterpenoid, a 3beta-hydroxy steroid and a 3beta-hydroxy-4,4-dimethylsteroid." [CID:9852086]
-synonym: "3beta,12beta)-3,12-dihydroxydammar-24-en-20-yl beta-D-glucopyranoside" EXACT []
-synonym: "ginsenoside CK" EXACT []
-synonym: "ginsenoside compound K" EXACT []
-synonym: "Ginsenoside K" EXACT []
-xref: CHEBI:77146
-xref: MESH:C112772
-is_a: XCO:0000091 ! steroid
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000505 ! anti-inflammatory agent
-created_by: slaulederkind
-creation_date: 2025-06-03T14:55:21Z
-
-[Term]
-id: XCO:0001636
-name: multigenerational maternal exposure to corn oil
-def: "This is any condition in which the main influencing factor is any maternal exposure to corn oil that has multigenerational effects. This is a condition typically studied to determine the effect of maternal corn oil use/exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com/, PMID:25839742]
-synonym: "multigenerational maternal exposure to maize oil" EXACT []
-is_a: XCO:0000829 ! corn oil
-created_by: slaulederkind
-creation_date: 2025-06-03T15:15:14Z
-
-[Term]
-id: XCO:0001637
-name: gestational maternal exposure to corn oil
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to corn oil. This is a condition typically studied to determine the effect of maternal (F0) corn oil exposure on the F1 offspring. This is typically a control condition for gestational maternal exposure to some chemical agent." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "gestational maternal exposure to maize oil" EXACT []
-synonym: "maternal exposure to corn oil during pregnancy" EXACT []
-synonym: "maternal exposure to maize oil during pregnancy" EXACT []
-is_a: XCO:0000101 ! vehicle control condition
-is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001636 ! multigenerational maternal exposure to corn oil
-created_by: slaulederkind
-creation_date: 2025-06-03T15:59:35Z
-
-[Term]
-id: XCO:0001638
-name: dipentyl phthalate
-def: "This is any condition in which the main influencing factor is dipentyl phthalate, a phthalate ester that is the dipentyl ester of benzene-1,2-dicarboxylic acid. Dipentyl phthalate is a phthalate ester, a diester, and a male reproductive toxicant." [CID:8561]
-synonym: "amyl phthalate" EXACT []
-synonym: "diamyl phthalate" EXACT []
-synonym: "di-n-amyl phthalate" EXACT []
-synonym: "di-n-pentyl phthalate" EXACT []
-synonym: "dipentyl benzene-1,2-dicarboxylate" EXACT []
-xref: CHEBI:34680
-xref: MESH:C034171
-is_a: XCO:0000239 ! toxic substance
-is_a: XCO:0000511 ! ester
-created_by: slaulederkind
-creation_date: 2025-06-03T16:14:31Z
-
-[Term]
-id: XCO:0001639
-name: multigenerational maternal exposure to dipentyl phthalate
-def: "This is any condition in which the main influencing factor is any maternal exposure to dipentyl phthalate that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) dipentyl phthalate use/exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "multigenerational maternal exposure to diamyl phthalate" EXACT []
-synonym: "multigenerational maternal exposure to di-n-pentyl phthalate" EXACT []
-synonym: "multigenerational maternal exposure to dipentyl benzene-1,2-dicarboxylate" EXACT []
-xref: CHEBI:34680
-is_a: XCO:0001638 ! dipentyl phthalate
-created_by: slaulederkind
-creation_date: 2025-06-03T16:33:28Z
-
-[Term]
-id: XCO:0001640
-name: gestational maternal exposure to dipentyl phthalate
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to dipentyl phthalate. This is a condition typically studied to determine the effect of maternal (F0) dipentyl phthalate use/exposure on the F1 offspring." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
-synonym: "gestational maternal exposure to diamyl phthalate" EXACT []
-synonym: "gestational maternal exposure to di-n-pentyl phthalate" EXACT []
-synonym: "gestational maternal exposure to dipentyl benzene-1,2-dicarboxylate" EXACT []
-synonym: "maternal exposure to dipentyl phthalate during pregnancy" EXACT []
-xref: CHEBI:34680
-is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001639 ! multigenerational maternal exposure to dipentyl phthalate
-created_by: slaulederkind
-creation_date: 2025-06-03T16:43:59Z
-
-[Term]
-id: XCO:0001641
-name: 2,2′,5,5′-tetrachlorobiphenyl-4-ol
-def: "This is any condition in which the main influencing factor is 2,2′,5,5′-tetrachlorobiphenyl-4-ol, a metabolite of the polychlorinated biphenyl (PCB) compound PCB52. 2,2′,5,5′-tetrachlorobiphenyl-4-ol is formed when the human body metabolizes PCB52" [PMID:36804509]
-synonym: "(1,1'-Biphenyl)-4-ol, 2,2',5,5'-tetrachloro" EXACT []
-synonym: "2,2',5,5'-Tetrachloro-4-biphenylol" EXACT []
-synonym: "4-Hydroxy-2,2',5,5'-tetrachlorobiphenyl" EXACT []
-synonym: "4-OH-PCB52" EXACT []
-synonym: "4–52" EXACT []
-xref: CID:39971
-is_a: XCO:0001572 ! 2,2',5,5'-tetrachlorobiphenyl
-created_by: slaulederkind
-creation_date: 2025-06-05T10:00:30Z
-
-[Term]
-id: XCO:0001642
-name: polymeric implant sham procedure
-def: "This is any condition in which the main influencing factor is an empty or vehicle-loaded polymeric implant, used as a study control for drugs or chemicals delivered by polymeric implant. Implants are cylindrical or other shaped devices, which are injected or implanted into the subcutaneous tissue with a large bore needle." [https://www.sciencedirect.com/topics/materials-science/polymeric-implant]
-synonym: "polymeric implant sham surgery" EXACT []
-xref: PMID:40097135
-is_a: XCO:0000100 ! sham surgical control condition
-created_by: slaulederkind
-creation_date: 2025-06-05T10:41:50Z
-
-[Term]
-id: XCO:0001643
-name: beta-aminopropionitrile
-def: "This is any condition in which the main influencing factor is beta-aminopropionitrile, an organic compound with both amine and nitrile functional groups. Beta-aminopropionitrile is an antineoplastic agent, an antirheumatic drug, and an inhibitor of lysyl oxidase, an enzyme involved in collagen and elastin cross-linking." []
-synonym: "2-cyanoethylamine" EXACT []
-synonym: "3-aminopropanenitrile" EXACT []
-synonym: "3-aminopropionitrile" EXACT []
-synonym: "aminopropionitrile" EXACT []
-synonym: "BAPN" EXACT []
-xref: CHEBI:27413
-xref: MESH:D000629
-xref: PMID:38326494
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulederkind
-creation_date: 2025-06-05T12:04:28Z
-
-[Term]
-id: XCO:0001644
-name: controlled beta-aminopropionitrile content diet
-def: "This is any condition in which the main influencing factor is a solid diet in which the amount of beta-aminopropionitrile is maintained at a specified level." [https://www.merriam-webster.com/]
-synonym: "controlled  3-aminopropanenitrile content diet" EXACT []
-synonym: "controlled aminopropionitrile content diet" EXACT []
-synonym: "controlled BAPN content diet" EXACT []
-xref: CHEBI:27413
-xref: MESH:D000629
-xref: PMID:38326494
-is_a: XCO:0000014 ! controlled content diet
-relationship: has_component XCO:0001643 ! beta-aminopropionitrile
-created_by: slaulederkind
-creation_date: 2025-06-05T12:34:17Z
-
-[Term]
-id: XCO:0001645
-name: pterygopalatine artery occlusion
-def: "This is any condition in which the main influencing factor is pterygopalatine artery occlusion, an experimental surgical procedure which restricts the amount of cranial blood flowing through the left, right, or both pterygopalatine artery(ies). This procedure is used as part of a more extensive procedure to study intracranial aneurysms in laboratory rats." [PMID:38326494]
-synonym: "maxillary artery occlusion" BROAD []
-synonym: "pterygomaxillary artery occlusion" EXACT []
-synonym: "pterygopalatine artery occlusion" EXACT []
-is_a: XCO:0000347 ! blood vessel occlusion
-created_by: slaulederkind
-creation_date: 2025-06-05T13:04:48Z
-
-[Term]
-id: XCO:0001646
-name: gene transfer of the rat Ctnnd2 gene using an adeno-associated virus vector
-def: "This is any condition in which the main influencing factor is gene transfer of the rat Ctnnd2 (catenin delta 2) gene using an adeno-associated virus vector. Gene transfer into a cell or organism using an adeno-associated virus vector is performed to induce synthesis of the carried gene's product in the recipient cell or organism." [PMID:39965128]
-synonym: "AAV‐Ctnnd2" EXACT []
-synonym: "gene transfer of pAAV‐CMV‐rCTNND2‐P2A‐EGFP‐tWPA" NARROW []
-synonym: "gene transfer of the rat catenin delta 2 gene using adeno-associated virus vector" EXACT []
-synonym: "gene transfer of the rat Ctnnd2 gene using an AAV vector" EXACT []
-is_a: XCO:0001575 ! gene transfer using an adeno-associated virus vector
-created_by: slaulederkind
-creation_date: 2025-06-06T11:32:30Z
-
-[Term]
-id: XCO:0001647
-name: sham gene transfer using an empty adeno-associated virus vector
-def: "This is any condition in which the main influencing factor is an empty adeno-associated virus vector that has been transferred into a cell or organism. This condition is used as a control for a adeno-associated virus transfer of a specific gene. The empty vector is identical to the experimental adeno-associated virus except for the specific gene being tested." [PMID:39965128]
-synonym: "AAV‐EGFP" NARROW []
-synonym: "gene transfer of an empty AAV vector" EXACT []
-synonym: "sham gene transfer using an empty AAV vector" EXACT []
-is_a: XCO:0000099 ! control condition
-is_a: XCO:0001575 ! gene transfer using an adeno-associated virus vector
-created_by: slaulederkind
-creation_date: 2025-06-06T11:53:36Z
 
 [Typedef]
 id: has_component
