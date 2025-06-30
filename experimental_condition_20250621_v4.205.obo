@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.206
-date: 28:06:2025 20:13
+data-version: 4.205
+date: 21:06:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -73,8 +73,6 @@ id: XCO:0000010
 name: controlled air oxygen content
 def: "This is any condition in which the main influencing factor is controlled air oxygen content surrounding an organism or breathed by the organism as part of the experiment." [RGD:MS]
 synonym: "air oxygen content" EXACT []
-synonym: "controlled airdioxygen content" EXACT []
-synonym: "controlled air O2 content" EXACT []
 is_a: XCO:0000009 ! controlled air content
 
 [Term]
@@ -15050,7 +15048,7 @@ name: liver transplant
 def: "This is any condition in which the main influencing factor is a liver transplant, a surgical procedure in which a whole or partial liver from a donor organism is implanted into a recipient organism for the clinical purpose of replacing a diseased liver or for the experimental purpose of studying organ transplantation." [https://www.mayoclinic.org/tests-procedures/liver-transplant/about/pac-20384842, PMID:36426354]
 synonym: "liver graft" NARROW []
 synonym: "liver transplantion" EXACT []
-is_a: XCO:0000027 ! surgical implantation
+is_a: XCO:0000248 ! kidney transplant
 created_by: slaulederkind
 creation_date: 2024-06-24T16:12:38Z
 
@@ -16202,7 +16200,6 @@ creation_date: 2024-12-31T13:10:28Z
 id: XCO:0001520
 name: multigenerational maternal exposure to controlled air oxygen content
 def: "This is any condition in which the main influencing factor is any maternal exposure to controlled air oxygen content that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) controlled air oxygen content exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "multigenerational maternal exposure to measured air O2 content" EXACT []
 synonym: "multigenerational maternal exposure to measured air oxygen content" EXACT []
 xref: PMID:32639867
 is_a: XCO:0001525 ! multigenerational parental exposure to controlled air oxygen content
@@ -16215,7 +16212,6 @@ name: pregestational maternal exposure to controlled air oxygen content
 def: "This is any condition in which the main influencing factor is any pregestational maternal exposure to controlled air oxygen content. This is a condition typically studied to determine the effect of maternal (F0) controlled air oxygen content exposure on the F1 offspring." [https://www.merriam-webster.com, PMID:25839742]
 synonym: "maternal exposure to controlled air oxygen content prior to a pregnancy" EXACT []
 synonym: "maternal exposure to measured air oxygen content prior to a pregnancy" EXACT []
-synonym: "pregestational maternal exposure to controlled air O2 content" EXACT []
 xref: PMID:32639867
 relationship: part_of XCO:0001520 ! multigenerational maternal exposure to controlled air oxygen content
 created_by: slaulederkind
@@ -16225,7 +16221,6 @@ creation_date: 2025-01-03T15:08:23Z
 id: XCO:0001522
 name: gestational maternal exposure to controlled air oxygen content
 def: "This is any condition in which the main influencing factor is any gestational maternal exposure to controlled air oxygen content. This is a condition typically studied to determine the effect of maternal (F0) controlled air oxygen content exposure on the F1 offspring." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "maternal exposure to controlled air O2 content during pregnancy" EXACT []
 synonym: "maternal exposure to controlled air oxygen content during pregnancy" EXACT []
 xref: PMID:32639867
 is_a: XCO:0000420 ! controlled in utero environment
@@ -16237,7 +16232,6 @@ creation_date: 2025-01-03T15:14:51Z
 id: XCO:0001523
 name: maternal exposure to controlled air oxygen content during nursing
 def: "This is any condition in which the main influencing factor is any maternal exposure to controlled air oxygen content during nursing of offspring. This is a condition typically studied to determine the effect of maternal (F0) controlled air oxygen content exposure during the postnatal, preweaning period on the F1 offspring ." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "maternal exposure to controlled air O2 content during nursing of offspring" EXACT []
 synonym: "maternal exposure to controlled air oxygen content during nursing of offspring" EXACT []
 xref: PMID:32639867
 relationship: part_of XCO:0001520 ! multigenerational maternal exposure to controlled air oxygen content
@@ -16248,7 +16242,6 @@ creation_date: 2025-01-03T15:27:49Z
 id: XCO:0001524
 name: multigenerational paternal exposure to controlled air oxygen content
 def: "This is any condition in which the main influencing factor is any paternal exposure to controlled air oxygen content that has multigenerational effects. This is a condition typically studied to determine the effect of paternal (F0) controlled air oxygen content exposure on the F1 offspring. The paternal exposure may be any time before conception of offspring." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "multigenerational paternal exposure to measured air O2 content" EXACT []
 synonym: "multigenerational paternal exposure to measured air oxygen content" EXACT []
 synonym: "pre-copulatory paternal exposure to controlled air oxygen content" EXACT []
 synonym: "precopulatory paternal exposure to controlled air oxygen content" EXACT []
@@ -16261,8 +16254,6 @@ creation_date: 2025-01-03T15:40:17Z
 id: XCO:0001525
 name: multigenerational parental exposure to controlled air oxygen content
 def: "This is any condition in which the main influencing factor is any parental exposure to controlled air oxygen content that has multigenerational effects. This is a condition typically studied to determine the effect of maternal/paternal (F0) controlled air oxygen content exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring. Paternal exposure to controlled air oxygen content may occur anytime before successful copulation." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "multigenerational parental exposure to controlled air O2 content" EXACT []
-synonym: "multigenerational paternal exposure to measured air O2 content" EXACT []
 synonym: "multigenerational paternal exposure to measured air oxygen content" EXACT []
 synonym: "Not4Curation" RELATED []
 xref: PMID:32639867
@@ -17664,9 +17655,8 @@ def: "This is any condition in which the main influencing factor is ginsenoside 
 synonym: "3beta,12beta)-3,12-dihydroxydammar-24-en-20-yl beta-D-glucopyranoside" EXACT []
 synonym: "ginsenoside CK" EXACT []
 synonym: "ginsenoside compound K" EXACT []
-synonym: "ginsenoside K" EXACT []
+synonym: "Ginsenoside K" EXACT []
 xref: CHEBI:77146
-xref: GEO:GSE261056
 xref: MESH:C112772
 is_a: XCO:0000091 ! steroid
 is_a: XCO:0000435 ! antineoplastic agent
@@ -17679,7 +17669,6 @@ id: XCO:0001636
 name: multigenerational maternal exposure to corn oil
 def: "This is any condition in which the main influencing factor is any maternal exposure to corn oil that has multigenerational effects. This is a condition typically studied to determine the effect of maternal corn oil use/exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com/, PMID:25839742]
 synonym: "multigenerational maternal exposure to maize oil" EXACT []
-xref: GEO:GSE255311
 is_a: XCO:0000829 ! corn oil
 created_by: slaulederkind
 creation_date: 2025-06-03T15:15:14Z
@@ -17774,7 +17763,6 @@ synonym: "3-aminopropionitrile" EXACT []
 synonym: "aminopropionitrile" EXACT []
 synonym: "BAPN" EXACT []
 xref: CHEBI:27413
-xref: GEO:GSE161044
 xref: MESH:D000629
 xref: PMID:38326494
 is_a: XCO:0000435 ! antineoplastic agent
@@ -17817,7 +17805,6 @@ synonym: "AAV‐Ctnnd2" EXACT []
 synonym: "gene transfer of pAAV‐CMV‐rCTNND2‐P2A‐EGFP‐tWPA" NARROW []
 synonym: "gene transfer of the rat catenin delta 2 gene using adeno-associated virus vector" EXACT []
 synonym: "gene transfer of the rat Ctnnd2 gene using an AAV vector" EXACT []
-xref: GEO:GSE273113
 is_a: XCO:0001575 ! gene transfer using an adeno-associated virus vector
 created_by: slaulederkind
 creation_date: 2025-06-06T11:32:30Z
@@ -17924,7 +17911,6 @@ id: XCO:0001655
 name: multigenerational maternal exposure to sucrose
 def: "This is any condition in which the main influencing factor is any maternal exposure to sucrose that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) sucrose use/exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com/, PMID:25839742]
 xref: CHEBI:17992
-xref: GEO:GSE290103
 xref: PMID:40097492
 is_a: XCO:0000432 ! sucrose
 created_by: slaulederkind
@@ -17960,7 +17946,6 @@ def: "This is any condition in which the main influencing factor is the hydrochl
 synonym: "(1R,2R,3S,5S)-3-(benzoyloxy)-2-(methoxycarbonyl)-8-methyl-8-azoniabicyclo[3.2.1]octane chloride" EXACT []
 synonym: "cocaine HCl" EXACT []
 xref: CHEBI:613010
-xref: GEO:GSE134107
 xref: MESH:D003042
 xref: PMID:33159041
 is_a: XCO:0001017 ! cocaine
@@ -17976,7 +17961,6 @@ synonym: "UA" EXACT []
 synonym: "Uro A" EXACT []
 synonym: "Uro-A" EXACT []
 xref: CHEBI:168442
-xref: GEO:GSE283003
 xref: MESH:C026423
 xref: PMID:40034121
 is_a: XCO:0000271 ! antioxidant
@@ -18041,7 +18025,6 @@ name: bismuth subcitrate potassium
 def: "This is any condition in which the main influencing factor is bismuth subcitrate potassium, a complex salt that is used to treat duodenal and gastric ulcers associated with Helicobacter pylori. Bismuth subcitrate potassium is a soluble, complex bismuth salt of citric acid." [CID:10101269]
 synonym: "Bismuth(3+) potassium 2-olato-1,2,3-propanetricarboxylate (1:5:2)" EXACT []
 synonym: "bismuth subcitrate potassium anhydrous" EXACT []
-xref: GEO:GSE293658
 xref: PMID:40239879
 is_a: XCO:0001600 ! citrate salt
 created_by: slaulederkind
@@ -18065,7 +18048,6 @@ name: left renal artery ligation
 def: "This is any condition in which the main influencing factor is surgical manipulation and left renal artery/branch(es) ligation to achieve partial or total blockage of blood flow from the left renal artery. The left renal artery/branch(es) may be clamped or tied with a suture(s) to achieve blockage of blood flow." [ISBN-13:978-1455756438]
 synonym: "left renal artery constriction" NARROW []
 synonym: "left renal artery occlusion" NARROW []
-xref: GEO:GSM4824135
 is_a: XCO:0000596 ! blood vessel constriction
 created_by: slaulederkind
 creation_date: 2025-06-20T11:03:46Z
@@ -18086,47 +18068,6 @@ xref: CID:449094
 is_a: XCO:0000193 ! peptide/protein
 created_by: slaulederkind
 creation_date: 2025-06-20T12:41:03Z
-
-[Term]
-id: XCO:0001668
-name: operant conditioning in a skinner box
-def: "This is a condition in which the main influencing factor is operant conditioning in a Skinner box, a learning process in which voluntary behaviors are modified by association with the addition (or removal) of reward or aversive stimuli while the subject is in an operant conditioning chamber. The frequency or duration of the behavior may increase through reinforcement or decrease through punishment or extinction." [https://en.wikipedia.org/wiki/Operant_conditioning]
-synonym: "instrumental conditioning in an operant conditioning chamber" EXACT []
-synonym: "instrumental conditioning in a skinner box" EXACT []
-synonym: "operant conditioning in an operant conditioning chamber" EXACT []
-xref: PMID:40133300
-is_a: XCO:0000001 ! activity
-created_by: slaulederkind
-creation_date: 2025-06-27T16:27:34Z
-
-[Term]
-id: XCO:0001669
-name: drug withdrawal via context exposure in a Skinner box
-def: "This is any condition in which the main influencing factor is drug withdrawal via context exposure in a Skinner box lacking levers, cues, and rewards. This withdrawal paradigm uses context exposure (stimuli that were continuously present while learning drug use with operant conditioning)." [https://en.wikipedia.org/wiki/Operant_conditioning, PMID:40133300]
-synonym: "drug withdrawal" BROAD []
-synonym: "drug withdrawal via context exposure in an operant conditioning chamber" EXACT []
-relationship: has_component XCO:0001668 ! operant conditioning in a skinner box
-created_by: slaulederkind
-creation_date: 2025-06-27T16:42:47Z
-
-[Term]
-id: XCO:0001670
-name: controlled air ozone content
-def: "This is any condition in which the main influencing factor is controlled air ozone content surrounding an organism or breathed by the organism as part of an experiment. Ozone (trioxygen) is an inorganic molecule made up of three oxygen atoms." [https://en.wikipedia.org/wiki/Ozone, https://www.merriam-webster.com/]
-synonym: "controlled air O3 content" EXACT []
-synonym: "controlled air trioxygen content" EXACT []
-xref: PMID:39865885
-is_a: XCO:0000009 ! controlled air content
-created_by: slaulederkind
-creation_date: 2025-06-27T17:33:26Z
-
-[Term]
-id: XCO:0001671
-name: multigenerational maternal exposure to controlled air ozone oxygen content
-def: "This is any condition in which the main influencing factor is any parental exposure to controlled air ozone content that has multigenerational effects. This is a condition typically studied to determine the effect of maternal/paternal (F0) controlled air ozone content exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring. Paternal exposure to controlled air ozone content may occur anytime before successful copulation." []
-is_a: XCO:0001670 ! controlled air ozone content
-created_by: slaulederkind
-creation_date: 2025-06-27T17:41:56Z
 
 [Typedef]
 id: has_component
