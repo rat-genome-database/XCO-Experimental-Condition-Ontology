@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.207
-date: 05:07:2025 20:13
+data-version: 4.206
+date: 28:06:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -18123,23 +18123,10 @@ creation_date: 2025-06-27T17:33:26Z
 [Term]
 id: XCO:0001671
 name: multigenerational maternal exposure to controlled air ozone oxygen content
-def: "This is any condition in which the main influencing factor is any parental exposure to controlled air ozone content that has multigenerational effects. This is a condition typically studied to determine the effect of maternal/paternal (F0) controlled air ozone content exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring. Paternal exposure to controlled air ozone content may occur anytime before successful copulation." [https://www.merriam-webster.com/, PMID:25839742]
-xref: PMID:39865885
+def: "This is any condition in which the main influencing factor is any parental exposure to controlled air ozone content that has multigenerational effects. This is a condition typically studied to determine the effect of maternal/paternal (F0) controlled air ozone content exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring. Paternal exposure to controlled air ozone content may occur anytime before successful copulation." []
 is_a: XCO:0001670 ! controlled air ozone content
 created_by: slaulederkind
 creation_date: 2025-06-27T17:41:56Z
-
-[Term]
-id: XCO:0001672
-name: gestational maternal exposure to controlled air ozone content
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to controlled air ozone content. This is a condition typically studied to determine the effect of maternal (F0) controlled air ozone content exposure on the F1 offspring." [https://www.merriam-webster.com/, PMID:25839742]
-synonym: "maternal exposure to controlled air O3 content during pregnancy" EXACT []
-synonym: "maternal exposure to controlled air ozone content during pregnancy" EXACT []
-xref: PMID:39865885
-is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001671 ! multigenerational maternal exposure to controlled air ozone oxygen content
-created_by: slaulederkind
-creation_date: 2025-06-30T10:33:14Z
 
 [Typedef]
 id: has_component
