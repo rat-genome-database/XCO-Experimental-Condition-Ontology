@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.207
-date: 05:07:2025 20:13
+data-version: 4.208
+date: 19:07:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -18140,6 +18140,193 @@ is_a: XCO:0000420 ! controlled in utero environment
 is_a: XCO:0001671 ! multigenerational maternal exposure to controlled air ozone oxygen content
 created_by: slaulederkind
 creation_date: 2025-06-30T10:33:14Z
+
+[Term]
+id: XCO:0001673
+name: peripheral nerve stump conduit implantation
+def: "This is any condition in which the main influencing factor is a peripheral nerve stump conduit implantation, which aids the regeneration of a nerve from a proximal stump caused by transection, ablation, or other damage. Ideally, the conduit guides the regenerating nerve from the proximal to distal stump, therefore replacing the portion of the nerve that has been damaged or removed. Materials used for nerve conduits may be natural or synthetic, absorbable or nonabsorbable." [PMID:26491662, PMID:39746959]
+synonym: "nerve conduit implantation" EXACT []
+is_a: XCO:0000027 ! surgical implantation
+created_by: slaulederkind
+creation_date: 2025-07-15T14:31:50Z
+
+[Term]
+id: XCO:0001674
+name: peripheral nerve cone-shaped conduit implantation
+def: "This is any condition in which the main influencing factor is a peripheral nerve stump cone-shaped conduit implantation, which aids the regeneration of a nerve from a proximal stump caused by transection, ablation, or other damage. The conduit is created in the shape of a frustum of a cone, with the proximal diameter greater than the distal diameter. Ideally, the spatially-constrained, cone-shaped conduit guides the regenerating nerve from the proximal to distal stump more efficently than a cylindrical conduit." [PMID:39746959]
+synonym: "peripheral nerve frustum cone-shaped, spatially-confined conduit implantation" EXACT []
+synonym: "peripheral nerve frustum cone-shaped, spatially-constrained conduit implantation" EXACT []
+synonym: "peripheral nerve stump CC implantation" EXACT []
+synonym: "peripheral nerve stump cone-shaped conduit implantation" EXACT []
+is_a: XCO:0001673 ! peripheral nerve stump conduit implantation
+created_by: slaulederkind
+creation_date: 2025-07-15T15:00:14Z
+
+[Term]
+id: XCO:0001675
+name: peripheral nerve cylinder-shaped conduit implantation
+def: "This is any condition in which the main influencing factor is a peripheral nerve stump cylinder-shaped conduit implantation, which aids the regeneration of a nerve from a proximal stump caused by transection, ablation, or other damage. Ideally, the conduit guides the regenerating nerve from the proximal to distal stump, therefore replacing the portion of the nerve that has been damaged or removed." [PMID:26491662, PMID:39746959]
+synonym: "cylindrical conduit nerve implantation" EXACT []
+synonym: "peripheral nerve cylindrical conduit implantation" EXACT []
+synonym: "peripheral nerve stump TC implantation" EXACT []
+synonym: "traditional cylindrical nerve conduit implantation" EXACT []
+is_a: XCO:0001673 ! peripheral nerve stump conduit implantation
+created_by: slaulederkind
+creation_date: 2025-07-15T15:14:12Z
+
+[Term]
+id: XCO:0001676
+name: verteporfin
+def: "This is any condition in which the main influencing factor is verteporfin, a benzoporphyrin derivative used as a photosensitizer in photodynamic therapy to eliminate abnormal blood vessels in the eye associated with neovascular (wet) age-related macular degeneration." [CHEBI:32293]
+synonym: "Visudyne" EXACT []
+xref: MESH:D000077362
+xref: PMID:39746959
+is_a: XCO:0000850 ! therapeutic agent
+created_by: slaulederkind
+creation_date: 2025-07-15T16:49:40Z
+
+[Term]
+id: XCO:0001677
+name: standard rat chow supplemented with powdered milk and fruit
+def: "This is any condition in which the main influencing factor is standard rat chow supplemented with powdered milk and fruit. Standard rat chow is a laboratory foodstuff which typically has 380-390 kcal/100 g with 9-10% of calories derived from fat, 70-80% of calories derived from carbohydrate, and 10-15% of calories derived from protein. Additional calories and nutrients would come from dried fruit and milk." [PMID:34107264]
+synonym: "standard rodent chow supplemented with powdered milk and fruit" BROAD []
+is_a: XCO:0000016 ! standard rat chow
+created_by: slaulederkind
+creation_date: 2025-07-15T17:16:19Z
+
+[Term]
+id: XCO:0001678
+name: controlled whole egg content diet
+def: "This is any condition in which the main influencing factor is a controlled whole egg content diet, a regimen of solid food in which the amount of whole dried chicken egg consumed is controlled. A whole egg lab chow diet is one which has close to half of the total chow weight made up of powdered chicken eggs." [PMID:33141822]
+synonym: "controlled whole chicken egg content diet" EXACT []
+is_a: XCO:0000014 ! controlled content diet
+created_by: slaulederkind
+creation_date: 2025-07-17T08:34:40Z
+
+[Term]
+id: XCO:0001679
+name: multigenerational maternal exposure to limited bedding and nesting
+def: "This is any condition in which the main influencing factor is any maternal exposure to limited bedding and nesting that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) limited bedding and nesting use/exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com, PMID:25839742]
+xref: PMID:40445441
+is_a: XCO:0001087 ! limited bedding and nesting
+created_by: slaulederkind
+creation_date: 2025-07-17T09:26:12Z
+
+[Term]
+id: XCO:0001680
+name: butane-1,3-diol
+def: "This is any condition in which the main influencing factor is butane-1,3-diol, a butanediol commonly used as a solvent for flavoring agents and is a co-monomer used in certain polyurethane and polyester resins. It is also used as a hypoglycemic agent." [CID:7896]
+synonym: "1,3-Butanediol" EXACT []
+synonym: "1,3-butylene glycol" EXACT []
+synonym: "butylene glycol" EXACT []
+xref: CHEBI:52683
+xref: MESH:C028491
+is_a: XCO:0000407 ! hypoglycemic agent
+is_a: XCO:0001231 ! solvent
+created_by: slaulederkind
+creation_date: 2025-07-17T09:32:47Z
+
+[Term]
+id: XCO:0001681
+name: controlled butane-1,3-diol content drinking water
+def: "This is any condition in which the main influencing factor is a drink made up of water and a specified amount of butane-1,3-diol consumed by an organism as part of an experiment. Butane-1,3-diol is a butanediol commonly used as a solvent for flavoring agents and is a co-monomer used in certain polyurethane and polyester resins. It is also used as a hypoglycemic agent." [CID:7896]
+synonym: "controlled 1,3-Butanediol content  drinking water" EXACT []
+synonym: "controlled 1,3-butylene glycol content  drinking water" EXACT []
+synonym: "controlled butylene glycol content  drinking water" EXACT []
+xref: CHEBI:52683
+xref: MESH:C028491
+is_a: XCO:0000163 ! controlled content drinking water
+relationship: has_component XCO:0001680 ! butane-1,3-diol
+created_by: slaulederkind
+creation_date: 2025-07-17T09:45:48Z
+
+[Term]
+id: XCO:0001682
+name: diazepam
+def: "This is any condition in which the main influencing factor is diazepam, a 1,4-benzodiazepinone that has a role as a xenobiotic, an environmental contaminant, an anxiolytic drug, an anticonvulsant and a sedative. It is also an organochlorine compound." [CID:3016]
+synonym: "7-Chloro-1,3-dihydro-1-methyl-5-phenyl-2H-1,4-benzodiazepin-2-one" EXACT []
+xref: CHEBI:49575
+xref: MESH:D003975
+xref: PMID:34107264
+is_a: XCO:0000950 ! anticonvulsant
+is_a: XCO:0001122 ! antianxiety agent
+created_by: slaulederkind
+creation_date: 2025-07-17T10:10:17Z
+
+[Term]
+id: XCO:0001683
+name: maternal exposure to limited bedding and nesting during nursing
+def: "This is any condition in which the main influencing factor is any maternal exposure to limited bedding and nesting during nursing of offspring. This is a condition typically studied to determine the effect of maternal (F0) limited bedding and nesting use/exposure during the postnatal, preweaning period on the F1 offspring." [https://www.merriam-webster.com, PMID:40445441]
+synonym: "maternal exposure to limited bedding and nesting during nursing of offspring" EXACT []
+is_a: XCO:0001679 ! multigenerational maternal exposure to limited bedding and nesting
+created_by: slaulederkind
+creation_date: 2025-07-17T10:25:07Z
+
+[Term]
+id: XCO:0001684
+name: empagliflozin
+def: "This is any condition in which the main influencing factor is empagliflozin, an inhibitor of sodium-glucose co-transporter-2 (SGLT2), the transporter primarily responsible for the reabsorption of glucose in the kidney. It is used as a hypoglycemic agent for the management of type 2 diabetes mellitus." [CID:11949646]
+synonym: "(1S)-1,5-anhydro-1-(4-chloro-3-{4-[(3S)-tetrahydrofuran-3-yloxy]benzyl}phenyl)-D-glucitol" EXACT []
+synonym: "Jardiance" EXACT []
+xref: CHEBI:82720
+xref: MESH:C570240
+xref: PMID:40409667
+is_a: XCO:0000120 ! inhibitor
+is_a: XCO:0000407 ! hypoglycemic agent
+created_by: slaulederkind
+creation_date: 2025-07-18T10:46:51Z
+
+[Term]
+id: XCO:0001685
+name: controlled empagliflozin content diet
+def: "This is any condition in which the main influencing factor is a controlled empagliflozin content diet, a regimen of solid food in which the amount of empagliflozin consumed is controlled. Empagliflozin is an inhibitor of sodium-glucose co-transporter-2 (SGLT2), the transporter primarily responsible for the reabsorption of glucose in the kidney. It is used as a hypoglycemic agent for the management of type 2 diabetes mellitus." [CID:11949646]
+synonym: "controlled (1S)-1,5-anhydro-1-(4-chloro-3-{4-[(3S)-tetrahydrofuran-3-yloxy]benzyl}phenyl)-D-glucitol content diet" EXACT []
+synonym: "controlled Jardiance content diet" EXACT []
+xref: CHEBI:82720
+xref: MESH:C570240
+xref: PMID:40409667
+is_a: XCO:0000014 ! controlled content diet
+relationship: has_component XCO:0001684 ! empagliflozin
+created_by: slaulederkind
+creation_date: 2025-07-18T10:52:18Z
+
+[Term]
+id: XCO:0001686
+name: BT2
+def: "This is any condition in which the main influencing factor is BT2, a mitochondrial branched-chain α-ketoacid dehydrogenase (BCKD) kinase (BCKDK/BDK) inhibitor. BT2 is also an MCL1 (MCL1 apoptosis regulator, BCL2 family member) inhibitor." [https://www.chemicalbook.com/ChemicalProductProperty_EN_CB01492789.htm, https://www.sigmaaldrich.com/US/en/product/sigma/sml3706]
+synonym: "3,6-dichloro-1-benzothiophene-2-carboxylate" EXACT []
+synonym: "3,6-Dichlorobenzo[b]thiophene-2-carboxylic acid" EXACT []
+synonym: "3,6-Dichlorobenzothiophene-2-carboxylic acid" EXACT []
+xref: CID:739884
+xref: PMID:40409667
+is_a: XCO:0000970 ! protein kinase inhibitor
+created_by: slaulederkind
+creation_date: 2025-07-18T12:12:17Z
+
+[Term]
+id: XCO:0001687
+name: controlled BT2 content diet
+def: "This is any condition in which the main influencing factor is a controlled BT2 content diet, a regimen of solid food in which the amount of BT2 consumed is controlled. BT2 (3,6-Dichloro-1-benzothiophene-2-carboxylic acid) is a small-molecule BCKDK (branched chain ketoacid dehydrogenase kinase) inhibitor that enhances branched-chain amino acid (BCAA) catabolism." [https://www.chemicalbook.com/ChemicalProductProperty_EN_CB01492789.htm, https://www.merriam-webster.com/]
+synonym: "controlled 3,6-dichloro-1-benzothiophene-2-carboxylate content diet" EXACT []
+synonym: "controlled 3,6-Dichloro-1-benzothiophene-2-carboxylic acid content diet" EXACT []
+synonym: "controlled 3,6-Dichlorobenzo[b]thiophene-2-carboxylic acid content diet" EXACT []
+xref: CID:739884
+xref: PMID:40409667
+is_a: XCO:0000014 ! controlled content diet
+relationship: has_component XCO:0001686 ! BT2
+created_by: slaulederkind
+creation_date: 2025-07-18T12:32:19Z
+
+[Term]
+id: XCO:0001688
+name: allogeneic platelet-rich plasma
+def: "This is any condition in which the main influencing factor is allogeneic platelet-rich plasma, a concentrate of non-self plasma derived from whole blood (centrifuged to remove red blood cells but retaining platelets). PRP (platelet-rich plasma) contains multiple growth factors and other cytokines that can stimulate the healing of soft tissues and joints." [https://en.wikipedia.org/wiki/Platelet-rich_plasma]
+synonym: "allogeneic PRP" EXACT []
+synonym: "allogenic platelet-rich plasma" EXACT []
+synonym: "allogenic PRP" EXACT []
+is_a: XCO:0000761 ! biologics and probiotics
+created_by: slaulederkind
+creation_date: 2025-07-18T13:09:29Z
 
 [Typedef]
 id: has_component
