@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.209
-date: 26:07:2025 20:13
+data-version: 4.208
+date: 19:07:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -217,7 +217,6 @@ id: XCO:0000031
 name: controlled calcium content diet
 def: "A regimen of solid food in which the amount of calcium consumed is controlled." [RGD:MS]
 is_a: XCO:0000014 ! controlled content diet
-relationship: has_component XCO:0000184 ! calcium ion
 
 [Term]
 id: XCO:0000032
@@ -4225,7 +4224,6 @@ id: XCO:0000454
 name: controlled oil content diet
 def: "A solid diet in which the amount of a specified oil is maintained at a specified level. An oil is any unctuous, combustible substance that is liquid, or easily liquefiable, on warming, and is soluble in ether but not in water. Oils may be animal, vegetable, or mineral in origin." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_a: XCO:0000014 ! controlled content diet
-relationship: has_component XCO:0000774 ! oil
 created_by: JSmith
 creation_date: 2014-06-12T17:27:48Z
 
@@ -5375,7 +5373,7 @@ creation_date: 2018-12-05T14:25:32Z
 id: XCO:0000571
 name: controlled tolvaptan content diet
 is_a: XCO:0000014 ! controlled content diet
-relationship: has_component XCO:0000570 ! tolvaptan
+is_a: XCO:0000570 ! tolvaptan
 created_by: sjwang
 creation_date: 2018-12-05T14:27:59Z
 
@@ -6622,7 +6620,7 @@ def: "A solid diet in which the amount of any vitamin is maintained at a specifi
 xref: CHEBI:33229
 xref: MESH:D014815
 is_a: XCO:0000014 ! controlled content diet
-relationship: has_component XCO:0000377 ! vitamin
+is_a: XCO:0000377 ! vitamin
 created_by: slaulede
 creation_date: 2020-05-11T17:39:15Z
 
@@ -6632,8 +6630,8 @@ name: controlled vitamin C content diet
 def: "A solid diet in which the amount of vitamin C is maintained at a specified level. Vitamin C is a water-soluble vitamin that is naturally present in some foods, added to others, and available as a dietary supplement." [https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/ "NIH"]
 synonym: "controlled ascorbate content diet" EXACT []
 synonym: "controlled ascorbic acid content diet" EXACT []
+is_a: XCO:0000689 ! vitamin C
 is_a: XCO:0000690 ! controlled vitamin content diet
-relationship: has_component XCO:0000689 ! vitamin C
 created_by: slaulede
 creation_date: 2020-05-11T17:49:21Z
 
@@ -11416,7 +11414,7 @@ synonym: "controlled vitamin B9 content diet" EXACT []
 xref: MESH:D005492
 xref: PMID:33375730
 is_a: XCO:0000690 ! controlled vitamin content diet
-relationship: has_component XCO:0001113 ! folic acid
+is_a: XCO:0001113 ! folic acid
 created_by: slaulederkind
 creation_date: 2023-11-14T14:18:28Z
 
@@ -11443,7 +11441,7 @@ synonym: "controlled 5-MTHF content diet" EXACT []
 xref: CHEBI:136009
 xref: PMID:33375730
 is_a: XCO:0000690 ! controlled vitamin content diet
-relationship: has_component XCO:0001115 ! (6S)-5-methyltetrahydrofolic acid
+is_a: XCO:0001115 ! (6S)-5-methyltetrahydrofolic acid
 created_by: slaulederkind
 creation_date: 2023-11-14T16:35:06Z
 
@@ -18148,7 +18146,6 @@ id: XCO:0001673
 name: peripheral nerve stump conduit implantation
 def: "This is any condition in which the main influencing factor is a peripheral nerve stump conduit implantation, which aids the regeneration of a nerve from a proximal stump caused by transection, ablation, or other damage. Ideally, the conduit guides the regenerating nerve from the proximal to distal stump, therefore replacing the portion of the nerve that has been damaged or removed. Materials used for nerve conduits may be natural or synthetic, absorbable or nonabsorbable." [PMID:26491662, PMID:39746959]
 synonym: "nerve conduit implantation" EXACT []
-xref: GEO:GSE280040
 is_a: XCO:0000027 ! surgical implantation
 created_by: slaulederkind
 creation_date: 2025-07-15T14:31:50Z
@@ -18193,7 +18190,6 @@ id: XCO:0001677
 name: standard rat chow supplemented with powdered milk and fruit
 def: "This is any condition in which the main influencing factor is standard rat chow supplemented with powdered milk and fruit. Standard rat chow is a laboratory foodstuff which typically has 380-390 kcal/100 g with 9-10% of calories derived from fat, 70-80% of calories derived from carbohydrate, and 10-15% of calories derived from protein. Additional calories and nutrients would come from dried fruit and milk." [PMID:34107264]
 synonym: "standard rodent chow supplemented with powdered milk and fruit" BROAD []
-xref: GEO:GSE143555
 is_a: XCO:0000016 ! standard rat chow
 created_by: slaulederkind
 creation_date: 2025-07-15T17:16:19Z
@@ -18238,7 +18234,6 @@ synonym: "controlled 1,3-Butanediol content  drinking water" EXACT []
 synonym: "controlled 1,3-butylene glycol content  drinking water" EXACT []
 synonym: "controlled butylene glycol content  drinking water" EXACT []
 xref: CHEBI:52683
-xref: GEO:GSE298451
 xref: MESH:C028491
 is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0001680 ! butane-1,3-diol
@@ -18288,7 +18283,6 @@ def: "This is any condition in which the main influencing factor is a controlled
 synonym: "controlled (1S)-1,5-anhydro-1-(4-chloro-3-{4-[(3S)-tetrahydrofuran-3-yloxy]benzyl}phenyl)-D-glucitol content diet" EXACT []
 synonym: "controlled Jardiance content diet" EXACT []
 xref: CHEBI:82720
-xref: GEO:GSE263155
 xref: MESH:C570240
 xref: PMID:40409667
 is_a: XCO:0000014 ! controlled content diet
@@ -18317,7 +18311,6 @@ synonym: "controlled 3,6-dichloro-1-benzothiophene-2-carboxylate content diet" E
 synonym: "controlled 3,6-Dichloro-1-benzothiophene-2-carboxylic acid content diet" EXACT []
 synonym: "controlled 3,6-Dichlorobenzo[b]thiophene-2-carboxylic acid content diet" EXACT []
 xref: CID:739884
-xref: GEO:GSE263155
 xref: PMID:40409667
 is_a: XCO:0000014 ! controlled content diet
 relationship: has_component XCO:0001686 ! BT2
@@ -18331,120 +18324,9 @@ def: "This is any condition in which the main influencing factor is allogeneic p
 synonym: "allogeneic PRP" EXACT []
 synonym: "allogenic platelet-rich plasma" EXACT []
 synonym: "allogenic PRP" EXACT []
-xref: GEO:GSE266521
 is_a: XCO:0000761 ! biologics and probiotics
 created_by: slaulederkind
 creation_date: 2025-07-18T13:09:29Z
-
-[Term]
-id: XCO:0001689
-name: mitoquinone
-def: "This is any condition in which the main influencing factor is mitoquinone, a synthetic analogue of coenzyme Q10 which has antioxidant effects. The Mitoquinone molecule is based on a novel technology, targeted lipophilic cations, that transport and concentrate antioxidants into the mitochondria, where they accumulate up to a thousand fold." [CHEBI:233321, https://en.wikipedia.org/wiki/Mitoquinone_mesylate]
-synonym: "10-(4,5-dimethoxy-2-methyl-3,6-dioxocyclohexa-1,4-dien-1-yl)decyl-triphenylphosphanium methanesulfonate" EXACT []
-synonym: "MitoQ" EXACT []
-synonym: "mitoquinone mesylate" EXACT []
-xref: CID:11388332
-xref: GEO:GSE131040
-xref: MESH:C429014
-xref: PMID:33344732
-is_a: XCO:0000271 ! antioxidant
-created_by: slaulederkind
-creation_date: 2025-07-22T11:38:45Z
-
-[Term]
-id: XCO:0001690
-name: MitoQ-NP
-def: "This is any condition in which the main influencing factor is nanoparticle-bound mitoquinone, a particle with a size between 1 and 100 nanometers that has mitoquinone attached to it. This particle allows delivery of mitoquinone to the placenta without crossing the placenta." [http://en.wikipedia.org/wiki/Nanoparticle, PMID:33344732]
-synonym: "mitoquinone-nanoparticle" EXACT []
-synonym: "nanoparticle-bound mitoquinone" EXACT []
-xref: CHEBI:233321
-xref: CID:11388332
-xref: MESH:C429014
-relationship: has_component XCO:0000338 ! chemical nanoparticle
-relationship: has_component XCO:0001689 ! mitoquinone
-created_by: slaulederkind
-creation_date: 2025-07-22T11:58:17Z
-
-[Term]
-id: XCO:0001691
-name: multigenerational maternal exposure to MitoQ-NP
-def: "This is any condition in which the main influencing factor is any maternal exposure to MitoQ-NP that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) MitoQ-NP use/exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [PMID:25839742, PMID:33344732]
-synonym: "multigenerational maternal exposure to nanoparticle-bound mitoquinone" EXACT []
-xref: CHEBI:233321
-xref: CID:11388332
-xref: GEO:GSE131040
-xref: MESH:C429014
-is_a: XCO:0001690 ! MitoQ-NP
-created_by: slaulederkind
-creation_date: 2025-07-22T12:19:13Z
-
-[Term]
-id: XCO:0001692
-name: gestational maternal exposure to MitoQ-NP
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to MitoQ-NP (nanoparticle-bound mitoquinone). This is a condition typically studied to determine the effect of maternal (F0) MitoQ-NP use/exposure on the F1 offspring." [https://www.merriam-webster.com/, PMID:33344732]
-synonym: "CHEBI:233321" EXACT []
-synonym: "CID:11388332" EXACT []
-synonym: "gestational maternal exposure to nanoparticle-bound mitoquinone" EXACT []
-synonym: "GSE131040" EXACT []
-synonym: "MESH:C429014" EXACT []
-is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001691 ! multigenerational maternal exposure to MitoQ-NP
-created_by: slaulederkind
-creation_date: 2025-07-22T12:31:53Z
-
-[Term]
-id: XCO:0001693
-name: housing with intruder-resident paradigm
-def: "This is any condition in which the main influencing factor is housing of pairs with intruder-resident paradigm. This paradigm typically involves two male rodents, but may be modified to involve two pregnant-lactating rodents. The experimental purpose of this paradigm is to study social stress." [https://www.sciencedirect.com/topics/medicine-and-dentistry/resident-intruder, PMID:33344732]
-synonym: "housing with acute defeat paradigm" NARROW []
-synonym: "housing with chronic defeat paradigm" NARROW []
-synonym: "housing with defeat paradigm" EXACT []
-xref: PMID:20136688
-is_a: XCO:0000035 ! housing in pairs
-is_a: XCO:0001265 ! stress
-created_by: slaulederkind
-creation_date: 2025-07-22T13:30:32Z
-
-[Term]
-id: XCO:0001694
-name: multigenerational maternal exposure to housing with intruder-resident paradigm
-def: "This is any condition in which the main influencing factor is any maternal exposure to housing with intruder-resident paradigm that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) housing with intruder-resident paradigm exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [PMID:25839742, PMID:33344732]
-synonym: "multigenerational maternal exposure to housing with acute defeat paradigm" NARROW []
-synonym: "multigenerational maternal exposure to housing with chronic defeat paradigm" NARROW []
-synonym: "multigenerational maternal exposure to housing with defeat paradigm" EXACT []
-xref: PMID:20136688
-is_a: XCO:0001693 ! housing with intruder-resident paradigm
-created_by: slaulederkind
-creation_date: 2025-07-22T13:42:42Z
-
-[Term]
-id: XCO:0001695
-name: gestational maternal exposure to housing with intruder-resident paradigm
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to housing with intruder-resident paradigm. This is a condition typically studied to determine the effect of maternal (F0) housing with intruder-resident paradigm exposure on the F1 offspring." [PMID:25839742, PMID:33344732]
-synonym: "gestational maternal exposure to housing with acute defeat paradigm" EXACT []
-synonym: "gestational maternal exposure to housing with chronic defeat paradigm" EXACT []
-synonym: "gestational maternal exposure to housing with defeat paradigm" EXACT []
-synonym: "gestational maternal exposure to social stress" RELATED []
-xref: PMID:20136688
-is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001694 ! multigenerational maternal exposure to housing with intruder-resident paradigm
-created_by: slaulederkind
-creation_date: 2025-07-22T14:06:40Z
-
-[Term]
-id: XCO:0001696
-name: methionine/choline deficient diet
-def: "This is any condition in which the main influencing factor is a methionine/choline deficient diet. This diet is used to study induction of non-alcoholic steatohepatitis (NASH) in experimental animal models." [https://www.mpbio.com/us/methionine-choline-deficient-diet-pelleted]
-synonym: "MCD diet" EXACT []
-synonym: "MCD-diet" EXACT []
-synonym: "methionine choline deficient diet" EXACT []
-xref: CHEBI:15354
-xref: CHEBI:16811
-xref: GEO:GSE138666
-xref: PMID:34013171
-is_a: XCO:0000014 ! controlled content diet
-created_by: slaulederkind
-creation_date: 2025-07-22T14:59:46Z
 
 [Typedef]
 id: has_component
