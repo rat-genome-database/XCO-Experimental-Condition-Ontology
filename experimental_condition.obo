@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.209
-date: 26:07:2025 20:13
+data-version: 4.210
+date: 09:08:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -18161,6 +18161,7 @@ synonym: "peripheral nerve frustum cone-shaped, spatially-confined conduit impla
 synonym: "peripheral nerve frustum cone-shaped, spatially-constrained conduit implantation" EXACT []
 synonym: "peripheral nerve stump CC implantation" EXACT []
 synonym: "peripheral nerve stump cone-shaped conduit implantation" EXACT []
+xref: GEO:GSE280040
 is_a: XCO:0001673 ! peripheral nerve stump conduit implantation
 created_by: slaulederkind
 creation_date: 2025-07-15T15:00:14Z
@@ -18182,6 +18183,7 @@ id: XCO:0001676
 name: verteporfin
 def: "This is any condition in which the main influencing factor is verteporfin, a benzoporphyrin derivative used as a photosensitizer in photodynamic therapy to eliminate abnormal blood vessels in the eye associated with neovascular (wet) age-related macular degeneration." [CHEBI:32293]
 synonym: "Visudyne" EXACT []
+xref: GEO:GSE280040
 xref: MESH:D000077362
 xref: PMID:39746959
 is_a: XCO:0000850 ! therapeutic agent
@@ -18211,6 +18213,7 @@ creation_date: 2025-07-17T08:34:40Z
 id: XCO:0001679
 name: multigenerational maternal exposure to limited bedding and nesting
 def: "This is any condition in which the main influencing factor is any maternal exposure to limited bedding and nesting that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) limited bedding and nesting use/exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com, PMID:25839742]
+xref: GEO:GSE297538
 xref: PMID:40445441
 is_a: XCO:0001087 ! limited bedding and nesting
 created_by: slaulederkind
@@ -18251,6 +18254,7 @@ name: diazepam
 def: "This is any condition in which the main influencing factor is diazepam, a 1,4-benzodiazepinone that has a role as a xenobiotic, an environmental contaminant, an anxiolytic drug, an anticonvulsant and a sedative. It is also an organochlorine compound." [CID:3016]
 synonym: "7-Chloro-1,3-dihydro-1-methyl-5-phenyl-2H-1,4-benzodiazepin-2-one" EXACT []
 xref: CHEBI:49575
+xref: GEO:GSE143555
 xref: MESH:D003975
 xref: PMID:34107264
 is_a: XCO:0000950 ! anticonvulsant
@@ -18359,6 +18363,7 @@ synonym: "mitoquinone-nanoparticle" EXACT []
 synonym: "nanoparticle-bound mitoquinone" EXACT []
 xref: CHEBI:233321
 xref: CID:11388332
+xref: GEO:GSE131040
 xref: MESH:C429014
 relationship: has_component XCO:0000338 ! chemical nanoparticle
 relationship: has_component XCO:0001689 ! mitoquinone
@@ -18425,6 +18430,7 @@ synonym: "gestational maternal exposure to housing with acute defeat paradigm" E
 synonym: "gestational maternal exposure to housing with chronic defeat paradigm" EXACT []
 synonym: "gestational maternal exposure to housing with defeat paradigm" EXACT []
 synonym: "gestational maternal exposure to social stress" RELATED []
+xref: GEO:GSE131040
 xref: PMID:20136688
 is_a: XCO:0000420 ! controlled in utero environment
 is_a: XCO:0001694 ! multigenerational maternal exposure to housing with intruder-resident paradigm
