@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.211
-date: 18:08:2025 09:26
+data-version: 4.210
+date: 09:08:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -18278,7 +18278,6 @@ def: "This is any condition in which the main influencing factor is empagliflozi
 synonym: "(1S)-1,5-anhydro-1-(4-chloro-3-{4-[(3S)-tetrahydrofuran-3-yloxy]benzyl}phenyl)-D-glucitol" EXACT []
 synonym: "Jardiance" EXACT []
 xref: CHEBI:82720
-xref: GEO:GSE263155
 xref: MESH:C570240
 xref: PMID:40409667
 is_a: XCO:0000120 ! inhibitor
@@ -18418,7 +18417,6 @@ def: "This is any condition in which the main influencing factor is any maternal
 synonym: "multigenerational maternal exposure to housing with acute defeat paradigm" NARROW []
 synonym: "multigenerational maternal exposure to housing with chronic defeat paradigm" NARROW []
 synonym: "multigenerational maternal exposure to housing with defeat paradigm" EXACT []
-xref: GEO:GSE131040
 xref: PMID:20136688
 is_a: XCO:0001693 ! housing with intruder-resident paradigm
 created_by: slaulederkind
