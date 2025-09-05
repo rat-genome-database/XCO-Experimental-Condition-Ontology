@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.213
-date: 30:08:2025 20:13
+data-version: 4.212
+date: 23:08:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -17815,10 +17815,10 @@ creation_date: 2025-06-05T13:04:48Z
 id: XCO:0001646
 name: gene transfer of the rat Ctnnd2 gene using an adeno-associated virus vector
 def: "This is any condition in which the main influencing factor is gene transfer of the rat Ctnnd2 (catenin delta 2) gene using an adeno-associated virus vector. Gene transfer into a cell or organism using an adeno-associated virus vector is performed to induce synthesis of the carried gene's product in the recipient cell or organism." [PMID:39965128]
-synonym: "AAV‐Ctnnd2 gene transfer" EXACT []
+synonym: "AAV‐Ctnnd2" EXACT []
+synonym: "gene transfer of pAAV‐CMV‐rCTNND2‐P2A‐EGFP‐tWPA" NARROW []
 synonym: "gene transfer of the rat catenin delta 2 gene using adeno-associated virus vector" EXACT []
 synonym: "gene transfer of the rat Ctnnd2 gene using an AAV vector" EXACT []
-synonym: "gene transfer with pAAV‐CMV‐rCTNND2‐P2A‐EGFP‐tWPA" NARROW []
 xref: GEO:GSE273113
 is_a: XCO:0001575 ! gene transfer using an adeno-associated virus vector
 created_by: slaulederkind
@@ -18454,19 +18454,6 @@ xref: PMID:34013171
 is_a: XCO:0000014 ! controlled content diet
 created_by: slaulederkind
 creation_date: 2025-07-22T14:59:46Z
-
-[Term]
-id: XCO:0001697
-name: gene transfer of the Cre recombinase gene using an adeno-associated virus vector
-def: "This is any condition in which the main influencing factor is gene transfer of the Cre recombinase gene (a bacteriophage P1 enzyme) using an adeno-associated virus vector. Gene transfer into a cell or organism using an adeno-associated virus vector is performed to induce synthesis of the carried gene's product in the recipient cell or organism." [https://en.wikipedia.org/wiki/Cre_recombinase]
-synonym: "gene transduction of the Cre recombinase gene using an AAV vector" EXACT []
-synonym: "gene transduction of the Cre recombinase gene using an adeno-associated virus vector" EXACT []
-synonym: "gene transfer of AAV8-hSyn-Cre" NARROW []
-synonym: "gene transfer of the Cre recombinase gene using an AAV vector" EXACT []
-xref: PMID:31329100
-is_a: XCO:0001575 ! gene transfer using an adeno-associated virus vector
-created_by: slaulederkind
-creation_date: 2025-08-29T10:00:27Z
 
 [Typedef]
 id: has_component
