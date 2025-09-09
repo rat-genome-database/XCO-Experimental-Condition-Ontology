@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 4.213
-date: 30:08:2025 20:13
+date: 06:09:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -10836,9 +10836,9 @@ creation_date: 2023-06-27T13:16:05Z
 
 [Term]
 id: XCO:0001066
-name: LNA-modified antirno-miR-21-5p oligonucleotide
+name: LNA-modified anti-rno-miR-21-5p oligonucleotide
 def: "This is any condition in which the main influencing factor is a control locked nucleic acid (LNA)modified oligonucleotide with an antirat miR-21-5p sequence. A locked nucleic acid (LNA), also known as bridged nucleic acid (BNA), and often referred to as inaccessible RNA, is a modified RNA nucleotide in which the ribose moiety is modified with an extra bridge connecting the 2' oxygen and 4' carbon. LNAs provide structural stability and nuclease resistance to the oligonucleotide." [https://en.wikipedia.org/wiki/Locked_nucleic_acid, https://www.idtdna.com/pages/technology/custom-dna-rna/locked-nucleic-acids]
-synonym: "BNA-modified antirno-miR-21-5p oligonucleotide" EXACT []
+synonym: "BNA-modified anti-rno-miR-21-5p oligonucleotide" EXACT []
 synonym: "LNA-modified anti-microRNA-21-5p oligonucleotide" EXACT []
 xref: PMID:28760335
 is_a: XCO:0000233 ! ribonucleic acid
