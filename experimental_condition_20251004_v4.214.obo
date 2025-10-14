@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.215
-date: 11:10:2025 20:13
+data-version: 4.214
+date: 04:10:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -11506,8 +11506,8 @@ id: XCO:0001122
 name: antianxiety agent
 def: "This is any condition in which the main influencing factor is an anti-anxiety agent, a medication or other intervention that reduces anxiety. Anxiolytic medications are used for the treatment of anxiety disorders and their related psychological and physical symptoms." [https://en.wikipedia.org/wiki/Anxiolytic, https://www.merriam-webster.com/]
 synonym: "anti-anxiety agent" EXACT []
-synonym: "anti-anxiety drug" EXACT []
 synonym: "antianxiety drug" EXACT []
+synonym: "anti-anxiety drug" EXACT []
 synonym: "antipanic agent" EXACT []
 synonym: "anxiolytic" EXACT []
 synonym: "anxiolytic medication" EXACT []
@@ -17099,12 +17099,7 @@ creation_date: 2025-04-24T11:05:37Z
 [Term]
 id: XCO:0001592
 name: porcine dECM hydrogel implantation
-def: "This is any condition in which the main influencing factor is implantation of a porcine, decellularized, extracellular matrix (dECM) hydrogel scaffold, a tissue scaffold made of decellularized, extracellular matrix from porcine kidney. dECM hydrogel has been utilized for experimental nerve regeneration, spinal cord injury repair, and resected kidney defect repair." [ISBN-13:978-1455756438]
-synonym: "pig dECM hydrogel implantation" EXACT []
-synonym: "porcine decellularized extracellular matrix hydrogel implantation" EXACT []
-xref: PMID:39276103
-xref: PMID:40878515
-is_a: XCO:0001409 ! tissue engineering scaffold implantation
+def: "This is any condition in which the main influencing factor is implantation of a porcine, decellularized, extracellular matrix (dECM) hydrogel scaffold, a tissue scaffold made of decellularized, extracellular matrix from porcine kidney. dECM hydrogel has been utilized for experimental nerve regeneration, spinal cord injury repair, and resected kidney defect repair." []
 created_by: slaulederkind
 creation_date: 2025-04-24T11:35:37Z
 
@@ -18475,19 +18470,17 @@ creation_date: 2025-08-29T10:00:27Z
 
 [Term]
 id: XCO:0001698
-name: multigenerational maternal exposure to collapsin response mediator protein 1 MAPs
-def: "This is any condition in which the main influencing factor is any maternal exposure to an autoantibody-generating level of collapsin response mediator protein 1 (CRMP1) multiple antigenic peptides (MAPs) that has multigenerational effects. This is a condition typically studied to determine the effect of a maternal (F0) CRMP1 exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [PMID:29972240, PMID:39929953]
-synonym: "multigenerational maternal exposure to collapsin response mediator protein 1 MAPs" EXACT []
-synonym: "multigenerational maternal exposure to collapsin response mediator protein 1 multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to CRMP1 MAPs" EXACT []
-synonym: "multigenerational maternal exposure to CRMP-1 multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to CRMP1 multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to dihydropyrimidinase-like 1 multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to dihydropyrimidinase related protein 1 multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to DPYSL1 multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to DRP-1 multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to DRP1 multiple antigenic peptides" EXACT []
-is_a: XCO:0001725 ! collapsin response mediator protein 1 MAPs
+name: multigenerational maternal exposure to collapsin response mediator protein 1
+def: "This is any condition in which the main influencing factor is any maternal exposure to abnormally high levels of collapsin response mediator protein 1 (CRMP1) that has multigenerational effects. This is a condition typically studied to determine the effect of a maternal (F0) CRMP1 exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [PMID:29972240]
+synonym: "multigenerational maternal exposure to CRMP-1" EXACT []
+synonym: "multigenerational maternal exposure to CRMP1" EXACT []
+synonym: "multigenerational maternal exposure to dihydropyrimidinase-like 1" EXACT []
+synonym: "multigenerational maternal exposure to dihydropyrimidinase related protein-1" EXACT []
+synonym: "multigenerational maternal exposure to DPYSL1" EXACT []
+synonym: "multigenerational maternal exposure to DRP-1" EXACT []
+synonym: "multigenerational maternal exposure to DRP1" EXACT []
+xref: PMID:39929953
+is_a: XCO:0001699 ! collapsin response mediator protein 1
 created_by: slaulederkind
 creation_date: 2025-10-03T16:35:56Z
 
@@ -18509,415 +18502,19 @@ creation_date: 2025-10-03T16:36:45Z
 
 [Term]
 id: XCO:0001700
-name: pregestational maternal exposure to collapsin response mediator protein 1 MAPs
-def: "This is any condition in which the main influencing factor is any pregestational maternal exposure to an autoantibody-generating level of collapsin response mediator protein 1 (CRMP1) multiple antigenic peptides (MAPs). This is a condition typically studied to determine the effect of maternal (F0) CRMP1 exposure on the F1 offspring." [https://www.merriam-webster.com/, PMID:39929953]
-synonym: "pregestational maternal exposure to collapsin response mediator protein 1 multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to CRMP1 MAPs" EXACT []
-synonym: "pregestational maternal exposure to CRMP-1 multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to CRMP1 multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to dihydropyrimidinase-like 1 multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to dihydropyrimidinase related protein-1 multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to DPYSL1 multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to DRP-1 multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to DRP1 multiple antigenic peptides" EXACT []
-is_a: XCO:0001698 ! multigenerational maternal exposure to collapsin response mediator protein 1 MAPs
+name: pregestational maternal exposure to collapsin response mediator protein 1
+def: "This is any condition in which the main influencing factor is any pregestational maternal exposure to abnormally high levels of collapsin response mediator protein 1. This is a condition typically studied to determine the effect of maternal (F0) collapsin response mediator protein 1 exposure on the F1 offspring." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
+synonym: "pregestational maternal exposure to CRMP-1" EXACT []
+synonym: "pregestational maternal exposure to CRMP1" EXACT []
+synonym: "pregestational maternal exposure to dihydropyrimidinase-like 1" EXACT []
+synonym: "pregestational maternal exposure to dihydropyrimidinase related protein-1" EXACT []
+synonym: "pregestational maternal exposure to DPYSL1" EXACT []
+synonym: "pregestational maternal exposure to DRP-1" EXACT []
+synonym: "pregestational maternal exposure to DRP1" EXACT []
+xref: PMID:39929953
+is_a: XCO:0001698 ! multigenerational maternal exposure to collapsin response mediator protein 1
 created_by: slaulederkind
 creation_date: 2025-10-03T16:54:12Z
-
-[Term]
-id: XCO:0001701
-name: pregestational maternal exposure to collapsin response mediator protein 2 MAPs
-def: "This is any condition in which the main influencing factor is any pregestational maternal exposure to an autoantibody-generating level of collapsin response mediator protein 2 (CRMP2) multiple antigenic peptides (MAPs). This is a condition typically studied to determine the effect of maternal (F0) collapsin response mediator protein 2 exposure on the F1 offspring." [https://www.merriam-webster.com/, PMID:39929953]
-synonym: "pregestational maternal exposure to collapsin response mediator protein 2 multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to CRMP2 MAPs" EXACT []
-synonym: "pregestational maternal exposure to CRMP-2 multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to CRMP2 multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to dihydropyrimidinase-like 2 multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to dihydropyrimidinase related protein-2 multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to DPYSL2 multiple antigenic peptides" EXACT []
-is_a: XCO:0001702 ! multigenerational maternal exposure to collapsin response mediator protein 2 MAPs
-created_by: slaulederkind
-creation_date: 2025-10-06T19:57:20Z
-
-[Term]
-id: XCO:0001702
-name: multigenerational maternal exposure to collapsin response mediator protein 2 MAPs
-def: "This is any condition in which the main influencing factor is any maternal exposure to an autoantibody-generating level of collapsin response mediator protein 2 (CRMP2) multiple antigenic peptides (MAPs) that has multigenerational effects. This is a condition typically studied to determine the effect of a maternal (F0) CRMP2 exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [PMID:29972240, PMID:39929953]
-synonym: "multigenerational maternal exposure to collapsin response mediator protein 2 multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to CRMP2 MAPs" EXACT []
-synonym: "multigenerational maternal exposure to CRMP-2 multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to CRMP2 multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to dihydropyrimidinase-like 2 multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to dihydropyrimidinase related protein 2 multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to DPYSL 2 multiple antigenic peptides" EXACT []
-is_a: XCO:0001724 ! collapsin response mediator protein 2 MAPs
-created_by: slaulederkind
-creation_date: 2025-10-06T20:06:06Z
-
-[Term]
-id: XCO:0001703
-name: collapsin response mediator protein 2
-def: "This is any condition in which the main influencing factor is collapsin response mediator protein 2 (CRMP2), a protein that facilitates neuron guidance, growth and polarity. CRMP2 also plays a role in microtubule assembly and synaptic signaling through interactions with calcium channels." [RGD:737388]
-synonym: "CRMP-2" EXACT []
-synonym: "CRMP2" EXACT []
-synonym: "dihydropyrimidinase-like 2" EXACT []
-synonym: "dihydropyrimidinase related protein 2" EXACT []
-synonym: "DPYSL2" EXACT []
-xref: PMID:39929953
-is_a: XCO:0000260 ! peptide/protein antigen
-created_by: slaulederkind
-creation_date: 2025-10-06T20:17:44Z
-
-[Term]
-id: XCO:0001704
-name: stress induced phosphoprotein 1
-def: "This is any condition in which the main influencing factor is stress induced phosphoprotein 1 (STIP1), an adaptor protein that coordinates the functions of HSP70 and HSP90 in protein folding by assisting in the transfer of proteins from HSP70 to HSP90 by binding both HSP90 and substrate-bound HSP70. STIP1 also stimulates the ATPase activity of HSP70 and inhibits the ATPase activity of HSP90." [RGD:733337]
-synonym: "HOP" EXACT []
-synonym: "Hsp70/Hsp90-organizing protein" EXACT []
-synonym: "STI1" EXACT []
-synonym: "STI1L" EXACT []
-synonym: "STIP1" EXACT []
-is_a: XCO:0000260 ! peptide/protein antigen
-created_by: slaulederkind
-creation_date: 2025-10-06T20:31:00Z
-
-[Term]
-id: XCO:0001705
-name: multigenerational maternal exposure to stress induced phosphoprotein 1 MAPs
-def: "This is any condition in which the main influencing factor is any maternal exposure to an autoantibody-generating level of stress induced phosphoprotein 1 (STIP1) multiple antigenic peptides (MAPs) that has multigenerational effects. This is a condition typically studied to determine the effect of a maternal (F0) STIP1 exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [PMID:29972240, PMID:39929953]
-synonym: "multigenerational maternal exposure to HOP multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to Hsp70/Hsp90-organizing protein multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to STI1L multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to STI1 multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to STIP1 MAPs" EXACT []
-synonym: "multigenerational maternal exposure to STIP1 multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to stress induced phosphoprotein 1 multiple antigenic peptides" EXACT []
-is_a: XCO:0001721 ! stress induced phosphoprotein 1 MAPs
-created_by: slaulederkind
-creation_date: 2025-10-06T20:40:05Z
-
-[Term]
-id: XCO:0001706
-name: pregestational maternal exposure to stress induced phosphoprotein 1 MAPs
-def: "This is any condition in which the main influencing factor is any pregestational maternal exposure to an autoantibody-generating level of stress induced phosphoprotein 1 (STIP1) multiple antigenic peptides (MAPs). This is a condition typically studied to determine the effect of maternal (F0) STIP1 exposure on the F1 offspring." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
-synonym: "multigenerational maternal exposure to HOP multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to Hsp70/Hsp90-organizing protein multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to STI1L multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to STI1 multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to STIP1 MAPs" EXACT []
-synonym: "multigenerational maternal exposure to STIP1 multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to stress induced phosphoprotein 1 multiple antigenic peptides" EXACT []
-is_a: XCO:0001705 ! multigenerational maternal exposure to stress induced phosphoprotein 1 MAPs
-created_by: slaulederkind
-creation_date: 2025-10-06T21:06:23Z
-
-[Term]
-id: XCO:0001707
-name: enolase 2
-def: "This is any condition in which the main influencing factor is enolase 2 (ENO2), an enolase isoenzyme, found in neurons and cells of neuronal origin. ENO2 is an enzyme with phosphopyruvate hydratase activity involved in gluconeogenesis." [RGD:733932]
-synonym: "2-phospho-D-glycerate hydrolyase" EXACT []
-synonym: "ENO2" EXACT []
-synonym: "gamma enolase" EXACT []
-synonym: "neural enolase" EXACT []
-synonym: "neuron-specific enolase" EXACT []
-synonym: "NSE" EXACT []
-is_a: XCO:0000260 ! peptide/protein antigen
-created_by: slaulederkind
-creation_date: 2025-10-09T10:10:31Z
-
-[Term]
-id: XCO:0001708
-name: multigenerational maternal exposure to enolase 2 MAPs
-def: "This is any condition in which the main influencing factor is any maternal exposure to an autoantibody-generating level of enolase 2 (ENO2) multiple antigenic peptides (MAPs) that has multigenerational effects. This is a condition typically studied to determine the effect of a maternal (F0) ENO2 exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [PMID:29972240, PMID:39929953]
-synonym: "multigenerational maternal exposure to 2-phospho-D-glycerate hydrolyase multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to ENO2 MAPs" EXACT []
-synonym: "multigenerational maternal exposure to ENO2 multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to enolase 2 multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to gamma enolase multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to neural enolase multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to neuron-specific enolase multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to NSE multiple antigenic peptides" EXACT []
-is_a: XCO:0001723 ! enolase 2 MAPs
-created_by: slaulederkind
-creation_date: 2025-10-09T12:10:51Z
-
-[Term]
-id: XCO:0001709
-name: pregestational maternal exposure to enolase 2 MAPs
-def: "This is any condition in which the main influencing factor is any pregestational maternal exposure to an autoantibody-generating level of enolase 2 (ENO2) multiple antigenic peptides (MAPs). This is a condition typically studied to determine the effect of maternal (F0) ENO2 exposure on the F1 offspring." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
-synonym: "pregestational maternal exposure to 2-phospho-D-glycerate hydrolyase multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to ENO2 MAPs" EXACT []
-synonym: "pregestational maternal exposure to ENO2 multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to enolase 2 multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to gamma enolase multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to neural enolase multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to neuron-specific enolase multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to NSE multiple antigenic peptides" EXACT []
-xref: PMID:39929953
-is_a: XCO:0001708 ! multigenerational maternal exposure to enolase 2 MAPs
-created_by: slaulederkind
-creation_date: 2025-10-09T12:29:36Z
-
-[Term]
-id: XCO:0001710
-name: guanine deaminase
-def: "This is any condition in which the main influencing factor is guanine deaminase, an enzyme responsible for the hydrolytic deamination of guanine. Guanine deaminase plays a role in microtubule assembly." [RGD:734048]
-synonym: "CYPIN" EXACT []
-synonym: "cytoplasmic PSD95 interactor" EXACT []
-synonym: "GAH" EXACT []
-synonym: "GDA" EXACT []
-synonym: "guanase" EXACT []
-synonym: "guanine aminase" EXACT []
-synonym: "guanine aminohydrolase" EXACT []
-is_a: XCO:0000260 ! peptide/protein antigen
-created_by: slaulederkind
-creation_date: 2025-10-09T13:08:39Z
-
-[Term]
-id: XCO:0001711
-name: multigenerational maternal exposure to guanine deaminase MAPs
-def: "This is any condition in which the main influencing factor is any maternal exposure to an autoantibody-generating level of guanine deaminase (GDA) multiple antigenic peptides (MAPs) that has multigenerational effects. This is a condition typically studied to determine the effect of a maternal (F0) GDA exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [PMID:29972240, PMID:39929953]
-synonym: "multigenerational maternal exposure to CYPIN multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to cytoplasmic PSD95 interactor multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to GAH multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to GDA MAPs" EXACT []
-synonym: "multigenerational maternal exposure to GDA multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to guanase multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to guanine aminase multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to guanine aminohydrolase multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to guanine deaminase multiple antigenic peptides" EXACT []
-is_a: XCO:0001722 ! guanine deaminase MAPs
-created_by: slaulederkind
-creation_date: 2025-10-09T14:28:11Z
-
-[Term]
-id: XCO:0001712
-name: pregestational maternal exposure to guanine deaminase MAPs
-def: "This is any condition in which the main influencing factor is any pregestational maternal exposure to an autoantibody-generating level of guanine deaminase (GDA) multiple antigenic peptides (MAPs). This is a condition typically studied to determine the effect of maternal (F0) GDA exposure on the F1 offspring." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
-synonym: "pregestational maternal exposure to CYPIN multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to cytoplasmic PSD95 interactor multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to GAH multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to GDA MAPs" EXACT []
-synonym: "pregestational maternal exposure to GDA multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to guanase multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to guanine aminase multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to guanine aminohydrolase multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to guanine deaminase multiple antigenic peptides" EXACT []
-xref: PMID:39929953
-is_a: XCO:0001711 ! multigenerational maternal exposure to guanine deaminase MAPs
-created_by: slaulederkind
-creation_date: 2025-10-09T14:35:52Z
-
-[Term]
-id: XCO:0001713
-name: lactate dehydrogenase A
-def: "This is any condition in which the main influencing factor is lactate dehydrogenase A (LDHA), a subunit of an enzyme with L-lactate dehydrogenase (NAD+) activity that is involved in a post-glycolytic process." [RGD:736025]
-synonym: "lactate dehydrogenase M" EXACT []
-synonym: "LDH1" EXACT []
-synonym: "LDH-A" EXACT []
-synonym: "LDHA" EXACT []
-synonym: "LDH-M" EXACT []
-synonym: "LDHM" EXACT []
-synonym: "LDH muscle subunit" EXACT []
-synonym: "L-lactate dehydrogenase A chain" EXACT []
-is_a: XCO:0000260 ! peptide/protein antigen
-created_by: slaulederkind
-creation_date: 2025-10-09T15:08:14Z
-
-[Term]
-id: XCO:0001714
-name: multigenerational maternal exposure to lactate dehydrogenase A MAPs
-def: "This is any condition in which the main influencing factor is any maternal exposure to an autoantibody-generating level of lactate dehydrogenase A (LDHA) multiple antigenic peptides (MAPs) that has multigenerational effects. This is a condition typically studied to determine the effect of a maternal (F0) LDHA exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [PMID:29972240, PMID:39929953]
-synonym: "multigenerational maternal exposure to lactate dehydrogenase A  multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to lactate dehydrogenase M multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to LDH1 multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to LDHA MAPs" EXACT []
-synonym: "multigenerational maternal exposure to LDH-A multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to LDH-M multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to LDHM multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to LDH muscle subunit multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to L-lactate dehydrogenase A chain multiple antigenic peptides" EXACT []
-is_a: XCO:0001719 ! lactate dehydrogenase A MAPs
-created_by: slaulederkind
-creation_date: 2025-10-09T15:15:22Z
-
-[Term]
-id: XCO:0001715
-name: pregestational maternal exposure to lactate dehydrogenase A MAPs
-def: "This is any condition in which the main influencing factor is any pregestational maternal exposure to an autoantibody-generating level of lactate dehydrogenase A (LDHA) multiple antigenic peptides (MAPs). This is a condition typically studied to determine the effect of maternal (F0) LDHA exposure on the F1 offspring." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
-synonym: "pregestational maternal exposure to lactate dehydrogenase A multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to lactate dehydrogenase M multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to LDH1 multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to LDHA MAPs" EXACT []
-synonym: "pregestational maternal exposure to LDH-A multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to LDHA multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to LDH-M multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to LDHM multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to LDH muscle subunit multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to L-lactate dehydrogenase A chain multiple antigenic peptides" EXACT []
-xref: PMID:39929953
-is_a: XCO:0001714 ! multigenerational maternal exposure to lactate dehydrogenase A MAPs
-created_by: slaulederkind
-creation_date: 2025-10-09T15:35:00Z
-
-[Term]
-id: XCO:0001716
-name: lactate dehydrogenase B
-def: "This is any condition in which the main influencing factor is lactate dehydrogenase B (LDHB), a subunit of an enzyme with L-lactate dehydrogenase (NAD+) activity that is involved in a post-glycolytic process." [RGD:735463]
-synonym: "lactate dehydrogenase H chain" EXACT []
-synonym: "LDH-B" EXACT []
-synonym: "LDHB" EXACT []
-synonym: "LDH-H" EXACT []
-synonym: "LDH heart subunit" EXACT []
-synonym: "L-lactate dehydrogenase B chain" EXACT []
-is_a: XCO:0000260 ! peptide/protein antigen
-created_by: slaulederkind
-creation_date: 2025-10-10T10:03:19Z
-
-[Term]
-id: XCO:0001717
-name: multigenerational maternal exposure to lactate dehydrogenase B MAPs
-def: "This is any condition in which the main influencing factor is any maternal exposure to an autoantibody-generating level of lactate dehydrogenase B (LDHB) multiple antigenic peptides (MAPs) that has multigenerational effects. This is a condition typically studied to determine the effect of a maternal (F0) LDHB exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [PMID:29972240, PMID:39929953]
-synonym: "multigenerational maternal exposure to lactate dehydrogenase B multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to lactate dehydrogenase H chain multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to LDHB MAPs" EXACT []
-synonym: "multigenerational maternal exposure to LDH-B multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to LDHB multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to LDH heart subunit multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to LDH-H multiple antigenic peptides" EXACT []
-synonym: "multigenerational maternal exposure to L-lactate dehydrogenase B chain multiple antigenic peptides" EXACT []
-is_a: XCO:0001720 ! lactate dehydrogenase B MAPs
-created_by: slaulederkind
-creation_date: 2025-10-10T10:29:43Z
-
-[Term]
-id: XCO:0001718
-name: pregestational maternal exposure to lactate dehydrogenase B MAPs
-def: "This is any condition in which the main influencing factor is any pregestational maternal exposure to an autoantibody-generating level of lactate dehydrogenase B (LDHB) multiple antigenic peptides (MAPs). This is a condition typically studied to determine the effect of maternal (F0) LDHB exposure on the F1 offspring." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
-synonym: "pregestational maternal exposure to lactate dehydrogenase B multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to lactate dehydrogenase H chain multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to LDHB MAPs" EXACT []
-synonym: "pregestational maternal exposure to LDH-B multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to LDHB multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to LDH heart subunit multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to LDH-H multiple antigenic peptides" EXACT []
-synonym: "pregestational maternal exposure to L-lactate dehydrogenase B chain multiple antigenic peptides" EXACT []
-xref: PMID:39929953
-is_a: XCO:0001717 ! multigenerational maternal exposure to lactate dehydrogenase B MAPs
-created_by: slaulederkind
-creation_date: 2025-10-10T10:34:58Z
-
-[Term]
-id: XCO:0001719
-name: lactate dehydrogenase A MAPs
-def: "This is any condition in which the main influencing factor is lactate dehydrogenase A presented as multiple antigenic peptides (MAPs), which are four copies of the same peptide epitope synthesized on a lysine-based core (MAPs-4 system)." [PMID:39929953]
-synonym: "lactate dehydrogenase M multiple antigenic peptides" EXACT []
-synonym: "LDH1 multiple antigenic peptides" EXACT []
-synonym: "LDHA MAPs" EXACT []
-synonym: "LDH-A multiple antigenic peptides" EXACT []
-synonym: "LDHA multiple antigenic peptides" EXACT []
-synonym: "LDHM multiple antigenic peptides" EXACT []
-synonym: "LDH-M multiple antigenic peptides" EXACT []
-synonym: "LDH muscle subunit multiple antigenic peptides" EXACT []
-synonym: "L-lactate dehydrogenase A chain multiple antigenic peptides" EXACT []
-is_a: XCO:0001713 ! lactate dehydrogenase A
-created_by: slaulederkind
-creation_date: 2025-10-10T11:06:16Z
-
-[Term]
-id: XCO:0001720
-name: lactate dehydrogenase B MAPs
-def: "This is any condition in which the main influencing factor is lactate dehydrogenase B presented as multiple antigenic peptides (MAPs), which are four copies of the same peptide epitope synthesized on a lysine-based core (MAPs-4 system)." [PMID:39929953]
-synonym: "lactate dehydrogenase H chain multiple antigenic peptides" EXACT []
-synonym: "LDHB MAPs" EXACT []
-synonym: "LDH-B multiple antigenic peptides" EXACT []
-synonym: "LDHB multiple antigenic peptides" EXACT []
-synonym: "LDH heart subunit multiple antigenic peptides" EXACT []
-synonym: "LDH-H multiple antigenic peptides" EXACT []
-synonym: "L-lactate dehydrogenase B chain multiple antigenic peptides" EXACT []
-is_a: XCO:0001716 ! lactate dehydrogenase B
-created_by: slaulederkind
-creation_date: 2025-10-10T12:50:12Z
-
-[Term]
-id: XCO:0001721
-name: stress induced phosphoprotein 1 MAPs
-def: "This is any condition in which the main influencing factor is stress induced phosphoprotein 1 (STIP1) presented as multiple antigenic peptides (MAPs), which are four copies of the same peptide epitope synthesized on a lysine-based core (MAPs-4 system)." [PMID:39929953]
-synonym: "HOP multiple antigenic peptides" EXACT []
-synonym: "Hsp70/Hsp90-organizing protein multiple antigenic peptides" EXACT []
-synonym: "STI1L multiple antigenic peptides" EXACT []
-synonym: "STI1 multiple antigenic peptides" EXACT []
-synonym: "STIP1 MAPs" EXACT []
-synonym: "STIP1 multiple antigenic peptides" EXACT []
-synonym: "stress induced phosphoprotein 1 multiple antigenic peptides" EXACT []
-is_a: XCO:0001704 ! stress induced phosphoprotein 1
-created_by: slaulederkind
-creation_date: 2025-10-10T15:31:42Z
-
-[Term]
-id: XCO:0001722
-name: guanine deaminase MAPs
-def: "This is any condition in which the main influencing factor is guanine deaminase presented as multiple antigenic peptides (MAPs), which are four copies of the same peptide epitope synthesized on a lysine-based core (MAPs-4 system)." [PMID:39929953]
-synonym: "CYPIN multiple antigenic peptides" EXACT []
-synonym: "cytoplasmic PSD95 interactor multiple antigenic peptides" EXACT []
-synonym: "GAH multiple antigenic peptides" EXACT []
-synonym: "GDA MAPs" EXACT []
-synonym: "GDA multiple antigenic peptides" EXACT []
-synonym: "guanase multiple antigenic peptides" EXACT []
-synonym: "guanine aminase multiple antigenic peptides" EXACT []
-synonym: "guanine aminohydrolase multiple antigenic peptides" EXACT []
-synonym: "guanine deaminase multiple antigenic peptides" EXACT []
-is_a: XCO:0001710 ! guanine deaminase
-created_by: slaulederkind
-creation_date: 2025-10-10T16:08:15Z
-
-[Term]
-id: XCO:0001723
-name: enolase 2 MAPs
-def: "This is any condition in which the main influencing factor is enolase 2 (ENO2) presented as multiple antigenic peptides (MAPs), which are four copies of the same peptide epitope synthesized on a lysine-based core (MAPs-4 system)." [PMID:39929953]
-synonym: "2-phospho-D-glycerate hydrolyase multiple antigenic peptides" EXACT []
-synonym: "ENO2 MAPs" EXACT []
-synonym: "ENO2 multiple antigenic peptides" EXACT []
-synonym: "enolase 2 multiple antigenic peptides" EXACT []
-synonym: "gamma enolase multiple antigenic peptides" EXACT []
-synonym: "neural enolase multiple antigenic peptides" EXACT []
-synonym: "neuron-specific enolase multiple antigenic peptides" EXACT []
-synonym: "NSE multiple antigenic peptides" EXACT []
-is_a: XCO:0001707 ! enolase 2
-created_by: slaulederkind
-creation_date: 2025-10-10T16:38:26Z
-
-[Term]
-id: XCO:0001724
-name: collapsin response mediator protein 2 MAPs
-def: "This is any condition in which the main influencing factor is collapsin response mediator protein 2 (CRMP2) presented as multiple antigenic peptides (MAPs), which are four copies of the same peptide epitope synthesized on a lysine-based core (MAPs-4 system)." [PMID:39929953]
-synonym: "collapsin response mediator protein 2 multiple antigenic peptides" EXACT []
-synonym: "CRMP2 MAPs" EXACT []
-synonym: "CRMP-2 multiple antigenic peptides" EXACT []
-synonym: "CRMP2 multiple antigenic peptides" EXACT []
-synonym: "dihydropyrimidinase-like 2 multiple antigenic peptides" EXACT []
-synonym: "dihydropyrimidinase related protein 2 multiple antigenic peptides" EXACT []
-synonym: "DPYSL2 multiple antigenic peptides" EXACT []
-is_a: XCO:0001703 ! collapsin response mediator protein 2
-created_by: slaulederkind
-creation_date: 2025-10-10T17:00:10Z
-
-[Term]
-id: XCO:0001725
-name: collapsin response mediator protein 1 MAPs
-def: "This is any condition in which the main influencing factor is collapsin response mediator protein 1 (CRMP1) presented as multiple antigenic peptides (MAPs), which are four copies of the same peptide epitope synthesized on a lysine-based core (MAPs-4 system)." [PMID:39929953]
-synonym: "collapsin response mediator protein 1 multiple antigenic peptides" EXACT []
-synonym: "CRMP1 MAPs" EXACT []
-synonym: "CRMP-1 multiple antigenic peptides" EXACT []
-synonym: "CRMP1 multiple antigenic peptides" EXACT []
-synonym: "dihydropyrimidinase-like 1 multiple antigenic peptides" EXACT []
-synonym: "dihydropyrimidinase related protein-1 multiple antigenic peptides" EXACT []
-synonym: "DPYSL1 multiple antigenic peptides" EXACT []
-synonym: "DRP-1 multiple antigenic peptides" EXACT []
-synonym: "DRP1 multiple antigenic peptides" EXACT []
-is_a: XCO:0001699 ! collapsin response mediator protein 1
-created_by: slaulederkind
-creation_date: 2025-10-10T17:27:46Z
 
 [Typedef]
 id: has_component
