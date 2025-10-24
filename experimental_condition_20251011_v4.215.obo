@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.216
-date: 18:10:2025 20:13
+data-version: 4.215
+date: 11:10:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -4961,7 +4961,7 @@ creation_date: 2017-08-11T17:15:29Z
 [Term]
 id: XCO:0000531
 name: gene transfer of the enhanced green fluorescent protein gene using an adenovirus vector
-def: "This is any condition in which the main influencing factor is the transfer (transiently or stably) of the enhanced green fluorescent protein (EGFP) gene, using an adenovirus carrier, into a cell or organism in order to induce synthesis of that gene's product in the recipient cell or organism." [RGD:12879447, Webster:Random_House_Kernerman_Websters_College_Dictionary_2010]
+def: "A condition in which the enhanced green fluorescent protein (EGFP) gene has been (transiently or stably) transferred into a cell or organism using an adenovirus carrier in order to induce synthesis of that gene's product in the recipient cell or organism." [RGD:12879447, Webster:Random_House_Kernerman_Websters_College_Dictionary_2010]
 synonym: "Ad-EGFP" RELATED []
 synonym: "adenoviral transfer of the EGFP gene" EXACT []
 synonym: "transfer of recombinant adenovirus containing the EGFP gene" EXACT []
@@ -6470,7 +6470,7 @@ creation_date: 2020-03-06T13:46:09Z
 [Term]
 id: XCO:0000678
 name: gene transfer of the rat MER proto-oncogene, tyrosine kinase gene using an adenovirus vector
-def: "This is any condition in which the main influencing factor is the transfer (transiently or stably) of the rat MER proto-oncogene, tyrosine kinase gene into a cell or organism using an adenovirus carrier in order to induce synthesis of that gene's product in the recipient cell or organism." [PMID:11592982, Webster:Random_House_Kernerman_Websters_College_Dictionary_2010]
+def: "A condition in which the rat MER proto-oncogene, tyrosine kinase gene has been (transiently or stably) transferred into a cell or organism using an adenovirus carrier in order to induce synthesis of that gene's product in the recipient cell or organism." [PMID:11592982, Webster:Random_House_Kernerman_Websters_College_Dictionary_2010]
 synonym: "adenoviral transfer of the rat Mertk gene" EXACT []
 synonym: "Ad-Mertk" RELATED []
 synonym: "transfer of recombinant adenovirus containing the rat Mertk gene" EXACT []
@@ -11506,8 +11506,8 @@ id: XCO:0001122
 name: antianxiety agent
 def: "This is any condition in which the main influencing factor is an anti-anxiety agent, a medication or other intervention that reduces anxiety. Anxiolytic medications are used for the treatment of anxiety disorders and their related psychological and physical symptoms." [https://en.wikipedia.org/wiki/Anxiolytic, https://www.merriam-webster.com/]
 synonym: "anti-anxiety agent" EXACT []
-synonym: "antianxiety drug" EXACT []
 synonym: "anti-anxiety drug" EXACT []
+synonym: "antianxiety drug" EXACT []
 synonym: "antipanic agent" EXACT []
 synonym: "anxiolytic" EXACT []
 synonym: "anxiolytic medication" EXACT []
@@ -14655,7 +14655,6 @@ def: "This is any condition in which the main influencing factor is any maternal
 synonym: "multigenerational maternal exposure to 0.9% sodium chloride solution" EXACT []
 synonym: "multigenerational maternal exposure to normal saline" EXACT []
 xref: PMID:38007547
-is_a: XCO:0000101 ! vehicle control condition
 is_a: XCO:0000156 ! 0.9% sodium chloride solution
 created_by: slaulederkind
 creation_date: 2024-05-28T15:18:30Z
@@ -14667,6 +14666,7 @@ def: "This is any condition in which the main influencing factor is any gestatio
 synonym: "gestational maternal exposure to 0.9% sodium chloride solution" EXACT []
 synonym: "gestational maternal exposure to normal saline" EXACT []
 xref: PMID:38007547
+is_a: XCO:0000101 ! vehicle control condition
 is_a: XCO:0000420 ! controlled in utero environment
 is_a: XCO:0001385 ! multigenerational maternal exposure to saline
 created_by: slaulederkind
@@ -14688,7 +14688,7 @@ creation_date: 2024-05-28T16:28:21Z
 [Term]
 id: XCO:0001388
 name: IFA-CII emulsion
-def: "This is any condition in which the major influencing factor is an IFA-CII emulsion, a combination of the oil-based incomplete Freund's adjuvant and acetic acid-soluble type II collagen (usually bovine). IFA induces a predominantly Th2-biased inflammatory response through the formation of a depot at the injection site and the stimulation of antibody producing plasma cells." [https://www.invivogen.com/ifa, https://www.merriam-webster.com/]
+def: "This is any condition in which the major influencing factor is an IFA-CII emulsion, a combination of the oil-based incomplete Freud's adjuvant and acetic acid-soluble type II collagen (usually bovine). IFA induces a predominantly Th2-biased inflammatory response through the formation of a depot at the injection site and the stimulation of antibody producing plasma cells." [https://www.invivogen.com/ifa, https://www.merriam-webster.com/]
 synonym: "incomplete Freud's adjuvant -type II collagen emulsion" EXACT []
 is_a: XCO:0000281 ! type II collagen
 relationship: has_component XCO:0000265 ! Freund's incomplete adjuvant
@@ -16301,7 +16301,6 @@ name: multigenerational maternal exposure to citrate buffer
 def: "This is any condition in which the main influencing factor is any maternal exposure to citrate buffer that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) citrate buffer exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring. Citrate buffer is a combination of sodium citrate dihydrate and citric acid in water to form a solution with a pH range of 3.0 to 6.2." [https://www.merriam-webster.com, PMID:25839742]
 synonym: "multigenerational maternal exposure to sodium citrate buffer" EXACT []
 xref: PMID:32595139
-is_a: XCO:0000101 ! vehicle control condition
 is_a: XCO:0001464 ! citrate buffer
 created_by: slaulederkind
 creation_date: 2025-01-06T12:42:24Z
@@ -16312,6 +16311,7 @@ name: gestational maternal exposure to citrate buffer
 def: "This is any condition in which the main influencing factor is any gestational maternal exposure to citrate buffer. This is a condition typically studied to determine the effect of maternal (F0) citrate buffer exposure on the F1 offspring. This is typically a control condition for gestational maternal exposure to some chemical agent." [https://www.merriam-webster.com, PMID:25839742]
 synonym: "gestational maternal exposure to sodium citrate buffer" EXACT []
 xref: PMID:32595139
+is_a: XCO:0000101 ! vehicle control condition
 is_a: XCO:0000420 ! controlled in utero environment
 relationship: part_of XCO:0001528 ! multigenerational maternal exposure to citrate buffer
 created_by: slaulederkind
@@ -17007,7 +17007,6 @@ name: multigenerational maternal exposure to dimethyl sulfoxide
 def: "This is any condition in which the main influencing factor is any maternal exposure to dimethyl sulfoxide that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) dimethyl sulfoxide use/exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com/, PMID:25839742]
 synonym: "multigenerational maternal exposure to DMSO" EXACT []
 xref: PMID:39652430
-is_a: XCO:0000101 ! vehicle control condition
 is_a: XCO:0000755 ! dimethyl sulfoxide
 created_by: slaulederkind
 creation_date: 2025-04-17T18:43:58Z
@@ -17018,6 +17017,7 @@ name: gestational maternal exposure to dimethyl sulfoxide
 def: "This is any condition in which the main influencing factor is any gestational maternal exposure to dimethyl sulfoxide. This is a condition typically studied to determine the effect of maternal (F0) dimethyl sulfoxide use/exposure on the F1 offspring." [https://www.merriam-webster.com/, PMID:25839742]
 synonym: "gestational maternal exposure to DMSO" EXACT []
 xref: PMID:39652430
+is_a: XCO:0000101 ! vehicle control condition
 is_a: XCO:0000420 ! controlled in utero environment
 is_a: XCO:0001584 ! multigenerational maternal exposure to dimethyl sulfoxide
 created_by: slaulederkind
@@ -17687,7 +17687,6 @@ name: multigenerational maternal exposure to corn oil
 def: "This is any condition in which the main influencing factor is any maternal exposure to corn oil that has multigenerational effects. This is a condition typically studied to determine the effect of maternal corn oil use/exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com/, PMID:25839742]
 synonym: "multigenerational maternal exposure to maize oil" EXACT []
 xref: GEO:GSE255311
-is_a: XCO:0000101 ! vehicle control condition
 is_a: XCO:0000829 ! corn oil
 created_by: slaulederkind
 creation_date: 2025-06-03T15:15:14Z
@@ -17700,6 +17699,7 @@ synonym: "gestational maternal exposure to maize oil" EXACT []
 synonym: "maternal exposure to corn oil during pregnancy" EXACT []
 synonym: "maternal exposure to maize oil during pregnancy" EXACT []
 xref: GEO:GSE255311
+is_a: XCO:0000101 ! vehicle control condition
 is_a: XCO:0000420 ! controlled in utero environment
 is_a: XCO:0001636 ! multigenerational maternal exposure to corn oil
 created_by: slaulederkind
@@ -18810,7 +18810,7 @@ creation_date: 2025-10-10T10:34:58Z
 [Term]
 id: XCO:0001719
 name: lactate dehydrogenase A MAPs
-def: "This is any condition in which the main influencing factor is lactate dehydrogenase A (LDHA) presented as multiple antigenic peptides (MAPs), which are four copies of the same peptide epitope synthesized on a lysine-based core (MAPs-4 system)." [PMID:39929953]
+def: "This is any condition in which the main influencing factor is lactate dehydrogenase A presented as multiple antigenic peptides (MAPs), which are four copies of the same peptide epitope synthesized on a lysine-based core (MAPs-4 system)." [PMID:39929953]
 synonym: "lactate dehydrogenase M multiple antigenic peptides" EXACT []
 synonym: "LDH1 multiple antigenic peptides" EXACT []
 synonym: "LDHA MAPs" EXACT []
@@ -18827,7 +18827,7 @@ creation_date: 2025-10-10T11:06:16Z
 [Term]
 id: XCO:0001720
 name: lactate dehydrogenase B MAPs
-def: "This is any condition in which the main influencing factor is lactate dehydrogenase B (LDHB) presented as multiple antigenic peptides (MAPs), which are four copies of the same peptide epitope synthesized on a lysine-based core (MAPs-4 system)." [PMID:39929953]
+def: "This is any condition in which the main influencing factor is lactate dehydrogenase B presented as multiple antigenic peptides (MAPs), which are four copies of the same peptide epitope synthesized on a lysine-based core (MAPs-4 system)." [PMID:39929953]
 synonym: "lactate dehydrogenase H chain multiple antigenic peptides" EXACT []
 synonym: "LDHB MAPs" EXACT []
 synonym: "LDH-B multiple antigenic peptides" EXACT []
@@ -18918,86 +18918,6 @@ synonym: "DRP1 multiple antigenic peptides" EXACT []
 is_a: XCO:0001699 ! collapsin response mediator protein 1
 created_by: slaulederkind
 creation_date: 2025-10-10T17:27:46Z
-
-[Term]
-id: XCO:0001726
-name: multigenerational maternal exposure to Freund's adjuvant and saline
-def: "This is any condition in which the main influencing factor is any maternal exposure to a mix of Freund's adjuvant and saline that serves as vehicle control for antibody-generating conditions that have multigenerational effects. These are conditions typically studied to determine the effect of a maternal (F0) exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [PMID:39929953]
-synonym: "multigenerational maternal exposure to Freund's adjuvant and 0.9% sodium chloride solution" EXACT []
-is_a: XCO:0000101 ! vehicle control condition
-relationship: has_component XCO:0000156 ! 0.9% sodium chloride solution
-relationship: has_component XCO:0000264 ! Freund's adjuvant
-created_by: slaulederkind
-creation_date: 2025-10-13T13:23:36Z
-
-[Term]
-id: XCO:0001727
-name: pregestational maternal exposure to Freund's adjuvant and saline
-def: "This is any condition in which the main influencing factor is any pregestational maternal exposure to a mix of Freund's adjuvant and saline that serves as vehicle control for antibody-generating conditions that have multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) vehicle control exposure on the F1 offspring." [PMID:39929953]
-synonym: "pregestational maternal exposure to Freund's adjuvant and 0.9% sodium chloride solution" EXACT []
-is_a: XCO:0001726 ! multigenerational maternal exposure to Freund's adjuvant and saline
-created_by: slaulederkind
-creation_date: 2025-10-13T13:44:52Z
-
-[Term]
-id: XCO:0001728
-name: gene transfer of the human CYP11A1 gene using an adenovirus vector
-def: "This is any condition in which the main influencing factor is the transfer (transiently or stably) of the human CYP11A1 (cytochrome P450 family 11 subfamily A member 1) gene into a cell or organism using an adenovirus carrier in order to induce synthesis of that gene's product in the recipient cell or organism." [PMID:35002603]
-synonym: "adenoviral transfer of the human CYP11A1 gene" EXACT []
-synonym: "gene transfer of the human cytochrome P450 family 11 subfamily A member 1 gene using an adenovirus vector" EXACT []
-synonym: "transfer of recombinant adenovirus containing  the human CYP11A1 gene" EXACT []
-xref: RGD:735631
-is_a: XCO:0000529 ! gene transfer using an adenovirus vector
-created_by: slaulederkind
-creation_date: 2025-10-14T16:57:35Z
-
-[Term]
-id: XCO:0001729
-name: multigenerational maternal exposure to gene transfer of the human CYP11A1 gene using an adenovirus vector
-def: "This is any condition in which the main influencing factor is any maternal exposure to gene transfer of the human CYP11A1 gene using an adenovirus vector that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) exposure to gene transfer of the human CYP11A1 gene using an adenovirus vector on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com, PMID:35002603]
-synonym: "multigenerational maternal exposure to adenoviral transfer of the human CYP11A1 gene" EXACT []
-synonym: "multigenerational maternal exposure to gene transfer of the human cytochrome P450 family 11 subfamily A member 1 gene using an adenovirus vector" EXACT []
-synonym: "multigenerational maternal exposure to transfer of recombinant adenovirus containing the human CYP11A1 gene" EXACT []
-is_a: XCO:0001728 ! gene transfer of the human CYP11A1 gene using an adenovirus vector
-created_by: slaulederkind
-creation_date: 2025-10-14T17:11:20Z
-
-[Term]
-id: XCO:0001730
-name: gestational maternal exposure to gene transfer of the human CYP11A1 gene using an adenovirus vector
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to gene transfer of the human CYP11A1 gene using an adenovirus vector. This is a condition typically studied to determine the effect of a maternal (F0) exposure to gene transfer of the human CYP11A1 gene using an adenovirus vector on the F1 offspring." [https://www.merriam-webster.com, PMID:35002603]
-synonym: "gestational maternal exposure to adenoviral transfer of the human CYP11A1 gene" EXACT []
-synonym: "gestational maternal exposure to gene transfer of the human cytochrome P450 family 11 subfamily A member 1 gene using an adenovirus vector" EXACT []
-synonym: "gestational maternal exposure to transfer of recombinant adenovirus containing the human CYP11A1 gene" EXACT []
-is_a: XCO:0000420 ! controlled in utero environment
-relationship: part_of XCO:0001729 ! multigenerational maternal exposure to gene transfer of the human CYP11A1 gene using an adenovirus vector
-created_by: slaulederkind
-creation_date: 2025-10-14T17:18:24Z
-
-[Term]
-id: XCO:0001731
-name: multigenerational maternal exposure to gene transfer of enhanced green fluorescent protein gene using an adenovirus vector
-def: "This is any condition in which the main influencing factor is any maternal exposure to gene transfer of the enhanced green fluorescent protein gene using an adenovirus vector that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) exposure to gene transfer of the enhanced green fluorescent protein gene using an adenovirus vector on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com, PMID:35002603]
-synonym: "multigenerational maternal exposure to adenoviral transfer of the enhanced green fluorescent protein gene" EXACT []
-synonym: "multigenerational maternal exposure to gene transfer of EGFP gene using an adenovirus vector" EXACT []
-synonym: "multigenerational maternal exposure to gene transfer of the enhanced green fluorescent protein gene using an adenovirus vector" EXACT []
-synonym: "multigenerational maternal exposure to transfer of recombinant adenovirus containing the enhanced green fluorescent protein gene" EXACT []
-is_a: XCO:0000531 ! gene transfer of the enhanced green fluorescent protein gene using an adenovirus vector
-created_by: slaulederkind
-creation_date: 2025-10-14T18:22:31Z
-
-[Term]
-id: XCO:0001732
-name: gestational maternal exposure to gene transfer of the enhanced green fluorescent protein gene using an adenovirus vector
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to gene transfer of the enhanced green fluorescent protein gene using an adenovirus vector. This is a condition typically studied to determine the effect of a maternal (F0) exposure to gene transfer of the enhanced green fluorescent protein gene using an adenovirus vector on the F1 offspring." [https://www.merriam-webster.com, PMID:35002603]
-synonym: "gestational maternal exposure to adenoviral transfer of the EGFP gene" EXACT []
-synonym: "gestational maternal exposure to gene transfer of the EGFP gene using an adenovirus vector" EXACT []
-synonym: "gestational maternal exposure to gene transfer of the enhanced green fluorescent protein gene using an adenovirus vector" EXACT []
-synonym: "gestational maternal exposure to transfer of recombinant adenovirus containing the enhanced green fluorescent protein gene" EXACT []
-is_a: XCO:0000420 ! controlled in utero environment
-relationship: part_of XCO:0001731 ! multigenerational maternal exposure to gene transfer of enhanced green fluorescent protein gene using an adenovirus vector
-created_by: slaulederkind
-creation_date: 2025-10-14T18:30:48Z
 
 [Typedef]
 id: has_component
