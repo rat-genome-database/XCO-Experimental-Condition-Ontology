@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.217
-date: 25:10:2025 20:13
+data-version: 4.216
+date: 18:10:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -5802,7 +5802,7 @@ creation_date: 2019-05-08T14:50:29Z
 
 [Term]
 id: XCO:0000613
-name: adenosine triphosphate
+name: Adenosine triphosphate
 def: "Adenosine Triphosphate (ATP) is an adenine nucleotide comprised of three phosphate groups esterified to the sugar moiety, found in all living cells. Adenosine triphosphate is involved in energy production for metabolic processes and RNA synthesis. In addition, this substance acts as a neurotransmitter. In cancer studies, adenosine triphosphate is synthesized to examine its use to decrease weight loss and improve muscle strength." [https://ncit.nci.nih.gov/ncitbrowser/ "NIH Thesaurus"]
 xref: CHEBI:15422
 xref: pubchem.compound:5957
@@ -7973,7 +7973,6 @@ id: XCO:0000818
 name: gene transfer using a plasmid vector
 def: "A condition in which gene transfer has been performed using a plasmid as the carrier of the genetic material. A plasmid is a small, circular, double-stranded DNA molecule that is distinct from a cell's chromosomal DNA. Plasmids naturally exist in bacterial cells, and they also occur in some eukaryotes. Plasmids that are used experimentally as molecular tools are called vectors." [https://www.merriam-webster.com/, https://www.nature.com/scitable/definition/plasmid-plasmids-28/]
 synonym: "plasmid gene transfer" EXACT []
-synonym: "transformation of plasmid DNA" EXACT []
 xref: PMID:21993171
 is_a: XCO:0000528 ! gene transfer
 created_by: slaulede
@@ -7982,7 +7981,7 @@ creation_date: 2021-03-04T18:11:03Z
 [Term]
 id: XCO:0000819
 name: gene transfer using plasmid vector pVAX2
-def: "This is any condition in which the main influencing factor is gene transfer using plasmid pVAX2 as the carrier of the genetic material. The pVAX2 plasmid is based on the pVAX1 plasmid, which was designed for use in the development of DNA vaccines." [https://www.thermofisher.com/order/catalog/product/V26020#/V26020, PMID:19440225]
+def: "A condition in which gene transfer has been performed using the plasmid pVAX2 as the carrier of the genetic material. The pVAX2 plasmid is based on the pVAX1 plasmid, which was designed for use in the development of DNA vaccines." [https://www.thermofisher.com/order/catalog/product/V26020#/V26020, PMID:19440225]
 xref: PMID:19440225
 is_a: XCO:0000818 ! gene transfer using a plasmid vector
 created_by: slaulede
@@ -7990,14 +7989,12 @@ creation_date: 2021-03-04T18:29:17Z
 
 [Term]
 id: XCO:0000820
-name: sham gene transfer using an empty plasmid vector pVAX2
-def: "This is any condition in which the main influencing factor is gene transfer of an empty plasmid vector pVAX2. The pVAX2 plasmid is based on the pVAX1 plasmid, which was designed for use in the development of DNA vaccines." [https://www.thermofisher.com/order/catalog/product/V26020#/V26020, PMID:21993171]
-synonym: "gene transfer using empty plasmid vector pVAX2" EXACT []
+name: gene transfer using empty plasmid vector pVAX2
+def: "A control condition in which gene transfer has been performed using an empty plasmid pVAX2. The pVAX2 plasmid is based on the pVAX1 plasmid, which was designed for use in the development of DNA vaccines." [https://www.thermofisher.com/order/catalog/product/V26020#/V26020, PMID:21993171]
 synonym: "gene transfer using only the backbone of plasmid vector pVAX2" EXACT []
 xref: PMID:19440225
 xref: PMID:21993171
 is_a: XCO:0000819 ! gene transfer using plasmid vector pVAX2
-is_a: XCO:0001744 ! sham gene transfer using an empty plasmid vector
 created_by: slaulede
 creation_date: 2021-03-08T13:54:50Z
 
@@ -9067,8 +9064,6 @@ synonym: "baking soda" EXACT []
 synonym: "bicarbonate of soda" EXACT []
 synonym: "sodium hydrogen carbonate" EXACT []
 synonym: "sodium hydrogencarbonate" EXACT []
-xref: CHEBI:32139
-xref: CID:516892
 xref: PMID:29168078
 relationship: has_component XCO:0000253 ! sodium ion
 created_by: slaulede
@@ -11511,8 +11506,8 @@ id: XCO:0001122
 name: antianxiety agent
 def: "This is any condition in which the main influencing factor is an anti-anxiety agent, a medication or other intervention that reduces anxiety. Anxiolytic medications are used for the treatment of anxiety disorders and their related psychological and physical symptoms." [https://en.wikipedia.org/wiki/Anxiolytic, https://www.merriam-webster.com/]
 synonym: "anti-anxiety agent" EXACT []
-synonym: "anti-anxiety drug" EXACT []
 synonym: "antianxiety drug" EXACT []
+synonym: "anti-anxiety drug" EXACT []
 synonym: "antipanic agent" EXACT []
 synonym: "anxiolytic" EXACT []
 synonym: "anxiolytic medication" EXACT []
@@ -14671,7 +14666,6 @@ name: gestational maternal exposure to saline
 def: "This is any condition in which the main influencing factor is any gestational maternal exposure to saline. This is a vehicle control condition typically studied to determine any effect of maternal (F0) saline (vehicle) use/exposure on the F1 offspring." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
 synonym: "gestational maternal exposure to 0.9% sodium chloride solution" EXACT []
 synonym: "gestational maternal exposure to normal saline" EXACT []
-synonym: "maternal exposure to saline during pregnancy" EXACT []
 xref: PMID:38007547
 is_a: XCO:0000420 ! controlled in utero environment
 is_a: XCO:0001385 ! multigenerational maternal exposure to saline
@@ -15035,6 +15029,7 @@ synonym: "transgenerational maternal exposure to distilled, deionized water" EXA
 xref: CHEBI:7852
 xref: PMID:31919777
 is_a: XCO:0000101 ! vehicle control condition
+is_a: XCO:0000420 ! controlled in utero environment
 is_a: XCO:0001416 ! distilled deionized water
 created_by: slaulederkind
 creation_date: 2024-06-21T17:15:02Z
@@ -15926,7 +15921,6 @@ def: "This is any condition in which the main influencing factor is any gestatio
 synonym: "gestational maternal exposure to 17alpha-ethynylestra-1,3,5(10)-triene-3,17beta-diol" EXACT []
 synonym: "gestational maternal exposure to ethinyl estradiol" EXACT []
 synonym: "gestational maternal exposure to ethynylestradiol" EXACT []
-synonym: "maternal exposure to 17alpha-ethynylestradiol during pregnancy" EXACT []
 xref: PMID:33296240
 is_a: XCO:0000420 ! controlled in utero environment
 relationship: part_of XCO:0001493 ! multigenerational maternal exposure to 17alpha-ethynylestradiol
@@ -15938,7 +15932,6 @@ id: XCO:0001497
 name: gestational maternal exposure to bisphenol A
 def: "This is any condition in which the main influencing factor is any gestational maternal exposure to bisphenol A. This is a condition typically studied to determine the effect of maternal (F0) bisphenol A use/exposure on the F1 offspring." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
 synonym: "gestational maternal exposure to BPA" EXACT []
-synonym: "maternal exposure to bisphenol A during pregnancy" EXACT []
 xref: PMID:33296240
 is_a: XCO:0000420 ! controlled in utero environment
 relationship: part_of XCO:0001494 ! multigenerational maternal exposure to bisphenol A
@@ -15953,7 +15946,6 @@ synonym: "gestational maternal exposure to carboxymethylcellulose sodium" EXACT 
 synonym: "gestational maternal exposure to carboxymethylcellulose sodium salt" EXACT []
 synonym: "gestational maternal exposure to carmellose sodium" EXACT []
 synonym: "gestational maternal exposure to CMC-Na" EXACT []
-synonym: "maternal exposure to sodium carboxymethylcellulose during pregnancy" EXACT []
 xref: CHEBI:85146
 xref: CID:6328154
 xref: MESH:D002266
@@ -16154,7 +16146,6 @@ name: gestational maternal exposure to methylazoxymethanol acetate
 def: "This is any condition in which the main influencing factor is any gestational maternal exposure to methylazoxymethanol acetate. This is a condition typically studied to determine the effect of maternal (F0) methylazoxymethanol acetate use/exposure on the F1 offspring." [https://www.merriam-webster.com/, PMID:25839742]
 synonym: "gestational maternal exposure to [(Z)-methyl-ONN-azoxy]methyl acetate" EXACT []
 synonym: "gestational maternal exposure to MAM" EXACT []
-synonym: "maternal exposure to methylazoxymethanol acetate during pregnancy" EXACT []
 xref: PMID:32497066
 is_a: XCO:0000420 ! controlled in utero environment
 relationship: part_of XCO:0001514 ! multigenerational maternal exposure to methylazoxymethanol acetate
@@ -16182,7 +16173,6 @@ synonym: "gestational maternal exposure dsRNA poly(I:C)" EXACT []
 synonym: "gestational maternal exposure poly(I:C)" EXACT []
 synonym: "gestational maternal exposure polyinosinic-polycytidylic acid" EXACT []
 synonym: "gestational maternal exposure to Poly(I:C) dsRNA" EXACT []
-synonym: "maternal exposure to poly I:C during pregnancy" EXACT []
 xref: PMID:32497066
 is_a: XCO:0000420 ! controlled in utero environment
 relationship: part_of XCO:0001516 ! multigenerational maternal exposure to poly I:C
@@ -16204,7 +16194,6 @@ id: XCO:0001519
 name: gestational maternal exposure to a controlled protein content diet
 def: "This is any condition in which the main influencing factor is gestational maternal exposure to a controlled protein content diet. This is a condition typically studied to determine the effect of a maternal (F0) controlled protein content diet on the F1 offspring." [https://www.merriam-webster.com, PMID:25839742]
 synonym: "gestational maternal exposure to controlled protein content diet" EXACT []
-synonym: "maternal exposure to a controlled protein content diet during pregnancy" EXACT []
 synonym: "PMID:32497066" EXACT []
 is_a: XCO:0000420 ! controlled in utero environment
 relationship: part_of XCO:0001518 ! multigenerational maternal exposure to a controlled protein content diet
@@ -16300,7 +16289,6 @@ name: gestational maternal exposure to streptozotocin
 def: "This is any condition in which the main influencing factor is any gestational maternal exposure to streptozotocin. This is a condition typically studied to determine the effect of maternal (F0) streptozotocin exposure on the F1 offspring." [https://www.merriam-webster.com/, PMID:25839742]
 synonym: "gestational maternal exposure to streptozocin" EXACT []
 synonym: "gestational maternal exposure to STZ" EXACT []
-synonym: "maternal exposure to streptozotocin during pregnancy" EXACT []
 xref: PMID:32595139
 is_a: XCO:0000420 ! controlled in utero environment
 relationship: part_of XCO:0001526 ! multigenerational maternal exposure to streptozotocin
@@ -16323,7 +16311,6 @@ id: XCO:0001529
 name: gestational maternal exposure to citrate buffer
 def: "This is any condition in which the main influencing factor is any gestational maternal exposure to citrate buffer. This is a condition typically studied to determine the effect of maternal (F0) citrate buffer exposure on the F1 offspring. This is typically a control condition for gestational maternal exposure to some chemical agent." [https://www.merriam-webster.com, PMID:25839742]
 synonym: "gestational maternal exposure to sodium citrate buffer" EXACT []
-synonym: "maternal exposure to citrate buffer during pregnancy" EXACT []
 xref: PMID:32595139
 is_a: XCO:0000420 ! controlled in utero environment
 relationship: part_of XCO:0001528 ! multigenerational maternal exposure to citrate buffer
@@ -16347,7 +16334,6 @@ name: gestational maternal exposure to hyperglycemia
 def: "This is any condition in which the main influencing factor is any gestational maternal exposure to hyperglycemia (blood glucose level > 180 mg/dl). This is a condition typically studied to determine the effect of maternal (F0) hyperglycemia exposure on the F1 offspring." [https://www.merriam-webster.com, PMID:25839742]
 synonym: "gestational maternal exposure to high blood glucose" EXACT []
 synonym: "gestational maternal exposure to high blood sugar" EXACT []
-synonym: "maternal exposure to hyperglycemia during pregnancy" EXACT []
 xref: PMID:32595139
 is_a: XCO:0000420 ! controlled in utero environment
 relationship: part_of XCO:0001530 ! multigenerational maternal exposure to hyperglycemia
@@ -16442,7 +16428,7 @@ creation_date: 2025-02-07T13:25:10Z
 [Term]
 id: XCO:0001539
 name: sham gene transfer using an empty lentivirus vector
-def: "This is any condition in which the major influencing factor is an empty lentivirus vector that has been transferred into a cell or organism. This condition is used as a control for a lentivirus transfer of a specific gene." [https://en.wikipedia.org/wiki/Transduction_(genetics), PMID:28927539]
+def: "This is a condition in which an empty lentivirus vector (transiently or stably) has been transferred into a cell or organism. This condition is used as a control for a lentivirus transfer of a specific gene." [https://en.wikipedia.org/wiki/Transduction_(genetics), PMID:28927539]
 synonym: "sham gene transfer using an empty lentiviral vector" EXACT []
 synonym: "sham transduction using an empty lentiviral vector" EXACT []
 synonym: "sham transduction using an empty lentivirus vector" EXACT []
@@ -16505,7 +16491,6 @@ creation_date: 2025-02-11T14:13:59Z
 id: XCO:0001545
 name: gestational maternal exposure to oxytocin
 def: "This is any condition in which the main influencing factor is any gestational maternal exposure to oxytocin. This is a condition typically studied to determine the effect of maternal (F0) oxytocin use/exposure on the F1 offspring." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
-synonym: "maternal exposure to oxytocin during pregnancy" EXACT []
 xref: PMID:38327784
 is_a: XCO:0000420 ! controlled in utero environment
 is_a: XCO:0001543 ! multigenerational maternal exposure to oxytocin
@@ -16770,7 +16755,6 @@ name: gestational maternal exposure to perfluorohexane sulfonate
 def: "This is any condition in which the main influencing factor is any gestational maternal exposure to perfluorohexane sulfonate. This is a condition typically studied to determine the effect of maternal (F0) perfluorohexane sulfonate use/exposure on the F1 offspring." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
 synonym: "gestational maternal exposure to perfluorohexanesulfonate" EXACT []
 synonym: "gestational maternal exposure to potassium perfluorohexanesulfonate" NARROW []
-synonym: "maternal exposure to perfluorohexane sulfonate during pregnancy" EXACT []
 xref: CID:23678874
 xref: GEO:GSE262750
 xref: PMID:38963985
@@ -16813,7 +16797,6 @@ name: gestational maternal exposure to 6-propyl-2-thiouracil
 def: "This is any condition in which the main influencing factor is any gestational maternal exposure to 6-propyl-2-thiouracil. This is a condition typically studied to determine the effect of maternal (F0) 6-propyl-2-thiouracil use/exposure on the F1 offspring." [CID:657298, https://www.merriam-webster.com/]
 synonym: "gestational maternal exposure to propylthiouracil" EXACT []
 synonym: "gestational maternal exposure to PTU" EXACT []
-synonym: "maternal exposure to 6-propyl-2-thiouracil during pregnancy" EXACT []
 xref: CHEBI:8502
 xref: GEO:GSE262750
 xref: MESH:D011441
@@ -17034,10 +17017,9 @@ id: XCO:0001585
 name: gestational maternal exposure to dimethyl sulfoxide
 def: "This is any condition in which the main influencing factor is any gestational maternal exposure to dimethyl sulfoxide. This is a condition typically studied to determine the effect of maternal (F0) dimethyl sulfoxide use/exposure on the F1 offspring." [https://www.merriam-webster.com/, PMID:25839742]
 synonym: "gestational maternal exposure to DMSO" EXACT []
-synonym: "maternal exposure to dimethyl sulfoxide during pregnancy" EXACT []
 xref: PMID:39652430
 is_a: XCO:0000420 ! controlled in utero environment
-relationship: part_of XCO:0001584 ! multigenerational maternal exposure to dimethyl sulfoxide
+is_a: XCO:0001584 ! multigenerational maternal exposure to dimethyl sulfoxide
 created_by: slaulederkind
 creation_date: 2025-04-18T10:55:22Z
 
@@ -17075,7 +17057,6 @@ synonym: "gestational maternal exposure to 2-(1H-indol-3-ylcarbonyl)-1,3-thiazol
 synonym: "gestational maternal exposure to 2-(1H-Indol-3-ylcarbonyl)-4-thiazolecarboxylic acid methyl ester" EXACT []
 synonym: "gestational maternal exposure to 2-(1H-indole-3-carbonyl)-1,3-thiazole-4-carboxylate" EXACT []
 synonym: "gestational maternal exposure to 2-[1H-indol-3-yl(oxo)methyl]-4-thiazolecarboxylic acid methyl ester" EXACT []
-synonym: "maternal exposure to ITE during pregnancy" EXACT []
 xref: PMID:39652430
 is_a: XCO:0000420 ! controlled in utero environment
 is_a: XCO:0001587 ! multigenerational maternal exposure to ITE
@@ -17720,7 +17701,7 @@ synonym: "maternal exposure to corn oil during pregnancy" EXACT []
 synonym: "maternal exposure to maize oil during pregnancy" EXACT []
 xref: GEO:GSE255311
 is_a: XCO:0000420 ! controlled in utero environment
-relationship: part_of XCO:0001636 ! multigenerational maternal exposure to corn oil
+is_a: XCO:0001636 ! multigenerational maternal exposure to corn oil
 created_by: slaulederkind
 creation_date: 2025-06-03T15:59:35Z
 
@@ -17762,7 +17743,7 @@ synonym: "gestational maternal exposure to dipentyl benzene-1,2-dicarboxylate" E
 synonym: "maternal exposure to dipentyl phthalate during pregnancy" EXACT []
 xref: CHEBI:34680
 is_a: XCO:0000420 ! controlled in utero environment
-relationship: part_of XCO:0001639 ! multigenerational maternal exposure to dipentyl phthalate
+is_a: XCO:0001639 ! multigenerational maternal exposure to dipentyl phthalate
 created_by: slaulederkind
 creation_date: 2025-06-03T16:43:59Z
 
@@ -18163,7 +18144,7 @@ synonym: "maternal exposure to controlled air O3 content during pregnancy" EXACT
 synonym: "maternal exposure to controlled air ozone content during pregnancy" EXACT []
 xref: PMID:39865885
 is_a: XCO:0000420 ! controlled in utero environment
-relationship: part_of XCO:0001671 ! multigenerational maternal exposure to controlled air ozone oxygen content
+is_a: XCO:0001671 ! multigenerational maternal exposure to controlled air ozone oxygen content
 created_by: slaulederkind
 creation_date: 2025-06-30T10:33:14Z
 
@@ -18417,7 +18398,6 @@ synonym: "CHEBI:233321" EXACT []
 synonym: "CID:11388332" EXACT []
 synonym: "gestational maternal exposure to nanoparticle-bound mitoquinone" EXACT []
 synonym: "GSE131040" EXACT []
-synonym: "maternal exposure to MitoQ-NP during pregnancy" EXACT []
 synonym: "MESH:C429014" EXACT []
 is_a: XCO:0000420 ! controlled in utero environment
 is_a: XCO:0001691 ! multigenerational maternal exposure to MitoQ-NP
@@ -18458,7 +18438,6 @@ synonym: "gestational maternal exposure to housing with acute defeat paradigm" E
 synonym: "gestational maternal exposure to housing with chronic defeat paradigm" EXACT []
 synonym: "gestational maternal exposure to housing with defeat paradigm" EXACT []
 synonym: "gestational maternal exposure to social stress" RELATED []
-synonym: "maternal exposure to housing with intruder-resident paradigm during pregnancy" EXACT []
 xref: GEO:GSE131040
 xref: PMID:20136688
 is_a: XCO:0000420 ! controlled in utero environment
@@ -18837,8 +18816,8 @@ synonym: "LDH1 multiple antigenic peptides" EXACT []
 synonym: "LDHA MAPs" EXACT []
 synonym: "LDH-A multiple antigenic peptides" EXACT []
 synonym: "LDHA multiple antigenic peptides" EXACT []
-synonym: "LDH-M multiple antigenic peptides" EXACT []
 synonym: "LDHM multiple antigenic peptides" EXACT []
+synonym: "LDH-M multiple antigenic peptides" EXACT []
 synonym: "LDH muscle subunit multiple antigenic peptides" EXACT []
 synonym: "L-lactate dehydrogenase A chain multiple antigenic peptides" EXACT []
 is_a: XCO:0001713 ! lactate dehydrogenase A
@@ -18990,7 +18969,6 @@ def: "This is any condition in which the main influencing factor is any gestatio
 synonym: "gestational maternal exposure to adenoviral transfer of the human CYP11A1 gene" EXACT []
 synonym: "gestational maternal exposure to gene transfer of the human cytochrome P450 family 11 subfamily A member 1 gene using an adenovirus vector" EXACT []
 synonym: "gestational maternal exposure to transfer of recombinant adenovirus containing the human CYP11A1 gene" EXACT []
-synonym: "maternal exposure to gene transfer of the human CYP11A1 gene using an adenovirus vector during pregnancy" EXACT []
 is_a: XCO:0000420 ! controlled in utero environment
 relationship: part_of XCO:0001729 ! multigenerational maternal exposure to gene transfer of the human CYP11A1 gene using an adenovirus vector
 created_by: slaulederkind
@@ -19016,152 +18994,10 @@ synonym: "gestational maternal exposure to adenoviral transfer of the EGFP gene"
 synonym: "gestational maternal exposure to gene transfer of the EGFP gene using an adenovirus vector" EXACT []
 synonym: "gestational maternal exposure to gene transfer of the enhanced green fluorescent protein gene using an adenovirus vector" EXACT []
 synonym: "gestational maternal exposure to transfer of recombinant adenovirus containing the enhanced green fluorescent protein gene" EXACT []
-synonym: "maternal exposure to gene transfer of the enhanced green fluorescent protein gene using an adenovirus vector during pregnancy" EXACT []
 is_a: XCO:0000420 ! controlled in utero environment
 relationship: part_of XCO:0001731 ! multigenerational maternal exposure to gene transfer of enhanced green fluorescent protein gene using an adenovirus vector
 created_by: slaulederkind
 creation_date: 2025-10-14T18:30:48Z
-
-[Term]
-id: XCO:0001733
-name: experimental spinal cord transection at T8
-def: "This is any condition in which the main influencing factor is an experimental transection of the rat spinal cord at the vertebral level of thoracic 8 (T8). This procedure involves exposure of the spinal cord at the vertebral level of thoracic 8-10 (T8-10) and complete transection of the isolated section of spinal cord at T8." [ISBN-13:978-1455756438, PMID:40338665]
-synonym: "experimental spinal cord transection at thoracic 8" EXACT []
-is_a: XCO:0001091 ! experimental spinal cord injury
-created_by: slaulederkind
-creation_date: 2025-10-21T17:26:23Z
-
-[Term]
-id: XCO:0001734
-name: inosine
-def: "This is any condition in which the main influencing factor is inosine, a purine nucleoside that is an intermediate in the degradation of purines and purine nucleosides to uric acid and in pathways of purine salvage. It also occurs in human tRNA molecules. Animal studies have suggested that inosine has neuroprotective properties" [https://en.wikipedia.org/wiki/Inosine, MESH:D007288]
-synonym: "hypoxanthine D-riboside" EXACT []
-synonym: "hypoxanthosine" EXACT []
-synonym: "ribonosine" EXACT []
-xref: CHEBI:17596
-xref: CID:135398641
-xref: MESH:D007288
-xref: PMID:40338665
-is_a: XCO:0000392 ! nucleoside/nucleotide
-created_by: slaulederkind
-creation_date: 2025-10-21T17:40:54Z
-
-[Term]
-id: XCO:0001735
-name: sodium carbonate/sodium bicarbonate buffer
-def: "This is any condition in which the main influencing factor is sodium carbonate/sodium bicarbonate buffer, a combination of sodium carbonate/sodium bicarbonate in water to form a solution with a pH range of 9.2 to 10.6." [https://www.aatbio.com/resources/buffer-preparations-and-recipes/carbonate-bicarbonate-buffer-ph-9-2-to-10-6, https://www.merriam-webster.com]
-synonym: "Na2CO3/NaHCO3 buffer" EXACT []
-synonym: "sodium bicarbonate buffer" RELATED []
-synonym: "sodium carbonate/sodium bicarbonate buffer solution" EXACT []
-xref: PMID:33387836
-xref: PMID:40338665
-is_a: XCO:0000315 ! buffer solution
-relationship: has_component XCO:0000911 ! sodium bicarbonate
-created_by: slaulederkind
-creation_date: 2025-10-21T18:04:13Z
-
-[Term]
-id: XCO:0001736
-name: uterine tissue autograft
-def: "This is any condition in which the main influencing factor is a uterine tissue autograft, a transplantation of autologous uterine tissue. This procedure is used as an experimentally induced model of endometriosis in laboratory animals. As an example, the grafted tissue may be removed from the uterine horn and attached to mesenteric arteries supplying the small intestine." [https://www.merriam-webster.com, PMID:40502156]
-synonym: "transplant of autologous uterine tissue" EXACT []
-synonym: "uterine horn autograft" NARROW []
-xref: PMID:4054348
-is_a: XCO:0000027 ! surgical implantation
-created_by: slaulederkind
-creation_date: 2025-10-23T11:14:13Z
-
-[Term]
-id: XCO:0001737
-name: simvastatin
-def: "This is any condition in which the main influencing factor is simvastatin, a derivative of lovastatin and potent competitive inhibitor of 3-hydroxy-3-methylglutaryl coenzyme A reductase, which is the rate-limiting enzyme in cholesterol biosynthesis. It may also interfere with steroid hormone production. Due to the induction of hepatic LDL receptors, it increases breakdown of LDL cholesterol." [MESH:D019821]
-synonym: "Zocor" EXACT []
-xref: CHEBI:9150
-xref: CID:54454
-xref: PMID:40502156
-is_a: XCO:0000511 ! ester
-is_a: XCO:0000523 ! enzyme inhibitor
-is_a: XCO:0000680 ! antilipemic agent
-created_by: slaulederkind
-creation_date: 2025-10-23T11:46:48Z
-
-[Term]
-id: XCO:0001738
-name: primaquine
-def: "This is any condition in which the main influencing factor is primaquine, an N-substituted diamine that is a drug used in the treatment of malaria and Pneumocystis pneumonia. It is an aminoquinoline and an aromatic ether." [CID:4908]
-synonym: "90-34-6" EXACT []
-synonym: "N(4)-(6-methoxyquinolin-8-yl)pentane-1,4-diamine" EXACT []
-xref: CHEBI:8405
-xref: MESH:D011319
-xref: PMID:40502156
-is_a: XCO:0000799 ! ether
-is_a: XCO:0000850 ! therapeutic agent
-created_by: slaulederkind
-creation_date: 2025-10-23T12:01:48Z
-
-[Term]
-id: XCO:0001739
-name: dicyclohexyl phthalate
-def: "This is any condition in which the main influencing factor is dicyclohexyl phthalate,a phthalate ester. Phthalate esters are esters of phthalic acid and are mainly used as plasticizers and found in many commercial products. Phthalates are hazardous due to their ability to act as endocrine disruptors." [CID:6777]
-synonym: "DCHP" EXACT []
-xref: CAS:84-61-7
-xref: CHEBI:34693
-xref: MESH:C036042
-is_a: XCO:0000511 ! ester
-created_by: slaulederkind
-creation_date: 2025-10-23T14:46:03Z
-
-[Term]
-id: XCO:0001740
-name: multigenerational maternal exposure to dicyclohexyl phthalate
-def: "This is any condition in which the main influencing factor is any maternal exposure to dicyclohexyl phthalate that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) dicyclohexyl phthalate exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com/, PMID:25839742]
-synonym: "multigenerational maternal exposure to DCHP" EXACT []
-is_a: XCO:0001739 ! dicyclohexyl phthalate
-created_by: slaulederkind
-creation_date: 2025-10-23T14:53:47Z
-
-[Term]
-id: XCO:0001741
-name: gestational maternal exposure to dicyclohexyl phthalate
-def: "This is any condition in which the main influencing factor is gestational maternal exposure to dicyclohexyl phthalate. This is a condition typically studied to determine the effect of maternal (F0) exposure to dicyclohexyl phthalate on the F1 offspring." [https://www.merriam-webster.com, PMID:25839742]
-synonym: "gestational maternal exposure to DCHP" EXACT []
-synonym: "maternal exposure to dicyclohexyl phthalate during pregnancy" EXACT []
-is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001740 ! multigenerational maternal exposure to dicyclohexyl phthalate
-created_by: slaulederkind
-creation_date: 2025-10-23T15:13:45Z
-
-[Term]
-id: XCO:0001742
-name: gene transfer using plasmid vector pVAX1
-def: "This is any condition in which the main influencing factor is gene transfer using plasmid vector pVAX1 as the carrier of the genetic material. The pVAX1 plasmid was designed for use in the development of DNA vaccines." [https://www.thermofisher.com/order/catalog/product/V26020#/V26020]
-is_a: XCO:0000818 ! gene transfer using a plasmid vector
-created_by: slaulederkind
-creation_date: 2025-10-23T18:09:10Z
-
-[Term]
-id: XCO:0001743
-name: sham gene transfer using an empty plasmid vector pVAX1
-def: "This is any condition in which the main influencing factor is gene transfer of an empty plasmid vector pVAX1 that has been transferred into a cell or organism.. The pVAX1 plasmid was designed for use in the development of DNA vaccines." [https://www.thermofisher.com/order/catalog/product/V26020#/V26020]
-synonym: "gene transfer using empty plasmid vector pVAX1" EXACT []
-synonym: "gene transfer using only the backbone of plasmid vector pVAX1" EXACT []
-synonym: "sham gene transfer using an empty plasmid pVAX1 vector" EXACT []
-synonym: "sham gene transformation using an empty plasmid pVAX1 vector" EXACT []
-is_a: XCO:0001742 ! gene transfer using plasmid vector pVAX1
-is_a: XCO:0001744 ! sham gene transfer using an empty plasmid vector
-created_by: slaulederkind
-creation_date: 2025-10-23T18:14:11Z
-
-[Term]
-id: XCO:0001744
-name: sham gene transfer using an empty plasmid vector
-def: "This is any condition in which the major influencing factor is an empty plasmid vector has been transferred (transiently or stably) into a cell or organism. This condition is used as a control for a plasmid transfer of a specific gene." [https://en.wikipedia.org/wiki/Plasmid]
-synonym: "empty plasmid vector transfer" EXACT []
-synonym: "transformation using an empty plasmid vector" EXACT []
-is_a: XCO:0000099 ! control condition
-is_a: XCO:0000818 ! gene transfer using a plasmid vector
-created_by: slaulederkind
-creation_date: 2025-10-23T18:21:36Z
 
 [Typedef]
 id: has_component
