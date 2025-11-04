@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.218
-date: 01:11:2025 20:13
+data-version: 4.217
+date: 25:10:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -3047,7 +3047,7 @@ creation_date: 2013-08-22T15:50:50Z
 [Term]
 id: XCO:0000336
 name: adrenergic antagonist
-def: "This is any condition in which the main influencing factor is an adrenergic antagonist, an agent that binds to but does not activate adrenergic receptors thereby blocking the actions of endogenous or exogenous adrenergic agonists, substances that have an affinity for and stimulate physiologic activity at adrenergic receptors. Adrenergic receptors are a class of G protein-coupled receptors that bind catecholamines, especially norepinephrine and epinephrine." [CHEBI:37887, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Adrenergic_receptors "Wikipedia", ISBN:978-1416049982]
+def: "Any condition in which the main influencing factor is an agent that binds to but does not activate adrenergic receptors thereby blocking the actions of endogenous or exogenous adrenergic agonists, substances that have an affinity for and stimulate physiologic activity at adrenergic receptors. Adrenergic receptors are a class of G protein-coupled receptors that are targets of catecholamines, especially norepinephrine and epinephrine." [CHEBI:37887, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Adrenergic_receptors "Wikipedia", ISBN:978-1416049982]
 synonym: "adrenergic receptor antagonist" EXACT []
 is_a: XCO:0000160 ! receptor antagonist
 created_by: jsmith
@@ -3562,7 +3562,7 @@ creation_date: 2014-01-21T16:58:06Z
 [Term]
 id: XCO:0000390
 name: antimetabolite
-def: "This is any condition in which the main influencing factor is an antimetabolite, a substance which competes with or replaces a metabolite (a chemical that is part of the normal metabolism of a cell or body), and so prevents or reduces its normal utilization or activity. Antimetabolites are often structurally similar to the metabolite for which they substitute." [http://en.wikipedia.org/wiki/Antimetabolite "Wikipedia"]
+def: "A condition in which the main influencing factor is a substance which competes with or replaces a metabolite (a chemical that is part of the normal metabolism of a cell or body), and so prevents or reduces its normal utilization or activity. Antimetabolites are often structurally similar to the metabolite for which they substitute." [http://en.wikipedia.org/wiki/Antimetabolite "Wikipedia"]
 xref: CHEBI:35221
 xref: MESH:D000963
 is_a: XCO:0000341 ! chemical with specified function
@@ -4729,12 +4729,10 @@ creation_date: 2017-02-22T18:36:33Z
 [Term]
 id: XCO:0000506
 name: non-steroidal anti-inflammatory drug
-def: "This is any condition in which the main influencing factor is a non-steroidal anti-inflammatory drug. NSAIDs act by blocking the synthesis of prostaglandins by inhibiting cyclooxygenase, which converts arachidonic acid to cyclic endoperoxides, precursors of prostaglandins." [CHEBI:35475, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
-synonym: "NSAID" EXACT []
+def: "A condition in which the main influencing factor is a chemical which counteracts or suppresses inflammation but which is not a steroid." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+synonym: "NSAID" RELATED []
 xref: CHEBI:35475
-is_a: XCO:0000106 ! anesthetic/analgesic
 is_a: XCO:0000505 ! anti-inflammatory agent
-is_a: XCO:0000523 ! enzyme inhibitor
 created_by: jesmith
 creation_date: 2017-02-22T18:40:46Z
 
@@ -7274,6 +7272,7 @@ xref: MESH:D004008
 xref: PMID:32119089
 is_a: XCO:0000106 ! anesthetic/analgesic
 is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
+is_a: XCO:0000523 ! enzyme inhibitor
 created_by: slaulede
 creation_date: 2020-09-25T10:32:53Z
 
@@ -7298,11 +7297,7 @@ creation_date: 2020-09-25T13:54:07Z
 [Term]
 id: XCO:0000753
 name: left carotid artery occlusion
-def: "This is any condition in which the main influencing factor is surgical manipulation and left common carotid artery ligation to achieve partial or total blockage of blood flow from the left common carotid artery, or a branch (internal or external) of the left common carotid artery. The left common carotid artery may be clamped or tied with a suture(s) to achieve blockage of blood flow." [ISBN-13:978-0323049375, PMID:31482584]
-synonym: "left carotid artery constriction" NARROW []
-synonym: "left carotid artery ligation" NARROW []
-synonym: "left common carotid artery constriction" NARROW []
-synonym: "left common carotid artery occlusion" EXACT []
+def: "A surgical manipulation causing blockage of the left common carotid artery, or a branch (internal or external) of the left common carotid artery." [ISBN-13:978-0323049375, PMID:31482584]
 is_a: XCO:0000751 ! unilateral carotid artery occlusion
 created_by: slaulede
 creation_date: 2020-09-25T14:00:57Z
@@ -10381,7 +10376,7 @@ creation_date: 2023-05-09T15:04:55Z
 [Term]
 id: XCO:0001026
 name: spinal nerve ligation
-def: "This is any condition in which the main influencing factor is the ligation of one or more segmental spinal nerves at a point before the spinal nerve joins a common nerve (most commonly: ligation of L5 and/or L6 nerves which, with L4, make up the sciatic nerve in rats). This is a model of chronic neuropathic pain." [https://link.springer.com/referenceworkentry/10.1007/978-3-540-29805-2_2683, PMID:1333581]
+def: "This is any condition in which the main influencing factor is the tight ligation of one or more segmental spinal nerves at a point before the spinal nerve joins a common nerve (most commonly: ligation of L5 and/or L6 nerves which, with L4, make up the sciatic nerve in rats). This is a model of chronic neuropathic pain." [https://link.springer.com/referenceworkentry/10.1007/978-3-540-29805-2_2683, PMID:1333581]
 synonym: "Chung model" RELATED []
 synonym: "SNL" EXACT []
 synonym: "SNL model" RELATED []
@@ -12163,6 +12158,7 @@ xref: MESH:C473384
 xref: PMID:32119089
 is_a: XCO:0000106 ! anesthetic/analgesic
 is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
+is_a: XCO:0000523 ! enzyme inhibitor
 created_by: slaulederkind
 creation_date: 2023-12-08T16:29:47Z
 
@@ -12376,7 +12372,9 @@ synonym: "4-(6-methoxynaphthalen-2-yl)butan-2-one" EXACT []
 synonym: "Relafen" EXACT []
 xref: CID:4409
 xref: PMID:32119089
+is_a: XCO:0000106 ! anesthetic/analgesic
 is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
+is_a: XCO:0000523 ! enzyme inhibitor
 created_by: slaulederkind
 creation_date: 2023-12-15T11:08:39Z
 
@@ -12400,6 +12398,7 @@ synonym: "(S)-(+)-2-(6-Methoxy-2-naphthyl)propionic acid" EXACT []
 xref: CID:156391
 xref: MESH:D009288
 is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
+is_a: XCO:0000523 ! enzyme inhibitor
 created_by: slaulederkind
 creation_date: 2023-12-15T11:49:04Z
 
@@ -13141,6 +13140,7 @@ synonym: "indometacin" EXACT []
 xref: CHEBI:49662
 xref: CID:3715
 is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
+is_a: XCO:0000523 ! enzyme inhibitor
 created_by: slaulederkind
 creation_date: 2024-01-19T10:58:34Z
 
@@ -14032,8 +14032,8 @@ xref: CHEBI:7852
 xref: PMID:25839742
 xref: PMID:33490084
 is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001334 ! multigenerational maternal exposure to oxycodone
-is_a: XCO:0001335 ! transgenerational maternal exposure to oxycodone
+relationship: part_of XCO:0001334 ! multigenerational maternal exposure to oxycodone
+relationship: part_of XCO:0001335 ! transgenerational maternal exposure to oxycodone
 created_by: slaulederkind
 creation_date: 2024-04-01T16:10:18Z
 
@@ -14376,12 +14376,12 @@ creation_date: 2024-04-16T14:35:03Z
 
 [Term]
 id: XCO:0001362
-name: experimental, post-traumatic osteoarthritis of the knee joint
+name: experimental post-traumatic osteoarthritis of the knee joint
 def: "This is any condition in which the main influencing factor is experimental post-traumatic osteoarthritis (PTOA) of the knee joint. This model of PTOA is initiated in rodents by axial compression overload of the joint to the point of ACL (anterior cruciate ligament) rupture." [ISBN-13:9780781733908, PMID:27235904]
 synonym: "experimental PTOA of knee" EXACT []
 xref: PMID:32778777
 xref: PMID:37425196
-is_a: XCO:0001759 ! experimental osteoarthritis of the knee joint
+is_a: XCO:0001100 ! physical manipulation
 created_by: slaulederkind
 creation_date: 2024-04-19T13:27:38Z
 
@@ -14624,7 +14624,7 @@ xref: CHEBI:44241
 xref: PMID:25839742
 xref: PMID:38007547
 is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001381 ! multigenerational maternal exposure to metyrapone
+relationship: part_of XCO:0001381 ! multigenerational maternal exposure to metyrapone
 created_by: slaulederkind
 creation_date: 2024-05-24T14:40:41Z
 
@@ -14649,7 +14649,7 @@ synonym: "maternal exposure to LPS during pregnancy" EXACT []
 xref: CHEBI:16412
 xref: PMID:38007547
 is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001383 ! multigenerational maternal exposure to lipopolysaccharide
+relationship: part_of XCO:0001383 ! multigenerational maternal exposure to lipopolysaccharide
 created_by: slaulederkind
 creation_date: 2024-05-24T15:10:20Z
 
@@ -15929,7 +15929,7 @@ synonym: "gestational maternal exposure to ethynylestradiol" EXACT []
 synonym: "maternal exposure to 17alpha-ethynylestradiol during pregnancy" EXACT []
 xref: PMID:33296240
 is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001493 ! multigenerational maternal exposure to 17alpha-ethynylestradiol
+relationship: part_of XCO:0001493 ! multigenerational maternal exposure to 17alpha-ethynylestradiol
 created_by: slaulederkind
 creation_date: 2024-12-17T16:20:57Z
 
@@ -15941,7 +15941,7 @@ synonym: "gestational maternal exposure to BPA" EXACT []
 synonym: "maternal exposure to bisphenol A during pregnancy" EXACT []
 xref: PMID:33296240
 is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001494 ! multigenerational maternal exposure to bisphenol A
+relationship: part_of XCO:0001494 ! multigenerational maternal exposure to bisphenol A
 created_by: slaulederkind
 creation_date: 2024-12-17T16:21:42Z
 
@@ -15958,7 +15958,7 @@ xref: CHEBI:85146
 xref: CID:6328154
 xref: MESH:D002266
 is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001495 ! multigenerational maternal exposure to sodium carboxymethylcellulose
+relationship: part_of XCO:0001495 ! multigenerational maternal exposure to sodium carboxymethylcellulose
 created_by: slaulederkind
 creation_date: 2024-12-17T16:22:14Z
 
@@ -16157,7 +16157,7 @@ synonym: "gestational maternal exposure to MAM" EXACT []
 synonym: "maternal exposure to methylazoxymethanol acetate during pregnancy" EXACT []
 xref: PMID:32497066
 is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001514 ! multigenerational maternal exposure to methylazoxymethanol acetate
+relationship: part_of XCO:0001514 ! multigenerational maternal exposure to methylazoxymethanol acetate
 created_by: slaulederkind
 creation_date: 2024-12-31T12:20:59Z
 
@@ -16185,7 +16185,7 @@ synonym: "gestational maternal exposure to Poly(I:C) dsRNA" EXACT []
 synonym: "maternal exposure to poly I:C during pregnancy" EXACT []
 xref: PMID:32497066
 is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001516 ! multigenerational maternal exposure to poly I:C
+relationship: part_of XCO:0001516 ! multigenerational maternal exposure to poly I:C
 created_by: slaulederkind
 creation_date: 2024-12-31T12:50:37Z
 
@@ -16207,7 +16207,7 @@ synonym: "gestational maternal exposure to controlled protein content diet" EXAC
 synonym: "maternal exposure to a controlled protein content diet during pregnancy" EXACT []
 synonym: "PMID:32497066" EXACT []
 is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001518 ! multigenerational maternal exposure to a controlled protein content diet
+relationship: part_of XCO:0001518 ! multigenerational maternal exposure to a controlled protein content diet
 created_by: slaulederkind
 creation_date: 2024-12-31T13:10:28Z
 
@@ -16242,7 +16242,7 @@ synonym: "maternal exposure to controlled air O2 content during pregnancy" EXACT
 synonym: "maternal exposure to controlled air oxygen content during pregnancy" EXACT []
 xref: PMID:32639867
 is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001520 ! multigenerational maternal exposure to controlled air oxygen content
+relationship: part_of XCO:0001520 ! multigenerational maternal exposure to controlled air oxygen content
 created_by: slaulederkind
 creation_date: 2025-01-03T15:14:51Z
 
@@ -16303,7 +16303,7 @@ synonym: "gestational maternal exposure to STZ" EXACT []
 synonym: "maternal exposure to streptozotocin during pregnancy" EXACT []
 xref: PMID:32595139
 is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001526 ! multigenerational maternal exposure to streptozotocin
+relationship: part_of XCO:0001526 ! multigenerational maternal exposure to streptozotocin
 created_by: slaulederkind
 creation_date: 2025-01-06T12:26:31Z
 
@@ -16326,7 +16326,7 @@ synonym: "gestational maternal exposure to sodium citrate buffer" EXACT []
 synonym: "maternal exposure to citrate buffer during pregnancy" EXACT []
 xref: PMID:32595139
 is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001528 ! multigenerational maternal exposure to citrate buffer
+relationship: part_of XCO:0001528 ! multigenerational maternal exposure to citrate buffer
 created_by: slaulederkind
 creation_date: 2025-01-06T12:57:18Z
 
@@ -16350,7 +16350,7 @@ synonym: "gestational maternal exposure to high blood sugar" EXACT []
 synonym: "maternal exposure to hyperglycemia during pregnancy" EXACT []
 xref: PMID:32595139
 is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001530 ! multigenerational maternal exposure to hyperglycemia
+relationship: part_of XCO:0001530 ! multigenerational maternal exposure to hyperglycemia
 created_by: slaulederkind
 creation_date: 2025-01-06T13:36:01Z
 
@@ -16775,7 +16775,7 @@ xref: CID:23678874
 xref: GEO:GSE262750
 xref: PMID:38963985
 is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001564 ! multigenerational maternal exposure to perfluorohexane sulfonate
+relationship: part_of XCO:0001564 ! multigenerational maternal exposure to perfluorohexane sulfonate
 created_by: slaulederkind
 creation_date: 2025-03-25T11:27:51Z
 
@@ -16819,7 +16819,7 @@ xref: GEO:GSE262750
 xref: MESH:D011441
 xref: PMID:38963985
 is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001567 ! multigenerational maternal exposure to 6-propyl-2-thiouracil
+relationship: part_of XCO:0001567 ! multigenerational maternal exposure to 6-propyl-2-thiouracil
 created_by: slaulederkind
 creation_date: 2025-03-25T13:11:27Z
 
@@ -16862,7 +16862,7 @@ synonym: "gestational maternal exposure to controlled air BluPlus e-cig aerosol 
 synonym: "gestational maternal exposure to controlled air E-cigarette nicotine aerosol content" EXACT []
 synonym: "maternal exposure to controlled air E-cigarette aerosol content during pregnancy" EXACT []
 is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001570 ! multigenerational maternal exposure to controlled air E-cigarette aerosol content
+relationship: part_of XCO:0001570 ! multigenerational maternal exposure to controlled air E-cigarette aerosol content
 created_by: slaulederkind
 creation_date: 2025-03-27T12:19:09Z
 
@@ -17037,7 +17037,7 @@ synonym: "gestational maternal exposure to DMSO" EXACT []
 synonym: "maternal exposure to dimethyl sulfoxide during pregnancy" EXACT []
 xref: PMID:39652430
 is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001584 ! multigenerational maternal exposure to dimethyl sulfoxide
+relationship: part_of XCO:0001584 ! multigenerational maternal exposure to dimethyl sulfoxide
 created_by: slaulederkind
 creation_date: 2025-04-18T10:55:22Z
 
@@ -17302,7 +17302,7 @@ def: "This is any condition in which the main influencing factor is any gestatio
 synonym: "maternal exposure to a controlled fat content diet during pregnancy" EXACT []
 xref: PMID:29972240
 is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001604 ! multigenerational maternal exposure to controlled fat content diet
+relationship: part_of XCO:0001604 ! multigenerational maternal exposure to controlled fat content diet
 created_by: slaulederkind
 creation_date: 2025-05-01T13:48:42Z
 
@@ -17324,7 +17324,7 @@ def: "This is any condition in which the main influencing factor is any gestatio
 synonym: "maternal exposure to a standard rat chow diet during pregnancy" EXACT []
 xref: PMID:29972240
 is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001608 ! multigenerational maternal exposure to standard rat chow diet
+relationship: part_of XCO:0001608 ! multigenerational maternal exposure to standard rat chow diet
 created_by: slaulederkind
 creation_date: 2025-05-01T14:47:45Z
 
@@ -17720,7 +17720,7 @@ synonym: "maternal exposure to corn oil during pregnancy" EXACT []
 synonym: "maternal exposure to maize oil during pregnancy" EXACT []
 xref: GEO:GSE255311
 is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001636 ! multigenerational maternal exposure to corn oil
+relationship: part_of XCO:0001636 ! multigenerational maternal exposure to corn oil
 created_by: slaulederkind
 creation_date: 2025-06-03T15:59:35Z
 
@@ -17762,7 +17762,7 @@ synonym: "gestational maternal exposure to dipentyl benzene-1,2-dicarboxylate" E
 synonym: "maternal exposure to dipentyl phthalate during pregnancy" EXACT []
 xref: CHEBI:34680
 is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001639 ! multigenerational maternal exposure to dipentyl phthalate
+relationship: part_of XCO:0001639 ! multigenerational maternal exposure to dipentyl phthalate
 created_by: slaulederkind
 creation_date: 2025-06-03T16:43:59Z
 
@@ -18163,7 +18163,7 @@ synonym: "maternal exposure to controlled air O3 content during pregnancy" EXACT
 synonym: "maternal exposure to controlled air ozone content during pregnancy" EXACT []
 xref: PMID:39865885
 is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001671 ! multigenerational maternal exposure to controlled air ozone oxygen content
+relationship: part_of XCO:0001671 ! multigenerational maternal exposure to controlled air ozone oxygen content
 created_by: slaulederkind
 creation_date: 2025-06-30T10:33:14Z
 
@@ -18992,7 +18992,7 @@ synonym: "gestational maternal exposure to gene transfer of the human cytochrome
 synonym: "gestational maternal exposure to transfer of recombinant adenovirus containing the human CYP11A1 gene" EXACT []
 synonym: "maternal exposure to gene transfer of the human CYP11A1 gene using an adenovirus vector during pregnancy" EXACT []
 is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001729 ! multigenerational maternal exposure to gene transfer of the human CYP11A1 gene using an adenovirus vector
+relationship: part_of XCO:0001729 ! multigenerational maternal exposure to gene transfer of the human CYP11A1 gene using an adenovirus vector
 created_by: slaulederkind
 creation_date: 2025-10-14T17:18:24Z
 
@@ -19018,7 +19018,7 @@ synonym: "gestational maternal exposure to gene transfer of the enhanced green f
 synonym: "gestational maternal exposure to transfer of recombinant adenovirus containing the enhanced green fluorescent protein gene" EXACT []
 synonym: "maternal exposure to gene transfer of the enhanced green fluorescent protein gene using an adenovirus vector during pregnancy" EXACT []
 is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001731 ! multigenerational maternal exposure to gene transfer of enhanced green fluorescent protein gene using an adenovirus vector
+relationship: part_of XCO:0001731 ! multigenerational maternal exposure to gene transfer of enhanced green fluorescent protein gene using an adenovirus vector
 created_by: slaulederkind
 creation_date: 2025-10-14T18:30:48Z
 
@@ -19162,290 +19162,6 @@ is_a: XCO:0000099 ! control condition
 is_a: XCO:0000818 ! gene transfer using a plasmid vector
 created_by: slaulederkind
 creation_date: 2025-10-23T18:21:36Z
-
-[Term]
-id: XCO:0001745
-name: gene transfer of the P.gingivalis fimA gene and HA2 protein domain using the plasmid vector pVAX1
-def: "This is any condition in which the main influencing factor is gene transfer of the P.gingivalis fimA gene and HA2 protein domain using the plasmid vector pVAX1. The pVAX1 plasmid was designed for use in the development of DNA vaccines. The FimA gene and the HA2 domain are virulence factors that cooperate during bacterial infection by promoting adhesion and providing nutrients for colonization." [PMID:36838435]
-synonym: "gene transfer of pVAX1-HA2-fimA" NARROW []
-synonym: "transformation with the P.gingivalis fimA gene and HA2 protein domain using the plasmid vector pVAX1" EXACT []
-is_a: XCO:0001742 ! gene transfer using plasmid vector pVAX1
-created_by: slaulederkind
-creation_date: 2025-10-27T09:32:21Z
-
-[Term]
-id: XCO:0001746
-name: CpG-ODN adjuvant
-def: "This is any condition in which the main influencing factor is an CpG-CpG oligodeoxynucleotide (ODN) adjuvant. CpG-ODN are short synthetic DNA molecules that mimic microbial DNA by activating Toll-like Receptor 9 (TLR9) and, when paired with a vaccine antigen, lead to increased production of antibodies and enhanced cellular immunity." [PMID:_29156818]
-synonym: "cytosine-phosphate-guanine ODN adjuvant" EXACT []
-synonym: "cytosine-phosphate-guanine oligodeoxynucleotide adjuvant" EXACT []
-synonym: "Cytosine-phosphorothioate-guanine oligodeoxynucleotide adjuvant" EXACT []
-is_a: XCO:0000133 ! antigen
-created_by: slaulederkind
-creation_date: 2025-10-27T13:09:42Z
-
-[Term]
-id: XCO:0001747
-name: left carotid artery occlusion sham procedure
-def: "This is any condition in which the main influencing factor is a left carotid artery occlusion sham procedure, which follows the same surgical process as a left common carotid artery occlusion without blocking the left common carotid artery or any other arteries." [PMID:40010549]
-synonym: "left common carotid artery occlusion sham procedure" EXACT []
-is_a: XCO:0000100 ! sham surgical control condition
-relationship: part_of XCO:0000753 ! left carotid artery occlusion
-created_by: slaulederkind
-creation_date: 2025-10-27T14:43:27Z
-
-[Term]
-id: XCO:0001748
-name: ibuprofen
-def: "This is any condition in which the main influencing factor is ibuprofen, a monocarboxylic acid that is propionic acid in which one of the hydrogens at position 2 is substituted by a 4-(2-methylpropyl)phenyl group. It is a non-steroidal anti-inflammatory agent (NSAID) with antipyretic and analgesic actions." [CHEBI:5855]
-synonym: "Advil" EXACT []
-synonym: "Motrin" EXACT []
-xref: CID:3672
-xref: MESH:D007052
-xref: PMID:40502156
-is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
-created_by: slaulederkind
-creation_date: 2025-10-27T16:18:15Z
-
-[Term]
-id: XCO:0001749
-name: fenoprofen
-def: "This is any condition in which the main influencing factor is fenoprofen, a monocarboxylic acid that is propanoic acid in which one of the hydrogens at position 2 is substituted by a 3-phenoxyphenyl group. Fenoprofen is a non-steroidal anti-inflammatory drug pharmacologically similar to aspirin, but it causes less gastrointestinal bleeding." [CHEBI:5004]
-xref: MESH:D005279
-xref: PMID:40502156
-is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
-created_by: slaulederkind
-creation_date: 2025-10-27T16:30:44Z
-
-[Term]
-id: XCO:0001750
-name: multigenerational maternal exposure to nicotine
-def: "This is any condition in which the main influencing factor is any maternal exposure to nicotine that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) nicotine use/exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com/, PMID:25839742]
-synonym: "multigenerational maternal exposure to (R,S)-nicotine" EXACT []
-synonym: "multigenerational maternal exposure to nicotine tartrate" NARROW []
-xref: PMID:41013184
-relationship: has_component XCO:0001049 ! nicotine
-created_by: slaulederkind
-creation_date: 2025-10-27T17:01:35Z
-
-[Term]
-id: XCO:0001751
-name: gestational maternal exposure to nicotine
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to nicotine. This is a condition typically studied to determine the effect of maternal (F0) nicotine use/exposure on the F1 offspring." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
-synonym: "gestational maternal exposure to (R,S)-nicotine" EXACT []
-synonym: "gestational maternal exposure to nicotine tartrate" NARROW []
-xref: PMID:41013184
-is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001750 ! multigenerational maternal exposure to nicotine
-created_by: slaulederkind
-creation_date: 2025-10-27T17:10:45Z
-
-[Term]
-id: XCO:0001752
-name: pregestational maternal exposure to saline
-def: "This is any condition in which the main influencing factor is any pregestational maternal exposure to saline. This is a vehicle control condition typically studied to determine the effect of maternal (F0) saline (vehicle) use/exposure on the F1 offspring." [https://www.merriam-webster.com/]
-synonym: "pregestational maternal exposure to 0.9% sodium chloride solution" EXACT []
-synonym: "pregestational maternal exposure to normal saline" EXACT []
-xref: PMID:40582636
-is_a: XCO:0001385 ! multigenerational maternal exposure to saline
-created_by: slaulederkind
-creation_date: 2025-10-28T11:41:56Z
-
-[Term]
-id: XCO:0001753
-name: maternal exposure to saline during nursing
-def: "This is any condition in which the main influencing factor is any maternal exposure to saline during nursing of offspring. This is a condition typically studied to determine the effect of maternal (F0) saline (vehicle) use/exposure during the postnatal, preweaning period on the F1 offspring." [https://www.merriam-webster.com/]
-synonym: "maternal exposure to 0.9% sodium chloride solution during nursing" EXACT []
-synonym: "maternal exposure to normal saline during nursing" EXACT []
-xref: PMID:40582636
-is_a: XCO:0001385 ! multigenerational maternal exposure to saline
-created_by: slaulederkind
-creation_date: 2025-10-28T12:13:40Z
-
-[Term]
-id: XCO:0001754
-name: fentanyl
-def: "This is any condition in which the main influencing factor is fentanyl, a potent, synthetic opioid analgesic/anesthetic. Fentanyl is primarily a mu-opioid agonist." [https://en.wikipedia.org/wiki/Fentanyl, MESH:D005283]
-synonym: "fentanyl citrate" NARROW []
-xref: CHEBI:119915
-xref: CID:3345
-xref: PMID:40582636
-is_a: XCO:0000135 ! receptor agonist
-is_a: XCO:0001329 ! opioid analgesic
-created_by: slaulederkind
-creation_date: 2025-10-28T12:33:56Z
-
-[Term]
-id: XCO:0001755
-name: multigenerational maternal exposure to fentanyl
-def: "This is any condition in which the main influencing factor is any maternal exposure to fentanyl that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) fentanyl use/exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com/, PMID:25839742]
-synonym: "multigenerational maternal exposure to fentanyl citrate" NARROW []
-synonym: "multigenerational maternal exposure to fentanyl hydrochloride" NARROW []
-xref: PMID:40582636
-is_a: XCO:0001754 ! fentanyl
-created_by: slaulederkind
-creation_date: 2025-10-28T12:47:49Z
-
-[Term]
-id: XCO:0001756
-name: pregestational maternal exposure to fentanyl
-def: "This is any condition in which the main influencing factor is any pregestational maternal exposure to fentanyl. This is a condition typically studied to determine the effect of maternal (F0) fentanyl use/exposure on the F1 offspring." [https://www.merriam-webster.com/]
-synonym: "pregestational maternal exposure to fentanyl citrate" NARROW []
-synonym: "pregestational maternal exposure to fentanyl HCl" NARROW []
-synonym: "pregestational maternal exposure to fentanyl hydrochloride" NARROW []
-xref: PMID:40582636
-is_a: XCO:0001755 ! multigenerational maternal exposure to fentanyl
-created_by: slaulederkind
-creation_date: 2025-10-28T12:58:41Z
-
-[Term]
-id: XCO:0001757
-name: gestational maternal exposure to fentanyl
-def: "This is any condition in which the main influencing factor is gestational maternal exposure to fentanyl. This is a condition typically studied to determine the effect of maternal (F0) fentanyl use/exposure on the F1 offspring." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
-synonym: "gestational maternal exposure to fentanyl citrate" NARROW []
-synonym: "gestational maternal exposure to fentanyl HCl" NARROW []
-synonym: "gestational maternal exposure to fentanyl hydrochloride" NARROW []
-xref: PMID:40582636
-is_a: XCO:0001755 ! multigenerational maternal exposure to fentanyl
-created_by: slaulederkind
-creation_date: 2025-10-28T13:06:57Z
-
-[Term]
-id: XCO:0001758
-name: maternal exposure to fentanyl during nursing
-def: "This is any condition in which the main influencing factor is any maternal exposure to fentanyl during nursing of offspring. This is a condition typically studied to determine the effect of maternal (F0) fentanyl use/exposure during the postnatal, preweaning period on the F1 offspring.\"" [https://www.merriam-webster.com/]
-synonym: "maternal exposure to fentanyl citrate during nursing" NARROW []
-synonym: "maternal exposure to fentanyl HCl during nursing" NARROW []
-synonym: "maternal exposure to fentanyl hydrochloride during nursing" NARROW []
-xref: PMID:40582636
-is_a: XCO:0001755 ! multigenerational maternal exposure to fentanyl
-created_by: slaulederkind
-creation_date: 2025-10-28T13:18:51Z
-
-[Term]
-id: XCO:0001759
-name: experimental osteoarthritis of the knee joint
-def: "This is any condition in which the main influencing factor is experimental osteoarthritis of the knee joint. Osteoarthritis can be initiated in rodents via surgical methods, chemical methods, and/or directed injury to cause joint instability." [PMID:25064117, PMID:40727099]
-synonym: "experimental knee osteoarthritis" EXACT []
-synonym: "experimental KOA" EXACT []
-xref: PMID:40727099
-relationship: has_component XCO:0000165 ! surgical manipulation
-relationship: has_component XCO:0001100 ! physical manipulation
-created_by: slaulederkind
-creation_date: 2025-10-28T16:55:14Z
-
-[Term]
-id: XCO:0001760
-name: experimental, surgery-induced osteoarthritis of the knee joint
-def: "This is any condition in which the main influencing factor is experimental, surgery-induced osteoarthritis of the knee joint. A model of osteoarthritis of the knee can be established in rodents by excision of the medial collateral ligament, anterior cruciate ligament, and the medial meniscus, followed by daily forced activity. This procedure is a modified Hulth method of establishing osteoarthritis of the knee (KOA)." [PMID:40727099]
-synonym: "experimental, surgery-induced knee osteoarthritis" EXACT []
-synonym: "experimental, surgery-induced KOA" EXACT []
-xref: PMID:33313256
-is_a: XCO:0001759 ! experimental osteoarthritis of the knee joint
-created_by: slaulederkind
-creation_date: 2025-10-28T17:18:42Z
-
-[Term]
-id: XCO:0001761
-name: Shengyu decoction
-def: "This is any condition in which the main influencing factor is Shengyu decoction, a combination of seven different herbal medicines. Shengyu decoction has been used in traditional Chinese medicine (TCM) to treat cardiovascular and brain-related disorders." [PMID:40727099]
-synonym: "modified “Shengyu” decoction" NARROW []
-synonym: "MSD" NARROW []
-synonym: "SYD" EXACT []
-xref: PMID:24296086
-is_a: XCO:0001623 ! Traditional Chinese Medicine
-created_by: slaulederkind
-creation_date: 2025-10-28T17:30:34Z
-
-[Term]
-id: XCO:0001762
-name: experimental carotid intima injury
-def: "This is any condition in which the main influencing factor is experimental carotid balloon angioplasty, mechanically damaging the intima of the carotid artery(ies) by use of a soft catheter with an inflatable tip. The procedure involves surgically exposing the carotid artery(ies) and its lumen, followed by insertion of the inflatable catheter tip." [PMID:40727099, XCO:0000268]
-synonym: "experimental balloon angioplasty" RELATED []
-relationship: has_component XCO:0000268 ! balloon angioplasty
-created_by: slaulederkind
-creation_date: 2025-10-30T10:02:14Z
-
-[Term]
-id: XCO:0001763
-name: ligustilide
-def: "This is any condition in which the main influencing factor is ligustilide, the main active ingredient of Angelica roots, which has been used in Chinese medicine to treat menstrual disorders. Ligustilide exerts anti-inflammatory, anti-cancer, neuroprotective and anti-hepatotoxic effects" [PMID:21851645]
-synonym: "(E)-ligustilide" RELATED []
-synonym: "(Z)-ligustilide" EXACT []
-synonym: "3-Butylidene-4,5-dihydrophthalide" EXACT []
-xref: CHEBI:68232
-xref: CID:5319022
-xref: MESH:C027820
-xref: PMID:37698739
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000505 ! anti-inflammatory agent
-created_by: slaulederkind
-creation_date: 2025-10-30T12:57:42Z
-
-[Term]
-id: XCO:0001764
-name: adrenaline
-def: "This is any condition in which the main influencing factor is adrenaline, a neurotransmitter and sympathomimetic hormone from the adrenal medulla. It stimulates both the alpha- and beta- adrenergic systems, causes systemic vasoconstriction and gastrointestinal relaxation, stimulates the heart, and dilates bronchi and cerebral vessels. As a medication adrenaline is used in asthma and cardiac failure and to delay absorption of local anesthetics." [CID:5816, MESH:D004837]
-comment: vasoconstrictor () bronchodilator agent () hormone () neurotransmitter () adrenergic receptor agonist (XCO:0000664) vasoconstrictor (XCO:0000141) bronchodilator agent (XCO:0000666) hormone (XCO:0000125) neurotransmitter (XCO:0000144) adrenergic receptor agonist (XCO:0000664)
-synonym: "adrenalin" EXACT []
-synonym: "epinephrine" EXACT []
-xref: CHEBI:33568
-xref: CID:5816
-xref: PMID:37698739
-is_a: XCO:0000125 ! hormone
-is_a: XCO:0000141 ! vasoconstrictor
-is_a: XCO:0000144 ! neurotransmitter
-is_a: XCO:0000664 ! adrenergic receptor agonist
-is_a: XCO:0000666 ! bronchodilator agent
-created_by: slaulederkind
-creation_date: 2025-10-30T13:59:12Z
-
-[Term]
-id: XCO:0001765
-name: hydroxyurea
-def: "This is any condition in which the main influencing factor is hydroxyurea, an antineoplastic agent that inhibits DNA synthesis through the inhibition of ribonucleoside diphosphate reductase. Hydroxyurea  is used in the treatment of chronic myeloid leukaemia as well as for sickle-cell disease." [CHEBI:44423, MESH:D006918]
-synonym: "hydroxycarbamide" EXACT []
-synonym: "N-hydroxyurea " EXACT []
-xref: CID:3657
-xref: PMID:37698739
-is_a: XCO:0000390 ! antimetabolite
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulederkind
-creation_date: 2025-10-30T14:19:07Z
-
-[Term]
-id: XCO:0001766
-name: fentanyl hydrochloride
-def: "This is any condition in which the main influencing factor is fentanyl hydrochloride, the hydrochloride salt form of fentanyl. Fentanyl is a potent, synthetic opioid analgesic/anesthetic and primarily a mu-opioid agonist." [CID:83932]
-synonym: "fentanyl HCl" EXACT []
-xref: PMID:40582636
-is_a: XCO:0001754 ! fentanyl
-created_by: slaulederkind
-creation_date: 2025-10-30T15:04:15Z
-
-[Term]
-id: XCO:0001767
-name: L5 spinal nerve compression
-def: "This is any condition in which the main influencing factor is the compression of the L5 spinal nerve by ligation of a cannula to the nerve root. This is an experimental model of L5 spinal nerve injury." [PMID:40786564]
-synonym: "compression of the L5 spinal nerve" EXACT []
-synonym: "fifth lumbar spinal nerve compression" EXACT []
-synonym: "lumbar spinal nerve compression" BROAD []
-synonym: "spinal nerve L5 compression" EXACT []
-is_a: XCO:0001026 ! spinal nerve ligation
-created_by: slaulederkind
-creation_date: 2025-10-31T14:06:02Z
-
-[Term]
-id: XCO:0001768
-name: L5 spinal nerve compression sham procedure
-def: "This is any condition in which the main influencing factor is an L5 spinal nerve compression sham procedure, which follows the same surgical process as an L5 spinal nerve compression without ligating the cannula to the nerve." [PMID:40786564]
-synonym: "fifth lumbar spinal nerve compression sham procedure" EXACT []
-synonym: "spinal nerve L5 compression sham procedure" EXACT []
-is_a: XCO:0001767 ! L5 spinal nerve compression
-relationship: part_of XCO:0000100 ! sham surgical control condition
-created_by: slaulederkind
-creation_date: 2025-10-31T14:25:18Z
 
 [Typedef]
 id: has_component
