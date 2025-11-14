@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.219
-date: 08:11:2025 20:13
+data-version: 4.218
+date: 01:11:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -19126,7 +19126,6 @@ name: gestational maternal exposure to dicyclohexyl phthalate
 def: "This is any condition in which the main influencing factor is gestational maternal exposure to dicyclohexyl phthalate. This is a condition typically studied to determine the effect of maternal (F0) exposure to dicyclohexyl phthalate on the F1 offspring." [https://www.merriam-webster.com, PMID:25839742]
 synonym: "gestational maternal exposure to DCHP" EXACT []
 synonym: "maternal exposure to dicyclohexyl phthalate during pregnancy" EXACT []
-xref: GEO:GSE293297
 is_a: XCO:0000420 ! controlled in utero environment
 is_a: XCO:0001740 ! multigenerational maternal exposure to dicyclohexyl phthalate
 created_by: slaulederkind
@@ -19224,7 +19223,6 @@ name: multigenerational maternal exposure to nicotine
 def: "This is any condition in which the main influencing factor is any maternal exposure to nicotine that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) nicotine use/exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com/, PMID:25839742]
 synonym: "multigenerational maternal exposure to (R,S)-nicotine" EXACT []
 synonym: "multigenerational maternal exposure to nicotine tartrate" NARROW []
-xref: GEO:GSE291986
 xref: PMID:41013184
 relationship: has_component XCO:0001049 ! nicotine
 created_by: slaulederkind
@@ -19307,7 +19305,6 @@ def: "This is any condition in which the main influencing factor is gestational 
 synonym: "gestational maternal exposure to fentanyl citrate" NARROW []
 synonym: "gestational maternal exposure to fentanyl HCl" NARROW []
 synonym: "gestational maternal exposure to fentanyl hydrochloride" NARROW []
-xref: GEO:GSE296650
 xref: PMID:40582636
 is_a: XCO:0001755 ! multigenerational maternal exposure to fentanyl
 created_by: slaulederkind
@@ -19355,7 +19352,6 @@ def: "This is any condition in which the main influencing factor is Shengyu deco
 synonym: "modified “Shengyu” decoction" NARROW []
 synonym: "MSD" NARROW []
 synonym: "SYD" EXACT []
-xref: GEO:GSE301460
 xref: PMID:24296086
 is_a: XCO:0001623 ! Traditional Chinese Medicine
 created_by: slaulederkind
@@ -19379,7 +19375,6 @@ synonym: "(Z)-ligustilide" EXACT []
 synonym: "3-Butylidene-4,5-dihydrophthalide" EXACT []
 xref: CHEBI:68232
 xref: CID:5319022
-xref: GEO:GSE301071
 xref: MESH:C027820
 xref: PMID:37698739
 is_a: XCO:0000435 ! antineoplastic agent
@@ -19447,7 +19442,6 @@ name: L5 spinal nerve compression sham procedure
 def: "This is any condition in which the main influencing factor is an L5 spinal nerve compression sham procedure, which follows the same surgical process as an L5 spinal nerve compression without ligating the cannula to the nerve." [PMID:40786564]
 synonym: "fifth lumbar spinal nerve compression sham procedure" EXACT []
 synonym: "spinal nerve L5 compression sham procedure" EXACT []
-xref: GEO:GSE246156
 is_a: XCO:0001767 ! L5 spinal nerve compression
 relationship: part_of XCO:0000100 ! sham surgical control condition
 created_by: slaulederkind
