@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.221
-date: 22:11:2025 20:13
+data-version: 4.220
+date: 15:11:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -18229,7 +18229,6 @@ id: XCO:0001678
 name: controlled whole egg content diet
 def: "This is any condition in which the main influencing factor is a controlled whole egg content diet, a regimen of solid food in which the amount of whole dried chicken egg consumed is controlled. A whole egg lab chow diet is one which has close to half of the total chow weight made up of powdered chicken eggs." [PMID:33141822]
 synonym: "controlled whole chicken egg content diet" EXACT []
-xref: GEO:GSE157491
 is_a: XCO:0000014 ! controlled content diet
 created_by: slaulederkind
 creation_date: 2025-07-17T08:34:40Z
@@ -18335,7 +18334,6 @@ synonym: "3,6-dichloro-1-benzothiophene-2-carboxylate" EXACT []
 synonym: "3,6-Dichlorobenzo[b]thiophene-2-carboxylic acid" EXACT []
 synonym: "3,6-Dichlorobenzothiophene-2-carboxylic acid" EXACT []
 xref: CID:739884
-xref: GEO:GSE263155
 xref: PMID:40409667
 is_a: XCO:0000970 ! protein kinase inhibitor
 created_by: slaulederkind
@@ -19029,7 +19027,6 @@ id: XCO:0001733
 name: experimental spinal cord transection at T8
 def: "This is any condition in which the main influencing factor is an experimental transection of the rat spinal cord at the vertebral level of thoracic 8 (T8). This procedure involves exposure of the spinal cord at the vertebral level of thoracic 8-10 (T8-10) and complete transection of the isolated section of spinal cord at T8." [ISBN-13:978-1455756438, PMID:40338665]
 synonym: "experimental spinal cord transection at thoracic 8" EXACT []
-xref: GEO:GSE294927
 xref: GEO:GSE294930
 is_a: XCO:0001091 ! experimental spinal cord injury
 created_by: slaulederkind
@@ -19083,7 +19080,6 @@ def: "This is any condition in which the main influencing factor is simvastatin,
 synonym: "Zocor" EXACT []
 xref: CHEBI:9150
 xref: CID:54454
-xref: GEO:GSE296883
 xref: PMID:40502156
 is_a: XCO:0000511 ! ester
 is_a: XCO:0000523 ! enzyme inhibitor
@@ -19098,7 +19094,6 @@ def: "This is any condition in which the main influencing factor is primaquine, 
 synonym: "90-34-6" EXACT []
 synonym: "N(4)-(6-methoxyquinolin-8-yl)pentane-1,4-diamine" EXACT []
 xref: CHEBI:8405
-xref: GEO:GSE296883
 xref: MESH:D011319
 xref: PMID:40502156
 is_a: XCO:0000799 ! ether
@@ -19123,7 +19118,6 @@ id: XCO:0001740
 name: multigenerational maternal exposure to dicyclohexyl phthalate
 def: "This is any condition in which the main influencing factor is any maternal exposure to dicyclohexyl phthalate that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) dicyclohexyl phthalate exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com/, PMID:25839742]
 synonym: "multigenerational maternal exposure to DCHP" EXACT []
-xref: GEO:GSE293297
 is_a: XCO:0001739 ! dicyclohexyl phthalate
 created_by: slaulederkind
 creation_date: 2025-10-23T14:53:47Z
@@ -19157,7 +19151,6 @@ synonym: "gene transfer using empty plasmid vector pVAX1" EXACT []
 synonym: "gene transfer using only the backbone of plasmid vector pVAX1" EXACT []
 synonym: "sham gene transfer using an empty plasmid pVAX1 vector" EXACT []
 synonym: "sham gene transformation using an empty plasmid pVAX1 vector" EXACT []
-xref: GEO:GSE206597
 is_a: XCO:0001742 ! gene transfer using plasmid vector pVAX1
 is_a: XCO:0001744 ! sham gene transfer using an empty plasmid vector
 created_by: slaulederkind
@@ -19169,7 +19162,6 @@ name: sham gene transfer using an empty plasmid vector
 def: "This is any condition in which the major influencing factor is an empty plasmid vector has been transferred (transiently or stably) into a cell or organism. This condition is used as a control for a plasmid transfer of a specific gene." [https://en.wikipedia.org/wiki/Plasmid]
 synonym: "empty plasmid vector transfer" EXACT []
 synonym: "transformation using an empty plasmid vector" EXACT []
-xref: GEO:GSE206597
 is_a: XCO:0000099 ! control condition
 is_a: XCO:0000818 ! gene transfer using a plasmid vector
 created_by: slaulederkind
@@ -19367,7 +19359,6 @@ name: experimental, surgery-induced osteoarthritis of the knee joint
 def: "This is any condition in which the main influencing factor is experimental, surgery-induced osteoarthritis of the knee joint. A model of osteoarthritis of the knee can be established in rodents by excision of the medial collateral ligament, anterior cruciate ligament, and the medial meniscus, followed by daily forced activity. This procedure is a modified Hulth method of establishing osteoarthritis of the knee (KOA)." [PMID:40727099]
 synonym: "experimental, surgery-induced knee osteoarthritis" EXACT []
 synonym: "experimental, surgery-induced KOA" EXACT []
-xref: GEO:GSE301460
 xref: PMID:33313256
 is_a: XCO:0001759 ! experimental osteoarthritis of the knee joint
 created_by: slaulederkind
@@ -19466,7 +19457,6 @@ synonym: "compression of the L5 spinal nerve" EXACT []
 synonym: "fifth lumbar spinal nerve compression" EXACT []
 synonym: "lumbar spinal nerve compression" BROAD []
 synonym: "spinal nerve L5 compression" EXACT []
-xref: GEO:GSE246156
 is_a: XCO:0001026 ! spinal nerve ligation
 created_by: slaulederkind
 creation_date: 2025-10-31T14:06:02Z
