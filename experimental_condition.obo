@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.221
-date: 22:11:2025 20:13
+data-version: 4.222
+date: 03:01:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -7340,6 +7340,7 @@ synonym: "Solutol" EXACT []
 synonym: "Solutol HS 15" EXACT []
 xref: CHEBI:9194
 is_a: XCO:0000511 ! ester
+is_a: XCO:0001232 ! emulsifier
 is_a: XCO:0001248 ! poloxamers
 relationship: has_component XCO:0000926 ! polyethylene glycol
 created_by: slaulede
@@ -19482,6 +19483,103 @@ is_a: XCO:0001767 ! L5 spinal nerve compression
 relationship: part_of XCO:0000100 ! sham surgical control condition
 created_by: slaulederkind
 creation_date: 2025-10-31T14:25:18Z
+
+[Term]
+id: XCO:0001769
+name: cannabidiol
+def: "This is any condition in which the main influencing factor is cannabidiol, a major compound isolated from Cannabis sativa extract that binds to a wide variety of physiological targets of the body's endocannabinoid system. It has shown antimicrobial and anticonvulsant activity, and acts via cytochrome P450 and glucuronosyltransferase inhibition." [CID:644019, https://en.wikipedia.org/wiki/Cannabidiol]
+synonym: "CBD" EXACT []
+xref: CHEBI:69478
+xref: CID:644019
+xref: MESH:D002185
+xref: PMID:39815058
+is_a: XCO:0000120 ! inhibitor
+is_a: XCO:0000483 ! antibacterial agent
+is_a: XCO:0000950 ! anticonvulsant
+created_by: slaulederkind
+creation_date: 2025-12-29T15:36:07Z
+
+[Term]
+id: XCO:0001770
+name: polyethyloxated castor oil
+def: "This is any condition in which the main influencing factor is polyethyloxated castor oil, a nonionic surfactant derived from the reaction of castor oil with ethylene oxide. It is used as an emulsifier and solubilizer for water-insoluble drugs." [https://biologyinsights.com/what-is-cremophor-el-and-why-is-it-used-in-medicine/]
+synonym: "Cremophor EL" NARROW []
+synonym: "Cremophor EL-40 " NARROW []
+synonym: "ethoxylated castor oil" BROAD []
+synonym: "Kollliphor EL" NARROW []
+synonym: "PECO" EXACT []
+synonym: "PEG-35 castor oil" NARROW []
+synonym: "PEG-40 castor oil" NARROW []
+synonym: "polyoxyethylene(40) castor oil" NARROW []
+is_a: XCO:0000757 ! surfactant
+is_a: XCO:0001232 ! emulsifier
+relationship: has_component XCO:0000905 ! castor oil
+created_by: slaulederkind
+creation_date: 2025-12-29T16:30:52Z
+
+[Term]
+id: XCO:0001771
+name: controlled air naphthalene content
+def: "This is any condition in which the main influencing factor is controlled air naphthalene content surrounding an organism or breathed by the organism as part of an experiment. Naphthalene is an aromatic hydrocarbon comprising two fused benzene rings. Naphthalene is the main ingredient of traditional mothballs." [CHEBI:16482, https://en.wikipedia.org/wiki/Naphthalene]
+synonym: "controlled air camphor tar content" EXACT []
+synonym: "controlled air naphthalene vapor content" EXACT []
+synonym: "controlled air tar camphor content" EXACT []
+synonym: "controlled air white tar content" EXACT []
+xref: CID:931
+xref: MESH:C031721
+xref: PMID:40806382
+is_a: XCO:0000009 ! controlled air content
+created_by: slaulederkind
+creation_date: 2025-12-30T17:36:27Z
+
+[Term]
+id: XCO:0001772
+name: carbon black nanoparticle
+def: "This is any condition in which the main influencing factor is a carbon black nanoparticle with a size between 1 and 100 nanometers composed of carbon black. Carbon black is an elemental carbon in the form of virtually pure colloidal particles that are produced by incomplete combustion or thermal decomposition of gaseous or liquid hydrocarbons under controlled conditions." [CHEBI:133602, CHEBI:82297]
+synonym: "CB nanoparticle" EXACT []
+xref: PMID:40806382
+is_a: XCO:0000338 ! chemical nanoparticle
+created_by: slaulederkind
+creation_date: 2026-01-02T09:10:30Z
+
+[Term]
+id: XCO:0001773
+name: controlled air carbon black nanoparticle content
+def: "This is any condition in which the main influencing factor is controlled air carbon black nanoparticle content surrounding an organism or breathed by the organism as part of an experiment. Carbon black is an elemental carbon in the form of virtually pure colloidal particles that are produced by incomplete combustion or thermal decomposition of gaseous or liquid hydrocarbons under controlled conditions. Nanoparticles have a particle size of less than 100 nm in any direction." [CHEBI:133602, CHEBI:82297]
+synonym: "controlled air CB nanoparticle content" EXACT []
+xref: PMID:40806382
+is_a: XCO:0000009 ! controlled air content
+relationship: has_component XCO:0001772 ! carbon black nanoparticle
+created_by: slaulederkind
+creation_date: 2026-01-02T09:31:19Z
+
+[Term]
+id: XCO:0001774
+name: IDPN
+def: "This is any condition in which the main influencing factor is IDPN (3,3'-iminodipropionitrile), an organic compound formed from ammonia and acrylonitrile. 3,3'-iminodipropionitrile is a neurotoxin with ototoxic and hepatotoxic effects." [CID:8149, https://en.wikipedia.org/wiki/IDPN_(chemical)]
+synonym: "3,3'-iminodipropionitrile" EXACT []
+synonym: "3,3′-Azanediyldipropanenitrile" EXACT []
+synonym: "Bis(2-cyanoethyl)amine" EXACT []
+xref: CHEBI:231607
+xref: MESH:C008110
+xref: PMID:40908485
+is_a: XCO:0000495 ! neurotoxic substance
+created_by: slaulederkind
+creation_date: 2026-01-02T10:10:56Z
+
+[Term]
+id: XCO:0001775
+name: controlled IDPN content drinking water
+def: "This is any condition in which the main influencing factor is a drink made up of water and a specified amount of IDPN, a colorless liquid used in medical research (neurotoxin) and as a chemical intermediate, consumed by a subject." [CHEBI:231607, CID:8149]
+synonym: "controlled 3,3'-iminodipropionitrile content drinking water" EXACT []
+synonym: "controlled 3,3′-Azanediyldipropanenitrile content drinking water" EXACT []
+synonym: "controlled Bis(2-cyanoethyl)amine content drinking water" EXACT []
+xref: MESH:C008110
+xref: PMID:40908485
+is_a: XCO:0000163 ! controlled content drinking water
+relationship: has_component XCO:0001774 ! IDPN
+created_by: slaulederkind
+creation_date: 2026-01-02T10:31:56Z
 
 [Typedef]
 id: has_component
