@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.223
-date: 10:01:2026 20:13
+data-version: 4.222
+date: 03:01:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -4269,8 +4269,8 @@ creation_date: 2014-06-12T17:59:02Z
 [Term]
 id: XCO:0000459
 name: controlled light/dark cycle
-def: "This is any condition in which the main influencing factor is a controlled light/dark cycle in which an organism experiences multiple periods of controlled ambient light followed by exposure to darkness." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-is_a: XCO:0000182 ! controlled exposure to ambient light
+def: "A recurring series of conditions in which an organism experiences successive periods of exposure to controlled ambient light followed by exposure to darkness, the lack of such light, which is in turn followed by exposure to controlled ambient light and so forth." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+is_a: XCO:0000284 ! controlled visible light exposure
 created_by: JSmith
 creation_date: 2014-06-17T16:30:05Z
 
@@ -4304,7 +4304,7 @@ creation_date: 2014-08-26T13:10:29Z
 [Term]
 id: XCO:0000463
 name: dark phase of controlled light/dark cycle
-def: "This is any condition in which the main influencing factor is the part of a controlled light/dark cycle when the subject is not being exposed to ambient light (that is, during the dark phase of the cycle). A controlled light/dark cycle is a recurring series of conditions in which an organism experiences periods of controlled ambient light followed by periods of darkness." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "The portion of a controlled light/dark cycle in which the subject is not being exposed to ambient light (that is, during which the room is darkened). A controlled light/dark cycle is a recurring series of conditions in which an organism experiences successive periods of exposure to controlled ambient light followed by exposure to darkness, the lack of such light, which is in turn followed by exposure to controlled ambient light and so forth." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000459 ! controlled light/dark cycle
 created_by: JSmith
 creation_date: 2014-08-26T13:12:48Z
@@ -18840,8 +18840,8 @@ synonym: "LDH1 multiple antigenic peptides" EXACT []
 synonym: "LDHA MAPs" EXACT []
 synonym: "LDH-A multiple antigenic peptides" EXACT []
 synonym: "LDHA multiple antigenic peptides" EXACT []
-synonym: "LDHM multiple antigenic peptides" EXACT []
 synonym: "LDH-M multiple antigenic peptides" EXACT []
+synonym: "LDHM multiple antigenic peptides" EXACT []
 synonym: "LDH muscle subunit multiple antigenic peptides" EXACT []
 synonym: "L-lactate dehydrogenase A chain multiple antigenic peptides" EXACT []
 is_a: XCO:0001713 ! lactate dehydrogenase A
@@ -19491,7 +19491,6 @@ def: "This is any condition in which the main influencing factor is cannabidiol,
 synonym: "CBD" EXACT []
 xref: CHEBI:69478
 xref: CID:644019
-xref: GEO:GSE279163
 xref: MESH:D002185
 xref: PMID:39815058
 is_a: XCO:0000120 ! inhibitor
@@ -19527,7 +19526,6 @@ synonym: "controlled air naphthalene vapor content" EXACT []
 synonym: "controlled air tar camphor content" EXACT []
 synonym: "controlled air white tar content" EXACT []
 xref: CID:931
-xref: GEO:GSE281993
 xref: MESH:C031721
 xref: PMID:40806382
 is_a: XCO:0000009 ! controlled air content
@@ -19539,7 +19537,6 @@ id: XCO:0001772
 name: carbon black nanoparticle
 def: "This is any condition in which the main influencing factor is a carbon black nanoparticle with a size between 1 and 100 nanometers composed of carbon black. Carbon black is an elemental carbon in the form of virtually pure colloidal particles that are produced by incomplete combustion or thermal decomposition of gaseous or liquid hydrocarbons under controlled conditions." [CHEBI:133602, CHEBI:82297]
 synonym: "CB nanoparticle" EXACT []
-xref: GEO:GSE281993
 xref: PMID:40806382
 is_a: XCO:0000338 ! chemical nanoparticle
 created_by: slaulederkind
@@ -19550,7 +19547,6 @@ id: XCO:0001773
 name: controlled air carbon black nanoparticle content
 def: "This is any condition in which the main influencing factor is controlled air carbon black nanoparticle content surrounding an organism or breathed by the organism as part of an experiment. Carbon black is an elemental carbon in the form of virtually pure colloidal particles that are produced by incomplete combustion or thermal decomposition of gaseous or liquid hydrocarbons under controlled conditions. Nanoparticles have a particle size of less than 100 nm in any direction." [CHEBI:133602, CHEBI:82297]
 synonym: "controlled air CB nanoparticle content" EXACT []
-xref: GEO:GSE281993
 xref: PMID:40806382
 is_a: XCO:0000009 ! controlled air content
 relationship: has_component XCO:0001772 ! carbon black nanoparticle
@@ -19565,7 +19561,6 @@ synonym: "3,3'-iminodipropionitrile" EXACT []
 synonym: "3,3′-Azanediyldipropanenitrile" EXACT []
 synonym: "Bis(2-cyanoethyl)amine" EXACT []
 xref: CHEBI:231607
-xref: GEO:GSE292500
 xref: MESH:C008110
 xref: PMID:40908485
 is_a: XCO:0000495 ! neurotoxic substance
@@ -19579,125 +19574,12 @@ def: "This is any condition in which the main influencing factor is a drink made
 synonym: "controlled 3,3'-iminodipropionitrile content drinking water" EXACT []
 synonym: "controlled 3,3′-Azanediyldipropanenitrile content drinking water" EXACT []
 synonym: "controlled Bis(2-cyanoethyl)amine content drinking water" EXACT []
-xref: GEO:GSE292500
 xref: MESH:C008110
 xref: PMID:40908485
 is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0001774 ! IDPN
 created_by: slaulederkind
 creation_date: 2026-01-02T10:31:56Z
-
-[Term]
-id: XCO:0001777
-name: CM5480
-def: "This is any condition in which the main influencing factor is CM5480, a selective inhibitor for Orai1, a protein crucial for store-operated calcium entry and calcium release-activated calcium (CRAC) channel function." [OMIM:610277, PMID:41212057]
-synonym: "CM 5480" EXACT []
-synonym: "CM-5480" EXACT []
-xref: RGD:1311873
-is_a: XCO:0000269 ! calcium channel inhibitor
-created_by: slaulederkind
-creation_date: 2026-01-08T15:06:33Z
-
-[Term]
-id: XCO:0001778
-name: ceric oxide
-def: "This is any condition in which the main influencing factor is a metal oxide with formula CeO2 (ceric oxide). Ceric oxide is used for polishing glass and as an oxidant and catalyst in organic synthesis. In precllinical trials ceric oxide functions as an agent which promotes anti-inflammatory and antioxidative processes." [CHEBI:79089, PMID:41484209]
-synonym: "CeO2" EXACT []
-synonym: "ceria" EXACT []
-synonym: "cerium oxide" EXACT []
-synonym: "CID:73963" EXACT []
-synonym: "GSE306375" EXACT []
-synonym: "MESH:C030583" EXACT []
-is_a: XCO:0000505 ! anti-inflammatory agent
-created_by: slaulederkind
-creation_date: 2026-01-08T15:41:10Z
-
-[Term]
-id: XCO:0001779
-name: ceric oxide nanoparticle
-def: "This is any condition in which the main influencing factor is a particle with a size between 1 and 100 nanometers composed of ceric oxide (CeO2). These particles can switch between Ce3+ and Ce4+ oxidation states, giving them catalytic, self-regenerating free radical-scavenging activity." [PMID:41484209]
-synonym: "CeO2 nanoparticle" EXACT []
-synonym: "cerium oxide nanoparticle" EXACT []
-synonym: "nanoceria" EXACT []
-is_a: XCO:0000338 ! chemical nanoparticle
-is_a: XCO:0001778 ! ceric oxide
-created_by: slaulederkind
-creation_date: 2026-01-08T15:55:24Z
-
-[Term]
-id: XCO:0001780
-name: moderate ambient light exposure
-def: "This is any condition in which the main influencing factor is exposure to controlled moderate ambient light at an intensity of about 1,000 to 15,000 lux, which is somewhere between normal home lighting (50-150 lux) and direct sunlight (100,000 lux). 1,000 lux means that 1000 lumens (a measure of total light output) are distributed over an area of 1 square meter (1000 lm/m²)." [https://riverdi.com/blog/lux-vs-lumens-difference-between-lux-and-lumens]
-synonym: "1,000 to 15,000 lux exposure" EXACT []
-synonym: "moderate intensity light exposure" EXACT []
-xref: GEO:GSE306375
-xref: PMID:41484209
-is_a: XCO:0000182 ! controlled exposure to ambient light
-created_by: slaulederkind
-creation_date: 2026-01-08T17:01:15Z
-
-[Term]
-id: XCO:0001781
-name: diaphragm denervation
-def: "This is any condition in which the main influencing factor is the transection or resection of one or both of the phrenic nerves. The phrenic nerves convey impulses between the central nervous system and the diaphragm." [PMID:25532023]
-synonym: "bilateral diaphragm denervation" NARROW []
-is_a: XCO:0000373 ! surgical denervation
-created_by: slaulederkind
-creation_date: 2026-01-08T18:03:46Z
-
-[Term]
-id: XCO:0001782
-name: unilateral diaphragm denervation
-def: "This is any condition in which the main influencing factor is the transection or resection of either the left or right phrenic nerve. The phrenic nerves convey impulses between the central nervous system and the diaphragm." [PMID:41243395]
-synonym: "UDD" EXACT []
-synonym: "unilateral diaphragm DNV" EXACT []
-xref: GEO:GSE305304
-is_a: XCO:0001781 ! diaphragm denervation
-created_by: slaulederkind
-creation_date: 2026-01-08T18:14:59Z
-
-[Term]
-id: XCO:0001783
-name: streptomycin sulfate
-def: "This is any condition in which the main influencing factor is streptomycin sulfate, the sulfate salt form of streptomycin, an aminoglycoside antibiotic derived from Streptomyces griseus. Streptomycin sulfate is used medically for severe infections and in labs to prevent bacterial contamination in cell cultures by inhibiting bacterial protein synthesis. Side effects include dizziness, hearing issues (ototoxicity), and kidney toxicity." [CID:19648, https://toku-e.com/streptomycin-sulfate]
-synonym: "streptomycin sulfate salt" EXACT []
-xref: CHEBI:32158
-xref: PMID:40908485
-is_a: XCO:0000483 ! antibacterial agent
-is_a: XCO:0001112 ! nephrotoxic chemical
-created_by: slaulederkind
-creation_date: 2026-01-09T11:20:42Z
-
-[Term]
-id: XCO:0001784
-name: MyoMed‐205
-def: "This is any condition in which the main influencing factor is MyoMed-205, a small-molecule inhibitor of MuRF1 (TRIM63/tripartite motif containing 63), a muscle-specific E3 ligase. MyoMed-205 reduces ubiquitination and subsequent proteasomal degradation of muscle proteins by inhibiting MuRF1 activity." [https://www.medchemexpress.com/myomed-205, PMID:41243395]
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: slaulederkind
-creation_date: 2026-01-09T13:21:14Z
-
-[Term]
-id: XCO:0001785
-name: unilateral diaphragm denervation sham procedure
-def: "This is any condition in which the main influencing factor is a unilateral diaphragm denervation sham procedure, which follows the same surgical process as a unilateral diaphragm denervation without transecting or resecting a phrenic nerve." [https://www.merriam-webster.com/, PMID:41243395]
-synonym: "UDD sham procedure" EXACT []
-synonym: "unilateral diaphragm DNV sham procedure" EXACT []
-is_a: XCO:0000100 ! sham surgical control condition
-is_a: XCO:0001782 ! unilateral diaphragm denervation
-created_by: slaulederkind
-creation_date: 2026-01-09T13:38:23Z
-
-[Term]
-id: XCO:0001786
-name: lateral fluid percussion injury sham procedure
-def: "This is any condition in which the main influencing factor is a lateral fluid percussion injury sham procedure, which follows the same surgical process as a lateral fluid percussion injury without applying a brief fluid pressure pulse onto the intact dura after performing a craniectomy on the head of the subject." [PMID:19022291, PMID:21876530]
-synonym: "lateral fluid-percussion injury sham procedure" EXACT []
-synonym: "LFPI sham procedure" EXACT []
-synonym: "parasagittal fluid percussion injury sham procedure" EXACT []
-is_a: XCO:0000100 ! sham surgical control condition
-relationship: part_of XCO:0000969 ! lateral fluid percussion injury
-created_by: slaulederkind
-creation_date: 2026-01-09T14:18:35Z
 
 [Typedef]
 id: has_component
