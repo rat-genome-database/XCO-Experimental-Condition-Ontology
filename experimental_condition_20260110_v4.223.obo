@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.224
-date: 17:01:2026 20:13
+data-version: 4.223
+date: 10:01:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -18840,8 +18840,8 @@ synonym: "LDH1 multiple antigenic peptides" EXACT []
 synonym: "LDHA MAPs" EXACT []
 synonym: "LDH-A multiple antigenic peptides" EXACT []
 synonym: "LDHA multiple antigenic peptides" EXACT []
-synonym: "LDH-M multiple antigenic peptides" EXACT []
 synonym: "LDHM multiple antigenic peptides" EXACT []
+synonym: "LDH-M multiple antigenic peptides" EXACT []
 synonym: "LDH muscle subunit multiple antigenic peptides" EXACT []
 synonym: "L-lactate dehydrogenase A chain multiple antigenic peptides" EXACT []
 is_a: XCO:0001713 ! lactate dehydrogenase A
@@ -19593,8 +19593,6 @@ name: CM5480
 def: "This is any condition in which the main influencing factor is CM5480, a selective inhibitor for Orai1, a protein crucial for store-operated calcium entry and calcium release-activated calcium (CRAC) channel function." [OMIM:610277, PMID:41212057]
 synonym: "CM 5480" EXACT []
 synonym: "CM-5480" EXACT []
-xref: GEO:GSE307656
-xref: GEO:GSE307657
 xref: RGD:1311873
 is_a: XCO:0000269 ! calcium channel inhibitor
 created_by: slaulederkind
