@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.225
-date: 24:01:2026 20:13
+data-version: 4.224
+date: 17:01:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -19664,7 +19664,6 @@ name: streptomycin sulfate
 def: "This is any condition in which the main influencing factor is streptomycin sulfate, the sulfate salt form of streptomycin, an aminoglycoside antibiotic derived from Streptomyces griseus. Streptomycin sulfate is used medically for severe infections and in labs to prevent bacterial contamination in cell cultures by inhibiting bacterial protein synthesis. Side effects include dizziness, hearing issues (ototoxicity), and kidney toxicity." [CID:19648, https://toku-e.com/streptomycin-sulfate]
 synonym: "streptomycin sulfate salt" EXACT []
 xref: CHEBI:32158
-xref: GEO:GSE292500
 xref: PMID:40908485
 is_a: XCO:0000483 ! antibacterial agent
 is_a: XCO:0001112 ! nephrotoxic chemical
@@ -19675,7 +19674,6 @@ creation_date: 2026-01-09T11:20:42Z
 id: XCO:0001784
 name: MyoMed‐205
 def: "This is any condition in which the main influencing factor is MyoMed-205, a small-molecule inhibitor of MuRF1 (TRIM63/tripartite motif containing 63), a muscle-specific E3 ligase. MyoMed-205 reduces ubiquitination and subsequent proteasomal degradation of muscle proteins by inhibiting MuRF1 activity." [https://www.medchemexpress.com/myomed-205, PMID:41243395]
-xref: GEO:GSE305304
 is_a: XCO:0000523 ! enzyme inhibitor
 created_by: slaulederkind
 creation_date: 2026-01-09T13:21:14Z
