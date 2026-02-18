@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.225
-date: 24:01:2026 20:13
+data-version: 4.226
+date: 14:02:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -18840,8 +18840,8 @@ synonym: "LDH1 multiple antigenic peptides" EXACT []
 synonym: "LDHA MAPs" EXACT []
 synonym: "LDH-A multiple antigenic peptides" EXACT []
 synonym: "LDHA multiple antigenic peptides" EXACT []
-synonym: "LDH-M multiple antigenic peptides" EXACT []
 synonym: "LDHM multiple antigenic peptides" EXACT []
+synonym: "LDH-M multiple antigenic peptides" EXACT []
 synonym: "LDH muscle subunit multiple antigenic peptides" EXACT []
 synonym: "L-lactate dehydrogenase A chain multiple antigenic peptides" EXACT []
 is_a: XCO:0001713 ! lactate dehydrogenase A
@@ -19702,6 +19702,28 @@ is_a: XCO:0000100 ! sham surgical control condition
 relationship: part_of XCO:0000969 ! lateral fluid percussion injury
 created_by: slaulederkind
 creation_date: 2026-01-09T14:18:35Z
+
+[Term]
+id: XCO:0001787
+name: extracorporeal circulating blood transfusion
+def: "This is any condition in which the main influencing factor is extracorporeal circulating blood transfusion, the continuous intravenous reinfusion of blood into the same individual from whom it was removed." [PMID:41044028]
+synonym: "ECC" EXACT []
+synonym: "ECMO" RELATED []
+synonym: "extracorporeal circulation" EXACT []
+synonym: "extracorporeal membrane oxygenation" RELATED []
+is_a: XCO:0001297 ! autologous blood transfusion
+created_by: slaulederkind
+creation_date: 2026-02-10T16:39:40Z
+
+[Term]
+id: XCO:0001788
+name: extracorporeal circulating blood transfusion with UTOpiA
+def: "This is any condition in which the main influencing factor is extracorporeal circulating blood transfusion with UTOpiA, a two filter process that involves inline granulocyte-monocyte apheresis (GMA) followed by an inline filter containing HLA-modified human induced pluripotent stem cell-derived hepatocyte-like cell (iHLC) organoids. The combined components of the circuit define a bioartificial liver system that manages inflammation, restores liver function, and promotes regeneration in rat models of severe liver failure." [PMID:41044028]
+synonym: "extracorporeal circulating blood transfusion with Universal Tandem Optimized iHLC with granulocyte and monocyte/macrophage Apheresis" EXACT []
+synonym: "extracorporeal circulation with UTOpiA" EXACT []
+is_a: XCO:0001787 ! extracorporeal circulating blood transfusion
+created_by: slaulederkind
+creation_date: 2026-02-10T17:11:08Z
 
 [Typedef]
 id: has_component
