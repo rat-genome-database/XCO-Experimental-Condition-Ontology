@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.227
-date: 21:02:2026 20:13
+data-version: 4.226
+date: 14:02:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -14890,7 +14890,7 @@ creation_date: 2024-06-11T17:07:49Z
 [Term]
 id: XCO:0001406
 name: hypobaric chamber
-def: "This is any condition in which the main influencing factor is a hypobaric chamber, which lowers atmospheric pressure to simulate high altitude." [https://fdm-makers.com/en/what-are-the-things-and-how-does-the-pressure-chamber-work-/, https://www.merriam-webster.com/]
+def: "This is any condition in which the main influencing factor is a hypobaric chamber, which lowers atmospheric pressure to simulate high altitude." [https://www.dellamarca.it/en/what-and-how-the-pressure-chamber-works/#, https://www.merriam-webster.com/]
 synonym: "altitude chamber" EXACT []
 synonym: "pressure chamber" EXACT []
 is_a: XCO:0001405 ! controlled atmospheric pressure
@@ -18840,8 +18840,8 @@ synonym: "LDH1 multiple antigenic peptides" EXACT []
 synonym: "LDHA MAPs" EXACT []
 synonym: "LDH-A multiple antigenic peptides" EXACT []
 synonym: "LDHA multiple antigenic peptides" EXACT []
-synonym: "LDH-M multiple antigenic peptides" EXACT []
 synonym: "LDHM multiple antigenic peptides" EXACT []
+synonym: "LDH-M multiple antigenic peptides" EXACT []
 synonym: "LDH muscle subunit multiple antigenic peptides" EXACT []
 synonym: "L-lactate dehydrogenase A chain multiple antigenic peptides" EXACT []
 is_a: XCO:0001713 ! lactate dehydrogenase A
