@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.228
-date: 28:02:2026 20:13
+data-version: 4.227
+date: 21:02:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -19479,8 +19479,8 @@ def: "This is any condition in which the main influencing factor is an L5 spinal
 synonym: "fifth lumbar spinal nerve compression sham procedure" EXACT []
 synonym: "spinal nerve L5 compression sham procedure" EXACT []
 xref: GEO:GSE246156
-is_a: XCO:0000100 ! sham surgical control condition
-relationship: part_of XCO:0001767 ! L5 spinal nerve compression
+is_a: XCO:0001767 ! L5 spinal nerve compression
+relationship: part_of XCO:0000100 ! sham surgical control condition
 created_by: slaulederkind
 creation_date: 2025-10-31T14:25:18Z
 
