@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.231
-date: 04:04:2026 20:13
+data-version: 4.230
+date: 14:03:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -11517,8 +11517,8 @@ id: XCO:0001122
 name: antianxiety agent
 def: "This is any condition in which the main influencing factor is an anti-anxiety agent, a medication or other intervention that reduces anxiety. Anxiolytic medications are used for the treatment of anxiety disorders and their related psychological and physical symptoms." [https://en.wikipedia.org/wiki/Anxiolytic, https://www.merriam-webster.com/]
 synonym: "anti-anxiety agent" EXACT []
-synonym: "anti-anxiety drug" EXACT []
 synonym: "antianxiety drug" EXACT []
+synonym: "anti-anxiety drug" EXACT []
 synonym: "antipanic agent" EXACT []
 synonym: "anxiolytic" EXACT []
 synonym: "anxiolytic medication" EXACT []
@@ -18840,8 +18840,8 @@ synonym: "LDH1 multiple antigenic peptides" EXACT []
 synonym: "LDHA MAPs" EXACT []
 synonym: "LDH-A multiple antigenic peptides" EXACT []
 synonym: "LDHA multiple antigenic peptides" EXACT []
-synonym: "LDHM multiple antigenic peptides" EXACT []
 synonym: "LDH-M multiple antigenic peptides" EXACT []
+synonym: "LDHM multiple antigenic peptides" EXACT []
 synonym: "LDH muscle subunit multiple antigenic peptides" EXACT []
 synonym: "L-lactate dehydrogenase A chain multiple antigenic peptides" EXACT []
 is_a: XCO:0001713 ! lactate dehydrogenase A
@@ -19738,36 +19738,6 @@ is_a: XCO:0000323 ! alcohol
 is_a: XCO:0000505 ! anti-inflammatory agent
 created_by: caripark
 creation_date: 2026-03-09T08:41:01Z
-
-[Term]
-id: XCO:0001790
-name: gene transfer of the human GALT gene using an adeno-associated virus vector
-def: "This is any condition in which the main influencing factor is gene transfer of the human GALT (galactose-1-phosphate uridylyltransferase) gene using an adeno-associated virus vector. Gene transfer into a cell or organism using an adeno-associated virus vector is performed to induce synthesis of the carried gene's product in the recipient cell or organism." [PMID:32882063]
-synonym: "gene transfer of the human galactose-1-phosphate uridylyltransferase gene using an adeno-associated virus vector" EXACT []
-synonym: "gene transfer of the human GALT gene using  an AAV9 virus vector" NARROW []
-synonym: "gene transfer of the human GALT  gene using an AAV vector" EXACT []
-xref: PMID:32882063
-is_a: XCO:0001575 ! gene transfer using an adeno-associated virus vector
-created_by: caripark
-creation_date: 2026-03-27T16:21:15Z
-
-[Term]
-id: XCO:0001791
-name: Saccharomyces cerevisiae strain GY007
-def: "This is any condition in which the main influencing factor is Saccharomyces cerevisiae strain GY007, a strain of baker's yeast selected for its ability to metabolize galactose efficiently despite the presence of glucose. It is a potential therapeutic agent for classic galactosemia." [PMID:41239942]
-xref: PMID:41239942
-is_a: XCO:0000761 ! biologics and probiotics
-created_by: caripark
-creation_date: 2026-04-03T09:28:36Z
-
-[Term]
-id: XCO:0001792
-name: kidney irradiation
-def: "This is any condition in which the main influencing factor is kidney irradiation, a type of partial body irradiation used to target the kidney(s). In experimental animals, it is used to study the morbitities caused by radiation exposure to the kidneys." [PMID:36548630]
-xref: PMID:36548630
-is_a: XCO:0000814 ! partial body irradiation
-created_by: caripark
-creation_date: 2026-04-03T09:51:14Z
 
 [Typedef]
 id: has_component
