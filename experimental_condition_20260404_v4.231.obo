@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.232
-date: 11:04:2026 20:13
+data-version: 4.231
+date: 04:04:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -19768,38 +19768,6 @@ xref: PMID:36548630
 is_a: XCO:0000814 ! partial body irradiation
 created_by: caripark
 creation_date: 2026-04-03T09:51:14Z
-
-[Term]
-id: XCO:0001793
-name: experimental spinal cord transection at T2
-def: "This is any condition in which the main influencing factor is an experimental transection of the rat spinal cord at the vertebral level of thoracic 2 (T2). This procedure involves exposure of the spinal cord at the vertebral level of thoracic1-3 (T1-3) and complete transection of the isolated section of spinal cord at T2." [PMID:32226812]
-synonym: "experimental spinal cord transection at thoracic 2" EXACT []
-xref: GEO:GSE129694
-xref: PMID:32226812
-is_a: XCO:0001091 ! experimental spinal cord injury
-created_by: caripark
-creation_date: 2026-04-07T10:15:02Z
-
-[Term]
-id: XCO:0001794
-name: T2 spinal cord contusion
-def: "This is any condition in which the main influencing factor is an experimental surgical procedure involving laminectomy of the second thoracic vertebra and delivery of a controlled contusion of the spinal cord by a mechanical apparatus." [PMID:32226812]
-synonym: "experimental spinal cord contusion at T2" EXACT []
-xref: GEO:GSE129694
-xref: PMID:32226812
-is_a: XCO:0001041 ! experimental spinal cord contusion
-created_by: caripark
-creation_date: 2026-04-07T10:17:43Z
-
-[Term]
-id: XCO:0001795
-name: shallow water walking
-def: "This is any condition in which the main influencing factor is walking in shallow water, in which the feet touch the bottom. The water provides buoyancy, reducing pressure on the joints, and resistance." [PMID: 32161731]
-xref: GEO:GSE129694
-xref: PMID:32226812
-is_a: XCO:0000007 ! walking
-created_by: caripark
-creation_date: 2026-04-07T10:21:26Z
 
 [Typedef]
 id: has_component
