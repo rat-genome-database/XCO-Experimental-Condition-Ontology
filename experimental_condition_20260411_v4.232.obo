@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.233
-date: 18:04:2026 20:13
+data-version: 4.232
+date: 11:04:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -10137,7 +10137,7 @@ creation_date: 2023-03-24T14:51:33Z
 [Term]
 id: XCO:0001005
 name: transfer of PIWIL1 siRNA using pSUPER plasmid
-def: "This is any condition in which the main influencing factor is PIWIL1 (piwi-like RNA-mediated gene silencing 1) siRNA in a pSUPER plasmid. The PIWIL1 protein may play important roles in stem cell self-renewal, RNA silencing, and translational regulation in diverse organisms. The pSUPER plasmid was designed for eukaryotic expression/RNAi." [https://www.addgene.org, PMID:26104391]
+def: "This is any condition in which the main influencing factor is PIWIL1 (piwi-like RNA-mediated gene silencing 1) siRNA. The PIWIL1 protein may play important roles in stem cell self-renewal, RNA silencing, and translational regulation in diverse organisms. The pSUPER plasmid was designed for eukaryotic expression/RNAi." [https://www.addgene.org, PMID:26104391]
 synonym: "PIWIL1 siRNA transfection" BROAD []
 synonym: "transfection of PIWIL1 siRNA using pSUPER plasmid" EXACT []
 xref: PMID:26104391
@@ -10228,7 +10228,7 @@ creation_date: 2023-04-06T14:09:22Z
 [Term]
 id: XCO:0001013
 name: transfer of rat RBPMS siRNA using a lentivirus vector
-def: "This is any condition in which the main influencing factor is transfer of rat RBPMS (RNA binding protein, mRNA processing factor)-specific siRNA in a lentivirus vector. This siRNA has been transferred into a cell or organism using a lentivirus carrier in order to block synthesis of RBPMS in the recipient cell or organism." [https://en.wikipedia.org/wiki/Small_interfering_RNA, PMID:31283468]
+def: "This is any condition in which the main influencing factor is rat RBPMS (RNA binding protein, mRNA processing factor)-specific siRNA. This siRNA has been transferred into a cell or organism using a lentivirus carrier in order to block synthesis of RBPMS in the recipient cell or organism." [https://en.wikipedia.org/wiki/Small_interfering_RNA, PMID:31283468]
 synonym: "transduction of RBPMS siRNA using a lentivirus vector" EXACT []
 synonym: "transfer of rat RBPMS short interfering RNA using a lentivirus vector" EXACT []
 synonym: "transfer of rat RBPMS siRNA using a lentiviral vector" EXACT []
@@ -14543,7 +14543,7 @@ name: experimental spinal cord transection at T10/T11
 def: "This is any condition in which the main influencing factor is an experimental transection of the rat spinal cord at the vertebral level of thoracic 10/11 (T10/11). This procedure involves laminectomy of the tenth vertebra and complete transection of the isolated section of spinal cord." [ISBN-13:9780781733908, PMID:37744239]
 synonym: "experimental SSCI" EXACT []
 synonym: "experimental suprasacral spinal cord injury" EXACT []
-is_a: XCO:0001796 ! experimental spinal cord transection
+is_a: XCO:0001091 ! experimental spinal cord injury
 created_by: slaulederkind
 creation_date: 2024-04-29T15:57:35Z
 
@@ -18840,8 +18840,8 @@ synonym: "LDH1 multiple antigenic peptides" EXACT []
 synonym: "LDHA MAPs" EXACT []
 synonym: "LDH-A multiple antigenic peptides" EXACT []
 synonym: "LDHA multiple antigenic peptides" EXACT []
-synonym: "LDH-M multiple antigenic peptides" EXACT []
 synonym: "LDHM multiple antigenic peptides" EXACT []
+synonym: "LDH-M multiple antigenic peptides" EXACT []
 synonym: "LDH muscle subunit multiple antigenic peptides" EXACT []
 synonym: "L-lactate dehydrogenase A chain multiple antigenic peptides" EXACT []
 is_a: XCO:0001713 ! lactate dehydrogenase A
@@ -19032,7 +19032,7 @@ def: "This is any condition in which the main influencing factor is an experimen
 synonym: "experimental spinal cord transection at thoracic 8" EXACT []
 xref: GEO:GSE294927
 xref: GEO:GSE294930
-is_a: XCO:0001796 ! experimental spinal cord transection
+is_a: XCO:0001091 ! experimental spinal cord injury
 created_by: slaulederkind
 creation_date: 2025-10-21T17:26:23Z
 
@@ -19776,7 +19776,7 @@ def: "This is any condition in which the main influencing factor is an experimen
 synonym: "experimental spinal cord transection at thoracic 2" EXACT []
 xref: GEO:GSE129694
 xref: PMID:32226812
-is_a: XCO:0001796 ! experimental spinal cord transection
+is_a: XCO:0001091 ! experimental spinal cord injury
 created_by: caripark
 creation_date: 2026-04-07T10:15:02Z
 
@@ -19800,115 +19800,6 @@ xref: PMID:32226812
 is_a: XCO:0000007 ! walking
 created_by: caripark
 creation_date: 2026-04-07T10:21:26Z
-
-[Term]
-id: XCO:0001796
-name: experimental spinal cord transection
-def: "This is any condition in which the main influencing factor is an experimental surgical procedure involving laminectomy and complete transection of the isolated section of spinal cord." [PMID:32226812]
-is_a: XCO:0001091 ! experimental spinal cord injury
-created_by: caripark
-creation_date: 2026-04-13T13:24:55Z
-
-[Term]
-id: XCO:0001797
-name: uterine curettage
-def: "This is any condition in which the main influencing factor is uterine curettage, the surgical scraping of the lining of the uterus performed using a curette, a scoop- or hoe-shaped instrument that may be blunt or sharp." [https://www.britannica.com/science/curettage]
-synonym: "endometrial curettage" EXACT []
-is_a: XCO:0000165 ! surgical manipulation
-created_by: caripark
-creation_date: 2026-04-17T08:52:03Z
-
-[Term]
-id: XCO:0001798
-name: gelatin hydrogel scaffold implantation
-def: "This is any condition in which the main influencing factor is implantation of a hydrogel scaffold in which gelatin is used as the cross-linked polymer. Gelatin hydrogels have a wide range of applications, including tissue engineering and drug delivery." [PMID:_40548465, PMID: 36850309]
-is_a: XCO:0001409 ! tissue engineering scaffold implantation
-created_by: caripark
-creation_date: 2026-04-17T08:55:17Z
-
-[Term]
-id: XCO:0001799
-name: human menstrual blood-derived mesenchymal stem cell gelatin hydrogel implantation
-def: "This is any condition in which the main influencing factor is implantation of a hydrogel implanted with human menstrual blood-derived mesenchymal stem cells in the form of single cells." [PMID:_40548465]
-synonym: "human MenSC gelatin hydrogel implantation" EXACT []
-is_a: XCO:0001798 ! gelatin hydrogel scaffold implantation
-created_by: caripark
-creation_date: 2026-04-17T08:59:01Z
-
-[Term]
-id: XCO:0001800
-name: human menstrual blood-derived mesenchymal stem cell spheroids gelatin hydrogel implantation
-def: "This is any condition in which the main influencing factor is implantation of a hydrogel implanted with human menstrual blood-derived mesenchymal stem cells in the form of cell spheres." [PMID:_40548465]
-synonym: "human MenSC spheroid gelatin hydrogel implantation" EXACT []
-is_a: XCO:0001799 ! human menstrual blood-derived mesenchymal stem cell gelatin hydrogel implantation
-created_by: caripark
-creation_date: 2026-04-17T09:06:36Z
-
-[Term]
-id: XCO:0001801
-name: cold atmospheric plasma
-def: "This is any condition in which the main influencing factor is cold atmospheric plasma, an ionized gas generated when a high-energy electric field is applied to an inert gas, nitrogen, or air. The reactive oxygen and nitrogen species generated activate inflammatory and antioxidant responses." [PMID:_41551822]
-synonym: "CAP" EXACT []
-synonym: "cold plasma" EXACT []
-synonym: "non-equilibrium plasma" EXACT []
-synonym: "nonequilibrium plasma" EXACT []
-synonym: "non-thermal plasma" EXACT []
-synonym: "Renuvion cold plasma" NARROW []
-is_a: XCO:0000271 ! antioxidant
-is_a: XCO:0000482 ! antimicrobial agent
-is_a: XCO:0000850 ! therapeutic agent
-created_by: caripark
-creation_date: 2026-04-17T09:10:56Z
-
-[Term]
-id: XCO:0001802
-name: transfer of GalNAc-conjugated ChREBP siRNA
-def: "This is any condition in which the main influencing factor is transfer of ChREBP (carbohydrate-responsive element-binding protein) siRNA conjugated to N-acetylgalactosamine (GalNAc), which allows directed delivery of siRNA to the liver by targeting the asialoglycoprotein receptor." [https://www.genelink.com/newsite/products/MODPDFFILES/26-6735.pdf, PMID:_39921857]
-is_a: XCO:0000233 ! ribonucleic acid
-created_by: caripark
-creation_date: 2026-04-17T09:21:11Z
-
-[Term]
-id: XCO:0001803
-name: transfer of negative control GalNAc-conjugated siRNA
-def: "This is any condition in which the main influencing factor is negative control siRNA conjugated to N-acetylgalactosamine, which allows directed delivery of siRNA to the liver by targeting the asialoglycoprotein receptor. Negative control siRNA is an siRNA with no significant sequence similarity to eukaryotic gene sequences." [https://www.genelink.com/newsite/products/MODPDFFILES/26-6735.pdf, PMID:_39921857]
-is_a: XCO:0001510 ! transfer of negative control siRNA
-created_by: caripark
-creation_date: 2026-04-17T09:24:31Z
-
-[Term]
-id: XCO:0001804
-name: human plasma-derived mitochondria
-def: "This is any condition in which the main influencing factor is mitochondria derived from human plasma. Mitochondria are semiautonomous, self-reproducing organelles that occur in the cytoplasm of all cells of most eukaryotes. They are the sites of the reactions of oxidative phosphorylation, which result in the formation of ATP." [MESH:D008928, PMID:_40979828]
-synonym: "human plasma-derived mitochondria" EXACT []
-synonym: "human pMT" EXACT []
-is_a: XCO:0000761 ! biologics and probiotics
-created_by: caripark
-creation_date: 2026-04-17T10:13:20Z
-
-[Term]
-id: XCO:0001805
-name: transfer of human histone variant H3-3A using a lentivirus vector
-def: "This is any condition in which the main influencing factor is wild-type human histone variant H3-3A which has been (transiently or stably) transferred into a cell or organism using a lentivirus vector in order to induce synthesis of that product in the recipient cell or organism." [GEO:GSE124055, PMID:32273471]
-synonym: "transfer of human histone variant H3.3A using a lentivirus vector" EXACT []
-synonym: "transfer of human histone variant H3.3 using a lentivirus vector" BROAD []
-synonym: "transfer of human histone variant H3-3A using a lentiviral vector" EXACT []
-xref: PMID:32273471
-is_a: XCO:0000982 ! gene transfer using a lentivirus vector
-created_by: caripark
-creation_date: 2026-04-17T13:07:43Z
-
-[Term]
-id: XCO:0001806
-name: transfer of human histone variant H3-3Q5A using a lentivirus vector
-def: "This is any condition in which the main influencing factor is human histone variant H3.3 with a Q5A point mutation which has been (transiently or stably) transferred into a cell or organism using a lentivirus vector in order to induce synthesis of that product in the recipient cell or organism. The Q5A mutation results in a product that cannot be dopaminylated, resulting in downregulation of H3Q5dop." [GEO:GSE124055, PMID:32273471]
-synonym: "transfer of human histone variant H3.3Q5A using a lentiviral vector" EXACT []
-synonym: "transfer of human histone variant H3.3Q5A using a lentivirus vector" EXACT []
-synonym: "transfer of human histone variant H3-3Q5A using a lentiviral vector" EXACT []
-xref: PMID:32273471
-is_a: XCO:0000982 ! gene transfer using a lentivirus vector
-created_by: caripark
-creation_date: 2026-04-17T13:15:47Z
 
 [Typedef]
 id: has_component
