@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 4.234
-date: 25:04:2026 20:13
+data-version: 4.233
+date: 18:04:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
@@ -3404,7 +3404,7 @@ id: XCO:0000373
 name: surgical denervation
 def: "This is any condition in which the main influencing factor is surgical denervation, which my involve transection, resection, or complete surgical removal of a nerve, any of the cordlike structures that convey impulses between the central nervous system and one or more parts of the body, and that each consist of an outer connective tissue sheath surrounding a bundle of conductive fibers." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Dental_Dictionary--2nd_Ed]
 xref: MESH:D003714
-is_a: XCO:0001814 ! experimental nerve injury
+is_a: XCO:0000026 ! surgical removal
 created_by: JSmith
 creation_date: 2014-01-09T14:52:48Z
 
@@ -8463,7 +8463,6 @@ id: XCO:0000861
 name: control IgG monoclonal antibody
 def: "A condition in which the main influencing factor is an isotype-matched (IgG) monoclonal antibody to provide a control for some target-specific monoclonal antibody." [https://www.merriam-webster.com/, PMID:11316858]
 synonym: "isotype-matched control Ab" EXACT []
-synonym: "MOPC-21 monoclonal antibody" NARROW []
 xref: PMID:15702434
 is_a: XCO:0000194 ! antibody
 created_by: slaulede
@@ -10387,7 +10386,7 @@ def: "This is any condition in which the main influencing factor is the ligation
 synonym: "Chung model" RELATED []
 synonym: "SNL" EXACT []
 synonym: "SNL model" RELATED []
-is_a: XCO:0001814 ! experimental nerve injury
+is_a: XCO:0000165 ! surgical manipulation
 created_by: slaulede
 creation_date: 2023-05-09T16:38:20Z
 
@@ -11149,7 +11148,7 @@ id: XCO:0001092
 name: sciatic nerve crush
 def: "This is any condition in which the main influencing factor is an experimentally controlled sciatic nerve crush, which is used as a model of sciatic neuropathy, Wallerian degeneration, and axonal regeneration." [PMID:35768768]
 xref: GEO:GSE149657
-is_a: XCO:0001814 ! experimental nerve injury
+is_a: XCO:0000165 ! surgical manipulation
 created_by: slaulederkind
 creation_date: 2023-11-02T13:57:14Z
 
@@ -19910,159 +19909,6 @@ xref: PMID:32273471
 is_a: XCO:0000982 ! gene transfer using a lentivirus vector
 created_by: caripark
 creation_date: 2026-04-17T13:15:47Z
-
-[Term]
-id: XCO:0001807
-name: MgPA hydrogel implantation
-def: "This is any condition in which the main influencing factor is implantation of MgPA hydrogel, a plant-derived phosphate coordination compound-based adhesive hydrogel that integrates magnesium ions (Mg2+)−phytic acid (PA) nanoparticles with aminated gelatin (Gel-NH2) and aldehydated starch (AS). This hydrogel can firmly adhere to irregular bone surfaces at a fracture site and degrades in the acidic osteoporotic microenvironment, releasing PA and Mg2+ to modulate osteoclast and osteoblast activity." [PMID:_40928479]
-synonym: "MgPA-Gel implantation" EXACT []
-is_a: XCO:0001439 ! bone tissue engineering scaffold implantation
-created_by: caripark
-creation_date: 2026-04-21T10:26:16Z
-
-[Term]
-id: XCO:0001808
-name: facial nerve compression
-def: "This is any condition in which the main influencing factor is compression of the facial nerve induced by an experimental surgical procedure involving clamping of the nerve using forceps." [PMID:40394959]
-synonym: "CN-VII compression" EXACT []
-synonym: "seventh cranial nerve compression" EXACT []
-xref: PMID:40394959
-is_a: XCO:0001814 ! experimental nerve injury
-created_by: caripark
-creation_date: 2026-04-21T10:30:12Z
-
-[Term]
-id: XCO:0001809
-name: GQ-16
-def: "This is any condition in which the main influencing factor is GQ-16, a PPARgamma partial agonist that inhibits Cdk5-mediated Ser-273 phosphorylation. GQ-16 improves insulin sensitivity and glucose tolerance in obese and diabetic mice and exhibits cytotoxicity against tumor cells." [https://www.medchemexpress.com/gq-16.html]
-synonym: "(Z)-5-(5-bromo-2-methoxybenzylidene)-3-(4-methylbenzyl)thiazolidine-2,4-dione" EXACT []
-xref: CID:11509958
-xref: PMID:35310946
-is_a: XCO:0000135 ! receptor agonist
-created_by: caripark
-creation_date: 2026-04-21T10:48:56Z
-
-[Term]
-id: XCO:0001810
-name: Chlorella-derived hydrogel implantation
-def: "This is any condition in which the main influencing factor is implantation of Chlorella-derived hydrogel, a microalgae-based biomaterial that is able to photosynthetically generate oxygen in response to light, allowing for controlled oxygen delivery to hypoxic microenvironments in injury or disease." [PMID:40394959]
-synonym: "C-Gel implantation" EXACT []
-xref: PMID:40394959
-is_a: XCO:0001409 ! tissue engineering scaffold implantation
-created_by: caripark
-creation_date: 2026-04-21T10:52:15Z
-
-[Term]
-id: XCO:0001811
-name: choline‐deficient L‐amino acid‐defined diet
-def: "This is any condition in which the main influencing factor is a choline‐defficient, L-amino acid‐defined (CDAA) diet, a choline-deficient diet in which proteins are replaced with an equivalent and corresponding mixture of L-amino acids. A CDAA diet is often used in studies investigating the effects of choline deficiency on liver health, particularly in models of non-alcoholic fatty liver disease (NAFLD) or hepatocellular carcinoma." [PMID:26626909, PMID: 40888265]
-synonym: "CDAA diet" EXACT []
-xref: PMID:35502615
-xref: PMID:40888265
-is_a: XCO:0000014 ! controlled content diet
-created_by: caripark
-creation_date: 2026-04-21T11:06:07Z
-
-[Term]
-id: XCO:0001812
-name: controlled pterostilbene content, CDAA diet
-def: "This is any condition in which the main influencing factor is a choline‐deficient, amino acid‐defined (CDAA) diet with controlled pterostilbene content." [PMID:40888265]
-xref: PMID:40888265
-is_a: XCO:0000014 ! controlled content diet
-created_by: caripark
-creation_date: 2026-04-21T11:08:38Z
-
-[Term]
-id: XCO:0001813
-name: dihydrotachysterol
-def: "This is any condition in which the main influencing factor is dihydrotachysterol, a synthetic analog of vitamin D that acts as a bone density conservation agent." [CHEBI:4591, CID:5311071]
-synonym: "(3S,5E,7E,10S,22E)-9,10-secoergosta-5,7,22-trien-3-ol" EXACT []
-xref: CHEBI:4591
-xref: PMID:41031886
-is_a: XCO:0000091 ! steroid
-is_a: XCO:0000546 ! vitamin analog
-created_by: caripark
-creation_date: 2026-04-21T11:10:48Z
-
-[Term]
-id: XCO:0001814
-name: experimental nerve injury
-def: "This is any condition in which the main influencing factor is experimental nerve injury, a penetrating or non-penetrating injury to a nerve resulting from experimentally controlled trauma." [https://en.wikipedia.org/wiki/Nerve_injury]
-xref: DOID:9003740
-is_a: XCO:0000165 ! surgical manipulation
-created_by: caripark
-creation_date: 2026-04-24T08:08:13Z
-
-[Term]
-id: XCO:0001815
-name: anti-interleukin-17A antibody
-def: "This is any condition in which the main influencing factor is an immunoglobulin molecule or a preparation of multiple antibody molecules having specific amino acid sequences with the ability to adhere to and interact specifically with intterleukin-17A, a pro-inflammatory cytokine produced by activated T cells." [https://en.wikipedia.org/wiki/Interleukin-17A, PMID:41031886]
-synonym: "17F3 monoclonal antibody" NARROW []
-synonym: "anti-IL-17A monoclonal antibody" EXACT []
-xref: PMID:41031886
-is_a: XCO:0000194 ! antibody
-created_by: caripark
-creation_date: 2026-04-24T08:49:31Z
-
-[Term]
-id: XCO:0001816
-name: interleukin-1 receptor antagonist
-def: "This is any condition in which the main influencing factor is an interleukin-1 receptor antagonist, an agent that blocks interleukin-1 receptors." [PMID:_41039100]
-synonym: "IL-1 receptor antagonist" EXACT []
-synonym: "Kineret" NARROW []
-xref: PMID:41039100
-is_a: XCO:0000160 ! receptor antagonist
-created_by: caripark
-creation_date: 2026-04-24T08:55:12Z
-
-[Term]
-id: XCO:0001817
-name: 4% O2, 20% CO2, 76%N2
-def: "This is any condition in which the main influencing factor is the level of carbon dioxide (20%), oxygen (4%), and nitrogen (76%) in the air surrounding the organism or breathed by the organism as part of the experiment." [PMID:41039100]
-synonym: "4% O2 and 20% CO2 in N2" EXACT []
-xref: PMID:41039100
-is_a: XCO:0000010 ! controlled air oxygen content
-created_by: caripark
-creation_date: 2026-04-24T08:58:13Z
-
-[Term]
-id: XCO:0001818
-name: nucleic acid transfer
-def: "This is any condition in which the main influencing factor is transfer of exogenous DNA or RNA sequences which have been transiently or stably inserted into a living cell or organism in order to promote or block synthesis of specific gene product(s)." [https://en.wikipedia.org/wiki/Horizontal_gene_transfer]
-synonym: "deoxyribonucleic acid transfer" NARROW []
-synonym: "DNA transfer" NARROW []
-synonym: "ribonucleic acid transfer" NARROW []
-synonym: "RNA transfer" NARROW []
-is_a: XCO:0000527 ! genetic manipulation
-created_by: caripark
-creation_date: 2026-04-24T09:34:39Z
-
-[Term]
-id: XCO:0001819
-name: DNA transfer using a plasmid vector
-def: "This is any condition in which the main influencing factor is transfer of DNA via a plasmid into a living cell or organism. A plasmid is a small, circular, double-stranded DNA molecule that is distinct from a cell's chromosomal DNA. Plasmids are both naturally occurring and artificially used as molecular tools for experimentation and clinical manipulations." [https://en.wikipedia.org/wiki/Plasmid]
-is_a: XCO:0001818 ! nucleic acid transfer
-created_by: caripark
-creation_date: 2026-04-24T09:40:52Z
-
-[Term]
-id: XCO:0001820
-name: Rnf20-gRNA transfer using a plasmid vector
-def: "This is any condition in which the main influencing factor is plasmid transfer of Rnf20-gRNA targeting the promoter of the Rnf20 gene, a ubiquitin E3 ligase for histone H2B. gRNA (guide RNA) is a short synthetic RNA, used in CRISPR gene manipulation, composed of a scaffold sequence necessary for Cas enzyme binding and a short nucleotide spacer that specifies the genomic target to be modified." [https://www.addgene.org/guides/crispr/, PMID:40194842]
-synonym: "gRNA plasmid transfer targeting Rnf20 promoter" EXACT []
-xref: PMID:40194842
-is_a: XCO:0001819 ! DNA transfer using a plasmid vector
-created_by: caripark
-creation_date: 2026-04-24T09:43:57Z
-
-[Term]
-id: XCO:0001821
-name: transfer of dCas9-VPR using a plasmid vector
-def: "This is any condition in which the main influencing factor is transfer of dCas9-VPR DNA via a plasmid vector. dCas9-VPR is a transcriptional activator encoding the catalytically inactive “dead” CRISPR-associated endonuclease Cas9 (dCas9) fused to several different activation domains (VP64-p65-Rta) in series. When delivered to cells or organisms with guide RNA specifying a genomic target, it activates transcription of the targeted gene." [https://www.addgene.org/guides/crispr/, PMID:40194842]
-xref: PMID:40194842
-is_a: XCO:0001819 ! DNA transfer using a plasmid vector
-created_by: caripark
-creation_date: 2026-04-24T09:50:37Z
 
 [Typedef]
 id: has_component
