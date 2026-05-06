@@ -1,17 +1,10 @@
 format-version: 1.2
-data-version: releases/2026-05-06
-date: 06:05:2026 11:27
+data-version: 4.234
+date: 25:04:2026 20:13
 saved-by: jrsmith
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-05-05 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: experimental_condition_ontology
 ontology: xco
-property_value: dc:creator "Carissa A. Park" xsd:string
-property_value: dc:creator "Jennifer R. Smith" xsd:string
-property_value: dc:creator "Mary Shimoyama" xsd:string
-property_value: dc:creator "Shur-Jen Wang" xsd:string
-property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-05-06" xsd:string
-property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
 id: XCO:0000000
@@ -928,7 +921,7 @@ synonym: "amino acids" EXACT []
 xref: CHEBI:33709
 xref: MESH:D000596
 is_a: XCO:0000342 ! chemical with specified structure
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-02-16T12:55:34Z
 
 [Term]
@@ -936,7 +929,7 @@ id: XCO:0000120
 name: inhibitor
 def: "A substance or compound which interferes with a chemical reaction or a molecular or physiological process or activity." [http://medical-dictionary.thefreedictionary.com/inhibitor "Multiple_Dictionaries", RGD:JRS]
 is_a: XCO:0000341 ! chemical with specified function
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-02-16T01:09:21Z
 
 [Term]
@@ -950,7 +943,7 @@ xref: MESH:D019331
 xref: pubchem.compound:39836
 is_a: XCO:0000119 ! amino acid
 is_a: XCO:0000523 ! enzyme inhibitor
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-02-16T01:15:20Z
 
 [Term]
@@ -958,7 +951,7 @@ id: XCO:0000122
 name: diuretic
 def: "A chemical which tends to increase the excretion of urine." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000341 ! chemical with specified function
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-02-16T01:51:41Z
 
 [Term]
@@ -968,7 +961,7 @@ def: "A compound containing a sulfonamide functional group. A sulfonamide functi
 xref: CHEBI:35358
 is_a: XCO:0000342 ! chemical with specified structure
 is_a: XCO:0000950 ! anticonvulsant
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-02-16T01:52:39Z
 
 [Term]
@@ -982,7 +975,7 @@ xref: CHEBI:47426
 xref: CID:3440
 is_a: XCO:0000122 ! diuretic
 is_a: XCO:0000123 ! sulfonamide
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-02-16T01:53:25Z
 
 [Term]
@@ -990,7 +983,7 @@ id: XCO:0000125
 name: hormone
 def: "A chemical substance which in its endogenous state is produced by an organ, cells of an organ or scattered cells, having a specific regulatory affect on the activity of an organ or tissue." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000341 ! chemical with specified function
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-02-16T02:54:55Z
 
 [Term]
@@ -999,7 +992,7 @@ name: angiotensin
 def: "A peptide hormone which increases blood pressure by causing blood vessel constriction. Part of the renin-angiotensin system." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000141 ! vasoconstrictor
 is_a: XCO:0000228 ! peptide hormone
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-02-16T03:00:38Z
 
 [Term]
@@ -1010,14 +1003,14 @@ synonym: "noradrenaline" EXACT []
 is_a: XCO:0000141 ! vasoconstrictor
 is_a: XCO:0000144 ! neurotransmitter
 is_a: XCO:0000230 ! monoamine hormone
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-02-16T03:01:05Z
 
 [Term]
 id: XCO:0000128
 name: drink with chemical additive
 is_obsolete: true
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-02-16T03:23:23Z
 
 [Term]
@@ -1026,7 +1019,7 @@ name: water with NG-Nitroarginine Methyl Ester
 def: "Drinking water with a specified concentration of NG-Nitroarginine Methyl Ester (L-NAME) added to it. L-NAME is used as a non-selective inhibitor of nitric oxide synthase." [PGA:Renal_protocol]
 synonym: "water with L-NAME" EXACT []
 is_obsolete: true
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-02-16T03:23:57Z
 
 [Term]
@@ -1036,7 +1029,7 @@ def: "An analgesic and anesthetic which functions as a noncompetitive NMDA recep
 xref: CHEBI:6121
 xref: pubchem.compound:3821
 is_a: XCO:0000947 ! NMDA receptor antagonist
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-15T07:33:06Z
 
 [Term]
@@ -1047,7 +1040,7 @@ xref: CHEBI:165540
 xref: chembl.compound:CHEMBL297362
 xref: pubchem.compound:5707
 is_a: XCO:0000106 ! anesthetic/analgesic
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-15T07:34:39Z
 
 [Term]
@@ -1059,7 +1052,7 @@ xref: CID:6077
 is_a: XCO:0000106 ! anesthetic/analgesic
 is_a: XCO:0000140 ! vasodilator
 is_a: XCO:0001245 ! antiemetic
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-15T07:39:01Z
 
 [Term]
@@ -1067,7 +1060,7 @@ id: XCO:0000133
 name: antigen
 def: "A condition in which the major influencing factor is a chemical compound to which the body can mount a specific localized or systemic immune reaction, e.g. a T cell or B cell response." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed, RGD:JRS]
 is_a: XCO:0000341 ! chemical with specified function
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-15T07:42:13Z
 
 [Term]
@@ -1076,7 +1069,7 @@ name: methacholine
 def: "A synthetic choline ester that acts as a non-selective muscarinic receptor agonist, that is, a chemical which when bound to the receptor produces a physiologic reaction typical of the naturally occurring ligand, in the parasympathetic nervous system." [http://en.wikipedia.org/wiki/Methacholine "Wikipedia"]
 xref: CHEBI:6804
 is_a: XCO:0000135 ! receptor agonist
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-15T07:45:00Z
 
 [Term]
@@ -1084,14 +1077,14 @@ id: XCO:0000135
 name: receptor agonist
 def: "A drug or other chemical that can combine with a receptor to produce a physiologic reaction typical of a naturally occurring substance. A receptor is a molecule on the surface or within a cell that recognizes and binds with specific molecules, producing a specific effect in the cell." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000214 ! activator
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-15T07:46:38Z
 
 [Term]
 id: XCO:0000136
 name: enzyme substrate
 is_a: XCO:0000341 ! chemical with specified function
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-15T07:48:19Z
 
 [Term]
@@ -1103,7 +1096,7 @@ synonym: "FurylAcrylolPhenylalanylGlycylGlycine" EXACT []
 xref: CAS:64566-61-6
 xref: pubchem.compound:6438387
 is_a: XCO:0000136 ! enzyme substrate
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-15T07:48:41Z
 
 [Term]
@@ -1115,7 +1108,7 @@ xref: CHEBI:6872
 xref: pubchem.compound:6099
 is_a: XCO:0000199 ! oxidation-reduction indicator
 is_a: XCO:0000523 ! enzyme inhibitor
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-15T07:51:22Z
 
 [Term]
@@ -1123,7 +1116,7 @@ id: XCO:0000139
 name: vasoactive chemical
 def: "A condition in which the main influencing factor is a molecule that directly or indirectly acts upon blood vessels to cause constriction or dilation." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
 is_a: XCO:0000341 ! chemical with specified function
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-15T07:53:30Z
 
 [Term]
@@ -1131,7 +1124,7 @@ id: XCO:0000140
 name: vasodilator
 def: "A condition in which the main influencing factor is a molecule that functions to dilate or increase the interior diameter of blood vessels." [Gale:Gale_Encyclopedia_of_Medicine]
 is_a: XCO:0000139 ! vasoactive chemical
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-15T07:55:13Z
 
 [Term]
@@ -1140,7 +1133,7 @@ name: vasoconstrictor
 def: "A condition in which the main influencing factor is a molecule that acts to constrict or reduce the interior diameter of blood vessels." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "vasopressor" RELATED []
 is_a: XCO:0000139 ! vasoactive chemical
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-15T07:56:15Z
 
 [Term]
@@ -1158,7 +1151,7 @@ xref: CHEBI:29321
 xref: CID:11953895
 xref: MESH:D009599
 is_a: XCO:0000140 ! vasodilator
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-15T07:58:24Z
 
 [Term]
@@ -1169,14 +1162,14 @@ xref: CHEBI:15355
 xref: pubchem.compound:187
 is_a: XCO:0000140 ! vasodilator
 is_a: XCO:0000144 ! neurotransmitter
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-15T08:00:34Z
 
 [Term]
 id: XCO:0000144
 name: neurotransmitter
 is_a: XCO:0000341 ! chemical with specified function
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-15T08:01:41Z
 
 [Term]
@@ -1187,7 +1180,7 @@ xref: CHEBI:8093
 xref: pubchem.compound:6041
 is_a: XCO:0000141 ! vasoconstrictor
 is_a: XCO:0000673 ! alpha-adrenergic agonist
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-15T08:02:39Z
 
 [Term]
@@ -1199,7 +1192,7 @@ synonym: "controlled oxygen content Krebs-Henseleit solution perfusate" RELATED 
 synonym: "controlled oxygen content Krebs-Ringer buffer perfusate" RELATED []
 synonym: "controlled oxygen content Krebs-Ringer solution perfusate" RELATED []
 is_a: XCO:0000116 ! Kreb's solution perfusate
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-21T02:07:15Z
 
 [Term]
@@ -1209,7 +1202,7 @@ def: "A fluid which is injected or pumped into an organ or tissue, usually via b
 synonym: "normal saline perfusate" RELATED []
 synonym: "PSS" EXACT []
 is_a: XCO:0000117 ! saline solution perfusate
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-21T02:18:12Z
 
 [Term]
@@ -1218,7 +1211,7 @@ name: controlled oxygen content physiological salt solution perfusate
 def: "A fluid which is injected or pumped into an organ or tissue, usually via blood vessels, composed of a solution of sodium chloride at a concentration which closely approximates the osmolarity of salt in blood, and which contains a specific, controlled concentration of oxygen gas, the tasteless, odorless, colorless gas with atomic number 8 essential for aerobic respiration, dissolved in it." [http://en.wikipedia.org/wiki/Saline_%28medicine%29#Normal "Wikipedia", Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "oxygenated PSS" EXACT []
 is_a: XCO:0000147 ! physiological salt solution perfusate
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-21T02:19:03Z
 
 [Term]
@@ -1226,7 +1219,7 @@ id: XCO:0000149
 name: ion/salt
 def: "Any condition in which the main influencing factor is an atom or molecule that has gained or lost one or more electrons and thereby acquired a charge, or is any of a large class of chemical compounds formed when a positively charged ion (a cation) bonds with a negatively charged ion (an anion)." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000342 ! chemical with specified structure
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-23T07:25:49Z
 
 [Term]
@@ -1237,14 +1230,14 @@ comment: Not used for potassium salt in animal feed. For that application  XCO:0
 synonym: "K+ ion" EXACT []
 xref: CHEBI:29103
 is_a: XCO:0000149 ! ion/salt
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-23T07:31:29Z
 
 [Term]
 id: XCO:0000151
 name: chemical time series
 is_a: XCO:0000088 ! chemical
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-23T08:10:45Z
 
 [Term]
@@ -1252,7 +1245,7 @@ id: XCO:0000152
 name: drug dose time series
 def: "The condition of exposing an organism, organ or tissue to a series of increasing or decreasing doses of a drug or other chemical from which a single measurement value is obtained." [RGD:JRS]
 is_a: XCO:0000151 ! chemical time series
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-23T08:11:18Z
 
 [Term]
@@ -1261,7 +1254,7 @@ name: sample resting period
 def: "A predetermined and specified amount of time during which an experimental specimen sits undisturbed, for example to allow a chemical reaction to proceed." [RGD:JRS]
 synonym: "sample room temperature incubation" NARROW []
 is_a: XCO:0000000 ! experimental condition
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-26T10:46:30Z
 
 [Term]
@@ -1270,7 +1263,7 @@ name: ion/salt solution
 def: "This is any condition in which the main influencing factor is a homogeneous mixture of one or more ions, i.e. atoms or molecules that have gained or lost electron(s) and thereby acquired a charge, or one or more salts, i.e. members of the large class of chemical compounds formed when a positively charged ion (a cation) bonds with a negatively charged ion (an anion), dispersed molecularly in a sufficient quantity of dissolving medium (solvent) such as water." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000340 ! solution
 relationship: has_component XCO:0000149 ! ion/salt
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-26T04:34:54Z
 
 [Term]
@@ -1281,7 +1274,7 @@ synonym: "saline solution" RELATED []
 synonym: "salt solution" EXACT []
 xref: CHEBI:26710
 is_a: XCO:0000254 ! sodium ion solution
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-26T04:36:15Z
 
 [Term]
@@ -1296,7 +1289,7 @@ synonym: "physiological salt solution" EXACT []
 synonym: "PSS" EXACT []
 xref: CHEBI:26710
 is_a: XCO:0000155 ! sodium chloride solution
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-03-26T04:56:10Z
 
 [Term]
@@ -1305,7 +1298,7 @@ name: physical restraint
 def: "The use of manual or mechanical means to limit some or all of an animal's normal movement for the purpose of examination, collection of samples, drug administration, therapy, or experimental manipulation." [http://grants.nih.gov/grants/olaw/Guide-for-the-care-and-use-of-Laboratory-animals.pdf "NIH"]
 is_a: XCO:0001100 ! physical manipulation
 relationship: part_of XCO:0001275 ! unpredictable chronic mild stress
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-06-07T12:30:41Z
 
 [Term]
@@ -1313,7 +1306,7 @@ id: XCO:0000158
 name: physical restraint in mechanical restrainer
 def: "The use of mechanical means, i.e. a manufactured apparatus or machine, to limit some or all of an animal's normal movements." [http://grants.nih.gov/grants/olaw/Guide-for-the-care-and-use-of-Laboratory-animals.pdf "NIH", RGD:JRS]
 is_a: XCO:0000157 ! physical restraint
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-06-07T12:42:46Z
 
 [Term]
@@ -1321,7 +1314,7 @@ id: XCO:0000159
 name: physical restraint in tube type rodent restrainer
 def: "The use of a tube type rodent restrainer, that is, a hollow cylinder usually made of a rigid clear material in a size that approximates the size of the animal and can be capped at one or both ends to prevent escape, to limit some or all of an animal's normal movements." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, http://grants.nih.gov/grants/olaw/Guide-for-the-care-and-use-of-Laboratory-animals.pdf "NIH"]
 is_a: XCO:0000158 ! physical restraint in mechanical restrainer
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-06-07T12:43:33Z
 
 [Term]
@@ -1329,7 +1322,7 @@ id: XCO:0000160
 name: receptor antagonist
 def: "A substance that binds to a receptor without eliciting a biological response, blocking binding of substances that could elicit such responses." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000120 ! inhibitor
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-03T03:15:44Z
 
 [Term]
@@ -1339,7 +1332,7 @@ def: "This is any condition whose main influencing factor is losartan, an angiot
 xref: CHEBI:6541
 is_a: XCO:0000140 ! vasodilator
 is_a: XCO:0000536 ! angiotensin II receptor antagonist
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-09T10:53:01Z
 
 [Term]
@@ -1350,7 +1343,7 @@ xref: CHEBI:347401
 xref: CHEBI:55326
 is_a: XCO:0000140 ! vasodilator
 is_a: XCO:0000160 ! receptor antagonist
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-09T10:58:54Z
 
 [Term]
@@ -1358,7 +1351,7 @@ id: XCO:0000163
 name: controlled content drinking water
 def: "This is any condition in which the main influencing factor is drinking water in which the amount of one or more solutes are adjusted to a requirement." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed]
 is_a: XCO:0000021 ! water
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-09T11:14:14Z
 
 [Term]
@@ -1367,7 +1360,7 @@ name: controlled sodium content drinking water
 def: "A drink made up of water and a specified amount of sodium, i.e. sodium ions, consumed by an organism as part of an experiment. A sodium ion is an atom of sodium, the chemical element with atomic number 11, that has lost one electron, forming a cation with a charge of +1." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000163 ! controlled content drinking water
 is_a: XCO:0000254 ! sodium ion solution
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-09T11:19:29Z
 
 [Term]
@@ -1376,7 +1369,7 @@ name: surgical manipulation
 def: "This is any process involving manual and instrumental techniques for incision or excision of a part of an organism to investigate and/or treat a pathological condition." [http://en.wikipedia.org/wiki/Surgery "Wikipedia"]
 synonym: "Not4Curation" RELATED []
 is_a: XCO:0000000 ! experimental condition
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-11T01:38:55Z
 
 [Term]
@@ -1384,7 +1377,7 @@ id: XCO:0000166
 name: controlled in situ organ condition
 def: "Any experimental condition in which the internal or external environment of an organ, that is, a differentiated, structural part of a system of the body that performs a specific function, is experimentally manipulated, for example through perfusion, increased or decreased blood flow, etc. without removal from the body." [http://www.thefreedictionary.com/ "Multiple_Dictionaries", RGD:JRS, RGD:MRD]
 is_a: XCO:0000165 ! surgical manipulation
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-11T02:55:03Z
 
 [Term]
@@ -1392,7 +1385,7 @@ id: XCO:0000167
 name: controlled in situ kidney condition
 def: "Any experimental condition in which the internal or external environment of one or both kidneys, the organ which functions to maintain proper water and electrolyte balance, regulate acid-base concentration, and filter the blood of metabolic wastes, is experimentally manipulated, for example through perfusion, increased or decreased blood flow, etc. without removal from the body." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, RGD:JRS]
 is_a: XCO:0000166 ! controlled in situ organ condition
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-11T03:01:51Z
 
 [Term]
@@ -1400,7 +1393,7 @@ id: XCO:0000168
 name: controlled in situ renal perfusion pressure
 def: "Condition in which the difference in pressure between the arteries and veins in the kidney, the organ which functions to maintain proper water and electrolyte balance, regulate acid-base concentration, and filter the blood of metabolic wastes, is experimentally regulated, for example by injecting or pumping a fluid into the kidney at a specified pressure or by regulating the blood flow through the kidney, without removal of the organ from the body." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000167 ! controlled in situ kidney condition
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-11T03:07:44Z
 
 [Term]
@@ -1408,7 +1401,7 @@ id: XCO:0000169
 name: labeled chemical
 def: "Any chemical to which a tracer has been added such as the addition of a fluorescent tag or inclusion of a radioactive element during synthesis." [RGD:JRS]
 is_a: XCO:0000342 ! chemical with specified structure
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-11T03:39:04Z
 
 [Term]
@@ -1416,7 +1409,7 @@ id: XCO:0000170
 name: fluorescently labeled chemical
 def: "Chemical to which a fluorescent tag has been added as a tracer." [RGD:JRS]
 is_a: XCO:0000169 ! labeled chemical
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-11T03:51:55Z
 
 [Term]
@@ -1424,7 +1417,7 @@ id: XCO:0000171
 name: radioactively labeled chemical
 def: "Chemical into which a radioactive element has been incorporated as a tracer." [RGD:JRS]
 is_a: XCO:0000169 ! labeled chemical
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-11T03:53:33Z
 
 [Term]
@@ -1433,7 +1426,7 @@ name: carbohydrate
 def: "Any of a group of organic compounds that includes sugars, starches, celluloses, and gums and serves as a major energy source in the diet of animals." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
 xref: CHEBI:16646
 is_a: XCO:0000342 ! chemical with specified structure
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-11T04:09:48Z
 
 [Term]
@@ -1443,7 +1436,7 @@ def: "This is any condition whose main influencing factor is a polysaccharide, a
 synonym: "polysaccharides" EXACT []
 xref: CHEBI:18154
 is_a: XCO:0000172 ! carbohydrate
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-11T04:13:15Z
 
 [Term]
@@ -1452,7 +1445,7 @@ name: inulin
 def: "A fructose-based starch derived from rhizomes of plants from the Compositae family and used as a diagnostic aid in tests of kidney function, specifically glomerular filtration." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 xref: CHEBI:15443
 is_a: XCO:0000173 ! polysaccharide
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-11T04:15:22Z
 
 [Term]
@@ -1462,7 +1455,7 @@ def: "Inulin, a fructose-based starch derived from rhizomes of plants from the C
 synonym: "3H-inulin" EXACT []
 is_a: XCO:0000171 ! radioactively labeled chemical
 is_a: XCO:0000174 ! inulin
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-11T04:18:17Z
 
 [Term]
@@ -1470,7 +1463,7 @@ id: XCO:0000176
 name: enzyme
 def: "Any of numerous proteins or conjugated proteins produced by living organisms and functioning as specialized catalysts for biochemical reactions." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
 is_a: XCO:0000193 ! peptide/protein
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-12T05:06:15Z
 
 [Term]
@@ -1479,7 +1472,7 @@ name: thrombin
 def: "An enzyme in blood formed from prothrombin that facilitates blood clotting by reacting with fibrinogen to form fibrin, as well as participating in additional steps in the coagulation pathway." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, http://en.wikipedia.org/wiki/Thrombin "Wikipedia"]
 xref: EC:3.4.21.5
 is_a: XCO:0000176 ! enzyme
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-12T05:13:12Z
 
 [Term]
@@ -1489,7 +1482,7 @@ def: "A non-competitive inhibitor of the sarco / endoplasmic reticulum Ca2+ ATPa
 xref: CHEBI:9516
 is_a: XCO:0000523 ! enzyme inhibitor
 is_a: XCO:0000892 ! tumor promoter
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-12T05:24:18Z
 
 [Term]
@@ -1501,7 +1494,7 @@ synonym: "extreme UV ray exposure" RELATED []
 synonym: "ionizing UV radiation exposure" EXACT []
 is_a: XCO:0000039 ! ionizing radiation exposure
 is_a: XCO:0000042 ! ultraviolet ray exposure
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-13T12:39:17Z
 
 [Term]
@@ -1512,7 +1505,7 @@ synonym: "near ultraviolet radiation exposure" NARROW []
 synonym: "non-ionizing UV radiation exposure" EXACT []
 is_a: XCO:0000042 ! ultraviolet ray exposure
 is_a: XCO:0000044 ! non-ionizing radiation exposure
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-13T01:00:12Z
 
 [Term]
@@ -1520,7 +1513,7 @@ id: XCO:0000181
 name: controlled visible light condition
 def: "Condition in which the presence or absence of visible light, that is, electromagnetic radiation with wavelengths between approximately 390 (violet) and 770 (red) nanometers, capable of stimulating the subjective sensation of sight, is constrained." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
 is_a: XCO:0000000 ! experimental condition
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-13T02:59:55Z
 
 [Term]
@@ -1529,7 +1522,7 @@ name: controlled exposure to ambient light
 def: "Condition in which the natural, usual or environmental level and/or time of exposure to visible light, that is, electromagnetic radiation with wavelengths between approximately 390 (violet) and 770 (red) nanometers, capable of stimulating the subjective sensation of sight, is controlled." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
 synonym: "diurnal condition" RELATED []
 is_a: XCO:0000284 ! controlled visible light exposure
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-13T03:09:31Z
 
 [Term]
@@ -1538,7 +1531,7 @@ name: controlled exposure to darkness
 def: "Condition during which visible light, that is, electromagnetic radiation with wavelengths between approximately 390 (violet) and 770 (red) nanometers, capable of stimulating the subjective sensation of sight, is removed." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
 synonym: "nocturnal condition" RELATED []
 is_a: XCO:0000181 ! controlled visible light condition
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-13T03:12:34Z
 
 [Term]
@@ -1547,7 +1540,7 @@ name: calcium ion
 def: "The divalent cation of calcium, the chemical element with symbol Ca and atomic number 20." [http://en.wikipedia.org/wiki/Calcium "Wikipedia"]
 xref: CHEBI:29108
 is_a: XCO:0000149 ! ion/salt
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-13T03:19:56Z
 
 [Term]
@@ -1557,7 +1550,7 @@ def: "A solution of the divalent cation of calcium, the chemical element with sy
 xref: CHEBI:29108
 is_a: XCO:0000154 ! ion/salt solution
 relationship: has_component XCO:0000184 ! calcium ion
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-13T03:25:32Z
 
 [Term]
@@ -1568,7 +1561,7 @@ synonym: "baptitoxine" RELATED []
 synonym: "sophorine" RELATED []
 xref: CAS:485-35-8
 is_a: XCO:0000693 ! cholinergic agonist
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-30T08:40:00Z
 
 [Term]
@@ -1580,7 +1573,7 @@ synonym: "trimetaphan camsilate" EXACT []
 xref: CAS:7187-66-8
 xref: CHEBI:9729
 is_a: XCO:0000842 ! nicotinic antagonist
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-30T08:54:30Z
 
 [Term]
@@ -1590,7 +1583,7 @@ def: "Calcium channel blocker." [http://en.wikipedia.org/wiki/Darodipine "Wikipe
 synonym: "PY 108-068" RELATED []
 xref: CAS:72803-02-2
 is_a: XCO:0000269 ! calcium channel inhibitor
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-07-30T09:01:57Z
 
 [Term]
@@ -1598,7 +1591,7 @@ id: XCO:0000189
 name: physical restraint on immobilization board
 def: "Immobilization of a subject on a frame or platform by securing all four limbs to it, e.g. by taping them to mounts attached to the frame, thereby eliminating the subject's ability to move at will." [Fink:Encyclopedia_of_Stress]
 is_a: XCO:0000158 ! physical restraint in mechanical restrainer
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-08-01T04:38:43Z
 
 [Term]
@@ -1606,7 +1599,7 @@ id: XCO:0000190
 name: angiotensin I
 def: "The 10 amino acid cleavage product produced by the action of renin on angiotensinogen.  Ang I is apparently inactive unless further cleaved by angiotensin-converting enzyme (ACE) into Ang II." [PMID:18793332]
 is_a: XCO:0000126 ! angiotensin
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-08-09T01:48:44Z
 
 [Term]
@@ -1615,7 +1608,7 @@ name: angiotensin II
 def: "The 8 amino acid cleavage product produced by the action of angiotensin-converting enzyme (ACE) on Ang I.  Ang II is considered to be the main effector of the renin-angiotensin system (RAS), has endocrine, autocrine/paracrine, and intracrine hormone activities in the body and acts as a powerful vasoconstrictor." [PMID:18793332]
 xref: CHEBI:48432
 is_a: XCO:0000126 ! angiotensin
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-08-09T01:58:29Z
 
 [Term]
@@ -1627,7 +1620,7 @@ synonym: "desoxycorticosterone acetate" RELATED []
 synonym: "DOCA" RELATED []
 xref: CHEBI:16973
 is_a: XCO:0000330 ! deoxycorticosterone
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-08-09T02:19:10Z
 
 [Term]
@@ -1667,7 +1660,7 @@ def: "ATP-sensitive potassium channel inhibitor used as an anti-arrhythmia drug 
 synonym: "glyburide" EXACT []
 xref: CHEBI:5441
 is_a: XCO:0000225 ! potassium channel inhibitor
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-09-10T11:39:12Z
 
 [Term]
@@ -1675,7 +1668,7 @@ id: XCO:0000197
 name: indicator
 def: "Any substance that indicates the presence, absence, or concentration of another substance or the degree of reaction between substances by means of a characteristic change, especially in color." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
 is_a: XCO:0000341 ! chemical with specified function
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-09-10T12:25:59Z
 
 [Term]
@@ -1683,7 +1676,7 @@ id: XCO:0000198
 name: pH indicator
 def: "Any substance that indicates the concentration of hydrogen ions, that is the acidity level, of a solution by means of a characteristic change, especially in color." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
 is_a: XCO:0000197 ! indicator
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-09-10T12:30:07Z
 
 [Term]
@@ -1692,7 +1685,7 @@ name: oxidation-reduction indicator
 def: "Any substance which indicates the oxidation status of another substance or of a reaction by means of a characteristic change, especially in color." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
 synonym: "redox indicator" EXACT []
 is_a: XCO:0000197 ! indicator
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-09-10T12:34:38Z
 
 [Term]
@@ -1707,7 +1700,7 @@ synonym: "Ketoleucine" RELATED []
 xref: CHEBI:48430
 xref: pubchem.compound:70
 is_a: XCO:0000136 ! enzyme substrate
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-09-10T12:50:31Z
 
 [Term]
@@ -1717,7 +1710,7 @@ def: "Surgical removal of one or both testes." [American_Heritage:The_American_H
 synonym: "orchidectomy" EXACT []
 synonym: "testectomy" EXACT []
 is_a: XCO:0000026 ! surgical removal
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-09-10T01:13:58Z
 
 [Term]
@@ -1727,7 +1720,7 @@ def: "Surgical removal of a single testis." [American_Heritage:The_American_Heri
 synonym: "unilateral orchidectomy" EXACT []
 synonym: "unilateral testectomy" RELATED []
 is_a: XCO:0000201 ! orchiectomy
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-09-10T01:18:15Z
 
 [Term]
@@ -1738,7 +1731,7 @@ synonym: "bilateral orchidectomy" EXACT []
 synonym: "bilateral testectomy" EXACT []
 synonym: "castration" RELATED []
 is_a: XCO:0000201 ! orchiectomy
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-09-10T01:20:16Z
 
 [Term]
@@ -1746,7 +1739,7 @@ id: XCO:0000204
 name: testosterone
 def: "The principal androgenic, that is, male sex hormone. Responsible for regulation of gonadotropic secretion, spermatogenesis and control of other male characteristics." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000229 ! steroid hormone
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-09-10T01:41:13Z
 
 [Term]
@@ -1756,7 +1749,7 @@ def: "An agent that causes or increases the frequency of permanent, heritable ch
 synonym: "mutagen" EXACT []
 synonym: "mutation inducing agent" RELATED []
 is_a: XCO:0000341 ! chemical with specified function
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-09-11T04:39:32Z
 
 [Term]
@@ -1768,7 +1761,7 @@ synonym: "NDEA" RELATED []
 synonym: "N,N-diethylnitrosamine" RELATED []
 is_a: XCO:0000089 ! neoplasm-inducing chemical
 is_a: XCO:0000205 ! mutation inducing chemical
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-09-11T05:01:10Z
 
 [Term]
@@ -1784,7 +1777,7 @@ xref: CAS:55-80-1
 xref: CHEBI:76329
 xref: pubchem.compound:5934
 is_a: XCO:0000089 ! neoplasm-inducing chemical
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-09-11T05:33:14Z
 
 [Term]
@@ -1796,14 +1789,14 @@ synonym: "2-acetylaminofluorene" RELATED []
 xref: CHEBI:17356
 is_a: XCO:0000089 ! neoplasm-inducing chemical
 is_a: XCO:0000205 ! mutation inducing chemical
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-09-13T06:33:44Z
 
 [Term]
 id: XCO:0000209
 name: hepatectomy
 is_a: XCO:0000026 ! surgical removal
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-09-13T06:34:26Z
 
 [Term]
@@ -1814,7 +1807,7 @@ synonym: "major hepatectomy" NARROW []
 synonym: "minor hepatectomy" NARROW []
 xref: PMID:32156510
 is_a: XCO:0000209 ! hepatectomy
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-09-13T06:34:52Z
 
 [Term]
@@ -1822,7 +1815,7 @@ id: XCO:0000211
 name: controlled sucrose content diet
 is_a: XCO:0000014 ! controlled content diet
 relationship: has_component XCO:0000432 ! sucrose
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-09-13T06:36:13Z
 
 [Term]
@@ -1831,7 +1824,7 @@ name: controlled copper content diet
 def: "A regimen of solid food in which the amount of copper consumed is controlled." [https://www.merriam-webster.com, ISBN-13:9780781733908]
 synonym: "controlled Cu content diet" EXACT []
 is_a: XCO:0000920 ! controlled mineral content diet
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-09-13T06:36:56Z
 
 [Term]
@@ -1845,7 +1838,7 @@ synonym: "R" EXACT []
 xref: CHEBI:29016
 xref: MESH:D001120
 is_a: XCO:0000119 ! amino acid
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-09-13T06:45:59Z
 
 [Term]
@@ -1854,7 +1847,7 @@ name: activator
 def: "Any substance that makes another substance active or reactive, induces a chemical reaction, or combines with an enzyme to increase its catalytic activity." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
 synonym: "Not4Curation" RELATED []
 is_a: XCO:0000341 ! chemical with specified function
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-04T05:09:16Z
 
 [Term]
@@ -1862,7 +1855,7 @@ id: XCO:0000215
 name: controlled calcium ion content physiological salt solution perfusate
 def: "A fluid which is injected or pumped into an organ or tissue, usually via blood vessels, composed of a solution of sodium chloride at a concentration which closely approximates the osmolarity of salt in blood, and which contains a specific, controlled concentration of calcium ions, divalent cations of the metallic chemical element with atomic number 20, dissolved in it." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, http://en.wikipedia.org/wiki/Saline_%28medicine%29#Normal "Wikipedia"]
 is_a: XCO:0000147 ! physiological salt solution perfusate
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-05T11:11:47Z
 
 [Term]
@@ -1871,7 +1864,7 @@ name: ion channel activator
 def: "Any chemical substance which increases the activity of an ion channel, one or more membrane-bound globular proteins that allow diffusion of specific ions across a cell membrane." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "ion channel agonist" RELATED []
 is_a: XCO:0000214 ! activator
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-04T05:16:39Z
 
 [Term]
@@ -1879,7 +1872,7 @@ id: XCO:0000217
 name: cation channel activator
 def: "Any chemical substance which increases the activity of a cation channel, one or more membrane-bound globular proteins that allow diffusion of positively charged ions across a cell membrane." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_a: XCO:0000216 ! ion channel activator
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-04T05:40:42Z
 
 [Term]
@@ -1890,7 +1883,7 @@ synonym: "4-alpha-PDD" EXACT []
 xref: CHEBI:295732
 xref: pubchem.compound:452544
 is_a: XCO:0000217 ! cation channel activator
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-04T05:41:38Z
 
 [Term]
@@ -1902,7 +1895,7 @@ synonym: "DHC" RELATED []
 synonym: "N-(4-Hydroxy-3-methoxybenzyl)-8-methylnonanamide" EXACT []
 xref: CHEBI:46932
 is_a: XCO:0000217 ! cation channel activator
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-04T06:08:13Z
 
 [Term]
@@ -1910,7 +1903,7 @@ id: XCO:0000220
 name: anion channel agonist
 def: "Any chemical substance which increases the activity of an anion channel, one or more membrane-bound globular proteins that allow diffusion of negatively charged ions across a cell membrane." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_a: XCO:0000216 ! ion channel activator
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-04T06:11:24Z
 
 [Term]
@@ -1919,7 +1912,7 @@ name: ion channel inhibitor
 def: "Any chemical substance which decreases or interferes with the activity of an ion channel, one or more membrane-bound globular proteins that allow diffusion of specific ions across a cell membrane." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "ion channel antagonist" RELATED []
 is_a: XCO:0000120 ! inhibitor
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-04T06:13:42Z
 
 [Term]
@@ -1928,7 +1921,7 @@ name: cation channel inhibitor
 def: "Any chemical substance which decreases or interferes with the activity of a cation channel, one or more membrane-bound globular proteins that allow diffusion of positively charged ions across a cell membrane." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "cation channel antagonist" RELATED []
 is_a: XCO:0000221 ! ion channel inhibitor
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-05T10:45:01Z
 
 [Term]
@@ -1937,7 +1930,7 @@ name: anion channel inhibitor
 def: "Any chemical substance which decreases or interferes with the activity of an anion channel, one or more membrane-bound globular proteins that allow diffusion of negatively charged ions across a cell membrane." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "anion channel antagonist" RELATED []
 is_a: XCO:0000221 ! ion channel inhibitor
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-05T10:48:12Z
 
 [Term]
@@ -1948,7 +1941,7 @@ synonym: "ammoniated ruthenium oxychloride" EXACT []
 synonym: "RuR" RELATED []
 xref: CHEBI:34956
 is_a: XCO:0000222 ! cation channel inhibitor
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-05T11:03:00Z
 
 [Term]
@@ -1956,7 +1949,7 @@ id: XCO:0000225
 name: potassium channel inhibitor
 def: "Any chemical substance which decreases or interferes with the activity of a potassium ion channel, that is, a complex of membrane-bound and membrane-spanning proteins that specifically allow diffusion of positively charged potassium ions across a cell membrane." [http://en.wikipedia.org/wiki/Potassium_channel "Wikipedia"]
 is_a: XCO:0000222 ! cation channel inhibitor
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-05T11:29:50Z
 
 [Term]
@@ -1967,7 +1960,7 @@ synonym: "apamine" EXACT []
 xref: pubchem.compound:16129677
 xref: UniProtKB:P01500
 is_a: XCO:0000225 ! potassium channel inhibitor
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-05T11:41:19Z
 
 [Term]
@@ -1979,7 +1972,7 @@ synonym: "ChTx-a" RELATED []
 synonym: "ChTX-Lq1" RELATED []
 xref: UniProtKB:P13487
 is_a: XCO:0000225 ! potassium channel inhibitor
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-05T11:53:12Z
 
 [Term]
@@ -1988,7 +1981,7 @@ name: peptide hormone
 def: "A molecular chain compound composed of two or more amino acids joined by peptide bonds that in its endogenous state is produced in one part or organ of the body and initiates or regulates the activity of an organ or a group of cells in another part of the body." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_a: XCO:0000125 ! hormone
 is_a: XCO:0000193 ! peptide/protein
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-15T04:30:11Z
 
 [Term]
@@ -1998,7 +1991,7 @@ def: "A condition in which the main influencing factor is a chemical substance t
 xref: CHEBI:26764
 is_a: XCO:0000091 ! steroid
 is_a: XCO:0000125 ! hormone
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-15T04:36:54Z
 
 [Term]
@@ -2006,7 +1999,7 @@ id: XCO:0000230
 name: monoamine hormone
 def: "A chemical substance consisting of an amine compound which contains one amino group and was derived from an aromatic amino acid, that in its endogenous state is produced in one part or organ of the body and initiates or regulates the activity of an organ or a group of cells in another part of the body." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000125 ! hormone
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-15T04:51:18Z
 
 [Term]
@@ -2018,7 +2011,7 @@ synonym: "anti-Art2.1 mAb" RELATED []
 synonym: "Art2 antibody" EXACT []
 synonym: "DS4.23 mAb" RELATED []
 is_a: XCO:0000194 ! antibody
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-16T12:39:20Z
 
 [Term]
@@ -2026,7 +2019,7 @@ id: XCO:0000232
 name: nucleic acid
 def: "A high-molecular-weight polymeric compound composed of nucleotides, each consisting of a purine or pyrimidine base, a ribose or deoxyribose sugar, and a phosphate group." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_a: XCO:0001107 ! polymer
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-16T01:26:26Z
 
 [Term]
@@ -2035,7 +2028,7 @@ name: ribonucleic acid
 def: "A long, polymeric chain of alternating phosphate and ribose units with the bases adenine, guanine, cytosine, and uracil bonded to the ribose. Although RNA is usually single-stranded it can also exist as RNA:RNA or RNA:DNA double-stranded molecules." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed]
 synonym: "RNA" EXACT []
 is_a: XCO:0000232 ! nucleic acid
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-16T02:15:23Z
 
 [Term]
@@ -2044,7 +2037,7 @@ name: deoxyribonucleic acid
 def: "A long, polymeric chain of alternating phosphate and deoxyribose units with the bases adenine, guanine, cytosine, and thymine bonded to the deoxyribose. DNA can be single stranded or double stranded, that is, composed of either a single polymer or a pair of antiparallel polymers joined by hydrogen bonding between complementary bases." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
 synonym: "DNA" EXACT []
 is_a: XCO:0000232 ! nucleic acid
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-16T02:22:54Z
 
 [Term]
@@ -2057,7 +2050,7 @@ synonym: "Poly(I:C) dsRNA" EXACT []
 synonym: "polyinosine-polycytidylic acid" EXACT []
 synonym: "Polyinosinic:polycytidylic acid" EXACT []
 is_a: XCO:0000233 ! ribonucleic acid
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-16T02:34:34Z
 
 [Term]
@@ -2065,7 +2058,7 @@ id: XCO:0000236
 name: pathogen
 def: "An biological agent that causes disease, especially a living microorganism such as a bacterium, virus, or fungus." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
 is_a: XCO:0000258 ! disease-inducing agent
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-16T03:04:11Z
 
 [Term]
@@ -2074,7 +2067,7 @@ name: viral pathogen
 def: "A virus which has the potential to cause disease. A virus is one of a group of heterogeneous infective agents characterized by their lack of independent metabolism, their inability to replicate outside a host cell, their simple organization and their unique mode of replication. A virus consists of genetic material--either DNA or RNA--surrounded by a protein coat and, in some cases, by a membranous envelope." [Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "virus" EXACT []
 is_a: XCO:0000236 ! pathogen
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-16T03:06:55Z
 
 [Term]
@@ -2083,7 +2076,7 @@ name: Kilham rat virus
 def: "A common parvovirus pathogen which causes largely asymptomatic infections in rats. KRV can be used to model environmental influences in the development of type 1 diabetes mellitus." [http://www.criver.com/SiteCollectionDocuments/rm_ld_r_Rat_Parvoviruses.pdf "Website", PMID:19720792]
 synonym: "KRV" RELATED []
 is_a: XCO:0000237 ! viral pathogen
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-16T03:20:45Z
 
 [Term]
@@ -2093,7 +2086,7 @@ def: "A chemical or biological substance which is capable of causing illness, de
 synonym: "poison" RELATED []
 synonym: "toxic chemical" RELATED []
 is_a: XCO:0000341 ! chemical with specified function
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-16T03:57:33Z
 
 [Term]
@@ -2102,7 +2095,7 @@ name: toxin
 def: "This is any condition in which the main influencing factor is a toxin, a noxious or poisonous substance produced by a biological organism such as a microbe, animal or plant." [https://www.merriam-webster.com/, ISBN:978-1416049982]
 synonym: "biotoxin" EXACT []
 is_a: XCO:0000239 ! toxic substance
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-16T04:07:55Z
 
 [Term]
@@ -2116,7 +2109,7 @@ is_a: XCO:0000240 ! toxin
 is_a: XCO:0000435 ! antineoplastic agent
 is_a: XCO:0000482 ! antimicrobial agent
 is_a: XCO:0000885 ! diabetes-inducing chemical
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-16T04:09:16Z
 
 [Term]
@@ -2130,7 +2123,7 @@ synonym: "mesoxalylurea" EXACT []
 xref: pubchem.compound:5781
 is_a: XCO:0000239 ! toxic substance
 is_a: XCO:0000885 ! diabetes-inducing chemical
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-16T04:29:35Z
 
 [Term]
@@ -2139,7 +2132,7 @@ name: partial pancreatectomy
 def: "Surgical removal of a portion of the pancreas, resulting in reduction but not elimination of the physiological functions of the pancreas." [Gale:Gale_Encyclopedia_of_Medicine]
 synonym: "subtotal pancreatectomy" RELATED []
 is_a: XCO:0000105 ! pancreatectomy
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-16T04:49:10Z
 
 [Term]
@@ -2148,7 +2141,7 @@ name: controlled fructose content diet
 def: "A solid diet in which the amount of fructose, the monosaccharide found in honey and many sweet fruits which chemically combines with glucose to form the disaccharide sucrose, is maintained at a specified level." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_a: XCO:0000014 ! controlled content diet
 relationship: has_component XCO:0000428 ! fructose
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-16T05:00:17Z
 
 [Term]
@@ -2156,7 +2149,7 @@ id: XCO:0000245
 name: insulin
 def: "A protein hormone formed from proinsulin in the beta cells of the pancreatic islets of Langerhans. The major fuel-regulating hormone, it is secreted into the blood in response to a rise in concentration of blood glucose or amino acids. Insulin promotes the storage of glucose and the uptake of amino acids, increases protein and lipid synthesis, and inhibits lipolysis and gluconeogenesis." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000228 ! peptide hormone
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-10-16T05:04:48Z
 
 [Term]
@@ -2164,7 +2157,7 @@ id: XCO:0000246
 name: controlled cholesterol content diet
 def: "A regimen of solid food in which the amount of cholesterol, a steroid alcohol found in animal fats and oils, is controlled." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
 is_a: XCO:0000014 ! controlled content diet
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-11-30T15:42:17Z
 
 [Term]
@@ -2172,7 +2165,7 @@ id: XCO:0000247
 name: controlled olive oil content diet
 def: "A regimen of solid food to which a specified amount of olive oil has been added." [RGD:JRS]
 is_a: XCO:0000454 ! controlled oil content diet
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-11-30T15:44:29Z
 
 [Term]
@@ -2181,7 +2174,7 @@ name: kidney transplant
 def: "A surgical procedure in which one or both kidneys from a donor organism are implanted into a recipient organism." [Gale:Gale_Encyclopedia_of_Medicine]
 synonym: "kidney transplantation" EXACT []
 is_a: XCO:0000027 ! surgical implantation
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-11-30T15:46:26Z
 
 [Term]
@@ -2189,7 +2182,7 @@ id: XCO:0000249
 name: left kidney transplant
 def: "A surgical procedure in which the left kidney from a donor organism is implanted into a recipient organism." [Gale:Gale_Encyclopedia_of_Medicine]
 is_a: XCO:0000248 ! kidney transplant
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-11-30T15:51:17Z
 
 [Term]
@@ -2197,7 +2190,7 @@ id: XCO:0000250
 name: right kidney transplant
 def: "A surgical procedure in which the right kidney from a donor organism is implanted into a recipient organism." [Gale:Gale_Encyclopedia_of_Medicine]
 is_a: XCO:0000248 ! kidney transplant
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-11-30T15:53:04Z
 
 [Term]
@@ -2205,7 +2198,7 @@ id: XCO:0000251
 name: secretagogue
 def: "Any agent that induces exocrine, endocrine, or paracrine secretion." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_a: XCO:0000214 ! activator
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-11-30T15:55:11Z
 
 [Term]
@@ -2215,7 +2208,7 @@ def: "A first generation potassium channel blocker and sulfonylurea oral hypogly
 is_a: XCO:0000225 ! potassium channel inhibitor
 is_a: XCO:0000251 ! secretagogue
 is_a: XCO:0000407 ! hypoglycemic agent
-created_by: jsmith
+created_by: JSmith
 creation_date: 2012-11-30T15:56:41Z
 
 [Term]
@@ -2226,7 +2219,7 @@ comment: Not used for sodium salt in animal feed. For that application XCO:00000
 synonym: "Na+ ion" EXACT []
 xref: CHEBI:29101
 is_a: XCO:0000149 ! ion/salt
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-02-28T13:11:25Z
 
 [Term]
@@ -2237,7 +2230,7 @@ synonym: "Na+ ion solution" EXACT []
 xref: CHEBI:29101
 is_a: XCO:0000154 ! ion/salt solution
 relationship: has_component XCO:0000253 ! sodium ion
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-02-28T18:54:08Z
 
 [Term]
@@ -2247,7 +2240,7 @@ def: "An immunoglobulin molecule or a preparation of multiple antibody molecules
 synonym: "anti-GBM antibody" RELATED []
 synonym: "nephritogenic monoclonal antibody b35" RELATED []
 is_a: XCO:0000194 ! antibody
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-01T11:49:57Z
 
 [Term]
@@ -2257,7 +2250,7 @@ def: "A drug which is structurally similar to epinephrine and that binds to beta
 synonym: "isoprenaline" EXACT []
 xref: CHEBI:64317
 is_a: XCO:0000665 ! beta-adrenergic agonist
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-01T12:37:50Z
 
 [Term]
@@ -2268,7 +2261,7 @@ synonym: "controlled acidity water" RELATED []
 synonym: "controlled pH water" RELATED []
 synonym: "water with adjusted pH" RELATED []
 is_a: XCO:0000163 ! controlled content drinking water
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-01T16:10:48Z
 
 [Term]
@@ -2277,7 +2270,7 @@ name: disease-inducing agent
 def: "Any phenomenon, chemical or biologic substance, or organism that exerts some force or effect resulting in a deviation from or interruption of the normal structure or function of any body part, organ, or system that is manifested by a characteristic set of symptoms and signs." [Collins:Collins_Online_English_Dictionary, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "disease inducing agent" EXACT []
 is_a: XCO:0000000 ! experimental condition
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-01T16:24:26Z
 
 [Term]
@@ -2287,7 +2280,7 @@ def: "A substance having a specific molecular composition obtained by or used in
 synonym: "disease inducing chemical" EXACT []
 is_a: XCO:0000258 ! disease-inducing agent
 is_a: XCO:0000341 ! chemical with specified function
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-01T16:30:57Z
 
 [Term]
@@ -2297,7 +2290,7 @@ def: "A condition in which the major influencing factor is a peptide or protein,
 synonym: "antigenic protein" EXACT []
 is_a: XCO:0000133 ! antigen
 is_a: XCO:0000193 ! peptide/protein
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-01T16:46:02Z
 
 [Term]
@@ -2306,7 +2299,7 @@ name: arthritis inducing chemical
 def: "A substance having a specific molecular composition obtained by or used in a reaction involving changes to atoms or molecules that, when administered, results in the inflammation of one or more joints, the sites of junction or union between bones, especially those that allow motion of the bones." [Collins:Collins_Online_English_Dictionary, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000259 ! disease-inducing chemical
 is_a: XCO:0000349 ! arthritis-inducing agent
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-01T17:07:13Z
 
 [Term]
@@ -2315,7 +2308,7 @@ name: collagen
 def: "A condition in which the major influencing factor is any of a family of extracellular, closely related proteins occurring as a major component of connective tissue, giving it strength and flexibility; composed of molecules of tropocollagen." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000260 ! peptide/protein antigen
 is_a: XCO:0000261 ! arthritis inducing chemical
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-01T17:35:20Z
 
 [Term]
@@ -2327,7 +2320,7 @@ xref: CHEBI:53181
 xref: MESH:C009042
 is_a: XCO:0000133 ! antigen
 is_a: XCO:0000261 ! arthritis inducing chemical
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-01T17:39:39Z
 
 [Term]
@@ -2335,7 +2328,7 @@ id: XCO:0000264
 name: Freund's adjuvant
 def: "A nonspecific stimulator of the immune response consisting of non-metabolizable oils used to make water-in-oil emulsions with specific antigens. The adjuvant increases the strength of the immune response." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, https://www.invivogen.com/ifa "InvivoGen", ISBN:978-1416049982]
 is_a: XCO:0000133 ! antigen
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-01T18:05:06Z
 
 [Term]
@@ -2345,7 +2338,7 @@ def: "IFA is used to make a water-in-oil antigen-containing emulsion that lacks 
 synonym: "FIA" RELATED []
 synonym: "IFA" RELATED []
 is_a: XCO:0000264 ! Freund's adjuvant
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-01T18:07:25Z
 
 [Term]
@@ -2355,7 +2348,7 @@ def: "A water-in-oil emulsion incorporating antigen in the aqueous phase, and ki
 synonym: "CFA" RELATED []
 synonym: "FCA" RELATED []
 is_a: XCO:0000264 ! Freund's adjuvant
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-01T18:10:14Z
 
 [Term]
@@ -2367,7 +2360,7 @@ xref: CHEBI:8005
 is_a: XCO:0000133 ! antigen
 is_a: XCO:0000173 ! polysaccharide
 is_a: XCO:0000261 ! arthritis inducing chemical
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-11T15:53:57Z
 
 [Term]
@@ -2375,7 +2368,7 @@ id: XCO:0000268
 name: balloon angioplasty
 def: "A technique of mechanically widening narrowed or obstructed arteries by use of a soft catheter with an inflatable tip." [http://en.wikipedia.org/wiki/Balloon_angioplasty "Wikipedia"]
 is_a: XCO:0000595 ! surgical manipulation of blood vessels
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-11T16:14:44Z
 
 [Term]
@@ -2384,7 +2377,7 @@ name: calcium channel inhibitor
 def: "This is any condition in which the main influencing factor is any chemical substance which decreases or interferes with the activity of a calcium channel, one or more membrane-bound globular proteins that display selective permeability to calcium ions, the chemical element with atomic number 20 that has lost two electrons forming a cation with a charge of +2, and allow diffusion of these ions across a cell membrane." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "calcium channel blocker" EXACT []
 is_a: XCO:0000222 ! cation channel inhibitor
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-11T16:37:02Z
 
 [Term]
@@ -2394,7 +2387,7 @@ def: "A sulfur-containing carboxylic acid with a pyrrolidine substituent at C-1,
 xref: CHEBI:3380
 is_a: XCO:0000140 ! vasodilator
 is_a: XCO:0000524 ! angiotensin converting enzyme inhibitor
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-11T16:51:57Z
 
 [Term]
@@ -2404,7 +2397,7 @@ def: "A substance that opposes oxidation, a reaction in which the atoms in an el
 synonym: "antioxydant" EXACT []
 synonym: "antoxidant" EXACT []
 is_a: XCO:0000341 ! chemical with specified function
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-12T11:01:04Z
 
 [Term]
@@ -2419,7 +2412,7 @@ synonym: "Tanol" RELATED []
 synonym: "TMPN" RELATED []
 xref: pubchem.compound:137994
 is_a: XCO:0000271 ! antioxidant
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-12T11:09:12Z
 
 [Term]
@@ -2428,7 +2421,7 @@ name: carrageenan
 def: "A family of linear, sulfated, high-molecular-weight polysaccharides made up of repeating galactose and 3,6-anhydrogalactose units with alternating alpha 1-3 and beta 1-4 glycosidic linkages." [http://en.wikipedia.org/wiki/Carrageenan "Wikipedia"]
 xref: CHEBI:3435
 is_a: XCO:0000173 ! polysaccharide
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-12T13:07:06Z
 
 [Term]
@@ -2436,7 +2429,7 @@ id: XCO:0000274
 name: monosaccharide
 def: "Any simple carbohydrate consisting of a single basic sugar unit with the general formula Cn(H2O)n, with n ranging from 3 to 8." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_a: XCO:0000172 ! carbohydrate
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-12T13:10:01Z
 
 [Term]
@@ -2445,7 +2438,7 @@ name: glucose
 def: "A monosaccharide sugar, C6H12O6, occurring widely in plant and animal tissues. It is one of the three dietary monosaccharides, along with fructose and galactose, that are absorbed directly into the bloodstream during digestion, is the end product of carbohydrate metabolism, and is the chief source of energy for living organisms." [http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
 synonym: "dextrose" EXACT []
 is_a: XCO:0000274 ! monosaccharide
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-12T13:28:39Z
 
 [Term]
@@ -2453,7 +2446,7 @@ id: XCO:0000276
 name: hydrocarbon
 def: "Any of a large group of organic compounds whose molecules are composed only of hydrogen, the element with atomic number 1, and carbon, the element with atomic number 12." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_a: XCO:0000342 ! chemical with specified structure
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-12T16:18:50Z
 
 [Term]
@@ -2461,7 +2454,7 @@ id: XCO:0000277
 name: cyclic hydrocarbon
 def: "Any organic compound whose molecules are composed only of hydrogen, the element with atomic number 1, and carbon, the element with atomic number 12, and whose carbon atoms form a continuous or closed chain linked by bonds that may be represented graphically by one or more circular or triangular forms." [http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
 is_a: XCO:0000276 ! hydrocarbon
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-12T17:18:43Z
 
 [Term]
@@ -2469,7 +2462,7 @@ id: XCO:0000278
 name: polycyclic hydrocarbon
 def: "Any organic compound whose molecules are composed only of hydrogen, the element with atomic number 1, and carbon, the element with atomic number 12, and whose carbon atoms form continuous or closed chains linked by bonds that may be represented graphically by multiple interlinking circular or triangular forms." [http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
 is_a: XCO:0000277 ! cyclic hydrocarbon
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-12T17:20:06Z
 
 [Term]
@@ -2477,7 +2470,7 @@ id: XCO:0000279
 name: terpene
 def: "Any of a large and diverse class of organic compounds which are composed only of hydrogen, the element with atomic number 1, and carbon, the element with atomic number 12, which are derived biosynthetically from units of isoprene and which have the general molecular formula (CH2=C(CH3)CH=CH2)n where n is the number of linked isoprene units." [http://en.wikipedia.org/wiki/Terpene "Wikipedia"]
 is_a: XCO:0000276 ! hydrocarbon
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-12T17:24:22Z
 
 [Term]
@@ -2489,7 +2482,7 @@ synonym: "Supraene" RELATED []
 xref: CHEBI:15440
 xref: MESH:D013185
 is_a: XCO:0000279 ! terpene
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-12T17:25:17Z
 
 [Term]
@@ -2498,7 +2491,7 @@ name: type II collagen
 def: "A condition in which the major influencing factor is the fibrillar collagen which comprises the main component of cartilage and is also found in the vitreous humor of the eye.  Collagens are a family of extracellular, closely related proteins occurring as a major component of connective tissue, giving it strength and flexibility." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Collagen "Wikipedia", ISBN:978-1416049982]
 synonym: "type 2 collagen" EXACT []
 is_a: XCO:0000262 ! collagen
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-12T17:41:57Z
 
 [Term]
@@ -2507,7 +2500,7 @@ name: anti-Thy1 antibody
 def: "An immunoglobulin molecule having a specific amino acid sequence that gives it the ability to adhere to and interact only with Thy1, i.e. Thymocyte antigen 1, and molecules containing structures similar to that antigen.  Thy1, also known as CD90, is a 25-37 kDa, heavily N-glycosylated, glycophosphatidylinositol (GPI) anchored, conserved cell surface protein with a single V-like immunoglobulin domain, originally discovered as a thymocyte antigen and now known to be the smallest member of the immunoglobulin superfamily of proteins." [http://en.wikipedia.org/wiki/CD90 "Wikipedia", Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
 synonym: "anti-CD90 antibody" EXACT []
 is_a: XCO:0000194 ! antibody
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-12T18:06:13Z
 
 [Term]
@@ -2518,7 +2511,7 @@ synonym: "light therapy" EXACT []
 synonym: "phototherapy" EXACT []
 is_a: XCO:0000049 ! visual stimulus
 is_a: XCO:0000284 ! controlled visible light exposure
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-13T12:03:39Z
 
 [Term]
@@ -2527,7 +2520,7 @@ name: controlled visible light exposure
 def: "Condition during which a subject or sample is directly in the presence of or influenced by visible light, that is, electromagnetic radiation with wavelengths between approximately 390 (violet) and 770 (red) nanometers, capable of stimulating the subjective sensation of sight, at a constrained level and/or for a constrained period of time." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
 is_a: XCO:0000045 ! electromagnetic radiation exposure
 is_a: XCO:0000181 ! controlled visible light condition
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-13T12:12:45Z
 
 [Term]
@@ -2537,7 +2530,7 @@ def: "A drink made up of water and a specified amount of the basic amino acid co
 synonym: "controlled L-NAME content drinking water" EXACT []
 is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0000121 ! NG-nitroarginine methyl ester
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-13T14:48:31Z
 
 [Term]
@@ -2552,7 +2545,7 @@ synonym: "S-antigen" RELATED []
 synonym: "S-antigen peptide" RELATED []
 synonym: "S-arrestin" RELATED []
 is_a: XCO:0000260 ! peptide/protein antigen
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-13T17:02:20Z
 
 [Term]
@@ -2564,7 +2557,7 @@ synonym: "IRBP" RELATED []
 synonym: "Rbp3" RELATED []
 synonym: "retinol binding protein 3, interstitial" EXACT []
 is_a: XCO:0000260 ! peptide/protein antigen
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-13T17:19:56Z
 
 [Term]
@@ -2574,7 +2567,7 @@ def: "A condition in which the major influencing factor is a 15 amino acid pepti
 synonym: "R16 peptide of IRBP" RELATED []
 xref: PMID:10323205
 relationship: part_of XCO:0000287 ! interphotoreceptor retinoid-binding protein
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-13T17:55:10Z
 
 [Term]
@@ -2584,7 +2577,7 @@ def: "A condition in which the major influencing factor is a 23 amino acid pepti
 synonym: "R14 peptide of IRBP" RELATED []
 xref: PMID:18203685
 relationship: part_of XCO:0000287 ! interphotoreceptor retinoid-binding protein
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-13T17:56:51Z
 
 [Term]
@@ -2596,7 +2589,7 @@ synonym: "Pmp2" RELATED []
 xref: RGD:1585218
 is_a: XCO:0000260 ! peptide/protein antigen
 relationship: part_of XCO:0000292 ! peripheral nerve myelin
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-13T18:21:29Z
 
 [Term]
@@ -2606,7 +2599,7 @@ def: "A condition in which the major influencing factor is the peptide (KNTEISFK
 synonym: "P2 58-81" RELATED []
 synonym: "P2 peptide 58-81" RELATED []
 relationship: part_of XCO:0000290 ! peripheral myelin protein 2
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-13T18:44:21Z
 
 [Term]
@@ -2617,7 +2610,7 @@ synonym: "peripheral nervous system myelin" RELATED []
 synonym: "PNM" RELATED []
 synonym: "PNS myelin" RELATED []
 is_a: XCO:0000352 ! myelin
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-13T19:18:05Z
 
 [Term]
@@ -2629,7 +2622,7 @@ synonym: "Cardiolite" RELATED []
 synonym: "MIBI" RELATED []
 xref: CHEBI:33371
 is_a: XCO:0000171 ! radioactively labeled chemical
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-03-13T20:07:09Z
 
 [Term]
@@ -2639,7 +2632,7 @@ def: "Any of the  naturally-occuring, primary female sex hormones or  related sy
 synonym: "Not4Curation" RELATED []
 xref: CHEBI:50114
 is_a: XCO:0000229 ! steroid hormone
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-05-07T15:32:52Z
 
 [Term]
@@ -2650,7 +2643,7 @@ synonym: "DES" RELATED []
 xref: CHEBI:41922
 is_a: XCO:0000294 ! estrogen/estrogen analog
 is_a: XCO:0000435 ! antineoplastic agent
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-05-07T16:01:13Z
 
 [Term]
@@ -2659,7 +2652,7 @@ name: running on inclined treadmill
 def: "The act of rapidly moving the feet on an exercise apparatus with an endless belt that allows the user to perform the action of running in place and that is maintained at an angle which deviates from the horozontal by a specified amount." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Encarta:Encarta_World_English_Dictionary]
 synonym: "running on sloped treadmill" EXACT []
 is_a: XCO:0000005 ! running on treadmill
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-07T16:08:44Z
 
 [Term]
@@ -2669,7 +2662,7 @@ def: "Condition in which liquids for drinking (bringing a liquid into the mouth 
 synonym: "water deprivation" NARROW []
 is_a: XCO:0000013 ! diet
 relationship: part_of XCO:0001275 ! unpredictable chronic mild stress
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-11T09:50:38Z
 
 [Term]
@@ -2677,7 +2670,7 @@ id: XCO:0000298
 name: controlled saccharin content drinking water
 def: "Water, the clear, colorless, odorless, tasteless liquid each molecule of which contains one atom of oxygen and two atoms of hydrogen (H2O) supplied as a drink, that is, as a liquid to be brought into the mouth and swallowed to quench thirst, for nourishment, etc., in which the amount of saccharin, a cyclic imine of 2-sulfobenzoic acid which is 500 times sweeter than sugar and used as a nonnutritive sweetener, is adjusted to a requirement." [http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
 is_a: XCO:0000163 ! controlled content drinking water
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-11T10:05:25Z
 
 [Term]
@@ -2685,7 +2678,7 @@ id: XCO:0000299
 name: controlled ethanol content drinking water with no other optional drink source
 def: "Condition in which a drink, that is, a liquid to be brought into the mouth and swallowed to quench thirst, for nourishment, etc., made up of water and a specified amount of ethanol, the alcohol with chemical formula CH3-CH2-OH obtained from the fermentation of sugars and starches or by chemical synthesis which is the intoxicating ingredient of alcoholic beverages, is supplied as the only available drink option for consumption by an organism in an experiment." [http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
 is_a: XCO:0000023 ! controlled ethanol content drinking water
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-11T10:06:43Z
 
 [Term]
@@ -2693,7 +2686,7 @@ id: XCO:0000300
 name: controlled ethanol content drinking water with water as an optional drink source
 def: "Condition in which a drink, that is, a liquid to be brought into the mouth and swallowed to quench thirst, for nourishment, etc., made up of water and a specified amount of ethanol, the alcohol with chemical formula CH3-CH2-OH obtained from the fermentation of sugars and starches or by chemical synthesis which is the intoxicating ingredient of alcoholic beverages, is supplied along with additive-free water, the clear, colorless, odorless, tasteless liquid each molecule of which contains one atom of oxygen and two atoms of hydrogen (H2O), as an additional drink option for consumption by an organism in an experiment." [http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
 is_a: XCO:0000023 ! controlled ethanol content drinking water
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-11T10:07:22Z
 
 [Term]
@@ -2703,7 +2696,7 @@ def: "A condition in which the main influencing factor is a homogeneous mixture 
 xref: CHEBI:49713
 is_a: XCO:0000154 ! ion/salt solution
 relationship: has_component XCO:0000313 ! lithium ion
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-11T10:08:36Z
 
 [Term]
@@ -2712,7 +2705,7 @@ name: lithium chloride solution
 def: "A condition in which the main influencing factor is a homogeneous mixture of atoms of lithium, the chemical element with atomic number 3, that have lost one electron forming a cation with a charge of +1, and an equivalent number of atoms of chlorine, the chemical element with atomic number 17, that have gained one electron forming an anion with a charge of -1 dispersed molecularly in a sufficient quantity of dissolving medium (solvent) such as water." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 xref: CHEBI:48607
 is_a: XCO:0000301 ! lithium ion solution
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-11T10:09:05Z
 
 [Term]
@@ -2721,7 +2714,7 @@ name: adrenalectomy
 def: "The surgical excision of one or both of the adrenal glands, two small, dissimilarly shaped endocrine glands, one located above each kidney, consisting of the cortex, which secretes several steroid hormones, and the medulla, which secretes epinephrine." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
 synonym: "suprarenalectomy" EXACT []
 is_a: XCO:0000026 ! surgical removal
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-20T17:37:01Z
 
 [Term]
@@ -2730,7 +2723,7 @@ name: bilateral adrenalectomy
 def: "The surgical excision of both adrenal glands, two small, dissimilarly shaped endocrine glands, one located above each kidney, consisting of the cortex, which secretes several steroid hormones, and the medulla, which secretes epinephrine." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
 synonym: "bilateral suprarenalectomy" EXACT []
 is_a: XCO:0000303 ! adrenalectomy
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-20T17:49:29Z
 
 [Term]
@@ -2739,7 +2732,7 @@ name: unilateral adrenalectomy
 def: "The surgical excision of only one of the adrenal glands, two small, dissimilarly shaped endocrine glands, one located above each kidney, consisting of the cortex, which secretes several steroid hormones, and the medulla, which secretes epinephrine." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
 synonym: "unilateral suprarenalectomy" EXACT []
 is_a: XCO:0000303 ! adrenalectomy
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-20T17:50:15Z
 
 [Term]
@@ -2747,7 +2740,7 @@ id: XCO:0000306
 name: cold exposure
 def: "An activity or condition which involves subjecting all or part of an organism to a relatively low, i.e., lower than considered normal, temperature." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed]
 is_a: XCO:0000111 ! temperature exposure
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-21T16:31:04Z
 
 [Term]
@@ -2758,7 +2751,7 @@ synonym: "cold exposure, ambient air" EXACT []
 synonym: "cold stress" RELATED []
 is_a: XCO:0000011 ! air temperature
 is_a: XCO:0000306 ! cold exposure
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-21T16:52:48Z
 
 [Term]
@@ -2766,7 +2759,7 @@ id: XCO:0000308
 name: heat exposure
 def: "An activity or condition which involves subjecting all or part of an organism to a relatively high, or higher than considered normal, temperature, that is, possessing a higher than normal level of random kinetic energy of atoms, molecules, or ions." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed]
 is_a: XCO:0000111 ! temperature exposure
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-21T17:12:21Z
 
 [Term]
@@ -2778,7 +2771,7 @@ synonym: "hot ambient air exposure" RELATED []
 synonym: "warm ambient air exposure" RELATED []
 is_a: XCO:0000011 ! air temperature
 is_a: XCO:0000308 ! heat exposure
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-21T17:21:42Z
 
 [Term]
@@ -2788,7 +2781,7 @@ def: "An antihypertensive agent that acts by selectively inhibiting transmission
 xref: CHEBI:5557
 xref: MESH:D006145
 is_a: XCO:0000120 ! inhibitor
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-21T18:45:16Z
 
 [Term]
@@ -2799,7 +2792,7 @@ synonym: "K+ ion solution" EXACT []
 xref: CHEBI:29103
 is_a: XCO:0000154 ! ion/salt solution
 relationship: has_component XCO:0000150 ! potassium ion
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-25T14:02:51Z
 
 [Term]
@@ -2809,7 +2802,7 @@ def: "A condition in which the main influencing factor is a homogeneous mixture 
 synonym: "KCl solution" EXACT []
 xref: CHEBI:32588
 is_a: XCO:0000311 ! potassium ion solution
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-25T14:06:24Z
 
 [Term]
@@ -2819,7 +2812,7 @@ def: "A condition in which the main influencing factor is an atom of lithium, th
 synonym: "Li+ ion" EXACT []
 xref: CHEBI:49713
 is_a: XCO:0000149 ! ion/salt
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-25T14:24:21Z
 
 [Term]
@@ -2828,7 +2821,7 @@ name: buffer
 def: "Any substance or mixture of substances that, in solution (typically aqueous), resists change in pH upon addition of small amounts of acid or base." []
 xref: CHEBI:35225
 is_a: XCO:0000341 ! chemical with specified function
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-25T14:52:26Z
 
 [Term]
@@ -2838,7 +2831,7 @@ def: "A homogeneous mixture of molecules, atoms and/or ions,  one or more of whi
 xref: CHEBI:35225
 is_a: XCO:0000314 ! buffer
 is_a: XCO:0000340 ! solution
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-25T14:58:18Z
 
 [Term]
@@ -2847,7 +2840,7 @@ name: calcium-free buffer solution
 def: "A homogeneous mixture which does not contain calcium, the chemical element with atomic number 20, but does contain molecules, atoms and/or ions one or more of which have the capacity to cause the solution to resist change in pH upon addition of small amounts of acid or base, dispersed molecularly in a sufficient quantity of dissolving medium (solvent) such as water." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 xref: CHEBI:35225
 is_a: XCO:0000315 ! buffer solution
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-25T15:06:57Z
 
 [Term]
@@ -2859,7 +2852,7 @@ xref: CHEBI:29108
 xref: CHEBI:35225
 is_a: XCO:0000185 ! calcium ion solution
 is_a: XCO:0000315 ! buffer solution
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-25T15:13:18Z
 
 [Term]
@@ -2868,7 +2861,7 @@ name: surgical construction
 def: "A process in which manual and instrumental techniques are used to assemble or combine parts or substances, especially in order to create something new." [Cambridge:Cambridge_Online_Dictionary_of_American_English, Collins:Collins_Online_English_Dictionary, http://en.wikipedia.org/wiki/Surgery "Wikipedia"]
 synonym: "Not4Curation" RELATED []
 is_a: XCO:0000165 ! surgical manipulation
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-25T16:06:11Z
 
 [Term]
@@ -2878,7 +2871,7 @@ def: "A surgically created passageway between the abdominal aorta and inferior v
 synonym: "ACF" RELATED []
 xref: PMID:2142618
 is_a: XCO:0000595 ! surgical manipulation of blood vessels
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-25T16:08:47Z
 
 [Term]
@@ -2892,7 +2885,7 @@ xref: CHEBI:5700
 xref: CID:3604
 xref: MESH:D018738
 is_a: XCO:0000842 ! nicotinic antagonist
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-25T17:12:45Z
 
 [Term]
@@ -2903,7 +2896,7 @@ synonym: "hexamethonium dibromide" RELATED []
 xref: chembl.compound:CHEMBL105608
 xref: pubchem.compound:5938
 is_a: XCO:0000320 ! hexamethonium
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-25T17:17:10Z
 
 [Term]
@@ -2914,7 +2907,7 @@ synonym: "hexamethonium dichloride" RELATED []
 xref: CHEMBL:105608
 xref: CID:93550
 is_a: XCO:0000320 ! hexamethonium
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-06-25T17:19:38Z
 
 [Term]
@@ -2923,7 +2916,7 @@ name: alcohol
 def: "Any condition in which the main influencing factor is an alcohol, a compound in which a hydroxy group, -OH, is attached to a saturated carbon atom." []
 xref: CHEBI:30879
 is_a: XCO:0000342 ! chemical with specified structure
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-08-07T16:27:07Z
 
 [Term]
@@ -2932,7 +2925,7 @@ name: primary alcohol
 def: "Any condition in which the main influencing factor is a primary alcohol, a compound in which a hydroxy group, -OH, is attached to a saturated carbon atom which has either three hydrogen atoms attached to it or only one other carbon atom and two hydrogen atoms attached to it." []
 xref: CHEBI:15734
 is_a: XCO:0000323 ! alcohol
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-08-07T16:35:17Z
 
 [Term]
@@ -2943,7 +2936,7 @@ synonym: "ethyl alcohol" EXACT []
 synonym: "EtOH" RELATED []
 xref: CHEBI:16236
 is_a: XCO:0000324 ! primary alcohol
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-08-07T16:39:26Z
 
 [Term]
@@ -2955,7 +2948,7 @@ synonym: "ethanol in 0.9 % saline solution" NARROW []
 synonym: "ethanol in saline" EXACT []
 is_a: XCO:0000156 ! 0.9% sodium chloride solution
 relationship: has_component XCO:0000325 ! ethanol
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-08-07T16:45:26Z
 
 [Term]
@@ -2963,7 +2956,7 @@ id: XCO:0000327
 name: controlled quinine content drinking water
 def: "A drink, that is, a liquid that is brought into the mouth and swallowed to quench thirst and/or for nourishment, made up of water and a specified amount of quinine, and consumed by an organism as part of an experiment. Water is the clear, colorless, odorless, tasteless liquid each molecule of which contains one atom of oxygen and two atoms of hydrogen (H2O). Quinine is a bitter alkaloid of cinchona that has antimalarial, analgesic, antipyretic, mild oxytocic, cardiac depressant, and sclerosing properties, and that decreases the excitability of the motor end plate." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://www.yourdictionary.com/drink "YourDictionary", ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_a: XCO:0000163 ! controlled content drinking water
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-08-07T17:05:17Z
 
 [Term]
@@ -3107,7 +3100,7 @@ def: "This is any condition in which the main influencing factor is a substance 
 synonym: "chemical with specified role" EXACT []
 xref: CHEBI:50906
 is_a: XCO:0000088 ! chemical
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-09-03T16:26:49Z
 
 [Term]
@@ -3117,7 +3110,7 @@ def: "This is any condition in which the main influencing factor is a substance 
 synonym: "Not4Curation" RELATED []
 xref: CHEBI:24431
 is_a: XCO:0000088 ! chemical
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-09-03T16:30:12Z
 
 [Term]
@@ -3125,7 +3118,7 @@ id: XCO:0000343
 name: nitrosourea
 def: "Any condition in which the main influencing factor is a chemical having a nitroso (R-N=O) and a urea moiety.  A urea moiety consists of  two -NH2 groups joined by a carbonyl (C=O) group." [http://en.wikipedia.org/wiki/Nitrosourea "Wikipedia"]
 is_a: XCO:0000342 ! chemical with specified structure
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-09-04T13:12:02Z
 
 [Term]
@@ -3139,7 +3132,7 @@ synonym: "propylnitrosourea" EXACT []
 is_a: XCO:0000089 ! neoplasm-inducing chemical
 is_a: XCO:0000205 ! mutation inducing chemical
 is_a: XCO:0000343 ! nitrosourea
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-09-04T13:25:28Z
 
 [Term]
@@ -3154,7 +3147,7 @@ xref: CHEBI:23995
 xref: pubchem.compound:12967
 is_a: XCO:0000205 ! mutation inducing chemical
 is_a: XCO:0000343 ! nitrosourea
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-09-04T13:34:43Z
 
 [Term]
@@ -3170,7 +3163,7 @@ xref: pubchem.compound:12967
 is_a: XCO:0000089 ! neoplasm-inducing chemical
 is_a: XCO:0000205 ! mutation inducing chemical
 is_a: XCO:0000343 ! nitrosourea
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-09-20T16:27:41Z
 
 [Term]
@@ -3178,7 +3171,7 @@ id: XCO:0000347
 name: blood vessel occlusion
 def: "This is any condition in which the main influencing factor is surgical manipulation causing blockage of a blood vessel, any one of the network of muscular tubes that carry blood through the body." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_a: XCO:0000596 ! blood vessel constriction
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-11-11T10:32:17Z
 
 [Term]
@@ -3187,7 +3180,7 @@ name: middle cerebral artery occlusion
 def: "A surgical manipulation causing blockage of the middle cerebral artery (MCA), one of the three major paired arteries that supply blood to the cerebrum. The MCA arises from the internal carotid and continues into the lateral sulcus where it branches and projects into the lateral cerebral cortex." [http://en.wikipedia.org/wiki/Middle_Cerebral_Artery "Wikipedia", Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "MCA occlusion" RELATED []
 is_a: XCO:0000347 ! blood vessel occlusion
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-11-11T10:46:10Z
 
 [Term]
@@ -3195,7 +3188,7 @@ id: XCO:0000349
 name: arthritis-inducing agent
 def: "Any phenomenon, chemical or biologic substance, or organism that, when administered, results in the inflammation of one or more joints, the sites of junction or union between bones, especially those that allow motion of the bones." [Collins:Collins_Online_English_Dictionary, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000258 ! disease-inducing agent
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-11-11T12:01:59Z
 
 [Term]
@@ -3204,7 +3197,7 @@ name: streptococcal cell wall
 def: "A biologic agent consisting of a more or less purified preparation of cell walls from streptococcus bacteria. Streptococcus is a genus of spherical Gram-positive bacteria belonging to the phylum Firmicutes and the lactic acid bacteria group. The cell wall is the rigid structure that lies just outside of and is joined to the plasma membrane of plant cells and most prokaryotic cells, which protects the cell and maintains its shape." [Collins:Collins_Online_English_Dictionary, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Streptococcus "Wikipedia", ISBN:978-1416049982]
 synonym: "SCW" RELATED []
 is_a: XCO:0000349 ! arthritis-inducing agent
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-11-11T12:03:50Z
 
 [Term]
@@ -3218,7 +3211,7 @@ xref: CHEBI:16907
 xref: MESH:D015112
 is_a: XCO:0000089 ! neoplasm-inducing chemical
 is_a: XCO:0000205 ! mutation inducing chemical
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-11-11T13:00:15Z
 
 [Term]
@@ -3226,7 +3219,7 @@ id: XCO:0000352
 name: myelin
 def: "A condition in which the major influencing factor is myelin, a lipoproteinaceous substance largely composed of phospholipids and proteins, which forms the sheaths surrounding the myelinated nerve fibers." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_a: XCO:0000133 ! antigen
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-11-11T13:10:37Z
 
 [Term]
@@ -3235,7 +3228,7 @@ name: central nervous system myelin
 def: "A condition in which the major influencing factor is the lipoproteinaceous substance largely composed of phospholipids and proteins, which forms the sheaths surrounding the myelinated nerve fibers of the central nervous system, i.e., the brain and spinal cord." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "CNS myelin" RELATED []
 is_a: XCO:0000352 ! myelin
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-11-11T13:26:36Z
 
 [Term]
@@ -3249,7 +3242,7 @@ xref: CHEBI:21759
 xref: pubchem.compound:9562060
 is_a: XCO:0000089 ! neoplasm-inducing chemical
 is_a: XCO:0000205 ! mutation inducing chemical
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-11-11T14:50:46Z
 
 [Term]
@@ -3262,7 +3255,7 @@ synonym: "controlled MNNG content drinking water" RELATED []
 xref: CHEBI:21759
 is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0000354 ! N-methyl-N'-nitro-N-nitrosoguanidine
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-11-11T15:17:46Z
 
 [Term]
@@ -3270,7 +3263,7 @@ id: XCO:0000356
 name: spinal cord homogenate
 def: "A condition in which the major contributing factor is a preparation of spinal cord which has been rendered uniform in structure and/or composition throughout, for example by grinding the tissue until it has been reduced to particles which are evenly distributed thoughout a fluid.  Spinal cord is the long, flexible, nearly cylindric structure of nerve tissue that extends from the medulla oblongata down through the vertebral canal and from which the spinal nerves branch off to various parts of the body." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_a: XCO:0000133 ! antigen
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-11-11T15:35:41Z
 
 [Term]
@@ -3279,7 +3272,7 @@ name: walking on inclined treadmill
 def: "The action of ambulation on an exercise apparatus with an endless belt that allows the user to perform the action of running in place and that is maintained at an angle which deviates from the horozontal by a specified amount." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Encarta:Encarta_World_English_Dictionary]
 synonym: "walking on sloped treadmill" EXACT []
 is_a: XCO:0000004 ! walking on treadmill
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-11-11T15:50:46Z
 
 [Term]
@@ -3288,7 +3281,7 @@ name: diagnostic agent
 def: "A substance administered specifically to aid diagnosis of a disease or condition." [CHEBI:33295, Webster:Random_House_Kernerman_Websters_College_Dictionary_2010]
 synonym: "diagnostic aid" RELATED []
 is_a: XCO:0000341 ! chemical with specified function
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-11-11T16:04:05Z
 
 [Term]
@@ -3298,7 +3291,7 @@ def: "A condition in which the main influencing factor is an organic sodium salt
 synonym: "PAH" RELATED []
 synonym: "sodium para-aminohippurate" EXACT []
 is_a: XCO:0000358 ! diagnostic agent
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-11-11T16:10:30Z
 
 [Term]
@@ -3307,7 +3300,7 @@ name: arterial catheter implantation
 def: "The insertion of a tubular, flexible surgical instrument into an artery to withdraw or introduce fluid. An artery is a vessel in which blood flows away from the heart." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000027 ! surgical implantation
 is_a: XCO:0000595 ! surgical manipulation of blood vessels
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-12-20T12:41:32Z
 
 [Term]
@@ -3315,7 +3308,7 @@ id: XCO:0000361
 name: left L3-L5 ventral root avulsion
 def: "The forcible surgical separation from the spine of the motor root of a left side spinal nerve between the #3 and #5 lumbar vertebrae." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Gale:Gale_Encyclopedia_of_Medicine_2008]
 is_a: XCO:0000401 ! nerve root avulsion
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-12-20T13:05:25Z
 
 [Term]
@@ -3323,7 +3316,7 @@ id: XCO:0000362
 name: physical restraint in plastic bag
 def: "The use of a pouch made from a very thin flexible plastic (any of various organic compounds produced by polymerization, capable of being molded, extruded, cast into various shapes and films) to limit some or all of an animal's normal movements." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Collins:Collins_Online_English_Dictionary, http://grants.nih.gov/grants/olaw/Guide-for-the-care-and-use-of-Laboratory-animals.pdf "NIH"]
 is_a: XCO:0000158 ! physical restraint in mechanical restrainer
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-12-20T13:13:08Z
 
 [Term]
@@ -3331,7 +3324,7 @@ id: XCO:0000363
 name: eukaryotic pathogen
 def: "A condition in which the main influencing factor is a single-celled or multicellular organism that has the capacity to cause disease, and the cell(s) of which individually have a true nucleus, that is, one  that is bounded by a nuclear membrane, contains one or more chromosomes, and divides by mitosis." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
 is_a: XCO:0000236 ! pathogen
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-12-20T13:28:29Z
 
 [Term]
@@ -3339,7 +3332,7 @@ id: XCO:0000364
 name: Toxoplasma gondii
 def: "A condition  in which the main influencing factor is a sporozoan species that is an intracellular parasite in a variety of vertebrates and is the causative agent of toxoplasmosis." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
 is_a: XCO:0000363 ! eukaryotic pathogen
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-12-20T13:29:36Z
 
 [Term]
@@ -3347,7 +3340,7 @@ id: XCO:0000365
 name: Toxoplasma gondii cysts
 def: "A condition in which the main influencing factor is Toxoplasma gondii cysts. Toxoplasma gondii is a sporozoan species that is an intracellular parasite in a variety of vertebrates and is the causative agent of toxoplasmosis. Cyst refers to the larval stage in the life cycle during which individual organisms are enveloped in a protective wall." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000364 ! Toxoplasma gondii
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-12-20T13:30:01Z
 
 [Term]
@@ -3358,7 +3351,7 @@ synonym: "control surgical device implantation" EXACT []
 synonym: "sham surgical device implantation" EXACT []
 is_a: XCO:0000100 ! sham surgical control condition
 relationship: part_of XCO:0000027 ! surgical implantation
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-12-20T14:06:20Z
 
 [Term]
@@ -3366,7 +3359,7 @@ id: XCO:0000368
 name: autoimmune disease-inducing chemical
 def: "Any condition in which the main influencing factor is a chemical that causes an anti-self reaction by the immune system of the treated individual." [RGD:JRS]
 is_a: XCO:0000259 ! disease-inducing chemical
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-12-20T14:29:13Z
 
 [Term]
@@ -3377,7 +3370,7 @@ synonym: "allochrysine" RELATED []
 synonym: "Atps" RELATED []
 synonym: "aurotioprol" RELATED []
 is_a: XCO:0000368 ! autoimmune disease-inducing chemical
-created_by: jsmith
+created_by: JSmith
 creation_date: 2013-12-20T14:29:49Z
 
 [Term]
@@ -3385,7 +3378,7 @@ id: XCO:0000370
 name: Trichinella spiralis
 def: "A condition in which the main influencing factor is any form of  Trichinella spiralis, a nematode parasite that occurs in animals such as rodents, pigs, bears, and in humans. The organism, which matures in the intestines, producing larvae that travel through the blood and lymphatic systems to the muscles where they encyst, is responsible for the disease trichinosis." [http://en.wikipedia.org/wiki/Trichinella_spiralis "Wikipedia"]
 is_a: XCO:0000363 ! eukaryotic pathogen
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-01-09T13:19:52Z
 
 [Term]
@@ -3393,7 +3386,7 @@ id: XCO:0000371
 name: Trichinella spiralis larvae
 def: "A condition in which the main influencing factor is the infective larvae of the nematode parasite Trichinella spiralis." [http://en.wikipedia.org/wiki/Trichinella_spiralis "Wikipedia"]
 is_a: XCO:0000370 ! Trichinella spiralis
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-01-09T13:27:57Z
 
 [Term]
@@ -3403,7 +3396,7 @@ def: "A condition in which the main influencing factor is dexamethasone, a long-
 is_a: XCO:0000091 ! steroid
 is_a: XCO:0000505 ! anti-inflammatory agent
 is_a: XCO:0000636 ! immunosuppressive agent
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-01-09T13:51:38Z
 
 [Term]
@@ -3412,7 +3405,7 @@ name: surgical denervation
 def: "This is any condition in which the main influencing factor is surgical denervation, which my involve transection, resection, or complete surgical removal of a nerve, any of the cordlike structures that convey impulses between the central nervous system and one or more parts of the body, and that each consist of an outer connective tissue sheath surrounding a bundle of conductive fibers." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Dental_Dictionary--2nd_Ed]
 xref: MESH:D003714
 is_a: XCO:0001814 ! experimental nerve injury
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-01-09T14:52:48Z
 
 [Term]
@@ -3421,7 +3414,7 @@ name: axotomy
 def: "Surgical transection or severing of an axon, the process of a neuron capable of conducting action potentials or self-propagating nerve impulses away from the cell body." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 xref: MESH:D019771
 is_a: XCO:0001373 ! surgical nerve transection
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-01-09T14:56:20Z
 
 [Term]
@@ -3431,7 +3424,7 @@ def: "Surgical transection or severing of one or more axons of the sciatic nerve
 xref: MA:0001172
 xref: MESH:D019771
 is_a: XCO:0000374 ! axotomy
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-01-09T14:57:23Z
 
 [Term]
@@ -3441,7 +3434,7 @@ def: "Surgical transection or severing of one or more axons of the saphenous ner
 xref: MA:0002761
 xref: MESH:D019771
 is_a: XCO:0000374 ! axotomy
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-01-09T14:57:26Z
 
 [Term]
@@ -3449,7 +3442,7 @@ id: XCO:0000377
 name: vitamin
 def: "A condition in which the main influencing factor is any of a group of unrelated organic substances occurring in many foods in small amounts and necessary in trace amounts for the normal metabolic functioning of the body." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000341 ! chemical with specified function
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-01-09T17:12:36Z
 
 [Term]
@@ -3459,7 +3452,7 @@ def: "A condition in which the main influencing factor is any of a group of at l
 xref: CHEBI:33234
 is_a: XCO:0000271 ! antioxidant
 is_a: XCO:0000377 ! vitamin
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-01-09T17:14:02Z
 
 [Term]
@@ -3469,7 +3462,7 @@ def: "A condition in which the main influencing factor is the most active form o
 synonym: "a-tocopherol" RELATED []
 xref: CHEBI:22470
 relationship: part_of XCO:0000378 ! vitamin E
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-01-09T17:15:15Z
 
 [Term]
@@ -3479,7 +3472,7 @@ def: "A condition in which the main influencing factor is a hydrophobic 13 carbo
 synonym: "alpha-tocopherol phytyl side chain" RELATED []
 is_a: XCO:0000276 ! hydrocarbon
 relationship: part_of XCO:0000379 ! alpha-tocopherol
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-01-09T17:16:43Z
 
 [Term]
@@ -3487,7 +3480,7 @@ id: XCO:0000381
 name: progesterone
 def: "Condition in which the main influencing factor is the steroid hormone progesterone, the principal pro-gestational hormone liberated by the corpus luteum, adrenal cortex, and placenta, whose function is to prepare the uterus for the reception and development of the fertilized oocyte by inducing transformation of the endometrium from the proliferative to the secretory stage." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000229 ! steroid hormone
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-01-09T17:37:07Z
 
 [Term]
@@ -3496,7 +3489,7 @@ name: controlled captopril content drinking water
 def: "A drink made up of water and a specified amount of captopril consumed by an organism as part of an experiment. Captopril is an angiotensin-converting enzyme (ACE) inhibitor used for the treatment of hypertension and some types of congestive heart failure." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Captopril "Wikipedia", ISBN:978-1416049982]
 is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0000270 ! captopril
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-01-09T18:05:23Z
 
 [Term]
@@ -3505,7 +3498,7 @@ name: controlled losartan content drinking water
 def: "A drink made up of water and a specified amount of losartan consumed by an organism as part of an experiment. Losartan is a selective, competitive angiotensin II receptor type 1 (AT1) receptor antagonist, reducing the end organ responses to angiotensin II." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Losartan "Wikipedia", ISBN:978-1416049982]
 is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0000161 ! losartan
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-01-09T18:07:00Z
 
 [Term]
@@ -3514,7 +3507,7 @@ name: controlled tempol content drinking water
 def: "A drink made up of water and a specified amount of tempol consumed by an organism as part of an experiment. Tempol (4-Hydroxy-TEMPO) is a heterocyclic compound used as an agent for detoxifying reactive oxygen species. It catalyses the disproportionation of superoxide." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/TEMPOL "Wikipedia", ISBN:978-1416049982]
 is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0000272 ! tempol
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-01-09T18:07:59Z
 
 [Term]
@@ -3522,7 +3515,7 @@ id: XCO:0000385
 name: glomerulonephritis-inducing agent
 def: "Any substance, such as a chemical, a mix of chemicals or a pathogen, which has the capacity to cause the development of the symptoms of glomerulonephritis, kidney inflammation characterized by inflammation of the capillary loops in the renal glomeruli." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
 is_a: XCO:0000258 ! disease-inducing agent
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-01-10T15:46:03Z
 
 [Term]
@@ -3531,7 +3524,7 @@ name: collagenase-solubilized glomerular basement membrane
 def: "A condition in which the main influencing factor is a relatively undefined mix of macromolecules such as glycoproteins, proteoglycans, and fragmented collagens, derived from the basement membrane of renal glomeruli via treatment with collagenase, an enzyme that catalyzes the hydrolysis of peptide bonds in triple helical regions of collagen, one of the major components of basement membranes. A basement membrane is an organised multi-molecular extracellular matrix which is characteristically found under epithelial and endothelial cells." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Segen:Segens_Medical_Dictionary_2012]
 synonym: "collagenase-solubilized GBM" RELATED []
 is_a: XCO:0000385 ! glomerulonephritis-inducing agent
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-01-10T15:47:24Z
 
 [Term]
@@ -3540,7 +3533,7 @@ name: collagenase-solubilized rat glomerular basement membrane
 def: "A condition in which the main influencing factor is a relatively undefined mix of macromolecules such as glycoproteins, proteoglycans, and fragmented collagens, derived from the basement membrane of renal glomeruli from rats (i.e., members of the species Rattus norvegicus) via treatment with collagenase, an enzyme that catalyzes the hydrolysis of peptide bonds in triple helical regions of collagen, one of the major components of basement membranes. A basement membrane is an organised multi-molecular extracellular matrix which is characteristically found under epithelial and endothelial cells." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Segen:Segens_Medical_Dictionary_2012]
 synonym: "collagenase-solubilized rat GBM" RELATED []
 is_a: XCO:0000386 ! collagenase-solubilized glomerular basement membrane
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-01-10T15:48:30Z
 
 [Term]
@@ -3554,7 +3547,7 @@ synonym: "paracetamol" EXACT []
 xref: CHEBI:46195
 xref: MESH:D000082
 is_a: XCO:0000106 ! anesthetic/analgesic
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-01-21T16:34:04Z
 
 [Term]
@@ -3563,7 +3556,7 @@ name: controlled cigarette smoke content
 def: "A condition in which the air surrounding an organism or breathed by the organism contains a controlled amount of cigarette smoke, the combined gases and particulates given off when tobacco in the form of a cigarette burns or smolders. A cigarette is a cylinder of cut blonde or black tobacco ensheathed in a tube of paper, with or without an incorporated filter to decrease inhaled tars." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine]
 synonym: "exposure to atmospheric cigarette smoke" RELATED []
 is_a: XCO:0000009 ! controlled air content
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-01-21T16:58:06Z
 
 [Term]
@@ -3573,7 +3566,7 @@ def: "This is any condition in which the main influencing factor is an antimetab
 xref: CHEBI:35221
 xref: MESH:D000963
 is_a: XCO:0000341 ! chemical with specified function
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-02-07T15:47:34Z
 
 [Term]
@@ -3587,7 +3580,7 @@ xref: MESH:D001973
 is_a: XCO:0000390 ! antimetabolite
 is_a: XCO:0000392 ! nucleoside/nucleotide
 is_a: XCO:0000435 ! antineoplastic agent
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-02-07T15:58:44Z
 
 [Term]
@@ -3595,7 +3588,7 @@ id: XCO:0000392
 name: nucleoside/nucleotide
 def: "A condition in which the main influencing factor is any of various compounds consisting of a purine or pyrimidine base and a sugar, usually ribose or deoxyribose, with (nucleotide) or without (nucleoside) one or more phosphate groups." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, http://en.wikipedia.org/wiki/Nucleotide "Wikipedia"]
 is_a: XCO:0000342 ! chemical with specified structure
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-02-07T16:00:28Z
 
 [Term]
@@ -3610,7 +3603,7 @@ xref: CHEBI:73755
 xref: MESH:D019813
 is_a: XCO:0000089 ! neoplasm-inducing chemical
 is_a: XCO:0000205 ! mutation inducing chemical
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-02-07T16:46:23Z
 
 [Term]
@@ -3618,7 +3611,7 @@ id: XCO:0000394
 name: controlled bile acid content diet
 def: "A regimen of solid food to which a specified amount of bile acid has been added. Bile acids are steroid acids derived from cholesterol in the liver (primary) or produced from primary bile acids by intestinal bacteria (secondary)." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000014 ! controlled content diet
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-02-07T16:57:51Z
 
 [Term]
@@ -3631,7 +3624,7 @@ xref: CHEBI:16907
 xref: MESH:D015112
 is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0000351 ! 4-nitroquinoline N-oxide
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-02-07T17:03:31Z
 
 [Term]
@@ -3640,7 +3633,7 @@ name: phenolic/phenol derivative
 def: "Any organic aromatic compound consisting of at least one phenolic group, that is, a group having one or more hydroxy groups attached to a benzene or other arene ring." []
 xref: CHEBI:33853
 is_a: XCO:0000342 ! chemical with specified structure
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-02-27T13:23:28Z
 
 [Term]
@@ -3650,7 +3643,7 @@ def: "A synthetic phenolic compound with the chemical formula (CH3)2C(C6H4OH)2, 
 synonym: "BPA" RELATED []
 xref: CHEBI:33216
 is_a: XCO:0000396 ! phenolic/phenol derivative
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-02-27T13:28:43Z
 
 [Term]
@@ -3661,7 +3654,7 @@ xref: CHEBI:27899
 is_a: XCO:0000205 ! mutation inducing chemical
 is_a: XCO:0000399 ! complex ion
 is_a: XCO:0000435 ! antineoplastic agent
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-02-27T15:53:25Z
 
 [Term]
@@ -3669,7 +3662,7 @@ id: XCO:0000399
 name: complex ion
 def: "A metal ion surrounded by, and forming coordinate covalent bonds with, a set of ligands comprised of any combination of other molecules or ions able to donate an electron pair." [http://chemwiki.ucdavis.edu/Inorganic_Chemistry/Coordination_Chemistry/Complex_Ion_Equilibria/Complex-Ion_Equilibria "Website", http://www.chemguide.co.uk/inorganic/complexions/whatis.html#top "Website"]
 is_a: XCO:0000149 ! ion/salt
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-02-27T15:55:56Z
 
 [Term]
@@ -3677,7 +3670,7 @@ id: XCO:0000400
 name: surgical avulsion
 def: "A surgical manipulation in which one tissue, organ or body part is forcibly torn away from the whole, or in which an attached or anchored tissue is torn away from another tissue or body part." [Mosby:Mosbys_Medical_Dictionary--8th_Ed, Segen:Segens_Medical_Dictionary_2012]
 is_a: XCO:0000026 ! surgical removal
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-02-27T17:28:06Z
 
 [Term]
@@ -3686,7 +3679,7 @@ name: nerve root avulsion
 def: "The surgical tearing apart of the nerve root, the part of a nerve adjacent to the center to which it is connected, from that center, for example, surgical separation of one or both of two bundles of nerve fibers (the posterior and anterior roots) from the spinal cord by tearing rather than cutting." [Farlex:Farlex_Partner_Medical_Dictionary_2012, Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_a: XCO:0000373 ! surgical denervation
 is_a: XCO:0000400 ! surgical avulsion
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-02-27T17:29:08Z
 
 [Term]
@@ -3694,7 +3687,7 @@ id: XCO:0000402
 name: habituation to experimental apparatus
 def: "A condition in which an experimental subject is exposed to an experimental apparatus in order to habituate the individual to the apparatus. Habituation is the gradual decrease in behavioral responses to a particular stimulus or environment after repeated exposures have proven to be of no consequence." [http://en.wikipedia.org/wiki/Habituation "Wikipedia", Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 is_a: XCO:0000000 ! experimental condition
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-02-28T11:38:55Z
 
 [Term]
@@ -3704,7 +3697,7 @@ def: "A solid diet in which the amount of cisplatin, a chemotherapy drug in whic
 xref: CHEBI:27899
 is_a: XCO:0000014 ! controlled content diet
 relationship: has_component XCO:0000398 ! cisplatin
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-02-28T12:22:58Z
 
 [Term]
@@ -3715,7 +3708,7 @@ synonym: "controlled BPA content diet" RELATED []
 xref: CHEBI:33216
 is_a: XCO:0000014 ! controlled content diet
 relationship: has_component XCO:0000397 ! bisphenol A
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-02-28T12:23:03Z
 
 [Term]
@@ -3725,7 +3718,7 @@ def: "A drink made up of water and a specified amount of cisplatin consumed by a
 xref: CHEBI:27899
 is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0000398 ! cisplatin
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-02-28T12:48:11Z
 
 [Term]
@@ -3736,7 +3729,7 @@ synonym: "controlled BPA content drinking water" RELATED []
 xref: CHEBI:33216
 is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0000397 ! bisphenol A
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-02-28T12:48:15Z
 
 [Term]
@@ -3750,7 +3743,7 @@ synonym: "Not4Curation" RELATED []
 xref: CHEBI:35526
 is_a: XCO:0000341 ! chemical with specified function
 is_a: XCO:0000850 ! therapeutic agent
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-02-28T17:14:36Z
 
 [Term]
@@ -3760,7 +3753,7 @@ def: "A condition in which the main influencing factor is metformin, an oral ant
 synonym: "Glucophage" NARROW []
 xref: CHEBI:6801
 is_a: XCO:0000407 ! hypoglycemic agent
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-02-28T17:17:09Z
 
 [Term]
@@ -3770,7 +3763,7 @@ def: "A drink made up of water and a specified amount of metformin consumed by a
 xref: CHEBI:6801
 is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0000408 ! metformin
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-02-28T17:27:21Z
 
 [Term]
@@ -3780,7 +3773,7 @@ def: "A solid diet in which the amount of metformin, an oral antidiabetic drug i
 xref: CHEBI:6801
 is_a: XCO:0000014 ! controlled content diet
 relationship: has_component XCO:0000408 ! metformin
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-02-28T17:29:02Z
 
 [Term]
@@ -3788,7 +3781,7 @@ id: XCO:0000411
 name: reproduction condition
 def: "Any experimental condition that is specifically related to the reproduction of the organism, that is, to the cellular, genetic, behavioral and temporal processes by which an organism produces offspring similar to itself so that the species is perpetuated." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_a: XCO:0000000 ! experimental condition
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-04T12:21:41Z
 
 [Term]
@@ -3797,7 +3790,7 @@ name: gestation
 def: "The state of a female and/or her offspring, and the processes which occur, during the period from conception to birth or termination of the pregnancy." [Farlex:Farlex_Partner_Medical_Dictionary_2012]
 synonym: "pregnancy" RELATED []
 is_a: XCO:0000411 ! reproduction condition
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-04T12:29:54Z
 
 [Term]
@@ -3806,7 +3799,7 @@ name: birth
 def: "The emergence and separation of offspring from the body of the mother." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
 synonym: "parturition" RELATED []
 is_a: XCO:0000411 ! reproduction condition
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-04T12:36:04Z
 
 [Term]
@@ -3816,7 +3809,7 @@ def: "The process of synthesis and secretion of milk from the mammary glands in 
 synonym: "breast feeding" RELATED []
 synonym: "milk production" RELATED []
 is_a: XCO:0000411 ! reproduction condition
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-04T12:38:40Z
 
 [Term]
@@ -3826,7 +3819,7 @@ def: "This is any condition in which the main influencing factor is maternal mil
 synonym: "breast milk" RELATED []
 synonym: "mother's milk" RELATED []
 is_a: XCO:0000416 ! milk
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-04T12:44:39Z
 
 [Term]
@@ -3834,7 +3827,7 @@ id: XCO:0000416
 name: milk
 def: "This is any condition in which the main influencing factor is milk, a nutrient fluid containing proteins, fats, lactose, and various vitamins and minerals produced by the mammary gland of a female mammal." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 is_a: XCO:0000020 ! drink
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-04T12:54:50Z
 
 [Term]
@@ -3843,7 +3836,7 @@ name: controlled phytoestrogen content diet
 def: "A solid diet in which the amount of one or more phytoestrogens, any of a group of weakly estrogenic, nonsteroidal compounds widely occurring in plants, is maintained at a specified level." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 xref: CHEBI:76989
 is_a: XCO:0000014 ! controlled content diet
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-04T13:32:02Z
 
 [Term]
@@ -3852,7 +3845,7 @@ name: phytoestrogen-free diet
 def: "A solid diet which specifically contains no phytoestrogens, any of a group of weakly estrogenic, nonsteroidal compounds widely occurring in plants." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 xref: CHEBI:76989
 is_a: XCO:0000419 ! soy-free diet
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-04T13:35:13Z
 
 [Term]
@@ -3860,7 +3853,7 @@ id: XCO:0000419
 name: soy-free diet
 def: "A solid diet specifically containing no soy, that is, no derivative of soybeans, the bean of the leguminous plant, Glycine max, which contains little starch but is rich in protein and phytoestrogens." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_a: XCO:0000417 ! controlled phytoestrogen content diet
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-04T13:38:15Z
 
 [Term]
@@ -3869,7 +3862,7 @@ name: controlled in utero environment
 def: "A condition in which the environment of the offspring within the uterus is controlled during any or all of the period between fertilization and parturition." [Farlex:Farlex_Partner_Medical_Dictionary_2012]
 synonym: "controlled gestational environment" RELATED []
 is_a: XCO:0000421 ! in utero condition
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-04T13:53:44Z
 
 [Term]
@@ -3877,7 +3870,7 @@ id: XCO:0000421
 name: in utero condition
 def: "Any condition which occurs while an organism is still within the uterus of its mother during the gestation period." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000000 ! experimental condition
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-04T15:25:32Z
 
 [Term]
@@ -3886,7 +3879,7 @@ name: quinone
 def: "Any condition in which the main influencing factor is a quinone, a member of a class of compounds having a fully conjugated cyclic dione structure, such as that of benzoquinones, derived from aromatic compounds by conversion of an even number of -CH= groups into -C(=O)- groups with any necessary rearrangement of double bonds." []
 xref: CHEBI:36141
 is_a: XCO:0000342 ! chemical with specified structure
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-04T17:35:52Z
 
 [Term]
@@ -3902,7 +3895,7 @@ xref: MESH:C003466
 xref: pubchem.compound:10281
 is_a: XCO:0000271 ! antioxidant
 is_a: XCO:0000422 ! quinone
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-04T17:36:38Z
 
 [Term]
@@ -3912,7 +3905,7 @@ def: "A condition in which the main influencing factor is benfotiamine, a synthe
 synonym: "S-benzoylthiamine O-monophosphate" EXACT []
 xref: CHEBI:41039
 is_a: XCO:0000271 ! antioxidant
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-04T17:48:57Z
 
 [Term]
@@ -3922,7 +3915,7 @@ def: "A condition in which the main influencing factor is lactotransferrin, a mu
 synonym: "lactoferrin" EXACT []
 synonym: "LTF" RELATED []
 is_a: XCO:0000193 ! peptide/protein
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-05T09:50:27Z
 
 [Term]
@@ -3935,7 +3928,7 @@ synonym: "pyrazole" EXACT []
 xref: CHEBI:17241
 xref: PMID:34355092
 relationship: part_of XCO:0000271 ! antioxidant
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-05T09:52:40Z
 
 [Term]
@@ -3945,7 +3938,7 @@ def: "A condition in which the main influencing factor is lycopene, a bright red
 xref: CHEBI:15948
 is_a: XCO:0000271 ! antioxidant
 is_a: XCO:0000279 ! terpene
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-05T09:54:44Z
 
 [Term]
@@ -3955,7 +3948,7 @@ def: "This is any condition in which the main influencing factor is fructose, a 
 xref: CHEBI:15824
 xref: CHEBI:28757
 is_a: XCO:0000274 ! monosaccharide
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-05T10:26:45Z
 
 [Term]
@@ -3965,7 +3958,7 @@ def: "This is any condition in which the main influencing factor is a drink made
 xref: PMID:33790226
 is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0000428 ! fructose
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-05T10:27:59Z
 
 [Term]
@@ -3973,7 +3966,7 @@ id: XCO:0000430
 name: silymarin
 def: "This is any condition in which the main influencing factor is silymarin, a strongly antioxidant mixture of flavonolignans extracted from the milk thistle plant (Silybum marianum). The components or silymarin are capable of scavenging both free radicals and reactive oxygen species (ROS)." [PMID:24145092]
 is_a: XCO:0000271 ! antioxidant
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-05T10:39:11Z
 
 [Term]
@@ -3981,7 +3974,7 @@ id: XCO:0000431
 name: disaccharide
 def: "Any condition in which the main influencing factor is a disaccharide, a member of the class of sugars that yield two monosaccharide molecules upon hydrolysis." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000172 ! carbohydrate
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-07T10:28:37Z
 
 [Term]
@@ -3990,7 +3983,7 @@ name: sucrose
 def: "Any condition in which the main influencing factor is sucrose, a nonreducing disaccharide of glucose and fructose used as a food, a sweetener, a preservative and a pharmaceutical aid." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 xref: CHEBI:17992
 is_a: XCO:0000431 ! disaccharide
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-07T10:31:32Z
 
 [Term]
@@ -4000,7 +3993,7 @@ def: "A drink made up of water and a specified amount of sucrose consumed by an 
 xref: CHEBI:17992
 is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0000432 ! sucrose
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-07T10:33:57Z
 
 [Term]
@@ -4010,7 +4003,7 @@ def: "Condition in which the main influencing factor is octylphenol, a phenolic 
 xref: CHEBI:34432
 is_a: XCO:0000239 ! toxic substance
 is_a: XCO:0000396 ! phenolic/phenol derivative
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-07T13:09:25Z
 
 [Term]
@@ -4022,7 +4015,7 @@ synonym: "cancer chemotherapy agent" RELATED []
 xref: CHEBI:35610
 is_a: XCO:0000341 ! chemical with specified function
 is_a: XCO:0000850 ! therapeutic agent
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-03-12T13:30:22Z
 
 [Term]
@@ -4035,7 +4028,7 @@ synonym: "controlled PNU content diet" RELATED []
 synonym: "controlled propylnitrosourea content diet" EXACT []
 is_a: XCO:0000014 ! controlled content diet
 relationship: has_component XCO:0000344 ! N-propyl-N-nitrosourea
-created_by: jsmith
+created_by: JSMITH
 creation_date: 2014-04-17T12:42:14Z
 
 [Term]
@@ -4048,7 +4041,7 @@ synonym: "controlled PNU content drinking water" RELATED []
 synonym: "controlled propylnitrosourea content drinking water" EXACT []
 is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0000344 ! N-propyl-N-nitrosourea
-created_by: jsmith
+created_by: JSMITH
 creation_date: 2014-04-17T12:42:20Z
 
 [Term]
@@ -4061,7 +4054,7 @@ xref: CHEBI:3348
 xref: MESH:C081643
 is_a: XCO:0000140 ! vasodilator
 is_a: XCO:0000536 ! angiotensin II receptor antagonist
-created_by: jsmith
+created_by: JSMITH
 creation_date: 2014-04-17T13:11:54Z
 
 [Term]
@@ -4076,7 +4069,7 @@ synonym: "controlled methyldimethylaminoazobenzene content drinking water" EXACT
 xref: CHEBI:76329
 is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0000207 ! 3-methyl-4'-dimethylaminoazobenzene
-created_by: jsmith
+created_by: JSMITH
 creation_date: 2014-04-17T15:49:17Z
 
 [Term]
@@ -4091,7 +4084,7 @@ synonym: "controlled methyldimethylaminoazobenzene content diet" EXACT []
 xref: CHEBI:76329
 is_a: XCO:0000014 ! controlled content diet
 relationship: has_component XCO:0000207 ! 3-methyl-4'-dimethylaminoazobenzene
-created_by: jsmith
+created_by: JSMITH
 creation_date: 2014-04-17T15:49:21Z
 
 [Term]
@@ -4103,7 +4096,7 @@ synonym: "controlled 2-acetylaminofluorene content drinking water" RELATED []
 xref: CHEBI:17356
 is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0000208 ! 2-acetamidofluorene
-created_by: jsmith
+created_by: JSMITH
 creation_date: 2014-04-17T16:31:36Z
 
 [Term]
@@ -4115,7 +4108,7 @@ synonym: "controlled 2-acetylaminofluorene content diet" RELATED []
 xref: CHEBI:17356
 is_a: XCO:0000014 ! controlled content diet
 relationship: has_component XCO:0000208 ! 2-acetamidofluorene
-created_by: jsmith
+created_by: JSMITH
 creation_date: 2014-04-17T16:31:40Z
 
 [Term]
@@ -4125,7 +4118,7 @@ def: "A solid diet in which the amount of dexamethasone (DEX) is maintained at a
 synonym: "controlled DEX content diet" RELATED []
 is_a: XCO:0000014 ! controlled content diet
 relationship: has_component XCO:0000372 ! dexamethasone
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-04-24T13:35:39Z
 
 [Term]
@@ -4135,7 +4128,7 @@ def: "A drink made up of water and a specified amount of dexamethasone (DEX) con
 synonym: "controlled DEX content drinking water" RELATED []
 is_a: XCO:0000163 ! controlled content drinking water
 relationship: has_component XCO:0000372 ! dexamethasone
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-04-24T13:35:46Z
 
 [Term]
@@ -4149,7 +4142,7 @@ xref: CHEBI:26710
 xref: CHEBI:35225
 is_a: XCO:0000155 ! sodium chloride solution
 is_a: XCO:0000315 ! buffer solution
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-04-24T14:08:08Z
 
 [Term]
@@ -4159,7 +4152,7 @@ def: "One of the two types of reproductive cycles. Specifically, the correlated 
 synonym: "estral  cycle" RELATED []
 synonym: "estrous cycle" EXACT []
 is_a: XCO:0000411 ! reproduction condition
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-05-15T18:09:42Z
 
 [Term]
@@ -4170,7 +4163,7 @@ synonym: "estrous" RELATED []
 synonym: "heat" RELATED []
 synonym: "oestrus" EXACT []
 relationship: part_of XCO:0000446 ! estrus cycle
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-05-15T18:16:20Z
 
 [Term]
@@ -4179,7 +4172,7 @@ name: metestrus
 def: "The period of regression and sexual inactivity in females of non-primate mammalian species between estrus and diestrus." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
 synonym: "metestrous" RELATED []
 relationship: part_of XCO:0000446 ! estrus cycle
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-05-15T18:25:00Z
 
 [Term]
@@ -4188,7 +4181,7 @@ name: diestrus
 def: "A period of sexual quiescence that intervenes between two periods of estrus in females of non-primate mammalian species between. In general during diestrus blood levels of estrogens are minimal, progesterone levels are high and the physiological state in the uterus is most conducive for implantation and growth of the developing fetus." [Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "diestrous" RELATED []
 relationship: part_of XCO:0000446 ! estrus cycle
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-05-15T18:29:26Z
 
 [Term]
@@ -4197,7 +4190,7 @@ name: proestrus
 def: "A preparatory period immediately preceding estrus and characterized by growth of graafian follicles, increased estrogenic activity, and alteration of uterine and vaginal mucosa." [Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
 synonym: "proestrous" RELATED []
 relationship: part_of XCO:0000446 ! estrus cycle
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-05-15T18:33:04Z
 
 [Term]
@@ -4207,7 +4200,7 @@ def: "A condition in which the main influencing factor is a neurotropic virus th
 synonym: "Herpes simplex virus 1" RELATED []
 synonym: "HSV-1" RELATED []
 is_a: XCO:0000237 ! viral pathogen
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-05-15T19:05:50Z
 
 [Term]
@@ -4216,7 +4209,7 @@ name: controlled casein content diet
 def: "A solid diet in which the amount of casein is maintained at a specified level. Casein, a phosphoprotein, is the principle protein component of milk." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "controlled caseinogen content diet" RELATED []
 is_a: XCO:0000014 ! controlled content diet
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-06-12T17:25:24Z
 
 [Term]
@@ -4224,7 +4217,7 @@ id: XCO:0000453
 name: controlled butter content diet
 def: "This is a solid diet in which the amount of butter is maintained at a specified level. Butter is a soft yellowish or whitish emulsion of milk fat, water and air, churned from milk or cream and processed for use in cooking and as a food." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_a: XCO:0000014 ! controlled content diet
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-06-12T17:27:00Z
 
 [Term]
@@ -4233,7 +4226,7 @@ name: controlled oil content diet
 def: "A solid diet in which the amount of a specified oil is maintained at a specified level. An oil is any unctuous, combustible substance that is liquid, or easily liquefiable, on warming, and is soluble in ether but not in water. Oils may be animal, vegetable, or mineral in origin." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_a: XCO:0000014 ! controlled content diet
 relationship: has_component XCO:0000774 ! oil
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-06-12T17:27:48Z
 
 [Term]
@@ -4242,7 +4235,7 @@ name: controlled corn oil content diet
 def: "A solid diet in which the amount of corn oil is maintained at a specified level. Corn oil is a refined fixed, that is, nonvolatile, oil obtained from corn, the embryo of Zea mays plant. It is sometimes promoted as a good source of polyunsaturated fatty acids." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_a: XCO:0000454 ! controlled oil content diet
 relationship: has_component XCO:0000829 ! corn oil
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-06-12T17:28:44Z
 
 [Term]
@@ -4251,7 +4244,7 @@ name: retinyl palmitate
 def: "Any condition in which the primary influencing agent is retinyl palmitate, the synthetic ester of retinol (vitamin A) and palmitic acid, with formula C36H60O2." [http://en.wikipedia.org/wiki/Retinyl_palmitate "Wikipedia"]
 synonym: "retinol palmitate" RELATED []
 is_a: XCO:0000271 ! antioxidant
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-06-12T17:56:00Z
 
 [Term]
@@ -4260,7 +4253,7 @@ name: controlled retinoid content diet
 def: "A solid diet in which the amount of any retinoid is maintained at a specified level. Retinoids comprise retinal, retinol and any structurally similar natural derivative or synthetic compound, with or without vitamin A activity." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "controlled vitamin A content diet" EXACT []
 is_a: XCO:0000690 ! controlled vitamin content diet
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-06-12T17:57:57Z
 
 [Term]
@@ -4270,7 +4263,7 @@ def: "A solid diet in which the amount of retinyl palmitate is maintained at a s
 synonym: "controlled retinol palmitate content diet" RELATED []
 is_a: XCO:0000457 ! controlled retinoid content diet
 relationship: has_component XCO:0000456 ! retinyl palmitate
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-06-12T17:59:02Z
 
 [Term]
@@ -4278,7 +4271,7 @@ id: XCO:0000459
 name: controlled light/dark cycle
 def: "This is any condition in which the main influencing factor is a controlled light/dark cycle in which an organism experiences multiple periods of controlled ambient light followed by exposure to darkness." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000182 ! controlled exposure to ambient light
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-06-17T16:30:05Z
 
 [Term]
@@ -4286,7 +4279,7 @@ id: XCO:0000460
 name: subcutaneous interscapular air pouch
 def: "Induction and/or maintenance of a hollow cavity beneath the skin between the scapulae (the flat triangular bones at the top or back of the shoulder), by injection or other introduction of a specified volume of air. Experimental air pouches are often used to encapsulate foreign cells or other substances." [PMID:17277140, PMID:7019400, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 is_a: XCO:0000165 ! surgical manipulation
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-06-17T17:19:15Z
 
 [Term]
@@ -4297,7 +4290,7 @@ synonym: "food restriction" EXACT []
 synonym: "time-restricted feeding" NARROW []
 synonym: "TRF" NARROW []
 is_a: XCO:0000013 ! diet
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-06-23T16:24:46Z
 
 [Term]
@@ -4305,7 +4298,7 @@ id: XCO:0000462
 name: light phase of controlled light/dark cycle
 def: "The portion of a controlled light/dark cycle in which the subject is exposed to ambient light (that is, during which the room is lit). A controlled light/dark cycle is a recurring series of conditions in which an organism experiences successive periods of exposure to controlled ambient light followed by exposure to darkness, the lack of such light, which is in turn followed by exposure to controlled ambient light and so forth." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000459 ! controlled light/dark cycle
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-08-26T13:10:29Z
 
 [Term]
@@ -4313,7 +4306,7 @@ id: XCO:0000463
 name: dark phase of controlled light/dark cycle
 def: "This is any condition in which the main influencing factor is the part of a controlled light/dark cycle when the subject is not being exposed to ambient light (that is, during the dark phase of the cycle). A controlled light/dark cycle is a recurring series of conditions in which an organism experiences periods of controlled ambient light followed by periods of darkness." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: XCO:0000459 ! controlled light/dark cycle
-created_by: jsmith
+created_by: JSmith
 creation_date: 2014-08-26T13:12:48Z
 
 [Term]
@@ -4321,7 +4314,7 @@ id: XCO:0000464
 name: controlled ex vivo organ condition
 def: "Any experimental condition in which the internal or external environment of an organ, that is, a differentiated, structural part of a system of the body that performs a specific function, is experimentally manipulated or regulated, for example through perfusion, increased or decreased blood flow, etc. after removal from the body." [Farlex:Farlex_Partner_Medical_Dictionary_2012, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_a: XCO:0000000 ! experimental condition
-created_by: jsmith
+created_by: JSmith
 creation_date: 2015-01-13T12:48:26Z
 
 [Term]
@@ -4329,7 +4322,7 @@ id: XCO:0000465
 name: controlled ex vivo artery condition
 def: "Any experimental condition in which the internal or external environment of an artery, one of the large blood vessels carrying blood in a direction away from the heart to the tissues, is experimentally manipulated or regulated, for example through perfusion, increased or decreased blood flow, etc. after removal from the body." [Farlex:Farlex_Partner_Medical_Dictionary_2012, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 is_a: XCO:0000464 ! controlled ex vivo organ condition
-created_by: jsmith
+created_by: JSmith
 creation_date: 2015-01-13T12:59:22Z
 
 [Term]
@@ -4338,7 +4331,7 @@ name: controlled ex vivo artery perfusion pressure
 def: "A condition in which the pressure, or force per area, exerted by a perfusate against the walls of an artery after removal from the body but while the tissue is still viable, is regulated or maintained at a specified level." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, Farlex:Farlex_Partner_Medical_Dictionary_2012, ISBN:978-1416049982]
 synonym: "controlled ex vivo artery intraluminal  pressure" EXACT []
 is_a: XCO:0000465 ! controlled ex vivo artery condition
-created_by: jsmith
+created_by: JSmith
 creation_date: 2015-01-13T13:16:48Z
 
 [Term]
@@ -4347,7 +4340,7 @@ name: retinoid
 def: "Condition in which the main influencing factor is a retinoid, any of a group of compounds containing 20 carbon atoms and structurally related to retinal, retinol, and other substances, some of which exhibit vitamin A activity." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 xref: CHEBI:26537
 is_a: XCO:0000342 ! chemical with specified structure
-created_by: jsmith
+created_by: JSmith
 creation_date: 2015-03-06T18:09:40Z
 
 [Term]
@@ -4357,7 +4350,7 @@ def: "Condition in which the main influencing factor is vitamin A, a group of fa
 xref: CHEBI:12777
 is_a: XCO:0000377 ! vitamin
 is_a: XCO:0000467 ! retinoid
-created_by: jsmith
+created_by: JSmith
 creation_date: 2015-03-06T18:11:00Z
 
 [Term]
@@ -4370,7 +4363,7 @@ synonym: "Accutane" EXACT []
 synonym: "Roaccutane" RELATED []
 xref: CHEBI:6067
 is_a: XCO:0000467 ! retinoid
-created_by: jsmith
+created_by: JSmith
 creation_date: 2015-03-06T18:13:57Z
 
 [Term]
@@ -4379,7 +4372,7 @@ name: flavonoid
 def: "Condition in which the main influencing factor is a flavonoid, any of a class of plant secondary metabolites that have the general structure of a 15-carbon skeleton, which consists of two phenyl rings (A and B) and a heterocyclic ring (C)." [http://en.wikipedia.org/wiki/Flavonoid "Wikipedia"]
 synonym: "bioflavonoid" RELATED []
 is_a: XCO:0000341 ! chemical with specified function
-created_by: jsmith
+created_by: JSmith
 creation_date: 2015-03-06T18:16:29Z
 
 [Term]
@@ -4389,7 +4382,7 @@ def: "Condition in which the main influencing factor is quercetin, a pentahydrox
 synonym: "meletin" RELATED []
 xref: CHEBI:16243
 is_a: XCO:0000470 ! flavonoid
-created_by: jsmith
+created_by: JSmith
 creation_date: 2015-03-06T18:17:55Z
 
 [Term]
@@ -4399,7 +4392,7 @@ def: "Condition in which the main influencing factor is chrysin, a dihydroxyflav
 synonym: "5,7-dihydroxyflavone" RELATED []
 xref: CHEBI:75095
 is_a: XCO:0000470 ! flavonoid
-created_by: jsmith
+created_by: JSmith
 creation_date: 2015-03-06T18:19:02Z
 
 [Term]
@@ -4408,7 +4401,7 @@ name: naringenin
 def: "Condition in which the main influencing factor is naringenin, a trihydroxyflavanone that is flavanone substituted by hydroxy groups at positions 5, 6 and 4'.  Naringenin is the predominant flavanone in grapefruit and has demonstrated inhibitory activity against the CYP1A2 cytochrome P450 isoform." [http://en.wikipedia.org/wiki/Naringenin "Wikipedia"]
 xref: CHEBI:50202
 is_a: XCO:0000470 ! flavonoid
-created_by: jsmith
+created_by: JSmith
 creation_date: 2015-03-06T18:20:06Z
 
 [Term]
@@ -4422,7 +4415,7 @@ synonym: "sodium alendronate" EXACT []
 xref: CHEBI:2567
 xref: CHEBI:50647
 is_a: XCO:0000120 ! inhibitor
-created_by: jsmith
+created_by: JSmith
 creation_date: 2015-03-06T18:29:05Z
 
 [Term]
@@ -4432,7 +4425,7 @@ def: "Any condition in which the primary influencing agent is a bacterial pathog
 synonym: "pathogenic bacteria" RELATED []
 is_a: XCO:0000236 ! pathogen
 is_a: XCO:0001212 ! bacteria
-created_by: jsmith
+created_by: JSmith
 creation_date: 2015-04-29T14:14:39Z
 
 [Term]
@@ -4441,7 +4434,7 @@ name: Streptococcus pneumoniae
 def: "A condition in which the primary influencing factor is Streptococcus pneumoniae, a species of Gram-positive, alpha-hemolytic, facultative anaerobic bacteria commonly found in the nasopharynx of healthy human carriers." [http://en.wikipedia.org/wiki/Streptococcus_pneumoniae "Wikipedia"]
 xref: NCBITaxon:1313
 is_a: XCO:0000475 ! bacterial pathogen
-created_by: jsmith
+created_by: JSmith
 creation_date: 2015-04-30T13:35:44Z
 
 [Term]
@@ -4452,7 +4445,7 @@ synonym: "Streptococcus pneumoniae serotype 2, strain D39" EXACT []
 synonym: "Streptococcus pneumoniae strain D39" EXACT []
 xref: NCBITaxon:373153
 is_a: XCO:0000476 ! Streptococcus pneumoniae
-created_by: jsmith
+created_by: JSmith
 creation_date: 2015-04-30T13:36:39Z
 
 [Term]
@@ -4462,7 +4455,7 @@ def: "This is any condition in which the main influencing factor is Streptococcu
 synonym: "Streptococcus pneumoniae strain TIGR4" EXACT []
 xref: NCBITaxon:170187
 is_a: XCO:0000476 ! Streptococcus pneumoniae
-created_by: jsmith
+created_by: JSmith
 creation_date: 2015-04-30T13:38:57Z
 
 [Term]
@@ -4471,7 +4464,7 @@ name: Haemophilus influenzae
 def: "A condition in which the primary influencing factor is Haemophilus influenzae, a Gram-negative, coccobacillary, facultatively anaerobic bacterium which is considered an opportunistic pathogen, i.e. one that can colonize a host without causing disease unless there are extenuating circumstances which result in susceptibility on the part of the host." [http://en.wikipedia.org/wiki/Haemophilus_influenzae "Wikipedia"]
 xref: NCBITaxon:727
 is_a: XCO:0000743 ! Haemophilus
-created_by: jsmith
+created_by: JSmith
 creation_date: 2015-04-30T13:41:32Z
 
 [Term]
@@ -4480,7 +4473,7 @@ name: nontypeable Haemophilus influenzae
 def: "A condition in which the primary influencing factor is one or more nontypeable strain(s) of Haemophilus influenzae (NTHi). NTHi refers to any unencapsulated strain of the Gram-negative, coccobacillary, facultatively anaerobic bacterium species Haemophilus influenza. Such bacteria lack the capsular antigens used to serotype strains and therefore cannot be classified by serology. NTHi strains are the important pathogens in chronic and recurrent otitis media in children." [http://en.wikipedia.org/wiki/Haemophilus_influenzae "Wikipedia", PMID:15968074]
 synonym: "NTHi" RELATED []
 is_a: XCO:0000479 ! Haemophilus influenzae
-created_by: jsmith
+created_by: JSmith
 creation_date: 2015-04-30T13:42:32Z
 
 [Term]
@@ -4492,7 +4485,7 @@ synonym: "Haemophilus influenzae strain 86-028NP" EXACT []
 synonym: "NTHi 86-028NP" RELATED []
 xref: NCBITaxon:281310
 is_a: XCO:0000480 ! nontypeable Haemophilus influenzae
-created_by: jsmith
+created_by: JSmith
 creation_date: 2015-04-30T13:48:27Z
 
 [Term]
@@ -4503,7 +4496,7 @@ synonym: "antibiotic" RELATED []
 xref: CHEBI:33281
 is_a: XCO:0000341 ! chemical with specified function
 is_a: XCO:0000850 ! therapeutic agent
-created_by: jsmith
+created_by: JSmith
 creation_date: 2015-04-30T14:25:42Z
 
 [Term]
@@ -4512,7 +4505,7 @@ name: antibacterial agent
 def: "This is any condition in which the main influencing factor is an antibacterial agent, a substance that kills or slows the growth of bacteria, unicellular prokaryotic microorganisms that commonly multiply by cell division, lack a nucleus or membrane-bound organelles, and generally have a cell wall." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 xref: CHEBI:33282
 is_a: XCO:0000482 ! antimicrobial agent
-created_by: jsmith
+created_by: JSmith
 creation_date: 2015-04-30T14:31:11Z
 
 [Term]
@@ -4521,7 +4514,7 @@ name: ceftriaxone
 def: "This is any condition in which the main influencing factor is ceftriaxone, a third-generation cephalosporin antibacterial agent with broad-spectrum activity against both Gram-positive and Gram-negative bacteria." [http://en.wikipedia.org/wiki/Ceftriaxone "Wikipedia"]
 xref: CHEBI:29007
 is_a: XCO:0000483 ! antibacterial agent
-created_by: jsmith
+created_by: JSmith
 creation_date: 2015-04-30T14:44:33Z
 
 [Term]
@@ -4533,7 +4526,7 @@ synonym: "Haemophilus influenzae mutant strain 86-028NP-H2" EXACT []
 synonym: "NTHi 86-028NP H2 mutant" RELATED []
 xref: NCBITaxon:281310
 is_a: XCO:0000481 ! Haemophilus influenzae 86-028NP
-created_by: jsmith
+created_by: JSmith
 creation_date: 2015-05-14T17:54:23Z
 
 [Term]
@@ -4545,7 +4538,7 @@ synonym: "Haemophilus influenzae mutant strain 86-028NP-C5" EXACT []
 synonym: "NTHi 86-028NP C5 mutant" RELATED []
 xref: NCBITaxon:281310
 is_a: XCO:0000481 ! Haemophilus influenzae 86-028NP
-created_by: jsmith
+created_by: JSmith
 creation_date: 2015-05-14T17:58:28Z
 
 [Term]
@@ -4556,7 +4549,7 @@ synonym: "Streptococcus pneumoniae mutant strain TIGR4luxS" EXACT []
 synonym: "TIGR4luxS" RELATED []
 xref: NCBITaxon:170187
 is_a: XCO:0000478 ! Streptococcus pneumoniae TIGR4
-created_by: jsmith
+created_by: JSmith
 creation_date: 2015-05-14T17:59:26Z
 
 [Term]
@@ -19822,8 +19815,6 @@ id: XCO:0001797
 name: uterine curettage
 def: "This is any condition in which the main influencing factor is uterine curettage, the surgical scraping of the lining of the uterus performed using a curette, a scoop- or hoe-shaped instrument that may be blunt or sharp." [https://www.britannica.com/science/curettage]
 synonym: "endometrial curettage" EXACT []
-xref: GEO:GSE289981
-xref: PMID:40548465
 is_a: XCO:0000165 ! surgical manipulation
 created_by: caripark
 creation_date: 2026-04-17T08:52:03Z
@@ -19832,8 +19823,6 @@ creation_date: 2026-04-17T08:52:03Z
 id: XCO:0001798
 name: gelatin hydrogel scaffold implantation
 def: "This is any condition in which the main influencing factor is implantation of a hydrogel scaffold in which gelatin is used as the cross-linked polymer. Gelatin hydrogels have a wide range of applications, including tissue engineering and drug delivery." [PMID:_40548465, PMID: 36850309]
-xref: GEO:GSE289981
-xref: PMID:40548465
 is_a: XCO:0001409 ! tissue engineering scaffold implantation
 created_by: caripark
 creation_date: 2026-04-17T08:55:17Z
@@ -19843,8 +19832,6 @@ id: XCO:0001799
 name: human menstrual blood-derived mesenchymal stem cell gelatin hydrogel implantation
 def: "This is any condition in which the main influencing factor is implantation of a hydrogel implanted with human menstrual blood-derived mesenchymal stem cells in the form of single cells." [PMID:_40548465]
 synonym: "human MenSC gelatin hydrogel implantation" EXACT []
-xref: GEO:GSE289981
-xref: PMID:40548465
 is_a: XCO:0001798 ! gelatin hydrogel scaffold implantation
 created_by: caripark
 creation_date: 2026-04-17T08:59:01Z
@@ -19854,8 +19841,6 @@ id: XCO:0001800
 name: human menstrual blood-derived mesenchymal stem cell spheroids gelatin hydrogel implantation
 def: "This is any condition in which the main influencing factor is implantation of a hydrogel implanted with human menstrual blood-derived mesenchymal stem cells in the form of cell spheres." [PMID:_40548465]
 synonym: "human MenSC spheroid gelatin hydrogel implantation" EXACT []
-xref: GEO:GSE289981
-xref: PMID:40548465
 is_a: XCO:0001799 ! human menstrual blood-derived mesenchymal stem cell gelatin hydrogel implantation
 created_by: caripark
 creation_date: 2026-04-17T09:06:36Z
@@ -19870,9 +19855,6 @@ synonym: "non-equilibrium plasma" EXACT []
 synonym: "nonequilibrium plasma" EXACT []
 synonym: "non-thermal plasma" EXACT []
 synonym: "Renuvion cold plasma" NARROW []
-xref: GEO:GSE281473
-xref: PMID:32331263
-xref: PMID:41551822
 is_a: XCO:0000271 ! antioxidant
 is_a: XCO:0000482 ! antimicrobial agent
 is_a: XCO:0000850 ! therapeutic agent
@@ -19883,8 +19865,6 @@ creation_date: 2026-04-17T09:10:56Z
 id: XCO:0001802
 name: transfer of GalNAc-conjugated ChREBP siRNA
 def: "This is any condition in which the main influencing factor is transfer of ChREBP (carbohydrate-responsive element-binding protein) siRNA conjugated to N-acetylgalactosamine (GalNAc), which allows directed delivery of siRNA to the liver by targeting the asialoglycoprotein receptor." [https://www.genelink.com/newsite/products/MODPDFFILES/26-6735.pdf, PMID:_39921857]
-xref: GEO:GSE282614
-xref: PMID:39921857
 is_a: XCO:0000233 ! ribonucleic acid
 created_by: caripark
 creation_date: 2026-04-17T09:21:11Z
@@ -19893,8 +19873,6 @@ creation_date: 2026-04-17T09:21:11Z
 id: XCO:0001803
 name: transfer of negative control GalNAc-conjugated siRNA
 def: "This is any condition in which the main influencing factor is negative control siRNA conjugated to N-acetylgalactosamine, which allows directed delivery of siRNA to the liver by targeting the asialoglycoprotein receptor. Negative control siRNA is an siRNA with no significant sequence similarity to eukaryotic gene sequences." [https://www.genelink.com/newsite/products/MODPDFFILES/26-6735.pdf, PMID:_39921857]
-xref: GEO:GSE282614
-xref: PMID:39921857
 is_a: XCO:0001510 ! transfer of negative control siRNA
 created_by: caripark
 creation_date: 2026-04-17T09:24:31Z
@@ -19905,8 +19883,6 @@ name: human plasma-derived mitochondria
 def: "This is any condition in which the main influencing factor is mitochondria derived from human plasma. Mitochondria are semiautonomous, self-reproducing organelles that occur in the cytoplasm of all cells of most eukaryotes. They are the sites of the reactions of oxidative phosphorylation, which result in the formation of ATP." [MESH:D008928, PMID:_40979828]
 synonym: "human plasma-derived mitochondria" EXACT []
 synonym: "human pMT" EXACT []
-xref: GEO:GSE267096
-xref: PMID:40979828
 is_a: XCO:0000761 ! biologics and probiotics
 created_by: caripark
 creation_date: 2026-04-17T10:13:20Z
@@ -19918,7 +19894,6 @@ def: "This is any condition in which the main influencing factor is wild-type hu
 synonym: "transfer of human histone variant H3.3A using a lentivirus vector" EXACT []
 synonym: "transfer of human histone variant H3.3 using a lentivirus vector" BROAD []
 synonym: "transfer of human histone variant H3-3A using a lentiviral vector" EXACT []
-xref: GEO:GSE124055
 xref: PMID:32273471
 is_a: XCO:0000982 ! gene transfer using a lentivirus vector
 created_by: caripark
@@ -19931,7 +19906,6 @@ def: "This is any condition in which the main influencing factor is human histon
 synonym: "transfer of human histone variant H3.3Q5A using a lentiviral vector" EXACT []
 synonym: "transfer of human histone variant H3.3Q5A using a lentivirus vector" EXACT []
 synonym: "transfer of human histone variant H3-3Q5A using a lentiviral vector" EXACT []
-xref: GEO:GSE124055
 xref: PMID:32273471
 is_a: XCO:0000982 ! gene transfer using a lentivirus vector
 created_by: caripark
@@ -19942,8 +19916,6 @@ id: XCO:0001807
 name: MgPA hydrogel implantation
 def: "This is any condition in which the main influencing factor is implantation of MgPA hydrogel, a plant-derived phosphate coordination compound-based adhesive hydrogel that integrates magnesium ions (Mg2+)−phytic acid (PA) nanoparticles with aminated gelatin (Gel-NH2) and aldehydated starch (AS). This hydrogel can firmly adhere to irregular bone surfaces at a fracture site and degrades in the acidic osteoporotic microenvironment, releasing PA and Mg2+ to modulate osteoclast and osteoblast activity." [PMID:_40928479]
 synonym: "MgPA-Gel implantation" EXACT []
-xref: GEO:GSE284509
-xref: PMID:40928479
 is_a: XCO:0001439 ! bone tissue engineering scaffold implantation
 created_by: caripark
 creation_date: 2026-04-21T10:26:16Z
@@ -19954,7 +19926,6 @@ name: facial nerve compression
 def: "This is any condition in which the main influencing factor is compression of the facial nerve induced by an experimental surgical procedure involving clamping of the nerve using forceps." [PMID:40394959]
 synonym: "CN-VII compression" EXACT []
 synonym: "seventh cranial nerve compression" EXACT []
-xref: GEO:GSE312682
 xref: PMID:40394959
 is_a: XCO:0001814 ! experimental nerve injury
 created_by: caripark
@@ -19966,7 +19937,6 @@ name: GQ-16
 def: "This is any condition in which the main influencing factor is GQ-16, a PPARgamma partial agonist that inhibits Cdk5-mediated Ser-273 phosphorylation. GQ-16 improves insulin sensitivity and glucose tolerance in obese and diabetic mice and exhibits cytotoxicity against tumor cells." [https://www.medchemexpress.com/gq-16.html]
 synonym: "(Z)-5-(5-bromo-2-methoxybenzylidene)-3-(4-methylbenzyl)thiazolidine-2,4-dione" EXACT []
 xref: CID:11509958
-xref: GEO:GSE179945
 xref: PMID:35310946
 is_a: XCO:0000135 ! receptor agonist
 created_by: caripark
@@ -19977,7 +19947,6 @@ id: XCO:0001810
 name: Chlorella-derived hydrogel implantation
 def: "This is any condition in which the main influencing factor is implantation of Chlorella-derived hydrogel, a microalgae-based biomaterial that is able to photosynthetically generate oxygen in response to light, allowing for controlled oxygen delivery to hypoxic microenvironments in injury or disease." [PMID:40394959]
 synonym: "C-Gel implantation" EXACT []
-xref: GEO:GSE312682
 xref: PMID:40394959
 is_a: XCO:0001409 ! tissue engineering scaffold implantation
 created_by: caripark
@@ -19988,8 +19957,6 @@ id: XCO:0001811
 name: choline‐deficient L‐amino acid‐defined diet
 def: "This is any condition in which the main influencing factor is a choline‐defficient, L-amino acid‐defined (CDAA) diet, a choline-deficient diet in which proteins are replaced with an equivalent and corresponding mixture of L-amino acids. A CDAA diet is often used in studies investigating the effects of choline deficiency on liver health, particularly in models of non-alcoholic fatty liver disease (NAFLD) or hepatocellular carcinoma." [PMID:26626909, PMID: 40888265]
 synonym: "CDAA diet" EXACT []
-xref: GEO:GSE199443
-xref: GEO:GSE300260
 xref: PMID:35502615
 xref: PMID:40888265
 is_a: XCO:0000014 ! controlled content diet
@@ -20000,7 +19967,6 @@ creation_date: 2026-04-21T11:06:07Z
 id: XCO:0001812
 name: controlled pterostilbene content, CDAA diet
 def: "This is any condition in which the main influencing factor is a choline‐deficient, amino acid‐defined (CDAA) diet with controlled pterostilbene content." [PMID:40888265]
-xref: GEO:GSE300260
 xref: PMID:40888265
 is_a: XCO:0000014 ! controlled content diet
 created_by: caripark
@@ -20012,7 +19978,6 @@ name: dihydrotachysterol
 def: "This is any condition in which the main influencing factor is dihydrotachysterol, a synthetic analog of vitamin D that acts as a bone density conservation agent." [CHEBI:4591, CID:5311071]
 synonym: "(3S,5E,7E,10S,22E)-9,10-secoergosta-5,7,22-trien-3-ol" EXACT []
 xref: CHEBI:4591
-xref: GEO:GSE301731
 xref: PMID:41031886
 is_a: XCO:0000091 ! steroid
 is_a: XCO:0000546 ! vitamin analog
@@ -20034,7 +19999,6 @@ name: anti-interleukin-17A antibody
 def: "This is any condition in which the main influencing factor is an immunoglobulin molecule or a preparation of multiple antibody molecules having specific amino acid sequences with the ability to adhere to and interact specifically with intterleukin-17A, a pro-inflammatory cytokine produced by activated T cells." [https://en.wikipedia.org/wiki/Interleukin-17A, PMID:41031886]
 synonym: "17F3 monoclonal antibody" NARROW []
 synonym: "anti-IL-17A monoclonal antibody" EXACT []
-xref: GEO:GSE301731
 xref: PMID:41031886
 is_a: XCO:0000194 ! antibody
 created_by: caripark
@@ -20046,7 +20010,6 @@ name: interleukin-1 receptor antagonist
 def: "This is any condition in which the main influencing factor is an interleukin-1 receptor antagonist, an agent that blocks interleukin-1 receptors." [PMID:_41039100]
 synonym: "IL-1 receptor antagonist" EXACT []
 synonym: "Kineret" NARROW []
-xref: GEO:GSE295589
 xref: PMID:41039100
 is_a: XCO:0000160 ! receptor antagonist
 created_by: caripark
@@ -20057,7 +20020,6 @@ id: XCO:0001817
 name: 4% O2, 20% CO2, 76%N2
 def: "This is any condition in which the main influencing factor is the level of carbon dioxide (20%), oxygen (4%), and nitrogen (76%) in the air surrounding the organism or breathed by the organism as part of the experiment." [PMID:41039100]
 synonym: "4% O2 and 20% CO2 in N2" EXACT []
-xref: GEO:GSE295589
 xref: PMID:41039100
 is_a: XCO:0000010 ! controlled air oxygen content
 created_by: caripark
@@ -20088,7 +20050,6 @@ id: XCO:0001820
 name: Rnf20-gRNA transfer using a plasmid vector
 def: "This is any condition in which the main influencing factor is plasmid transfer of Rnf20-gRNA targeting the promoter of the Rnf20 gene, a ubiquitin E3 ligase for histone H2B. gRNA (guide RNA) is a short synthetic RNA, used in CRISPR gene manipulation, composed of a scaffold sequence necessary for Cas enzyme binding and a short nucleotide spacer that specifies the genomic target to be modified." [https://www.addgene.org/guides/crispr/, PMID:40194842]
 synonym: "gRNA plasmid transfer targeting Rnf20 promoter" EXACT []
-xref: GEO:GSE284407
 xref: PMID:40194842
 is_a: XCO:0001819 ! DNA transfer using a plasmid vector
 created_by: caripark
@@ -20098,24 +20059,10 @@ creation_date: 2026-04-24T09:43:57Z
 id: XCO:0001821
 name: transfer of dCas9-VPR using a plasmid vector
 def: "This is any condition in which the main influencing factor is transfer of dCas9-VPR DNA via a plasmid vector. dCas9-VPR is a transcriptional activator encoding the catalytically inactive “dead” CRISPR-associated endonuclease Cas9 (dCas9) fused to several different activation domains (VP64-p65-Rta) in series. When delivered to cells or organisms with guide RNA specifying a genomic target, it activates transcription of the targeted gene." [https://www.addgene.org/guides/crispr/, PMID:40194842]
-xref: GEO:GSE284407
 xref: PMID:40194842
 is_a: XCO:0001819 ! DNA transfer using a plasmid vector
 created_by: caripark
 creation_date: 2026-04-24T09:50:37Z
-
-[Term]
-id: XCO:0001822
-name: BG-11 medium hydrogel implantation
-def: "This is any condition in which the main influencing factor is BG-11 medium hydrogel, a cross-linked polymer chain structure containing growth medium used to culture cyanobacteria (blue-green algae) strains of freshwater, soil, or thermal origin. BG-11 medium typically contains nitrogen, phosphate, and trace metals, although strains capable of aerobic nitrogen fixation are maintained in a version lacking nitrogen." [https://web.archive.org/web/20130512233529id_/http\://mic.sgmjournals.org\:80/content/111/1/1.full.pdf, PMID:40394959]
-synonym: "BG11 medium hydrogel implantation" EXACT []
-synonym: "Blue-green medium hydrogel implantation" EXACT []
-synonym: "Cyanobacteria BG-11 medium hydrogel implantation" EXACT []
-xref: GEO:GSE312682
-xref: PMID:40394959
-is_a: XCO:0001409 ! tissue engineering scaffold implantation
-created_by: caripark
-creation_date: 2026-05-04T11:06:36Z
 
 [Typedef]
 id: has_component
