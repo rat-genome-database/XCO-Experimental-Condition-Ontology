@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: releases/2026-05-30
-date: 30:05:2026 20:13
+data-version: releases/2026-05-16
+date: 16:05:2026 20:13
 saved-by: jrsmith
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-05-12 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-05-05 --
 default-namespace: experimental_condition_ontology
 ontology: xco
 property_value: dc:creator "Carissa A. Park" xsd:string
@@ -10,7 +10,7 @@ property_value: dc:creator "Jennifer R. Smith" xsd:string
 property_value: dc:creator "Mary Shimoyama" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-05-30" xsd:string
+property_value: owl:versionInfo "2026-05-16" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -1510,7 +1510,6 @@ name: non-ionizing ultraviolet radiation exposure
 def: "The condition of being subjected to electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components, with wavelengths between 120 and 400 nm. Radiation (i.e. ultraviolet light) at this wavelength does not have sufficient energy to liberate electrons from atoms or molecules although it can induce photochemical reactions, or accelerate radical reactions." [http://en.wikipedia.org/wiki/Electromagnetic_Radiation "Wikipedia", http://en.wikipedia.org/wiki/Ultraviolet "Wikipedia"]
 synonym: "near ultraviolet radiation exposure" NARROW []
 synonym: "non-ionizing UV radiation exposure" EXACT []
-synonym: "ultraviolet B radiation exposure" NARROW []
 is_a: XCO:0000042 ! ultraviolet ray exposure
 is_a: XCO:0000044 ! non-ionizing radiation exposure
 created_by: jsmith
@@ -11526,8 +11525,8 @@ id: XCO:0001122
 name: antianxiety agent
 def: "This is any condition in which the main influencing factor is an anti-anxiety agent, a medication or other intervention that reduces anxiety. Anxiolytic medications are used for the treatment of anxiety disorders and their related psychological and physical symptoms." [https://en.wikipedia.org/wiki/Anxiolytic, https://www.merriam-webster.com/]
 synonym: "anti-anxiety agent" EXACT []
-synonym: "antianxiety drug" EXACT []
 synonym: "anti-anxiety drug" EXACT []
+synonym: "antianxiety drug" EXACT []
 synonym: "antipanic agent" EXACT []
 synonym: "anxiolytic" EXACT []
 synonym: "anxiolytic medication" EXACT []
@@ -20212,33 +20211,6 @@ is_a: XCO:0000435 ! antineoplastic agent
 is_a: XCO:0000523 ! enzyme inhibitor
 created_by: caripark
 creation_date: 2026-05-14T07:27:16Z
-
-[Term]
-id: XCO:0001831
-name: tetrodotoxin
-def: "This is any condition in which the main influencing factor is tetrodotoxin, a toxin found mainly in the liver and ovaries of fishes in the order tetraodontiformes. It causes paresthesia and paralysis through interference with neuromuscular conduction." [CID:11174599]
-synonym: "Fugu toxin" EXACT []
-xref: CHEBI:9506
-xref: CID:11174599
-xref: GEO:GSE310849
-xref: MESH:D013779
-xref: PMID:41736525
-is_a: XCO:0000496 ! neurotoxin
-is_a: XCO:0000618 ! sodium channel inhibitor
-created_by: caripark
-creation_date: 2026-05-29T08:12:17Z
-
-[Term]
-id: XCO:0001832
-name: hippocampal stimulation via implanted electrode array
-def: "This is any condition in which the main influencing factor is the alteration of nerve activity through targeted delivery of an electrical stimulus directly to a specific area of the hippocampus. This is done with implanted electrode(s)." [PMID:41530481]
-synonym: "kindling protocol" BROAD []
-xref: GEO:GSE287823
-xref: PMID:41530481
-is_a: XCO:0000027 ! surgical implantation
-is_a: XCO:0000520 ! neuromodulation
-created_by: caripark
-creation_date: 2026-05-29T09:01:19Z
 
 [Typedef]
 id: has_component

@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: releases/2026-05-30
-date: 30:05:2026 20:13
+data-version: releases/2026-05-06
+date: 06:05:2026 11:27
 saved-by: jrsmith
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-05-12 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-05-05 --
 default-namespace: experimental_condition_ontology
 ontology: xco
 property_value: dc:creator "Carissa A. Park" xsd:string
@@ -10,7 +10,7 @@ property_value: dc:creator "Jennifer R. Smith" xsd:string
 property_value: dc:creator "Mary Shimoyama" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-05-30" xsd:string
+property_value: owl:versionInfo "2026-05-06" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -1510,7 +1510,6 @@ name: non-ionizing ultraviolet radiation exposure
 def: "The condition of being subjected to electromagnetic radiation, that is, energy emitted and absorbed by charged particles, which exhibits wave-like behavior as it travels and has both electric and magnetic field components, with wavelengths between 120 and 400 nm. Radiation (i.e. ultraviolet light) at this wavelength does not have sufficient energy to liberate electrons from atoms or molecules although it can induce photochemical reactions, or accelerate radical reactions." [http://en.wikipedia.org/wiki/Electromagnetic_Radiation "Wikipedia", http://en.wikipedia.org/wiki/Ultraviolet "Wikipedia"]
 synonym: "near ultraviolet radiation exposure" NARROW []
 synonym: "non-ionizing UV radiation exposure" EXACT []
-synonym: "ultraviolet B radiation exposure" NARROW []
 is_a: XCO:0000042 ! ultraviolet ray exposure
 is_a: XCO:0000044 ! non-ionizing radiation exposure
 created_by: jsmith
@@ -11526,8 +11525,8 @@ id: XCO:0001122
 name: antianxiety agent
 def: "This is any condition in which the main influencing factor is an anti-anxiety agent, a medication or other intervention that reduces anxiety. Anxiolytic medications are used for the treatment of anxiety disorders and their related psychological and physical symptoms." [https://en.wikipedia.org/wiki/Anxiolytic, https://www.merriam-webster.com/]
 synonym: "anti-anxiety agent" EXACT []
-synonym: "antianxiety drug" EXACT []
 synonym: "anti-anxiety drug" EXACT []
+synonym: "antianxiety drug" EXACT []
 synonym: "antipanic agent" EXACT []
 synonym: "anxiolytic" EXACT []
 synonym: "anxiolytic medication" EXACT []
@@ -16367,7 +16366,7 @@ creation_date: 2025-01-06T13:36:01Z
 [Term]
 id: XCO:0001532
 name: Masquelet surgery
-def: "This is any condition in which the main influencing factor is use of the Masquelet surgical technique, a surgical procedure used to reconstruct bone defects, particularly those that are large or infected. This technique involves placement of a polymethyl methacrylate (PMMA) cement spacer in a bone defect to allow growth of a vascularized membrane that promotes bone regeneration. A second stage in the method involves removing the spacer after membrane growth and replacing it with bone graft." [PMID:21543068]
+def: "This is any condition in which the main influencing factor is use of the Masquelet surgical technique, a surgical procedure used to reconstruct bone defects, particularly those that are large or infected. This technique involves placement of a polymethyl methacrylate (PMMA) cement spacer in a bone defect to allow growth of a vascularized membrane that promotes bone regeneration. A second stage in the method involves removing the spacer after membrane growth and replacing it with bone graft." [PMID:_21543068]
 synonym: "Masquelet induced-membrane technique" EXACT []
 synonym: "Masquelet technique" EXACT []
 synonym: "Masquelet treatment" EXACT []
@@ -16399,7 +16398,7 @@ creation_date: 2025-02-04T14:44:35Z
 [Term]
 id: XCO:0001535
 name: PEG-fusion protocol
-def: "This is any condition in which the main influencing factor is the PEG-fusion protocol, a peripheral nerve allograft procedure involving sequential administration of four pharmaceutical agents and neurorrhaphy (microsutures through the epi- or perineurium)." [PMID:33008419]
+def: "This is any condition in which the main influencing factor is the PEG-fusion protocol, a peripheral nerve allograft procedure involving sequential administration of four pharmaceutical agents and neurorrhaphy (microsutures through the epi- or perineurium)." [PMID:_33008419]
 synonym: "PEG-fusion" EXACT []
 synonym: "PEG-fusion allograft protocol" EXACT []
 xref: PMID:30586569
@@ -16930,7 +16929,7 @@ creation_date: 2025-04-03T17:48:26Z
 [Term]
 id: XCO:0001576
 name: gene transfer of the human A53T α-synuclein gene using an AAV1/2 hybrid virus vector
-def: "This is any condition in which the main influencing factor is gene transfer of the human A53T α-synuclein gene using an AAV1/2 hybrid virus vector. A53T α-synuclein is a mutant form of the human synuclein alpha (SNCA) gene." [https://www.bio-techne.com/resources/blogs/how-adenovirus-and-adeno-associated-virus-work-as-gene-therapy-vectors, PMID:28143577]
+def: "This is any condition in which the main influencing factor is gene transfer of the human A53T α-synuclein gene using an AAV1/2 hybrid virus vector. A53T α-synuclein is a mutant form of the human synuclein alpha (SNCA) gene." [https://www.bio-techne.com/resources/blogs/how-adenovirus-and-adeno-associated-virus-work-as-gene-therapy-vectors, PMID:_28143577]
 synonym: "gene transduction of the human A53T α-synuclein gene using an AAV1/2 hybrid virus vector" EXACT []
 synonym: "gene transfer of the human A53T SNCA gene using an AAV1/2 hybrid virus vector" EXACT []
 xref: PMID:39481497
@@ -17470,7 +17469,7 @@ creation_date: 2025-05-09T17:22:30Z
 [Term]
 id: XCO:0001620
 name: Yuanhu Zhitong Prescription
-def: "This is any condition in which the main influencing factor is Yuanhu Zhitong Prescription, a traditional Chinese medicine (TCM) formula used for pain relief. The main ingredients of Yuanhu Zhitong Prescription are Radix angelicae dahuricae (white angelica root) and Rhizoma corydalis (gold thread rhizome)." [PMID:23762151]
+def: "This is any condition in which the main influencing factor is Yuanhu Zhitong Prescription, a traditional Chinese medicine (TCM) formula used for pain relief. The main ingredients of Yuanhu Zhitong Prescription are Radix angelicae dahuricae (white angelica root) and Rhizoma corydalis (gold thread rhizome)." [PMID:_23762151]
 synonym: "YHP" EXACT []
 synonym: "Yuan Hu Zhi tong" EXACT []
 synonym: "Yuanhuzhitong preparation" EXACT []
@@ -17484,7 +17483,7 @@ creation_date: 2025-05-13T16:03:29Z
 [Term]
 id: XCO:0001621
 name: Corydalis yanhusuo
-def: "This is any condition in which the main influencing factor is Corydalis yanhusuo, a plant species in the genus Corydalis. The tuber of Corydalis yanhusuo, frequently mislabeled as the root, is an important therapeutic agent for pain relief in traditional Chinese medicine (TCM)." [https://en.wikipedia.org/wiki/Corydalis_yanhusuo, PMID:34946576]
+def: "This is any condition in which the main influencing factor is Corydalis yanhusuo, a plant species in the genus Corydalis. The tuber of Corydalis yanhusuo, frequently mislabeled as the root, is an important therapeutic agent for pain relief in traditional Chinese medicine (TCM)." [https://en.wikipedia.org/wiki/Corydalis_yanhusuo, PMID:_34946576]
 synonym: "Asian corydalis" EXACT []
 synonym: "corydalis" EXACT []
 synonym: "Corydalis yanhusuo extract" EXACT []
@@ -19199,7 +19198,7 @@ creation_date: 2025-10-27T09:32:21Z
 [Term]
 id: XCO:0001746
 name: CpG-ODN adjuvant
-def: "This is any condition in which the main influencing factor is an CpG-CpG oligodeoxynucleotide (ODN) adjuvant. CpG-ODN are short synthetic DNA molecules that mimic microbial DNA by activating Toll-like Receptor 9 (TLR9) and, when paired with a vaccine antigen, lead to increased production of antibodies and enhanced cellular immunity." [PMID:29156818]
+def: "This is any condition in which the main influencing factor is an CpG-CpG oligodeoxynucleotide (ODN) adjuvant. CpG-ODN are short synthetic DNA molecules that mimic microbial DNA by activating Toll-like Receptor 9 (TLR9) and, when paired with a vaccine antigen, lead to increased production of antibodies and enhanced cellular immunity." [PMID:_29156818]
 synonym: "cytosine-phosphate-guanine ODN adjuvant" EXACT []
 synonym: "cytosine-phosphate-guanine oligodeoxynucleotide adjuvant" EXACT []
 synonym: "Cytosine-phosphorothioate-guanine oligodeoxynucleotide adjuvant" EXACT []
@@ -19832,7 +19831,7 @@ creation_date: 2026-04-17T08:52:03Z
 [Term]
 id: XCO:0001798
 name: gelatin hydrogel scaffold implantation
-def: "This is any condition in which the main influencing factor is implantation of a hydrogel scaffold in which gelatin is used as the cross-linked polymer. Gelatin hydrogels have a wide range of applications, including tissue engineering and drug delivery." [PMID:40548465, PMID: 36850309]
+def: "This is any condition in which the main influencing factor is implantation of a hydrogel scaffold in which gelatin is used as the cross-linked polymer. Gelatin hydrogels have a wide range of applications, including tissue engineering and drug delivery." [PMID:_40548465, PMID: 36850309]
 xref: GEO:GSE289981
 xref: PMID:40548465
 is_a: XCO:0001409 ! tissue engineering scaffold implantation
@@ -19842,7 +19841,7 @@ creation_date: 2026-04-17T08:55:17Z
 [Term]
 id: XCO:0001799
 name: human menstrual blood-derived mesenchymal stem cell gelatin hydrogel implantation
-def: "This is any condition in which the main influencing factor is implantation of a hydrogel implanted with human menstrual blood-derived mesenchymal stem cells in the form of single cells." [PMID:40548465]
+def: "This is any condition in which the main influencing factor is implantation of a hydrogel implanted with human menstrual blood-derived mesenchymal stem cells in the form of single cells." [PMID:_40548465]
 synonym: "human MenSC gelatin hydrogel implantation" EXACT []
 xref: GEO:GSE289981
 xref: PMID:40548465
@@ -19853,7 +19852,7 @@ creation_date: 2026-04-17T08:59:01Z
 [Term]
 id: XCO:0001800
 name: human menstrual blood-derived mesenchymal stem cell spheroids gelatin hydrogel implantation
-def: "This is any condition in which the main influencing factor is implantation of a hydrogel implanted with human menstrual blood-derived mesenchymal stem cells in the form of cell spheres." [PMID:40548465]
+def: "This is any condition in which the main influencing factor is implantation of a hydrogel implanted with human menstrual blood-derived mesenchymal stem cells in the form of cell spheres." [PMID:_40548465]
 synonym: "human MenSC spheroid gelatin hydrogel implantation" EXACT []
 xref: GEO:GSE289981
 xref: PMID:40548465
@@ -19864,7 +19863,7 @@ creation_date: 2026-04-17T09:06:36Z
 [Term]
 id: XCO:0001801
 name: cold atmospheric plasma
-def: "This is any condition in which the main influencing factor is cold atmospheric plasma, an ionized gas generated when a high-energy electric field is applied to an inert gas, nitrogen, or air. The reactive oxygen and nitrogen species generated activate inflammatory and antioxidant responses." [PMID:41551822]
+def: "This is any condition in which the main influencing factor is cold atmospheric plasma, an ionized gas generated when a high-energy electric field is applied to an inert gas, nitrogen, or air. The reactive oxygen and nitrogen species generated activate inflammatory and antioxidant responses." [PMID:_41551822]
 synonym: "CAP" EXACT []
 synonym: "cold plasma" EXACT []
 synonym: "non-equilibrium plasma" EXACT []
@@ -19883,7 +19882,7 @@ creation_date: 2026-04-17T09:10:56Z
 [Term]
 id: XCO:0001802
 name: transfer of GalNAc-conjugated ChREBP siRNA
-def: "This is any condition in which the main influencing factor is transfer of ChREBP (carbohydrate-responsive element-binding protein) siRNA conjugated to N-acetylgalactosamine (GalNAc), which allows directed delivery of siRNA to the liver by targeting the asialoglycoprotein receptor." [https://www.genelink.com/newsite/products/MODPDFFILES/26-6735.pdf, PMID:39921857]
+def: "This is any condition in which the main influencing factor is transfer of ChREBP (carbohydrate-responsive element-binding protein) siRNA conjugated to N-acetylgalactosamine (GalNAc), which allows directed delivery of siRNA to the liver by targeting the asialoglycoprotein receptor." [https://www.genelink.com/newsite/products/MODPDFFILES/26-6735.pdf, PMID:_39921857]
 xref: GEO:GSE282614
 xref: PMID:39921857
 is_a: XCO:0000233 ! ribonucleic acid
@@ -19893,7 +19892,7 @@ creation_date: 2026-04-17T09:21:11Z
 [Term]
 id: XCO:0001803
 name: transfer of negative control GalNAc-conjugated siRNA
-def: "This is any condition in which the main influencing factor is negative control siRNA conjugated to N-acetylgalactosamine, which allows directed delivery of siRNA to the liver by targeting the asialoglycoprotein receptor. Negative control siRNA is an siRNA with no significant sequence similarity to eukaryotic gene sequences." [https://www.genelink.com/newsite/products/MODPDFFILES/26-6735.pdf, PMID:39921857]
+def: "This is any condition in which the main influencing factor is negative control siRNA conjugated to N-acetylgalactosamine, which allows directed delivery of siRNA to the liver by targeting the asialoglycoprotein receptor. Negative control siRNA is an siRNA with no significant sequence similarity to eukaryotic gene sequences." [https://www.genelink.com/newsite/products/MODPDFFILES/26-6735.pdf, PMID:_39921857]
 xref: GEO:GSE282614
 xref: PMID:39921857
 is_a: XCO:0001510 ! transfer of negative control siRNA
@@ -19903,7 +19902,7 @@ creation_date: 2026-04-17T09:24:31Z
 [Term]
 id: XCO:0001804
 name: human plasma-derived mitochondria
-def: "This is any condition in which the main influencing factor is mitochondria derived from human plasma. Mitochondria are semiautonomous, self-reproducing organelles that occur in the cytoplasm of all cells of most eukaryotes. They are the sites of the reactions of oxidative phosphorylation, which result in the formation of ATP." [MESH:D008928, PMID:40979828]
+def: "This is any condition in which the main influencing factor is mitochondria derived from human plasma. Mitochondria are semiautonomous, self-reproducing organelles that occur in the cytoplasm of all cells of most eukaryotes. They are the sites of the reactions of oxidative phosphorylation, which result in the formation of ATP." [MESH:D008928, PMID:_40979828]
 synonym: "human plasma-derived mitochondria" EXACT []
 synonym: "human pMT" EXACT []
 xref: GEO:GSE267096
@@ -19941,7 +19940,7 @@ creation_date: 2026-04-17T13:15:47Z
 [Term]
 id: XCO:0001807
 name: MgPA hydrogel implantation
-def: "This is any condition in which the main influencing factor is implantation of MgPA hydrogel, a plant-derived phosphate coordination compound-based adhesive hydrogel that integrates magnesium ions (Mg2+)−phytic acid (PA) nanoparticles with aminated gelatin (Gel-NH2) and aldehydated starch (AS). This hydrogel can firmly adhere to irregular bone surfaces at a fracture site and degrades in the acidic osteoporotic microenvironment, releasing PA and Mg2+ to modulate osteoclast and osteoblast activity." [PMID:40928479]
+def: "This is any condition in which the main influencing factor is implantation of MgPA hydrogel, a plant-derived phosphate coordination compound-based adhesive hydrogel that integrates magnesium ions (Mg2+)−phytic acid (PA) nanoparticles with aminated gelatin (Gel-NH2) and aldehydated starch (AS). This hydrogel can firmly adhere to irregular bone surfaces at a fracture site and degrades in the acidic osteoporotic microenvironment, releasing PA and Mg2+ to modulate osteoclast and osteoblast activity." [PMID:_40928479]
 synonym: "MgPA-Gel implantation" EXACT []
 xref: GEO:GSE284509
 xref: PMID:40928479
@@ -20044,7 +20043,7 @@ creation_date: 2026-04-24T08:49:31Z
 [Term]
 id: XCO:0001816
 name: interleukin-1 receptor antagonist
-def: "This is any condition in which the main influencing factor is an interleukin-1 receptor antagonist, an agent that blocks interleukin-1 receptors." [PMID:41039100]
+def: "This is any condition in which the main influencing factor is an interleukin-1 receptor antagonist, an agent that blocks interleukin-1 receptors." [PMID:_41039100]
 synonym: "IL-1 receptor antagonist" EXACT []
 synonym: "Kineret" NARROW []
 xref: GEO:GSE295589
@@ -20117,128 +20116,6 @@ xref: PMID:40394959
 is_a: XCO:0001409 ! tissue engineering scaffold implantation
 created_by: caripark
 creation_date: 2026-05-04T11:06:36Z
-
-[Term]
-id: XCO:0001823
-name: controlled fish oil content diet
-def: "This is any condition in which the main influencing factor is a solid diet in which the amount of fish oil is maintained at a specified level. Fish oil is obtained from the tissues of oily fish and contains the omega-3 fatty acids docosahexaenoic acid (DHA) and eicosapentaenoic acid (EPA)." [https://en.wikipedia.org/wiki/Fish_oil]
-xref: GEO:GSE281112
-xref: PMID:41243421
-is_a: XCO:0000454 ! controlled oil content diet
-created_by: caripark
-creation_date: 2026-05-12T07:18:56Z
-
-[Term]
-id: XCO:0001824
-name: Ward colorectal carcinoma allograft
-def: "This is any condition in which the main influencing factor is a Ward colorectal carcinoma allograft, in which a piece of solid tumor is transplanted from one animal to another. Ward colorectal carcinoma is a chemically induced tumor in Fischer rats." [PMID:41243421, PMID:8137256]
-synonym: "Ward colorectal carcinoma transplant" EXACT []
-xref: GEO:GSE281112
-xref: PMID:41243421
-is_a: XCO:0000027 ! surgical implantation
-created_by: caripark
-creation_date: 2026-05-12T07:25:23Z
-
-[Term]
-id: XCO:0001825
-name: Staphylococcus aureus
-def: "This is any condition in which the main influencing factor is Staphylococcus aureus, a Gram-positive spherical bacteria that is a facultative anaerobe. S. aureus is frequently found on the skin and in the upper respiratory tract in healthy individuals but can become an opportunistic pathogen." [https://en.wikipedia.org/wiki/Staphylococcus_aureus]
-synonym: "S.aureus" EXACT []
-xref: GEO:GSE301856
-xref: PMID:41407717
-is_a: XCO:0000475 ! bacterial pathogen
-created_by: caripark
-creation_date: 2026-05-12T07:29:00Z
-
-[Term]
-id: XCO:0001826
-name: orthopedic implant
-def: "This is any condition in which the main influencing factor is a surgical procedure in which an orthopedic implant is placed. Orthopedic implants are medical devices intended either to replace a missing bone or joint, or to support a damaged bone." [https://en.wikipedia.org/wiki/List_of_orthopedic_implants]
-synonym: "orthopaedic implant" EXACT []
-xref: GEO:GSE301856
-xref: PMID:41407717
-is_a: XCO:0000027 ! surgical implantation
-created_by: caripark
-creation_date: 2026-05-12T08:13:06Z
-
-[Term]
-id: XCO:0001827
-name: revision of orthopedic implant
-def: "This is any condition in which the main influencing factor is a surgical procedure in which a previously placed orthopedic implant is removed and/or replaced. Orthopedic implants are medical devices intended either to replace a missing bone or joint, or to support a damaged bone." [https://en.wikipedia.org/wiki/List_of_orthopedic_implants]
-synonym: "orthopedic implant removal" NARROW []
-synonym: "revision of orthopaedic implant" EXACT []
-xref: GEO:GSE301856
-xref: PMID:41407717
-is_a: XCO:0001826 ! orthopedic implant
-created_by: caripark
-creation_date: 2026-05-12T08:18:13Z
-
-[Term]
-id: XCO:0001828
-name: interleukin-1 beta
-def: "This is any condition in which the main influencing factor is interleukin-1 beta, a pro-inflammatory cytokine produced as a proprotein, which is processed to its active form by caspase 1." [https://en.wikipedia.org/wiki/Interleukin_1_beta, MESH:D053583]
-comment: Initial study used mouse IL-1b. If species varies in future data, species-specific terms may need to be added as children under this term.
-synonym: "catabolin" EXACT []
-synonym: "IL-1 beta" EXACT []
-synonym: "interleukin-1beta" EXACT []
-xref: GEO:GSE298271
-xref: MESH:D053583
-xref: PMID:41430706
-is_a: XCO:0000783 ! cytokine
-created_by: caripark
-creation_date: 2026-05-12T08:27:05Z
-
-[Term]
-id: XCO:0001829
-name: human umbilical cord-derived  mesenchymal stem cells
-def: "This is any condition in which the main influencing factor is human, umbilical cord-derived mesenchymal stem cells. These cells are obtained from human umbilical cord blood and are multipotent cells capable of differentiating into various cell types, such as adipocytes, chondrocytes, myocytes, and osteoblasts." [https://en.wikipedia.org/wiki/Mesenchymal_stem_cell, MESH:D059630]
-synonym: "cord-derived HuMSC" EXACT []
-synonym: "human umbilical cord-derived  mesenchymal stromal cells" EXACT []
-synonym: "human umbilical cord MSC" EXACT []
-xref: GEO:GSE298271
-xref: PMID:41430706
-is_a: XCO:0001393 ! human stem cells
-created_by: caripark
-creation_date: 2026-05-12T08:31:43Z
-
-[Term]
-id: XCO:0001830
-name: irinotecan
-def: "This is any condition in which the main influencing factor is irinotecan, a topoisomerase inhibitor used to treat colorectal and pancreatic cancer." [CHEBI:80630, CID:60838]
-xref: GEO:GSE281112
-xref: PMID:41243421
-is_a: XCO:0000323 ! alcohol
-is_a: XCO:0000435 ! antineoplastic agent
-is_a: XCO:0000523 ! enzyme inhibitor
-created_by: caripark
-creation_date: 2026-05-14T07:27:16Z
-
-[Term]
-id: XCO:0001831
-name: tetrodotoxin
-def: "This is any condition in which the main influencing factor is tetrodotoxin, a toxin found mainly in the liver and ovaries of fishes in the order tetraodontiformes. It causes paresthesia and paralysis through interference with neuromuscular conduction." [CID:11174599]
-synonym: "Fugu toxin" EXACT []
-xref: CHEBI:9506
-xref: CID:11174599
-xref: GEO:GSE310849
-xref: MESH:D013779
-xref: PMID:41736525
-is_a: XCO:0000496 ! neurotoxin
-is_a: XCO:0000618 ! sodium channel inhibitor
-created_by: caripark
-creation_date: 2026-05-29T08:12:17Z
-
-[Term]
-id: XCO:0001832
-name: hippocampal stimulation via implanted electrode array
-def: "This is any condition in which the main influencing factor is the alteration of nerve activity through targeted delivery of an electrical stimulus directly to a specific area of the hippocampus. This is done with implanted electrode(s)." [PMID:41530481]
-synonym: "kindling protocol" BROAD []
-xref: GEO:GSE287823
-xref: PMID:41530481
-is_a: XCO:0000027 ! surgical implantation
-is_a: XCO:0000520 ! neuromodulation
-created_by: caripark
-creation_date: 2026-05-29T09:01:19Z
 
 [Typedef]
 id: has_component
