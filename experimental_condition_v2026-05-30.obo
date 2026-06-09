@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: releases/2026-06-06
-date: 06:06:2026 20:13
+data-version: releases/2026-05-30
+date: 30:05:2026 20:13
 saved-by: jrsmith
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-06-05 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-05-12 --
 default-namespace: experimental_condition_ontology
 ontology: xco
 property_value: dc:creator "Carissa A. Park" xsd:string
@@ -10,7 +10,7 @@ property_value: dc:creator "Jennifer R. Smith" xsd:string
 property_value: dc:creator "Mary Shimoyama" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-06-06" xsd:string
+property_value: owl:versionInfo "2026-05-30" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -9736,7 +9736,7 @@ creation_date: 2023-02-27T18:10:08Z
 [Term]
 id: XCO:0000968
 name: experimental traumatic brain injury
-def: "This is a condition induced by an experimental surgical procedure involving fluid percussion, cortical impact, penetration, or weight drop/impact acceleration to produce controlled injury to the brain." [https://www.britannica.com/science/traumatic-brain-injury, PMID:21876530]
+def: "This is a condition induced by an experimental surgical procedure involving fluid percussion, cortical impact, or weight drop/impact acceleration to produce controlled injury to the surface of the brain." [PMID:21876530]
 synonym: "experimental TBI" EXACT []
 is_a: XCO:0000165 ! surgical manipulation
 created_by: slaulede
@@ -11526,8 +11526,8 @@ id: XCO:0001122
 name: antianxiety agent
 def: "This is any condition in which the main influencing factor is an anti-anxiety agent, a medication or other intervention that reduces anxiety. Anxiolytic medications are used for the treatment of anxiety disorders and their related psychological and physical symptoms." [https://en.wikipedia.org/wiki/Anxiolytic, https://www.merriam-webster.com/]
 synonym: "anti-anxiety agent" EXACT []
-synonym: "anti-anxiety drug" EXACT []
 synonym: "antianxiety drug" EXACT []
+synonym: "anti-anxiety drug" EXACT []
 synonym: "antipanic agent" EXACT []
 synonym: "anxiolytic" EXACT []
 synonym: "anxiolytic medication" EXACT []
@@ -20239,48 +20239,6 @@ is_a: XCO:0000027 ! surgical implantation
 is_a: XCO:0000520 ! neuromodulation
 created_by: caripark
 creation_date: 2026-05-29T09:01:19Z
-
-[Term]
-id: XCO:0001833
-name: brain open puncture
-def: "This is any condition in which the main influencing factor is an experimental surgical procedure involving a penetrating wound occurring in the brain caused by a pointed object." [MP:0013095, PMID:41762324]
-synonym: "brain stab wound" EXACT []
-xref: GEO:GSE298938
-xref: PMID:41762324
-is_a: XCO:0000968 ! experimental traumatic brain injury
-created_by: caripark
-creation_date: 2026-06-01T09:50:58Z
-
-[Term]
-id: XCO:0001834
-name: SKF-81297
-def: "This is any condition in which the main influencing factor is SKF-81297, a dopamine D1-like receptor agonist." [CHEBI:231665]
-synonym: "SK&F 81297" EXACT []
-synonym: "SKF-81,297" EXACT []
-synonym: "SKF81297" EXACT []
-xref: CHEBI:231665
-xref: CID:1218
-xref: GEO:GSE298938
-xref: PMID:41762324
-is_a: XCO:0000135 ! receptor agonist
-created_by: caripark
-creation_date: 2026-06-01T12:40:10Z
-
-[Term]
-id: XCO:0001835
-name: celecoxib
-def: "This is any condition in which the main influencing factor is celecoxib, a cyclooxygenase-2 inhibitor used in the treatment of arthritis. It functions as a non-steroidal anti-inflammatory drug and a non-narcotic analgesic." [CHEBI:41432, CID:2662]
-synonym: "4-[5-(4-methylphenyl)-3-(trifluoromethyl)-1H-pyrazol-1-yl]benzenesulfonamide" EXACT []
-synonym: "Celebra" EXACT []
-synonym: "Celebrex" EXACT []
-xref: CHEBI:41432
-xref: CID:2662
-xref: GEO:GSE216624
-xref: MESH:D000068579
-xref: PMID:38047472
-is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
-created_by: caripark
-creation_date: 2026-06-01T13:10:58Z
 
 [Typedef]
 id: has_component
