@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-06-13
-date: 13:06:2026 20:13
+data-version: releases/2026-06-06
+date: 06:06:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-06-05 --
 default-namespace: experimental_condition_ontology
@@ -10,7 +10,7 @@ property_value: dc:creator "Jennifer R. Smith" xsd:string
 property_value: dc:creator "Mary Shimoyama" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-06-13" xsd:string
+property_value: owl:versionInfo "2026-06-06" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -20281,59 +20281,6 @@ xref: PMID:38047472
 is_a: XCO:0000506 ! non-steroidal anti-inflammatory drug
 created_by: caripark
 creation_date: 2026-06-01T13:10:58Z
-
-[Term]
-id: XCO:0001836
-name: excisional wound
-def: "This is any condition in which the main influencing factor is trauma to any of the tissues of the body caused by the act of cutting out part or all of a structure or organ." [GEO:GSE97047, ISBN:0781745462]
-synonym: "full thickness excisional wound" NARROW []
-is_a: XCO:0000026 ! surgical removal
-created_by: caripark
-creation_date: 2026-06-09T08:17:16Z
-
-[Term]
-id: XCO:0001837
-name: loperamide hydrochloride
-def: "This is any condition in which the main influencing factor is loperamide hydrochloride, an opioid agonist used for the treatment of diarrhea caused by gastroenteritis or inflammatory bowel disease." [CHEBI:6533, CID:71420]
-synonym: "4-(4-chlorophenyl)-1-[4-(dimethylamino)-4-oxo-3,3-diphenylbutyl]-4-hydroxypiperidin-1-ium chloride" EXACT []
-synonym: "Imodium" EXACT []
-synonym: "loperamide HCl" EXACT []
-xref: CHEBI:6533
-xref: CID:71420
-xref: GEO:GSE273280
-xref: MESH:D008139
-xref: PMID:41190020
-is_a: XCO:0000135 ! receptor agonist
-is_a: XCO:0000657 ! antiviral agent
-created_by: caripark
-creation_date: 2026-06-12T10:55:21Z
-
-[Term]
-id: XCO:0001838
-name: prucalopride succinate
-def: "This is any condition in which the main influencing factor is prucalopride succinate, a serotonin receptor agonist used as a treatment for constipation." [CID:9870009]
-synonym: "Motegrity" EXACT []
-synonym: "Resolor" EXACT []
-xref: CID:9870009
-xref: GEO:GSE273280
-xref: MESH:C406662
-xref: PMID:41190020
-is_a: XCO:0000135 ! receptor agonist
-created_by: caripark
-creation_date: 2026-06-12T10:58:05Z
-
-[Term]
-id: XCO:0001839
-name: Golden Bifid
-def: "This is any condition in which the main influencing factor is Golden Bifid, a three-strain probiotic combination consisting of Lactobacillus bulgaricus, Bifidobacterium longum, and Streptococcus thermophilus. It is used to regulate the gut microbiota by helping to maintain adequate colonization of the gastrointestinal tract and modulating the composition of the normal microflora." [https://www.cancer.gov/publications/dictionaries/cancer-drug/def/804550, PMID:41190020]
-synonym: "Golden Bifido" EXACT []
-synonym: "Lactobacillus bulgaricus/Bifidobacterium longum/Streptococcus thermophilus-based probiotic mixture" EXACT []
-synonym: "three-strain probiotic combination" BROAD []
-xref: GEO:GSE273280
-xref: PMID:41190020
-is_a: XCO:0000761 ! biologics and probiotics
-created_by: caripark
-creation_date: 2026-06-12T11:00:07Z
 
 [Typedef]
 id: has_component
