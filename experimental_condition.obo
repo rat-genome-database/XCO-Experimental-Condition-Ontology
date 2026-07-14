@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-06-27
-date: 27:06:2026 20:13
+data-version: releases/2026-07-11
+date: 11:07:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-06-23 --
 default-namespace: experimental_condition_ontology
@@ -10,7 +10,7 @@ property_value: dc:creator "Jennifer R. Smith" xsd:string
 property_value: dc:creator "Mary Shimoyama" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-06-27" xsd:string
+property_value: owl:versionInfo "2026-07-11" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -1879,6 +1879,7 @@ creation_date: 2012-10-04T05:16:39Z
 id: XCO:0000217
 name: cation channel activator
 def: "Any chemical substance which increases the activity of a cation channel, one or more membrane-bound globular proteins that allow diffusion of positively charged ions across a cell membrane." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+synonym: "cation channel agonist" EXACT []
 is_a: XCO:0000216 ! ion channel activator
 created_by: jsmith
 creation_date: 2012-10-04T05:40:42Z
@@ -1908,8 +1909,9 @@ creation_date: 2012-10-04T06:08:13Z
 
 [Term]
 id: XCO:0000220
-name: anion channel agonist
+name: anion channel activator
 def: "Any chemical substance which increases the activity of an anion channel, one or more membrane-bound globular proteins that allow diffusion of negatively charged ions across a cell membrane." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+synonym: "anion channel agonist" EXACT []
 is_a: XCO:0000216 ! ion channel activator
 created_by: jsmith
 creation_date: 2012-10-04T06:11:24Z
@@ -18849,8 +18851,8 @@ synonym: "LDH1 multiple antigenic peptides" EXACT []
 synonym: "LDHA MAPs" EXACT []
 synonym: "LDH-A multiple antigenic peptides" EXACT []
 synonym: "LDHA multiple antigenic peptides" EXACT []
-synonym: "LDH-M multiple antigenic peptides" EXACT []
 synonym: "LDHM multiple antigenic peptides" EXACT []
+synonym: "LDH-M multiple antigenic peptides" EXACT []
 synonym: "LDH muscle subunit multiple antigenic peptides" EXACT []
 synonym: "L-lactate dehydrogenase A chain multiple antigenic peptides" EXACT []
 is_a: XCO:0001713 ! lactate dehydrogenase A
@@ -20358,6 +20360,52 @@ is_a: XCO:0000863 ! antihypertensive agent
 is_a: XCO:0001623 ! Traditional Chinese Medicine
 created_by: caripark
 creation_date: 2026-06-26T11:21:06Z
+
+[Term]
+id: XCO:0001842
+name: Ostruthin
+def: "This is any condition in which the main influencing factor is Ostruthin, a coumarin with roles as a metabolite, a TWIK-related potassium channel (TREK) agonist, and an antimicrobial agent." [CID:5281420, PMID:41015847]
+synonym: "6-Geranyl-7-hydroxycoumarin" EXACT []
+synonym: "Ostruthine" EXACT []
+xref: CHEBI:69833
+xref: CID:5281420
+xref: GEO:GSE278227
+xref: PMID:42207640
+is_a: XCO:0000217 ! cation channel activator
+is_a: XCO:0000483 ! antibacterial agent
+created_by: caripark
+creation_date: 2026-07-10T10:50:45Z
+
+[Term]
+id: XCO:0001843
+name: tetrahedral DNA nanostructure
+def: "This is any condition in which the main influencing factor is tetrahedral DNA nanostructures (TDNs), self-assembled tetrahedral framework nucleic acids that exhibit structural stability, biocompatibility, and efficient cellular uptake. The applications of TDNs include drug delivery, targeted therapy, and biosensing." [PMID:38076646, PMID:39144555, PMID:41645752]
+synonym: "TDN" EXACT []
+synonym: "tetrahedral deoxyribonucleic acid nanostructure" EXACT []
+xref: GEO:GSE314890
+xref: PMID:41645752
+is_a: XCO:0000234 ! deoxyribonucleic acid
+created_by: caripark
+creation_date: 2026-07-10T11:47:09Z
+
+[Term]
+id: XCO:0001844
+name: climbing
+def: "This is any condition in which the main influencing factor is climbing, the act of ascending or descending a steep object." [NBO:0000368]
+is_a: XCO:0000059 ! physical activity
+created_by: caripark
+creation_date: 2026-07-10T13:25:39Z
+
+[Term]
+id: XCO:0001845
+name: sciatic nerve constriction
+def: "This is any condition in which the main influencing factor is sciatic nerve constriction, in which multiple loose ligatures are placed around the sciatic nerve. It is used as a model for neuropathic pain." [PMID:42207640]
+synonym: "sciatic nerve chronic constriction injury" EXACT []
+xref: GEO:GSE278227
+xref: PMID:42207640
+is_a: XCO:0001814 ! experimental nerve injury
+created_by: caripark
+creation_date: 2026-07-10T13:56:07Z
 
 [Typedef]
 id: has_component
