@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-07-18
-date: 18:07:2026 20:13
+data-version: releases/2026-07-11
+date: 11:07:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-06-23 --
 default-namespace: experimental_condition_ontology
@@ -10,7 +10,7 @@ property_value: dc:creator "Jennifer R. Smith" xsd:string
 property_value: dc:creator "Mary Shimoyama" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-07-18" xsd:string
+property_value: owl:versionInfo "2026-07-11" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -16632,7 +16632,8 @@ def: "This is any condition in which the main influencing factor is Lieber-DeCar
 synonym: "Bio-Serv F1258" EXACT []
 synonym: "Lieber-DeCarli '82 ethanol liquid diet" EXACT []
 xref: PMID:37537282
-is_a: XCO:0001851 ! controlled ethanol content liquid diet
+is_a: XCO:0001552 ! liquid diet
+relationship: has_component XCO:0000325 ! ethanol
 created_by: slaulederkind
 creation_date: 2025-03-06T14:25:45Z
 
@@ -18850,8 +18851,8 @@ synonym: "LDH1 multiple antigenic peptides" EXACT []
 synonym: "LDHA MAPs" EXACT []
 synonym: "LDH-A multiple antigenic peptides" EXACT []
 synonym: "LDHA multiple antigenic peptides" EXACT []
-synonym: "LDH-M multiple antigenic peptides" EXACT []
 synonym: "LDHM multiple antigenic peptides" EXACT []
+synonym: "LDH-M multiple antigenic peptides" EXACT []
 synonym: "LDH muscle subunit multiple antigenic peptides" EXACT []
 synonym: "L-lactate dehydrogenase A chain multiple antigenic peptides" EXACT []
 is_a: XCO:0001713 ! lactate dehydrogenase A
@@ -20401,114 +20402,10 @@ name: sciatic nerve constriction
 def: "This is any condition in which the main influencing factor is sciatic nerve constriction, in which multiple loose ligatures are placed around the sciatic nerve. It is used as a model for neuropathic pain." [PMID:42207640]
 synonym: "sciatic nerve chronic constriction injury" EXACT []
 xref: GEO:GSE278227
-xref: GEO:GSE317107
-xref: PMID:42010459
+xref: PMID:42207640
 is_a: XCO:0001814 ! experimental nerve injury
 created_by: caripark
 creation_date: 2026-07-10T13:56:07Z
-
-[Term]
-id: XCO:0001846
-name: ladder climbing
-def: "This is any condition in which the main influencing factor is ladder climbing, the act of ascending or descending a structure that consists essentially of two long sidepieces joined at intervals by crosspieces on which one may step." [https://www.merriam-webster.com/dictionary/ladder, PMID:37664852]
-xref: GEO:GSE236613
-xref: PMID:37664852
-is_a: XCO:0001844 ! climbing
-created_by: caripark
-creation_date: 2026-07-13T09:28:38Z
-
-[Term]
-id: XCO:0001847
-name: ladder climbing with weights
-def: "This is any condition in which the main influencing factor is ladder climbing (the act of ascending or descending a structure that consists essentially of two long sidepieces joined at intervals by crosspieces on which one may step) while carrying weights to increase resistance, thereby increasing the difficulty of the action." [https://www.merriam-webster.com/dictionary/ladder, PMID:37664852]
-xref: GEO:GSE236613
-xref: PMID:37664852
-is_a: XCO:0001846 ! ladder climbing
-created_by: caripark
-creation_date: 2026-07-13T09:33:21Z
-
-[Term]
-id: XCO:0001848
-name: thermosensitive PLGA-PEG-PLGA hydrogel implantation
-def: "This is any condition in which the main influencing factor is implantation of a thermosensitive hydrogel based on a PLGA-PEG-PLGA (poly(D,L-lactide-co-glycolide)-poly(ethylene glycol)-poly(D,L-lactide-co-glycolide) triblock copolymer, a biomaterial that can induce collagen synthesis." [PMID:42006002]
-synonym: "T-gel implantation" EXACT []
-synonym: "Thermogel implantation" EXACT []
-synonym: "thermosensitive poly(D,L-lactide-co-glycolide)-poly(ethylene glycol)-poly(D,L-lactide-co-glycolide hydrogel implantation" EXACT []
-xref: GEO:GSE325546
-xref: PMID:42006002
-is_a: XCO:0001409 ! tissue engineering scaffold implantation
-created_by: caripark
-creation_date: 2026-07-13T12:53:37Z
-
-[Term]
-id: XCO:0001849
-name: sciatic nerve constriction sham procedure
-def: "This is any condition in which the main influencing factor is a sciatic nerve constriction sham procedure, which follows the same surgical process as a sciatic nerve constriction without ligating the nerve." [PMID:42010459]
-synonym: "sciatic nerve chronic constriction injury sham procedure" EXACT []
-xref: GEO:GSE317107
-is_a: XCO:0000100 ! sham surgical control condition
-relationship: part_of XCO:0001845 ! sciatic nerve constriction
-created_by: caripark
-creation_date: 2026-07-13T15:06:10Z
-
-[Term]
-id: XCO:0001850
-name: hematoma aspiration
-def: "This is any condition in which the main influencing factor is hematoma aspiration, a procedure in which blood is removed from a hematoma (a collection of blood outside of blood vessels) using a needle or catheter." [MESH:D006406]
-xref: GEO:GSE313150
-xref: PMID:42041532
-is_a: XCO:0001100 ! physical manipulation
-created_by: caripark
-creation_date: 2026-07-13T16:03:42Z
-
-[Term]
-id: XCO:0001851
-name: controlled ethanol content liquid diet
-def: "This is any condition in which the main influencing factor is a liquid diet in which the amount of ethanol is maintained at a specified level. Ethanol is the alcohol with chemical formula CH3-CH2-OH obtained from the fermentation of sugars and starches or by chemical synthesis which is the intoxicating ingredient of alcoholic beverages." [ISBN:978-0618455041, ISBN:978-1416049982]
-is_a: XCO:0001552 ! liquid diet
-relationship: has_component XCO:0000325 ! ethanol
-created_by: caripark
-creation_date: 2026-07-14T08:00:58Z
-
-[Term]
-id: XCO:0001852
-name: multigenerational maternal exposure to controlled content liquid ethanol diet
-def: "This is any condition in which the main influencing factor is any maternal exposure to a controlled ethanol content liquid diet that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) controlled ethanol content liquid diet exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com, PMID:2583974]
-is_a: XCO:0001851 ! controlled ethanol content liquid diet
-created_by: caripark
-creation_date: 2026-07-14T08:14:20Z
-
-[Term]
-id: XCO:0001853
-name: gestational maternal exposure to controlled ethanol  content liquid diet
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to a controlled ethanol content liquid diet. This is a condition typically studied to determine the effect of a maternal (F0) controlled ethanol content liquid diet on the F1 offspring." [PMID:42134517]
-synonym: "maternal exposure to controlled ethanol content liquid diet during pregnancy" EXACT []
-xref: GEO:GSE327217
-xref: PMID:42134517
-is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001852 ! multigenerational maternal exposure to controlled content liquid ethanol diet
-created_by: caripark
-creation_date: 2026-07-14T08:29:14Z
-
-[Term]
-id: XCO:0001854
-name: multigenerational maternal exposure to liquid diet
-def: "This is any condition in which the main influencing factor is any maternal exposure to a liquid diet that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) liquid diet exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com/, PMID:25839742]
-is_a: XCO:0001552 ! liquid diet
-created_by: caripark
-creation_date: 2026-07-14T13:24:45Z
-
-[Term]
-id: XCO:0001855
-name: gestational maternal exposure to liquid diet
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to a liquid diet. This is a condition typically studied to determine the effect of a maternal (F0) liquid diet on the F1 offspring." [PMID:42134517]
-synonym: "maternal exposure to liquid diet during pregnancy" EXACT []
-xref: GEO:GSE327217
-xref: PMID:42134517
-is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001854 ! multigenerational maternal exposure to liquid diet
-created_by: caripark
-creation_date: 2026-07-14T13:29:19Z
 
 [Typedef]
 id: has_component
