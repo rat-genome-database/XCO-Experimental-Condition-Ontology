@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: releases/2026-07-29
-date: 29:07:2026 15:47
+data-version: releases/2026-07-25
+date: 25:07:2026 20:13
 saved-by: jrsmith
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-07-29 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-06-23 --
 default-namespace: experimental_condition_ontology
 ontology: xco
 property_value: dc:creator "Carissa A. Park" xsd:string
@@ -10,7 +10,7 @@ property_value: dc:creator "Jennifer R. Smith" xsd:string
 property_value: dc:creator "Mary Shimoyama" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-07-29" xsd:string
+property_value: owl:versionInfo "2026-07-25" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -20575,7 +20575,7 @@ creation_date: 2026-07-24T09:40:51Z
 [Typedef]
 id: has_component
 name: has_component
-xref: RO:0002180
+xref: RO:0002211
 created_by: JSmith
 creation_date: 2014-03-07T11:34:22Z
 

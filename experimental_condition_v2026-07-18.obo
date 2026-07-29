@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: releases/2026-07-29
-date: 29:07:2026 15:47
+data-version: releases/2026-07-18
+date: 18:07:2026 20:13
 saved-by: jrsmith
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-07-29 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-06-23 --
 default-namespace: experimental_condition_ontology
 ontology: xco
 property_value: dc:creator "Carissa A. Park" xsd:string
@@ -10,7 +10,7 @@ property_value: dc:creator "Jennifer R. Smith" xsd:string
 property_value: dc:creator "Mary Shimoyama" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-07-29" xsd:string
+property_value: owl:versionInfo "2026-07-18" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -10273,10 +10273,10 @@ creation_date: 2023-04-06T16:01:25Z
 id: XCO:0001016
 name: minced muscle graft
 def: "This is any condition in which the main influencing factor is implantation of a minced muscle graft. It is a surgical procedure intended to induce healing of a skeletal muscle injured by volumetric muscle loss." [PMID:29531830]
-synonym: "autologous minced muscle graft" NARROW []
+synonym: "autologous minced muscle graft" EXACT []
 synonym: "MMG" EXACT []
 xref: PMID:29531830
-is_a: XCO:0001859 ! muscle graft
+is_a: XCO:0000027 ! surgical implantation
 created_by: slaulede
 creation_date: 2023-04-06T16:32:30Z
 
@@ -16393,7 +16393,7 @@ name: peripheral nerve allograft
 def: "This is any condition in which the main influencing factor is a peripheral nerve allograft, a non-self peripheral nerve transplantation, typically without histocompatibility matching between donor and host. Commonly, a portion of a donor nerve replaces the damaged portion of the host nerve and involves neurorrhaphy (re-apposing the cut ends with epineurial microsutures)." [PMID:35227261]
 synonym: "peripheral nerve transplant" EXACT []
 xref: PMID:33008419
-is_a: XCO:0001860 ! nerve graft
+is_a: XCO:0000027 ! surgical implantation
 relationship: has_component XCO:0001373 ! surgical nerve transection
 created_by: slaulederkind
 creation_date: 2025-02-04T14:44:35Z
@@ -20510,72 +20510,10 @@ is_a: XCO:0001854 ! multigenerational maternal exposure to liquid diet
 created_by: caripark
 creation_date: 2026-07-14T13:29:19Z
 
-[Term]
-id: XCO:0001856
-name: multigenerational maternal exposure to unpredictable chronic mild stress
-def: "This is any condition in which the main influencing factor is any maternal exposure to unpredictable chronic mild stress that has multigenerational effects. This is a condition typically studied to determine the effect of maternal (F0) unpredictable chronic mild stress exposure on the F1 offspring, but can also affect the F2 generation by direct effects on the germline of the gestating or preweaning F1 offspring. The maternal exposure may be any time before pregnancy (pregestational) up to the time of weaning of offspring." [https://www.merriam-webster.com/, PMID:25839742]
-is_a: XCO:0001275 ! unpredictable chronic mild stress
-created_by: caripark
-creation_date: 2026-07-21T14:28:53Z
-
-[Term]
-id: XCO:0001857
-name: gestational maternal exposure to unpredictable chronic mild stress
-def: "This is any condition in which the main influencing factor is any gestational maternal exposure to unpredictable chronic mild stress. This is a condition typically studied to determine the effect of maternal (F0) unpredictable chronic mild stress on the F1 offspring." [PMID:38061121]
-synonym: "maternal exposure to unpredictable chronic mild stress during pregnancy" EXACT []
-xref: GEO:GSE230252
-xref: PMID:38061121
-is_a: XCO:0000420 ! controlled in utero environment
-is_a: XCO:0001856 ! multigenerational maternal exposure to unpredictable chronic mild stress
-created_by: caripark
-creation_date: 2026-07-21T14:33:00Z
-
-[Term]
-id: XCO:0001858
-name: molar ligation
-def: "This is any condition in which the main influencing factor is molar ligation, a procedure in which a suture ligature is placed around a molar. It is used as a model of experimentally induced periodontitis." [PMID:41975020]
-synonym: "ligature-induced periodontitis" EXACT []
-xref: GEO:GSE295190
-xref: PMID:41975020
-is_a: XCO:0001100 ! physical manipulation
-created_by: caripark
-creation_date: 2026-07-21T15:01:55Z
-
-[Term]
-id: XCO:0001859
-name: muscle graft
-def: "This is any condition in which the main influencing factor is implantation of a muscle graft. This is a surgical procedure intended to restore lost or impaired muscle function." [PMID:29850487, PMID:41541676]
-synonym: "autologous muscle graft" NARROW []
-xref: GEO:GSE310748
-xref: PMID:41541676
-is_a: XCO:0000027 ! surgical implantation
-created_by: caripark
-creation_date: 2026-07-24T08:15:15Z
-
-[Term]
-id: XCO:0001860
-name: nerve graft
-def: "This is any condition in which the main influencing factor is implantation of a nerve graft. This is a surgical procedure intended to restore lost or impaired nerve function." [PMID:41541676]
-is_a: XCO:0000027 ! surgical implantation
-created_by: caripark
-creation_date: 2026-07-24T09:25:50Z
-
-[Term]
-id: XCO:0001861
-name: sensory nerve graft
-def: "This is any condition in which the main influencing factor is implantation of a sensory nerve graft. This is a surgical procedure intended to restore lost or impaired sensory nerve function." [PMID:41541676]
-synonym: "sensory nerve transplant" EXACT []
-xref: GEO:GSE310748
-xref: PMID:41541676
-is_a: XCO:0001860 ! nerve graft
-relationship: has_component XCO:0001373 ! surgical nerve transection
-created_by: caripark
-creation_date: 2026-07-24T09:40:51Z
-
 [Typedef]
 id: has_component
 name: has_component
-xref: RO:0002180
+xref: RO:0002211
 created_by: JSmith
 creation_date: 2014-03-07T11:34:22Z
 
