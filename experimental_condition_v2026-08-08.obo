@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-08-15
-date: 15:08:2026 20:13
+data-version: releases/2026-08-08
+date: 08:08:2026 20:14
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-07-29 --
 default-namespace: experimental_condition_ontology
@@ -10,7 +10,7 @@ property_value: dc:creator "Jennifer R. Smith" xsd:string
 property_value: dc:creator "Mary Shimoyama" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-08-15" xsd:string
+property_value: owl:versionInfo "2026-08-08" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -20595,17 +20595,6 @@ xref: PMID:38690728
 is_a: XCO:0000961 ! controlled ex vivo heart condition
 created_by: caripark
 creation_date: 2026-08-07T08:50:31Z
-
-[Term]
-id: XCO:0001864
-name: heterotopic heart transplant
-def: "This is any condition in which the main influencing factor is a heterotopic heart transplant, a surgical procedure in which a heart from a donor organism is implanted into a recipient organism at a site that differs from the site of origin." [PMID:38690728]
-synonym: "abdominal heterotopic heart transplant" NARROW []
-xref: GEO:GSE227004
-xref: PMID:38690728
-is_a: XCO:0000027 ! surgical implantation
-created_by: caripark
-creation_date: 2026-08-11T14:08:40Z
 
 [Typedef]
 id: has_component
