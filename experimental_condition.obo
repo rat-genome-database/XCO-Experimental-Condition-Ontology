@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-09-05
-date: 05:09:2026 20:13
+data-version: releases/2026-09-12
+date: 12:09:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-07-29 --
 default-namespace: experimental_condition_ontology
@@ -10,7 +10,7 @@ property_value: dc:creator "Jennifer R. Smith" xsd:string
 property_value: dc:creator "Mary Shimoyama" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-09-05" xsd:string
+property_value: owl:versionInfo "2026-09-12" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -379,8 +379,8 @@ is_a: XCO:0000052 ! tactile stimulus
 
 [Term]
 id: XCO:0000056
-name: naive control condition
-def: "A baseline condition in which none of the experimental manipulations are performed." [RGD:MS]
+name: obsolete naive control condition
+def: "OBSOLETE. A baseline condition in which none of the experimental manipulations are performed." [RGD:MS]
 synonym: "standard control condition" RELATED []
 is_obsolete: true
 
@@ -1015,15 +1015,15 @@ creation_date: 2012-02-16T03:01:05Z
 
 [Term]
 id: XCO:0000128
-name: drink with chemical additive
+name: obsolete drink with chemical additive
 is_obsolete: true
 created_by: jsmith
 creation_date: 2012-02-16T03:23:23Z
 
 [Term]
 id: XCO:0000129
-name: water with NG-Nitroarginine Methyl Ester
-def: "Drinking water with a specified concentration of NG-Nitroarginine Methyl Ester (L-NAME) added to it. L-NAME is used as a non-selective inhibitor of nitric oxide synthase." [PGA:Renal_protocol]
+name: obsolete water with NG-Nitroarginine Methyl Ester
+def: "OBSOLETE. Drinking water with a specified concentration of NG-Nitroarginine Methyl Ester (L-NAME) added to it. L-NAME is used as a non-selective inhibitor of nitric oxide synthase." [PGA:Renal_protocol]
 synonym: "water with L-NAME" EXACT []
 is_obsolete: true
 created_by: jsmith
@@ -5493,24 +5493,24 @@ creation_date: 2018-12-05T15:45:21Z
 
 [Term]
 id: XCO:0000582
-name: controlled content oral gavage
-def: "Oral gavage in which the amount of one or more solutes are adjusted to a requirement." []
+name: obsolete controlled content oral gavage
+def: "OBSOLETE. Oral gavage in which the amount of one or more solutes are adjusted to a requirement." []
 is_obsolete: true
 created_by: sjwang
 creation_date: 2018-12-05T15:49:29Z
 
 [Term]
 id: XCO:0000583
-name: controlled omeprazole content  oral gavage
-def: "An oral gavage solution made up of solvent and a specified amount of omeprazole." []
+name: obsolete controlled omeprazole content  oral gavage
+def: "OBSOLETE. An oral gavage solution made up of solvent and a specified amount of omeprazole." []
 is_obsolete: true
 created_by: sjwang
 creation_date: 2018-12-05T15:51:33Z
 
 [Term]
 id: XCO:0000584
-name: controlled cecal material content oral gavage
-def: "An oral gavage delivery made up of a specified amount of harvested cecal material." []
+name: obsolete controlled cecal material content oral gavage
+def: "OBSOLETE. An oral gavage delivery made up of a specified amount of harvested cecal material." []
 is_obsolete: true
 created_by: sjwang
 creation_date: 2018-12-05T15:55:37Z
@@ -7672,8 +7672,8 @@ creation_date: 2020-11-19T14:53:13Z
 
 [Term]
 id: XCO:0000791
-name: standard condition
-def: "A condition defined by a mostly uniform set of parameters accepted as normal or average and used by general consent as a basis of comparison." [https://www.dictionary.com, https://www.merriam-webster.com/]
+name: obsolete standard condition
+def: "OBSOLETE. A condition defined by a mostly uniform set of parameters accepted as normal or average and used by general consent as a basis of comparison." [https://www.dictionary.com, https://www.merriam-webster.com/]
 is_obsolete: true
 created_by: slaulede
 creation_date: 2020-11-30T14:00:43Z
@@ -12117,8 +12117,8 @@ creation_date: 2023-12-07T22:13:55Z
 
 [Term]
 id: XCO:0001170
-name: levofloxacin
-def: "This is any condition whose main influencing factor is levofloxacin, a fluoroquinolone antibiotic with activity against both gram-negative and gram-positive bacteria compared to R-(+)-ofloxacin and remains stereochemically stable following administration (i.e. it does not invert to the inactive isomer). Levofloxacin is an inhibitor of bacterial topoisomerase IV and DNA gyrase." [CID:149096]
+name: obsolete levofloxacin
+def: "OBSOLETE. This is any condition whose main influencing factor is levofloxacin, a fluoroquinolone antibiotic with activity against both gram-negative and gram-positive bacteria compared to R-(+)-ofloxacin and remains stereochemically stable following administration (i.e. it does not invert to the inactive isomer). Levofloxacin is an inhibitor of bacterial topoisomerase IV and DNA gyrase." [CID:149096]
 synonym: "(3S)-9-fluoro-3-methyl-10-(4-methylpiperazin-1-yl)-7-oxo-2,3-dihydro-7H-[1,4]oxazino[2,3,4-ij]quinoline-6-carboxylic acid" EXACT []
 xref: CHEBI:63598
 xref: MESH:D064704
@@ -18850,8 +18850,8 @@ synonym: "LDH1 multiple antigenic peptides" EXACT []
 synonym: "LDHA MAPs" EXACT []
 synonym: "LDH-A multiple antigenic peptides" EXACT []
 synonym: "LDHA multiple antigenic peptides" EXACT []
-synonym: "LDHM multiple antigenic peptides" EXACT []
 synonym: "LDH-M multiple antigenic peptides" EXACT []
+synonym: "LDHM multiple antigenic peptides" EXACT []
 synonym: "LDH muscle subunit multiple antigenic peptides" EXACT []
 synonym: "L-lactate dehydrogenase A chain multiple antigenic peptides" EXACT []
 is_a: XCO:0001713 ! lactate dehydrogenase A
