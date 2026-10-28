@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-09-12
-date: 12:09:2026 20:13
+data-version: releases/2026-10-17
+date: 17:10:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-07-29 --
 default-namespace: experimental_condition_ontology
@@ -10,7 +10,7 @@ property_value: dc:creator "Jennifer R. Smith" xsd:string
 property_value: dc:creator "Mary Shimoyama" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-09-12" xsd:string
+property_value: owl:versionInfo "2026-10-17" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -20606,6 +20606,72 @@ xref: PMID:38690728
 is_a: XCO:0000027 ! surgical implantation
 created_by: caripark
 creation_date: 2026-08-11T14:08:40Z
+
+[Term]
+id: XCO:0001865
+name: Bruceine A
+def: "This is any condition in which the main influencing factor is Bruceine A, a compound derived from the fruit of the Brucea javanica plant which inhibits DNA and protein synthesis." [CID:160006]
+synonym: "Brucein A" EXACT []
+xref: CHEBI:189511
+xref: GEO:GSE263421
+xref: PMID:41345104
+is_a: XCO:0000120 ! inhibitor
+is_a: XCO:0000482 ! antimicrobial agent
+created_by: caripark
+creation_date: 2026-10-06T13:31:52Z
+
+[Term]
+id: XCO:0001866
+name: cholic acid
+def: "This is any condition in which the main influencing factor is cholic acid, a bile salt that facilitates fat absorption and cholesterol excretion." [CID:221493, MESH:D019826]
+xref: CHEBI:16359
+is_a: XCO:0000091 ! steroid
+created_by: caripark
+creation_date: 2026-10-09T08:30:14Z
+
+[Term]
+id: XCO:0001867
+name: controlled cholic acid content diet
+def: "This is any condition in which the main influencing factor is a solid diet in which the amount of cholic acid is maintained at a specified level. Cholic acid is a bile acid that facilitates fat absorption and cholesterol excretion." [CID:221493, MESH:D019826]
+xref: CHEBI:16359
+xref: GEO:GSE282001
+xref: PMID:41933125
+is_a: XCO:0000394 ! controlled bile acid content diet
+is_a: XCO:0001866 ! cholic acid
+created_by: caripark
+creation_date: 2026-10-09T08:36:10Z
+
+[Term]
+id: XCO:0001868
+name: hindlimb unloading
+def: "This is any condition in which the main influencing factor is hindlimb unloading, a model used to simulate weightlessness or disuse in quadrupeds by elevating and suspending the hindquarters to avoid weightbearing. The model allows for normal weightbearing by the forelimbs and results in a shift of bodily fluids toward the head." [PMID:11895999]
+synonym: "hind limb unloading" EXACT []
+synonym: "hind-limb unloading" EXACT []
+xref: PMID:42814706
+is_a: XCO:0000081 ! body position
+created_by: caripark
+creation_date: 2026-10-12T09:18:17Z
+
+[Term]
+id: XCO:0001869
+name: galactic cosmic radiation
+def: "This is any condition in which the main influencing factor is galactic cosmic radiation (GCR), a type of ionizing radiation present in the Earth's atmosphere that has originated from outside our solar system. GCR consists of high-energy protons and heavy ions." [https://skybrary.aero/articles/cosmic-radiation, https://www.nasa.gov/missions/analog-field-testing/why-space-radiation-matters/]
+synonym: "galactic cosmic rays" EXACT []
+synonym: "GCR" EXACT []
+xref: PMID:42814706
+is_a: XCO:0000039 ! ionizing radiation exposure
+created_by: caripark
+creation_date: 2026-10-14T08:14:23Z
+
+[Term]
+id: XCO:0001870
+name: simplified galactic cosmic radiation
+def: "This is any condition in which the main influencing factor is simplified galactic cosmic radiation, a type of ionizing radiation consisting of a five-ion group of high energy-charged particle beams intended to simulate the composition of galactic cosmic radiation behind spacecraft shielding." [PMID:42814706]
+synonym: "simGCRsim" EXACT []
+xref: PMID:42814706
+is_a: XCO:0001869 ! galactic cosmic radiation
+created_by: caripark
+creation_date: 2026-10-14T08:40:46Z
 
 [Typedef]
 id: has_component
