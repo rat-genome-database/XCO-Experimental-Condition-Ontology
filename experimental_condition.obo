@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: releases/2026-10-17
-date: 17:10:2026 20:13
+data-version: releases/2026-11-14
+date: 14:11:2026 20:13
 saved-by: jrsmith
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-07-29 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-10-26 --
 default-namespace: experimental_condition_ontology
 ontology: xco
 property_value: dc:creator "Carissa A. Park" xsd:string
@@ -10,7 +10,7 @@ property_value: dc:creator "Jennifer R. Smith" xsd:string
 property_value: dc:creator "Mary Shimoyama" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-10-17" xsd:string
+property_value: owl:versionInfo "2026-11-14" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -18062,7 +18062,7 @@ creation_date: 2025-06-16T17:11:29Z
 
 [Term]
 id: XCO:0001663
-name: Helicobacter pylori 
+name: Helicobacter pylori
 def: "This is any condition in which the main influencing factor is Helicobacter pylori, a microaerophilic, gram-negative spiral bacteria active as a human gastric pathogen, although most individuals harboring the bacteria are asymptomatic.  Helicobacter pylori was originally classified in the genus Campylobacter, but has been officially transferred to Helicobacter." [https://www.mayoclinic.org/diseases-conditions/h-pylori/symptoms-causes/syc-20356171, MESH:D016480]
 synonym: "Campylobacter pylori" EXACT []
 synonym: "H. pylori" EXACT []
@@ -19448,7 +19448,7 @@ id: XCO:0001765
 name: hydroxyurea
 def: "This is any condition in which the main influencing factor is hydroxyurea, an antineoplastic agent that inhibits DNA synthesis through the inhibition of ribonucleoside diphosphate reductase. Hydroxyurea  is used in the treatment of chronic myeloid leukaemia as well as for sickle-cell disease." [CHEBI:44423, MESH:D006918]
 synonym: "hydroxycarbamide" EXACT []
-synonym: "N-hydroxyurea " EXACT []
+synonym: "N-hydroxyurea" EXACT []
 xref: CID:3657
 xref: GEO:GSE301071
 xref: PMID:37698739
@@ -19515,7 +19515,7 @@ id: XCO:0001770
 name: polyethyloxated castor oil
 def: "This is any condition in which the main influencing factor is polyethyloxated castor oil, a nonionic surfactant derived from the reaction of castor oil with ethylene oxide. It is used as an emulsifier and solubilizer for water-insoluble drugs." [https://biologyinsights.com/what-is-cremophor-el-and-why-is-it-used-in-medicine/]
 synonym: "Cremophor EL" NARROW []
-synonym: "Cremophor EL-40 " NARROW []
+synonym: "Cremophor EL-40" NARROW []
 synonym: "ethoxylated castor oil" BROAD []
 synonym: "Kollliphor EL" NARROW []
 synonym: "PECO" EXACT []
@@ -20672,6 +20672,47 @@ xref: PMID:42814706
 is_a: XCO:0001869 ! galactic cosmic radiation
 created_by: caripark
 creation_date: 2026-10-14T08:40:46Z
+
+[Term]
+id: XCO:0001871
+name: median nerve transection
+def: "This is any condition in which the main influencing factor is transection of the median nerve, a model of a peripheral nerve injury. The median nerve is a nerve of the arm that originates from the brachial plexus and is formed from parts of the medial and lateral cords of the brachial plexus, and continues down the arm to enter the forearm with the brachial artery." [UBERON:0001148]
+synonym: "nervus medianus transection" EXACT []
+xref: GEO:GSE293387
+xref: PMID:41975628
+is_a: XCO:0001373 ! surgical nerve transection
+created_by: caripark
+creation_date: 2026-10-30T09:53:38Z
+
+[Term]
+id: XCO:0001872
+name: median nerve excisional wound
+def: "This is any condition in which the main influencing factor is trauma caused by the act of cutting out all or part of the median nerve, a nerve of the arm that originates from the brachial plexus and is formed from parts of the medial and lateral cords of the brachial plexus, and continues down the arm to enter the forearm with the brachial artery." [UBERON:0001148]
+synonym: "nervus medianus excisional wound" EXACT []
+xref: GEO:GSE293387
+xref: PMID:41975628
+is_a: XCO:0000373 ! surgical denervation
+is_a: XCO:0001836 ! excisional wound
+created_by: caripark
+creation_date: 2026-10-30T09:57:43Z
+
+[Term]
+id: XCO:0001873
+name: gene transfer using plasmid vector pCRII
+def: "This is any condition in which the main influencing factor is gene transfer using plasmid vector pCRII as the carrier of the genetic material. The pCRII vector is used for TA cloning." [https://www.thermofisher.com/order/catalog/product/K206001]
+is_a: XCO:0000818 ! gene transfer using a plasmid vector
+created_by: caripark
+creation_date: 2026-11-06T10:00:16Z
+
+[Term]
+id: XCO:0001874
+name: gene transfer of the rat Cyp7b1 gene using the plasmid vector pCRII
+def: "This is any condition in which the main influencing factor is the transient or stable transfer of the rat Cyp7b1 gene into a cell or organism using the plasmid vector pCRII in order to induce synthesis of that gene's product in the recipient cell or organism." [PMID:41465421]
+xref: GEO:GSE267177
+xref: PMID:41465421
+is_a: XCO:0001873 ! gene transfer using plasmid vector pCRII
+created_by: caripark
+creation_date: 2026-11-06T10:02:19Z
 
 [Typedef]
 id: has_component
